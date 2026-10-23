@@ -65,6 +65,16 @@ def backtest(d,signal,begin,end):
        "drawdown":round(float(drawdown.min()*100),2),"sharpe":round(float(sharpe),3),
        "orders":orders,"cost":round(cost,2),"curve":growth.tolist(),"dates":[str(t.date()) for t in dates]}
 
+def backtest_with_cost(d, signal, begin, end, cost):
+    """Runs the same model at an alternative per-side cost, without reselecting it."""
+    global COST
+    old=COST
+    try:
+        COST=cost
+        return backtest(d,signal,begin,end)
+    finally:
+        COST=old
+
 def main():
     d=prices();signals=rules(d)
     development={n:backtest(d,s,START,"2021-12-31") for n,s in signals.items()}
@@ -82,24 +92,41 @@ def main():
     interpretation=(f"The chosen model ended USD {abs(delta):,.2f} {'above' if delta>=0 else 'below'} regular VOO investing on the later test period. "
                     f"Its worst percentage fall was {abs(w['drawdown']):.1f}%, versus {abs(b['drawdown']):.1f}% for DCA. "
                     + ("The limited historical hurdle passed; this is STILL NOT a validated live trade." if passed else "The historical hurdle failed; do NOT use this model to replace DCA."))
+    # Display the evidence, not just the strategy's current position.
+    report_status = "NO STRATEGY QUALIFIED — NO MODEL TRADE" if not passed else "PRELIMINARY HISTORICAL PASS — STILL PAPER ONLY"
+    model_target = "100% VOO (research)" if target else "100% CASH (research)"
+    cost_rows=[]
+    for cost_fraction in [0.0,0.001,0.003]:
+        model_result=backtest_with_cost(d,signals[winner],TEST,str(d.index[-1].date()),cost_fraction)
+        passive_result=backtest_with_cost(d,signals["DCA"],TEST,str(d.index[-1].date()),cost_fraction)
+        gap=model_result["end"]-passive_result["end"]
+        cost_rows.append(f"<tr><td>{int(cost_fraction*10000)} bps</td><td>{model_result['annual']:.2f}%</td><td>{passive_result['annual']:.2f}%</td><td>{gap:+,.0f} USD</td></tr>")
+    fees_html="".join(cost_rows)
+    # SVG of hypothetical time-weighted dollar growth, independent of monthly deposits.
+    a=np.array(w["curve"]);base=np.array(b["curve"])
+    scale_min=float(min(a.min(),base.min()));scale_max=float(max(a.max(),base.max()))
+    scale_span=max(scale_max-scale_min,0.01)
+    def line_svg(arr):
+        positions=np.unique(np.linspace(0,len(arr)-1,min(220,len(arr))).astype(int))
+        return " ".join(f"{10+860*i/max(1,len(arr)-1):.1f},{195-175*(arr[i]-scale_min)/scale_span:.1f}" for i in positions)
+    graph=f'<svg role="img" aria-label="Time-weighted growth comparison; blue DCA, amber model" viewBox="0 0 880 210" style="width:100%;height:auto;background:#0b1424;border-radius:10px"><polyline fill="none" stroke="#69c6ff" stroke-width="3" points="{line_svg(base)}"/><polyline fill="none" stroke="#ffc16b" stroke-width="3" points="{line_svg(a)}"/></svg>'
     updated=datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
-    rows="".join("<tr><td>"+html.escape(n)+("</td><td>"+str(development[n]["annual"])+"%</td><td>"+str(holdout[n]["annual"])+"%</td><td>"+str(holdout[n]["drawdown"])+"%</td><td>"+str(holdout[n]["orders"])+"</td></tr>") for n in signals)
-    page="""<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>SignalDesk</title>
-<style>body{background:#0c1320;color:#edf3fe;font:16px system-ui;margin:0}main{max-width:1100px;margin:auto;padding:30px}h1{font-size:32px}p{line-height:1.6}.muted{color:#a9bbd1}.alert{background:#493823;border:1px solid #a27f4a;color:#ffe3ae;padding:16px;border-radius:12px}.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:12px;margin:22px 0}.card{border:1px solid #344861;background:#142237;border-radius:15px;padding:20px}.value{font-size:28px;font-weight:750;margin-top:9px}.body{background:#142237;border:1px solid #344861;padding:22px;border-radius:15px;margin:18px 0}table{width:100%;border-collapse:collapse;text-align:left;display:block;overflow-x:auto}th,td{border-bottom:1px solid #33445b;padding:13px 16px;white-space:nowrap}a{color:#9dcaff}small{color:#a9bbd1}</style>
-<main><h1>SignalDesk <small>VOO research monitor</small></h1>
-<div class="alert"><strong>RESEARCH ONLY — NO LIVE TRADING APPROVAL</strong><br>Automatic end-of-day historical analysis, not real-time quotes or personal investment advice.</div>
-<p class="muted">Updated: UPDATED · Last market session: LASTDATE · Selected using 2013–2021 data only; independently reviewed on 2022 onward.</p>
-<div class="cards"><div class="card"><div class="muted">Latest research target</div><div class="value">TARGET</div><small>Not an order instruction</small></div>
-<div class="card"><div class="muted">Model tested</div><div class="value">WINNER</div></div>
-<div class="card"><div class="muted">Holdout annual return</div><div class="value">MODELRETURN</div></div>
-<div class="card"><div class="muted">DCA annual return</div><div class="value">DCARETURN</div></div></div>
-<div class="body"><h2>What does this mean?</h2><p>EXPLANATION</p></div>
-<div class="body"><h2>All strategies: results after assumed 0.1% cost per trade</h2>
-<table><thead><tr><th>Strategy</th><th>Earlier annual growth</th><th>Later annual growth</th><th>Worst later fall</th><th>Later orders</th></tr></thead><tbody>ROWS</tbody></table>
-<p class="muted">All portfolios receive the same USD 2,000 initial amount and USD 100/month deposits. No leverage, shorting, automatic orders or personal holdings.</p></div>
-<div class="body"><h2>Limitations</h2><p>This snapshot uses historical dividend-adjusted prices and estimated costs. It omits certain FX/tax/slippage effects. Past performance does not establish a profitable future strategy. Market data relies on an unofficial source and may fail; the scheduled job stops rather than publish invented results.</p></div></main></html>"""
-    for a,c in {"UPDATED":updated,"LASTDATE":str(d.index[-1].date()),"TARGET":signal,"WINNER":html.escape(winner),
-       "MODELRETURN":f"{w['annual']:.2f}%","DCARETURN":f"{b['annual']:.2f}%","EXPLANATION":html.escape(interpretation),"ROWS":rows}.items():
+    rows="".join("<tr><td>"+html.escape(n)+("</td><td>"+str(development[n]["annual"])+"%</td><td>"+str(holdout[n]["annual"])+"%</td><td>"+str(holdout[n]["drawdown"])+"%</td><td>"+str(holdout[n]["orders"])+"</td><td>USD "+str(holdout[n]["cost"])+"</td></tr>") for n in signals)
+    page="""<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>SignalDesk | VOO Research</title>
+<style>*{box-sizing:border-box}body{background:#0c1320;color:#edf3fe;font:15px system-ui,sans-serif;margin:0}main{max-width:1100px;margin:auto;padding:24px 18px 50px}.muted,small{color:#aec1d7}h1{font-size:30px}h2{font-size:19px;margin-top:0}.warning{padding:18px;border:1px solid #c99d60;background:#433421;border-radius:12px;color:#ffdfaa;margin:16px 0}.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin:20px 0}.card,.panel{border:1px solid #344961;background:#152235;border-radius:13px;padding:19px}.value{font-size:26px;font-weight:750;margin:7px 0}.panel{margin:18px 0}p{line-height:1.6}table{border-collapse:collapse;width:100%;display:block;overflow-x:auto}td,th{padding:12px 14px;text-align:left;border-bottom:1px solid #35475e;white-space:nowrap}th{color:#b8cae1}</style>
+<main><h1>SignalDesk <small>VOO research monitor</small></h1><div class="warning"><strong>REPORTSTATUS</strong><p>Signals are model positions, not approved trades. Your existing brokerage account is not connected.</p></div>
+<p class="muted">Report updated UPDATED · Latest market data LASTDATE · Models selected using 2013–2021 and judged on 2022 onward.</p>
+<div class="cards"><div class="card"><small>Latest model position</small><div class="value">TARGET</div><small>Not an order to place</small></div><div class="card"><small>Model selected before holdout</small><div class="value">WINNER</div></div><div class="card"><small>Model annual return, 2022+</small><div class="value">MODELRETURN</div></div><div class="card"><small>VOO DCA annual return, 2022+</small><div class="value">DCARETURN</div></div></div>
+<div class="panel"><h2>What do the results mean?</h2><p>EXPLANATION</p><p>Since the model did not outperform the passive benchmark, its current position is not a reason to change your VOO investments.</p></div>
+<div class="panel"><h2>Wealth growth over time (independent of deposits)</h2><p class="muted"><span style="color:#69c6ff">● VOO DCA</span> &nbsp; <span style="color:#ffc16b">● Chosen model</span></p>CHART<p class="muted">This shows compounded daily investment returns in the 2022-onward period. It does not include changes to the account balance caused by deposits.</p></div>
+<div class="panel"><h2>All strategies compared</h2><table><thead><tr><th>Strategy</th><th>Annual 2013–2021</th><th>Annual 2022+</th><th>Worst 2022+ fall</th><th>2022+ orders</th><th>Estimated trading costs</th></tr></thead><tbody>ROWS</tbody></table><p class="muted">Each strategy starts with 2,000 USD and gets 100 USD monthly. Costs assumed at 10 basis points per buy/sell. No leverage.</p></div>
+<div class="panel"><h2>Cost sensitivity</h2><table><thead><tr><th>Trading cost per side</th><th>Model annual</th><th>DCA annual</th><th>Model less DCA (ending USD)</th></tr></thead><tbody>COSTROWS</tbody></table><p class="muted">0 bps = 0%, 10 bps = 0.1%, 30 bps = 0.3% each transaction. Actual brokerage and FX costs may differ.</p></div>
+<div class="panel"><h2>Next research milestone</h2><p>Keep normal VOO investing separate from this research. The next step is to save and track future paper-trading signals BEFORE the market moves. We should not repeatedly adjust these four strategies to fit the already-seen 2022-onward results.</p></div>
+<div class="panel"><h2>Limitations</h2><p>This is end-of-day research, not streaming prices. Adjusted market prices approximate dividends; idle cash earns 0%; FX costs, taxes, financing and execution differences are not fully modelled. Historical backtesting does not prove future profitability. The market-data feed is unofficial; if it fails, updates should stop rather than show invented figures.</p></div></main></html>"""
+    for a,c in {"UPDATED":updated,"LASTDATE":str(d.index[-1].date()),"TARGET":html.escape(model_target),
+       "REPORTSTATUS":html.escape(report_status),"WINNER":html.escape(winner),
+       "MODELRETURN":f"{w['annual']:.2f}%","DCARETURN":f"{b['annual']:.2f}%",
+       "EXPLANATION":html.escape(interpretation),"ROWS":rows,"CHART":graph,"COSTROWS":fees_html}.items()::
         page=page.replace(a,c)
     Path("site").mkdir(exist_ok=True);Path("site/index.html").write_text(page,encoding="utf-8")
     print("Generated historical dashboard",str(d.index[-1].date()),"selected",winner,"passed",passed)
