@@ -14,7 +14,7 @@ Latest complete US market session: 2026-10-22
 | MTUM DCA | 15.27% | -34.08% | 1.06 | 121 | 13.99 |
 | SPMO/VOO 50-50 | 17.17% | -32.48% | 1.01 | 242 | 26.47 |
 | SPMO-VOO 6M Rotation | 16.97% | -34.00% | 1.03 | 138 | 414.47 |
-| SPMO Trend + SHY | 14.27% | -20.97% | 0.48 | 135 | 452.57 |
+| SPMO Trend + SHY | 14.27% | -20.97% | 0.48 | 135 | 452.56 |
 
 ## Distinct retrospective windows
 
@@ -30,9 +30,9 @@ Latest complete US market session: 2026-10-22
 
 ## Monthly factor-aware risk diagnostics
 
-- SPMO DCA, vs VOO: estimated beta 0.9961, alpha 3.6868%/year, HAC statistic 1.3036, bootstrap 90% annual active-return interval [-1.5604, 9.0898]%.
+- SPMO DCA, vs VOO: estimated beta 0.9961, alpha 3.6868%/year, HAC statistic 1.3036, bootstrap 90% annual active-return interval [-1.5604, 9.0899]%.
 - SPMO-VOO 6M Rotation, vs VOO: estimated beta 1.0215, alpha 1.5917%/year, HAC statistic 0.6833, bootstrap 90% annual active-return interval [-2.2027, 6.2305]%.
-- SPMO Trend + SHY, vs VOO: estimated beta 0.5395, alpha 6.1106%/year, HAC statistic 1.923, bootstrap 90% annual active-return interval [-6.6042, 4.6045]%.
+- SPMO Trend + SHY, vs VOO: estimated beta 0.5395, alpha 6.1106%/year, HAC statistic 1.923, bootstrap 90% annual active-return interval [-6.6043, 4.6045]%.
 
 ## Model target exposures for estimated next session (PAPER ONLY)
 
