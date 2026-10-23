@@ -9,7 +9,10 @@ import json, math
 import numpy as np
 import pandas as pd
 import yfinance as yf
-import institutional_v4 as stats
+try:
+    from . import institutional_v4 as stats
+except ImportError:
+    import institutional_v4 as stats
 
 SYMS=("VOO","SPMO","QQQ","MTUM","SHY")
 MODEL_NAMES=("VOO DCA","SPMO DCA","QQQ DCA","MTUM DCA","SPMO/VOO 50-50",
