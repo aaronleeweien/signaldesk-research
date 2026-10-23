@@ -214,7 +214,19 @@ def create():
         return (tests[period][model]["annual_return_pct"]>tests[period]["VOO DCA"]["annual_return_pct"])
     audit_pass=bool(pick and better(pick,"diagnostic"))
     risk_candidates=sorted(contenders,key=lambda m:(tests["diagnostic"][m]["max_drawdown_pct"],-tests["diagnostic"][m]["annual_return_pct"]),reverse=True)
-    next_targets={m:planned[m][-1] for m in MODEL_NAMES}
+    # Compute indicative NEXT-session paper targets from the latest completed close.
+    # A duplicate-price placeholder represents the unknown next session; its price
+    # is never used to decide positions for that session. BDay skips weekends
+    # but not exchange holidays, so the displayed date remains approximate.
+    next_session=data.index[-1]+pd.offsets.BDay(1)
+    dummy=data.iloc[[-1]].copy()
+    dummy.index=pd.DatetimeIndex([next_session])
+    for ticker in ASSETS:
+        last_close=float(data.iloc[-1][ticker,"Close"])
+        dummy.loc[next_session,(ticker,"Open")]=last_close
+        dummy.loc[next_session,(ticker,"Close")]=last_close
+    prospective,prospective_info=weights(pd.concat([data,dummy]))
+    next_targets={m:prospective[m][-1] for m in MODEL_NAMES}
     fee_sensitivity={}
     if pick:
         start=PERIODS["diagnostic"][0];end=str(data.index[-1].date())
@@ -243,7 +255,10 @@ def create():
           "fractional_units":True,"investment_universe":ASSETS,
           "data":"Yahoo Finance yfinance, adjusted daily open/close, incomplete sessions excluded",
           "execution":"Signals from previous day's close, hypothetical fills at next session open; FX/taxes/gap effects not fully included"},
-        "metrics":tests,"indicators":indicators,"current_research_allocations":next_targets,
+        "metrics":tests,"indicators":prospective_info,
+        "last_session_model_allocations":{m:planned[m][-1] for m in MODEL_NAMES},
+        "indicative_next_business_day":str(next_session.date()),
+        "current_research_allocations":next_targets,
         "validation_candidate":pick,"historical_audit_beats_voo":audit_pass,
         "model_approved_for_trading":False,
         "cost_sensitivity_bps":fee_sensitivity,
