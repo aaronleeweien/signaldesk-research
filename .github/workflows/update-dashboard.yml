@@ -37,6 +37,7 @@ jobs:
           git add latest_report.md latest_report.json research/rotation_results.md research/rotation_results.json
           if ! git diff --cached --quiet; then
             git commit -m "Update VOO research results [skip ci]"
+            git pull --rebase -X theirs origin main
             git push
           fi
       - uses: actions/configure-pages@v5
