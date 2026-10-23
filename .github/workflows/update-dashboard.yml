@@ -36,6 +36,8 @@ jobs:
         run: python research/stocks_v1.py
       - name: Run investable SPMO historical factor ETF strategies
         run: python research/factor_etf.py
+      - name: Archive permanent factor ETF paper signals
+        run: python research/factor_paper.py
       - name: Record timestamped, future-only stock research allocations
         run: python research/stocks_paper.py
       - name: Record permanent paper-only strategy snapshots
@@ -44,7 +46,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add latest_report.md latest_report.json research/rotation_results.md research/rotation_results.json research/lab_v3.md research/lab_v3.json research/paper_signals.csv research/stocks_v1.md research/stocks_v1.json research/stocks_paper.csv research/institutional_v4.md research/institutional_v4.json research/factor_etf.md research/factor_etf.json
+          git add latest_report.md latest_report.json research/rotation_results.md research/rotation_results.json research/lab_v3.md research/lab_v3.json research/paper_signals.csv research/stocks_v1.md research/stocks_v1.json research/stocks_paper.csv research/institutional_v4.md research/institutional_v4.json research/factor_etf.md research/factor_etf.json research/factor_paper.csv
           if ! git diff --cached --quiet; then
             git commit -m "Update VOO research results [skip ci]"
             git pull --rebase -X theirs origin main
