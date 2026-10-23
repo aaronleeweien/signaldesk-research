@@ -129,6 +129,84 @@ def main():
        "EXPLANATION":html.escape(interpretation),"ROWS":rows,"CHART":graph,"COSTROWS":fees_html}.items():
         page=page.replace(a,c)
     Path("site").mkdir(exist_ok=True);Path("site/index.html").write_text(page,encoding="utf-8")
+    # Machine-readable and human-readable snapshots for ChatGPT via connected GitHub.
+    # This is public market research only. Never include personal holdings or account data.
+    report = {
+        "generated_at_utc": updated,
+        "last_market_session": str(d.index[-1].date()),
+        "research_only": True,
+        "approved_for_live_trading": False,
+        "selected_strategy": winner,
+        "historical_hurdle_passed": bool(passed),
+        "current_model_position": "VOO" if target == 1 else "CASH",
+        "interpretation": interpretation,
+        "assumptions": {
+            "initial_usd": INITIAL, "monthly_contribution_usd": MONTHLY,
+            "standard_cost_fraction_per_trade": COST, "cash_interest": 0,
+            "development_period": "2013-01-02 to 2021-12-31",
+            "holdout_period_start": TEST,
+        },
+        "development": {
+            k: {a: v for a,v in q.items() if a not in ("curve","dates")}
+            for k,q in development.items()
+        },
+        "holdout": {
+            k: {a: v for a,v in q.items() if a not in ("curve","dates")}
+            for k,q in holdout.items()
+        },
+        "cost_sensitivity": [
+            {"cost_bps": int(bps), "model_annual_return_pct": float(m), "dca_annual_return_pct": float(dca), "model_minus_dca_final_usd": float(diff)}
+            for bps,m,dca,diff in [
+                (
+                    float(cost),
+                    backtest_with_cost(d, signals[winner], TEST, str(d.index[-1].date()), cost)["annual"],
+                    backtest_with_cost(d, signals["DCA"], TEST, str(d.index[-1].date()), cost)["annual"],
+                    backtest_with_cost(d, signals[winner], TEST, str(d.index[-1].date()), cost)["end"] -
+                    backtest_with_cost(d, signals["DCA"], TEST, str(d.index[-1].date()), cost)["end"]
+                ) for cost in (0.0, 0.001, 0.003)
+            ]
+        ],
+    }
+    snapshot = json.dumps(report, indent=2, ensure_ascii=False)
+    Path("latest_report.json").write_text(snapshot + "\n", encoding="utf-8")
+    Path("site/latest_report.json").write_text(snapshot + "\n", encoding="utf-8")
+    summary_lines = [
+        "# SignalDesk — Latest VOO Research",
+        "",
+        f"Last market session: **{report['last_market_session']}**",
+        f"Updated UTC: **{updated}**",
+        "",
+        "**RESEARCH ONLY: No strategy has been approved for real-money trading.**",
+        "",
+        f"Selected strategy: **{winner}**",
+        f"Current model exposure: **{report['current_model_position']}** (not an order)",
+        f"Passed historical hurdle: **{'Yes (still only research)' if passed else 'No'}**",
+        "",
+        "## What the numbers mean",
+        "",
+        interpretation,
+        "",
+        "## Strategy comparison",
+        "",
+        "| Strategy | Development annual % | Holdout annual % | Holdout worst fall % | Holdout orders | Trading cost USD |",
+        "|---|---:|---:|---:|---:|---:|",
+    ]
+    for name in signals:
+        pre,post=development[name],holdout[name]
+        summary_lines.append(
+            f"| {name} | {pre['annual']:.2f} | {post['annual']:.2f} | {post['drawdown']:.2f} | {post['orders']} | {post['cost']:.2f} |"
+        )
+    summary_lines.extend([
+        "",
+        "## Limits",
+        "",
+        "All strategies assume USD 2,000 initially, USD 100 added monthly, and 0.1% execution costs per trade. "
+        "Cash earns no interest. Backtests omit some taxes, foreign exchange expenses and slippage. "
+        "Past performance cannot guarantee future gains.",
+        "",
+        "This file is automatically updated by GitHub Actions after a successful market-data refresh.",
+    ])
+    Path("latest_report.md").write_text("\n".join(summary_lines) + "\n", encoding="utf-8")
     print("Generated historical dashboard",str(d.index[-1].date()),"selected",winner,"passed",passed)
 
 if __name__=="__main__":main()
