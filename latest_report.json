@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-23 16:02 UTC",
+  "generated_at_utc": "2026-10-23 16:05 UTC",
   "last_market_session": "2026-10-22",
   "research_only": true,
   "approved_for_live_trading": false,
@@ -53,7 +53,7 @@
       "cost": 239.51
     },
     "20-day breakout": {
-      "end": 16275.29,
+      "end": 16275.28,
       "deposited": 12700.0,
       "annual": 3.66,
       "drawdown": -14.59,
