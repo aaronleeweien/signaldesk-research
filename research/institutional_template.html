@@ -1,0 +1,110 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>SignalDesk | Institutional Quant Report V4</title>
+<style>
+:root{color-scheme:dark;--bg:#080e18;--base:#101a29;--panel:#142235;--line:#283b55;--white:#f0f6ff;--muted:#a2b4cc;--bright:#8abffc;--mint:#77d9b8;--orange:#ffd08b;--red:#ff998e}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at 84% 0,#192d48,#080e18 60%);font:14px/1.55 Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif;color:var(--white)}
+main{max-width:1290px;margin:0 auto;padding:26px 22px 65px}a{color:#a2d1ff}
+header{display:flex;justify-content:space-between;align-items:start;gap:16px;flex-wrap:wrap}
+.eyebrow{color:var(--mint);font-size:11px;font-weight:800;letter-spacing:.15em}h1{font-size:clamp(26px,3.3vw,39px);letter-spacing:-.04em;line-height:1.13;margin:5px 0 8px}h2{font-size:18px;letter-spacing:-.01em;margin:0 0 12px}h3{font-size:14px;margin:0 0 8px}.muted,small{color:var(--muted)}.tag{font-size:11px;color:var(--bright);border:1px solid #375674;padding:5px 10px;border-radius:50px}
+.pagebar{display:flex;flex-wrap:wrap;gap:8px;margin:20px 0}.pagebar a{color:#c3d8ed;text-decoration:none;padding:8px 12px;font-size:12px;border:1px solid var(--line);border-radius:30px}
+.warning{background:linear-gradient(120deg,#422f23,#33251e);border:1px solid #ad7b4a;border-radius:14px;padding:17px 20px;color:#ffe2b1;margin:17px 0}.warning p{margin:5px 0;color:#eecda0}
+.grid4{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}.grid3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}.grid2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:13px}
+.card,.panel{border:1px solid var(--line);border-radius:15px;background:linear-gradient(155deg,#17263b,#111b2b);padding:20px}.card{padding:16px}.card small{font-size:11px;display:block}.card strong{font-size:clamp(20px,2.4vw,29px);display:block;letter-spacing:-.035em;margin-top:10px;font-variant-numeric:tabular-nums}
+.panel{margin-top:14px}.panel p{color:#c5d4e6;margin:9px 0}.status{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.pill{font-size:11px;padding:4px 10px;border-radius:20px;background:#1a2d46;border:1px solid #375474;color:#add6ff}
+.red{color:var(--red)}.green{color:var(--mint)}.gold{color:var(--orange)}
+.header-note{text-align:right;max-width:280px;color:var(--muted);font-size:12px}
+table{border-collapse:collapse;width:100%;display:block;overflow:auto}td,th{padding:11px 13px;text-align:left;border-bottom:1px solid #2e425a;white-space:nowrap;font-size:12px}th{color:var(--muted);font-weight:700}td.n{font-variant-numeric:tabular-nums}tbody tr:nth-child(odd){background:#13223744}
+.context{border-left:3px solid var(--mint);background:#0f2b33;padding:15px;border-radius:3px 11px 11px 3px}
+svg{display:block;width:100%;height:auto;min-height:240px;background:#0c1929;border-radius:12px;margin:12px 0}
+.legend{display:flex;flex-wrap:wrap;gap:15px;color:var(--muted);font-size:12px}.dot{height:10px;width:10px;display:inline-block;border-radius:50%;margin-right:6px}
+.split{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(270px,1fr);gap:14px}
+.gauges{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.gauge{padding:14px;border:1px solid #2f425c;background:#0e1b2c;border-radius:12px}.gauge strong{font-size:20px;display:block;margin-top:4px}.gauge small{display:block;font-size:11px}
+.bar{display:flex;height:18px;border-radius:20px;background:#2c3d56;overflow:hidden;margin:14px 0}.bar div{height:100%}
+.actions{background:#0d1828;border:1px solid #304762;border-radius:12px;padding:14px}input[type=number]{border:1px solid #385575;color:#fff;background:#0e1d30;border-radius:8px;padding:10px;width:140px}
+ul{padding-left:20px}li{margin-bottom:8px;color:#c9d7e6}
+.seg{display:flex;gap:8px;margin:8px 0 16px;flex-wrap:wrap}.seg button{background:#14263a;border:1px solid #3b5677;color:#c8d9eb;padding:7px 12px;border-radius:9px;cursor:pointer}.seg button.active{background:#285781;color:#fff}
+.foot{border-top:1px solid var(--line);font-size:12px;color:var(--muted);margin-top:30px;padding-top:14px}
+@media(max-width:900px){.grid4,.grid3{grid-template-columns:repeat(2,minmax(0,1fr))}.split{grid-template-columns:1fr}}
+@media(max-width:550px){main{padding:17px 11px 40px}.card,.panel{padding:14px}.grid4,.grid3,.grid2{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.card strong{font-size:21px}.header-note{text-align:left}.gauge strong{font-size:17px}}
+</style></head><body><script id="modeldata" type="application/json">/*V4_DATA*/</script>
+<main>
+<header><div><div class="eyebrow">SIGNALDESK / INSTITUTIONAL RESEARCH / V4</div><h1>Quantitative investment report.</h1><p class="muted">One candidate. Multiple benchmarks. Transparent performance attribution, research signals, risk limits, and statistical reality checks.</p></div><div class="header-note" id="date">Loading...</div></header>
+<div class="warning"><strong>INVESTMENT COMMITTEE STATUS: NOT APPROVED</strong><p>These are paper research targets, not instructions to purchase securities. This stock list was chosen with hindsight, introducing serious survivorship bias. Statistical results cannot remove that bias or guarantee future profits.</p></div>
+<nav class="pagebar"><a href="#executive">Executive summary</a><a href="#evidence">Evidence</a><a href="#risk">Risk & uncertainty</a><a href="#trade">Trade plan</a><a href="#audit">Audit checklist</a><a href="stocks.html">Previous stock dashboard</a><a href="stocks_paper.html">Paper archive</a></nav>
+<section id="executive">
+<div class="grid4">
+<div class="card"><small>2019–2022 Momentum CAGR</small><strong id="val1">—</strong><small>Versus VOO</small></div>
+<div class="card"><small>2023–2026 Momentum CAGR</small><strong id="val2">—</strong><small>Retrospective diagnostic period</small></div>
+<div class="card"><small>2023–2026 VOO CAGR</small><strong id="val3">—</strong><small>Passive benchmark</small></div>
+<div class="card"><small>2023–2026 QQQ CAGR</small><strong id="val4">—</strong><small>Concentrated growth benchmark</small></div>
+</div>
+<div class="split">
+<div class="panel"><h2>Investment thesis</h2><p class="context">Top-5 Momentum attempts to exploit persistence in medium-term stock performance. It ranks 30 established US stocks each month and hypothetically holds the five highest-ranked at 20% each. Academic literature supports momentum as a historical return pattern, but this specific implementation does <strong>not</strong> have unbiased proof of future alpha.</p><p id="decision"></p>
+<div class="status"><span class="pill">Long-only</span><span class="pill">Monthly review</span><span class="pill">5 stocks × 20%</span><span class="pill">Zero leverage</span></div></div>
+<div class="panel"><h2>Evidence committee gate</h2><div id="gates"></div><p class="muted" style="font-size:12px">Passing a few retrospective return comparisons is not sufficient for approval. Data integrity, drawdowns and forward evidence matter.</p></div></div>
+</section>
+<section id="evidence">
+<div class="panel"><h2>Full risk and performance scorecard · 2019 to latest</h2><p class="muted">All models start with USD $2,000 and receive USD $100 per calendar month. 0.1% per-side execution cost before additional FX/commission expenses.</p>
+<table><thead><tr><th>Strategy</th><th>Annual return</th><th>Worst drawdown</th><th>Volatility</th><th>Beta</th><th>Orders</th><th>Estimated fees</th><th>End value</th></tr></thead><tbody id="performance"></tbody></table></div>
+<div class="split">
+<div class="panel"><h2>Compounded growth of $1, by completed month</h2><p class="muted">Daily returns aggregated into months, independent of new deposits. Cumulative comparison: VOO, QQQ and Top-5 Momentum.</p><div class="legend"><span><i class="dot" style="background:#8bc7fa"></i>VOO</span><span><i class="dot" style="background:#81dec1"></i>QQQ</span><span><i class="dot" style="background:#f0bb73"></i>Top-5 Momentum</span></div><svg id="growth" role="img" aria-label="Compounded wealth chart" viewBox="0 0 900 290"></svg><p class="muted" id="growthcaption"></p></div>
+<div class="panel"><h2>Risk-adjusted return decomposition</h2><p class="muted">Monthly regression of the model against each benchmark, accounting for market exposure. Annual alpha is the estimated regression intercept, not guaranteed future profit.</p><div id="regression"></div></div></div>
+</section>
+<section id="risk"><div class="panel"><h2>Uncertainty & statistical strength</h2><p class="muted">Paired three-month block bootstrap of monthly active returns (2,500 replicates), plus approximate Newey–West 3-lag inference. These statistics remain biased if the stock universe was selected with hindsight.</p><div class="grid2" id="bootstrap"></div></div>
+<div class="grid3" id="tails"></div>
+<div class="panel"><h2>How trading costs affect the apparent advantage</h2><table><thead><tr><th>Fee per side</th><th>Momentum CAGR</th><th>VOO CAGR</th><th>QQQ CAGR</th></tr></thead><tbody id="fees"></tbody></table><p class="muted">Not included: your broker's minimum commission, SGD/USD conversions, FX spreads, price gaps or taxes.</p></div>
+<div class="split"><div class="panel"><h2>Monthly win frequency</h2><p id="winrate"></p><p class="muted">Winning more than half of months isn't required for an investment strategy to work, and it is not the same as positive long-term alpha.</p></div><div class="panel"><h2>Worst historical portfolio decline</h2><p id="drawdown"></p><p class="muted">Concentrated stock holdings may lose more than historical examples during a future crisis.</p></div></div>
+</section>
+<section id="trade"><div class="split">
+<div class="panel"><h2>Paper trading decision sheet</h2><p>Exact hypothetical weights estimated for the next session using only prices available on the last completed US trading day. The strategy trades only at monthly rebalance points.</p><p class="muted">Model: <strong>Top-5 Momentum</strong> · Timing: <strong id="review"></strong></p>
+<div class="bar" id="allocbar"></div><table><thead><tr><th>Ticker</th><th>Target</th><th>Indicative USD allocation</th><th>Indicative shares at last close</th><th>Model change</th></tr></thead><tbody id="positions"></tbody></table>
+<p style="margin-top:13px"><label class="muted" for="capital">Illustrative paper account balance (USD): </label><input type="number" min="0" step="100" max="1000000" value="2000" id="capital"/></p>
+<p class="muted">Share quantities are illustrations using stale adjusted closes, not quotes or executable orders. For an existing model account, HOLD does not mean you need to buy more shares.</p></div>
+<div class="panel"><h2>Entry and exit rulebook</h2><div class="actions"><p><strong>ENTRY:</strong> At the next scheduled monthly rebalance, hypothetically buy the five eligible stocks with the highest fixed momentum score.</p><p><strong>SIZE:</strong> Equal 20% target per stock; no margin, shorts or leverage.</p><p><strong>EXIT:</strong> Sell a stock at the following monthly rebalance if it has fallen outside the top five.</p><p><strong>NO INTRAMONTH STOP:</strong> This model has no validated intramonth stop-loss. A stock can fall sharply before the next exit date.</p></div><h2 style="margin-top:22px">Candidate rankings</h2><table><thead><tr><th>Rank</th><th>Ticker</th><th>Score</th><th>Above 200-day trend</th></tr></thead><tbody id="rankings"></tbody></table></div></div></section>
+<section id="audit"><div class="panel"><h2>Investment committee audit trail</h2><div class="grid2"><div><h3>What is genuinely supported?</h3><ul><li>Published academic studies document medium-term stock momentum in broad historical cross-sections.</li><li>Our historical simulation shows returns exceeding VOO in two retrospective windows.</li><li>Its actual estimated trades, fees, monthly performance, beta and drawdowns can be inspected and compared.</li><li>Future paper signals are timestamped to distinguish advance forecasts from hindsight.</li></ul></div><div><h3>What would invalidate a real-money decision?</h3><ul id="limits"></ul></div></div></div>
+<div class="panel"><h2>Academic references</h2><ul id="papers"></ul><p class="muted">Research sources describe historical patterns or statistical methodology, not proof that this dashboard's personal implementation will make money.</p></div></section>
+<footer class="foot">SignalDesk Quant V4 · Fully automatic GitHub Actions research pipeline · Unofficial historical price feed via yfinance · No brokerage access or auto-execution. Research reports are public; never upload private financial information. <a href="https://github.com/aaronleeweien/signaldesk-research">View source</a>.</footer>
+</main>
+<script>
+(()=>{const d=JSON.parse(document.getElementById("modeldata").textContent);
+const $=x=>document.getElementById(x),fmt=x=>Number(x??0).toLocaleString("en-US",{maximumFractionDigits:2}),pct=x=>Number(x??0).toFixed(2)+"%",signed=x=>(Number(x)>0?"+":"")+pct(x);
+const names=["VOO DCA","QQQ DCA","Top-5 Momentum","Top-5 Trend Filter","Top-5 Defensive","Static Equal Weight"];
+$("date").innerHTML="Research saved: "+d.generated_utc+"<br/>Last completed US market date: "+d.asof_completed_us_session+"<br/><span class='tag'>RESEARCH ONLY</span>";
+const early=d.candidate_evidence.validation_2019_2022,later=d.candidate_evidence.diagnostic_2023_latest;
+$("val1").textContent=pct(early["Top-5 Momentum"])+" vs "+pct(early["VOO DCA"]);
+$("val2").textContent=pct(later["Top-5 Momentum"]);
+$("val3").textContent=pct(later["VOO DCA"]);
+$("val4").textContent=pct(later["QQQ DCA"]);
+const model=d.full_period_2019_latest["Top-5 Momentum"],voo=d.full_period_2019_latest["VOO DCA"],qqq=d.full_period_2019_latest["QQQ DCA"];
+$("decision").textContent="The model beat VOO in the two historical windows, but its later-period return trailed QQQ and carried higher market risk than VOO. The equity selection data are biased toward survivors. This is a promising research hypothesis, not a trade approved for real money.";
+$("gates").innerHTML=Object.entries(d.selection_gates).filter(z=>z[0]!=="all_gates_pass").map(([k,v])=>'<div style="display:flex;justify-content:space-between;gap:10px;border-bottom:1px solid #33475b;padding:9px 0"><span>'+k.replaceAll("_"," ")+'</span><strong class="'+(v?"green":"red")+'">'+(v?"PASS":"FAIL")+'</strong></div>').join("");
+$("performance").innerHTML=names.map(n=>{const z=d.full_period_2019_latest[n];return '<tr><td>'+n+'</td><td class="n">'+pct(z.annual_twr_pct)+'</td><td class="n">'+pct(z.worst_drawdown_pct)+'</td><td class="n">'+pct(z.volatility_pct)+'</td><td class="n">'+fmt(z.beta_to_voo)+'</td><td>'+fmt(z.orders)+'</td><td>$'+fmt(z.fees_usd)+'</td><td>$'+fmt(z.ending_usd)+'</td></tr>'}).join("");
+const factor=d.factor_and_bootstrap["Top-5 Momentum"];
+$("regression").innerHTML=[["versus_voo","Versus VOO"],["versus_qqq","Versus QQQ"]].map(([k,label])=>{const z=factor[k];return '<div class="panel" style="margin:8px 0 0;padding:14px"><h3>'+label+'</h3><div class="grid2"><div><small>Annual alpha, risk adjusted</small><strong class="'+(z.alpha_annual_pct>0?"green":"red")+'" style="font-size:22px;display:block">'+signed(z.alpha_annual_pct)+'</strong></div><div><small>Estimated beta</small><strong style="font-size:22px;display:block">'+fmt(z.monthly_beta)+'</strong></div><div><small>Information ratio</small><strong>'+fmt(z.information_ratio)+'</strong></div><div><small>HAC t-statistic</small><strong>'+fmt(z.alpha_hac_tstat)+'</strong></div></div></div>'}).join("");
+$("bootstrap").innerHTML=[["voo","VOO"],["qqq","QQQ"]].map(([benchmark,label])=>{const z=factor["block_bootstrap_vs_"+benchmark];return '<div class="panel" style="margin:0"><h3>Annual excess return vs '+label+'</h3><p class="muted">Estimate: '+signed(z.annual_active_return_estimate_pct)+'</p><strong style="font-size:22px">'+fmt(z["90pct_ci_low_pct"])+'% to '+fmt(z["90pct_ci_high_pct"])+'%</strong><p class="muted">Conditional 90% bootstrap interval</p><span class="'+(z.statistical_edge_90pct?"green":"red")+'">'+(z.statistical_edge_90pct?"Lower interval exceeds 0":"Interval crosses or touches 0")+'</span></div>'}).join("");
+const tail=d.risk["Top-5 Momentum"];const parts=[["Sortino ratio, zero cash rate",fmt(tail.sortino_zero_rf)],["Worst month",pct(tail.worst_month_pct)],["Daily expected shortfall (worst 5%)",pct(tail.daily_expected_shortfall_95_pct)]];
+$("tails").innerHTML=parts.map(([name,val])=>'<div class="card"><small>'+name+'</small><strong>'+val+'</strong></div>').join("");
+$("fees").innerHTML=Object.entries(d.fees_sensitivity).sort((a,b)=>Number(a[0])-Number(b[0])).map(([basis,rows])=>'<tr><td>'+basis+' basis points</td><td>'+pct(rows["Top-5 Momentum"]["2019_latest"].annual_twr_pct)+'</td><td>'+pct(rows["VOO DCA"]["2019_latest"].annual_twr_pct)+'</td><td>'+pct(rows["QQQ DCA"]["2019_latest"].annual_twr_pct)+'</td></tr>').join("");
+const reg=factor.versus_voo;
+$("winrate").textContent="Top-5 Momentum beat VOO in "+pct(reg.monthly_win_rate_pct)+" of the "+reg.months+" evaluated calendar months. Its worst relative month underperformed by "+pct(Math.abs(reg.worst_active_month_pct))+".";
+$("drawdown").textContent="The maximum observed decline was "+pct(model.worst_drawdown_pct)+". Estimated peak "+tail.max_drawdown_peak_date+" through trough "+tail.max_drawdown_trough_date+". That is a historical example, not a maximum future loss.";
+$("review").textContent=d.next_month_review;
+const targets=d.next_session_research_targets["Top-5 Momentum"],colors=["#8abffc","#74dbba","#ffcb8d","#dba5f7","#f39e91"];
+$("allocbar").innerHTML=Object.entries(targets).map(([name,weight],i)=>'<div title="'+name+'" style="width:'+(weight*100)+'%;background:'+colors[i%colors.length]+'"></div>').join("");
+function positions(){const balance=Math.max(0,Math.min(1000000,Number($("capital").value)||0));
+ const actions=d.next_session_paper_actions["Top-5 Momentum"];
+ $("positions").innerHTML=Object.entries(targets).map(([name,weight])=>{const a=actions.find(x=>x.ticker===name)||{};const quote=a.last_close_usd||0;return '<tr><td><b>'+name+'</b></td><td>'+pct(weight*100)+'</td><td>$'+fmt(balance*weight)+'</td><td>'+fmt(quote?balance*weight/quote:0)+'</td><td>'+((a.action||"PAPER HOLD").replace("PAPER ",""))+'</td></tr>'}).join("");}
+$("capital").addEventListener("input",positions);positions();
+$("rankings").innerHTML=d.rankings.slice(0,12).map((z,i)=>'<tr><td>'+(i+1)+'</td><td>'+z.ticker+'</td><td>'+pct(z.relative_momentum_score_pct)+'</td><td>'+(z.above_200day?"YES":"NO")+'</td></tr>').join("");
+$("limits").innerHTML=d.limitations.map(t=>'<li>'+t+'</li>').join("");
+$("papers").innerHTML=d.papers.map(p=>'<li><a target="_blank" rel="noopener noreferrer" href="'+p.url+'">'+p.name+'</a></li>').join("");
+function growth(){
+const colors=["#8abffc","#79dab9","#f0bb73"];const series=["VOO DCA","QQQ DCA","Top-5 Momentum"].map(n=>d.risk[n].monthly_series);
+const values=series.map(rows=>{let factor=1;return rows.map(x=>{factor*=1+x.ret_pct/100;return factor})});
+const hi=Math.max(1,...values.flat()),lo=Math.min(1,...values.flat()),delta=Math.max(.00001,hi-lo);
+const points=(a)=>a.map((v,i)=>(30+835*i/Math.max(1,a.length-1)).toFixed(1)+","+(244-202*(v-lo)/delta).toFixed(1)).join(" ");
+$("growth").innerHTML='<line x1="25" y1="245" x2="870" y2="245" stroke="#425c73"/>'+values.map((arr,i)=>'<polyline points="'+points(arr)+'" fill="none" stroke="'+colors[i]+'" stroke-width="'+(i===2?3.2:2.5)+'"/>').join("")+'<text x="30" y="273">'+series[0][0].month+'</text><text x="775" y="273">'+series[0].at(-1).month+'</text>';
+$("growthcaption").textContent="Based on monthly return compounding; this is a research comparison, not a brokerage valuation.";
+}growth();
+})();
+</script></body></html>
