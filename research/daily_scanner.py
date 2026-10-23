@@ -190,6 +190,23 @@ def main():
             e.append({"type":"ETF_PAPER_BUY_REVIEW","ticker":ticker,"old_weight":0,"new_weight":after})
         elif before>0 and after==0:
             e.append({"type":"ETF_PAPER_EXIT_REVIEW","ticker":ticker,"old_weight":before,"new_weight":0})
+    # Also notify on *new* ETF breakouts that cannot enter the max-two portfolio yet.
+    # This keeps the daily scanner sensitive to momentum in ANY tracked ETF,
+    # without forcing portfolio trades or reporting continuous trends every day.
+    recent=indicators(close)
+    def is_breakout(symbol,row):
+        v=float(close.iloc[row][symbol])
+        t=float(recent["sma200"].iloc[row][symbol])
+        h=float(recent["high20"].iloc[row][symbol])
+        r1=float(recent["r63"].iloc[row][symbol])
+        r2=float(recent["r126"].iloc[row][symbol])
+        return all(np.isfinite(x) for x in (v,t,h,r1,r2)) and v>t and v>h and r1>0 and r2>0
+    for ticker in ETF:
+        if ticker in trace[-1]["entered"]:
+            continue
+        if is_breakout(ticker,-1) and not is_breakout(ticker,-2):
+            moment=.6*float(recent["r63"].iloc[-1][ticker])+.4*float(recent["r126"].iloc[-1][ticker])
+            e.append({"type":"ETF_MOMENTUM_WATCH","ticker":ticker,"score_pct":round(moment*100,2)})
     watch,watched,stock_date=stocks_watch()
     # Only include stock scans aligned to the ETF's same completed day.
     if stock_date!=str(latest.date()):watch=[]
