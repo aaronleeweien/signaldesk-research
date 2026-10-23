@@ -1,0 +1,120 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SignalDesk Quant Lab V3</title>
+<style>
+:root{color-scheme:dark;--ink:#e8f0fc;--muted:#93a6c2;--bg:#080f1c;--card:#121f32;--line:#263a54;--blue:#7bc0ff;--gold:#f4c578;--mint:#71e4bd;--red:#ff9b9b}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at 83% -5%,#173353 0,#080f1c 45%);font:14px/1.52 Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif;color:var(--ink)}
+main{max-width:1240px;margin:auto;padding:26px 20px 74px}
+header{display:flex;justify-content:space-between;align-items:start;gap:22px;flex-wrap:wrap;margin-bottom:22px}.eyebrow{font-size:11px;letter-spacing:.16em;text-transform:uppercase;font-weight:750;color:var(--mint)}h1{font-size:clamp(25px,3.2vw,38px);letter-spacing:-.035em;margin:3px 0 8px;line-height:1.13}.lead{color:var(--muted);max-width:770px;margin:5px 0}.asof{font-size:12px;text-align:right;color:var(--muted)}
+a{color:#9dd4ff}nav{display:flex;gap:9px;overflow-x:auto;margin:18px 0 24px}nav a{font-size:12px;text-decoration:none;color:#c6d6ed;border:1px solid var(--line);border-radius:999px;padding:8px 13px;white-space:nowrap}
+.notice{background:linear-gradient(120deg,#403020,#31271c);border:1px solid #805d35;color:#ffe7bf;border-radius:14px;padding:16px 20px;margin:16px 0}
+.notice b{font-size:13px}.notice p{margin:5px 0 0;color:#f7d7a0}
+.cols{display:grid;grid-template-columns:minmax(0,1.8fr) minmax(265px,1fr);gap:15px;align-items:start}.metrics{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin:18px 0}
+.panel,.metric{background:linear-gradient(160deg,#17263b,#101c2d);border:1px solid var(--line);border-radius:16px;padding:20px;box-shadow:0 9px 25px #00000016}
+.metric{padding:18px}.metric h3{font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);font-weight:650;margin:0 0 12px}
+.metric strong{display:block;font-size:clamp(19px,2.5vw,30px);letter-spacing:-.03em;font-variant-numeric:tabular-nums}
+.metric span{color:var(--muted);font-size:11px}
+.panel{margin:0 0 16px}.panel h2{margin:0 0 11px;font-size:17px;letter-spacing:-.015em}.panel p{margin:8px 0;color:#c7d5e7}
+.panel .sub{font-size:12px;color:var(--muted)}
+.sel{background:#101b2d;border:1px solid #38506b;color:var(--ink);border-radius:8px;padding:9px 10px;max-width:100%;font:inherit;cursor:pointer}.controls{display:flex;flex-wrap:wrap;align-items:center;gap:10px;margin:0 0 18px}.controls label{font-size:12px;color:var(--muted)}
+.kpill{font-size:11px;border:1px solid #34526f;color:#b5d2f0;border-radius:50px;padding:4px 9px;display:inline-block}.tag{font-size:11px;color:var(--mint);font-weight:800;letter-spacing:.035em}
+.legend{display:flex;gap:15px;font-size:12px;color:var(--muted);margin:10px 0 1px}.key{width:10px;height:10px;border-radius:100%;display:inline-block;margin-right:5px}.b{background:var(--blue)}.y{background:var(--gold)}
+.graph{width:100%;height:auto;display:block;background:#0a1527;border-radius:10px;margin:12px 0}
+.split{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.mini{border:1px solid #2b415c;background:#0e1b2c;border-radius:12px;padding:13px}
+.mini small{color:var(--muted);display:block;font-size:11px}.mini b{display:block;font-size:19px;margin-top:3px}.positive{color:var(--mint)}.negative{color:var(--red)}
+table{border-collapse:collapse;width:100%;font-size:12px;display:block;overflow:auto}th{text-align:left;color:var(--muted);font-weight:700;font-size:11px}th,td{padding:11px 11px;border-bottom:1px solid #293d55;white-space:nowrap}tbody tr{cursor:pointer}tbody tr:hover{background:#192c45}tbody tr.on{background:#193352}td:first-child{font-weight:650}td.val{font-variant-numeric:tabular-nums}
+p.callout{padding:14px 15px;border-left:3px solid var(--mint);background:#0c2230;color:#cdeadd;border-radius:3px 11px 11px 3px}
+.alloc{display:flex;height:14px;overflow:hidden;border-radius:100px;background:#23334b;margin:12px 0}
+.alloc div{height:100%;min-width:1px}.pairs{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.pairs div{font-size:12px;color:#c7d9eb}
+ol{padding-left:20px}li{padding-bottom:8px;color:#d5e2f2}.note{font-size:12px;color:var(--muted)}.grid3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}.heat{display:flex;justify-content:space-between;border-bottom:1px solid #27394f;padding:9px 0}.heat strong{font-variant-numeric:tabular-nums}
+input[type=number]{width:125px;background:#101b2d;border:1px solid #38506b;color:#fff;padding:9px;border-radius:9px}
+svg text{fill:#9eb2cb;font-size:11px}footer{color:var(--muted);font-size:11px;border-top:1px solid var(--line);margin-top:24px;padding-top:17px}
+@media(max-width:920px){.cols{grid-template-columns:1fr}.metrics{grid-template-columns:repeat(2,minmax(0,1fr))}.grid3{grid-template-columns:1fr}}
+@media(max-width:540px){main{padding:17px 11px 45px}.panel{padding:15px}.metrics{gap:7px}.metric{padding:13px}.metric strong{font-size:21px}.pairs{grid-template-columns:1fr}.asof{text-align:left}.notice{padding:13px}}
+</style></head><body>
+<script type="application/json" id="data">/*DATA_INJECTION*/</script>
+<main>
+<header><div><div class="eyebrow">SIGNALDESK / QUANT LAB / V3</div><h1>Evidence before execution.</h1><p class="lead">A research cockpit for a small Singapore-based investor: live-updated historical ETF data, seven pre-defined models, transparent backtests and plain-English explanations. No paid analytics software or brokerage connection.</p></div><div class="asof" id="asof"></div></header>
+<div class="notice"><b>RESEARCH ONLY — NOT AUTHORISED FOR REAL-MONEY TRADING</b><p>Current model allocations are simulated exposures, not personal buy/sell orders. Every strategy needs genuine future paper testing; even strong past returns do not guarantee better future returns.</p></div>
+<nav><a href="#overview">Overview</a><a href="#comparison">Strategy comparison</a><a href="#allocation">Portfolio & signals</a><a href="#risk">Risk laboratory</a><a href="#method">Research rules</a><a href="index.html">Original VOO dashboard ↗</a></nav>
+<div class="controls"><label for="model">Examine strategy</label><select class="sel" id="model"></select><label for="period">Historical window</label><select class="sel" id="period"><option value="development">2013–2018 · Development</option><option value="validation">2019–2022 · Validation</option><option value="diagnostic" selected>2023–now · Already reviewed</option></select><span class="kpill">No broker connected</span></div>
+<section id="overview"><div class="metrics"><article class="metric"><h3>Selected model annual return</h3><strong id="model-return">—</strong><span id="model-sub">Historical annual growth</span></article><article class="metric"><h3>VOO annual return</h3><strong id="voo-return">—</strong><span>Same starting funds & deposits</span></article><article class="metric"><h3>Model worst fall</h3><strong id="model-dd">—</strong><span>Historical peak to trough</span></article><article class="metric"><h3>Historical excess return</h3><strong id="model-excess">—</strong><span>Percentage points annually</span></article></div>
+<div class="cols"><div><div class="panel"><h2>What should I understand?</h2><p class="callout" id="human"></p><div class="split"><div class="mini"><small>Model Sharpe ratio (cash rate assumed zero)</small><b id="sharpe">—</b></div><div class="mini"><small>VOO Sharpe ratio</small><b id="voo-sharpe">—</b></div></div></div>
+<div class="panel"><h2>Compounded investment growth</h2><p class="sub">Growth of an initial $1 excluding the effect of new deposits. This is not the amount in a brokerage account.</p><div class="legend"><span><i class="key b"></i>VOO DCA</span><span><i class="key y"></i>Selected model</span></div><svg class="graph" id="plot" viewBox="0 0 880 270" role="img" aria-label="Time weighted compounded growth chart"></svg><p class="sub" id="chart-caption"></p></div></div>
+<div><div class="panel"><h2>Market research snapshot</h2><div id="market-context"></div><p class="sub">Momentum scores compare recent relative strength. A high score is not a guaranteed positive future return.</p></div>
+<div class="panel"><h2>Study progress</h2><p id="study-progress"></p><div class="mini"><small>Model selection</small><b id="leader" style="font-size:15px">—</b></div><p class="sub">Validation data and diagnostic data are retrospective; a profitable future edge has not been demonstrated.</p></div></div></div></section>
+<section id="comparison" class="panel"><h2>Every researched approach, same capital</h2><p class="sub">Click a row to inspect its returns, drawdowns, projected allocations and year-by-year history. Comparing different risk levels using just raw returns can be misleading.</p><table><thead><tr><th>Model</th><th>Annual return</th><th>Worst decline</th><th>Volatility</th><th>Sharpe*</th><th>Trading cost</th><th>Orders</th><th>Ending USD</th></tr></thead><tbody id="strategies"></tbody></table><p class="note">*Sharpe uses a zero risk-free rate for comparability, not a realistic risk-free rate. Transaction costs assume 0.1% per trade side; possible FX and tax costs are excluded.</p></section>
+<div class="cols"><section id="allocation"><div class="panel"><h2>Current model allocation — hypothetical</h2><p class="sub">What the model held at the last recorded trading session. It is not guaranteed to be the correct allocation at the next open.</p><div class="alloc" id="allocationbar"></div><div id="allocations" class="pairs"></div><div style="margin-top:17px;display:flex;gap:10px;align-items:center;flex-wrap:wrap"><label style="color:var(--muted)" for="capital">Illustrative USD amount</label><input id="capital" type="number" value="2000" min="0" max="1000000" step="100"/></div><div id="what-if" class="mini" style="margin-top:10px"></div><p class="note">This is an educational dollar illustration, not order quantities or tailored investment advice. It never saves or submits your input.</p></div></section>
+<section class="panel"><h2>Why would the model do that?</h2><p id="rule-explainer"></p><h2 style="margin-top:20px">Action status</h2><p class="callout">NO LIVE-TRADE APPROVAL. Do not place a real trade simply because an ETF appears in the model allocation.</p><p class="sub">Review date, costs, cash needs, ETF permissions and the upcoming US session before interpreting any signals.</p></section></div>
+<div class="cols" id="risk"><div><div class="panel"><h2>Year-by-year returns</h2><p class="sub">Net simulated percentage return for the chosen model versus regular VOO contributions, in the selected period.</p><table><thead><tr><th>Year</th><th>Model return</th><th>VOO return</th><th>Difference</th></tr></thead><tbody id="years"></tbody></table></div>
+<div class="panel"><h2>Cost & execution assumptions</h2><div class="split" id="trading-metrics"></div><p class="sub">Monthly or signal-change rebalancing at the following US regular-session open. Price data are adjusted for distributions; available broker fills, bid-ask spreads and FX differ.</p></div></div>
+<div><div class="panel"><h2>Cost sensitivity — validation candidate</h2><p class="sub">How the strategy chosen using 2019–2022 changes when each buy or sale costs 0, 10, or 30 basis points in the later diagnostic period.</p><div id="costs"></div></div><div class="panel"><h2>Research confidence</h2><p id="confidence"></p><p class="sub">No model in this dashboard is a statistically certified source of profits. Model choices must remain fixed during prospective paper monitoring.</p></div></div></div>
+<section id="method" class="panel"><h2>What is actually being researched?</h2><div class="grid3"><div><span class="tag">01 / COMPARATORS</span><p><b>VOO DCA and QQQ DCA.</b> Buy and hold, adding $100 every new month. QQQ is a higher-concentration comparison, not automatically a fair replacement for VOO.</p></div><div><span class="tag">02 / SECTOR LEADERSHIP</span><p><b>Sector Top 2, Core + Sector, and Sector Risk Weighted.</b> Each calendar month rank nine established US sector ETFs using six-month and 12-minus-1-month returns; require a positive six-month return and price above its 200-day average. Defensive cash allocation is represented by SHY.</p></div><div><span class="tag">03 / RISK & PULLBACKS</span><p><b>VOO Volatility Target</b> scales between VOO and SHY toward a 12% historical volatility target; <b>VOO Pullback</b> switches a 40% satellite between VOO and SHY after a short-term RSI(2) dip in an established uptrend.</p></div></div>
+<div class="grid3"><div><span class="tag">DATA QUALITY</span><p>Yahoo adjusted daily prices are automatically downloaded; an incomplete US trading day is excluded. A missing or stale data feed stops updates, not silently fabricates signals.</p></div><div><span class="tag">TRANSACTION MODEL</span><p>Initial $2,000, additional $100 per calendar month, fractional ETF units, 10-bps per-side assumed execution cost, no borrowing, and simulated trades at next session's opening prices.</p></div><div><span class="tag">TESTING LIMITS</span><p>All historical periods have already happened; 2023 onward has already been studied. The selected model comes only from 2019–2022 and is then diagnosed over 2023 onward, not declared prospectively validated.</p></div></div></section>
+<footer>SignalDesk Quant Lab V3. Research source: <a href="https://github.com/aaronleeweien/signaldesk-research">GitHub repository</a>. Background research: Conlon et al., J. Empirical Finance (2023); Magner & Sanhueza, North American J. Econ. Finance (2026); Faber, tactical allocation; Bailey et al., backtest overfitting. Results can change with new data and costs. No personal holdings or broker connection used.</footer></main>
+<script>
+(function(){
+const d=JSON.parse(document.getElementById("data").textContent);
+const byId=x=>document.getElementById(x);
+const models=d.all_models;
+const colors=["#7bc0ff","#f4c578","#74ddb5","#e9a9eb","#88a6ec","#f79e9e","#aecf89","#b49fff","#e1ad5e","#8ce8db"];
+const title={
+"VOO DCA":"Every month invest available contributions in the diversified US S&P 500 ETF, then hold it.",
+"QQQ DCA":"Every month invest available contributions in the technology-heavy Nasdaq-100 ETF and hold.",
+"Sector Top 2":"Each month select up to two US industry ETFs with the strongest price trends. Use SHY where eligible sectors are missing.",
+"Core + Sector":"Keep half the account in VOO and select the strongest trending industry ETF for the other half, or SHY when no sector qualifies.",
+"Sector Risk Weighted":"Among the two strongest qualifying sectors, give the less volatile sector more weight, capped at 65% per sector.",
+"VOO Volatility Target":"Hold less VOO when its recent volatility is high, and place the rest in SHY. This seeks to control risk, not guarantee higher returns.",
+"VOO Pullback":"Hold 60% VOO normally. Put an additional 40% into VOO after an RSI(2) short-term dip while VOO remains above its 200-day moving average; exit after a short rebound or five sessions."};
+const money=x=>Number(x||0).toLocaleString("en-US",{minimumFractionDigits:0,maximumFractionDigits:0});
+const num=x=>Number(x||0).toFixed(2);
+const pct=x=>num(x)+"%";
+const good=x=>Number(x)>=0?"positive":"negative";
+let current="Sector Top 2",period="diagnostic",capital=2000;
+const modelSel=byId("model");models.forEach(m=>{const o=document.createElement("option");o.value=m;o.textContent=m;modelSel.appendChild(o)});modelSel.value=current;
+byId("asof").innerHTML="Updated "+d.generated_utc+"<br/>Latest completed session: "+d.last_complete_market_day+"<br/>Data source: yfinance";
+byId("study-progress").textContent="Seven pre-defined approaches have been evaluated in three historical windows. "+(d.validation_candidate?("Validation's highest-return improvement candidate: "+d.validation_candidate+"."):"No alternative beat VOO in validation; there is no selected growth candidate.");
+function stats(m){return d.metrics[period][m]}
+function render(){
+const s=stats(current),v=stats("VOO DCA"),spread=s.annual_return_pct-v.annual_return_pct;
+byId("model-return").textContent=pct(s.annual_return_pct);
+byId("voo-return").textContent=pct(v.annual_return_pct);
+byId("model-dd").textContent=pct(s.max_drawdown_pct);
+byId("model-excess").textContent=(spread>=0?"+":"")+pct(spread);
+byId("model-excess").className=good(spread);
+byId("sharpe").textContent=num(s.sharpe_zero_cash);
+byId("voo-sharpe").textContent=num(v.sharpe_zero_cash);
+let explanation=current==="VOO DCA"?"This is the baseline: buying VOO each month without trying to time the market.":(spread>0?"In this historical window "+current+" grew faster than monthly VOO investing by "+num(spread)+" percentage points per year.":"In this historical window "+current+" grew slower than monthly VOO investing by "+num(Math.abs(spread))+" percentage points per year.");
+explanation+=" Its worst historical decline was "+pct(s.max_drawdown_pct)+" compared with "+pct(v.max_drawdown_pct)+" for VOO. ";
+explanation+="These results do not establish what will happen in the next market period.";
+byId("human").textContent=explanation;
+byId("leader").textContent=d.validation_candidate||"None beat VOO";
+byId("confidence").textContent=d.validation_candidate?(d.historical_audit_beats_voo?"One candidate outperformed in both retrospective validation and later diagnosis, but this is not an untouched live test.":"A validation-period candidate failed to outperform VOO in the later retrospective diagnostic period. There is no established edge."):"No alternative improved annual returns against VOO in the 2019–2022 validation period. Further research may or may not uncover an edge.";
+byId("strategies").innerHTML=models.map(m=>{const z=stats(m);return '<tr data-model="'+m+'" class="'+(m===current?"on":"")+'"><td>'+m+'</td><td class="'+good(z.annual_return_pct-v.annual_return_pct)+'">'+pct(z.annual_return_pct)+'</td><td>'+pct(z.max_drawdown_pct)+'</td><td>'+pct(z.volatility_pct)+'</td><td>'+num(z.sharpe_zero_cash)+'</td><td>$'+money(z.fees_usd)+'</td><td>'+money(z.orders)+'</td><td>$'+money(z.final_usd)+'</td></tr>'}).join("");
+byId("strategies").querySelectorAll("tr").forEach(row=>row.onclick=()=>{current=row.dataset.model;modelSel.value=current;render()});
+byId("rule-explainer").textContent=title[current];
+const allocations=d.current_research_allocations[current]||{};
+const parts=Object.entries(allocations).filter(p=>p[1]>.0001);
+byId("allocationbar").innerHTML=parts.map((p,i)=>'<div title="'+p[0]+'" style="width:'+(p[1]*100)+'%;background:'+colors[i%colors.length]+'"></div>').join("");
+byId("allocations").innerHTML=parts.map((p,i)=>'<div><i class="key" style="background:'+colors[i%colors.length]+'"></i>'+p[0]+' <b>'+Math.round(p[1]*100)+'%</b></div>').join("");
+byId("what-if").innerHTML=parts.map(p=>'<div style="display:flex;justify-content:space-between"><small>'+p[0]+'</small><b>$'+money(capital*p[1])+'</b></div>').join("");
+byId("trading-metrics").innerHTML='<div class="mini"><small>Simulated buys and sells</small><b>'+money(s.orders)+'</b></div><div class="mini"><small>Total estimated trading fees</small><b>$'+money(s.fees_usd)+'</b></div><div class="mini"><small>Starting amount</small><b>$'+money(d.settings.initial_usd)+'</b></div><div class="mini"><small>Account value at period end</small><b>$'+money(s.final_usd)+'</b></div>';
+byId("years").innerHTML=Object.keys(s.year_returns_pct).map(y=>{const one=s.year_returns_pct[y],two=v.year_returns_pct[y];return '<tr><td>'+y+'</td><td>'+pct(one)+'</td><td>'+pct(two)+'</td><td class="'+good(one-two)+'">'+(one-two>=0?"+":"")+pct(one-two)+'</td></tr>'}).join("");
+draw(s.curve,v.curve);
+}
+function draw(a,b){
+ const values=a.values.concat(b.values),low=Math.min(1,...values),hi=Math.max(1,...values),span=Math.max(.01,hi-low);
+ function path(arr){return arr.map((z,i)=>(27+828*i/Math.max(1,arr.length-1)).toFixed(1)+","+(235-188*(z-low)/span).toFixed(1)).join(" ")}
+ const svg=byId("plot");
+ svg.innerHTML='<line x1="25" y1="236" x2="857" y2="236" stroke="#3c506c"/><text x="31" y="255">'+a.dates[0]+'</text><text x="710" y="255">'+a.dates[a.dates.length-1]+'</text><text x="30" y="16">$1 → '+num(hi)+'x peak scale</text><polyline points="'+path(b.values)+'" fill="none" stroke="#7bc0ff" stroke-width="3" stroke-linejoin="round"/><polyline points="'+path(a.values)+'" fill="none" stroke="#f4c578" stroke-width="2.8" stroke-linejoin="round"/>';
+ byId("chart-caption").textContent="Selected model: $1 historically became $"+num(a.values[a.values.length-1])+"; VOO: $"+num(b.values[b.values.length-1])+" (TWR, selected window only).";
+}
+const sectors=d.indicators.top_sectors||[];
+byId("market-context").innerHTML='<div class="heat"><span>VOO latest close</span><strong>$'+num(d.indicators.voo_close)+'</strong></div><div class="heat"><span>VOO 200-day mean</span><strong>$'+num(d.indicators.voo_200day_sma)+'</strong></div><div class="heat"><span>VOO 21-day annualised volatility</span><strong>'+pct(d.indicators.voo_21day_vol_pct)+'</strong></div><div class="heat"><span>VOO RSI(2)</span><strong>'+num(d.indicators.rsi2)+'</strong></div><p class="sub" style="margin-top:14px">Top qualifying sector rankings</p>'+((sectors.length)?sectors.map(x=>'<div class="heat"><span>'+x.symbol+'</span><strong>'+pct(x.score_pct)+'</strong></div>').join(""):'<p class="sub">No sectors currently qualify.</p>');
+const costs=d.cost_sensitivity_bps||{};
+byId("costs").innerHTML=Object.keys(costs).length?'<table><tr><th>Cost per side</th><th>Model annual</th><th>VOO annual</th><th>Ending USD difference</th></tr>'+Object.keys(costs).map(k=>{const x=costs[k];return '<tr><td>'+k+' bps</td><td>'+pct(x.model_return_pct)+'</td><td>'+pct(x.dca_return_pct)+'</td><td class="'+good(x.final_difference_usd)+'">$'+money(x.final_difference_usd)+'</td></tr>'}).join("")+'</table>':'<p>No model beat VOO in validation, so a candidate-specific cost sensitivity analysis is not applicable.</p>';
+modelSel.onchange=()=>{current=modelSel.value;render()};
+byId("period").onchange=()=>{period=byId("period").value;render()};
+byId("capital").oninput=()=>{capital=Math.max(0,Math.min(1000000,Number(byId("capital").value)||0));render()};
+render();
+})();
+</script></body></html>
