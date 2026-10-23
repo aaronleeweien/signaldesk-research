@@ -1,0 +1,5 @@
+completed_close,ticker,event_type,details,recorded_utc,timing
+2026-10-22,PFE,STOCK_WATCH_ONLY,"{""score_pct"": 21.57, ""ticker"": ""PFE"", ""type"": ""STOCK_WATCH_ONLY""}",2026-10-23 17:53 UTC,LATE_RESEARCH_SNAPSHOT
+2026-10-22,KO,STOCK_WATCH_ONLY,"{""score_pct"": 20.58, ""ticker"": ""KO"", ""type"": ""STOCK_WATCH_ONLY""}",2026-10-23 17:53 UTC,LATE_RESEARCH_SNAPSHOT
+2026-10-22,ADBE,STOCK_WATCH_ONLY,"{""score_pct"": 17.4, ""ticker"": ""ADBE"", ""type"": ""STOCK_WATCH_ONLY""}",2026-10-23 17:53 UTC,LATE_RESEARCH_SNAPSHOT
+2026-10-22,UNH,STOCK_WATCH_ONLY,"{""score_pct"": 9.49, ""ticker"": ""UNH"", ""type"": ""STOCK_WATCH_ONLY""}",2026-10-23 17:53 UTC,LATE_RESEARCH_SNAPSHOT
