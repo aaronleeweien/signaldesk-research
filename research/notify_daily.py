@@ -28,6 +28,8 @@ def main():
             message=f"**PAPER BUY REVIEW:** {symbol} new target allocation {x['new_weight']:.0%}"
         elif t=="ETF_PAPER_EXIT_REVIEW":
             message=f"**PAPER EXIT REVIEW:** {symbol} old allocation {x['old_weight']:.0%} → 0%"
+        elif t=="ETF_MOMENTUM_WATCH":
+            message=f"**ETF MOMENTUM WATCH:** {symbol} newly met breakout conditions (not a portfolio trade)"
         else:
             message=f"**STOCK WATCH ONLY:** {symbol} newly met momentum breakout conditions (survivor bias; not a trade)"
         items.append("- "+message)
