@@ -1,0 +1,117 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SignalDesk — Stock Opportunity Research</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#090f1b;color:#eaf2fd;font:14px/1.55 ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif}
+:root{--line:#304259;--card:#132237;--muted:#a3b5cd;--accent:#8bc7fa;--good:#83e5c0;--red:#ffaba0;--amber:#ffd89c}
+main{max-width:1190px;margin:auto;padding:26px 18px 80px}h1{font-size:clamp(25px,4vw,38px);letter-spacing:-.035em;margin:3px 0 5px}h2{font-size:18px;margin:0 0 10px}
+.sub,.muted{color:var(--muted)}a{color:var(--accent)}
+nav{display:flex;gap:12px;overflow:auto;margin:24px 0}nav a{border:1px solid var(--line);text-decoration:none;border-radius:30px;padding:7px 14px;color:#c7ddf5;white-space:nowrap;font-size:12px}
+.eyebrow{font-weight:800;font-size:11px;letter-spacing:.16em;color:var(--good)}
+.warn{border:1px solid #a97c3c;background:#382d20;color:#ffe3b6;padding:17px 20px;border-radius:13px;margin-top:18px}
+.warn p{margin:6px 0 0;color:#ffe3b6}
+.columns{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(270px,.9fr);gap:15px}
+.metrics{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin:20px 0}
+.metric,.panel{background:linear-gradient(150deg,#16273f,#111d2e);border:1px solid var(--line);border-radius:15px;padding:20px}
+.metric{padding:17px}.metric small{display:block;color:var(--muted);font-size:11px}.metric b{display:block;font-size:clamp(21px,2.8vw,30px);letter-spacing:-.03em;margin-top:8px}.panel{margin-bottom:15px}
+select{border:1px solid #3f5974;background:#13243a;color:#f1f6ff;padding:10px;border-radius:10px;font:inherit}
+.controls{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin:18px 0}.controls label{color:var(--muted);font-size:12px}
+table{border-collapse:collapse;width:100%;display:block;overflow:auto}th,td{border-bottom:1px solid #32465e;padding:11px 13px;text-align:left;white-space:nowrap;font-size:12px}th{color:var(--muted)}tbody tr{cursor:pointer}tbody tr:hover{background:#203550}tbody tr.selected{background:#21405d}
+.positive{color:var(--good)}.negative{color:var(--red)}.big{font-size:19px;font-weight:700}
+.graph{display:block;width:100%;height:auto;background:#0c192a;border-radius:12px;margin:14px 0}
+.legend{display:flex;gap:20px;color:var(--muted);font-size:12px;margin:6px 0}
+.legend span:first-child{color:#9bcfff}.legend span:last-child{color:#f8c783}
+.alert{background:#0e2d34;border-left:3px solid #6cdbca;border-radius:3px 10px 10px 3px;padding:14px 16px}
+.badge{display:inline-block;background:#19354d;border:1px solid #39749b;color:#b7dcfa;border-radius:20px;padding:3px 10px;font-size:11px}
+.allocbar{display:flex;height:16px;border-radius:20px;overflow:hidden;background:#25364f;margin:14px 0}
+.holding{display:flex;justify-content:space-between;align-items:center;padding:8px 0;border-bottom:1px solid #2c4059}
+.cardgrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}.minicard{background:#0c1929;border:1px solid #2b3f58;border-radius:11px;padding:13px}
+.minicard small{color:var(--muted);display:block}.minicard b{font-size:20px}
+p{margin:9px 0}li{margin-bottom:8px}
+@media(max-width:850px){.columns{grid-template-columns:1fr}.metrics{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:540px){main{padding:18px 10px 42px}.panel{padding:15px}.metric{padding:12px}.metric b{font-size:22px}nav{gap:7px}}
+</style>
+<script type="application/json" id="report">/*RESEARCH_DATA*/</script>
+<main><div class="eyebrow">SIGNALDESK / STOCK OPPORTUNITIES / RESEARCH V1</div>
+<h1>Which stocks could be worth buying or selling?</h1>
+<p class="sub">Evidence-driven, automatically refreshed stock rankings, position changes, and backtests against VOO. The model generates decisions for a paper account; you retain control over any actual brokerage orders.</p>
+<div class="warn"><b>RESEARCH ONLY — NOT VALIDATED FOR REAL-MONEY TRADES</b>
+<p>Stock rankings use a handpicked set of surviving companies. This creates <b>survivorship bias</b> and can exaggerate historical returns. None of the positions displayed here are reliable buy/sell recommendations. Future paper signals will help us test the process without that particular hindsight problem.</p></div>
+<nav><a href="#results">Backtesting</a><a href="#signals">Entry / Exit signals</a><a href="#history">Yearly performance</a><a href="#method">Methods & risks</a><a href="lab.html">ETF Quant Lab</a><a href="forward.html">ETF paper archive</a></nav>
+<p class="muted" id="lastdate"></p>
+<div class="controls"><label for="strategy">Inspect model</label><select id="strategy"></select><label for="window">Historical period</label>
+<select id="window"><option value="development">2013–2018 · Development</option><option value="validation">2019–2022 · Validation</option><option value="diagnostic" selected>2023–latest · Retrospective</option></select><span class="badge">Market-close research, not streaming quotes</span></div>
+<div class="metrics">
+<div class="metric"><small>Model annual return</small><b id="annual">—</b><small>Net simulation</small></div>
+<div class="metric"><small>VOO annual return</small><b id="benchmark">—</b><small>Same contributions</small></div>
+<div class="metric"><small>Worst model decline</small><b id="drawdown">—</b><small>Peak to trough</small></div>
+<div class="metric"><small>Return versus VOO</small><b id="excess">—</b><small>Annual percentage-point difference</small></div>
+</div>
+<div class="columns"><div>
+<section class="panel" id="results"><h2>Plain-English result</h2><p id="plain" class="alert"></p><div class="cardgrid"><div class="minicard"><small>Model beta to VOO</small><b id="beta">—</b></div><div class="minicard"><small>Model annual volatility</small><b id="vol">—</b></div></div></section>
+<section class="panel"><h2>$1 compounded growth — model versus VOO</h2><div class="legend"><span>● VOO DCA</span><span>● Selected stock model</span></div><svg id="plot" viewBox="0 0 880 260" class="graph" role="img" aria-label="Historical compounded total-return lines"></svg><p class="sub" id="curve-caption"></p></section>
+</div><div><section class="panel"><h2>Research decision</h2><p id="decision"></p><p class="alert">No model is authorised for trading with real capital.</p>
+<h2 style="margin-top:20px">How it works</h2><p id="explain"></p></section>
+<section class="panel"><h2>Model costs</h2><div class="cardgrid"><div class="minicard"><small>Estimated trade fees</small><b id="fees">—</b></div><div class="minicard"><small>Simulated orders</small><b id="orders">—</b></div></div><p class="sub">Assumed execution fee 0.1% per side; other costs may apply.</p></section></div></div>
+<section class="panel"><h2>Strategy scorecard</h2><p class="sub">Click a row to explore how one of the six predeclared strategies behaved in the selected time period.</p>
+<table><thead><tr><th>Strategy</th><th>Annual return</th><th>Worst fall</th><th>Volatility</th><th>Beta vs VOO</th><th>Orders</th><th>End account USD</th></tr></thead><tbody id="scorecard"></tbody></table>
+<p class="sub">VOO is the benchmark. QQQ represents concentrated growth-stock exposure. The static equal-weight universe helps diagnose whether merely picking stocks that survived makes the results look unusually good.</p></section>
+<div class="columns" id="signals">
+<section class="panel"><h2>Model portfolio — estimated NEXT session</h2><p class="sub">Target weights produced from the last completed trading session, not tomorrow's price. Holidays can change the next trading date.</p><div id="allocbar" class="allocbar"></div><div id="positions"></div></section>
+<section class="panel"><h2>Paper BUY / SELL / HOLD instructions</h2><p class="sub">Change between the last completed session's model exposure and the estimated next session's model target.</p><table><thead><tr><th>Paper action</th><th>Asset</th><th>Target change</th></tr></thead><tbody id="actions"></tbody></table><p class="sub">A 0% change means HOLD. BUY/SELL means a target allocation change, not that your Syfe account has an order to place.</p></section></div>
+<div class="columns" id="history"><section class="panel"><h2>Year-by-year comparison</h2><table><thead><tr><th>Year</th><th>Model return</th><th>VOO return</th><th>Difference</th></tr></thead><tbody id="years"></tbody></table></section>
+<section class="panel"><h2>Risk checks and limitations</h2>
+<ul><li><b>Survivorship bias:</b> This prototype looks only at a fixed list of companies known today. Delisted stocks aren't captured.</li>
+<li><b>Other costs:</b> The simulation omits some taxes, bid-ask spreads, foreign exchange charges and market gaps.</li>
+<li><b>Risk exposure:</b> A model may outperform only because it concentrates in more volatile technology stocks.</li>
+<li><b>Data leakage:</b> Signals use previous completed closes and simulated fills at the following opening price.</li>
+<li><b>Future evidence:</b> Free historical survivor data alone is insufficient for trusting live money.</li></ul></section></div>
+<section id="method" class="panel"><h2>Research approach — why this might work</h2><p>Original momentum research found that stocks with strong performance over several months sometimes continued outperforming. Our model tests this hypothesis in a small, transparent stock universe. <a href="https://doi.org/10.1111/j.1540-6261.1993.tb04702.x" target="_blank" rel="noopener">Jegadeesh & Titman (1993)</a>.</p><p>But price momentum can suffer sudden crashes when market conditions change. <a href="https://www.nber.org/papers/w20439" target="_blank" rel="noopener">Daniel & Moskowitz</a> documented this danger. We therefore compare a basic top-five model against trend-filtered and defensive versions rather than assuming momentum is always safe.</p><p><b>Sample holdings:</b> 30 long-lived listed US stocks representing several industries, with a strict maximum 20% target allocation per stock in the main strategy. Monthly reviews; 12-to-1-month and six-month momentum; optional 200-day filter; no shorting or borrowing.</p><p><b>Evaluation:</b> Separate retrospective periods for 2013–2018, 2019–2022 and 2023–present. This is not a pristine out-of-sample experiment because the stock universe was chosen knowing which companies exist today. Genuine forward monitoring must start from signals recorded now.</p></section>
+<p class="muted">Data: Yahoo Finance via yfinance, adjusted price histories. A failure to download data blocks new reports. Source and full metrics are saved under <a href="https://github.com/aaronleeweien/signaldesk-research">SignalDesk GitHub</a>. No live trading, no account connection, no paid data or analytics subscription.</p></main>
+<script>
+(function(){
+const data=JSON.parse(document.getElementById("report").textContent);
+const names=data.model_names;let model="Top-5 Momentum",period="diagnostic";
+const $=id=>document.getElementById(id), fmt=x=>Number(x||0).toLocaleString("en-US",{maximumFractionDigits:2}), percent=x=>Number(x||0).toFixed(2)+"%";
+const explanations={
+"VOO DCA":"Keep buying VOO each month. This is our baseline for evaluating other methods.",
+"QQQ DCA":"Keep buying Nasdaq-100 exposure, which is more concentrated in technology and growth companies. Higher returns may simply come from taking higher risk.",
+"Static Equal Weight":"Hold equal amounts of 30 surviving large companies. This deliberately tests how strongly today's surviving-stock selection may bias the historical results.",
+"Top-5 Momentum":"Every month buy the five stocks with the strongest fixed 12-to-1-month and six-month price-momentum scores. Each receives a 20% target weight.",
+"Top-5 Trend Filter":"Rank the strongest stocks but only buy those with a positive six-month return, positive overall score, and prices above their 200-day average. Put unused positions into SHY.",
+"Top-5 Defensive":"Use the same eligible momentum stocks, but reduce exposure in weak broad markets. The remaining investment sits in short-term US Treasury ETF SHY."};
+const colors=["#80bfff","#efbd70","#80dbc0","#d6a4f2","#92c4aa","#f49f9f"];
+const $sel=$("strategy");names.forEach(n=>{const o=document.createElement("option");o.value=n;o.textContent=n;$sel.appendChild(o)});$sel.value=model;
+$("lastdate").textContent="Report generated "+data.generated_utc+" · Last completed US session "+data.last_complete_market_day+" · Estimated next session "+data.estimated_next_business_day;
+function plot(a,b){
+const combined=[...a.growth,...b.growth],low=Math.min(1,...combined),high=Math.max(1,...combined),span=Math.max(.001,high-low);
+function pts(arr){return arr.map((v,i)=>(28+i*817/Math.max(1,arr.length-1)).toFixed(1)+","+(221-185*(v-low)/span).toFixed(1)).join(" ")}
+$("plot").innerHTML='<line x1="27" y1="222" x2="854" y2="222" stroke="#48617d"/><text x="30" y="244">'+a.dates[0]+'</text><text x="720" y="244">'+a.dates[a.dates.length-1]+'</text><polyline points="'+pts(b.growth)+'" fill="none" stroke="#9bcfff" stroke-width="3"/><polyline points="'+pts(a.growth)+'" fill="none" stroke="#efbd70" stroke-width="3"/>';
+$("curve-caption").textContent="On a time-weighted basis, an initial $1 became $"+fmt(a.growth.at(-1))+" under this model versus $"+fmt(b.growth.at(-1))+" for VOO. Monthly deposits are excluded from this particular chart.";
+}
+function render(){
+ const metrics=data.metrics[period],m=metrics[model],b=metrics["VOO DCA"],diff=m.annual_twr_pct-b.annual_twr_pct;
+ $("annual").textContent=percent(m.annual_twr_pct);$("benchmark").textContent=percent(b.annual_twr_pct);
+ $("drawdown").textContent=percent(m.worst_drawdown_pct);$("excess").textContent=(diff>=0?"+":"")+percent(diff);
+ $("excess").className=diff>=0?"positive":"negative";
+ $("beta").textContent=m.beta_to_voo.toFixed(2);$("vol").textContent=percent(m.volatility_pct);
+ $("fees").textContent="$"+fmt(m.fees_usd);$("orders").textContent=fmt(m.orders);
+ $("explain").textContent=explanations[model];
+ $("decision").innerHTML=data.selection_from_validation
+ ? "Validation-period research candidate: <b>"+data.selection_from_validation+"</b>. Later diagnostic outperformance: <b>"+(data.diagnostic_outperformed_voo?"YES":"NO")+"</b>. This cannot approve real trading because of survivorship bias."
+ : "No momentum candidate cleared the predeclared validation comparison with VOO. Keep this as paper research.";
+ $("plain").textContent=model==="VOO DCA"?"This is the passive comparator: monthly buying of the same ETF."
+ : "Historically, "+model+" returned "+percent(Math.abs(diff))+" a year "+(diff>0?"MORE":"LESS")+" than VOO in this period, with a worst drawdown of "+percent(m.worst_drawdown_pct)+". Even positive results here may be inflated by hindsight stock selection and are not a proven trading edge.";
+ $("scorecard").innerHTML=names.map(n=>{const r=metrics[n];return '<tr data-m="'+n+'" class="'+(n===model?"selected":"")+'"><td>'+n+'</td><td class="'+(r.annual_twr_pct>=b.annual_twr_pct?"positive":"negative")+'">'+percent(r.annual_twr_pct)+'</td><td>'+percent(r.worst_drawdown_pct)+'</td><td>'+percent(r.volatility_pct)+'</td><td>'+fmt(r.beta_to_voo)+'</td><td>'+r.orders+'</td><td>$'+fmt(r.ending_usd)+'</td></tr>'}).join("");
+ [...$("scorecard").querySelectorAll("tr")].forEach(row=>row.onclick=()=>{model=row.dataset.m;$sel.value=model;render()});
+ const allocations=Object.entries(data.next_session_research_targets[model]).filter(z=>z[1]>.00001);
+ $("allocbar").innerHTML=allocations.map((z,i)=>'<div style="height:100%;width:'+(z[1]*100)+'%;background:'+colors[i%colors.length]+'" title="'+z[0]+' '+Math.round(z[1]*100)+'%"></div>').join("");
+ $("positions").innerHTML=allocations.map((z,i)=>'<div class="holding"><span><span style="color:'+colors[i%colors.length]+'">●</span> '+z[0]+'</span><b>'+percent(z[1]*100)+'</b></div>').join("");
+ $("actions").innerHTML=data.paper_action_changes[model].filter(z=>Math.abs(z.new_target_pct)>0.0001||Math.abs(z.previous_target_pct)>0.0001).map(z=>'<tr><td class="'+(z.action.includes("BUY")?"positive":z.action.includes("SELL")?"negative":"")+'">'+z.action+'</td><td>'+z.ticker+'</td><td>'+(z.change_percentage_points>0?"+":"")+fmt(z.change_percentage_points)+' pp</td></tr>').join("");
+ $("years").innerHTML=Object.keys(m.annual_by_year).map(y=>{let a=m.annual_by_year[y],z=b.annual_by_year[y],delta=a-z;return '<tr><td>'+y+'</td><td>'+percent(a)+'</td><td>'+percent(z)+'</td><td class="'+(delta>=0?"positive":"negative")+'">'+(delta>=0?"+":"")+percent(delta)+'</td></tr>'}).join("");
+ plot(m.curve,b.curve);
+}
+$sel.onchange=()=>{model=$sel.value;render()};
+$("window").onchange=()=>{period=$("window").value;render()};
+render();
+})();
+</script></html>
