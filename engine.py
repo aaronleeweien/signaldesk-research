@@ -62,7 +62,8 @@ def backtest(d,signal,begin,end):
         elif not t and units>1e-10:
             proceeds=units*op;fee=proceeds*COST;cash+=proceeds-fee;units=0.;cost+=fee;orders+=1
         val=cash+units*close
-        returns.append((val-deposit)/old-1);equity.append(val);dates.append(dt)
+        # Contributions arrive before the session; use starting equity PLUS the deposit in the denominator.
+        returns.append(val/(old+deposit)-1);equity.append(val);dates.append(dt)
     growth=np.cumprod(1+np.array(returns));drawdown=growth/np.maximum.accumulate(growth)-1
     years=(dates[-1]-dates[0]).days/365.25
     ann=(growth[-1]**(1/years)-1)*100
