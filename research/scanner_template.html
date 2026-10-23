@@ -1,0 +1,71 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>SignalDesk Daily Momentum Scanner</title>
+<style>
+:root{color-scheme:dark;--bg:#091322;--card:#14243a;--line:#2d435e;--text:#eff5ff;--muted:#aabbd1;--buy:#83e4c3;--sell:#ffa3a0;--accent:#93c9ff}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at 80% -30%,#224062,#091322 55%);font:14px/1.5 system-ui,-apple-system,Segoe UI,sans-serif;color:var(--text)}main{max-width:1200px;padding:24px 18px 60px;margin:auto}
+h1{font-size:clamp(25px,4vw,38px);line-height:1.15;letter-spacing:-.03em;margin:7px 0}h2{font-size:18px;margin:0 0 9px}h3{font-size:15px;margin:0 0 7px}
+nav{display:flex;flex-wrap:wrap;gap:9px;margin:20px 0}nav a{border:1px solid var(--line);border-radius:22px;padding:7px 12px;color:#c6dafa;text-decoration:none;font-size:12px}
+a{color:var(--accent)}.muted,small{color:var(--muted)}.eyebrow{font-weight:750;color:var(--buy);font-size:11px;letter-spacing:.16em}.lead{max-width:850px;color:var(--muted)}
+.warn{border:1px solid #9b794b;background:#403122;color:#ffe4b4;padding:15px 17px;border-radius:12px;margin:18px 0}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.split{display:grid;grid-template-columns:1.6fr 1fr;gap:13px}
+.card,.panel{border:1px solid var(--line);background:linear-gradient(155deg,#182c46,#111e30);border-radius:15px;padding:19px;margin-bottom:13px}.card{padding:16px}.card small{font-size:11px;display:block}.card strong{display:block;font-size:clamp(18px,2.7vw,29px);margin:7px 0}
+.good{color:var(--buy)}.bad{color:var(--sell)}.pill{font-size:11px;padding:4px 8px;border:1px solid #395573;background:#142b45;border-radius:15px}
+table{width:100%;border-collapse:collapse;display:block;overflow:auto}th,td{text-align:left;border-bottom:1px solid #31455d;padding:11px 12px;white-space:nowrap;font-size:12px}th{color:var(--muted)}td span{color:var(--muted)}
+tr:hover{background:#23406366}p{margin:8px 0;line-height:1.6}
+.callout{background:#102b36;border-left:3px solid #79dcbe;border-radius:3px 9px 9px 3px;padding:13px 15px}
+.bar{height:17px;display:flex;background:#273a55;border-radius:20px;overflow:hidden;margin:12px 0}.bar div{height:100%}
+.controls{display:flex;align-items:center;flex-wrap:wrap;gap:10px;margin:8px 0 16px}select{background:#102136;border:1px solid #426280;border-radius:9px;color:var(--text);font:inherit;padding:9px}
+footer{margin-top:25px;border-top:1px solid var(--line);padding-top:15px;font-size:12px;color:var(--muted)}
+@media(max-width:900px){.grid{grid-template-columns:repeat(2,1fr)}.split{grid-template-columns:1fr}}
+@media(max-width:540px){main{padding:17px 10px 40px}.panel,.card{padding:14px}.grid{gap:7px}.card strong{font-size:21px}}
+</style></head>
+<body><script id="snapshot" type="application/json">/*SCAN_DATA*/</script><main>
+<header><div class="eyebrow">SIGNALDESK / DAILY SIGNALS / AUTOMATIC</div><h1>Market opportunities, without daily searching.</h1><p class="lead">Automatically check US ETFs and selected stocks after the market closes. New ETF entry/exit changes are recorded for paper trading; stock breakout events are research watch alerts.</p></header>
+<div class="warn"><b>NOT APPROVED FOR REAL TRADING</b><p>This is a newly researched DAILY strategy, not the previously tested monthly SPMO strategy. Today's scan is only a signal candidate. A breakout can fail and historical performance may not continue.</p></div>
+<nav><a href="#today">Today's events</a><a href="#research">Historical evidence</a><a href="#holdings">Hypothetical positions</a><a href="#rules">Exact methodology</a><a href="factor.html">SPMO monthly strategy</a><a href="daily_events.json">Event history</a></nav>
+<p class="muted" id="asof"></p>
+<div class="grid">
+<div class="card"><small>ETF entries today</small><strong id="newbuys">—</strong><small>Paper-only reviews</small></div>
+<div class="card"><small>ETF exits today</small><strong id="newexits">—</strong><small>Paper-only reviews</small></div>
+<div class="card"><small>Stock momentum watches</small><strong id="stockwatch">—</strong><small>Survivor-universe limitations</small></div>
+<div class="card"><small>Scanner status</small><strong id="status">—</strong><small>Newest completed market session</small></div>
+</div>
+<div class="split" id="today"><section class="panel"><h2>Events detected on the latest completed US session</h2><div id="new_events"></div><p class="muted" style="font-size:12px">BUY / EXIT mean hypothetical portfolio changes after the market close. No brokerage orders are submitted. Existing alerts are not repeated if the workflow reruns on the same date.</p></section>
+<section class="panel"><h2>How to use this page</h2><p class="callout" id="action-explainer"></p><p><b>iPhone alerts:</b> GitHub Mobile can notify when a new signal Issue is assigned to you. You must enable push notifications for issue assignments. No alert is sent if the scanner finds nothing new.</p><p><a href="https://github.com/aaronleeweien/signaldesk-research/issues">View generated alert Issues →</a></p></section></div>
+<section id="research" class="panel"><h2>Does the daily rule beat VOO or SPMO historically?</h2>
+<div class="controls"><label for="window">Time period</label><select id="window"><option value="full">2017–latest</option><option value="2017_2021">2017–2021</option><option value="2022_present" selected>2022–latest (already reviewed)</option></select></div>
+<table><thead><tr><th>Strategy</th><th>Annual growth</th><th>Worst decline</th><th>Volatility</th><th>Orders</th><th>Fees USD</th><th>Portfolio ending USD</th></tr></thead><tbody id="results"></tbody></table>
+<p class="muted">All strategies use the same US$2,000 starting amount, US$100 per calendar month and 0.1% trading cost per side. No taxes, broker minimums or FX fees. The daily strategy isn't a validated profitable system—even if a historical period looks promising.</p></section>
+<div class="split" id="holdings"><div class="panel"><h2>Current hypothetical ETF portfolio</h2><div class="bar" id="bar"></div><div id="positions"></div><p class="muted">The positions describe the model's allocation at the latest completed market close. Trading those positions is not recommended until the approach is validated.</p></div>
+<div class="panel"><h2>Today's strongest breakout candidates</h2><table><thead><tr><th>ETF</th><th>Momentum score</th></tr></thead><tbody id="rankings"></tbody></table><p class="muted">A breakout is only a preliminary observation. Selection depends on available portfolio slots; strong candidates may generate no new order.</p></div></div>
+<section class="panel" id="rules"><h2>Exact rules the model actually tests</h2>
+<p><b>Daily scan:</b> Each US market close, check tracked ETFs for three positive momentum conditions: price above its 200-day moving average, positive gains over the previous 63 and 126 trading sessions, and a close above the previous 20-session high.</p>
+<p><b>Paper BUY:</b> Add a newly qualifying breakout to the portfolio when there is room. Maximum two ETFs, equally weighted; invest unused slots in short-term Treasury ETF SHY.</p>
+<p><b>Paper EXIT:</b> Remove an ETF when its close falls below its previous 20-day low, 200-day average, or when its 63-day return is no longer positive. Hypothetical orders execute at the next US session's opening price.</p>
+<p><b>Stock watchlist:</b> The same breakout conditions are applied to our fixed 30-stock exploratory universe, but stock events are not portfolio trades because choosing surviving companies creates hindsight bias.</p>
+<p><b>Notifications:</b> Only brand-new events recorded before the following estimated US session opens are eligible for an assigned GitHub Issue. Monthly SPMO buying remains a separate strategy and is not changed by this scanner.</p></section>
+<footer>SignalDesk Daily Scanner · Automated research updates · Public ticker research only · No brokerage execution · <a href="https://github.com/aaronleeweien/signaldesk-research">Source code</a>. Scheduled checks are subject to GitHub delays and the US exchange calendar.</footer>
+</main>
+<script>
+(()=>{const d=JSON.parse(document.getElementById("snapshot").textContent),$=n=>document.getElementById(n);
+const pct=v=>Number(v||0).toFixed(2)+"%",money=v=>Number(v||0).toLocaleString("en-US",{maximumFractionDigits:2});
+$("asof").textContent="Last completed session: "+d.latest_completed_us_close+" · Updated "+d.generated_utc+" · Estimated next US business day: "+d.estimated_next_business_day;
+const events=d.new_events_on_latest_close||[];
+const buys=events.filter(z=>z.type==="ETF_PAPER_BUY_REVIEW");
+const sells=events.filter(z=>z.type==="ETF_PAPER_EXIT_REVIEW");
+const watches=events.filter(z=>z.type==="STOCK_WATCH_ONLY");
+$("newbuys").textContent=buys.length;$("newexits").textContent=sells.length;$("stockwatch").textContent=watches.length;
+$("status").textContent=events.length?"Changes":"No changes";
+$("new_events").innerHTML=events.length?events.map(z=>'<div style="padding:14px 3px;border-bottom:1px solid #2c435f"><strong class="'+(z.type.includes("EXIT")?"bad":"good")+'">'+z.type.replaceAll("_"," ")+'</strong><br><b style="font-size:19px">'+z.ticker+'</b><br><small>'+((z.new_weight!==undefined)?"Target "+pct(z.new_weight*100):"Momentum score "+pct(z.score_pct))+'</small></div>').join(""):'<p class="callout">No new ETF entries, exits, or stock breakout watches today. This is normal. Do not trade simply to stay active.</p>';
+$("action-explainer").textContent=events.length?
+  "Today's model detected "+buys.length+" ETF entries and "+sells.length+" exits. These are PAPER signals; inspect the backtest and the underlying risk before even considering a real trade.":
+  "No meaningful new action today. You do not need to open your broker or change your current S&P 500 DCA plan.";
+const positions=Object.entries(d.latest_strategy_weights);
+const colors=["#78ddb8","#93c9ff","#ecc385"];
+$("bar").innerHTML=positions.map(([sym,weight],i)=>'<div style="width:'+(weight*100)+'%;background:'+colors[i%3]+'" title="'+sym+'"></div>').join("");
+$("positions").innerHTML=positions.map(([sym,weight],i)=>'<div style="display:flex;justify-content:space-between;padding:9px 2px;border-bottom:1px solid #30485e"><b>'+sym+'</b><strong>'+pct(weight*100)+'</strong></div>').join("");
+$("rankings").innerHTML=d.current_breakout_rankings.length?d.current_breakout_rankings.map(x=>'<tr><td>'+x.ticker+'</td><td>'+pct(x.score_pct)+'</td></tr>').join(""):'<tr><td colspan="2">No qualifying breakouts on the latest close</td></tr>';
+const translate={"daily_2_etf_momentum":"Daily ETF momentum","VOO_DCA":"VOO DCA","SPMO_DCA":"SPMO DCA","QQQ_DCA":"QQQ DCA"};
+function render(){const results=d.backtests[$("window").value];$("results").innerHTML=Object.entries(results).map(([name,r])=>'<tr><td><b>'+translate[name]+'</b></td><td>'+pct(r.annual_pct)+'</td><td>'+pct(r.max_drawdown_pct)+'</td><td>'+pct(r.vol_pct)+'</td><td>'+r.orders+'</td><td>$'+money(r.fees_usd)+'</td><td>$'+money(r.end_usd)+'</td></tr>').join("")}
+$("window").onchange=render;render();
+})();
+</script></body></html>
