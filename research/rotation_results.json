@@ -18,7 +18,7 @@
     },
     "Top 1": {
       "annual_twr_pct": 13.49,
-      "end_usd": 27050.29,
+      "end_usd": 27050.28,
       "worst_decline_pct": -21.41,
       "orders": 140,
       "fees_usd": 650.29,
@@ -41,7 +41,7 @@
     },
     "Diversified": {
       "annual_twr_pct": 8.18,
-      "end_usd": 20023.38,
+      "end_usd": 20023.4,
       "worst_decline_pct": -18.26,
       "orders": 269,
       "fees_usd": 566.34,

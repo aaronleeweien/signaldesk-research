@@ -21,7 +21,7 @@ Data through: 2026-10-22
 | Test | Estimated annual alpha % | Monthly beta | HAC t-stat | Approx p | Bootstrap 90% annual active-return CI |
 |---|---:|---:|---:|---:|---|
 | vs VOO | 5.1033 | 1.0469 | 0.8885 | 0.3743 | [-3.7226, 16.0365]% |
-| vs QQQ | 3.8735 | 0.8654 | 0.7188 | 0.4723 | [-8.4274, 10.6835]% |
+| vs QQQ | 3.8735 | 0.8654 | 0.7188 | 0.4723 | [-8.4275, 10.6835]% |
 
 HAC uses Newey-West 3-lag standard errors. Approximate p-values use a normal approximation,
 bootstrap is a three-month circular block bootstrap over the same retrospective data.
