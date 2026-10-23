@@ -173,7 +173,7 @@ def stocks_watch():
                 pieces.append({"ticker":symbol,"score_pct":round(float(score*100),2),
                   "status":"STOCK MOMENTUM WATCH ONLY — biased historical universe"})
         pieces.sort(key=lambda z:z["score_pct"],reverse=True)
-        return pieces[:5],len(close.columns),str(end.date())
+        return pieces,len(close.columns),str(end.date())
     except Exception as e:
         return [],0,"unavailable (stock scan failed)"
 
