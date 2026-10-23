@@ -98,63 +98,77 @@ def plans(df):
     return result
 
 def backtest(df,schedule,start,end,fee=COST):
-    all_idx=df.index
-    selected=np.flatnonzero((all_idx>=pd.Timestamp(start))&(all_idx<=pd.Timestamp(end)))
+    """Fast long-only portfolio simulation; use prior-close targets at next open."""
+    index=df.index
+    selected=np.flatnonzero((index>=pd.Timestamp(start))&(index<=pd.Timestamp(end)))
     if len(selected)<150:raise ValueError("Insufficient observations")
-    shares={t:0. for t in TICKERS}
-    cash=INITIAL;deposited=INITIAL;previous_equity=INITIAL
-    prev_month=None;prev_weights=None
-    n_orders=0;paid=0.;net_returns=[];navs=[];last_target={}
+    # Matrix cache avoids hundreds of thousands of expensive pandas row lookups.
+    opening=df.xs("Open",level=1,axis=1).reindex(columns=TICKERS).to_numpy(dtype=float)
+    closing=df.xs("Close",level=1,axis=1).reindex(columns=TICKERS).to_numpy(dtype=float)
+    symbol_idx={name:i for i,name in enumerate(TICKERS)}
+    n=len(TICKERS)
+    units=np.zeros(n,dtype=float)
+    cash=INITIAL;deposited=INITIAL;prev_equity=INITIAL
+    prev_month=None;previous_target=None
+    orders=0;fees=0.;returns=[];last_target={}
     for j in selected:
-        today=all_idx[j]
-        deposit=0.
-        if prev_month is not None and today.to_period("M")!=prev_month:
-            cash+=CONTRIBUTION;deposited+=CONTRIBUTION;deposit=CONTRIBUTION
+        month=index[j].to_period("M")
+        contribution=0.
+        if prev_month is not None and month!=prev_month:
+            cash+=CONTRIBUTION;deposited+=CONTRIBUTION;contribution=CONTRIBUTION
         target=schedule[j]
-        if prev_month is None or today.to_period("M")!=prev_month or target!=prev_weights:
-            opens={t:float(df.iloc[j][t,"Open"]) for t in TICKERS}
-            portfolio_open=cash+sum(shares[t]*opens[t] for t in TICKERS)
-            intended={t:portfolio_open*target.get(t,0.) for t in TICKERS}
-            for t in TICKERS:
-                sale=max(0.,shares[t]*opens[t]-intended[t])
-                if sale>.01:
-                    qty=min(shares[t],sale/opens[t]);gross=qty*opens[t];commission=gross*fee
-                    cash+=gross-commission;shares[t]-=qty
-                    n_orders+=1;paid+=commission
-            for t in TICKERS:
-                buying=max(0.,intended[t]-shares[t]*opens[t])
-                buying=min(buying,cash/(1+fee))
-                if buying>.01:
-                    commission=buying*fee;shares[t]+=buying/opens[t];cash-=buying+commission
-                    n_orders+=1;paid+=commission
-        ending=cash+sum(shares[t]*float(df.iloc[j][t,"Close"]) for t in TICKERS)
-        if cash<-.02 or ending<=0:raise AssertionError("Invalid cash or leverage")
-        net_returns.append(ending/(previous_equity+deposit)-1.)
-        navs.append(ending)
-        previous_equity=ending;prev_month=today.to_period("M");prev_weights=target.copy();last_target=target.copy()
-    rets=np.asarray(net_returns)
-    wealth=np.cumprod(1+rets)
-    maxdd=float((wealth/np.maximum.accumulate(np.r_[1.,wealth])[1:]-1.).min()*100)
-    yrs=(all_idx[selected[-1]]-all_idx[selected[0]]).days/365.25
-    annual=float((wealth[-1]**(1/yrs)-1)*100)
-    std=float(np.std(rets,ddof=1))
-    volatility=std*252**.5*100
-    sharpe=float(np.mean(rets)/std*252**.5) if std>0 else 0.
-    market=df["VOO","Close"].pct_change().reindex(all_idx[selected]).fillna(0.).values
-    beta=float(np.cov(rets,market,ddof=1)[0,1]/np.var(market,ddof=1)) if np.var(market,ddof=1)>0 else 0.
-    annual_by_year={}
-    for year in sorted(set(all_idx[selected].year)):
-        mask=all_idx[selected].year==year
-        annual_by_year[str(year)]=round(float((np.prod(1+rets[mask])-1)*100),2)
-    ind=np.unique(np.linspace(0,len(wealth)-1,min(240,len(wealth))).astype(int))
-    return {"annual_twr_pct":round(annual,2),"worst_drawdown_pct":round(maxdd,2),
-         "volatility_pct":round(volatility,2),"sharpe":round(sharpe,2),"beta_to_voo":round(beta,2),
-         "ending_usd":round(ending,2),"total_contributed_usd":round(deposited,2),
-         "fees_usd":round(paid,2),"orders":n_orders,
-         "annual_by_year":annual_by_year,
-         "last_weights":last_target,
-         "curve":{"dates":[str(all_idx[selected[k]].date()) for k in ind],
-                  "growth":[round(float(wealth[k]),4) for k in ind]}}
+        if prev_month is None or month!=prev_month or target!=previous_target:
+            opened=opening[j]
+            gross_open=cash+float(np.dot(units,opened))
+            desired=np.zeros(n,dtype=float)
+            for symbol,fraction in target.items():
+                desired[symbol_idx[symbol]]=gross_open*fraction
+            owned=units*opened
+            sell=np.maximum(owned-desired,0.)
+            for k in np.flatnonzero(sell>.01):
+                amount=min(owned[k],sell[k])
+                units[k]-=amount/opened[k]
+                costs=amount*fee;cash+=amount-costs;orders+=1;fees+=costs
+            owned=units*opened
+            needs=np.maximum(desired-owned,0.)
+            for k in np.flatnonzero(needs>.01):
+                amount=min(needs[k],cash/(1.+fee))
+                if amount>.01:
+                    costs=amount*fee
+                    units[k]+=amount/opened[k]
+                    cash-=amount+costs
+                    orders+=1;fees+=costs
+        equity=cash+float(np.dot(units,closing[j]))
+        if equity<=0 or cash<-.02:raise AssertionError("Invalid cash or leverage")
+        returns.append(equity/(prev_equity+contribution)-1.)
+        prev_equity=equity;prev_month=month
+        previous_target=target.copy();last_target=target.copy()
+    r=np.asarray(returns,dtype=float)
+    compound=np.cumprod(1+r)
+    peaks=np.maximum.accumulate(np.r_[1.,compound])[1:]
+    drawdown=float((compound/peaks-1.).min()*100)
+    years=(index[selected[-1]]-index[selected[0]]).days/365.25
+    annual=float((compound[-1]**(1./years)-1.)*100)
+    sigma=float(np.std(r,ddof=1))
+    vol=sigma*252**.5*100
+    sharpe=float(np.mean(r)/sigma*252**.5) if sigma>0 else 0.
+    prices=closing[selected,symbol_idx["VOO"]]
+    market=np.diff(np.r_[closing[selected[0]-1,symbol_idx["VOO"]] if selected[0]>0 else prices[0],prices]) / np.r_[closing[selected[0]-1,symbol_idx["VOO"]] if selected[0]>0 else prices[0],prices[:-1]]
+    market_var=float(np.var(market,ddof=1))
+    beta=float(np.cov(r,market,ddof=1)[0,1]/market_var) if market_var>0 else 0.
+    years_return={}
+    for year in sorted(set(index[selected].year)):
+        v=r[index[selected].year==year]
+        years_return[str(year)]=round(float((np.prod(1+v)-1.)*100),2)
+    sampled=np.unique(np.linspace(0,len(compound)-1,min(240,len(compound))).astype(int))
+    return {"annual_twr_pct":round(annual,2),
+      "worst_drawdown_pct":round(drawdown,2),"volatility_pct":round(vol,2),
+      "sharpe":round(sharpe,2),"beta_to_voo":round(beta,2),
+      "ending_usd":round(equity,2),"total_contributed_usd":round(deposited,2),
+      "fees_usd":round(fees,2),"orders":orders,"annual_by_year":years_return,
+      "last_weights":last_target,
+      "curve":{"dates":[str(index[selected[k]].date()) for k in sampled],
+               "growth":[round(float(compound[k]),4) for k in sampled]}}
 
 def get_next_session_target(df):
     # Replicate the calculation as if one additional future market session had just opened.
