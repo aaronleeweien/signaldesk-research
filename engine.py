@@ -155,7 +155,7 @@ def main():
             for k,q in holdout.items()
         },
         "cost_sensitivity": [
-            {"cost_bps": int(bps), "model_annual_return_pct": float(m), "dca_annual_return_pct": float(dca), "model_minus_dca_final_usd": float(diff)}
+            {"cost_bps": int(round(bps*10000)), "model_annual_return_pct": float(m), "dca_annual_return_pct": float(dca), "model_minus_dca_final_usd": float(diff)}
             for bps,m,dca,diff in [
                 (
                     float(cost),
