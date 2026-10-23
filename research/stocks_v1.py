@@ -97,7 +97,7 @@ def plans(df):
         for model in NAMES:result[model].append(active[model].copy())
     return result
 
-def backtest(df,schedule,start,end,fee=COST):
+def backtest(df,schedule,start,end,fee=COST,detail=False):
     """Fast long-only portfolio simulation; use prior-close targets at next open."""
     index=df.index
     selected=np.flatnonzero((index>=pd.Timestamp(start))&(index<=pd.Timestamp(end)))
@@ -161,7 +161,7 @@ def backtest(df,schedule,start,end,fee=COST):
         v=r[index[selected].year==year]
         years_return[str(year)]=round(float((np.prod(1+v)-1.)*100),2)
     sampled=np.unique(np.linspace(0,len(compound)-1,min(240,len(compound))).astype(int))
-    return {"annual_twr_pct":round(annual,2),
+    result={"annual_twr_pct":round(annual,2),
       "worst_drawdown_pct":round(drawdown,2),"volatility_pct":round(vol,2),
       "sharpe":round(sharpe,2),"beta_to_voo":round(beta,2),
       "ending_usd":round(equity,2),"total_contributed_usd":round(deposited,2),
@@ -169,6 +169,10 @@ def backtest(df,schedule,start,end,fee=COST):
       "last_weights":last_target,
       "curve":{"dates":[str(index[selected[k]].date()) for k in sampled],
                "growth":[round(float(compound[k]),4) for k in sampled]}}
+    if detail:
+        result["daily_dates"]=[str(index[j].date()) for j in selected]
+        result["daily_returns"]=[float(z) for z in r]
+    return result
 
 def get_next_session_target(df):
     # Replicate the calculation as if one additional future market session had just opened.
@@ -258,6 +262,8 @@ def generate():
         lines.append("- "+m+": "+", ".join(f"{t} {100*v:.0f}%" for t,v in next_targets[m].items()))
     lines+=["","A currently successful backtest cannot certify a strategy; observe predictions with future data before considering real-money use."]
     Path("research/stocks_v1.md").write_text("\n".join(lines)+"\n",encoding="utf-8")
+    from institutional_v4 import build as build_institutional_report
+    build_institutional_report(df,targets,doc)
     home=Path("site/index.html")
     if home.exists():
         h=home.read_text(encoding="utf-8")
