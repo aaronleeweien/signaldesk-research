@@ -14,6 +14,13 @@ def prices():
         raise ValueError("Market data unavailable or incomplete; refusing to publish")
     d=x[["Open","Close"]].dropna().copy()
     d.index=pd.to_datetime(d.index).tz_localize(None)
+    # Daily bars may include today's incomplete US session during manual reruns.
+    # Never use a partially formed bar as if the regular session had closed.
+    new_york_time = pd.Timestamp.now(tz="America/New_York")
+    if d.index[-1].date() == new_york_time.date() and (
+        new_york_time.hour, new_york_time.minute
+    ) < (16, 30):
+        d = d.iloc[:-1]
     if (d<=0).any().any() or d.index[-1] < pd.Timestamp.utcnow().tz_localize(None)-pd.Timedelta(days=8):
         raise ValueError("Invalid/stale data; refusing to publish")
     return d
