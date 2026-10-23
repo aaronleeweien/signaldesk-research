@@ -126,7 +126,7 @@ def main():
     for a,c in {"UPDATED":updated,"LASTDATE":str(d.index[-1].date()),"TARGET":html.escape(model_target),
        "REPORTSTATUS":html.escape(report_status),"WINNER":html.escape(winner),
        "MODELRETURN":f"{w['annual']:.2f}%","DCARETURN":f"{b['annual']:.2f}%",
-       "EXPLANATION":html.escape(interpretation),"ROWS":rows,"CHART":graph,"COSTROWS":fees_html}.items()::
+       "EXPLANATION":html.escape(interpretation),"ROWS":rows,"CHART":graph,"COSTROWS":fees_html}.items():
         page=page.replace(a,c)
     Path("site").mkdir(exist_ok=True);Path("site/index.html").write_text(page,encoding="utf-8")
     print("Generated historical dashboard",str(d.index[-1].date()),"selected",winner,"passed",passed)
