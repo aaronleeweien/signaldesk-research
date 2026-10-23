@@ -26,7 +26,7 @@ footer{margin-top:25px;border-top:1px solid var(--line);padding-top:15px;font-si
 <div class="grid">
 <div class="card"><small>ETF entries today</small><strong id="newbuys">—</strong><small>Paper-only reviews</small></div>
 <div class="card"><small>ETF exits today</small><strong id="newexits">—</strong><small>Paper-only reviews</small></div>
-<div class="card"><small>Stock momentum watches</small><strong id="stockwatch">—</strong><small>Survivor-universe limitations</small></div>
+<div class="card"><small>New momentum watches</small><strong id="stockwatch">—</strong><small>ETF and stock breakout watchlist</small></div>
 <div class="card"><small>Scanner status</small><strong id="status">—</strong><small>Newest completed market session</small></div>
 </div>
 <div class="split" id="today"><section class="panel"><h2>Events detected on the latest completed US session</h2><div id="new_events"></div><p class="muted" style="font-size:12px">BUY / EXIT mean hypothetical portfolio changes after the market close. No brokerage orders are submitted. Existing alerts are not repeated if the workflow reruns on the same date.</p></section>
@@ -52,10 +52,10 @@ $("asof").textContent="Last completed session: "+d.latest_completed_us_close+" �
 const events=d.new_events_on_latest_close||[];
 const buys=events.filter(z=>z.type==="ETF_PAPER_BUY_REVIEW");
 const sells=events.filter(z=>z.type==="ETF_PAPER_EXIT_REVIEW");
-const watches=events.filter(z=>z.type==="STOCK_WATCH_ONLY");
+const watches=events.filter(z=>z.type.includes("WATCH"));
 $("newbuys").textContent=buys.length;$("newexits").textContent=sells.length;$("stockwatch").textContent=watches.length;
 $("status").textContent=events.length?"Changes":"No changes";
-$("new_events").innerHTML=events.length?events.map(z=>'<div style="padding:14px 3px;border-bottom:1px solid #2c435f"><strong class="'+(z.type.includes("EXIT")?"bad":"good")+'">'+z.type.replaceAll("_"," ")+'</strong><br><b style="font-size:19px">'+z.ticker+'</b><br><small>'+((z.new_weight!==undefined)?"Target "+pct(z.new_weight*100):"Momentum score "+pct(z.score_pct))+'</small></div>').join(""):'<p class="callout">No new ETF entries, exits, or stock breakout watches today. This is normal. Do not trade simply to stay active.</p>';
+$("new_events").innerHTML=events.length?events.map(z=>'<div style="padding:14px 3px;border-bottom:1px solid #2c435f"><strong class="'+(z.type.includes("EXIT")?"bad":"good")+'">'+z.type.replaceAll("_"," ")+'</strong><br><b style="font-size:19px">'+z.ticker+'</b><br><small>'+((z.new_weight!==undefined)?"Target "+pct(z.new_weight*100):"Momentum score "+pct(z.score_pct))+'</small></div>').join(""):'<p class="callout">No new ETF entries, exits, or ETF/stock breakout watches today. This is normal. Do not trade simply to stay active.</p>';
 $("action-explainer").textContent=events.length?
   "Today's model detected "+buys.length+" ETF entries and "+sells.length+" exits. These are PAPER signals; inspect the backtest and the underlying risk before even considering a real trade.":
   "No meaningful new action today. You do not need to open your broker or change your current S&P 500 DCA plan.";
