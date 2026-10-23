@@ -34,13 +34,15 @@ jobs:
         run: python research/quant_lab.py
       - name: Run cross-sectional stock-opportunity research and generate dashboard
         run: python research/stocks_v1.py
+      - name: Record timestamped, future-only stock research allocations
+        run: python research/stocks_paper.py
       - name: Record permanent paper-only strategy snapshots
         run: python research/paper_journal.py
       - name: Save public summary for connected assistants
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add latest_report.md latest_report.json research/rotation_results.md research/rotation_results.json research/lab_v3.md research/lab_v3.json research/paper_signals.csv research/stocks_v1.md research/stocks_v1.json
+          git add latest_report.md latest_report.json research/rotation_results.md research/rotation_results.json research/lab_v3.md research/lab_v3.json research/paper_signals.csv research/stocks_v1.md research/stocks_v1.json research/stocks_paper.csv
           if ! git diff --cached --quiet; then
             git commit -m "Update VOO research results [skip ci]"
             git pull --rebase -X theirs origin main
