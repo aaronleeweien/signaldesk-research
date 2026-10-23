@@ -75,7 +75,7 @@ def simulate(data,method,begin,finish):
             latest=targets(data,prior[-1],method)
             opening={k:float(row[k,"Open"]) for k in SYMS}
             open_value=cash+sum(holdings[k]*opening[k] for k in SYMS)
-            desired={k:open_value*latest.get(k,0)/(1+COST) for k in SYMS}
+            desired={k:open_value*latest.get(k,0) for k in SYMS}
             for k in SYMS:
                 sell=max(0.,holdings[k]*opening[k]-desired[k])
                 if sell>.01:
