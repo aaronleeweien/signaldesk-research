@@ -1,0 +1,55 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>SignalDesk · Wider US Market Search</title><style>
+:root{color-scheme:dark;--fg:#ecf5ff;--muted:#b4c6d7;--line:#334f68;--panel:#122a3d;--a:#a2ddff}
+*{box-sizing:border-box}body{background:radial-gradient(ellipse at 85% 0%,#1a3b50,#081522 55%);color:var(--fg);margin:0;font:14px/1.5 system-ui,-apple-system,sans-serif}main{max-width:1180px;margin:auto;padding:20px 15px 60px}h1{font-size:clamp(26px,4vw,39px);line-height:1.1;letter-spacing:-.03em}h2{font-size:20px}p{line-height:1.55}.sub,small{color:var(--muted)}.small{font-size:12px}a{color:var(--a)}nav{display:flex;gap:10px;flex-wrap:wrap;margin:16px 0}nav a{border:1px solid var(--line);border-radius:20px;padding:7px 12px;text-decoration:none;font-size:12px}.panel,.card{background:#142a3d;border:1px solid var(--line);border-radius:14px;padding:17px;margin:13px 0}.answer{border-left:3px solid #93dec3;background:#123039;padding:17px 18px;border-radius:4px 14px 14px 4px;margin:17px 0}.answer b{font-size:18px}.answer p{margin:7px 0}.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}.grid .card{margin:0;padding:13px}.card b{display:block;font-size:22px}.card small{font-size:11px}.good{color:#94e7b9}.bad{color:#ffc5a9}.controls{display:flex;gap:9px;flex-wrap:wrap;align-items:end;margin:14px 0}label{display:flex;flex-direction:column;font-size:12px;color:var(--muted);gap:5px}select{color:var(--fg);background:#0b1d2b;border:1px solid #4d7190;padding:10px 12px;border-radius:9px;font:inherit}.item{background:#0e2537;border:1px solid #304e64;padding:15px 17px;border-radius:13px;margin:10px 0}.head{display:flex;gap:12px;align-items:baseline;justify-content:space-between}.head h3{font-size:19px;margin:0}.tag{font-size:11px;color:#b9dfef}.facts{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:12px 0}.fact{background:#17364b;padding:9px;border-radius:9px}.fact small{display:block;font-size:11px}.fact b{font-size:17px}details{margin-top:9px;border-top:1px solid #315169;padding-top:9px}summary{color:#9ed7ff;cursor:pointer;font-weight:600}footer{font-size:12px;color:var(--muted);margin-top:20px;border-top:1px solid var(--line);padding-top:15px}
+@media(max-width:700px){.grid{grid-template-columns:repeat(2,1fr)}.facts{grid-template-columns:repeat(2,1fr)}}@media(max-width:420px){.grid{grid-template-columns:1fr 1fr}.panel{padding:13px}}
+</style></head><body>
+<script type="application/json" id="data">/*MARKET_DATA*/</script>
+<main><div class="small good" style="letter-spacing:.15em;font-weight:800">SIGNALDESK / DYNAMIC US MARKET SEARCH</div><h1>Search broadly. Only show what passes.</h1>
+<div class="answer"><b id="answer">Checking whether today's wider market data are available…</b><p id="simple"></p><p><b>What would I do?</b> Keep DCA-ing into VOO until stronger evidence appears. Treat the ideas below as research, not immediate BUY instructions.</p></div>
+<nav><a href="decisions.html">← Daily Decision Centre</a><a href="#invest">Stock investing</a><a href="#trade">Trading setups</a><a href="#coverage">What was actually checked?</a><a href="market_discovery.json">Full evidence</a></nav>
+<div class="grid"><div class="card"><small>US-listed ticker catalog</small><b id="catalog">—</b></div><div class="card"><small>Different stocks in screens</small><b id="screened">—</b></div><div class="card"><small>Stocks with price histories checked</small><b id="priced">—</b></div><div class="card"><small>Stocks with usable valuation + growth</small><b id="valuation">—</b></div></div>
+<section class="panel" id="invest"><h2>1. Investment ideas</h2><p class="sub">First check past performance. Then check earnings and valuation. Good past returns alone do not tell us a fair buying price.</p>
+<div class="controls"><label>Show<select id="filter"><option value="qualified">Stocks passing the first checks</option><option value="all">All checked stocks</option><option value="missing">Missing proof or valuation</option></select></label><label>Sort<select id="sort"><option value="relative">Outperformance against VOO</option><option value="cap">Company size</option><option value="valuation">Forward P/E, lowest first</option></select></label></div><p id="status" class="small"></p><div id="ideas"></div></section>
+<section class="panel" id="trade"><h2>2. Possible trades</h2><p><b>My answer: No approved live trades.</b> The rules look for breakouts—prices rising above recent highs. A breakout is only a starting clue, not a proven edge.</p><div id="trades"></div></section>
+<section class="panel" id="coverage"><h2>What this page does—and does NOT do</h2>
+<p><b>US exchange catalog:</b> We collect tickers from Nasdaq and other US exchanges. They are possible assets to investigate, not securities whose valuations have all been measured.</p>
+<p><b>Daily screening:</b> We run several liquid-stock searches: large companies, strong recent price moves, fast earnings growth, and low price relative to earnings. We then request actual price histories for a smaller set. Counts above show what worked.</p>
+<p><b>Valuation:</b> Forward P/E means share price divided by expected next-year earnings. Earnings growth means how quickly profits are expected or reported to increase. These measures help judge a price, but cannot forecast a guaranteed future return. Missing numbers stay unknown.</p>
+<p><b>Trading:</b> Historical breakout profits on currently listed companies may look too good because past failures or delistings have disappeared from the sample. We will not label these setups proven.</p><p class="sub">Current coverage is US-listed securities only, not global stocks, bonds, futures, crypto or currencies. The screen does not individually reprice every catalogued security each day. No broker execution, no forecast price target, no guaranteed income. <span id="err"></span></p></section>
+<footer>SignalDesk uses third-party historical Yahoo market screens and public Nasdaq exchange directories. Market-data limits are shown rather than hidden. No live BUY recommendations.</footer></main>
+<script>
+(()=>{
+const d=JSON.parse(document.getElementById("data").textContent);const $=x=>document.getElementById(x);
+const esc=v=>String(v??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const n=v=>v===null||v===undefined?"—":Number(v).toLocaleString("en-US",{maximumFractionDigits:2});
+const p=v=>v===null||v===undefined?"Not available":Number(v).toFixed(2)+"%";
+$("catalog").textContent=n(d.universe_catalog.US_listings_catalogued);
+$("screened").textContent=n(d.discovery_feeds.unique_stock_quotes);
+$("priced").textContent=n(d.stocks_with_price_and_momentum_results);
+$("valuation").textContent=n(d.stocks_with_price_growth_and_valuation_data);
+const candidates=d.stock_investing_watchlist.filter(x=>x.status==="RESEARCH CANDIDATE");
+$("answer").textContent=d.discovery_feeds.unique_stock_quotes===0?
+"Market data unavailable: I cannot make a new stock recommendation today.":
+candidates.length?"Found "+candidates.length+" stocks worth researching. No automatic BUY.":
+"No stock passed every check in this run. No new BUY.";
+$("simple").textContent="Current prices → compare each stock with VOO → check future earnings and valuation → only then decide what to research. Latest usable US prices: "+(d.last_completed_us_price_date||"not available")+".";
+const cards=(z)=>'<article class="item"><div class="head"><h3>'+esc(z.ticker)+'</h3><span class="tag">'+esc(z.status)+'</span></div><p>'+esc(z.name)+' · '+esc(z.sector||"Sector not given")+'</p><p><b>My answer:</b> '+esc(z.simple_explanation)+'</p><div class="facts">'+
+'<div class="fact"><small>1-year excess vs VOO</small><b>'+p(z.relative_to_voo_year_pp)+'</b></div>'+
+'<div class="fact"><small>Forward P/E (estimated)</small><b>'+n(z.forward_pe)+'</b></div>'+
+'<div class="fact"><small>Earnings growth</small><b>'+p(z.earnings_growth_pct)+'</b></div></div>'+
+'<details><summary>See more: risk, valuation, data checks</summary><p><b>Trailing P/E:</b> '+n(z.trailing_pe)+' · <b>PEG:</b> '+n(z.peg)+' · <b>Revenue growth:</b> '+p(z.revenue_growth_pct)+'.</p><p><b>Last year:</b> '+p(z.return_last_year_pct)+' versus VOO '+p(z.voo_same_year_pct)+'. <b>3-month momentum:</b> '+p(z.momentum_3m_pct)+' · <b>6-month momentum:</b> '+p(z.momentum_6m_pct)+'.</p><p><b>Valuation:</b> '+esc(z.valuation_note)+'</p><p class="sub">'+esc(z.warnings.join(" "))+'</p></details></article>';
+function show(){
+ let a=[...d.stock_investing_watchlist],f=$("filter").value,s=$("sort").value;
+ if(f==="qualified")a=a.filter(x=>x.status==="RESEARCH CANDIDATE");
+ if(f==="missing")a=a.filter(x=>x.status!=="RESEARCH CANDIDATE");
+ if(s==="cap")a.sort((x,y)=>(y.market_cap_usd||0)-(x.market_cap_usd||0));
+ if(s==="valuation")a.sort((x,y)=>(x.forward_pe||9999)-(y.forward_pe||9999));
+ if(s==="relative")a.sort((x,y)=>y.relative_to_voo_year_pp-x.relative_to_voo_year_pp);
+ $("status").textContent=a.length+" results shown. Investment candidates are not proven future VOO-beaters.";
+ $("ideas").innerHTML=a.length?a.map(cards).join(""):'<div class="item">No assets qualify for this filter. Do not lower the rules just to force a pick.</div>';
+}
+$("filter").onchange=show;$("sort").onchange=show;show();
+$("trades").innerHTML=d.expanded_trade_watches.length?d.expanded_trade_watches.map(t=>'<div class="item"><h3>'+esc(t.ticker)+' — PAPER WATCH</h3><p><b>Buy:</b> next estimated US opening '+esc(t.entry_date_estimate)+'. <b>Sell:</b> earlier if stop/trend rule triggers, otherwise approximately '+esc(t.latest_exit_estimate)+'. This is NOT a predicted profitable exit.</p><details><summary>See past trade evidence</summary><p>'+n(t.past_completed_trades)+' past trades · '+p(t.win_rate_pct)+' winning · average '+p(t.avg_excess_vs_same_dates_voo_pp)+' excess over holding VOO on those exact dates. '+esc(t.warning)+'</p></details></div>').join(""):'<div class="item">No new stock breakout passed this wider-market paper screen today.</div>';
+$("err").textContent=[...d.universe_catalog.catalog_issues,...d.discovery_feeds.screen_failures,...d.errors].length?" Some feeds did not work; the report shows only successful observations.":"";
+})();
+</script></body></html>
