@@ -135,9 +135,7 @@ def evaluate(prices,legacy_targets,scanner):
                 cur["max_drawdown_pct"]>=spmo["max_drawdown_pct"]-3,
           "trades_under_52_a_year":cur["annual_orders"]<=52,
           "positive_relative_to_VOO_at_30bps":stresses[name]["30"]["stress"]["annual_pct"]>
-                    stresses.get(name,{}).get("30",{}).get("stress",{}).get("annual_pct",-999) if False else
-                    stresses[name]["30"]["stress"]["annual_pct"]>backtest(
-                       prices,candidates["VOO DCA"],"2022-01-03",end,fee=.003)["annual_pct"],
+                    backtest(prices,candidates["VOO DCA"],"2022-01-03",end,fee=.003)["annual_pct"],
           "bootstrap_lower_excess_above_zero":paired_voo["interval_excludes_zero"],
           "clean_independent_holdout_available":False,
           "live_forward_paper_record_long_enough":False
