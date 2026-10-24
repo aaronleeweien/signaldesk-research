@@ -48,7 +48,6 @@
 </details>
 </main><script>
 (()=>{const d=JSON.parse(document.getElementById("report").textContent),$=x=>document.getElementById(x),pct=x=>Number(x||0).toFixed(2)+"%",fmt=x=>Number(x||0).toLocaleString("en-US",{maximumFractionDigits:2}),period=$("period"),select=$("model");
-const passed=Object.values(d.gates).filter(x=>x.historical_screen_pass).length;
 const total=Object.keys(d.gates).length,passed=Object.values(d.gates).filter(x=>x.historical_screen_pass).length;
 $("easy-validation").textContent=passed+" of "+total+" tested daily strategies passed the historical screening. None is approved for live trading.";
 $("update").textContent="Last completed US market session "+d.last_complete_us_market_day+" · Protocol "+d.protocol_id;
