@@ -107,6 +107,13 @@ const $=id=>document.getElementById(id),esc=x=>String(x??"").replace(/[&<>"']/g,
 const pct=x=>x===null||x===undefined?"—":Number(x).toFixed(2)+"%";
 const sgn=x=>x===null||x===undefined?"—":(Number(x)>0?"+":"")+Number(x).toFixed(2)+" pp";
 const usd=x=>x===null||x===undefined?"—":"$"+Number(x).toLocaleString("en-US",{maximumFractionDigits:2});
+const names=d.investment_ideas.filter(x=>x.status.startsWith("HISTORICAL")).map(x=>x.ticker);
+$("easy-invest").textContent=names.length
+ ? "Long-term watch: "+names.join(", ")+" beat VOO in the periods we checked and still have a positive price trend. That is past evidence, not a promise."
+ : "There is no long-term ETF that passes our stronger past-return and current-trend checks right now.";
+$("easy-trade").textContent=d.topline.new_technical_breakouts>0
+ ? "We found "+d.topline.new_technical_breakouts+" new breakout setups. But none is approved for real-money trading. Paper-test only."
+ : "There is NO new breakout to trade today. And no tested trade is approved for real money.";
 $("date").textContent=d.market_last_completed_close;
 $("fund-count").textContent=d.topline.long_historical_investment_candidates.length;
 $("new-signal").textContent=d.topline.new_technical_breakouts;
