@@ -102,7 +102,6 @@ const names=["VOO DCA","QQQ DCA","Top-5 Momentum","Top-5 Trend Filter","Top-5 De
 $("date").innerHTML="Research saved: "+d.generated_utc+"<br/>Last completed US market date: "+d.asof_completed_us_session+"<br/><span class='tag'>RESEARCH ONLY</span>";
 
 const early=d.candidate_evidence.validation_2019_2022,later=d.candidate_evidence.diagnostic_2023_latest;
- VOO grew "+pct(later["VOO DCA"])+". But the stock list was chosen with hindsight. No real trade is approved.";
 $("easy-institutional").textContent="In the 2023+ old test, Top-5 Momentum returned "+pct(later["Top-5 Momentum"])+" yearly; VOO returned "+pct(later["VOO DCA"])+". That is not independent proof.";
 $("val1").textContent=pct(early["Top-5 Momentum"])+" vs "+pct(early["VOO DCA"]);
 $("val2").textContent=pct(later["Top-5 Momentum"]);
