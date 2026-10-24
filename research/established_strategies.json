@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-24 08:26 UTC",
+  "generated_utc": "2026-10-24 08:33 UTC",
   "latest_completed_us_market_day": "2026-10-23",
   "objective": "Search among actual operated investment funds for implemented selection strategies beating S&P 500 after common-sample execution costs.",
   "hard_gate": "No fund or copied trading rule is approved as an automatic real-money BUY/SELL signal.",
@@ -185,7 +185,7 @@
           "max_drawdown_pct": -45.3,
           "volatility_pct": 33.55,
           "sharpe_zero_rf": 1.0,
-          "ending_usd": 108726.47,
+          "ending_usd": 108726.48,
           "total_deposits_usd": 14000.0,
           "orders": 121,
           "trading_fees_usd": 13.99,
@@ -292,7 +292,7 @@
           },
           "returns_0bps": {
             "annual_twr_pct": 18.91,
-            "ending_usd": 46220.14,
+            "ending_usd": 46220.15,
             "trading_fees_usd": 0.0
           }
         },
@@ -337,7 +337,7 @@
           },
           "returns_30bps": {
             "annual_twr_pct": 20.09,
-            "ending_usd": 46477.49,
+            "ending_usd": 46477.48,
             "trading_fees_usd": 41.87
           },
           "returns_0bps": {
@@ -362,12 +362,12 @@
           },
           "returns_30bps": {
             "annual_twr_pct": 32.17,
-            "ending_usd": 108509.67,
+            "ending_usd": 108509.68,
             "trading_fees_usd": 41.87
           },
           "returns_0bps": {
             "annual_twr_pct": 32.26,
-            "ending_usd": 108835.2,
+            "ending_usd": 108835.21,
             "trading_fees_usd": 0.0
           }
         },
@@ -387,7 +387,7 @@
           },
           "returns_30bps": {
             "annual_twr_pct": 15.25,
-            "ending_usd": 34615.37,
+            "ending_usd": 34615.38,
             "trading_fees_usd": 41.87
           },
           "returns_0bps": {
@@ -1094,7 +1094,7 @@
           "orders": 34,
           "trading_fees_usd": 5.29,
           "annual_by_calendar_year_pct": {
-            "2024": 46.35,
+            "2024": 46.36,
             "2025": 26.65,
             "2026": 16.95
           }
