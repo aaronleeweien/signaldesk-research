@@ -21,8 +21,9 @@ footer{margin-top:25px;border-top:1px solid var(--line);padding-top:15px;font-si
 <body><script id="snapshot" type="application/json">/*SCAN_DATA*/</script><main>
 <header><div class="eyebrow">SIGNALDESK / DAILY SIGNALS / AUTOMATIC</div><h1>Market opportunities, without daily searching.</h1><p class="lead">Automatically check US ETFs and selected stocks after the market closes. New ETF entry/exit changes are recorded for paper trading; stock breakout events are research watch alerts.</p></header>
 <div class="warn"><b>NOT APPROVED FOR REAL TRADING</b><p>This is a newly researched DAILY strategy, not the previously tested monthly SPMO strategy. Today's scan is only a signal candidate. A breakout can fail and historical performance may not continue.</p></div>
-<nav><a href="#today">Today's events</a><a href="#research">Historical evidence</a><a href="#holdings">Hypothetical positions</a><a href="#rules">Exact methodology</a><a href="factor.html">SPMO monthly strategy</a><a href="daily_events.json">Event history</a></nav>
+<nav><a href="#today">Today's events</a><a href="#research">Historical evidence</a><a href="#holdings">Hypothetical positions</a><a href="#rules">Exact methodology</a><a href="validation.html">Evidence & approval checks</a><a href="paper_forward.html">Live forward-paper portfolio</a><a href="factor.html">SPMO monthly strategy</a><a href="daily_events.json">Event history</a></nav>
 <p class="muted" id="asof"></p>
+<div class="panel" style="border-color:#8b6859"><h2>Real trading approval: <span class="bad">REJECTED</span></h2><p id="gatecheck" class="muted">The daily momentum strategy has not demonstrated a reliable edge over VOO or SPMO. Paper alerts are for research only.</p><p class="small"><a href="validation.html">See the quantitative pass/fail scorecard →</a> · <a href="paper_forward.html">See timestamped forward paper trades →</a></p></div>
 <div class="grid">
 <div class="card"><small>ETF entries today</small><strong id="newbuys">—</strong><small>Paper-only reviews</small></div>
 <div class="card"><small>ETF exits today</small><strong id="newexits">—</strong><small>Paper-only reviews</small></div>
@@ -48,6 +49,7 @@ footer{margin-top:25px;border-top:1px solid var(--line);padding-top:15px;font-si
 <script>
 (()=>{const d=JSON.parse(document.getElementById("snapshot").textContent),$=n=>document.getElementById(n);
 const pct=v=>Number(v||0).toFixed(2)+"%",money=v=>Number(v||0).toLocaleString("en-US",{maximumFractionDigits:2});
+$("gatecheck").textContent=(d.evidence_review?.verdict||"No validated daily strategy")+" · "+(d.forward_paper_progress?.sessions||0)+"/63 prospective paper market sessions completed.";
 $("asof").textContent="Last completed session: "+d.latest_completed_us_close+" · Updated "+d.generated_utc+" · Estimated next US business day: "+d.estimated_next_business_day;
 const events=d.new_events_on_latest_close||[];
 const buys=events.filter(z=>z.type==="ETF_PAPER_BUY_REVIEW");
