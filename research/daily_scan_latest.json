@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-24 02:13 UTC",
+  "generated_utc": "2026-10-24 02:28 UTC",
   "latest_completed_us_close": "2026-10-23",
   "estimated_next_business_day": "2026-10-26",
   "research_only": true,
@@ -54,25 +54,9 @@
       "score_pct": 21.35
     }
   ],
-  "events_newly_recorded": 3,
-  "events_notifications_eligible": 3,
-  "new_eligible_events": [
-    {
-      "score_pct": 21.11,
-      "ticker": "XLE",
-      "type": "ETF_MOMENTUM_WATCH"
-    },
-    {
-      "score_pct": 25.56,
-      "ticker": "CVX",
-      "type": "STOCK_WATCH_ONLY"
-    },
-    {
-      "score_pct": 21.35,
-      "ticker": "XOM",
-      "type": "STOCK_WATCH_ONLY"
-    }
-  ],
+  "events_newly_recorded": 0,
+  "events_notifications_eligible": 0,
+  "new_eligible_events": [],
   "last_session_new_entries": [],
   "last_session_exits": [],
   "current_breakout_rankings": [
@@ -89,10 +73,10 @@
         "annual_pct": 6.71,
         "max_drawdown_pct": -20.14,
         "vol_pct": 14.01,
-        "end_usd": 20070.81,
+        "end_usd": 20070.83,
         "contributed_usd": 13700.0,
         "orders": 742,
-        "fees_usd": 2257.51,
+        "fees_usd": 2257.52,
         "monthly_year_returns": {
           "2017": 12.64,
           "2018": -10.08,
@@ -288,16 +272,16 @@
           1.8384,
           1.7939,
           1.7919,
-          1.7527,
+          1.7528,
           1.7703,
           1.7706,
           1.8784,
           1.9209,
-          1.9365,
+          1.9366,
           1.902,
           1.9507,
-          2.0792,
-          2.1907,
+          2.0793,
+          2.1908,
           2.3104,
           2.1688,
           2.0182,
@@ -487,7 +471,7 @@
           2.8068,
           2.6867,
           2.8161,
-          2.7544,
+          2.7543,
           2.8826,
           2.9546,
           2.9331,
@@ -1296,7 +1280,7 @@
           1.3265,
           1.2644,
           1.2529,
-          1.2405,
+          1.2404,
           1.2849,
           1.233,
           1.258,
@@ -1420,7 +1404,7 @@
           2.2589,
           2.2625,
           2.1907,
-          2.2547,
+          2.2546,
           2.2454,
           2.3028
         ]
@@ -1651,7 +1635,7 @@
         "annual_pct": 28.12,
         "max_drawdown_pct": -28.57,
         "vol_pct": 22.33,
-        "end_usd": 19051.15,
+        "end_usd": 19051.14,
         "contributed_usd": 7900.0,
         "orders": 60,
         "fees_usd": 7.89,
@@ -1873,7 +1857,7 @@
         "annual_pct": 5.16,
         "max_drawdown_pct": -20.13,
         "vol_pct": 15.65,
-        "end_usd": 8982.82,
+        "end_usd": 8982.83,
         "contributed_usd": 7700.0,
         "orders": 394,
         "fees_usd": 614.37,
@@ -1953,7 +1937,7 @@
           1.0778,
           1.047,
           1.03,
-          1.0252,
+          1.0253,
           1.0599,
           1.0807,
           1.0602,
@@ -2050,7 +2034,7 @@
           1.2043,
           1.1844,
           1.1697,
-          1.1894,
+          1.1895,
           1.1937,
           1.2087,
           1.2078,
@@ -2076,7 +2060,7 @@
           1.3526,
           1.3612,
           1.3674,
-          1.3887,
+          1.3888,
           1.3528,
           1.3293,
           1.2955,
@@ -2586,7 +2570,7 @@
           0.7383,
           0.7089,
           0.6797,
-          0.6554,
+          0.6553,
           0.677,
           0.7091,
           0.7247,
@@ -2691,7 +2675,7 @@
           1.351,
           1.3964,
           1.4113,
-          1.4233,
+          1.4232,
           1.4414,
           1.4444,
           1.469,
@@ -2725,7 +2709,7 @@
           1.6134,
           1.6815,
           1.7139,
-          1.8255,
+          1.8254,
           1.8117,
           1.8722,
           1.8096,
@@ -2757,5 +2741,20 @@
     "FX costs, taxes, spreads and real-life partial executions are excluded",
     "No notifications on reruns for events already written to the immutable research journal",
     "Daily model has not yet been approved for real-money trading"
-  ]
+  ],
+  "evidence_review": {
+    "verdict": "REJECT LIVE TRADING; RESEARCH/PAPER ONLY",
+    "leading_older_years_model": null,
+    "leading_model_trade_approved": false,
+    "active_trading_allowed": false,
+    "validation_page": "validation.html",
+    "paper_protocol_version": "daily_protocol_v2_2026-10-24_fixed_rules"
+  },
+  "forward_paper_progress": {
+    "sessions": 0,
+    "minimum_sessions": 63,
+    "gaps_or_invalid": 0,
+    "paper_url": "paper_forward.html",
+    "live_ready": false
+  }
 }

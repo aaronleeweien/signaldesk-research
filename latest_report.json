@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-24 02:11 UTC",
+  "generated_at_utc": "2026-10-24 02:27 UTC",
   "last_market_session": "2026-10-23",
   "research_only": true,
   "approved_for_live_trading": false,
@@ -35,7 +35,7 @@
       "cost": 350.97
     },
     "10-month trend": {
-      "end": 23805.62,
+      "end": 23805.61,
       "deposited": 12700.0,
       "annual": 11.41,
       "drawdown": -20.72,
@@ -53,7 +53,7 @@
       "cost": 239.51
     },
     "20-day breakout": {
-      "end": 16275.26,
+      "end": 16275.27,
       "deposited": 12700.0,
       "annual": 3.66,
       "drawdown": -14.59,
@@ -100,7 +100,7 @@
       "cost": 83.71
     },
     "20-day breakout": {
-      "end": 9370.35,
+      "end": 9370.34,
       "deposited": 7700.0,
       "annual": 5.47,
       "drawdown": -10.99,

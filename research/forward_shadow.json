@@ -1,0 +1,98 @@
+{
+  "version": "forward_paper_ledger_v1",
+  "live_trades_authorized": false,
+  "started_utc": "2026-10-24 02:28 UTC",
+  "first_trading_session": null,
+  "last_completed_us_close": "2026-10-23",
+  "valid_forward_sessions": 0,
+  "missed_or_invalid_sessions": 0,
+  "signal_history": [
+    {
+      "decision_close": "2026-10-23",
+      "estimated_next_us_business_day": "2026-10-26",
+      "recorded_utc": "2026-10-24 02:28:53 UTC",
+      "before_estimated_next_open": true,
+      "targets": {
+        "Daily Breakout Top2": {
+          "XLE": 0.5,
+          "XLP": 0.5
+        },
+        "SPMO SMA200": {
+          "SPMO": 1.0
+        },
+        "VOO SMA200": {
+          "VOO": 1.0
+        },
+        "SPMO SMA200 Buffer": {
+          "SPMO": 1.0
+        },
+        "VOO DCA": {
+          "VOO": 1.0
+        },
+        "SPMO DCA": {
+          "SPMO": 1.0
+        }
+      },
+      "trading_authorized": false,
+      "status": "PROSPECTIVE_PAPER_SIGNAL"
+    }
+  ],
+  "session_history": [],
+  "order_history": [],
+  "accounts": {
+    "Daily Breakout Top2": {
+      "cash_usd": 2000.0,
+      "shares": {},
+      "nav_usd": 2000.0,
+      "deposits_usd": 2000.0,
+      "fees_paid_usd": 0.0,
+      "orders": 0,
+      "last_trade_month": null
+    },
+    "SPMO SMA200": {
+      "cash_usd": 2000.0,
+      "shares": {},
+      "nav_usd": 2000.0,
+      "deposits_usd": 2000.0,
+      "fees_paid_usd": 0.0,
+      "orders": 0,
+      "last_trade_month": null
+    },
+    "VOO SMA200": {
+      "cash_usd": 2000.0,
+      "shares": {},
+      "nav_usd": 2000.0,
+      "deposits_usd": 2000.0,
+      "fees_paid_usd": 0.0,
+      "orders": 0,
+      "last_trade_month": null
+    },
+    "SPMO SMA200 Buffer": {
+      "cash_usd": 2000.0,
+      "shares": {},
+      "nav_usd": 2000.0,
+      "deposits_usd": 2000.0,
+      "fees_paid_usd": 0.0,
+      "orders": 0,
+      "last_trade_month": null
+    },
+    "VOO DCA": {
+      "cash_usd": 2000.0,
+      "shares": {},
+      "nav_usd": 2000.0,
+      "deposits_usd": 2000.0,
+      "fees_paid_usd": 0.0,
+      "orders": 0,
+      "last_trade_month": null
+    },
+    "SPMO DCA": {
+      "cash_usd": 2000.0,
+      "shares": {},
+      "nav_usd": 2000.0,
+      "deposits_usd": 2000.0,
+      "fees_paid_usd": 0.0,
+      "orders": 0,
+      "last_trade_month": null
+    }
+  }
+}
