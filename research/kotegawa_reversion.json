@@ -1,0 +1,299 @@
+{
+  "protocol": "bnf_inspired_mean_reversion_v1_20261024",
+  "market_date": "2026-10-23",
+  "approach": "BNF-inspired short-term contrarian research, NOT his exact discretionary method",
+  "source_interviews": [
+    "https://kabushiki-blog.com/article/18401857.html",
+    "https://kabushiki-blog.com/article/80415989.html",
+    "https://fxhikakublog.com/bnf-syuhou20081114"
+  ],
+  "rules": {
+    "market_context": "VOO close below 50-day SMA",
+    "entry": "Stock close at least 10% below 25-day SMA, first signal of oversold episode, buy next open",
+    "exit": "After prior close >= 25-day SMA OR <=92% of entry OR 5 sessions, sell next open",
+    "transaction_cost_per_side_pct": 0.2,
+    "account": "US$2000 initial and US$100 monthly; idle funds in cash",
+    "benchmark": "VOO DCA same dates and trading costs",
+    "dataset_bias": "2026 survivor-only US market; never blindly extrapolate backtest"
+  },
+  "screened_prices_for_assets": 88,
+  "passing_retrospective_tests": 2,
+  "new_paper_entry_setups": 0,
+  "historical_screen_summary": [
+    {
+      "ticker": "FRO",
+      "trades": 24,
+      "strategy_annual_pct": 20.69,
+      "voo_annual_pct": 15.43,
+      "annual_excess_pp": 5.26,
+      "recent_excess_pp": -0.69,
+      "historical_only_pass": false
+    },
+    {
+      "ticker": "PLTR",
+      "trades": 27,
+      "strategy_annual_pct": 19.14,
+      "voo_annual_pct": 14.67,
+      "annual_excess_pp": 4.47,
+      "recent_excess_pp": 9.36,
+      "historical_only_pass": true
+    },
+    {
+      "ticker": "FROG",
+      "trades": 25,
+      "strategy_annual_pct": 18.15,
+      "voo_annual_pct": 14.8,
+      "annual_excess_pp": 3.35,
+      "recent_excess_pp": 5.62,
+      "historical_only_pass": true
+    },
+    {
+      "ticker": "INSW",
+      "trades": 18,
+      "strategy_annual_pct": 16.11,
+      "voo_annual_pct": 15.43,
+      "annual_excess_pp": 0.68,
+      "recent_excess_pp": -2.31,
+      "historical_only_pass": false
+    },
+    {
+      "ticker": "RBRK",
+      "trades": 7,
+      "strategy_annual_pct": 14.15,
+      "voo_annual_pct": 16.29,
+      "annual_excess_pp": -2.14,
+      "recent_excess_pp": -2.14,
+      "historical_only_pass": false
+    },
+    {
+      "ticker": "PANW",
+      "trades": 18,
+      "strategy_annual_pct": 9.22,
+      "voo_annual_pct": 15.43,
+      "annual_excess_pp": -6.21,
+      "recent_excess_pp": 4.24,
+      "historical_only_pass": false
+    },
+    {
+      "ticker": "CMBT",
+      "trades": 19,
+      "strategy_annual_pct": 8.38,
+      "voo_annual_pct": 15.43,
+      "annual_excess_pp": -7.05,
+      "recent_excess_pp": -3.78,
+      "historical_only_pass": false
+    },
+    {
+      "ticker": "AXGN",
+      "trades": 29,
+      "strategy_annual_pct": 8.34,
+      "voo_annual_pct": 15.43,
+      "annual_excess_pp": -7.09,
+      "recent_excess_pp": -3.49,
+      "historical_only_pass": false
+    },
+    {
+      "ticker": "AMD",
+      "trades": 39,
+      "strategy_annual_pct": 7.91,
+      "voo_annual_pct": 15.43,
+      "annual_excess_pp": -7.52,
+      "recent_excess_pp": -3.67,
+      "historical_only_pass": false
+    },
+    {
+      "ticker": "BWIN",
+      "trades": 20,
+      "strategy_annual_pct": 6.63,
+      "voo_annual_pct": 14.61,
+      "annual_excess_pp": -7.98,
+      "recent_excess_pp": -4.27,
+      "historical_only_pass": false
+    },
+    {
+      "ticker": "NET",
+      "trades": 25,
+      "strategy_annual_pct": 5.75,
+      "voo_annual_pct": 15.34,
+      "annual_excess_pp": -9.59,
+      "recent_excess_pp": -7.86,
+      "historical_only_pass": false
+    },
+    {
+      "ticker": "DELL",
+      "trades": 23,
+      "strategy_annual_pct": 5.73,
+      "voo_annual_pct": 15.43,
+      "annual_excess_pp": -9.7,
+      "recent_excess_pp": -4.69,
+      "historical_only_pass": false
+    },
+    {
+      "ticker": "HPE",
+      "trades": 15,
+      "strategy_annual_pct": 5.06,
+      "voo_annual_pct": 15.43,
+      "annual_excess_pp": -10.37,
+      "recent_excess_pp": -5.19,
+      "historical_only_pass": false
+    },
+    {
+      "ticker": "XMTR",
+      "trades": 24,
+      "strategy_annual_pct": 2.08,
+      "voo_annual_pct": 12.7,
+      "annual_excess_pp": -10.62,
+      "recent_excess_pp": -9.15,
+      "historical_only_pass": false
+    },
+    {
+      "ticker": "EQNR",
+      "trades": 11,
+      "strategy_annual_pct": 4.14,
+      "voo_annual_pct": 15.43,
+      "annual_excess_pp": -11.29,
+      "recent_excess_pp": -5.57,
+      "historical_only_pass": false
+    },
+    {
+      "ticker": "GSAT",
+      "trades": 31,
+      "strategy_annual_pct": 4.07,
+      "voo_annual_pct": 15.43,
+      "annual_excess_pp": -11.36,
+      "recent_excess_pp": 5.12,
+      "historical_only_pass": false
+    },
+    {
+      "ticker": "VAL",
+      "trades": 11,
+      "strategy_annual_pct": 0.87,
+      "voo_annual_pct": 12.45,
+      "annual_excess_pp": -11.58,
+      "recent_excess_pp": -11.87,
+      "historical_only_pass": false
+    },
+    {
+      "ticker": "GEV",
+      "trades": 3,
+      "strategy_annual_pct": 4.99,
+      "voo_annual_pct": 16.62,
+      "annual_excess_pp": -11.63,
+      "recent_excess_pp": -11.63,
+      "historical_only_pass": false
+    },
+    {
+      "ticker": "MRNA",
+      "trades": 27,
+      "strategy_annual_pct": 3.79,
+      "voo_annual_pct": 15.43,
+      "annual_excess_pp": -11.64,
+      "recent_excess_pp": -5.94,
+      "historical_only_pass": false
+    },
+    {
+      "ticker": "AVAV",
+      "trades": 31,
+      "strategy_annual_pct": 3.73,
+      "voo_annual_pct": 15.43,
+      "annual_excess_pp": -11.7,
+      "recent_excess_pp": 7.64,
+      "historical_only_pass": false
+    },
+    {
+      "ticker": "INTC",
+      "trades": 22,
+      "strategy_annual_pct": 3.54,
+      "voo_annual_pct": 15.43,
+      "annual_excess_pp": -11.89,
+      "recent_excess_pp": -7.98,
+      "historical_only_pass": false
+    },
+    {
+      "ticker": "CVE",
+      "trades": 23,
+      "strategy_annual_pct": 3.46,
+      "voo_annual_pct": 15.43,
+      "annual_excess_pp": -11.97,
+      "recent_excess_pp": -7.9,
+      "historical_only_pass": false
+    },
+    {
+      "ticker": "HSBC",
+      "trades": 8,
+      "strategy_annual_pct": 3.29,
+      "voo_annual_pct": 15.43,
+      "annual_excess_pp": -12.14,
+      "recent_excess_pp": -7.25,
+      "historical_only_pass": false
+    },
+    {
+      "ticker": "COP",
+      "trades": 10,
+      "strategy_annual_pct": 3.04,
+      "voo_annual_pct": 15.43,
+      "annual_excess_pp": -12.39,
+      "recent_excess_pp": -8.1,
+      "historical_only_pass": false
+    },
+    {
+      "ticker": "TWLO",
+      "trades": 28,
+      "strategy_annual_pct": 2.99,
+      "voo_annual_pct": 15.43,
+      "annual_excess_pp": -12.44,
+      "recent_excess_pp": -10.16,
+      "historical_only_pass": false
+    },
+    {
+      "ticker": "NVDA",
+      "trades": 30,
+      "strategy_annual_pct": 2.9,
+      "voo_annual_pct": 15.43,
+      "annual_excess_pp": -12.53,
+      "recent_excess_pp": -4.11,
+      "historical_only_pass": false
+    },
+    {
+      "ticker": "KYMR",
+      "trades": 24,
+      "strategy_annual_pct": 2.31,
+      "voo_annual_pct": 14.85,
+      "annual_excess_pp": -12.54,
+      "recent_excess_pp": -15.36,
+      "historical_only_pass": false
+    },
+    {
+      "ticker": "IOVA",
+      "trades": 43,
+      "strategy_annual_pct": 2.27,
+      "voo_annual_pct": 15.43,
+      "annual_excess_pp": -13.16,
+      "recent_excess_pp": -8.15,
+      "historical_only_pass": false
+    },
+    {
+      "ticker": "PBR",
+      "trades": 17,
+      "strategy_annual_pct": 2.24,
+      "voo_annual_pct": 15.43,
+      "annual_excess_pp": -13.19,
+      "recent_excess_pp": -6.83,
+      "historical_only_pass": false
+    },
+    {
+      "ticker": "GOOGL",
+      "trades": 10,
+      "strategy_annual_pct": 2.06,
+      "voo_annual_pct": 15.43,
+      "annual_excess_pp": -13.37,
+      "recent_excess_pp": -6.85,
+      "historical_only_pass": false
+    }
+  ],
+  "paper_candidates": [],
+  "status": "UNVALIDATED RESEARCH, NO REAL MONEY",
+  "no_live_approval": true,
+  "errors": [],
+  "interpretation": "Historically famous trader methods are not a publicly validated exact rule set. Results on 2026 survivors are biased. A historical screen pass is NOT permission to trade."
+}
