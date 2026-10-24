@@ -30,6 +30,8 @@
 <footer>Protocol <span id="version"></span> · Research code is published at <a href="https://github.com/aaronleeweien/signaldesk-research">SignalDesk on GitHub</a>. Read <a href="https://www.quantconnect.com/docs/v2/writing-algorithms/key-concepts/research-guide">backtest research pitfalls and validation principles</a> for context. There is no certified profitable trading system yet.</footer>
 </main><script>
 (()=>{const d=JSON.parse(document.getElementById("report").textContent),$=x=>document.getElementById(x),pct=x=>Number(x||0).toFixed(2)+"%",fmt=x=>Number(x||0).toLocaleString("en-US",{maximumFractionDigits:2}),period=$("period"),select=$("model");
+const passed=Object.values(d.gates).filter(x=>x.historical_screen_pass).length;
+$("easy-validation").textContent=passed+" out of "+Object.keys(d.gates).length+" daily models passed our historical screening. No model is approved for real-money trading. A backtest alone is not enough.";
 $("update").textContent="Last completed US market session "+d.last_complete_us_market_day+" · Protocol "+d.protocol_id;
 $("version").textContent=d.protocol_id;$("count").textContent=Object.keys(d.registered_models).length;
 function performance(){const m=d.results[period.value];$("models").innerHTML=Object.entries(m).map(([name,z])=>'<tr><td>'+name+'</td><td>'+pct(z.annual_pct)+'</td><td>'+pct(z.max_drawdown_pct)+'</td><td>'+pct(z.vol_pct)+'</td><td>'+fmt(z.annual_orders)+'</td><td>$'+fmt(z.fees_usd)+'</td><td>$'+fmt(z.end_usd)+'</td></tr>').join("")}
