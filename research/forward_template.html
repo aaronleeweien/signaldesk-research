@@ -39,6 +39,7 @@ table{width:100%;border-collapse:collapse;display:block;overflow:auto}th,td{bord
 <script>
 (()=>{const d=JSON.parse(document.getElementById("data").textContent),$=k=>document.getElementById(k);
 const num=x=>Number(x||0).toLocaleString("en-US",{maximumFractionDigits:2}),pct=x=>Number(x||0).toFixed(1)+"%";
+$("easy-forward").textContent=d.prospective_market_sessions+" of the first 63 future US market sessions are recorded. "+(d.prospective_market_sessions<63?"Too early to judge the strategy.":"The first checkpoint is reached, but that alone does not prove an advantage.");
 $("sessions").textContent=d.prospective_market_sessions;$("missing").textContent=d.missing_or_invalid_intervals;
 $("dates").textContent="First prospective filled US session: "+(d.start_market_session||"Not yet")+" · Latest saved close "+(d.last_completed_close||"—");
 $("progress").style.width=pct(d.eligible_session_progress_pct);
