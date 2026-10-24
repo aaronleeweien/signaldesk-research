@@ -68,6 +68,7 @@ svg text{fill:#9eb2cb;font-size:11px}footer{color:var(--muted);font-size:11px;bo
 (function(){
 const d=JSON.parse(document.getElementById("data").textContent);
 const byId=x=>document.getElementById(x);
+byId("easy-lab").textContent="This page tests different ETF trading rules against simple VOO investing. Some old results look strong, but the models are NOT approved for real-money trading.";
 const models=d.all_models;
 const colors=["#7bc0ff","#f4c578","#74ddb5","#e9a9eb","#88a6ec","#f79e9e","#aecf89","#b49fff","#e1ad5e","#8ce8db"];
 const title={
