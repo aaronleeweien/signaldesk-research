@@ -1,6 +1,6 @@
 {
   "protocol": "decision_hub_v1_fixed_2026-10-24",
-  "generated_utc": "2026-10-24 14:14 UTC",
+  "generated_utc": "2026-10-24 14:17 UTC",
   "market_last_completed_close": "2026-10-23",
   "us_market_context": "WEEKEND: US exchanges are closed. Next session is estimated.",
   "data_type": "Previous completed-session adjusted prices; NOT real-time trading quotes",
@@ -2044,16 +2044,16 @@
         "above_long_average": true
       },
       "historical_evidence": {
-        "n": 40,
+        "n": 41,
         "n_recent": 16,
-        "avg_trade_pct": -0.1,
-        "median_trade_pct": -1.69,
-        "win_rate_pct": 40.0,
-        "avg_vs_voo_pct": -0.29,
-        "median_vs_voo_pct": -1.37,
+        "avg_trade_pct": -0.16,
+        "median_trade_pct": -1.83,
+        "win_rate_pct": 39.0,
+        "avg_vs_voo_pct": -0.39,
+        "median_vs_voo_pct": -1.41,
         "ci90_excess_pct": [
-          -1.79,
-          1.22
+          -1.81,
+          1.07
         ],
         "recent_vs_voo_pct": -0.96,
         "passes_historical_gate": false,
@@ -2840,7 +2840,7 @@
         "name": "Marathon Petroleum Corporation",
         "sector": null,
         "industry": null,
-        "market_cap_usd": 128398704640.0,
+        "market_cap_usd": 133479268352.0,
         "average_volume_shares": 2496448.0,
         "forward_pe": 7.8240347,
         "trailing_pe": 15.8317175,
@@ -2889,9 +2889,9 @@
         "market_cap_usd": 168584626176.0,
         "average_volume_shares": 21063782.0,
         "forward_pe": 6.323927,
-        "trailing_pe": 6.6060605,
+        "trailing_pe": 6.6227846,
         "peg": null,
-        "earnings_growth_pct": 4.46,
+        "earnings_growth_pct": 4.73,
         "revenue_growth_pct": null,
         "sources": [
           "Largest listed",
@@ -2977,7 +2977,7 @@
         "name": "Phillips 66",
         "sector": null,
         "industry": null,
-        "market_cap_usd": 113536770048.0,
+        "market_cap_usd": 112994746368.0,
         "average_volume_shares": 2798873.0,
         "forward_pe": 9.330216,
         "trailing_pe": 16.181713,
