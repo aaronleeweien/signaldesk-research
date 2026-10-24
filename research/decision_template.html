@@ -54,9 +54,9 @@ summary{color:var(--accent);cursor:pointer;font-weight:650;padding:5px 0}details
 <section class="easy-wrap" aria-label="Today's answer">
 <p class="eyebrow">TODAY'S ANSWER</p>
 <h2>Q: Should I invest or trade today?</h2>
-<p class="easy-line"><strong>My recommendation:</strong> <span id="easy-trade">Keep investing regularly. Do not follow unproven trading signals.</span></p>
+<p class="easy-line"><strong>What should I do?</strong> <span id="easy-trade">Keep investing regularly. Do not follow unproven trading signals.</span></p>
 <p class="easy-line"><strong>Why:</strong> <span id="easy-invest">The trading rule has not proved it can beat VOO.</span></p>
-<details><summary>What do the jargon words mean?</summary>
+<details><summary>Jargon: simple meanings</summary>
 <p class="easy-terms"><b>DCA</b> = buy regularly. <b>Breakout</b> = price goes above an earlier high. <b>Backtest</b> = test rules on old prices. <b>Drawdown</b> = biggest fall from a high.</p>
 </details>
 </section>
@@ -181,7 +181,7 @@ const e=x.historical_evidence,j=x.indicators,good=x.new_entry_setup;
 return '<article class="item"><div class="itemhead"><div><h3>'+esc(x.ticker)+' <span class="tag">'+esc(x.asset_type)+'</span></h3><div class="sub">'+esc(x.setup_state)+' · Last observed close '+usd(j.last_close_usd)+'</div></div><span class="chip">'+(good?"PAPER ENTRY WATCH":"NO NEW ENTRY")+'</span></div>'
 +'<p class="explain"><b>My answer:</b> '+(good?"Paper setup to study. Do not buy with real money.":"No new entry for this asset.")+'</p>'
 +'<details><summary>See past trades, exit rules and jargon</summary><div class="kpis"><div><small>Trades tested</small><b>'+e.n+'</b></div><div><small>Win rate</small><b>'+pct(e.win_rate_pct)+'</b></div><div><small>Average trade</small><b>'+pct(e.avg_trade_pct)+'</b></div><div><small>Average excess vs VOO</small><b>'+sgn(e.avg_vs_voo_pct)+'</b></div></div>'
-+(good?'<div class="callout"><b>Paper entry: '+esc(x.proposed_next_open)+'.</b> Exit earlier if a rule triggers; otherwise by about '+esc(x.latest_planned_exit)+'. Not a guaranteed profitable date.</div>':'')
++(good?'<div class="callout"><b>Paper entry: '+esc(x.proposed_next_open)+'.</b> The exit date is conditional: sell earlier if a rule triggers; otherwise by about '+esc(x.latest_planned_exit)+'. Not a guaranteed profitable date.</div>':'')
 +'<p><b>Why?</b> '+esc(x.why_simple)+'</p>'
 +'<p><b>Entry test:</b> Closing price above previous 20-session high '+usd(j.prior_high20_usd)+', above its 200-day SMA '+usd(j.sma200_usd)+', with positive 63- and 126-session returns.</p>'
 +'<p><b>Exit plan:</b> '+esc(x.exit_plan)+'</p>'
