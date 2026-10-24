@@ -61,7 +61,7 @@ def simplify_document(raw,info):
         out=out.replace("</style>","</style>"+STYLES,1)
     else:
         # Keep the doctype at the very start, even on old headless HTML pages.
-        out=re.sub(r"(<main(?:\\s[^>]*)?>)",lambda m:STYLES+m.group(1),out,count=1,flags=re.I)
+        out=re.sub(r"(<main(?:\s[^>]*)?>)",lambda m:STYLES+m.group(1),out,count=1,flags=re.I)
     card=readable_card(info)
     new,count=re.subn(r"(<main(?:\s[^>]*)?>)",lambda m:m.group(1)+card,out,count=1,flags=re.I)
     if not count:
