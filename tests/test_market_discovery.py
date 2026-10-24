@@ -36,6 +36,12 @@ class BroadMarketTests(unittest.TestCase):
         self.assertIn("implied",quote["earnings_growth_source"])
         self.assertIsNone(quote["revenue_growth_pct"])
 
+    def test_large_implied_growth_is_not_divided_by_100_again(self):
+        quote=m.quote_from_screen({"symbol":"GROW","marketCap":20e9,
+            "forwardPE":10.0,"trailingPE":40.0},"Value")
+        self.assertAlmostEqual(quote["earnings_growth_pct"],300.0)
+        self.assertIn("implied",quote["earnings_growth_source"])
+
     def test_tiny_illiquid_companies_are_filtered(self):
         small=m.quote_from_screen({"symbol":"TINY","marketCap":20e6,"averageDailyVolume3Month":10000},"Momentum")
         self.assertIsNone(small)
