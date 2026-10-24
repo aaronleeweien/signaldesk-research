@@ -67,7 +67,12 @@ def simplify_document(raw,info):
     if not count:
         new,count=re.subn(r"(<body(?:\s[^>]*)?>)",lambda m:m.group(1)+card,out,count=1,flags=re.I)
     if not count:
-        raise ValueError("Cannot place beginner-friendly card (no <main> or <body>)")
+        # The earliest archived papers use minimal HTML without body/main tags.
+        new,count=re.subn(r"(<h1(?:\s[^>]*)?>)",lambda m:card+m.group(1),out,count=1,flags=re.I)
+    if not count:
+        # Preserve the original archived file rather than breaking all deployments.
+        print("SKIP (archive HTML has no visible entry point)")
+        return raw
     return new
 
 def main():
