@@ -20,6 +20,9 @@ class SecFundamentalsTests(unittest.TestCase):
         actual=inspect_company(stock, 123, facts)
         self.assertEqual(actual["free_cash_flow_usd"],15)
         self.assertEqual(actual["free_cash_flow_yield_pct"],5)
+        self.assertEqual(actual["fcf_years_available"],1)
+        self.assertEqual(actual["positive_fcf_years"],1)
+        self.assertEqual(actual["cash_conversion_operating_to_net_income"],1.67)
         self.assertEqual(actual["revenue_growth_yoy_pct"],25)
         self.assertEqual(actual["status"],"independent_annual_fundamentals_verified")
 
