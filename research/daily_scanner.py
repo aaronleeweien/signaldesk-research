@@ -102,7 +102,7 @@ def daily_plan(closes,inds=None):
                      "eligible":[{"ticker":sym,"score_pct":round(score*100,2)} for sym,score in eligible[:8]]})
     return targets,info
 
-def backtest(prices,plans,start,end,fee=COST):
+def backtest(prices,plans,start,end,fee=COST,detail=False):
     index=prices.index
     selected=np.flatnonzero((index>=pd.Timestamp(start))&(index<=pd.Timestamp(end)))
     if len(selected)<100:raise ValueError("No sample")
@@ -144,13 +144,17 @@ def backtest(prices,plans,start,end,fee=COST):
     years=(index[selected[-1]]-index[selected[0]]).days/365.25
     vol=float(np.std(r,ddof=1))*np.sqrt(252)
     worst=float((wealth/np.maximum.accumulate(np.r_[1.,wealth])[1:]-1).min()*100)
-    return {"start":str(index[selected[0]].date()),"end":str(index[selected[-1]].date()),
+    report={"start":str(index[selected[0]].date()),"end":str(index[selected[-1]].date()),
        "annual_pct":round(float((wealth[-1]**(1/years)-1)*100),2),
        "max_drawdown_pct":round(worst,2),"vol_pct":round(vol*100,2),
        "end_usd":round(netvalue,2),"contributed_usd":round(total,2),
        "orders":orders,"fees_usd":round(fees,2),
        "monthly_year_returns":{str(y):round(float((np.prod(1+r[index[selected].year==y])-1)*100),2) for y in set(index[selected].year)},
        "growth":[round(float(wealth[k]),4) for k in np.unique(np.linspace(0,len(wealth)-1,min(200,len(wealth))).astype(int))]}
+    if detail:
+        report["daily_dates"]=[str(index[k].date()) for k in selected]
+        report["daily_returns"]=[float(rk) for rk in r]
+    return report
 
 def stocks_watch():
     try:
@@ -276,6 +280,10 @@ def main():
     alert={"notify":bool(added and on_time),
       "latest_close":str(latest.date()),"events":[json.loads(x["details"]) for x in added] if on_time else []}
     Path("research/daily_alert_payload.json").write_text(json.dumps(alert,indent=2)+"\n",encoding="utf-8")
+    from validation_protocol import evaluate as evaluate_validation
+    scanner["evidence_review"]=evaluate(prices,signals,scanner)
+    Path("research/daily_scan_latest.json").write_text(json.dumps(scanner,indent=2)+"\n",encoding="utf-8")
+    Path("site/daily_scan.json").write_text(json.dumps(scanner,indent=2)+"\n",encoding="utf-8")
     template=Path("research/scanner_template.html").read_text(encoding="utf-8")
     injection=json.dumps(scanner,separators=(",",":"),ensure_ascii=True).replace("<","\\u003c")
     Path("site/scanner.html").write_text(template.replace("/*SCAN_DATA*/",injection),encoding="utf-8")
