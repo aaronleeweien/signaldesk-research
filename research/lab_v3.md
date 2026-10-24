@@ -1,6 +1,6 @@
 # SignalDesk Quant Lab V3
-Updated: 2026-10-23 17:58 UTC
-Latest complete trading session: 2026-10-22
+Updated: 2026-10-24 02:13 UTC
+Latest complete trading session: 2026-10-23
 **RESEARCH ONLY — NOT APPROVED FOR REAL MONEY TRADING**
 
 Strategy selected using 2019–2022 only: None
@@ -10,13 +10,13 @@ Historical 2023+ performance beat VOO: NO
 
 | Strategy | Validation annual % | Diagnostic annual % | Diagnostic drawdown % | Diagnostic net end USD | Diagnostic trades |
 |---|---:|---:|---:|---:|---:|
-| VOO DCA | 13.50 | 21.37 | -18.69 | 10,591 | 46 |
-| QQQ DCA | 15.90 | 29.56 | -22.77 | 12,167 | 46 |
-| Sector Top 2 | 13.40 | 9.57 | -18.12 | 8,034 | 118 |
-| Core + Sector | 10.78 | 14.77 | -19.45 | 8,889 | 102 |
-| Sector Risk Weighted | 11.84 | 11.82 | -17.28 | 8,511 | 118 |
-| VOO Volatility Target | 7.21 | 17.27 | -13.96 | 9,651 | 83 |
-| VOO Pullback | 6.51 | 12.44 | -12.70 | 8,562 | 510 |
+| VOO DCA | 13.50 | 21.18 | -18.69 | 10,535 | 46 |
+| QQQ DCA | 15.90 | 29.53 | -22.77 | 12,165 | 46 |
+| Sector Top 2 | 13.40 | 9.46 | -18.12 | 8,004 | 118 |
+| Core + Sector | 10.78 | 14.75 | -19.45 | 8,885 | 102 |
+| Sector Risk Weighted | 11.84 | 11.66 | -17.28 | 8,467 | 118 |
+| VOO Volatility Target | 7.21 | 17.10 | -13.96 | 9,600 | 83 |
+| VOO Pullback | 6.51 | 12.34 | -12.70 | 8,534 | 510 |
 
 ## Model holdings (hypothetical research exposures)
 
@@ -26,7 +26,7 @@ Historical 2023+ performance beat VOO: NO
 - Core + Sector: VOO 50%, XLK 50%
 - Sector Risk Weighted: XLK 42%, XLV 58%
 - VOO Volatility Target: VOO 100%
-- VOO Pullback: VOO 60%, SHY 40%
+- VOO Pullback: VOO 100%
 
 ## Risk and honesty checks
 

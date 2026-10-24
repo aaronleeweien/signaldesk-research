@@ -1,5 +1,21 @@
 {
-  "notify": false,
-  "latest_close": "2026-10-22",
-  "events": []
+  "notify": true,
+  "latest_close": "2026-10-23",
+  "events": [
+    {
+      "score_pct": 21.11,
+      "ticker": "XLE",
+      "type": "ETF_MOMENTUM_WATCH"
+    },
+    {
+      "score_pct": 25.56,
+      "ticker": "CVX",
+      "type": "STOCK_WATCH_ONLY"
+    },
+    {
+      "score_pct": 21.35,
+      "ticker": "XOM",
+      "type": "STOCK_WATCH_ONLY"
+    }
+  ]
 }

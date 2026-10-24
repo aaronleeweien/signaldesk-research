@@ -6,3 +6,6 @@ completed_close,ticker,event_type,details,recorded_utc,timing
 2026-10-22,XLV,ETF_MOMENTUM_WATCH,"{""score_pct"": 17.17, ""ticker"": ""XLV"", ""type"": ""ETF_MOMENTUM_WATCH""}",2026-10-23 17:58 UTC,LATE_RESEARCH_SNAPSHOT
 2026-10-22,XLP,ETF_MOMENTUM_WATCH,"{""score_pct"": 8.31, ""ticker"": ""XLP"", ""type"": ""ETF_MOMENTUM_WATCH""}",2026-10-23 17:58 UTC,LATE_RESEARCH_SNAPSHOT
 2026-10-22,XLB,ETF_MOMENTUM_WATCH,"{""score_pct"": 1.02, ""ticker"": ""XLB"", ""type"": ""ETF_MOMENTUM_WATCH""}",2026-10-23 17:58 UTC,LATE_RESEARCH_SNAPSHOT
+2026-10-23,XLE,ETF_MOMENTUM_WATCH,"{""score_pct"": 21.11, ""ticker"": ""XLE"", ""type"": ""ETF_MOMENTUM_WATCH""}",2026-10-24 02:13 UTC,BEFORE_NEXT_ESTIMATED_OPEN
+2026-10-23,CVX,STOCK_WATCH_ONLY,"{""score_pct"": 25.56, ""ticker"": ""CVX"", ""type"": ""STOCK_WATCH_ONLY""}",2026-10-24 02:13 UTC,BEFORE_NEXT_ESTIMATED_OPEN
+2026-10-23,XOM,STOCK_WATCH_ONLY,"{""score_pct"": 21.35, ""ticker"": ""XOM"", ""type"": ""STOCK_WATCH_ONLY""}",2026-10-24 02:13 UTC,BEFORE_NEXT_ESTIMATED_OPEN
