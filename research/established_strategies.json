@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-24 16:00 UTC",
+  "generated_utc": "2026-10-24 17:02 UTC",
   "latest_completed_us_market_day": "2026-10-23",
   "objective": "Search among actual operated investment funds for implemented selection strategies beating S&P 500 after common-sample execution costs.",
   "hard_gate": "No fund or copied trading rule is approved as an automatic real-money BUY/SELL signal.",
@@ -110,7 +110,7 @@
           "max_drawdown_pct": -30.96,
           "volatility_pct": 21.07,
           "sharpe_zero_rf": 0.93,
-          "ending_usd": 46173.98,
+          "ending_usd": 46173.97,
           "total_deposits_usd": 14000.0,
           "orders": 121,
           "trading_fees_usd": 13.99,
@@ -210,7 +210,7 @@
           "max_drawdown_pct": -34.08,
           "volatility_pct": 21.86,
           "sharpe_zero_rf": 0.76,
-          "ending_usd": 34684.53,
+          "ending_usd": 34684.54,
           "total_deposits_usd": 14000.0,
           "orders": 121,
           "trading_fees_usd": 13.99,
@@ -235,7 +235,7 @@
           "max_drawdown_pct": -42.23,
           "volatility_pct": 21.08,
           "sharpe_zero_rf": 0.57,
-          "ending_usd": 25433.78,
+          "ending_usd": 25433.77,
           "total_deposits_usd": 14000.0,
           "orders": 121,
           "trading_fees_usd": 13.99,
@@ -292,7 +292,7 @@
           },
           "returns_0bps": {
             "annual_twr_pct": 18.91,
-            "ending_usd": 46220.15,
+            "ending_usd": 46220.14,
             "trading_fees_usd": 0.0
           }
         },
@@ -312,7 +312,7 @@
           },
           "returns_30bps": {
             "annual_twr_pct": 16.15,
-            "ending_usd": 33938.5,
+            "ending_usd": 33938.49,
             "trading_fees_usd": 41.87
           },
           "returns_0bps": {
@@ -337,7 +337,7 @@
           },
           "returns_30bps": {
             "annual_twr_pct": 20.09,
-            "ending_usd": 46477.49,
+            "ending_usd": 46477.48,
             "trading_fees_usd": 41.87
           },
           "returns_0bps": {
@@ -362,12 +362,12 @@
           },
           "returns_30bps": {
             "annual_twr_pct": 32.17,
-            "ending_usd": 108509.67,
+            "ending_usd": 108509.68,
             "trading_fees_usd": 41.87
           },
           "returns_0bps": {
             "annual_twr_pct": 32.26,
-            "ending_usd": 108835.2,
+            "ending_usd": 108835.21,
             "trading_fees_usd": 0.0
           }
         },
@@ -387,12 +387,12 @@
           },
           "returns_30bps": {
             "annual_twr_pct": 15.25,
-            "ending_usd": 34615.37,
+            "ending_usd": 34615.38,
             "trading_fees_usd": 41.87
           },
           "returns_0bps": {
             "annual_twr_pct": 15.33,
-            "ending_usd": 34719.22,
+            "ending_usd": 34719.23,
             "trading_fees_usd": 0.0
           }
         },
@@ -1123,7 +1123,7 @@
           "max_drawdown_pct": -22.78,
           "volatility_pct": 20.81,
           "sharpe_zero_rf": 1.07,
-          "ending_usd": 7855.41,
+          "ending_usd": 7855.42,
           "total_deposits_usd": 5300.0,
           "orders": 34,
           "trading_fees_usd": 5.29,
@@ -1140,7 +1140,7 @@
           "max_drawdown_pct": -35.7,
           "volatility_pct": 38.05,
           "sharpe_zero_rf": 1.25,
-          "ending_usd": 12191.91,
+          "ending_usd": 12191.9,
           "total_deposits_usd": 5300.0,
           "orders": 34,
           "trading_fees_usd": 5.29,

@@ -1,0 +1,17 @@
+{
+  "version": "sec_primary_source_v1",
+  "generated_utc": "2026-10-24T17:03:31.005883+00:00",
+  "source_market_date": "2026-10-23",
+  "research_only": true,
+  "source_catalogue": "https://www.sec.gov/files/company_tickers.json",
+  "selected_screened_tickers": [
+    "VSXY",
+    "MRVL",
+    "PBR",
+    "MPC"
+  ],
+  "companies": [],
+  "errors": [],
+  "status": "not_configured",
+  "selection_limitations": "A handful of PRESENT-DAY shortlisted US tickers, not all publicly traded companies. Survivorship and selection bias remain."
+}

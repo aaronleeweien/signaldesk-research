@@ -64,6 +64,12 @@ VSXY's price rose faster than VOO over the last year → our screen noticed it. 
 
 
 
+## What the actual SEC financial filings say
+
+No independently verified SEC company filings were available for this market session.
+
+
+
 ## Is there a short-term trade?
 
 
