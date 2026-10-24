@@ -37,7 +37,7 @@ summary{color:var(--accent);cursor:pointer;font-weight:650;padding:5px 0}details
 <div class="grid">
 <div class="card"><small>Completed US market session</small><b id="date"></b><small>New signals use completed data only</small></div>
 <div class="card"><small>Historical ETF candidates</small><b id="fund-count"></b><small>Past outperformance, not a prediction</small></div>
-<div class="card"><small>New ETF breakout setups</small><b id="new-signal"></b><small>May be zero on normal days</small></div>
+<div class="card"><small>New breakout setups</small><b id="new-signal"></b><small>May be zero on normal days</small></div>
 <div class="card"><small>Real-money trade approval</small><b class="bad">NONE</b><small>Research paper alerts only</small></div>
 </div>
 <div class="tabs" role="tablist" aria-label="Decision view">
@@ -59,7 +59,7 @@ summary{color:var(--accent);cursor:pointer;font-weight:650;padding:5px 0}details
 <h2>Short-term trade decision: buy next open and exit when?</h2>
 <div class="explain"><b id="trade-verdict">No approved live trade.</b><p id="trade-explainer">If a research setup appears, the page shows an estimated next-session entry, conditional exit rules that could force an earlier sale and the latest planned exit. No future selling price or profit is guaranteed.</p></div>
 <div class="controls">
-<label>Show setups<select id="trade-filter"><option value="new">New breakouts today</option><option value="all">All scanned ETFs</option><option value="trend">Ongoing bullish trends</option></select></label>
+<label>Show setups<select id="trade-filter"><option value="new">New breakout watches today</option><option value="all">All scanned ETFs + stocks</option><option value="trend">Ongoing bullish trends</option></select></label>
 <label>Order by<select id="trade-sort"><option value="quality">Historical evidence</option><option value="relative">Matched trade excess vs VOO</option><option value="ticker">Ticker</option></select></label>
 </div>
 <div class="calculator">
@@ -163,7 +163,7 @@ a.sort((x,y)=>s==="ticker"?x.ticker.localeCompare(y.ticker):
 s==="relative"?(y.historical_evidence.avg_vs_voo_pct??-999)-(x.historical_evidence.avg_vs_voo_pct??-999):
 Number(y.historical_evidence.passes_historical_gate)-Number(x.historical_evidence.passes_historical_gate)||
 (y.historical_evidence.n??0)-(x.historical_evidence.n??0));
-$("trade-result-count").textContent=a.length+" ETF setups shown. 0 approved real-money trades.";
+$("trade-result-count").textContent=a.length+" ETF/stock setups shown. 0 approved real-money trades.";
 $("trade-results").innerHTML=a.length?a.map(tradeCard).join(""):'<div class="callout"><b>No new qualifying entry today.</b> The system is working: it is meant to say NO TRADE when nothing meets the rules. Choose “All scanned ETFs” to review historical evidence.</div>';
 const breakout=d.topline.new_technical_breakouts;
 $("trade-verdict").textContent="0 approved real trades. "+breakout+" new technical breakout"+(breakout===1?"":"s")+" in the last completed session.";
