@@ -32,7 +32,7 @@ STOP_PCT=.07
 STOP_LOW=10
 PAST_START="2018-01-02"
 MAX_INVEST=14
-MAX_TRADE_CARDS=16
+MAX_TRADE_CARDS=64
 
 def px_dict(df,t):
     return {"close":df[t,"Close"].to_numpy(float),"open":df[t,"Open"].to_numpy(float)}
@@ -305,6 +305,44 @@ def build(established,etfs,stocks=None,now=None):
                        else "No brand-new breakout today. The rules do not call for opening a fresh trade."),
           "not_trading_why":"We do not yet have independent future validation or a demonstrated repeatable advantage over simply holding VOO."
         })
+    # Optional stock-level trade watches. The 30-stock universe consists of modern
+    # survivors, so even an excellent historical stock simulation is NOT validated
+    # and must never gain a live or historical trade approval by this screen.
+    if stocks is not None:
+        stock_rows=stocks.reindex(etfs.index)
+        for ticker in STOCKS:
+            fields=[(ticker,"Open"),(ticker,"Close")]
+            if not all(field in stock_rows.columns for field in fields):continue
+            data=pd.concat([stock_rows[fields],
+                etfs[[("VOO","Open"),("VOO","Close")]]],axis=1).dropna()
+            if len(data)<900 or data.index[-1]!=etfs.index[-1]:continue
+            stock_fills,stock_feat=completed_trades(data,ticker)
+            stock_score=validate_trades(stock_fills)
+            stock_score["survivor_biased_historical_screen"] = stock_score["passes_historical_gate"]
+            stock_score["passes_historical_gate"]=False
+            latest_stock=snapshot_signal(data,ticker,stock_feat)
+            fresh=latest_stock["brand_new_breakout"]
+            ongoing=latest_stock["bullish_breakout_now"] and not fresh
+            trade.append({
+                "ticker":ticker,"asset_type":"Stock","horizon":"UP TO 15 US TRADING SESSIONS",
+                "signal_date":last,"proposed_next_open":next_day,
+                "latest_planned_exit":latest_exit,
+                "setup_state":"NEW STOCK BREAKOUT — EXPLORATORY PAPER ONLY" if fresh else
+                    ("STOCK TREND CONTINUES — NO NEW ENTRY" if ongoing else "NO ENTRY"),
+                "new_entry_setup":fresh,
+                "candidate_historical_gate":False,
+                "live_trade_approved":False,
+                "trade_type":"EXPLORATORY WATCH ONLY; a survivor-biased stock history is not a trade recommendation",
+                "exit_plan":"After a completed close <= 93% of hypothetical next-open entry price, OR below prior 10-session low, OR below 200-session SMA, OR after 15 sessions: paper SELL next regular US open. Earlier exits possible.",
+                "stop_closing_threshold_pct":-7,
+                "max_hold_sessions":MAX_HOLD,
+                "risk_budget_note":"Individual stocks can gap through stops; 30 present-day surviving companies create serious historical selection bias.",
+                "indicators":latest_stock,
+                "historical_evidence":stock_score,
+                "why_simple":"New 20-day stock price high with positive 3-/6-month momentum. This is NOT proven to outperform VOO because the stock history comes from today's surviving names." if fresh else
+                    "No new breakout today; the rules do not open a fresh stock trade.",
+                "not_trading_why":"Stock selection uses today's survivors, not a point-in-time eligible universe. Paper watch only; no trading edge has been independently verified."
+            })
     trade.sort(key=lambda x:(x["new_entry_setup"],x["candidate_historical_gate"],x["historical_evidence"]["avg_vs_voo_pct"] or -999),reverse=True)
     # Stocks are intentionally NOT allowed in trade backtesting because the 2026
     # survivor-list would make an unfair historical trading universe.
@@ -348,7 +386,7 @@ def build(established,etfs,stocks=None,now=None):
         "long_horizon":"Long term 1–5+ years, no fixed successful sell date. Use periodic review, not short-term trading stops.",
         "live_prices":"Not provided: GitHub Pages is a daily research snapshot, not a live brokerage terminal."},
       "data_limits":[
-        "The trade backtest currently covers a finite handpicked ETF list; multiple ticker searches inflate chance of apparent winners.",
+        "The trade backtest covers a finite handpicked ETF list and 30 present-day stock survivors; stock backtests have survivorship bias and multiple ticker searches inflate chance of apparent winners.",
         "All trade strategies remain research-only even if historical screening passes.",
         "Simulated next-open trading may not match accessible broker quotes, fills, order sizes or FX costs.",
         "Trading stop checks closes only; overnight gaps can exceed the planned loss limit.",
