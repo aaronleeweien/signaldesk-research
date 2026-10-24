@@ -113,6 +113,43 @@ def instant_tag(facts, candidates):
                 "filed": f.isoformat(), "tag": tag}
     return None
 
+def fcf_present_value(starting_fcf, annual_growth, required_return=.11,
+                      terminal_growth=.02, years=5):
+    """Illustrative equity FCF perpetuity model, not an independent fair value.
+
+    Assumes all CFO minus capex is distributable to shareholders, constant
+    growth for five years and no net borrowing. These assumptions commonly
+    fail for cyclical, leveraged and rapidly growing businesses.
+    """
+    value = finite(starting_fcf)
+    if value is None or value <= 0 or required_return <= terminal_growth:
+        return None
+    annual = value
+    pv = 0.0
+    for year in range(1, years + 1):
+        annual *= (1 + annual_growth)
+        pv += annual / ((1 + required_return) ** year)
+    terminal = annual * (1 + terminal_growth) / (required_return - terminal_growth)
+    return pv + terminal / ((1 + required_return) ** years)
+
+def reverse_fcf_growth(starting_fcf, market_cap):
+    """What five-year annual growth would mathematically reconcile price/FCF?"""
+    cap = finite(market_cap)
+    if cap is None or cap <= 0 or finite(starting_fcf) is None or starting_fcf <= 0:
+        return None
+    lo, hi = -.75, 1.5
+    lower = fcf_present_value(starting_fcf, lo)
+    upper = fcf_present_value(starting_fcf, hi)
+    if lower is None or upper is None or not lower <= cap <= upper:
+        return None
+    for _ in range(65):
+        mid = (lo + hi) / 2
+        if fcf_present_value(starting_fcf, mid) < cap:
+            lo = mid
+        else:
+            hi = mid
+    return round((lo + hi) * 50, 2)
+
 def inspect_company(stock, cik, facts):
     """Return tagged facts, ratios and provenance, never a fair-value claim."""
     rev = annual_tag(facts, REVENUE_TAGS)
@@ -137,6 +174,15 @@ def inspect_company(stock, cik, facts):
                              "free_cash_flow_usd": year_fcf})
     available_fcf = [x["free_cash_flow_usd"] for x in cash_history if x["free_cash_flow_usd"] is not None]
     market_cap = finite(stock.get("market_cap_usd"))
+    implied = reverse_fcf_growth(fcf, market_cap)
+    scenario_values = {}
+    if fcf is not None and fcf > 0 and market_cap is not None and market_cap > 0:
+        for label, growth in (("no_growth", 0.), ("moderate_growth", .05), ("fast_growth", .10)):
+            v = fcf_present_value(fcf, growth)
+            scenario_values[label] = {
+                "annual_fcf_growth_assumed_pct": round(growth * 100, 2),
+                "illustrative_equity_value_usd": round(v, 2),
+                "value_as_pct_of_current_market_cap": pct_ratio(v, market_cap)}
     return {
         "ticker": stock["ticker"],
         "company_sec_name": facts.get("entityName"),
@@ -160,6 +206,15 @@ def inspect_company(stock, cik, facts):
         "free_cash_flow_margin_pct": pct_ratio(fcf, revenue),
         "market_cap_at_screen_usd": market_cap,
         "free_cash_flow_yield_pct": pct_ratio(fcf, market_cap),
+        "reverse_cash_flow_valuation": {
+            "illustrative_only": True,
+            "required_return_assumed_pct": 11,
+            "terminal_perpetual_growth_assumed_pct": 2,
+            "years_of_projected_cash_flow": 5,
+            "implied_growth_needed_by_stock_price_pct": implied,
+            "fixed_assumption_scenarios": scenario_values,
+            "methodology": "Discount annual equity-like operating cash flow minus capital spending with no net new borrowing. Simplified fixed assumptions are NOT forecasts, calibrated costs of capital or defensible price targets."
+        },
         "cash_balance": instant_tag(facts, BALANCE_TAGS["cash"]),
         "long_term_debt_tag": instant_tag(facts, BALANCE_TAGS["long_term_debt"]),
         "primary_source": API.format(cik),
@@ -172,7 +227,8 @@ def inspect_company(stock, cik, facts):
             "Free-cash-flow yield compares last annual cash flow with a later stock-market value, not matched point-in-time data.",
             "SEC facts can reflect later amendments. Do not use these figures in historical backtests as if known then.",
             "Missing XBRL tags mean unknown, not zero. Long-term-debt tags may omit other liabilities.",
-            "A company's cash flow, momentum and P/E alone do not establish fair value or future VOO outperformance."
+            "A company's cash flow, momentum and P/E alone do not establish fair value or future VOO outperformance.",
+            "Reverse cash-flow valuation assumes all CFO less capex is distributable to shareholders, fixed 11% required return, 2% terminal growth, and no net borrowing; the implied growth is NOT a company forecast."
         ]
     }
 
