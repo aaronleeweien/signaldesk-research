@@ -62,7 +62,8 @@ def main():
       +"\n".join(items)
       +"\n\nThe daily rule is experimental and may underperform VOO/SPMO after costs. "
        "Options trades and brokerage orders are never created.\n\n"
-       "DECISION CENTRE: https://"+owner+".github.io/"+repo.split("/")[1]+"/decisions.html\n"\n       "Scanner: https://"+owner+".github.io/"+repo.split("/")[1]+"/scanner.html\n"
+       "DECISION CENTRE: https://"+owner+".github.io/"+repo.split("/")[1]+"/decisions.html\n"
+       "Scanner: https://"+owner+".github.io/"+repo.split("/")[1]+"/scanner.html\n"
        "Past events: https://github.com/"+repo+"/blob/main/research/daily_events.csv\n"
       )
     url=f"https://api.github.com/repos/{repo}/issues"
