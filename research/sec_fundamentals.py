@@ -60,6 +60,7 @@ def select_candidates(rows, limit=4):
 
 def annual_tag(facts, candidates):
     gaap = facts.get("facts", {}).get("us-gaap", {})
+    best = {}
     for tag in candidates:
         values = gaap.get(tag, {}).get("units", {}).get("USD", [])
         found = {}
@@ -83,12 +84,15 @@ def annual_tag(facts, candidates):
                     "value_usd": val, "filed": filed.isoformat(),
                     "fiscal_end": end.isoformat(), "tag": tag,
                     "form": item["form"], "accession": item.get("accn")}
-        if found:
-            return found
-    return {}
+        # Prefer the revenue/XBRL tag whose latest annual period is newest.
+        # A legacy tag can be valid but end years before a newer taxonomy tag.
+        if found and (not best or max(found) > max(best)):
+            best = found
+    return best
 
 def instant_tag(facts, candidates):
     gaap = facts.get("facts", {}).get("us-gaap", {})
+    all_records = []
     for tag in candidates:
         records = []
         for item in gaap.get(tag, {}).get("units", {}).get("USD", []):
@@ -102,10 +106,11 @@ def instant_tag(facts, candidates):
             val = finite(item.get("val"))
             if val is not None and f <= date.today():
                 records.append((d, f, val, tag))
-        if records:
-            d, f, val, tag = max(records)
-            return {"value_usd": val, "period_end": d.isoformat(),
-                    "filed": f.isoformat(), "tag": tag}
+        all_records.extend(records)
+    if all_records:
+        d, f, val, tag = max(all_records)
+        return {"value_usd": val, "period_end": d.isoformat(),
+                "filed": f.isoformat(), "tag": tag}
     return None
 
 def inspect_company(stock, cik, facts):
@@ -123,6 +128,14 @@ def inspect_company(stock, cik, facts):
     net = inc.get(latest)
     revenue = cur["value_usd"] if cur else None
     fcf = (op["value_usd"] - spending["value_usd"]) if op and spending else None
+    cash_history = []
+    for end in ends[:3]:
+        flow, investment = cashflow.get(end), capex.get(end)
+        year_fcf = (flow["value_usd"] - investment["value_usd"]) if flow and investment else None
+        cash_history.append({"fiscal_year_ended": end,
+                             "revenue_usd": rev[end]["value_usd"],
+                             "free_cash_flow_usd": year_fcf})
+    available_fcf = [x["free_cash_flow_usd"] for x in cash_history if x["free_cash_flow_usd"] is not None]
     market_cap = finite(stock.get("market_cap_usd"))
     return {
         "ticker": stock["ticker"],
@@ -140,6 +153,10 @@ def inspect_company(stock, cik, facts):
         "operating_cash_usd": op["value_usd"] if op else None,
         "capital_spending_usd": spending["value_usd"] if spending else None,
         "free_cash_flow_usd": fcf,
+        "annual_history_latest_three": cash_history,
+        "positive_fcf_years": sum(x > 0 for x in available_fcf),
+        "fcf_years_available": len(available_fcf),
+        "cash_conversion_operating_to_net_income": round(op["value_usd"]/net["value_usd"],2) if op and net and net["value_usd"] > 0 else None,
         "free_cash_flow_margin_pct": pct_ratio(fcf, revenue),
         "market_cap_at_screen_usd": market_cap,
         "free_cash_flow_yield_pct": pct_ratio(fcf, market_cap),
@@ -150,6 +167,8 @@ def inspect_company(stock, cik, facts):
         "data_limitations": [
             "Annual 10-K figures may be several quarters old; balances can be from a newer 10-Q.",
             "Free cash flow = operating cash flow minus reported property/equipment purchases; it is not a forecast.",
+            "Three-year history is provided only when revenue and matching fiscal-year cash-flow tags exist.",
+            "Operating-cash/net-income conversion can be distorted by one-off working-capital and noncash items.",
             "Free-cash-flow yield compares last annual cash flow with a later stock-market value, not matched point-in-time data.",
             "SEC facts can reflect later amendments. Do not use these figures in historical backtests as if known then.",
             "Missing XBRL tags mean unknown, not zero. Long-term-debt tags may omit other liabilities.",
