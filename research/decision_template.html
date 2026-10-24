@@ -54,13 +54,13 @@ summary{color:var(--accent);cursor:pointer;font-weight:650;padding:5px 0}details
 <section class="easy-wrap" aria-label="Today's answer">
 <p class="eyebrow">TODAY'S ANSWER</p>
 <h2>Q: What would I do today?</h2>
-<p class="easy-line"><strong>My answer:</strong> <span id="easy-trade">Keep DCA-ing into VOO. No real trade today.</span></p>
+<p class="easy-line"><strong>What should I do?</strong> <span id="easy-trade">Keep DCA-ing into VOO. No real trade today.</span></p>
 <p class="easy-line"><strong>Why?</strong> <span id="easy-invest">Our BUY rule was tested on past prices → it did not prove it could beat VOO → I would not risk money following it.</span></p>
 <details><summary>Jargon: simple meanings</summary>
 <p class="easy-terms"><b>DCA</b> = buy regularly. <b>Breakout</b> = price goes above an earlier high. <b>Backtest</b> = test rules on old prices. <b>Drawdown</b> = biggest fall from a high.</p>
 </details>
 </section>
-<details class="advanced-panel"><summary>Data date and research limits</summary><p id="date-context">Checking latest US prices…</p><p>This uses yesterday's completed US prices, not live prices. An ETF that beat VOO before is not automatically worth buying today.</p></details>
+<details class="advanced-panel"><summary>Data date and research limits</summary><p id="date-context">Checking latest US prices…</p><p>This uses yesterday's completed US prices, not live prices. This is not an approved trading service. A past winner is not automatically a BUY today.</p></details>
 <nav><a href="#invest">Investment ideas</a><a href="#trade">Trading setups</a><a href="#how">How it decides</a><a href="established.html">Full fund evidence</a><a href="validation.html">Strategy audit</a><a href="paper_forward.html">Forward paper records</a><a href="decision_hub.json">Raw daily data</a></nav>
 <details class="advanced-panel"><summary>See today\'s numbers (optional)</summary>
 <div class="grid">
@@ -219,7 +219,7 @@ s==="relative"?(y.historical_evidence.avg_vs_voo_pct??-999)-(x.historical_eviden
 Number(y.historical_evidence.passes_historical_gate)-Number(x.historical_evidence.passes_historical_gate)||
 (y.historical_evidence.n??0)-(x.historical_evidence.n??0));
 $("trade-result-count").textContent=a.length+" setups shown. None approved for real-money trading.";
-$("trade-results").innerHTML=a.length?a.map(tradeCard).join(""):'<div class="callout"><b>NO TRADE.</b> No new breakout passed today's entry check. There is nothing to buy from this rule.</div>';
+$("trade-results").innerHTML=a.length?a.map(tradeCard).join(""):'<div class="callout"><b>NO TRADE.</b> No new breakout passed the entry check. There is nothing to buy from this rule.</div>';
 const breakout=d.topline.new_technical_breakouts;
 $("trade-verdict").textContent="My answer: NO REAL TRADE. "+breakout+" paper setup"+(breakout===1?"":"s")+" to watch.";
 }
