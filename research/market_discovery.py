@@ -28,6 +28,11 @@ try:
 except ImportError:
     import decision_hub as hub
 
+try:
+    from . import kotegawa_reversion as bnf
+except ImportError:
+    import kotegawa_reversion as bnf
+
 VERSION="market_discovery_v1"
 DIRECTORIES=(
  ("NASDAQ","https://www.nasdaqtrader.com/dynamic/SymDir/nasdaqlisted.txt"),
@@ -324,7 +329,7 @@ def study_trade(candidate,df):
 def run():
     catalog,coverage=directory_catalog()
     quotes,screens=screen_market(catalog)
-    asof=None;ideas=[];trades=[];errors=[]
+    asof=None;ideas=[];trades=[];errors=[];bnf_study=None
     if quotes:
         try:
             chosen=shortlist(quotes)
@@ -334,6 +339,10 @@ def run():
             benchmark=prices["VOO","Close"].dropna()
             latest=str(benchmark.index[-1].date())
             asof=latest
+            try:
+                bnf_study=bnf.compare_market(prices,chosen,latest)
+            except (ValueError,KeyError,TypeError) as ex:
+                errors.append("BNF-inspired study: "+type(ex).__name__)
             for sym in chosen:
                 try:
                     idea=analyse_stock(sym,quotes[sym],prices,benchmark,latest)
@@ -364,6 +373,7 @@ def run():
        "stocks_with_price_growth_and_valuation_data":sum(x["valuation_metrics_complete"] for x in ideas),
        "stock_investing_watchlist":ideas[:30],
        "expanded_trade_watches":trades[:15],
+       "bnf_inspired_mean_reversion":bnf_study,
        "has_verified_profitable_trade_rule":False,
        "next_step":"Seek point-in-time constituent histories and credible fundamental data coverage before any broad-market outperformance claims.",
        "errors":errors,
@@ -377,6 +387,14 @@ def publish(d):
     encoded=json.dumps(d,indent=2,ensure_ascii=False)+"\n"
     Path("research/market_discovery.json").write_text(encoded,encoding="utf-8")
     Path("site/market_discovery.json").write_text(encoded,encoding="utf-8")
+    bnf_study=d.get("bnf_inspired_mean_reversion")
+    if bnf_study:
+        serialized=json.dumps(bnf_study,indent=2,ensure_ascii=False)+"\n"
+        Path("research/kotegawa_reversion.json").write_text(serialized,encoding="utf-8")
+        Path("site/kotegawa_reversion.json").write_text(serialized,encoding="utf-8")
+        template=Path("research/kotegawa_template.html").read_text(encoding="utf-8")
+        embedded=json.dumps(bnf_study,separators=(",",":"),ensure_ascii=True).replace("<","\\u003c")
+        Path("site/kotegawa.html").write_text(template.replace("/*BNF_DATA*/",embedded),encoding="utf-8")
     tpl=Path("research/market_template.html").read_text(encoding="utf-8")
     safe=json.dumps(d,separators=(",",":"),ensure_ascii=True).replace("<","\\u003c")
     Path("site/market.html").write_text(tpl.replace("/*MARKET_DATA*/",safe),encoding="utf-8")
