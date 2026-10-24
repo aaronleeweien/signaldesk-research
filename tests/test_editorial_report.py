@@ -20,20 +20,19 @@ class EditorialReportTests(unittest.TestCase):
         self.assertIn("My recommendation",html)
         self.assertIn("real-money trade",html)
         self.assertIn("What I would do",html)
-        self.assertIn("forward P/E",html.lower())
+        self.assertIn("forward p/e",html.lower())
         self.assertIn("does not",html.lower())
         self.assertIn("Wall Street-grade research",html)
         self.assertIn("market.html",html)
         self.assertIn("established.html",html)
         self.assertIn("plain-English",html)
-        self.assertIn("Full",r.render_markdown(obj) if False else "Full")
 
     def test_historical_approvals_do_not_grant_live_trading(self):
         a,b,c,d=self.sources()
         if any(x is None for x in (a,b,c)):self.skipTest("Data unavailable")
         obj=r.narrative_bundle(a,b,c,rev=d)
         self.assertNotIn("BUY NOW",r.render_article(obj))
-        self.assertIn("no new real-money trade",obj["headline"].lower())
+        self.assertIn("Do not open a new real-money trade",obj["headline"])
 
     def test_source_date_mismatch_prevents_claiming_fresh(self):
         a,b,c,d=self.sources()
