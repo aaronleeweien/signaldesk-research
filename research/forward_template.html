@@ -14,15 +14,32 @@ table{width:100%;border-collapse:collapse;display:block;overflow:auto}th,td{bord
 .easy-wrap .easy-terms{font-size:12.5px;line-height:1.55;color:#c1d5d8;margin-top:13px;padding-top:12px;border-top:1px solid #44666d}
 .easy-wrap a{color:#b9e5ff}
 @media(max-width:530px){.easy-wrap{padding:14px 15px;margin:12px 0 16px}.easy-wrap .easy-line{font-size:14px}}
+
+/* Beginner-first single Q&A; original tables, data and formulas remain unchanged. */
+.easy-wrap{padding:15px 18px;max-width:100%;border:1px solid #537e85;background:#102a36;color:#f1f8f8;border-radius:14px}
+.easy-wrap h2{font-size:21px!important;margin:5px 0 12px!important;line-height:1.35}
+.easy-wrap .easy-line{font-size:15px;line-height:1.55;margin:9px 0!important}
+.easy-wrap .easy-line strong{color:#a8edd3}
+.easy-wrap .easy-why{color:#d1e0e3}
+.easy-wrap .easy-terms{border:none;padding:4px 0;margin:3px 0;color:#c5dadd;font-size:13px}
+.easy-wrap summary{font-size:13px;cursor:pointer;color:#a4d9ff}
+.extra-evidence{background:#0d2031;border:1px solid #344e68;border-radius:12px;padding:14px;margin:16px 0}
+.extra-evidence>summary{color:#a5d9ef;font-weight:800;font-size:15px;cursor:pointer}
+@media(max-width:560px){.easy-wrap{padding:14px}.easy-wrap .easy-line{font-size:14px}}
 </style>
 <script id="data" type="application/json">/*FORWARD_PAPER*/</script>
 <main><div class="eyebrow">SIGNALDESK / PROSPECTIVE EVIDENCE / PAPER ACCOUNT</div><h1>Did the signals actually make money?</h1>
 <p>Every trading rule gets a separate US$2,000 simulated account. Positions are recorded in advance and only filled after the next completed market session arrives. The same dates are used for passive VOO and SPMO accounts.</p>
-<section class="easy-wrap" aria-label="Plain English page summary"><h2>**What has our paper trading proved?**</h2>
-<p class="easy-line"><span class="easy-label">In short:</span> <span id="easy-forward">Research only. See the results below.</span></p>
-<p class="easy-line"><span class="easy-label">What should I do?</span> <span id="easy-forwardaction">No need to place a trade. Let the paper accounts record future results, then compare them with simply buying VOO or SPMO.</span></p>
-<p class="easy-terms">Jargon: Paper trade = pretend trade with no real money. P&L = profit or loss. Fill = price used when a pretend order is executed. <a href="decisions.html">Back to daily decisions →</a></p></section>
+<section class="easy-wrap" aria-label="One clear answer">
+<p class="eyebrow">THE ANSWER</p>
+<h2>Q: Have our paper trades proved anything?</h2>
+<p class="easy-line"><strong>My answer:</strong> <span id="easy-forward">Reading past results…</span></p>
+<p class="easy-line"><strong>What should I do?</strong> <span id="easy-forwardaction">Don't make a live trade from this test. Keep gathering real future paper results.</span></p>
+<p class="easy-line easy-why"><strong>Why?</strong> A model saves its idea today → future prices arrive → we check the pretend profit or loss → then compare it with VOO.</p>
+<details><summary>Jargon, in simple words</summary><p class="easy-terms">Paper trade = pretend trade. Fill = execution price. P&L = profit or loss. Drawdown = biggest fall.</p></details>
+</section>
 <div class="warning"><strong>RESEARCH ONLY — NO REAL TRADES OR BROKER CONNECTION</strong><div>This is a research shadow ledger, not exchange-simulated Alpaca paper execution. It uses reported next-session opening prices and estimated fees; real fills, spreads, taxes and currency costs will differ.</div></div>
+<details class="extra-evidence"><summary>See full research, charts and settings</summary>
 <nav><a href="scanner.html">Daily scanner</a><a href="validation.html">Evidence rules</a><a href="factor.html">SPMO portfolio</a><a href="#models">Paper portfolios</a><a href="#orders">Fills</a><a href="paper_forward.json">Full public data</a></nav>
 <div class="grid">
 <div class="card"><small>Genuine future sessions recorded</small><strong id="sessions"></strong></div>
@@ -35,11 +52,12 @@ table{width:100%;border-collapse:collapse;display:block;overflow:auto}th,td{bord
 <section class="panel"><h2>Latest saved targets, BEFORE any fill</h2><p id="asof"></p><table><thead><tr><th>Model</th><th>Hypothetical next-session positions</th></tr></thead><tbody id="targets"></tbody></table><p class="muted">A signal is prospective only if it was first timestamped before the next estimated US market opening. An old snapshot is never rewritten to improve a prediction.</p></section>
 <section class="panel" id="orders"><h2>Latest forward order records</h2><table><thead><tr><th>Actual session</th><th>Paper account</th><th>Side</th><th>Symbol</th><th>Units</th><th>Open price</th><th>Estimated cost</th></tr></thead><tbody id="fills"></tbody></table></section>
 <footer>SignalDesk Forward Paper Shadow Ledger · No personally identifying financial data; figures are artificial. Market data from adjusted Yahoo Finance bars. Not a trading service and no guaranteed profit.</footer>
+</details>
 </main>
 <script>
 (()=>{const d=JSON.parse(document.getElementById("data").textContent),$=k=>document.getElementById(k);
 const num=x=>Number(x||0).toLocaleString("en-US",{maximumFractionDigits:2}),pct=x=>Number(x||0).toFixed(1)+"%";
-$("easy-forward").textContent=d.prospective_market_sessions+" of the first 63 future US market sessions are recorded. "+(d.prospective_market_sessions<63?"Too early to judge the strategy.":"The first checkpoint is reached, but that alone does not prove an advantage.");
+$("easy-forward").textContent=d.prospective_market_sessions+" of the first 63 future market sessions have been recorded. "+(d.prospective_market_sessions<63?"Too early for even a first review.":"We can review the results, but 63 sessions alone do not prove success.");
 $("sessions").textContent=d.prospective_market_sessions;$("missing").textContent=d.missing_or_invalid_intervals;
 $("dates").textContent="First prospective filled US session: "+(d.start_market_session||"Not yet")+" · Latest saved close "+(d.last_completed_close||"—");
 $("progress").style.width=pct(d.eligible_session_progress_pct);
