@@ -28,6 +28,14 @@ class BroadMarketTests(unittest.TestCase):
         self.assertEqual(q["earnings_growth_pct"],20.)
         self.assertEqual(q["revenue_growth_pct"],25.)
 
+    def test_missing_growth_can_be_derived_from_existing_earnings_estimates(self):
+        quote=m.quote_from_screen({"symbol":"VALU",
+            "marketCap":12e9,"averageDailyVolume3Month":2e6,
+            "forwardPE":10.0,"trailingPE":15.0},"Valuation")
+        self.assertEqual(quote["earnings_growth_pct"],50.0)
+        self.assertIn("implied",quote["earnings_growth_source"])
+        self.assertIsNone(quote["revenue_growth_pct"])
+
     def test_tiny_illiquid_companies_are_filtered(self):
         small=m.quote_from_screen({"symbol":"TINY","marketCap":20e6,"averageDailyVolume3Month":10000},"Momentum")
         self.assertIsNone(small)
