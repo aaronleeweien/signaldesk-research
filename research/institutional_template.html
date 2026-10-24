@@ -35,14 +35,30 @@ ul{padding-left:20px}li{margin-bottom:8px;color:#c9d7e6}
 .easy-wrap .easy-terms{font-size:12.5px;line-height:1.55;color:#c1d5d8;margin-top:13px;padding-top:12px;border-top:1px solid #44666d}
 .easy-wrap a{color:#b9e5ff}
 @media(max-width:530px){.easy-wrap{padding:14px 15px;margin:12px 0 16px}.easy-wrap .easy-line{font-size:14px}}
+
+/* Answer first; unchanged research remains behind an optional open section. */
+.easy-wrap{background:#102a36!important;color:#f1f8f8!important;border:1px solid #537e85;border-radius:14px;padding:15px 18px;margin:17px 0}
+.easy-wrap h2{font-size:21px!important;line-height:1.35;margin:4px 0 11px!important}
+.easy-wrap .easy-line{font-size:15px;line-height:1.55;margin:8px 0!important;color:#eef9fa}
+.easy-wrap .easy-line strong{color:#a8edd3}
+.easy-wrap .easy-why{color:#d1e0e3}
+.easy-wrap .easy-terms{color:#c5dadd;font-size:13px;padding:4px 0;border:0}
+.easy-wrap summary{font-size:13px;cursor:pointer;color:#a4d9ff}
+.extra-evidence{background:#0d2031;border:1px solid #344e68;border-radius:12px;padding:14px;margin:16px 0}
+.extra-evidence>summary{color:#a5d9ef;font-weight:800;font-size:15px;cursor:pointer}
+@media(max-width:560px){.easy-wrap{padding:14px}.easy-wrap .easy-line{font-size:14px}}
 </style></head><body><script id="modeldata" type="application/json">/*V4_DATA*/</script>
 <main>
 <header><div><div class="eyebrow">SIGNALDESK / INSTITUTIONAL RESEARCH / V4</div><h1>Quantitative investment report.</h1><p class="muted">One candidate. Multiple benchmarks. Transparent performance attribution, research signals, risk limits, and statistical reality checks.</p></div><div class="header-note" id="date">Loading...</div></header>
-<section class="easy-wrap" aria-label="Plain English page summary"><h2>**Should I buy these five stocks?**</h2>
-<p class="easy-line"><span class="easy-label">In short:</span> <span id="easy-institutional">Research only. See the results below.</span></p>
-<p class="easy-line"><span class="easy-label">What should I do?</span> <span id="easy-institutionalaction">No real-money trades based on this model. The five-stock strategy uses today's surviving companies in its past tests, which makes the results less trustworthy.</span></p>
-<p class="easy-terms">Jargon: Alpha = return above what risk or a benchmark explains. CAGR = yearly compounded growth. Survivorship bias = missing companies that disappeared. <a href="decisions.html">Back to daily decisions →</a></p></section>
+<section class="easy-wrap" aria-label="One clear answer">
+<p class="eyebrow">THE ANSWER</p>
+<h2>Q: Can the five-stock strategy beat VOO?</h2>
+<p class="easy-line"><strong>My answer:</strong> <span id="easy-institutional">Reading past results…</span></p>
+<p class="easy-line"><strong>What should I do?</strong> <span id="easy-institutionalaction">NO live trades. It is a stock research experiment.</span></p>
+<p class="easy-line easy-why"><strong>Why?</strong> The model picks five surviving companies → it tests old prices → companies that disappeared were left out → the results can mislead us.</p>
+<details><summary>Jargon: simple meanings</summary><p class="easy-terms">CAGR = compound yearly growth. Momentum = recent price strength. Survivorship bias = missing companies that disappeared.</p></details></section>
 <div class="warning"><strong>INVESTMENT COMMITTEE STATUS: NOT APPROVED</strong><p>These are paper research targets, not instructions to purchase securities. This stock list was chosen with hindsight, introducing serious survivorship bias. Statistical results cannot remove that bias or guarantee future profits.</p></div>
+<details class="extra-evidence"><summary>See full research, charts and settings</summary>
 <nav class="pagebar"><a href="#executive">Executive summary</a><a href="#evidence">Evidence</a><a href="#risk">Risk & uncertainty</a><a href="#trade">Trade plan</a><a href="#audit">Audit checklist</a><a href="stocks.html">Previous stock dashboard</a><a href="stocks_paper.html">Paper archive</a></nav>
 <section id="executive">
 <div class="grid4">
@@ -77,15 +93,17 @@ ul{padding-left:20px}li{margin-bottom:8px;color:#c9d7e6}
 <section id="audit"><div class="panel"><h2>Investment committee audit trail</h2><div class="grid2"><div><h3>What is genuinely supported?</h3><ul><li>Published academic studies document medium-term stock momentum in broad historical cross-sections.</li><li>Our historical simulation shows returns exceeding VOO in two retrospective windows.</li><li>Its actual estimated trades, fees, monthly performance, beta and drawdowns can be inspected and compared.</li><li>Future paper signals are timestamped to distinguish advance forecasts from hindsight.</li></ul></div><div><h3>What would invalidate a real-money decision?</h3><ul id="limits"></ul></div></div></div>
 <div class="panel"><h2>Academic references</h2><ul id="papers"></ul><p class="muted">Research sources describe historical patterns or statistical methodology, not proof that this dashboard's personal implementation will make money.</p></div></section>
 <footer class="foot">SignalDesk Quant V4 · Fully automatic GitHub Actions research pipeline · Unofficial historical price feed via yfinance · No brokerage access or auto-execution. Research reports are public; never upload private financial information. <a href="https://github.com/aaronleeweien/signaldesk-research">View source</a>.</footer>
+</details>
 </main>
 <script>
 (()=>{const d=JSON.parse(document.getElementById("modeldata").textContent);
 const $=x=>document.getElementById(x),fmt=x=>Number(x??0).toLocaleString("en-US",{maximumFractionDigits:2}),pct=x=>Number(x??0).toFixed(2)+"%",signed=x=>(Number(x)>0?"+":"")+pct(x);
 const names=["VOO DCA","QQQ DCA","Top-5 Momentum","Top-5 Trend Filter","Top-5 Defensive","Static Equal Weight"];
 $("date").innerHTML="Research saved: "+d.generated_utc+"<br/>Last completed US market date: "+d.asof_completed_us_session+"<br/><span class='tag'>RESEARCH ONLY</span>";
-$("easy-institutional").textContent="This model picks five stocks from a fixed list of 30. Its older test left out failed or delisted companies. That means impressive returns could be misleading.";
+
 const early=d.candidate_evidence.validation_2019_2022,later=d.candidate_evidence.diagnostic_2023_latest;
-$("easy-institutional").textContent="From 2023 onward in the old test, Top-5 Momentum grew "+pct(later["Top-5 Momentum"])+" a year; VOO grew "+pct(later["VOO DCA"])+". But the stock list was chosen with hindsight. No real trade is approved.";
+ VOO grew "+pct(later["VOO DCA"])+". But the stock list was chosen with hindsight. No real trade is approved.";
+$("easy-institutional").textContent="In the 2023+ old test, Top-5 Momentum returned "+pct(later["Top-5 Momentum"])+" yearly; VOO returned "+pct(later["VOO DCA"])+". That is not independent proof.";
 $("val1").textContent=pct(early["Top-5 Momentum"])+" vs "+pct(early["VOO DCA"]);
 $("val2").textContent=pct(later["Top-5 Momentum"]);
 $("val3").textContent=pct(later["VOO DCA"]);
