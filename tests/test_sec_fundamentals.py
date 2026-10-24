@@ -1,6 +1,6 @@
 """Isolated fixtures: no external data calls, no fabricated fundamentals."""
 import unittest
-from research.sec_fundamentals import inspect_company, annual_tag, select_candidates
+from research.sec_fundamentals import inspect_company, annual_tag, select_candidates, fcf_present_value, reverse_fcf_growth
 
 def annual(value, end="2025-12-31", filed="2026-02-15"):
     return {"val":value,"start":"2025-01-01","end":end,"filed":filed,
@@ -39,6 +39,14 @@ class SecFundamentalsTests(unittest.TestCase):
     def test_no_forecast_or_buy_from_SEC_ratios(self):
         self.assertFalse(any("buy" in key or "target" in key
             for key in inspect_company({"ticker":"E","market_cap_usd":1},1,{})))
+
+    def test_reverse_cash_flow_model_is_mathematical_not_a_forecast(self):
+        self.assertIsNone(reverse_fcf_growth(-10,100))
+        self.assertIsNone(fcf_present_value(0,0.05))
+        model=fcf_present_value(10,0.05)
+        self.assertGreater(model, fcf_present_value(10,0.0))
+        solved=reverse_fcf_growth(10,model)
+        self.assertAlmostEqual(solved,5,places=1)
 
     def test_shortlist_uses_multiple_predeclared_sorts(self):
         rows=[{"ticker":s,"status":"RESEARCH CANDIDATE","forward_pe":p}
