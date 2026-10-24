@@ -158,6 +158,19 @@ def narrative_bundle(hub,market,est,rev=None,fundamentals=None):
             if debt:
                 evidence+=(f" Reported long-term-debt tag {dollars(debt.get('value_usd'))} "
                            f"(balance-sheet date {debt['period_end']}); this may NOT include every liability.")
+            model=item.get("reverse_cash_flow_valuation",{})
+            implied=model.get("implied_growth_needed_by_stock_price_pct")
+            if implied is not None:
+                evidence+=(
+                    f" Reverse-valuation arithmetic: today's stock-market value would require about "
+                    f"{pct(implied)} annual free-cash-flow growth for five years under the FIXED "
+                    f"11% investor-required return and 2% perpetual terminal growth assumptions.")
+                scenarios=model.get("fixed_assumption_scenarios",{})
+                if scenarios:
+                    scenario_summary="; ".join(
+                        f"{label.replace('_',' ')}: {pct(z.get('value_as_pct_of_current_market_cap'))} of market cap"
+                        for label,z in scenarios.items())
+                    evidence+=f" Sensitivity if FCF growth instead stays at 0%, 5%, or 10%: {scenario_summary}."
             note=("FCF (free cash flow) means cash generated from operations minus money spent on property and equipment. "
                 "Positive FCF can help a company invest, repay debt or return cash to shareholders. "
                 "FCF yield compares that historical cash with today's market value: a higher number can be attractive "
@@ -165,7 +178,9 @@ def narrative_bundle(hub,market,est,rev=None,fundamentals=None):
                 "Revenue growth tells us whether sales expanded, not whether investors will earn a profit.")
             missing=("We still need current-quarter context, business quality, competitors, detailed debt analysis, "
                 "forward earnings and a properly justified valuation scenario before claiming this may beat VOO. "
-                "Annual reports lag today's market price; the SEC facts may include amendments.")
+                "Annual reports lag today's market price; the SEC facts may include amendments. "
+                "The reverse-valuation calculation is a sensitivity exercise, NOT a verified fair value or "
+                "a company forecast: real growth, discount rates, cash use and borrowing could differ substantially.")
             fundamental_stories.append({
                 "ticker":sym,"recommendation":"PRIMARY-SOURCE FINANCIAL CHECK ONLY; not a buy recommendation.",
                 "why":note,"evidence":evidence,"missing":missing,
