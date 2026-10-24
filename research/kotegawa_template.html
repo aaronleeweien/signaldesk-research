@@ -1,0 +1,39 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>SignalDesk | Kotegawa-Inspired Rebound Study</title>
+<style>
+:root{color-scheme:dark;--line:#35546c;--green:#a4ead0;--fg:#ecf5fc;--muted:#b9cddd;--bg:#081726}*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at 80% -30%,#244961,var(--bg) 65%);font:15px/1.55 system-ui,-apple-system,sans-serif;color:var(--fg)}main{max-width:1060px;margin:0 auto;padding:24px 15px 60px}h1{line-height:1.12;font-size:clamp(28px,4vw,40px)}h2{font-size:20px}p{margin:8px 0 13px}.muted{color:var(--muted)}a{color:#a9e3ff}nav{display:flex;gap:8px;flex-wrap:wrap;margin:20px 0}nav a{border-radius:40px;border:1px solid var(--line);padding:7px 11px;font-size:12px;text-decoration:none}.panel{background:#122b40;border:1px solid var(--line);border-radius:14px;margin:15px 0;padding:17px}.verdict{border-left:3px solid var(--green);background:#12343b;padding:18px;border-radius:3px 12px 12px 3px}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}.grid .panel{margin:0}strong.big{font-size:27px;display:block}.item{border-top:1px solid var(--line);padding:10px 0}.item:first-child{border:0}details{margin-top:9px}summary{color:#9cddfc;cursor:pointer;font-weight:600}table{width:100%;display:block;overflow:auto;border-collapse:collapse}th,td{padding:10px;border-bottom:1px solid #35526d;text-align:left;white-space:nowrap;font-size:12px}th{color:var(--muted)}footer{margin-top:25px;font-size:12px;color:var(--muted)}@media(max-width:650px){.grid{grid-template-columns:1fr 1fr}.panel{padding:13px}}
+</style></head><body><script id="dataset" type="application/json">/*BNF_DATA*/</script><main>
+<div class="muted" style="font-size:12px;font-weight:700;letter-spacing:.12em">SIGNALDESK / DIFFERENT TRADING APPROACH</div>
+<h1>Can we profit when stocks bounce back?</h1>
+<div class="verdict"><strong>My answer: Not proven yet. I would not copy Kotegawa's trades with real money.</strong>
+<p>Why? A stock falls very far → panic selling might end → the stock sometimes rises again → we might make money if we sell in time. But sometimes it keeps falling.</p><p id="whatfound" class="muted"></p></div>
+<nav><a href="decisions.html">← Main daily decisions</a><a href="market.html">Wider market search</a><a href="#proof">Past results versus VOO</a><a href="#rules">Exact experiment</a><a href="kotegawa_reversion.json">Raw data</a></nav>
+<div class="grid"><div class="panel"><small class="muted">Stocks tested</small><strong class="big" id="count">—</strong></div><div class="panel"><small class="muted">Beat VOO in both old periods + enough trades</small><strong class="big" id="passed">—</strong></div><div class="panel"><small class="muted">New paper setups</small><strong class="big" id="now">—</strong></div></div>
+<section class="panel"><h2>Today's paper-only opportunities</h2><p>A paper trade means pretend buying and selling. It costs no real money.</p><div id="paper"></div></section>
+<section id="proof" class="panel"><h2>Did this beat regular VOO investing?</h2><p class="muted">A simulated $2,000 account adds $100 a month. The strategy holds cash when no rebound trade is open. VOO invests its money regularly instead. Both pay the same estimated buy/sell costs.</p>
+<table><thead><tr><th>Stock</th><th>Strategy yearly return</th><th>VOO yearly return</th><th>Difference</th><th>Since 2022 difference</th><th>Completed trades</th></tr></thead><tbody id="rows"></tbody></table>
+<p class="muted">Important: these stocks are survivors listed today. The past data can look better than reality because delisted companies are missing. Winning this table would NOT prove that the rule works.</p></section>
+<section id="rules" class="panel"><h2>How the test works</h2>
+<p><b>25-day moving average (SMA25)</b> = average stock closing price over the past 25 trading days.</p>
+<p><b>Mean reversion</b> = the idea that an unusually low price may bounce back.</p>
+<p><b>Entry:</b> VOO is below its 50-day average; a stock drops at least 10% below its 25-day average; pretend BUY at the next US market opening.</p>
+<p><b>Exit:</b> Pretend SELL at the opening after the stock closes back above its 25-day average, falls another 8% below purchase, or reaches five held sessions.</p>
+<p><b>Trading costs:</b> 0.2% per buy or sell, including a rough estimate for spreads and slippage. <b>Slippage</b> = getting a worse price than expected.</p>
+<p><b>Not Kotegawa's exact rule:</b> Interviews describe market conditions, sector differences and personal judgement. These fixed thresholds are our experiment, not his published trade-by-trade instructions.</p>
+<p>Historical sources: <a href="https://kabushiki-blog.com/article/18401857.html">2006 interview summary</a> and <a href="https://fxhikakublog.com/bnf-syuhou20081114">2008 interview summary</a>.</p></section>
+<footer>This is NOT a copy of Kotegawa's portfolio or verified P&L. US-stock adaptation rather than Japanese live trades; data are historical adjusted Yahoo quotes. Never use an unfinished test as a broker trade instruction.</footer></main>
+<script>
+(()=>{
+const d=JSON.parse(document.getElementById("dataset").textContent),$=x=>document.getElementById(x);
+const e=x=>String(x??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const p=x=>x===null||x===undefined?"—":Number(x).toFixed(2)+"%";
+$("count").textContent=d.screened_prices_for_assets;
+$("passed").textContent=d.passing_retrospective_tests;
+$("now").textContent=d.new_paper_entry_setups;
+$("whatfound").textContent=d.passing_retrospective_tests+" of "+d.screened_prices_for_assets+" stocks met the historical screening rules. Historical passes are not real-money approval. Data through "+d.market_date+".";
+$("paper").innerHTML=d.paper_candidates.length?d.paper_candidates.map(x=>
+ '<div class="item"><b>'+e(x.ticker)+' — PAPER WATCH</b><p>Stock '+p(x.data.price_deviation_pct)+' from its 25-day average. Possible pretend entry next US opening only; exit after the chosen rule triggers, or within five sessions.</p><small class="muted">Completed trades: '+x.trade_count+'; historical screen '+(x.historical_only_pass?"passed but biased":"failed")+'.</small></div>').join(""):
+ '<p>No new stocks crossed the fixed rebound-entry threshold today. No trade.</p>';
+$("rows").innerHTML=d.historical_screen_summary.slice(0,25).map(x=>
+ '<tr><td>'+e(x.ticker)+'</td><td>'+p(x.strategy_annual_pct)+'</td><td>'+p(x.voo_annual_pct)+'</td><td>'+p(x.annual_excess_pp)+'</td><td>'+p(x.recent_excess_pp)+'</td><td>'+x.trades+'</td></tr>').join("");
+})();
+</script></body></html>
