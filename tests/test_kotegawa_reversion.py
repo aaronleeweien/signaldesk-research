@@ -58,7 +58,8 @@ class KotegawaResearchTests(unittest.TestCase):
         self.assertGreater(low["strategy_final_account_usd"],0)
 
     def test_ticker_comparison_does_not_authorize_real_trading(self):
-        f=fake_bars()
+        # Cover both 2019-onward and 2022-onward historical windows.
+        f=fake_bars(1600)
         result=r.compare_market(f,["TEST"],str(f.index[-1].date()))
         self.assertEqual(result["screened_prices_for_assets"],1)
         self.assertTrue(result["no_live_approval"])
