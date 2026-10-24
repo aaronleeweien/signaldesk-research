@@ -32,7 +32,7 @@ def main():
                 existing={(e.get("type"),e.get("ticker")) for e in events}
                 for row in hub.get("trading_opportunities",[]):
                     if row.get("new_entry_setup") and ("HUB_PAPER_ENTRY_WATCH",row.get("ticker")) not in existing:
-                        events.append({"type":"HUB_PAPER_ENTRY_WATCH","ticker":row["ticker"],"latest_planned_exit":row["latest_planned_exit"]})
+                        events.append({"type":"HUB_PAPER_ENTRY_WATCH","ticker":row["ticker"],"asset_type":row["asset_type"],"latest_planned_exit":row["latest_planned_exit"]})
     if not (report.get("notify") or hub_eligible) or not events:
         print("No eligible new momentum event. No GitHub Issue created.");return
     repo=os.environ.get("GITHUB_REPOSITORY","")
@@ -50,7 +50,7 @@ def main():
         elif t=="ETF_PAPER_EXIT_REVIEW":
             message=f"**PAPER EXIT REVIEW:** {symbol} old allocation {x['old_weight']:.0%} → 0%"
         elif t=="HUB_PAPER_ENTRY_WATCH":
-            message=f"**DAILY HUB PAPER ENTRY:** {symbol} new ETF breakout watch, exit is CONDITIONAL; max planned time exit {x['latest_planned_exit']}. NOT live-approved."
+            message=f"**DAILY HUB PAPER WATCH:** {symbol} ({x.get('asset_type', 'ETF')}) new breakout, exit is CONDITIONAL; max planned time exit {x['latest_planned_exit']}. NOT live-approved."
         elif t=="ETF_MOMENTUM_WATCH":
             message=f"**ETF MOMENTUM WATCH:** {symbol} newly met breakout conditions (not a portfolio trade)"
         else:
