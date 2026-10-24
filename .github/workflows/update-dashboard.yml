@@ -49,7 +49,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add latest_report.md latest_report.json research/rotation_results.md research/rotation_results.json research/lab_v3.md research/lab_v3.json research/paper_signals.csv research/stocks_v1.md research/stocks_v1.json research/stocks_paper.csv research/institutional_v4.md research/institutional_v4.json research/factor_etf.md research/factor_etf.json research/factor_paper.csv research/daily_events.csv research/daily_scan_latest.json research/daily_alert_payload.json
+          git add latest_report.md latest_report.json research/rotation_results.md research/rotation_results.json research/lab_v3.md research/lab_v3.json research/paper_signals.csv research/stocks_v1.md research/stocks_v1.json research/stocks_paper.csv research/institutional_v4.md research/institutional_v4.json research/factor_etf.md research/factor_etf.json research/factor_paper.csv research/daily_events.csv research/daily_scan_latest.json research/daily_alert_payload.json research/validation_v2.md research/validation_v2.json research/forward_shadow.json
           if ! git diff --cached --quiet; then
             git commit -m "Update VOO research results [skip ci]"
             git pull --rebase -X theirs origin main
