@@ -9,14 +9,31 @@
 .easy-wrap .easy-terms{font-size:12.5px;line-height:1.55;color:#c1d5d8;margin-top:13px;padding-top:12px;border-top:1px solid #44666d}
 .easy-wrap a{color:#b9e5ff}
 @media(max-width:530px){.easy-wrap{padding:14px 15px;margin:12px 0 16px}.easy-wrap .easy-line{font-size:14px}}
+
+/* Beginner-first single Q&A; original tables, data and formulas remain unchanged. */
+.easy-wrap{padding:15px 18px;max-width:100%;border:1px solid #537e85;background:#102a36;color:#f1f8f8;border-radius:14px}
+.easy-wrap h2{font-size:21px!important;margin:5px 0 12px!important;line-height:1.35}
+.easy-wrap .easy-line{font-size:15px;line-height:1.55;margin:9px 0!important}
+.easy-wrap .easy-line strong{color:#a8edd3}
+.easy-wrap .easy-why{color:#d1e0e3}
+.easy-wrap .easy-terms{border:none;padding:4px 0;margin:3px 0;color:#c5dadd;font-size:13px}
+.easy-wrap summary{font-size:13px;cursor:pointer;color:#a4d9ff}
+.extra-evidence{background:#0d2031;border:1px solid #344e68;border-radius:12px;padding:14px;margin:16px 0}
+.extra-evidence>summary{color:#a5d9ef;font-weight:800;font-size:15px;cursor:pointer}
+@media(max-width:560px){.easy-wrap{padding:14px}.easy-wrap .easy-line{font-size:14px}}
 </style></head><body>
 <script id="source" type="application/json">/*ESTABLISHED_DATA*/</script>
 <main><div class="eyebrow">SIGNALDESK / DOCUMENTED INVESTABLE STRATEGIES</div><h1>Which real-world strategies beat VOO?</h1><p class="muted">The portfolio is not reconstructed using today's winning stocks. Each line represents an actual traded ETF with years of market prices, matched dates, reinvested distributions and identical monthly contribution rules.</p>
-<section class="easy-wrap" aria-label="Plain English page summary"><h2>**The simple answer**</h2>
-<p class="easy-line"><span class="easy-label">In short:</span> <span id="easy-est">Research only. See the results below.</span></p>
-<p class="easy-line"><span class="easy-label">What should I do?</span> <span id="easy-estaction">Look at the funds that beat VOO on the same dates. Then check risk, taxes and fees. This page does NOT tell you to trade today.</span></p>
-<p class="easy-terms">Jargon: ETF = a basket of investments. Annualised return = average yearly growth rate. Drawdown = biggest fall. Bootstrap = a rough uncertainty check. <a href="decisions.html">Back to daily decisions →</a></p></section>
+<section class="easy-wrap" aria-label="One clear answer">
+<p class="eyebrow">THE ANSWER</p>
+<h2>Q: Which ETFs have beaten VOO?</h2>
+<p class="easy-line"><strong>My answer:</strong> <span id="easy-est">Reading past results…</span></p>
+<p class="easy-line"><strong>What should I do?</strong> <span id="easy-estaction">Keep your regular VOO-style DCA. Study past winners before moving money into them.</span></p>
+<p class="easy-line easy-why"><strong>Why?</strong> A fund picked stocks → those stocks grew → the fund beat VOO in the past. That does not mean it will win next year.</p>
+<details><summary>Jargon, in simple words</summary><p class="easy-terms">ETF = a basket of stocks. Annualised return = average yearly growth. Drawdown = biggest fall. Bootstrap = check how uncertain a result is.</p></details>
+</section>
 <div class="banner"><b>Historical winners ≠ an approved trading signal</b><p>The study compares real funds. It does not tell you to buy or sell immediately. It also distinguishes momentum stock selection from concentrated Nasdaq/semiconductor investing.</p></div>
+<details class="extra-evidence"><summary>See full research, charts and settings</summary>
 <div class="nav"><a href="#comparison">Fair matched-date comparison</a><a href="#evidence">Uncertainty</a><a href="#method">How the funds work</a><a href="factor.html">SPMO Research</a><a href="validation.html">Daily trading scorecard</a><a href="established_strategies.json">Complete dataset</a></div>
 <p id="stamp" class="caption"></p>
 <div class="grid"><div class="card"><small>Funds with actual market history</small><b id="total">7</b><small>VOO, SPMO, XMMO, MTUM, QQQ, SMH, MDY</small></div><div class="card"><small>Common sample return leader</small><b id="leader">—</b><small>Based on retrospective returns, not future forecast</small></div><div class="card"><small>Approved tactical trade signals</small><b class="bad">0</b><small>ETF funds buy/rebalance internally</small></div></div>
@@ -29,13 +46,13 @@
 <section class="panel"><h2>What if brokerage trading costs are higher?</h2><div class="controls"><label for="feeperiod">Period</label><select id="feeperiod"><option value="current_xmmo">2019 onward</option><option value="recent_2022" selected>2022 onward</option></select></div><table><thead><tr><th>Fund</th><th>0 bps</th><th>10 bps</th><th>30 bps</th></tr></thead><tbody id="feeRows"></tbody></table><p class="caption">This tests execution fees, not withholding tax. Dividend taxation is materially different for Singapore investors in US-domiciled funds versus Ireland-domiciled CSPX.</p></section></div>
 <section class="panel" id="method"><h2>Which are genuine trading methods, and which are just concentrated investments?</h2><div id="methodCards"></div></section>
 <section class="panel"><h2>What we will actually do with this evidence</h2><div class="note"><b>Investment decision:</b> If an established ETF's live record is persuasive, buying the existing fund generally makes more sense than reconstructing its entire changing basket of stocks yourself. That is a DCA/investing choice, not a new daily entry signal.</div><p><b>Active trading research:</b> We should only reconstruct a buy/sell strategy when the documented historical universe, exact membership changes, weights, rebalance timing and after-cost fills can be independently reproduced. SPMO/XMMO's live histories are good evidence for the underlying idea, but not proof that our homemade execution adds value over the fund.</p><p><b>Passive baseline:</b> CSPX is still the Ireland-domiciled comparison for the user's investment implementation. It is not mixed into the daily US ETF sample because London hours and withholding differences require a separate after-tax analysis.</p></section>
-<footer>Public research, no broker connection, no real-money execution, no live trading authorization. <a href="https://github.com/aaronleeweien/signaldesk-research/blob/main/research/established_strategies.py">See audited model code</a>. Price data: Yahoo Finance historical adjusted market bars; index method references: respective fund issuers.</footer></main>
+<footer>Public research, no broker connection, no real-money execution, no live trading authorization. <a href="https://github.com/aaronleeweien/signaldesk-research/blob/main/research/established_strategies.py">See audited model code</a>. Price data: Yahoo Finance historical adjusted market bars; index method references: respective fund issuers.</footer></details>
+</main>
 <script>
 (()=>{const d=JSON.parse(document.querySelector("#source").textContent),$=id=>document.getElementById(id),p=x=>Number(x||0).toFixed(2)+"%",usd=x=>"$"+Number(x||0).toLocaleString("en-US",{maximumFractionDigits:2}),period=$("period");
 const passed=d.tickers.filter(t=>t!=="VOO"&&d.windows.current_xmmo.diagnostics[t].historically_exceeds_voo_after_10bps);
-$("easy-est").textContent=passed.length
- ? passed.join(", ")+" beat VOO between 2019 and "+d.latest_completed_us_market_day+". These were real ETF investments. This does not tell us when to BUY today."
- : "None of the funds beat VOO in our matched 2019-onward comparison.";
+const both=d.tickers.filter(t=>t!=="VOO"&&["current_xmmo","recent_2022"].every(k=>d.windows[k].diagnostics[t].historically_exceeds_voo_after_10bps));
+$("easy-est").textContent=both.length?both.join(", ")+" beat VOO in both periods we checked. These are real past fund returns, not today's BUY signals.":"No fund beat VOO in both periods we checked.";
 $("easy-estaction").textContent="Check the table for risk as well as returns. A fund can earn more yet fall much further in a crash. No daily trading signal comes from this page.";
 $("stamp").textContent="Last completed US session: "+d.latest_completed_us_market_day+" · Updated "+d.generated_utc;
 $("total").textContent=d.tickers.length;
