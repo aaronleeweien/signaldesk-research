@@ -25,11 +25,24 @@ summary{color:var(--accent);cursor:pointer;font-weight:650;padding:5px 0}details
 .callout{border:1px dashed #5f7992;border-radius:12px;padding:15px;margin:12px 0}.calculator{background:#0d2637;border:1px solid #345366;border-radius:13px;padding:15px}
 .divider{border-top:1px solid var(--line);margin:15px 0}footer{margin-top:28px;color:var(--muted);font-size:12px;border-top:1px solid var(--line);padding-top:15px}
 @media(max-width:900px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}.half{grid-template-columns:1fr}}@media(max-width:600px){main{padding:14px 10px 34px}.panel,.card{padding:14px}.item{padding:13px}.kpis{grid-template-columns:repeat(2,minmax(0,1fr))}.card b{font-size:22px}nav{gap:6px}}
+
+/* Beginner-first reading layer; all detailed original research remains below. */
+.easy-wrap{background:#102b38;border:1px solid #4d8584;border-radius:15px;padding:18px 20px;margin:16px 0 22px;color:#eef8f7;max-width:100%}
+.easy-wrap h2{font-size:19px!important;margin:0 0 10px!important;line-height:1.3}
+.easy-wrap .easy-line{line-height:1.55;font-size:15px;margin:8px 0}
+.easy-wrap .easy-label{font-weight:800;color:#a9f2d4}
+.easy-wrap .easy-terms{font-size:12.5px;line-height:1.55;color:#c1d5d8;margin-top:13px;padding-top:12px;border-top:1px solid #44666d}
+.easy-wrap a{color:#b9e5ff}
+@media(max-width:530px){.easy-wrap{padding:14px 15px;margin:12px 0 16px}.easy-wrap .easy-line{font-size:14px}}
 </style></head><body>
 <script type="application/json" id="data">/*DECISION_DATA*/</script>
 <main>
 <header><div class="eyebrow">SIGNALDESK / DAILY INVEST & TRADE DECISIONS</div><h1>What is worth buying? Is there a trade today?</h1>
 <p class="muted">One daily briefing. The backend screens tracked ETFs and stocks, compares historical strategies against VOO and explains each finding in plain English.</p></header>
+<section class="easy-wrap" aria-label="Plain English page summary"><h2>**Your decision today**</h2>
+<p class="easy-line"><span class="easy-label">In short:</span> <span id="easy-invest">Research only. See the results below.</span></p>
+<p class="easy-line"><span class="easy-label">What should I do?</span> <span id="easy-trade">Keep your regular passive investing separate. A past winner is worth researching, not an automatic BUY. No live trade is approved.</span></p>
+<p class="easy-terms">Jargon: DCA = buy regularly. Momentum = prices have risen lately. Backtest = test rules on old prices. Drawdown = biggest fall. <a href="decisions.html">Back to daily decisions →</a></p></section>
 <div class="banner"><strong>Research mode — not an approved trading service.</strong>
 <p id="date-context">Checking latest recorded US prices…</p>
 <p>No trade is authorised merely because an asset is rising. The dashboard distinguishes an established ETF's historical outperformance from a proven buy/sell timing strategy.</p></div>
