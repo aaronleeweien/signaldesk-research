@@ -366,6 +366,17 @@ def save(report):
     html=Path("research/decision_template.html").read_text(encoding="utf-8")
     js=json.dumps(report,separators=(",",":"),ensure_ascii=True).replace("<","\\u003c")
     Path("site/decisions.html").write_text(html.replace("/*DECISION_DATA*/",js),encoding="utf-8")
+    homepage=Path("site/index.html")
+    if homepage.exists():
+        old=homepage.read_text(encoding="utf-8")
+        if 'href="decisions.html"' not in old and "<main>" in old:
+            top=('<div style="margin:14px 0 22px;padding:17px;border:1px solid #69a8c0;'
+                 'background:#102e40;border-radius:13px"><a href="decisions.html" '
+                 'style="color:#94ebca;font-size:19px;font-weight:800">'
+                 'DAILY DECISIONS: What to consider buying and whether to trade today →'
+                 '</a><p style="margin:8px 0 0;color:#caddeb">'
+                 'Unified research, historical evidence, precise conditional paper exit rules.</p></div>')
+            homepage.write_text(old.replace("<main>","<main>"+top,1),encoding="utf-8")
     lines=["# SignalDesk Daily Investor / Trader Decisions",f"Latest completed market close: {report['market_last_completed_close']}",
            "**NO APPROVED LIVE TRADES**","", "## Historic ETF investment candidates", ""]
     for row in report["investment_ideas"]:
