@@ -141,6 +141,23 @@ def narrative_bundle(hub,market,est,rev=None,fundamentals=None):
                 f"capital spending {dollars(item.get('capital_spending_usd'))}; "
                 f"free cash flow {dollars(item.get('free_cash_flow_usd'))}; "
                 f"free-cash-flow yield {pct(item.get('free_cash_flow_yield_pct'))}.")
+            history=item.get("annual_history_latest_three",[])
+            if history:
+                history_sentence="; ".join(
+                    f"{h['fiscal_year_ended']}: {dollars(h.get('free_cash_flow_usd'))}"
+                    for h in history)
+                evidence+=f" Annual free cash flow in the latest available filing years: {history_sentence}."
+            if item.get("fcf_years_available"):
+                evidence+=(f" Positive free cash flow in {item['positive_fcf_years']} of "
+                    f"{item['fcf_years_available']} available years; a single positive year is not proof of stability.")
+            cash=item.get("cash_balance")
+            debt=item.get("long_term_debt_tag")
+            if cash:
+                evidence+=(f" Reported cash balance {dollars(cash.get('value_usd'))} "
+                           f"(balance-sheet date {cash['period_end']}).")
+            if debt:
+                evidence+=(f" Reported long-term-debt tag {dollars(debt.get('value_usd'))} "
+                           f"(balance-sheet date {debt['period_end']}); this may NOT include every liability.")
             note=("FCF (free cash flow) means cash generated from operations minus money spent on property and equipment. "
                 "Positive FCF can help a company invest, repay debt or return cash to shareholders. "
                 "FCF yield compares that historical cash with today's market value: a higher number can be attractive "
