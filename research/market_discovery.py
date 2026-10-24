@@ -121,7 +121,10 @@ def quote_from_screen(q,source):
             growth_source="implied EPS change using forward/trailing P/E"
     sales=first_number(q,("revenueGrowth","quarterlyrevenuegrowth.quarterly"))
     # Yahoo growth can be a fraction in some fields or percent points in screener.
-    if growth is not None and abs(growth)>2:growth/=100
+    # A directly provided screener field may be percentage points. A
+    # forward/trailing P/E derived estimate is ALREADY a fraction, even if >2.
+    if growth is not None and abs(growth)>2 and growth_source=="direct earnings-growth field":
+        growth/=100
     if sales is not None and abs(sales)>2:sales/=100
     return {"ticker":symbol,"name":q.get("shortName") or q.get("longName") or symbol,
             "sector":q.get("sector") or None,"industry":q.get("industry") or None,
