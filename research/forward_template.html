@@ -5,10 +5,23 @@ nav{display:flex;gap:9px;flex-wrap:wrap;margin:17px 0}a{color:#9ccdff}nav a{bord
 .grid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}.grid .card{margin:0;padding:15px}.card small{display:block;color:var(--muted)}.card strong{display:block;font-size:clamp(19px,2.9vw,29px);margin-top:8px}.warning{padding:17px;border:1px solid #af8355;background:#433023;color:#ffe0b8;border-radius:14px;margin:17px 0}
 .good{color:var(--positive)}.bad{color:var(--negative)}.muted{color:var(--muted)}.bar{height:12px;border-radius:20px;overflow:hidden;background:#30415a;margin:15px 0}.bar div{background:#73c5ad;height:100%}
 table{width:100%;border-collapse:collapse;display:block;overflow:auto}th,td{border-bottom:1px solid #31485e;padding:11px 13px;white-space:nowrap;text-align:left;font-size:12px}th{color:var(--muted)}.textcard{background:#102a34;border-left:3px solid var(--positive);padding:14px 16px;border-radius:3px 10px 10px 3px}.status{display:flex;justify-content:space-between;gap:12px;align-items:center;margin:10px 0}footer{font-size:12px;border-top:1px solid var(--line);padding-top:14px;margin-top:25px;color:var(--muted)}
-@media(max-width:900px){.grid{grid-template-columns:repeat(2,1fr)}}@media(max-width:530px){main{padding:15px 10px 30px}.card,.panel{padding:13px}.card strong{font-size:22px}}</style>
+@media(max-width:900px){.grid{grid-template-columns:repeat(2,1fr)}}@media(max-width:530px){main{padding:15px 10px 30px}.card,.panel{padding:13px}.card strong{font-size:22px}}
+/* Beginner-first reading layer; all detailed original research remains below. */
+.easy-wrap{background:#102b38;border:1px solid #4d8584;border-radius:15px;padding:18px 20px;margin:16px 0 22px;color:#eef8f7;max-width:100%}
+.easy-wrap h2{font-size:19px!important;margin:0 0 10px!important;line-height:1.3}
+.easy-wrap .easy-line{line-height:1.55;font-size:15px;margin:8px 0}
+.easy-wrap .easy-label{font-weight:800;color:#a9f2d4}
+.easy-wrap .easy-terms{font-size:12.5px;line-height:1.55;color:#c1d5d8;margin-top:13px;padding-top:12px;border-top:1px solid #44666d}
+.easy-wrap a{color:#b9e5ff}
+@media(max-width:530px){.easy-wrap{padding:14px 15px;margin:12px 0 16px}.easy-wrap .easy-line{font-size:14px}}
+</style>
 <script id="data" type="application/json">/*FORWARD_PAPER*/</script>
 <main><div class="eyebrow">SIGNALDESK / PROSPECTIVE EVIDENCE / PAPER ACCOUNT</div><h1>Did the signals actually make money?</h1>
 <p>Every trading rule gets a separate US$2,000 simulated account. Positions are recorded in advance and only filled after the next completed market session arrives. The same dates are used for passive VOO and SPMO accounts.</p>
+<section class="easy-wrap" aria-label="Plain English page summary"><h2>**What has our paper trading proved?**</h2>
+<p class="easy-line"><span class="easy-label">In short:</span> <span id="easy-forward">Research only. See the results below.</span></p>
+<p class="easy-line"><span class="easy-label">What should I do?</span> <span id="easy-forwardaction">No need to place a trade. Let the paper accounts record future results, then compare them with simply buying VOO or SPMO.</span></p>
+<p class="easy-terms">Jargon: Paper trade = pretend trade with no real money. P&L = profit or loss. Fill = price used when a pretend order is executed. <a href="decisions.html">Back to daily decisions →</a></p></section>
 <div class="warning"><strong>RESEARCH ONLY — NO REAL TRADES OR BROKER CONNECTION</strong><div>This is a research shadow ledger, not exchange-simulated Alpaca paper execution. It uses reported next-session opening prices and estimated fees; real fills, spreads, taxes and currency costs will differ.</div></div>
 <nav><a href="scanner.html">Daily scanner</a><a href="validation.html">Evidence rules</a><a href="factor.html">SPMO portfolio</a><a href="#models">Paper portfolios</a><a href="#orders">Fills</a><a href="paper_forward.json">Full public data</a></nav>
 <div class="grid">
