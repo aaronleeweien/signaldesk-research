@@ -441,6 +441,24 @@ def main():
     data=scanner.fetch(ETFS+(DEF,))
     stocks=get_stocks()
     report=build(established,data,stocks)
+    discovery=Path("research/market_discovery.json")
+    if discovery.exists():
+        wide=json.loads(discovery.read_text(encoding="utf-8"))
+        fresh=(wide.get("last_completed_us_price_date")==report["market_last_completed_close"])
+        report["broader_market"]={
+           "available":bool(fresh and wide["discovery_feeds"]["unique_stock_quotes"]>0),
+           "market_catalog_count":wide["universe_catalog"]["US_listings_catalogued"],
+           "market_stocks_screener_count":wide["discovery_feeds"]["unique_stock_quotes"],
+           "stocks_with_price_analysis":wide["stocks_with_price_and_momentum_results"],
+           "stocks_with_full_valuation":wide["stocks_with_price_growth_and_valuation_data"],
+           "research_candidates":wide["stock_investing_watchlist"][:8] if fresh else [],
+           "new_research_trade_setups":wide["expanded_trade_watches"][:8] if fresh else [],
+           "coverage_note":wide["important"],
+           "status":"FRESH PARTIAL MARKET SCREEN" if fresh else "MARKET DISCOVERY DATA UNAVAILABLE OR STALE",
+           "research_page":"market.html"
+        }
+    else:
+        report["broader_market"]={"available":False,"status":"NO WIDER MARKET DATA","research_page":"market.html"}
     save(report)
     print("DECISION HUB",report["market_last_completed_close"],
           "ETF fund candidates",report["topline"]["long_historical_investment_candidates"],
