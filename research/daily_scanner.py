@@ -281,7 +281,7 @@ def main():
       "latest_close":str(latest.date()),"events":[json.loads(x["details"]) for x in added] if on_time else []}
     Path("research/daily_alert_payload.json").write_text(json.dumps(alert,indent=2)+"\n",encoding="utf-8")
     from validation_protocol import evaluate as evaluate_validation
-    scanner["evidence_review"]=evaluate(prices,signals,scanner)
+    scanner["evidence_review"]=evaluate_validation(prices,signals,scanner)
     from validation_protocol import plans as research_plans
     from forward_shadow import update as save_forward_shadow
     forward=save_forward_shadow(prices,research_plans(close,signals))
