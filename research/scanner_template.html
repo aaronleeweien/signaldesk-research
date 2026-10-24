@@ -26,14 +26,31 @@ footer{margin-top:25px;border-top:1px solid var(--line);padding-top:15px;font-si
 .easy-wrap .easy-terms{font-size:12.5px;line-height:1.55;color:#c1d5d8;margin-top:13px;padding-top:12px;border-top:1px solid #44666d}
 .easy-wrap a{color:#b9e5ff}
 @media(max-width:530px){.easy-wrap{padding:14px 15px;margin:12px 0 16px}.easy-wrap .easy-line{font-size:14px}}
+
+/* Beginner-first single Q&A; original tables, data and formulas remain unchanged. */
+.easy-wrap{padding:15px 18px;max-width:100%;border:1px solid #537e85;background:#102a36;color:#f1f8f8;border-radius:14px}
+.easy-wrap h2{font-size:21px!important;margin:5px 0 12px!important;line-height:1.35}
+.easy-wrap .easy-line{font-size:15px;line-height:1.55;margin:9px 0!important}
+.easy-wrap .easy-line strong{color:#a8edd3}
+.easy-wrap .easy-why{color:#d1e0e3}
+.easy-wrap .easy-terms{border:none;padding:4px 0;margin:3px 0;color:#c5dadd;font-size:13px}
+.easy-wrap summary{font-size:13px;cursor:pointer;color:#a4d9ff}
+.extra-evidence{background:#0d2031;border:1px solid #344e68;border-radius:12px;padding:14px;margin:16px 0}
+.extra-evidence>summary{color:#a5d9ef;font-weight:800;font-size:15px;cursor:pointer}
+@media(max-width:560px){.easy-wrap{padding:14px}.easy-wrap .easy-line{font-size:14px}}
 </style></head>
 <body><script id="snapshot" type="application/json">/*SCAN_DATA*/</script><main>
 <header><div class="eyebrow">SIGNALDESK / DAILY SIGNALS / AUTOMATIC</div><h1>Market opportunities, without daily searching.</h1><p class="lead">Automatically check US ETFs and selected stocks after the market closes. New ETF entry/exit changes are recorded for paper trading; stock breakout events are research watch alerts.</p></header>
-<section class="easy-wrap" aria-label="Plain English page summary"><h2>**Today's simple conclusion**</h2>
-<p class="easy-line"><span class="easy-label">In short:</span> <span id="easy-scanner">Research only. See the results below.</span></p>
-<p class="easy-line"><span class="easy-label">What should I do?</span> <span id="easy-scanneraction">Do not copy BUY/SELL labels into your brokerage account. They are paper trades. Use the Decision Centre for the clearer investment and trade summary.</span></p>
-<p class="easy-terms">Jargon: Breakout = price above its recent high. Momentum = recent price strength. Backtest = see how a rule did in past data. <a href="decisions.html">Back to daily decisions →</a></p></section>
+<section class="easy-wrap" aria-label="One clear answer">
+<p class="eyebrow">THE ANSWER</p>
+<h2>Q: Should I copy today's BUY signals?</h2>
+<p class="easy-line"><strong>My answer:</strong> <span id="easy-scanner">Reading past results…</span></p>
+<p class="easy-line"><strong>What should I do?</strong> <span id="easy-scanneraction">NO. Keep your normal VOO-style DCA. Use these only as paper signals.</span></p>
+<p class="easy-line easy-why"><strong>Why?</strong> A price breaks its recent high → the rule buys → sometimes price falls → repeated losses and fees can make trading worse than VOO.</p>
+<details><summary>Jargon, in simple words</summary><p class="easy-terms">Breakout = price above a recent high. Backtest = test on old prices. Transaction fee = money paid to trade.</p></details>
+</section>
 <div class="warn"><b>NOT APPROVED FOR REAL TRADING</b><p>This is a newly researched DAILY strategy, not the previously tested monthly SPMO strategy. Today's scan is only a signal candidate. A breakout can fail and historical performance may not continue.</p></div>
+<details class="extra-evidence"><summary>See full research, charts and settings</summary>
 <nav><a href="decisions.html">NEW: Daily invest + trade recommendations</a><a href="#today">Today's events</a><a href="#research">Historical evidence</a><a href="#holdings">Hypothetical positions</a><a href="#rules">Exact methodology</a><a href="validation.html">Evidence & approval checks</a><a href="paper_forward.html">Live forward-paper portfolio</a><a href="factor.html">SPMO monthly strategy</a><a href="daily_events.json">Event history</a></nav>
 <p class="muted" id="asof"></p>
 <div class="panel" style="border-color:#8b6859"><h2>Real trading approval: <span class="bad">REJECTED</span></h2><p id="gatecheck" class="muted">The daily momentum strategy has not demonstrated a reliable edge over VOO or SPMO. Paper alerts are for research only.</p><p class="small"><a href="validation.html">See the quantitative pass/fail scorecard →</a> · <a href="paper_forward.html">See timestamped forward paper trades →</a></p></div>
@@ -58,13 +75,15 @@ footer{margin-top:25px;border-top:1px solid var(--line);padding-top:15px;font-si
 <p><b>Stock watchlist:</b> The same breakout conditions are applied to our fixed 30-stock exploratory universe, but stock events are not portfolio trades because choosing surviving companies creates hindsight bias.</p>
 <p><b>Notifications:</b> Only brand-new events recorded before the following estimated US session opens are eligible for an assigned GitHub Issue. Monthly SPMO buying remains a separate strategy and is not changed by this scanner.</p></section>
 <footer>SignalDesk Daily Scanner · Automated research updates · Public ticker research only · No brokerage execution · <a href="https://github.com/aaronleeweien/signaldesk-research">Source code</a>. Scheduled checks are subject to GitHub delays and the US exchange calendar.</footer>
+</details>
 </main>
 <script>
 (()=>{const d=JSON.parse(document.getElementById("snapshot").textContent),$=n=>document.getElementById(n);
 const pct=v=>Number(v||0).toFixed(2)+"%",money=v=>Number(v||0).toLocaleString("en-US",{maximumFractionDigits:2});
 const tested=d.backtests["2022_present"];
 const active=tested["daily_2_etf_momentum"].annual_pct,voo=tested["VOO_DCA"].annual_pct;
-$("easy-scanner").textContent="The daily trading rule grew "+active.toFixed(2)+"% per year in our past 2022+ test versus "+voo.toFixed(2)+"% for VOO. "+(active<=voo?"It did NOT beat VOO.":"It beat VOO in this period, but that does not prove the rule works in the future.")+" The screen still flags new price moves for research.";
+const simplePast=d.backtests["2022_present"];
+$("easy-scanner").textContent="Our daily model returned "+pct(simplePast["daily_2_etf_momentum"].annual_pct)+" a year in the past test. VOO returned "+pct(simplePast["VOO_DCA"].annual_pct)+". "+(simplePast["daily_2_etf_momentum"].annual_pct<=simplePast["VOO_DCA"].annual_pct?"This model did NOT beat VOO.":"This period alone does not prove the model will beat VOO again.");
 $("gatecheck").textContent=(d.evidence_review?.verdict||"No validated daily strategy")+" · "+(d.forward_paper_progress?.sessions||0)+"/63 prospective paper market sessions completed.";
 $("asof").textContent="Last completed session: "+d.latest_completed_us_close+" · Updated "+d.generated_utc+" · Estimated next US business day: "+d.estimated_next_business_day;
 const events=d.new_events_on_latest_close||[];
