@@ -28,15 +28,32 @@ footer{color:var(--muted);font-size:12px;margin-top:25px;border-top:1px solid va
 .easy-wrap .easy-terms{font-size:12.5px;line-height:1.55;color:#c1d5d8;margin-top:13px;padding-top:12px;border-top:1px solid #44666d}
 .easy-wrap a{color:#b9e5ff}
 @media(max-width:530px){.easy-wrap{padding:14px 15px;margin:12px 0 16px}.easy-wrap .easy-line{font-size:14px}}
+
+/* Beginner-first single Q&A; original tables, data and formulas remain unchanged. */
+.easy-wrap{padding:15px 18px;max-width:100%;border:1px solid #537e85;background:#102a36;color:#f1f8f8;border-radius:14px}
+.easy-wrap h2{font-size:21px!important;margin:5px 0 12px!important;line-height:1.35}
+.easy-wrap .easy-line{font-size:15px;line-height:1.55;margin:9px 0!important}
+.easy-wrap .easy-line strong{color:#a8edd3}
+.easy-wrap .easy-why{color:#d1e0e3}
+.easy-wrap .easy-terms{border:none;padding:4px 0;margin:3px 0;color:#c5dadd;font-size:13px}
+.easy-wrap summary{font-size:13px;cursor:pointer;color:#a4d9ff}
+.extra-evidence{background:#0d2031;border:1px solid #344e68;border-radius:12px;padding:14px;margin:16px 0}
+.extra-evidence>summary{color:#a5d9ef;font-weight:800;font-size:15px;cursor:pointer}
+@media(max-width:560px){.easy-wrap{padding:14px}.easy-wrap .easy-line{font-size:14px}}
 </style>
 <script id="data" type="application/json">/*FACTOR_DATA*/</script>
 <main><header class="row"><div><div class="eyebrow">SIGNALDESK / VERIFIED LIVE-HISTORY ETF / RESEARCH V4B</div><h1>Momentum strategy: SPMO.</h1><p class="intro">An actual exchange-traded implementation of cross-sectional S&P 500 momentum—not a backtest built from a handpicked list of today's surviving stocks. Evidence on returns, risk, costs and exact paper allocation rules.</p></div><div class="right" id="asof"></div></header>
 <p style="margin:16px 0"><a href="established.html" style="color:#8fdaff;font-weight:700">NEW: Compare SPMO and XMMO with QQQ, SMH and VOO using real ETF histories →</a></p>
-<p style="background:#142a3e;border:1px solid #436785;border-radius:13px;padding:12px"><a href="decisions.html" style="font-weight:800;font-size:15px">OPEN DAILY DECISION CENTRE — what to invest in and whether to trade today →</a></p><section class="easy-wrap" aria-label="Plain English page summary"><h2>**SPMO in plain English**</h2>
-<p class="easy-line"><span class="easy-label">In short:</span> <span id="easy-factor">Research only. See the results below.</span></p>
-<p class="easy-line"><span class="easy-label">What should I do?</span> <span id="easy-factoraction">Treat SPMO as a possible long-term investment, not a daily trading order. You do not need to buy and sell all the stocks inside it.</span></p>
-<p class="easy-terms">Jargon: Momentum = selecting stocks whose prices have performed strongly. TWR = growth ignoring new deposits. Drawdown = biggest fall. <a href="decisions.html">Back to daily decisions →</a></p></section>
+<p style="background:#142a3e;border:1px solid #436785;border-radius:13px;padding:12px"><a href="decisions.html" style="font-weight:800;font-size:15px">OPEN DAILY DECISION CENTRE — what to invest in and whether to trade today →</a></p><section class="easy-wrap" aria-label="One clear answer">
+<p class="eyebrow">THE ANSWER</p>
+<h2>Q: Is SPMO better than VOO?</h2>
+<p class="easy-line"><strong>My answer:</strong> <span id="easy-factor">Reading past results…</span></p>
+<p class="easy-line"><strong>What should I do?</strong> <span id="easy-factoraction">Keep your normal passive DCA for now. SPMO is worth comparing, not an automatic switch.</span></p>
+<p class="easy-line easy-why"><strong>Why?</strong> SPMO picks stocks with strong momentum → those stocks can keep rising → the fund may grow faster. But trends can reverse.</p>
+<details><summary>Jargon, in simple words</summary><p class="easy-terms">Momentum = recent price strength. TWR = investment growth without counting deposits. Drawdown = biggest fall.</p></details>
+</section>
 <div class="banner"><strong>STRATEGY IS INVESTABLE, BUT FUTURE OUTPERFORMANCE IS NOT VERIFIED</strong><p>The fact that SPMO performed well historically does not guarantee it will keep outperforming VOO. The dashboard provides research-grade context and paper instructions, not a broker-executable order.</p></div>
+<details class="extra-evidence"><summary>See full research, charts and settings</summary>
 <nav class="nav"><a href="#summary">Executive report</a><a href="#benchmarks">Peer comparison</a><a href="#drawdowns">Risk & uncertainty</a><a href="#signals">Trade decision</a><a href="#assumptions">Methods</a><a href="factor_paper.html">Timestamped paper signals</a><a href="institutional.html">Individual-stock momentum</a><a href="scanner.html">Daily momentum alerts</a><a href="index.html">Original VOO dashboard</a></nav>
 <section id="summary"><div class="grid4"><div class="card"><small>SPMO annualised TWR</small><b id="retspmo">—</b><small>2016–2026 common sample</small></div><div class="card"><small>VOO annualised TWR</small><b id="retvoo">—</b><small>Same dates and deposits</small></div><div class="card"><small>SPMO max drawdown</small><b id="ddspmo">—</b><small>Worst historical peak-to-trough fall</small></div><div class="card"><small>SPMO return minus VOO</small><b id="extra">—</b><small>Annual percentage-point difference</small></div></div>
 <div class="split"><article class="panel"><h2>What does the evidence say?</h2><p id="human" class="highlight"></p><p>SPMO's rules systematically select stocks with high momentum scores from the S&P 500, reconstituting the fund twice yearly. The fund itself executes underlying constituent changes, so a retail investor need not trade 100 individual stocks.</p><p class="muted small">SPMO sponsor expense ratio: 0.13% per year, already reflected in actual ETF NAV/price history. The simulation additionally assumes 0.1% per external ETF trade.</p></article>
@@ -54,12 +71,13 @@ footer{color:var(--muted);font-size:12px;margin-top:25px;border-top:1px solid va
 <div class="panel"><h2>Exact trading discipline</h2><p><strong>Simple strategy:</strong> SPMO monthly accumulation. At each scheduled contribution, buy SPMO; otherwise hold. The ETF automatically replaces internal constituent stocks twice yearly.</p><p><strong>Experimental relative-strength strategy:</strong> At the first US session each month, compare the completed prior six-month total return of SPMO and VOO. Hypothetically hold whichever ranked higher, switching at next month's opening if leadership changes.</p><p><strong>Experimental defensive strategy:</strong> At the monthly review hold SPMO if it exceeds its prior 200-day moving average; otherwise use short Treasury ETF SHY.</p><p class="muted small">These two overlays must demonstrate better risk-adjusted returns and meaningful incremental benefits against simply holding SPMO before being used for actual trades.</p></div></div></section>
 <section id="assumptions"><div class="panel"><h2>Institutional audit notes</h2><div class="grid2"><div><h3>How this improves on the five-stock prototype</h3><p>SPMO has existed since October 2015. Its adjusted market-price history reflects actual ETF ownership during those years, including the fund's historical constituent changes. This avoids the specific error of choosing only 30 stocks we know survived to 2026.</p><p>The ETF uses a public methodology, with semiannual reconstitution and an expense ratio disclosed by the sponsor.</p></div><div><h3>What this still cannot establish</h3><ul id="limitations"></ul></div></div></div><div class="panel"><h2>Independent research and methodology references</h2><ul id="sources"></ul></div></section>
 <footer>SignalDesk | Research only; no guarantee or direct trading connection. <a href="https://github.com/aaronleeweien/signaldesk-research">GitHub code and results</a>. History automatically updated through GitHub Actions after US trading sessions, subject to data-feed and scheduling reliability.</footer>
+</details>
 </main><script>
 (()=>{const d=JSON.parse(document.getElementById("data").textContent);const $=x=>document.getElementById(x);
 const fmt=x=>Number(x??0).toLocaleString("en-US",{maximumFractionDigits:2}),pct=x=>Number(x??0).toFixed(2)+"%",signed=x=>(Number(x)>0?"+":"")+pct(x),names=d.models;
 $("asof").innerHTML="Research updated "+d.generated_utc+"<br/>Last complete market day: "+d.last_market_session+"<br/>Model status: PAPER / NO GUARANTEED PROFIT";
 const full=d.metrics.full,spmo=full["SPMO DCA"],voo=full["VOO DCA"],qqq=full["QQQ DCA"],premium=spmo.annual_twr_pct-voo.annual_twr_pct;
-$("easy-factor").textContent="Over the same past years, SPMO grew "+pct(spmo.annual_twr_pct)+" a year versus VOO at "+pct(voo.annual_twr_pct)+". "+(premium>0?"SPMO did better in this period.":"SPMO did worse in this period.")+" This does NOT predict next year.";
+$("easy-factor").textContent="In our past test, SPMO grew "+pct(spmo.annual_twr_pct)+" yearly versus VOO at "+pct(voo.annual_twr_pct)+". "+(premium>0?"SPMO beat VOO in this period.":"SPMO did not beat VOO in this period.")+" We cannot know if it will next year.";
 $("retspmo").textContent=pct(spmo.annual_twr_pct);$("retvoo").textContent=pct(voo.annual_twr_pct);$("ddspmo").textContent=pct(spmo.max_drawdown_pct);$("extra").textContent=signed(premium);
 $("extra").className=premium>0?"good":"bad";
 $("human").textContent="The actual SPMO fund has "+(premium>0?"outperformed":"underperformed")+" VOO by "+pct(Math.abs(premium))+" annualised percentage points in our common-sample simulation. This is stronger historical evidence than selecting today's surviving individual stocks, but it is not a reliable prediction. Compare its risk and QQQ performance before drawing conclusions.";
