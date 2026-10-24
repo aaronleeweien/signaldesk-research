@@ -1,7 +1,7 @@
 # SignalDesk — Latest VOO Research
 
 Last market session: **2026-10-23**
-Updated UTC: **2026-10-24 14:07 UTC**
+Updated UTC: **2026-10-24 14:12 UTC**
 
 **RESEARCH ONLY: No strategy has been approved for real-money trading.**
 
@@ -11,7 +11,7 @@ Passed historical hurdle: **No**
 
 ## What the numbers mean
 
-The chosen model ended USD 1,422.02 below regular VOO investing on the later test period. Its worst percentage fall was 20.3%, versus 24.6% for DCA. The historical hurdle failed; do NOT use this model to replace DCA.
+The chosen model ended USD 1,422.01 below regular VOO investing on the later test period. Its worst percentage fall was 20.3%, versus 24.6% for DCA. The historical hurdle failed; do NOT use this model to replace DCA.
 
 ## Strategy comparison
 
