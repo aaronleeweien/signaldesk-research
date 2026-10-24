@@ -38,17 +38,33 @@ p{margin:9px 0}li{margin-bottom:8px}
 .easy-wrap .easy-terms{font-size:12.5px;line-height:1.55;color:#c1d5d8;margin-top:13px;padding-top:12px;border-top:1px solid #44666d}
 .easy-wrap a{color:#b9e5ff}
 @media(max-width:530px){.easy-wrap{padding:14px 15px;margin:12px 0 16px}.easy-wrap .easy-line{font-size:14px}}
+
+/* Answer first; unchanged research remains behind an optional open section. */
+.easy-wrap{background:#102a36!important;color:#f1f8f8!important;border:1px solid #537e85;border-radius:14px;padding:15px 18px;margin:17px 0}
+.easy-wrap h2{font-size:21px!important;line-height:1.35;margin:4px 0 11px!important}
+.easy-wrap .easy-line{font-size:15px;line-height:1.55;margin:8px 0!important;color:#eef9fa}
+.easy-wrap .easy-line strong{color:#a8edd3}
+.easy-wrap .easy-why{color:#d1e0e3}
+.easy-wrap .easy-terms{color:#c5dadd;font-size:13px;padding:4px 0;border:0}
+.easy-wrap summary{font-size:13px;cursor:pointer;color:#a4d9ff}
+.extra-evidence{background:#0d2031;border:1px solid #344e68;border-radius:12px;padding:14px;margin:16px 0}
+.extra-evidence>summary{color:#a5d9ef;font-weight:800;font-size:15px;cursor:pointer}
+@media(max-width:560px){.easy-wrap{padding:14px}.easy-wrap .easy-line{font-size:14px}}
 </style>
 <script type="application/json" id="report">/*RESEARCH_DATA*/</script>
 <main><div class="eyebrow">SIGNALDESK / STOCK OPPORTUNITIES / RESEARCH V1</div>
 <h1>Which stocks could be worth buying or selling?</h1>
 <p class="sub">Evidence-driven, automatically refreshed stock rankings, position changes, and backtests against VOO. The model generates decisions for a paper account; you retain control over any actual brokerage orders.</p>
-<section class="easy-wrap" aria-label="Plain English page summary"><h2>**Is the stock-picking model ready?**</h2>
-<p class="easy-line"><span class="easy-label">In short:</span> <span id="easy-stock">Research only. See the results below.</span></p>
-<p class="easy-line"><span class="easy-label">What should I do?</span> <span id="easy-stockaction">Do not copy its paper stock targets as real trades. The stock list includes only companies that survived until now, which makes older returns look better than they might have been.</span></p>
-<p class="easy-terms">Jargon: Survivorship bias = leaving out failed or delisted stocks. Beta = how strongly returns move with VOO. Drawdown = biggest fall. <a href="decisions.html">Back to daily decisions →</a></p></section>
+<section class="easy-wrap" aria-label="One clear answer">
+<p class="eyebrow">THE ANSWER</p>
+<h2>Q: Should I buy these stocks?</h2>
+<p class="easy-line"><strong>My answer:</strong> <span id="easy-stock">Reading past results…</span></p>
+<p class="easy-line"><strong>What should I do?</strong> <span id="easy-stockaction">NO. Keep your regular passive investing. This stock model is for paper research.</span></p>
+<p class="easy-line easy-why"><strong>Why?</strong> We test today's surviving stocks on old prices → companies that disappeared are missing → the profit may look too high.</p>
+<details><summary>Jargon: simple meanings</summary><p class="easy-terms">Survivorship bias = missing stocks that failed. Beta = how closely prices move with VOO. Drawdown = biggest fall.</p></details></section>
 <div class="warn"><b>RESEARCH ONLY — NOT VALIDATED FOR REAL-MONEY TRADES</b>
 <p>Stock rankings use a handpicked set of surviving companies. This creates <b>survivorship bias</b> and can exaggerate historical returns. None of the positions displayed here are reliable buy/sell recommendations. Future paper signals will help us test the process without that particular hindsight problem.</p></div>
+<details class="extra-evidence"><summary>See full research, charts and settings</summary>
 <nav><a href="#results">Backtesting</a><a href="#signals">Entry / Exit signals</a><a href="#history">Yearly performance</a><a href="#method">Methods & risks</a><a href="lab.html">ETF Quant Lab</a><a href="stocks_paper.html">Stock paper archive</a><a href="forward.html">ETF paper archive</a></nav>
 <p class="muted" id="lastdate"></p>
 <div class="controls"><label for="strategy">Inspect model</label><select id="strategy"></select><label for="window">Historical period</label>
@@ -79,13 +95,14 @@ p{margin:9px 0}li{margin-bottom:8px}
 <li><b>Data leakage:</b> Signals use previous completed closes and simulated fills at the following opening price.</li>
 <li><b>Future evidence:</b> Free historical survivor data alone is insufficient for trusting live money.</li></ul></section></div>
 <section id="method" class="panel"><h2>Research approach — why this might work</h2><p>Original momentum research found that stocks with strong performance over several months sometimes continued outperforming. Our model tests this hypothesis in a small, transparent stock universe. <a href="https://doi.org/10.1111/j.1540-6261.1993.tb04702.x" target="_blank" rel="noopener">Jegadeesh & Titman (1993)</a>.</p><p>But price momentum can suffer sudden crashes when market conditions change. <a href="https://www.nber.org/papers/w20439" target="_blank" rel="noopener">Daniel & Moskowitz</a> documented this danger. We therefore compare a basic top-five model against trend-filtered and defensive versions rather than assuming momentum is always safe.</p><p><b>Sample holdings:</b> 30 long-lived listed US stocks representing several industries, with a strict maximum 20% target allocation per stock in the main strategy. Monthly reviews; 12-to-1-month and six-month momentum; optional 200-day filter; no shorting or borrowing.</p><p><b>Evaluation:</b> Separate retrospective periods for 2013–2018, 2019–2022 and 2023–present. This is not a pristine out-of-sample experiment because the stock universe was chosen knowing which companies exist today. Genuine forward monitoring must start from signals recorded now.</p></section>
-<p class="muted">Data: Yahoo Finance via yfinance, adjusted price histories. A failure to download data blocks new reports. Source and full metrics are saved under <a href="https://github.com/aaronleeweien/signaldesk-research">SignalDesk GitHub</a>. No live trading, no account connection, no paid data or analytics subscription.</p></main>
+<p class="muted">Data: Yahoo Finance via yfinance, adjusted price histories. A failure to download data blocks new reports. Source and full metrics are saved under <a href="https://github.com/aaronleeweien/signaldesk-research">SignalDesk GitHub</a>. No live trading, no account connection, no paid data or analytics subscription.</p></details>
+</main>
 <script>
 (function(){
 const data=JSON.parse(document.getElementById("report").textContent);
 const names=data.model_names;let model="Top-5 Momentum",period="diagnostic";
 const $=id=>document.getElementById(id), fmt=x=>Number(x||0).toLocaleString("en-US",{maximumFractionDigits:2}), percent=x=>Number(x||0).toFixed(2)+"%";
-$("easy-stock").textContent="This is a pretend stock-picking test. It can show which stocks a model would hold, but it has NOT proved that its choices can beat VOO fairly.";
+
 const explanations={
 "VOO DCA":"Keep buying VOO each month. This is our baseline for evaluating other methods.",
 "QQQ DCA":"Keep buying Nasdaq-100 exposure, which is more concentrated in technology and growth companies. Higher returns may simply come from taking higher risk.",
@@ -104,7 +121,8 @@ $("curve-caption").textContent="On a time-weighted basis, an initial $1 became $
 }
 function render(){
  const metrics=data.metrics[period],m=metrics[model],b=metrics["VOO DCA"],diff=m.annual_twr_pct-b.annual_twr_pct;
- $("easy-stock").textContent=model+" returned "+percent(m.annual_twr_pct)+" per year in this past test; VOO returned "+percent(b.annual_twr_pct)+". "+(diff>0?"The model did better here, BUT its stock list is biased.":"The model did not beat VOO here.")+" Do not follow its stock orders with real money.";
+  VOO returned "+percent(b.annual_twr_pct)+". "+(diff>0?"The model did better here, BUT its stock list is biased.":"The model did not beat VOO here.")+" Do not follow its stock orders with real money.";
+$("easy-stock").textContent=model+" returned "+percent(m.annual_twr_pct)+" yearly in this old test; VOO returned "+percent(b.annual_twr_pct)+". The stock list is biased, so this is not proven.";
  $("annual").textContent=percent(m.annual_twr_pct);$("benchmark").textContent=percent(b.annual_twr_pct);
  $("drawdown").textContent=percent(m.worst_drawdown_pct);$("excess").textContent=(diff>=0?"+":"")+percent(diff);
  $("excess").className=diff>=0?"positive":"negative";
