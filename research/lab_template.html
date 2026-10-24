@@ -39,15 +39,31 @@ svg text{fill:#9eb2cb;font-size:11px}footer{color:var(--muted);font-size:11px;bo
 .easy-wrap .easy-terms{font-size:12.5px;line-height:1.55;color:#c1d5d8;margin-top:13px;padding-top:12px;border-top:1px solid #44666d}
 .easy-wrap a{color:#b9e5ff}
 @media(max-width:530px){.easy-wrap{padding:14px 15px;margin:12px 0 16px}.easy-wrap .easy-line{font-size:14px}}
+
+/* Answer first; unchanged research remains behind an optional open section. */
+.easy-wrap{background:#102a36!important;color:#f1f8f8!important;border:1px solid #537e85;border-radius:14px;padding:15px 18px;margin:17px 0}
+.easy-wrap h2{font-size:21px!important;line-height:1.35;margin:4px 0 11px!important}
+.easy-wrap .easy-line{font-size:15px;line-height:1.55;margin:8px 0!important;color:#eef9fa}
+.easy-wrap .easy-line strong{color:#a8edd3}
+.easy-wrap .easy-why{color:#d1e0e3}
+.easy-wrap .easy-terms{color:#c5dadd;font-size:13px;padding:4px 0;border:0}
+.easy-wrap summary{font-size:13px;cursor:pointer;color:#a4d9ff}
+.extra-evidence{background:#0d2031;border:1px solid #344e68;border-radius:12px;padding:14px;margin:16px 0}
+.extra-evidence>summary{color:#a5d9ef;font-weight:800;font-size:15px;cursor:pointer}
+@media(max-width:560px){.easy-wrap{padding:14px}.easy-wrap .easy-line{font-size:14px}}
 </style></head><body>
 <script type="application/json" id="data">/*DATA_INJECTION*/</script>
 <main>
 <header><div><div class="eyebrow">SIGNALDESK / QUANT LAB / V3</div><h1>Evidence before execution.</h1><p class="lead">A research cockpit for a small Singapore-based investor: live-updated historical ETF data, seven pre-defined models, transparent backtests and plain-English explanations. No paid analytics software or brokerage connection.</p></div><div class="asof" id="asof"></div></header>
-<section class="easy-wrap" aria-label="Plain English page summary"><h2>**What does this research mean?**</h2>
-<p class="easy-line"><span class="easy-label">In short:</span> <span id="easy-lab">Research only. See the results below.</span></p>
-<p class="easy-line"><span class="easy-label">What should I do?</span> <span id="easy-labaction">Keep this as research. Model positions are pretend positions, not instructions. Compare any apparently strong rule with simply holding VOO.</span></p>
-<p class="easy-terms">Jargon: Volatility = how much prices swing. Benchmark = the comparison investment. Drawdown = biggest fall from a previous high. <a href="decisions.html">Back to daily decisions →</a></p></section>
+<section class="easy-wrap" aria-label="One clear answer">
+<p class="eyebrow">THE ANSWER</p>
+<h2>Q: Are our ETF trading rules better than VOO?</h2>
+<p class="easy-line"><strong>My answer:</strong> <span id="easy-lab">Reading past results…</span></p>
+<p class="easy-line"><strong>What should I do?</strong> <span id="easy-labaction">Keep your normal VOO-style DCA. No ETF timing rule is approved for live trading.</span></p>
+<p class="easy-line easy-why"><strong>Why?</strong> The model switches funds → trades cost money → if the return is less than VOO, we did more work for less profit.</p>
+<details><summary>Jargon: simple meanings</summary><p class="easy-terms">ETF = basket of investments. Volatility = how much prices swing. Drawdown = biggest fall. Benchmark = what we compare against.</p></details></section>
 <div class="notice"><b>RESEARCH ONLY — NOT AUTHORISED FOR REAL-MONEY TRADING</b><p>Current model allocations are simulated exposures, not personal buy/sell orders. Every strategy needs genuine future paper testing; even strong past returns do not guarantee better future returns.</p></div>
+<details class="extra-evidence"><summary>See full research, charts and settings</summary>
 <nav><a href="#overview">Overview</a><a href="#comparison">Strategy comparison</a><a href="#allocation">Portfolio & signals</a><a href="#risk">Risk laboratory</a><a href="#method">Research rules</a><a href="forward.html">Paper-signal archive</a><a href="index.html">Original VOO dashboard ↗</a></nav>
 <div class="controls"><label for="model">Examine strategy</label><select class="sel" id="model"></select><label for="period">Historical window</label><select class="sel" id="period"><option value="development">2013–2018 · Development</option><option value="validation">2019–2022 · Validation</option><option value="diagnostic" selected>2023–now · Already reviewed</option></select><span class="kpill">No broker connected</span></div>
 <section id="overview"><div class="metrics"><article class="metric"><h3>Selected model annual return</h3><strong id="model-return">—</strong><span id="model-sub">Historical annual growth</span></article><article class="metric"><h3>VOO annual return</h3><strong id="voo-return">—</strong><span>Same starting funds & deposits</span></article><article class="metric"><h3>Model worst fall</h3><strong id="model-dd">—</strong><span>Historical peak to trough</span></article><article class="metric"><h3>Historical excess return</h3><strong id="model-excess">—</strong><span>Percentage points annually</span></article></div>
@@ -63,12 +79,13 @@ svg text{fill:#9eb2cb;font-size:11px}footer{color:var(--muted);font-size:11px;bo
 <div><div class="panel"><h2>Cost sensitivity — validation candidate</h2><p class="sub">How the strategy chosen using 2019–2022 changes when each buy or sale costs 0, 10, or 30 basis points in the later diagnostic period.</p><div id="costs"></div></div><div class="panel"><h2>Research confidence</h2><p id="confidence"></p><p class="sub">No model in this dashboard is a statistically certified source of profits. Model choices must remain fixed during prospective paper monitoring.</p></div></div></div>
 <section id="method" class="panel"><h2>What is actually being researched?</h2><div class="grid3"><div><span class="tag">01 / COMPARATORS</span><p><b>VOO DCA and QQQ DCA.</b> Buy and hold, adding $100 every new month. QQQ is a higher-concentration comparison, not automatically a fair replacement for VOO.</p></div><div><span class="tag">02 / SECTOR LEADERSHIP</span><p><b>Sector Top 2, Core + Sector, and Sector Risk Weighted.</b> Each calendar month rank nine established US sector ETFs using six-month and 12-minus-1-month returns; require a positive six-month return and price above its 200-day average. Defensive cash allocation is represented by SHY.</p></div><div><span class="tag">03 / RISK & PULLBACKS</span><p><b>VOO Volatility Target</b> scales between VOO and SHY toward a 12% historical volatility target; <b>VOO Pullback</b> switches a 40% satellite between VOO and SHY after a short-term RSI(2) dip in an established uptrend.</p></div></div>
 <div class="grid3"><div><span class="tag">DATA QUALITY</span><p>Yahoo adjusted daily prices are automatically downloaded; an incomplete US trading day is excluded. A missing or stale data feed stops updates, not silently fabricates signals.</p></div><div><span class="tag">TRANSACTION MODEL</span><p>Initial $2,000, additional $100 per calendar month, fractional ETF units, 10-bps per-side assumed execution cost, no borrowing, and simulated trades at next session's opening prices.</p></div><div><span class="tag">TESTING LIMITS</span><p>All historical periods have already happened; 2023 onward has already been studied. The selected model comes only from 2019–2022 and is then diagnosed over 2023 onward, not declared prospectively validated.</p></div></div></section>
-<footer>SignalDesk Quant Lab V3. Research source: <a href="https://github.com/aaronleeweien/signaldesk-research">GitHub repository</a>. Background research: Conlon et al., J. Empirical Finance (2023); Magner & Sanhueza, North American J. Econ. Finance (2026); Faber, tactical allocation; Bailey et al., backtest overfitting. Results can change with new data and costs. No personal holdings or broker connection used.</footer></main>
+<footer>SignalDesk Quant Lab V3. Research source: <a href="https://github.com/aaronleeweien/signaldesk-research">GitHub repository</a>. Background research: Conlon et al., J. Empirical Finance (2023); Magner & Sanhueza, North American J. Econ. Finance (2026); Faber, tactical allocation; Bailey et al., backtest overfitting. Results can change with new data and costs. No personal holdings or broker connection used.</footer></details>
+</main>
 <script>
 (function(){
 const d=JSON.parse(document.getElementById("data").textContent);
 const byId=x=>document.getElementById(x);
-byId("easy-lab").textContent="This page tests different ETF trading rules against simple VOO investing. Some old results look strong, but the models are NOT approved for real-money trading.";
+
 const models=d.all_models;
 const colors=["#7bc0ff","#f4c578","#74ddb5","#e9a9eb","#88a6ec","#f79e9e","#aecf89","#b49fff","#e1ad5e","#8ce8db"];
 const title={
@@ -90,7 +107,8 @@ byId("study-progress").textContent="Seven pre-defined approaches have been evalu
 function stats(m){return d.metrics[period][m]}
 function render(){
 const s=stats(current),v=stats("VOO DCA"),spread=s.annual_return_pct-v.annual_return_pct;
-byId("easy-lab").textContent=current+" returned "+pct(s.annual_return_pct)+" a year in this past test; VOO returned "+pct(v.annual_return_pct)+". "+(spread>0?"This model did better on these old prices, but real-money trading remains unapproved.":"VOO did better or tied, so there is no reason to switch from VOO based on this test.");
+ VOO returned "+pct(v.annual_return_pct)+". "+(spread>0?"This model did better on these old prices, but real-money trading remains unapproved.":"VOO did better or tied, so there is no reason to switch from VOO based on this test.");
+byId("easy-lab").textContent=current+" returned "+pct(s.annual_return_pct)+" yearly in the old test; VOO returned "+pct(v.annual_return_pct)+". "+(spread>0?"It beat VOO here, but the real-world edge is not proven.":"VOO did as well or better.");
 byId("model-return").textContent=pct(s.annual_return_pct);
 byId("voo-return").textContent=pct(v.annual_return_pct);
 byId("model-dd").textContent=pct(s.max_drawdown_pct);
