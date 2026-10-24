@@ -90,6 +90,7 @@ byId("study-progress").textContent="Seven pre-defined approaches have been evalu
 function stats(m){return d.metrics[period][m]}
 function render(){
 const s=stats(current),v=stats("VOO DCA"),spread=s.annual_return_pct-v.annual_return_pct;
+byId("easy-lab").textContent=current+" returned "+pct(s.annual_return_pct)+" a year in this past test; VOO returned "+pct(v.annual_return_pct)+". "+(spread>0?"This model did better on these old prices, but real-money trading remains unapproved.":"VOO did better or tied, so there is no reason to switch from VOO based on this test.");
 byId("model-return").textContent=pct(s.annual_return_pct);
 byId("voo-return").textContent=pct(v.annual_return_pct);
 byId("model-dd").textContent=pct(s.max_drawdown_pct);
