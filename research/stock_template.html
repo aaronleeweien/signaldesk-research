@@ -85,6 +85,7 @@ p{margin:9px 0}li{margin-bottom:8px}
 const data=JSON.parse(document.getElementById("report").textContent);
 const names=data.model_names;let model="Top-5 Momentum",period="diagnostic";
 const $=id=>document.getElementById(id), fmt=x=>Number(x||0).toLocaleString("en-US",{maximumFractionDigits:2}), percent=x=>Number(x||0).toFixed(2)+"%";
+$("easy-stock").textContent="This is a pretend stock-picking test. It can show which stocks a model would hold, but it has NOT proved that its choices can beat VOO fairly.";
 const explanations={
 "VOO DCA":"Keep buying VOO each month. This is our baseline for evaluating other methods.",
 "QQQ DCA":"Keep buying Nasdaq-100 exposure, which is more concentrated in technology and growth companies. Higher returns may simply come from taking higher risk.",
