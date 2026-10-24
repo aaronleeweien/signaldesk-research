@@ -30,10 +30,23 @@ input[type=number]{width:125px;background:#101b2d;border:1px solid #38506b;color
 svg text{fill:#9eb2cb;font-size:11px}footer{color:var(--muted);font-size:11px;border-top:1px solid var(--line);margin-top:24px;padding-top:17px}
 @media(max-width:920px){.cols{grid-template-columns:1fr}.metrics{grid-template-columns:repeat(2,minmax(0,1fr))}.grid3{grid-template-columns:1fr}}
 @media(max-width:540px){main{padding:17px 11px 45px}.panel{padding:15px}.metrics{gap:7px}.metric{padding:13px}.metric strong{font-size:21px}.pairs{grid-template-columns:1fr}.asof{text-align:left}.notice{padding:13px}}
+
+/* Beginner-first reading layer; all detailed original research remains below. */
+.easy-wrap{background:#102b38;border:1px solid #4d8584;border-radius:15px;padding:18px 20px;margin:16px 0 22px;color:#eef8f7;max-width:100%}
+.easy-wrap h2{font-size:19px!important;margin:0 0 10px!important;line-height:1.3}
+.easy-wrap .easy-line{line-height:1.55;font-size:15px;margin:8px 0}
+.easy-wrap .easy-label{font-weight:800;color:#a9f2d4}
+.easy-wrap .easy-terms{font-size:12.5px;line-height:1.55;color:#c1d5d8;margin-top:13px;padding-top:12px;border-top:1px solid #44666d}
+.easy-wrap a{color:#b9e5ff}
+@media(max-width:530px){.easy-wrap{padding:14px 15px;margin:12px 0 16px}.easy-wrap .easy-line{font-size:14px}}
 </style></head><body>
 <script type="application/json" id="data">/*DATA_INJECTION*/</script>
 <main>
 <header><div><div class="eyebrow">SIGNALDESK / QUANT LAB / V3</div><h1>Evidence before execution.</h1><p class="lead">A research cockpit for a small Singapore-based investor: live-updated historical ETF data, seven pre-defined models, transparent backtests and plain-English explanations. No paid analytics software or brokerage connection.</p></div><div class="asof" id="asof"></div></header>
+<section class="easy-wrap" aria-label="Plain English page summary"><h2>**What does this research mean?**</h2>
+<p class="easy-line"><span class="easy-label">In short:</span> <span id="easy-lab">Research only. See the results below.</span></p>
+<p class="easy-line"><span class="easy-label">What should I do?</span> <span id="easy-labaction">Keep this as research. Model positions are pretend positions, not instructions. Compare any apparently strong rule with simply holding VOO.</span></p>
+<p class="easy-terms">Jargon: Volatility = how much prices swing. Benchmark = the comparison investment. Drawdown = biggest fall from a previous high. <a href="decisions.html">Back to daily decisions →</a></p></section>
 <div class="notice"><b>RESEARCH ONLY — NOT AUTHORISED FOR REAL-MONEY TRADING</b><p>Current model allocations are simulated exposures, not personal buy/sell orders. Every strategy needs genuine future paper testing; even strong past returns do not guarantee better future returns.</p></div>
 <nav><a href="#overview">Overview</a><a href="#comparison">Strategy comparison</a><a href="#allocation">Portfolio & signals</a><a href="#risk">Risk laboratory</a><a href="#method">Research rules</a><a href="forward.html">Paper-signal archive</a><a href="index.html">Original VOO dashboard ↗</a></nav>
 <div class="controls"><label for="model">Examine strategy</label><select class="sel" id="model"></select><label for="period">Historical window</label><select class="sel" id="period"><option value="development">2013–2018 · Development</option><option value="validation">2019–2022 · Validation</option><option value="diagnostic" selected>2023–now · Already reviewed</option></select><span class="kpill">No broker connected</span></div>
