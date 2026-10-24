@@ -62,6 +62,9 @@ footer{margin-top:25px;border-top:1px solid var(--line);padding-top:15px;font-si
 <script>
 (()=>{const d=JSON.parse(document.getElementById("snapshot").textContent),$=n=>document.getElementById(n);
 const pct=v=>Number(v||0).toFixed(2)+"%",money=v=>Number(v||0).toLocaleString("en-US",{maximumFractionDigits:2});
+const tested=d.backtests["2022_present"];
+const active=tested["daily_2_etf_momentum"].annual_pct,voo=tested["VOO_DCA"].annual_pct;
+$("easy-scanner").textContent="The daily trading rule grew "+active.toFixed(2)+"% per year in our past 2022+ test versus "+voo.toFixed(2)+"% for VOO. "+(active<=voo?"It did NOT beat VOO.":"It beat VOO in this period, but that does not prove the rule works in the future.")+" The screen still flags new price moves for research.";
 $("gatecheck").textContent=(d.evidence_review?.verdict||"No validated daily strategy")+" · "+(d.forward_paper_progress?.sessions||0)+"/63 prospective paper market sessions completed.";
 $("asof").textContent="Last completed session: "+d.latest_completed_us_close+" · Updated "+d.generated_utc+" · Estimated next US business day: "+d.estimated_next_business_day;
 const events=d.new_events_on_latest_close||[];
