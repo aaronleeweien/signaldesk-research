@@ -33,6 +33,21 @@ class BeginnerDashboardTests(unittest.TestCase):
                 if name != "decision_template.html":
                     self.assertIn("decisions.html",page)
 
+    def test_daily_decisions_are_a_plain_english_story_not_a_wall_of_numbers(self):
+        page=(ROOT/"research"/"decision_template.html").read_text(encoding="utf-8")
+        self.assertIn("Keep DCA-ing into VOO. No real-money trade today.",page)
+        self.assertIn("const verdict=stock",page)
+        self.assertIn("price",page.lower())
+        self.assertIn("→",page)
+        self.assertIn("<details><summary>See backtest, exact exit rules and jargon</summary>",page)
+        self.assertIn('id="invest-conclusion"',page)
+        self.assertIn('id="trade-verdict"',page)
+        self.assertIn("/*DECISION_DATA*/",page)
+        self.assertIn("x.exit_plan",page)
+        self.assertIn("e.ci90_excess_pct",page)
+        self.assertIn('id="invest-horizon"',page)
+        self.assertIn('id="trade-filter"',page)
+
     def test_copy_preserves_historical_numbers_and_code(self):
         html='<!doctype html><html><head></head><body><main><h1>Original</h1><script>const returns = 11.23;</script></main></body></html>'
         for name,info in COPY.items():
