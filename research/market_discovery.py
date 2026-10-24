@@ -110,7 +110,15 @@ def quote_from_screen(q,source):
     pe=first_number(q,("forwardPE","forwardPe"))
     trailing=first_number(q,("trailingPE","trailingPe","peratio.lasttwelvemonths"))
     peg=first_number(q,("pegRatio","pegratio_5y"))
-    growth=first_number(q,("earningsGrowth","epsgrowth.lasttwelvemonths"))
+    growth=first_number(q,("earningsGrowth","epsgrowth.lasttwelvemonths","epsGrowth"))
+    growth_source="direct earnings-growth field" if growth is not None else "not available"
+    # Both ratios use the same price: trailing P/E divided by forward P/E
+    # minus one approximately measures the market's change in estimated EPS.
+    if growth is None and pe is not None and trailing is not None and pe>0 and trailing>0:
+        estimate=trailing/pe-1
+        if -0.95<estimate<5.0:
+            growth=estimate
+            growth_source="implied EPS change using forward/trailing P/E"
     sales=first_number(q,("revenueGrowth","quarterlyrevenuegrowth.quarterly"))
     # Yahoo growth can be a fraction in some fields or percent points in screener.
     if growth is not None and abs(growth)>2:growth/=100
@@ -122,6 +130,7 @@ def quote_from_screen(q,source):
             "earnings_growth_pct":round(growth*100,2) if growth is not None else None,
             "revenue_growth_pct":round(sales*100,2) if sales is not None else None,
             "analyst_growth_forecast_available":pe is not None,
+            "earnings_growth_source":growth_source,
             "sources":[source]}
 
 def screen_market(catalog):
@@ -178,8 +187,20 @@ def shortlist(quotes):
         arr.sort(key=priority,reverse=True)
         keys.extend(q["ticker"] for q in arr[:40])
     # Ensure broad exposure with stocks collected from different lenses.
-    unique=list(dict.fromkeys(keys))
-    return unique[:SELECTION_COUNT]
+    # Spread the sample across size, momentum, growth and valuation,
+    # so the first query cannot swallow the entire selection.
+    sources={label:[q["ticker"] for q in quotes.values() if label in q["sources"]]
+             for label in SOURCES}
+    for label in SOURCES:
+        sources[label].sort(key=lambda t:priority(quotes[t]),reverse=True)
+    picked=[]
+    for rank in range(40):
+        for label in SOURCES:
+            names=sources[label]
+            if rank<len(names) and names[rank] not in picked:
+                picked.append(names[rank])
+            if len(picked)>=SELECTION_COUNT:return picked
+    return picked
 
 def get_prices(tickers):
     """Batch once for screen-selected names; avoid thousands of small HTTP calls."""
@@ -224,17 +245,21 @@ def analyse_stock(ticker,quote,df,benchmark,asof):
     earnings=quote["earnings_growth_pct"]
     sales=quote["revenue_growth_pct"]
     # Missing values are never treated as zero or "undervalued".
-    valuation_complete=(forward is not None and forward>0 and
-                        earnings is not None and sales is not None)
+    valuation_complete=(forward is not None and 0<forward<=60 and
+                        earnings is not None and 0<earnings<=150)
+    established_company=(quote.get("market_cap_usd") is not None and
+                         quote["market_cap_usd"]>=5_000_000_000)
+    very_large_runup=trailing>2.0
     future="FORECAST PARTIAL — NOT A PRICE TARGET"
     if valuation_complete:
-        future="GROWTH + VALUATION AVAILABLE — STILL UNCERTAIN"
+        future="FORWARD EARNINGS + VALUATION AVAILABLE — NOT A FAIR VALUE"
     status=("RESEARCH CANDIDATE" if trailing>base and momentum and
-            valuation_complete else "WATCH / MISSING PROOF")
+            valuation_complete and established_company and not very_large_runup
+            else "WATCH / MISSING PROOF")
     score=3*(trailing-base)+r63+r126
     result={k:quote.get(k) for k in (
         "ticker","name","sector","industry","market_cap_usd","average_volume_shares",
-        "forward_pe","trailing_pe","peg","earnings_growth_pct","revenue_growth_pct","sources")}
+        "forward_pe","trailing_pe","peg","earnings_growth_pct","revenue_growth_pct","sources","earnings_growth_source")}
     result.update({"asset_type":"Stock","status":status,"forecast_status":future,
         "last_close_usd":round(last,2),"return_last_year_pct":round(trailing*100,2),
         "voo_same_year_pct":round(base*100,2),
@@ -244,6 +269,8 @@ def analyse_stock(ticker,quote,df,benchmark,asof):
         "above_200d_average":bool(last>f["sma200"][-1]),
         "trend_is_positive":bool(momentum),
         "valuation_metrics_complete":bool(valuation_complete),
+        "larger_established_company":bool(established_company),
+        "extreme_one_year_return":bool(very_large_runup),
         "fundamentals_are_forecasts":True,
         "priority_score":round(score*100,2),
         "last_price_date":asof,
@@ -256,7 +283,10 @@ def analyse_stock(ticker,quote,df,benchmark,asof):
         "valuation_note":"Forward P/E = today's stock price divided by estimated next-year earnings. A low P/E alone does not mean undervalued.",
         "warnings":[
             "Company earnings estimates can be wrong and often change.",
+            "When direct earnings growth is missing, any shown growth is estimated using forward and trailing P/E, not independent financial research.",
+            "Forward P/E does not measure true fair value; valuation differs by industry.",
             "The current US-listed stock universe excludes previously delisted companies; historical results can be biased.",
+            "A large one-year price gain may reverse, so it is not automatically a good purchase.",
             "Comparing trailing one-year stock returns with VOO is NOT proof of future excess returns."]})
     return result
 
