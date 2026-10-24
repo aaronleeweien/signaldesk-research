@@ -358,13 +358,19 @@ def build(established,etfs,stocks=None,now=None):
         "This site is refreshed by scheduled GitHub Actions; it has no real-time data subscription and cannot guarantee notification delivery."
       ]}
 
+def json_safe(value):
+    """Convert numpy scalar output into ordinary JSON scalars without hiding other bugs."""
+    if isinstance(value,np.generic):return value.item()
+    if isinstance(value,pd.Timestamp):return str(value)
+    raise TypeError(f"Unsupported report value: {type(value).__name__}")
+
 def save(report):
     Path("research").mkdir(exist_ok=True)
     Path("site").mkdir(exist_ok=True)
-    Path("research/decision_hub.json").write_text(json.dumps(report,indent=2)+"\n",encoding="utf-8")
+    Path("research/decision_hub.json").write_text(json.dumps(report,indent=2,default=json_safe)+"\n",encoding="utf-8")
     Path("site/decision_hub.json").write_text(json.dumps(report,indent=2)+"\n",encoding="utf-8")
     html=Path("research/decision_template.html").read_text(encoding="utf-8")
-    js=json.dumps(report,separators=(",",":"),ensure_ascii=True).replace("<","\\u003c")
+    js=json.dumps(report,separators=(",",":"),ensure_ascii=True,default=json_safe).replace("<","\\u003c")
     Path("site/decisions.html").write_text(html.replace("/*DECISION_DATA*/",js),encoding="utf-8")
     homepage=Path("site/index.html")
     if homepage.exists():
