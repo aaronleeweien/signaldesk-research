@@ -70,6 +70,12 @@ summary{color:var(--accent);cursor:pointer;font-weight:650;padding:5px 0}details
 <div class="card"><small>Real-money trade approval</small><b class="bad">NONE</b><small>Research paper alerts only</small></div>
 </div>
 </details>
+<section class="panel" aria-label="Whole market discovery">
+<h2>NEW: Search beyond our original list</h2>
+<p id="wide-simple">Checking how many US-listed assets the broader screen really covered…</p>
+<p><a href="market.html">See wider stock ideas, valuations and trading watches →</a></p>
+<div id="wide-sample"></div>
+</section>
 <div class="tabs" role="tablist" aria-label="Decision view">
 <button id="invest-tab" class="selected" role="tab" aria-selected="true">1. Investment ideas</button>
 <button id="trade-tab" role="tab" aria-selected="false">2. Short-term trades</button>
@@ -82,7 +88,7 @@ summary{color:var(--accent);cursor:pointer;font-weight:650;padding:5px 0}details
 <label>Sort by<select id="invest-sort"><option value="evidence">Evidence quality</option><option value="excess">Historical excess return</option><option value="momentum">Recent momentum score</option></select></label>
 </div></details>
 <p class="explain" id="invest-conclusion"><b>My answer:</b> Keep DCA-ing into VOO. Only research the funds shown below.</p>
-<p class="small" id="invest-result-count"></p><div id="invest-results"></div>
+<div id="wide-investment-ideas"></div><details class="advanced-panel"><summary>Older, small ETF and stock watchlist (optional)</summary><p class="small" id="invest-result-count"></p><div id="invest-results"></div></details>
 </section>
 <section id="trade" class="panel" hidden>
 <h2>Q: Should I trade today?</h2>
@@ -98,7 +104,7 @@ summary{color:var(--accent);cursor:pointer;font-weight:650;padding:5px 0}details
 <label>Max loss budget per trade<select id="risk"><option value="0.0025">0.25% of account</option><option value="0.005" selected>0.50% of account</option><option value="0.01">1% of account</option></select></label>
 </div><div id="risk-result" class="muted"></div>
 </div></details>
-<p class="small" id="trade-result-count"></p><div id="trade-results"></div>
+<div id="wide-trading-ideas"></div><details class="advanced-panel"><summary>Original, limited ETF and stock trading watchlist</summary><p class="small" id="trade-result-count"></p><div id="trade-results"></div></details>
 </section>
 <details id="how" class="panel advanced-panel"><summary>See all strategy rules, jargon and risks</summary>
 <h2>How the backend makes decisions</h2>
@@ -129,6 +135,36 @@ $("easy-invest").textContent=(previousWinners.length
  ? previousWinners.join(", ")+" beat VOO in past years → they are worth comparing as longer-term investments. "
  : "No fund beat VOO in both checked periods → nothing new to favour. ")
  +"Our daily BUY rule has not proved it beats VOO → do not trade from it.";
+
+const w=d.broader_market||{};
+$("wide-simple").textContent=w.available
+ ? "The exchange catalog lists "+w.market_catalog_count+" US tickers → today's screens found "+w.market_stocks_screener_count+" stocks → price history checked for "+w.stocks_with_price_analysis+" → "+w.stocks_with_full_valuation+" had complete valuation and growth numbers. This is a PARTIAL daily screen, not a price check of every listed ticker."
+ : "The wider market scan is unavailable or incomplete. I will not invent stock valuations or pretend the entire market was checked.";
+$("wide-sample").innerHTML=w.available&&w.research_candidates?.length?
+ '<p class="small">Example results: '+w.research_candidates.slice(0,5).map(x=>'<b>'+esc(x.ticker)+'</b> ('+esc(x.status)+')').join(' · ')+'</p>':
+ '<p class="small">No fresh broad-market asset list to show. Historical ETF research is still available below.</p>';
+$("wide-investment-ideas").innerHTML=w.available?
+ '<p><b>First: Wider-market stock research.</b> The code checks past price strength AND available future earnings/valuation. These are NOT confirmed buys.</p>'+
+ (w.research_candidates?.length?w.research_candidates.map(x=>
+ '<article class="item"><div class="itemhead"><h3>'+esc(x.ticker)+'</h3><span class="chip">'+esc(x.status)+'</span></div>'+
+ '<p><b>What I would do:</b> '+(x.status==="RESEARCH CANDIDATE"?"Study it further before buying.":"Wait. Something important is missing.")+'</p>'+
+ '<p class="small">Past 1-year gain versus VOO: '+sgn(x.relative_to_voo_year_pp)+
+ ' · Forward P/E: '+(x.forward_pe??"Unknown")+
+ ' · Earnings growth: '+(x.earnings_growth_pct===null?"Unknown":pct(x.earnings_growth_pct))+
+ '.</p><details><summary>Why, and what might be wrong?</summary><p>'+esc(x.simple_explanation)+'</p>'+
+ '<p>'+esc(x.valuation_note)+'</p></details></article>').join(""):'<p>No stocks passed today's initial screen.</p>')+
+ '<p><a href="market.html">All wider-market research and exact coverage →</a></p>'
+ :'<p class="small">Wider stock results are not available today. Do not use stale prices to trade.</p>';
+$("wide-trading-ideas").innerHTML=w.available?
+ '<p><b>First: Wider-market trading research.</b> Even a nice-looking breakout is paper-only until the strategy has stronger proof.</p>'+
+ (w.new_research_trade_setups?.length?w.new_research_trade_setups.map(t=>
+ '<div class="item"><h3>'+esc(t.ticker)+' — PAPER WATCH</h3><p>Potential paper buy '+esc(t.entry_date_estimate)+
+ ' → sell sooner if its stop triggers, otherwise by about '+esc(t.latest_exit_estimate)+
+ '.</p><p class="small">Completed backtest trades: '+t.past_completed_trades+
+ '. Average excess versus buying VOO for exactly the same dates: '+sgn(t.avg_excess_vs_same_dates_voo_pp)+
+ '. Still not approved for real money.</p></div>').join(""):'<p>No new broad-market paper trade setups today.</p>'):
+ '<p>The market-wide research source is unavailable. No new wide-market trade candidates can be claimed.</p>';
+
 $("date").textContent=d.market_last_completed_close;
 $("fund-count").textContent=d.topline.long_historical_investment_candidates.length;
 $("new-signal").textContent=d.topline.new_technical_breakouts;
