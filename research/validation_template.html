@@ -8,14 +8,31 @@
 .easy-wrap .easy-terms{font-size:12.5px;line-height:1.55;color:#c1d5d8;margin-top:13px;padding-top:12px;border-top:1px solid #44666d}
 .easy-wrap a{color:#b9e5ff}
 @media(max-width:530px){.easy-wrap{padding:14px 15px;margin:12px 0 16px}.easy-wrap .easy-line{font-size:14px}}
+
+/* Beginner-first single Q&A; original tables, data and formulas remain unchanged. */
+.easy-wrap{padding:15px 18px;max-width:100%;border:1px solid #537e85;background:#102a36;color:#f1f8f8;border-radius:14px}
+.easy-wrap h2{font-size:21px!important;margin:5px 0 12px!important;line-height:1.35}
+.easy-wrap .easy-line{font-size:15px;line-height:1.55;margin:9px 0!important}
+.easy-wrap .easy-line strong{color:#a8edd3}
+.easy-wrap .easy-why{color:#d1e0e3}
+.easy-wrap .easy-terms{border:none;padding:4px 0;margin:3px 0;color:#c5dadd;font-size:13px}
+.easy-wrap summary{font-size:13px;cursor:pointer;color:#a4d9ff}
+.extra-evidence{background:#0d2031;border:1px solid #344e68;border-radius:12px;padding:14px;margin:16px 0}
+.extra-evidence>summary{color:#a5d9ef;font-weight:800;font-size:15px;cursor:pointer}
+@media(max-width:560px){.easy-wrap{padding:14px}.easy-wrap .easy-line{font-size:14px}}
 </style>
 <script id="report" type="application/json">/*VALIDATION*/</script><main>
 <div class="eyebrow">SIGNALDESK / INVESTMENT COMMITTEE / EVIDENCE PROTOCOL V2</div><h1>Should we actually trade this strategy?</h1><p class="muted">Quantitative strategy screening, transaction-cost stress tests, historical benchmark comparisons, and forward-evidence requirements. An attractive chart is not a trading approval.</p>
-<section class="easy-wrap" aria-label="Plain English page summary"><h2>**Is any daily strategy good enough to trade?**</h2>
-<p class="easy-line"><span class="easy-label">In short:</span> <span id="easy-validation">Research only. See the results below.</span></p>
-<p class="easy-line"><span class="easy-label">What should I do?</span> <span id="easy-validationaction">Nothing to buy or sell here. This page checks whether our trading rules are worth further testing, not which ETF to purchase.</span></p>
-<p class="easy-terms">Jargon: Benchmark = what we compare against (VOO). Turnover = how often we trade. Bootstrap = statistical uncertainty check. <a href="decisions.html">Back to daily decisions →</a></p></section>
+<section class="easy-wrap" aria-label="One clear answer">
+<p class="eyebrow">THE ANSWER</p>
+<h2>Q: Is our daily trading strategy good enough?</h2>
+<p class="easy-line"><strong>My answer:</strong> <span id="easy-validation">Reading past results…</span></p>
+<p class="easy-line"><strong>What should I do?</strong> <span id="easy-validationaction">NO real trades. Keep VOO-style DCA and leave the model in paper testing.</span></p>
+<p class="easy-line easy-why"><strong>Why?</strong> We test a trading rule on old prices → compare it with VOO → if it fails, there is no reason to risk real money.</p>
+<details><summary>Jargon, in simple words</summary><p class="easy-terms">Benchmark = what we compare against. Turnover = number of trades. Bootstrap = a check of how uncertain the results are.</p></details>
+</section>
 <div class="banner"><strong>LIVE TRADING STATUS: REJECT / RESEARCH ONLY</strong><p>Multiple daily strategies have been evaluated. No daily BUY/SELL signal is currently an approved real-money instruction. Only a precommitted, monitored forward paper record can help establish whether any approach generalises.</p></div>
+<details class="extra-evidence"><summary>See full research, charts and settings</summary>
 <nav class="nav"><a href="#scorecard">Historical performance</a><a href="#gate">Approval rules</a><a href="#stress">Trading costs</a><a href="#forward">Forward paper trading</a><a href="scanner.html">Daily scanner</a><a href="factor.html">SPMO research</a><a href="paper_forward.html">Forward paper ledger</a></nav>
 <p class="muted" id="update"></p>
 <div class="grid"><div class="card"><small>Strategies compared</small><b id="count"></b></div><div class="card"><small>Approved daily strategies</small><b class="bad">0</b></div><div class="card"><small>Prospective sessions required</small><b>63+</b></div></div>
@@ -28,10 +45,12 @@
 <section id="stress" class="panel"><h2>Fee-stress checks</h2><p class="muted">Results below show each experimental daily strategy under alternative estimated trading costs for the 2022–latest retrospective period.</p><table><thead><tr><th>Strategy</th><th>0-bp return</th><th>10-bp return</th><th>30-bp return</th><th>10-bp orders</th></tr></thead><tbody id="fees"></tbody></table></section>
 <section id="forward" class="panel"><h2>Our objective forward-validation protocol</h2><div class="split"><div><h3>We will record</h3><p>Timestamped ETF target weights, new market-session opens and closes, simulated fills with explicit costs, daily account balance, and matched VOO/SPMO passive benchmarks. New data must arrive after the original prediction is recorded.</p><h3>Minimum evidence window</h3><p>63 genuinely future US trading sessions across at least three calendar months, plus a review of drawdowns, turnover and benchmark-relative returns. That's a preliminary screen, not guaranteed statistical proof of profitability.</p></div><div><h3>How this prevents misleading results</h3><p>We will not silently change the rules that generated earlier predictions, backdate paper trades, or declare a strategy superior because it won a few trades. Every future alteration gets a new protocol version and its own prospective evaluation period.</p><p><b>Keep investing in your chosen long-term ETF separately.</b> Failed active models should not divert that capital.</p></div></div></section>
 <footer>Protocol <span id="version"></span> · Research code is published at <a href="https://github.com/aaronleeweien/signaldesk-research">SignalDesk on GitHub</a>. Read <a href="https://www.quantconnect.com/docs/v2/writing-algorithms/key-concepts/research-guide">backtest research pitfalls and validation principles</a> for context. There is no certified profitable trading system yet.</footer>
+</details>
 </main><script>
 (()=>{const d=JSON.parse(document.getElementById("report").textContent),$=x=>document.getElementById(x),pct=x=>Number(x||0).toFixed(2)+"%",fmt=x=>Number(x||0).toLocaleString("en-US",{maximumFractionDigits:2}),period=$("period"),select=$("model");
 const passed=Object.values(d.gates).filter(x=>x.historical_screen_pass).length;
-$("easy-validation").textContent=passed+" out of "+Object.keys(d.gates).length+" daily models passed our historical screening. No model is approved for real-money trading. A backtest alone is not enough.";
+const total=Object.keys(d.gates).length,passed=Object.values(d.gates).filter(x=>x.historical_screen_pass).length;
+$("easy-validation").textContent=passed+" of "+total+" tested daily strategies passed the historical screening. None is approved for live trading.";
 $("update").textContent="Last completed US market session "+d.last_complete_us_market_day+" · Protocol "+d.protocol_id;
 $("version").textContent=d.protocol_id;$("count").textContent=Object.keys(d.registered_models).length;
 function performance(){const m=d.results[period.value];$("models").innerHTML=Object.entries(m).map(([name,z])=>'<tr><td>'+name+'</td><td>'+pct(z.annual_pct)+'</td><td>'+pct(z.max_drawdown_pct)+'</td><td>'+pct(z.vol_pct)+'</td><td>'+fmt(z.annual_orders)+'</td><td>$'+fmt(z.fees_usd)+'</td><td>$'+fmt(z.end_usd)+'</td></tr>').join("")}
