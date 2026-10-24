@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-24 02:27 UTC",
+  "generated_at_utc": "2026-10-24 03:45 UTC",
   "last_market_session": "2026-10-23",
   "research_only": true,
   "approved_for_live_trading": false,
@@ -26,7 +26,7 @@
       "cost": 12.69
     },
     "200-day trend": {
-      "end": 23510.82,
+      "end": 23510.81,
       "deposited": 12700.0,
       "annual": 11.42,
       "drawdown": -19.81,
@@ -44,7 +44,7 @@
       "cost": 135.16
     },
     "6-month momentum": {
-      "end": 19114.04,
+      "end": 19114.05,
       "deposited": 12700.0,
       "annual": 7.82,
       "drawdown": -23.4,
@@ -53,13 +53,13 @@
       "cost": 239.51
     },
     "20-day breakout": {
-      "end": 16275.27,
+      "end": 16275.28,
       "deposited": 12700.0,
       "annual": 3.66,
       "drawdown": -14.59,
       "sharpe": 0.532,
       "orders": 175,
-      "cost": 971.99
+      "cost": 972.0
     }
   },
   "holdout": {
@@ -100,7 +100,7 @@
       "cost": 83.71
     },
     "20-day breakout": {
-      "end": 9370.34,
+      "end": 9370.35,
       "deposited": 7700.0,
       "annual": 5.47,
       "drawdown": -10.99,
