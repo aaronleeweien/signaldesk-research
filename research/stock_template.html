@@ -121,7 +121,6 @@ $("curve-caption").textContent="On a time-weighted basis, an initial $1 became $
 }
 function render(){
  const metrics=data.metrics[period],m=metrics[model],b=metrics["VOO DCA"],diff=m.annual_twr_pct-b.annual_twr_pct;
-  VOO returned "+percent(b.annual_twr_pct)+". "+(diff>0?"The model did better here, BUT its stock list is biased.":"The model did not beat VOO here.")+" Do not follow its stock orders with real money.";
 $("easy-stock").textContent=model+" returned "+percent(m.annual_twr_pct)+" yearly in this old test; VOO returned "+percent(b.annual_twr_pct)+". The stock list is biased, so this is not proven.";
  $("annual").textContent=percent(m.annual_twr_pct);$("benchmark").textContent=percent(b.annual_twr_pct);
  $("drawdown").textContent=percent(m.worst_drawdown_pct);$("excess").textContent=(diff>=0?"+":"")+percent(diff);
