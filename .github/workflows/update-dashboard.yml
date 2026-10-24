@@ -53,13 +53,18 @@ jobs:
         run: python research/paper_journal.py
       - name: Add plain-English first answers to legacy pages (presentation only)
         run: python research/simplify_archive_pages.py
+      - name: Verify primary-source SEC filings for a few screened stocks
+        env:
+          SIGNALDESK_SEC_USER_AGENT: ${{ secrets.SIGNALDESK_SEC_USER_AGENT }}
+          SIGNALDESK_MAIL_TO: ${{ secrets.SIGNALDESK_MAIL_TO }}
+        run: python research/sec_fundamentals.py
       - name: Write daily news-style investment report from completed research (no model changes)
         run: python research/editorial_report.py
       - name: Save public summary for connected assistants
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add latest_report.md latest_report.json research/rotation_results.md research/rotation_results.json research/lab_v3.md research/lab_v3.json research/paper_signals.csv research/stocks_v1.md research/stocks_v1.json research/stocks_paper.csv research/institutional_v4.md research/institutional_v4.json research/factor_etf.md research/factor_etf.json research/factor_paper.csv research/daily_events.csv research/daily_scan_latest.json research/daily_alert_payload.json research/validation_v2.md research/validation_v2.json research/forward_shadow.json research/established_strategies.json research/established_strategies.md research/decision_hub.json research/decision_hub.md research/market_discovery.json research/kotegawa_reversion.json research/daily_brief.md
+          git add research/sec_fundamentals.json latest_report.md latest_report.json research/rotation_results.md research/rotation_results.json research/lab_v3.md research/lab_v3.json research/paper_signals.csv research/stocks_v1.md research/stocks_v1.json research/stocks_paper.csv research/institutional_v4.md research/institutional_v4.json research/factor_etf.md research/factor_etf.json research/factor_paper.csv research/daily_events.csv research/daily_scan_latest.json research/daily_alert_payload.json research/validation_v2.md research/validation_v2.json research/forward_shadow.json research/established_strategies.json research/established_strategies.md research/decision_hub.json research/decision_hub.md research/market_discovery.json research/kotegawa_reversion.json research/daily_brief.md
           if ! git diff --cached --quiet; then
             git commit -m "Update VOO research results [skip ci]"
             git pull --rebase -X theirs origin main
@@ -76,3 +81,19 @@ jobs:
           path: site
       - id: deploy
         uses: actions/deploy-pages@v4
+      - name: Email full report after publishing (scheduled market sessions only)
+        if: github.event_name == 'schedule'
+        env:
+          SIGNALDESK_GMAIL_FROM: ${{ secrets.SIGNALDESK_GMAIL_FROM }}
+          SIGNALDESK_MAIL_TO: ${{ secrets.SIGNALDESK_MAIL_TO }}
+          SIGNALDESK_GMAIL_APP_PASSWORD: ${{ secrets.SIGNALDESK_GMAIL_APP_PASSWORD }}
+        run: python research/email_report.py
+      - name: Save private-address-free email delivery receipt
+        if: github.event_name == 'schedule'
+        run: |
+          git add research/email_sent_sessions.json 2>/dev/null || true
+          if ! git diff --cached --quiet; then
+            git commit -m "Record SignalDesk email market session [skip ci]"
+            git pull --rebase -X theirs origin main
+            git push
+          fi

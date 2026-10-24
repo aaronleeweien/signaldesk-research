@@ -42,7 +42,7 @@ def pp(value,sign=False):
 def fact_line(text):
     return f'<p class="fact">{H(text)}</p>'
 
-def narrative_bundle(hub,market,est,rev=None):
+def narrative_bundle(hub,market,est,rev=None,fundamentals=None):
     date=hub["market_last_completed_close"]
     complete_dates=(market.get("last_completed_us_price_date")==date and
                     est.get("latest_completed_us_market_day")==date)
@@ -56,7 +56,7 @@ def narrative_bundle(hub,market,est,rev=None):
             "trade_story":None,"reversion_story":None,
             "limits":["Research files contain different market dates.",
                 "No real-time price, fair-value target or approved brokerage trade is supplied."],
-            "coverage":{}}
+            "coverage":{},"fundamental_stories":[]}
 
     etfs={x["ticker"]:x for x in hub.get("investment_ideas",[])}
     voo=est["windows"]["recent_2022"]["returns"]["VOO"]["annual_twr_pct"]
@@ -125,6 +125,69 @@ def narrative_bundle(hub,market,est,rev=None):
             "evidence":f"It checked {rev['screened_prices_for_assets']} stocks; {rev['passing_retrospective_tests']} passed the early historical filter ({', '.join(names) if names else 'none'}). It found {rev['new_paper_entry_setups']} new paper entries.",
             "missing":"Because we know which stocks survived until today, the old results may be biased. This is not Kotegawa's exact trading method."}
 
+    # Filed numbers are independent of the market screener. These are audited
+    # annual FINANCIAL FACTS, not analyst forecasts or proof of undervaluation.
+    fundamental_stories=[]
+    if fundamentals and fundamentals.get("source_market_date")==date:
+        for item in fundamentals.get("companies",[]):
+            sym=item["ticker"]
+            year=item.get("fiscal_year_ended") or "unknown period"
+            def dollars(v):
+                return "not available" if v is None else f"USD {v/1e9:,.2f} billion"
+            evidence=(f"SEC 10-K year ended {year}: revenue {dollars(item.get('revenue_usd'))}; "
+                f"year-on-year revenue growth {pct(item.get('revenue_growth_yoy_pct'))}; "
+                f"net income {dollars(item.get('net_income_usd'))}; "
+                f"operating cash flow {dollars(item.get('operating_cash_usd'))}; "
+                f"capital spending {dollars(item.get('capital_spending_usd'))}; "
+                f"free cash flow {dollars(item.get('free_cash_flow_usd'))}; "
+                f"free-cash-flow yield {pct(item.get('free_cash_flow_yield_pct'))}.")
+            history=item.get("annual_history_latest_three",[])
+            if history:
+                history_sentence="; ".join(
+                    f"{h['fiscal_year_ended']}: {dollars(h.get('free_cash_flow_usd'))}"
+                    for h in history)
+                evidence+=f" Annual free cash flow in the latest available filing years: {history_sentence}."
+            if item.get("fcf_years_available"):
+                evidence+=(f" Positive free cash flow in {item['positive_fcf_years']} of "
+                    f"{item['fcf_years_available']} available years; a single positive year is not proof of stability.")
+            cash=item.get("cash_balance")
+            debt=item.get("long_term_debt_tag")
+            if cash:
+                evidence+=(f" Reported cash balance {dollars(cash.get('value_usd'))} "
+                           f"(balance-sheet date {cash['period_end']}).")
+            if debt:
+                evidence+=(f" Reported long-term-debt tag {dollars(debt.get('value_usd'))} "
+                           f"(balance-sheet date {debt['period_end']}); this may NOT include every liability.")
+            model=item.get("reverse_cash_flow_valuation",{})
+            implied=model.get("implied_growth_needed_by_stock_price_pct")
+            if implied is not None:
+                evidence+=(
+                    f" Reverse-valuation arithmetic: today's stock-market value would require about "
+                    f"{pct(implied)} annual free-cash-flow growth for five years under the FIXED "
+                    f"11% investor-required return and 2% perpetual terminal growth assumptions.")
+                scenarios=model.get("fixed_assumption_scenarios",{})
+                if scenarios:
+                    scenario_summary="; ".join(
+                        f"{label.replace('_',' ')}: {pct(z.get('value_as_pct_of_current_market_cap'))} of market cap"
+                        for label,z in scenarios.items())
+                    evidence+=f" Sensitivity if FCF growth instead stays at 0%, 5%, or 10%: {scenario_summary}."
+            note=("FCF (free cash flow) means cash generated from operations minus money spent on property and equipment. "
+                "Positive FCF can help a company invest, repay debt or return cash to shareholders. "
+                "FCF yield compares that historical cash with today's market value: a higher number can be attractive "
+                "but could also mean that cash flow is expected to decline. "
+                "Revenue growth tells us whether sales expanded, not whether investors will earn a profit.")
+            missing=("We still need current-quarter context, business quality, competitors, detailed debt analysis, "
+                "forward earnings and a properly justified valuation scenario before claiming this may beat VOO. "
+                "Annual reports lag today's market price; the SEC facts may include amendments. "
+                "The reverse-valuation calculation is a sensitivity exercise, NOT a verified fair value or "
+                "a company forecast: real growth, discount rates, cash use and borrowing could differ substantially.")
+            fundamental_stories.append({
+                "ticker":sym,"recommendation":"PRIMARY-SOURCE FINANCIAL CHECK ONLY; not a buy recommendation.",
+                "why":note,"evidence":evidence,"missing":missing,
+                "source":item.get("primary_source",""),
+                "filing_dates":item.get("filing_dates",{}),
+                "complete":item.get("status")=="independent_annual_fundamentals_verified"})
+
     coverage={
         "listing_count":market["universe_catalog"]["US_listings_catalogued"],
         "screen_count":market["discovery_feeds"]["unique_stock_quotes"],
@@ -144,7 +207,7 @@ def narrative_bundle(hub,market,est,rev=None):
             "Our stock-level valuation is a basic filter, not a Wall Street-quality fair-value model. No independent forecasts, earnings calls, detailed balance-sheet work, management evaluation or scenario-based price targets are in the report.",
             "Backtests use historical prices and a modern selected stock universe. Results may look good because we know which stocks survived or because we tested multiple ideas.",
             "The report uses completed US market prices, not live quotes. It cannot know tomorrow's profitable sell date."],
-        "coverage":coverage}
+        "coverage":coverage,"fundamental_stories":fundamental_stories}
 
 def render_article(info):
     date=H(info["date"])
@@ -165,6 +228,15 @@ def render_article(info):
         long_html+=sec(info["stock_story"],f"Stock example: {info['stock_story']['ticker']}")
     else:
         long_html+='<p>No stock has a complete enough basic valuation screen to include in the article today.</p>'
+    filings=info.get("fundamental_stories",[])
+    filings_html="".join(
+        sec(s,f"SEC filing check: {s['ticker']}")+
+        (f'<p class="meta"><a href="{H(s["source"])}" rel="noopener noreferrer">Read SEC primary-source figures</a>'
+         f' · Filing dates: {H(", ".join(sorted(set(s["filing_dates"].values()))))}</p>' if s.get("source") else "")
+        for s in filings)
+    if not filings_html:
+        filings_html="<p>Independent SEC filing checks are not available for this market session. "
+        filings_html+="We cannot treat screener P/E or price momentum as independently verified company analysis.</p>"
     trade=info["trade_story"]
     trading_html=sec(trade,f"Example: {trade['ticker']} breakout") if trade else "<p>There is no new breakout signal to investigate today.</p>"
     if trade:
@@ -208,14 +280,17 @@ summary{{cursor:pointer;font-weight:700}}li{{margin:9px 0}}
 <p class="meta">Based on the completed US market session: <strong>{date}</strong> · {H(status)}</p>
 <p class="answer"><strong>{H(info["headline"])}</strong></p>
 <p class="lead">{H(info["long_intro"])}</p>
-<div class="nav"><a href="#long">Longer-term investing</a><a href="#short">Short-term opportunities</a><a href="#proof">Check the full evidence</a><a href="decisions.html">Original dashboard</a></div>
+<div class="nav"><a href="#long">Longer-term investing</a><a href="#filings">SEC filing checks</a><a href="#short">Short-term opportunities</a><a href="#proof">Check the full evidence</a><a href="decisions.html">Original dashboard</a></div>
 <section class="chapter" id="long"><h2>1. Could something beat VOO over the next few years?</h2>
 {long_html}</section>
-<section class="chapter" id="short"><h2>2. Is there a short-term trade worth taking?</h2>
+<section class="chapter" id="filings"><h2>2. What do the companies actually earn and produce in cash?</h2>
+<p>These numbers come from SEC annual filings, not a share-price chart. Every missing field stays explicitly unknown. Financial strength is not the same as a bargain stock.</p>
+{filings_html}</section>
+<section class="chapter" id="short"><h2>3. Is there a short-term trade worth taking?</h2>
 <p>{H(info["trade_intro"])}</p>{trading_html}{reversion_html}
 <p class="answer"><strong>My recommendation:</strong> No new real-money trade. Continue VOO DCA (dollar-cost averaging: investing a set amount regularly) while these strategies are tested.</p>
 </section>
-<section class="chapter" id="proof"><h2>3. What we still cannot prove</h2>
+<section class="chapter" id="proof"><h2>4. What we still cannot prove</h2>
 <p>Wall Street-grade research would check more than past prices. It would estimate a company's future cash, debts, profits, risks and a realistic range of future prices. We have not completed that work.</p>
 <details><summary>Open the data checks and limits</summary><ul>{caveats}</ul>
 <p><a href="market.html">Market discovery data</a> · <a href="established.html">ETF comparison</a> · <a href="validation.html">Backtest audit</a> · <a href="kotegawa.html">Rebound strategy test</a> · <a href="decision_hub.json">Daily calculation data</a></p>
@@ -236,6 +311,15 @@ def render_markdown(info):
     if x:lines+=["",f"### Stock example: {x['ticker']}",
          f"**What I would do:** {x['recommendation']}",x["why"],
          "**Evidence:** "+x["evidence"],"**Still missing:** "+x["missing"]]
+    lines+=["","## What the actual SEC financial filings say"]
+    if not info.get("fundamental_stories"):
+        lines+=["No independently verified SEC company filings were available for this market session."]
+    for x in info.get("fundamental_stories",[]):
+        lines+=["",f"### Filing: {x['ticker']}",x["recommendation"],
+                x["why"],"**Reported facts:** "+x["evidence"],
+                "**Limitations:** "+x["missing"],
+                "**SEC source:** "+x["source"],
+                "**Filed:** "+", ".join(sorted(set(x["filing_dates"].values())))]
     lines+=["","## Is there a short-term trade?","",info["trade_intro"]]
     if info["trade_story"]:
         x=info["trade_story"]
@@ -250,7 +334,8 @@ def publish(base=Path("research"),site=Path("site")):
     data=[get(name,base) for name in REQUIRED]
     if any(x is None for x in data):raise FileNotFoundError("Daily report requires fresh research source JSON")
     bnf=get(OPTIONAL[0],base)
-    info=narrative_bundle(*data,rev=bnf)
+    fundamental=get("sec_fundamentals.json",base)
+    info=narrative_bundle(*data,rev=bnf,fundamentals=fundamental)
     if not info["fresh"]:
         # Publish an honest no-data report; no recommendation from mismatched dates.
         info["long_intro"]="The data are not on the same date. We cannot fairly compare investments today."
