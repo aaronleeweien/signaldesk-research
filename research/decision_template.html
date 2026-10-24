@@ -1,0 +1,182 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>SignalDesk • Daily Decision Centre</title>
+<style>
+:root{color-scheme:dark;--bg:#071522;--panel:#132539;--panel2:#1a3048;--line:#31465e;--muted:#aebed1;--text:#f0f7ff;--good:#86dfb8;--bad:#ffb0a6;--warn:#efc58c;--accent:#9fd4ff}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{background:radial-gradient(ellipse at 80% -30%,#244a63,#0b1c2e 48%,#071522);color:var(--text);font:14px/1.56 system-ui,-apple-system,Segoe UI,sans-serif;margin:0}
+main{max-width:1300px;margin:auto;padding:22px 16px 65px}a{color:var(--accent)}.eyebrow{color:var(--good);font-size:11px;letter-spacing:.15em;font-weight:850}
+h1{font-size:clamp(29px,4vw,43px);line-height:1.1;letter-spacing:-.035em;margin:7px 0}h2{font-size:20px;line-height:1.25;margin:0 0 10px}h3{font-size:16px;margin:0 0 8px}p{margin:7px 0 12px}
+.muted,small{color:var(--muted)}.small{font-size:12px}.good{color:var(--good)}.bad{color:var(--bad)}.warn{color:var(--warn)}.tag{font-size:11px;border:1px solid #3b5269;padding:4px 9px;border-radius:20px;color:#d6e6f6;white-space:nowrap}
+nav{display:flex;flex-wrap:wrap;gap:8px;margin:18px 0}nav a{border:1px solid var(--line);padding:7px 11px;border-radius:22px;font-size:12px;text-decoration:none}
+.grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}.half{display:grid;grid-template-columns:1.6fr 1fr;gap:13px}
+.card,.panel{border:1px solid var(--line);background:linear-gradient(155deg,#193048,#102237);padding:18px;border-radius:15px;margin:12px 0}.card{margin:0;padding:15px}.card small{display:block;font-size:11px}.card b{font-size:26px;line-height:1.25;display:block;margin:7px 0;overflow-wrap:anywhere}
+.banner{border:1px solid #8d7855;background:#403226;color:#ffe6c1;border-radius:14px;padding:15px 18px;margin:20px 0}.banner p{color:#f5d3a6}
+.tabs{display:flex;gap:6px;border-bottom:1px solid var(--line);overflow:auto;padding-bottom:10px;margin-top:22px}
+.tabs button{background:transparent;border:1px solid #36506a;border-radius:11px;padding:11px 17px;color:#d7e6f3;font:inherit;font-weight:700;white-space:nowrap;cursor:pointer}
+.tabs button.selected{background:#264968;color:#fff;border-color:#6293b8}button:focus-visible,a:focus-visible,select:focus-visible,input:focus-visible,summary:focus-visible{outline:2px solid #9fd4ff;outline-offset:2px}
+.controls{display:flex;flex-wrap:wrap;gap:10px;align-items:end;margin:15px 0}
+.controls label,.calc label{font-size:12px;color:var(--muted);display:flex;flex-direction:column;gap:6px}
+select,input{background:#0e2234;color:var(--text);border:1px solid #486781;border-radius:9px;padding:9px 11px;font:inherit}
+input[type=number]{width:140px}.item{border:1px solid #344d63;background:#0c2033;border-radius:13px;padding:17px;margin:10px 0}
+.itemhead{display:flex;align-items:flex-start;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.itemhead h3{font-size:20px;margin:0}.sub{font-size:12px;color:var(--muted)}.chip{font-size:11px;background:#1a384c;padding:5px 9px;border-radius:20px;color:#b1f1d6;max-width:100%}
+.kpis{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:9px;margin:13px 0}.kpis>div{padding:10px;background:#173149;border-radius:9px}.kpis small{display:block;font-size:10px}.kpis b{font-size:17px}
+summary{color:var(--accent);cursor:pointer;font-weight:650;padding:5px 0}details{border-top:1px solid #304961;padding-top:9px;margin-top:10px}
+.explain{background:#112e36;border-left:3px solid var(--good);border-radius:3px 10px 10px 3px;padding:13px 15px}
+.row{display:flex;align-items:start;gap:13px;flex-wrap:wrap}.row>*{flex:1}table{border-collapse:collapse;width:100%;display:block;overflow:auto}th,td{text-align:left;white-space:nowrap;border-bottom:1px solid #30465f;padding:10px 12px;font-size:12px}th{color:var(--muted)}
+.callout{border:1px dashed #5f7992;border-radius:12px;padding:15px;margin:12px 0}.calculator{background:#0d2637;border:1px solid #345366;border-radius:13px;padding:15px}
+.divider{border-top:1px solid var(--line);margin:15px 0}footer{margin-top:28px;color:var(--muted);font-size:12px;border-top:1px solid var(--line);padding-top:15px}
+@media(max-width:900px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}.half{grid-template-columns:1fr}}@media(max-width:600px){main{padding:14px 10px 34px}.panel,.card{padding:14px}.item{padding:13px}.kpis{grid-template-columns:repeat(2,minmax(0,1fr))}.card b{font-size:22px}nav{gap:6px}}
+</style></head><body>
+<script type="application/json" id="data">/*DECISION_DATA*/</script>
+<main>
+<header><div class="eyebrow">SIGNALDESK / DAILY INVEST & TRADE DECISIONS</div><h1>What is worth buying? Is there a trade today?</h1>
+<p class="muted">One daily briefing. The backend screens tracked ETFs and stocks, compares historical strategies against VOO and explains each finding in plain English.</p></header>
+<div class="banner"><strong>Research mode — not an approved trading service.</strong>
+<p id="date-context">Checking latest recorded US prices…</p>
+<p>No trade is authorised merely because an asset is rising. The dashboard distinguishes an established ETF's historical outperformance from a proven buy/sell timing strategy.</p></div>
+<nav><a href="#invest">Investment ideas</a><a href="#trade">Trading setups</a><a href="#how">How it decides</a><a href="established.html">Full fund evidence</a><a href="validation.html">Strategy audit</a><a href="paper_forward.html">Forward paper records</a><a href="decision_hub.json">Raw daily data</a></nav>
+<div class="grid">
+<div class="card"><small>Completed US market session</small><b id="date"></b><small>New signals use completed data only</small></div>
+<div class="card"><small>Historical ETF candidates</small><b id="fund-count"></b><small>Past outperformance, not a prediction</small></div>
+<div class="card"><small>New ETF breakout setups</small><b id="new-signal"></b><small>May be zero on normal days</small></div>
+<div class="card"><small>Real-money trade approval</small><b class="bad">NONE</b><small>Research paper alerts only</small></div>
+</div>
+<div class="tabs" role="tablist" aria-label="Decision view">
+<button id="invest-tab" class="selected" role="tab" aria-selected="true">1. Investment ideas</button>
+<button id="trade-tab" role="tab" aria-selected="false">2. Short-term trades</button>
+</div>
+<section id="invest" class="panel">
+<h2>Potential investments: what might outperform VOO?</h2>
+<p class="muted">This section focuses on actual ETF histories and a separate exploratory stock watchlist. Outperformance is historical, not forecast. Longer holds can be measured in years, not days.</p>
+<div class="controls">
+<label>Time horizon<select id="invest-horizon"><option value="LONG">Long term: 1–5+ years (ETFs)</option><option value="SHORT">Short term: 4–12 weeks (stocks)</option><option value="ALL">All investment research</option></select></label>
+<label>Evidence filter<select id="invest-filter"><option value="all">All researched ideas</option><option value="outperform">ETFs that beat VOO in both periods</option><option value="trend">Positive momentum and trend</option></select></label>
+<label>Sort by<select id="invest-sort"><option value="evidence">Evidence quality</option><option value="excess">Historical excess return</option><option value="momentum">Recent momentum score</option></select></label>
+</div>
+<div class="explain"><b>Easy interpretation:</b> A fund that beat VOO historically is a potential long-term investment candidate. You can consider allocating future investments—but the dashboard cannot tell you an exact profitable purchase price or future selling date.</div>
+<p class="small" id="invest-result-count"></p><div id="invest-results"></div>
+</section>
+<section id="trade" class="panel" hidden>
+<h2>Short-term trade decision: buy next open and exit when?</h2>
+<div class="explain"><b id="trade-verdict">No approved live trade.</b><p id="trade-explainer">If a research setup appears, the page shows an estimated next-session entry, conditions that force an earlier sale and the latest planned exit. No future selling price or profit is guaranteed.</p></div>
+<div class="controls">
+<label>Show setups<select id="trade-filter"><option value="new">New breakouts today</option><option value="all">All scanned ETFs</option><option value="trend">Ongoing bullish trends</option></select></label>
+<label>Order by<select id="trade-sort"><option value="quality">Historical evidence</option><option value="relative">Matched trade excess vs VOO</option><option value="ticker">Ticker</option></select></label>
+</div>
+<div class="calculator">
+<strong>Illustrative position-size calculator (paper only)</strong><p class="caption">Only estimates how much money a hypothetical trade exposes to its closing-price stop. Actual overnight gaps can lose more, and the next open price is unknown.</p>
+<div class="controls calc">
+<label>Hypothetical account USD<input id="account" type="number" min="100" max="10000000" step="100" value="10000"></label>
+<label>Max loss budget per trade<select id="risk"><option value="0.0025">0.25% of account</option><option value="0.005" selected>0.50% of account</option><option value="0.01">1% of account</option></select></label>
+</div><div id="risk-result" class="muted"></div>
+</div>
+<p class="small" id="trade-result-count"></p><div id="trade-results"></div>
+</section>
+<section id="how" class="panel">
+<h2>How the backend makes decisions</h2>
+<div class="half">
+<div><h3>1. Investing (weeks / years)</h3><p><b>Live fund history:</b> Compare the actual performance of SPMO, XMMO, QQQ, SMH, MTUM and MDY against VOO over the same years and costs. Only past fund winners with healthy recent trends appear as stronger research candidates.</p><p><b>Stock watchlist:</b> Check 30 named US companies for positive 3-/6-month momentum and trends. These are preliminary alerts, since a list of today's surviving companies biases any historical research.</p></div>
+<div><h3>2. Trading (up to 15 sessions)</h3><p><b>Entry:</b> The last completed closing price breaks its prior 20-session high, stays above its 200-session moving average, and has positive 63- and 126-day momentum. The simulated purchase is at the <b>next</b> regular US open.</p>
+<p><b>Exit:</b> Close drops at least 7% versus entry, or below its previous 10-day low, or below the 200-day average; sell the next open. Otherwise exit after a maximum of 15 sessions.</p></div>
+</div>
+<div class="divider"></div>
+<h3>Why the evidence can still be misleading</h3>
+<p>For every ETF, the trading code simulates completed historical trades at the following open and compares a VOO position bought and sold on the <b>exact same days</b>. It counts trades, wins, losses, average return and excess over VOO, then estimates uncertainty with bootstrap resampling.</p>
+<p>Even if a ticker passes the historical screen, it is <b>not live-approved</b>: the tickers and rules were selected after seeing older results; taxes, spreads and currency conversion are omitted; and forward brokerage-quality paper fills are still absent.</p>
+<p><b>Jargon translated:</b> <i>Momentum</i> = price strength over past months; <i>SMA200</i> = average price over 200 market days; <i>drawdown</i> = worst peak-to-low fall; <i>bootstrap</i> = a statistical uncertainty check, not a guarantee; <i>alpha</i> = extra return after adjusting for a benchmark/risk, not just the stock going up.</p>
+<p class="caption">US market hours, holidays and prices: this is a daily static GitHub update, not a live trading feed. Dates are estimated business days and do not incorporate every US exchange holiday. You must verify broker listings, fees, tax treatment and fill prices separately.</p>
+</section>
+<footer>SignalDesk Decision Hub · No automatic orders · Not personalised investment advice · All numbers are reproducible from <a href="https://github.com/aaronleeweien/signaldesk-research/blob/main/research/decision_hub.py">source code</a> and <a href="decision_hub.json">timestamped analysis</a>. Funds listed aren't necessarily supported by Syfe.</footer>
+</main>
+<script>
+(()=>{
+const d=JSON.parse(document.getElementById("data").textContent);
+const $=id=>document.getElementById(id),esc=x=>String(x??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const pct=x=>x===null||x===undefined?"—":Number(x).toFixed(2)+"%";
+const sgn=x=>x===null||x===undefined?"—":(Number(x)>0?"+":"")+Number(x).toFixed(2)+" pp";
+const usd=x=>x===null||x===undefined?"—":"$"+Number(x).toLocaleString("en-US",{maximumFractionDigits:2});
+$("date").textContent=d.market_last_completed_close;
+$("fund-count").textContent=d.topline.long_historical_investment_candidates.length;
+$("new-signal").textContent=d.topline.new_technical_breakouts;
+$("date-context").textContent="Analysis through US session "+d.market_last_completed_close+". "+d.us_market_context+" "+d.data_type+". Next estimated session "+d.next_estimated_us_business_session+".";
+const switchTo=tab=>{
+const inv=tab==="invest";$("invest").hidden=!inv;$("trade").hidden=inv;
+$("invest-tab").classList.toggle("selected",inv);$("trade-tab").classList.toggle("selected",!inv);
+$("invest-tab").setAttribute("aria-selected",String(inv));$("trade-tab").setAttribute("aria-selected",String(!inv));
+};
+$("invest-tab").onclick=()=>{switchTo("invest");location.hash="invest"};
+$("trade-tab").onclick=()=>{switchTo("trade");location.hash="trade"};
+if(location.hash==="#trade")switchTo("trade");
+function investCard(x){
+const real=x.status.startsWith("HISTORICAL"),risky=x.status.startsWith("HIGH-RISK"),stock=x.asset_type==="Stock";
+const risk=stock?"STOCK WATCH":risky?"HIGH CONCENTRATION":real?"HISTORICAL CANDIDATE":"NOT QUALIFIED";
+const stat=stock?'<div><small>Past 2019+ excess</small><b>'+sgn(x.relative_2019_pp)+'</b></div><div><small>Past 2022+ excess</small><b>'+sgn(x.relative_2022_pp)+'</b></div>':
+'<div><small>Annual excess 2019+</small><b>'+sgn(x.relative_2019_pp)+'</b></div><div><small>Annual excess 2022+</small><b>'+sgn(x.relative_2022_pp)+'</b></div>';
+return '<article class="item"><div class="itemhead"><div><h3>'+esc(x.ticker)+' <span class="tag">'+esc(x.asset_type)+'</span></h3><div class="sub">'+esc(x.category)+' · '+esc(x.hold_guide)+'</div></div><span class="chip">'+esc(risk)+'</span></div>'
++'<p class="explain">'+esc(x.simple_why)+'</p>'
++'<div class="kpis">'+stat+'<div><small>3-month momentum</small><b>'+pct(x.r63_pct)+'</b></div><div><small>6-month momentum</small><b>'+pct(x.r126_pct)+'</b></div></div>'
++'<details><summary>What is the evidence? (simple explanation + jargon)</summary>'
++'<p><b>Current status:</b> '+esc(x.status)+'</p>'
++'<p><b>Statistical and data limitations:</b> '+esc(x.evidence_qualifier)+'</p>'
++(stock?'<p><b>Why this is not a proven winner:</b> Stocks selected in 2026 already survived earlier years. This historical outperformance is biased.</p>':
+'<p><b>Worst historical fall in 2022+ test:</b> '+pct(x.max_drawdown_recent_pct)+
+'. <b>Beta to VOO:</b> '+esc(x.beta_to_voo)+
+'. <b>Still beats VOO if buy fee is 30bps:</b> '+(x.after_30bps_beats_voo?"Yes":"No")+'.</p>'+
+'<p><b>90% bootstrap range:</b> '+(x.statistical_ci90_pct?.enough_months?pct(x.statistical_ci90_pct.ci90_lower)+" to "+pct(x.statistical_ci90_pct.ci90_upper)+" for annual average active returns":"Not available")+
+'. This is statistical uncertainty, not an expected future return.</p>'+
+'<p><a href="'+esc(x.methodology_url)+'" target="_blank" rel="noopener noreferrer">Official index fund information ↗</a></p>')
++'<p><b>Jargon:</b> '+Object.entries(x.jargon||{}).map(([k,v])=>'<b>'+esc(k)+'</b> — '+esc(v)).join(" ")+'</p>'
++'</details></article>';
+}
+function investRender(){
+let a=[...d.investment_ideas,...d.short_term_stock_watch];
+const h=$("invest-horizon").value,f=$("invest-filter").value,sort=$("invest-sort").value;
+if(h!=="ALL")a=a.filter(x=>x.horizon===h);
+if(f==="outperform")a=a.filter(x=>x.asset_type==="ETF"&&x.relative_2019_pp>0&&x.relative_2022_pp>0);
+if(f==="trend")a=a.filter(x=>x.above_long_average&&x.r63_pct>0&&x.r126_pct>0);
+const evidence=x=>x.asset_type==="ETF"?(x.status.startsWith("HISTORICAL")?3:(x.status.startsWith("HIGH-RISK")?2:1)):0;
+a.sort((x,y)=>sort==="momentum"?y.strength_score_pct-x.strength_score_pct:
+sort==="excess"?y.relative_2022_pp-x.relative_2022_pp:evidence(y)-evidence(x)||y.relative_2022_pp-x.relative_2022_pp);
+$("invest-result-count").textContent=a.length+" matching ideas from a LIMITED ETF and stock universe. "+(d.stock_feed_warning||"");
+$("invest-results").innerHTML=a.length?a.map(investCard).join(""):'<div class="callout">No ideas meet those filters. That is a legitimate result—not a reason to loosen the strategy.</div>';
+}
+["invest-horizon","invest-filter","invest-sort"].forEach(id=>$(id).onchange=investRender);investRender();
+function tradeCard(x){
+const e=x.historical_evidence,j=x.indicators,good=x.new_entry_setup;
+return '<article class="item"><div class="itemhead"><div><h3>'+esc(x.ticker)+' <span class="tag">'+esc(x.asset_type)+'</span></h3><div class="sub">'+esc(x.setup_state)+' · Last observed close '+usd(j.last_close_usd)+'</div></div><span class="chip">'+(good?"PAPER ENTRY WATCH":"NO NEW ENTRY")+'</span></div>'
++'<p class="explain">'+esc(x.why_simple)+(good?' <b>Next possible paper buy:</b> '+esc(x.proposed_next_open)+'.':'')+'</p>'
++'<div class="kpis"><div><small>Trades tested</small><b>'+e.n+'</b></div><div><small>Win rate</small><b>'+pct(e.win_rate_pct)+'</b></div><div><small>Average trade</small><b>'+pct(e.avg_trade_pct)+'</b></div><div><small>Average excess vs VOO</small><b>'+sgn(e.avg_vs_voo_pct)+'</b></div></div>'
++(good?'<div class="callout"><b>Paper plan: buy the next US open '+esc(x.proposed_next_open)+' (estimated).</b><p>Sell at the next regular opening after a closing-price exit condition, or by approximately <b>'+esc(x.latest_planned_exit)+'</b> if none triggers sooner. Not a promise that you should buy or can sell at a fixed profit.</p><p>'+esc(x.exit_plan)+'</p></div>':'')
++'<details><summary>Show trade rules, historical evidence, and risks</summary>'
++'<p><b>Entry test:</b> Closing price above previous 20-session high '+usd(j.prior_high20_usd)+', above its 200-day SMA '+usd(j.sma200_usd)+', with positive 63- and 126-session returns.</p>'
++'<p><b>Exit plan:</b> '+esc(x.exit_plan)+'</p>'
++'<p><b>Historical period:</b> Completed, nonoverlapping trades from 2018. Average matched excess is after the same estimated costs on both legs. Recent 2022+ excess: '+sgn(e.recent_vs_voo_pct)+'.</p>'
++'<p><b>Bootstrap 90% range of average excess per trade:</b> '+(e.ci90_excess_pct&&e.ci90_excess_pct[0]!==null?pct(e.ci90_excess_pct[0])+' to '+pct(e.ci90_excess_pct[1]):'Not enough trades')+'. Historical screen: <b>'+(e.passes_historical_gate?"PASS, BUT NOT INDEPENDENT":"FAIL")+'</b>.</p>'
++'<p><b>Why there is no live BUY:</b> '+esc(x.not_trading_why)+'</p>'
++'<p><b>Loss control:</b> '+esc(x.risk_budget_note)+'</p>'
++'</details></article>';
+}
+function tradeRender(){
+let a=[...d.trading_opportunities],filter=$("trade-filter").value,s=$("trade-sort").value;
+if(filter==="new")a=a.filter(x=>x.new_entry_setup);
+if(filter==="trend")a=a.filter(x=>x.indicators.bullish_breakout_now);
+a.sort((x,y)=>s==="ticker"?x.ticker.localeCompare(y.ticker):
+s==="relative"?(y.historical_evidence.avg_vs_voo_pct??-999)-(x.historical_evidence.avg_vs_voo_pct??-999):
+Number(y.historical_evidence.passes_historical_gate)-Number(x.historical_evidence.passes_historical_gate)||
+(y.historical_evidence.n??0)-(x.historical_evidence.n??0));
+$("trade-result-count").textContent=a.length+" ETF setups shown. 0 approved real-money trades.";
+$("trade-results").innerHTML=a.length?a.map(tradeCard).join(""):'<div class="callout"><b>No new qualifying entry today.</b> The system is working: it is meant to say NO TRADE when nothing meets the rules. Choose “All scanned ETFs” to review historical evidence.</div>';
+const breakout=d.topline.new_technical_breakouts;
+$("trade-verdict").textContent="0 approved real trades. "+breakout+" new technical breakout"+(breakout===1?"":"s")+" in the last completed session.";
+}
+["trade-filter","trade-sort"].forEach(id=>$(id).onchange=tradeRender);tradeRender();
+function calculate(){
+let account=Number($("account").value),risk=Number($("risk").value);
+if(!Number.isFinite(account)||account<100||account>10000000){$("risk-result").textContent="Enter a hypothetical account size between $100 and $10 million.";return;}
+let maxloss=account*risk;
+let riskImpliedCapital=maxloss/.07;
+let cap=account*.1;
+$("risk-result").innerHTML="Max planned premium-free cash loss budget: <b>"+usd(maxloss)+"</b>. At a hypothetical 7% closing stop, dollar exposure before gaps/fees is up to <b>"+usd(Math.min(riskImpliedCapital,cap))+"</b> (capped at 10% of portfolio). Actual loss could exceed this due to overnight gaps. This is arithmetic, not a position recommendation.";
+}
+$("account").oninput=calculate;$("risk").onchange=calculate;calculate();
+})();
+</script></body></html>
