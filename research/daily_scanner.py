@@ -282,6 +282,12 @@ def main():
     Path("research/daily_alert_payload.json").write_text(json.dumps(alert,indent=2)+"\n",encoding="utf-8")
     from validation_protocol import evaluate as evaluate_validation
     scanner["evidence_review"]=evaluate(prices,signals,scanner)
+    from validation_protocol import plans as research_plans
+    from forward_shadow import update as save_forward_shadow
+    forward=save_forward_shadow(prices,research_plans(close,signals))
+    scanner["forward_paper_progress"]={"sessions":forward["valid_forward_sessions"],
+        "minimum_sessions":63,"gaps_or_invalid":forward["missed_or_invalid_sessions"],
+        "paper_url":"paper_forward.html","live_ready":False}
     Path("research/daily_scan_latest.json").write_text(json.dumps(scanner,indent=2)+"\n",encoding="utf-8")
     Path("site/daily_scan.json").write_text(json.dumps(scanner,indent=2)+"\n",encoding="utf-8")
     template=Path("research/scanner_template.html").read_text(encoding="utf-8")
