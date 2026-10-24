@@ -49,6 +49,8 @@ jobs:
         run: python research/stocks_paper.py
       - name: Record permanent paper-only strategy snapshots
         run: python research/paper_journal.py
+      - name: Add plain-English first answers to legacy pages (presentation only)
+        run: python research/simplify_archive_pages.py
       - name: Save public summary for connected assistants
         run: |
           git config user.name "github-actions[bot]"
