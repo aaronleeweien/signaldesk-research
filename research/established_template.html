@@ -50,10 +50,8 @@
 </main>
 <script>
 (()=>{const d=JSON.parse(document.querySelector("#source").textContent),$=id=>document.getElementById(id),p=x=>Number(x||0).toFixed(2)+"%",usd=x=>"$"+Number(x||0).toLocaleString("en-US",{maximumFractionDigits:2}),period=$("period");
-const passed=d.tickers.filter(t=>t!=="VOO"&&d.windows.current_xmmo.diagnostics[t].historically_exceeds_voo_after_10bps);
 const both=d.tickers.filter(t=>t!=="VOO"&&["current_xmmo","recent_2022"].every(k=>d.windows[k].diagnostics[t].historically_exceeds_voo_after_10bps));
 $("easy-est").textContent=both.length?both.join(", ")+" beat VOO in both periods we checked. These are real past fund returns, not today's BUY signals.":"No fund beat VOO in both periods we checked.";
-$("easy-estaction").textContent="Check the table for risk as well as returns. A fund can earn more yet fall much further in a crash. No daily trading signal comes from this page.";
 $("stamp").textContent="Last completed US session: "+d.latest_completed_us_market_day+" · Updated "+d.generated_utc;
 $("total").textContent=d.tickers.length;
 const item=d.windows.current_xmmo.returns; const ranking=d.tickers.map(t=>({ticker:t,annual:item[t].annual_twr_pct})).sort((a,b)=>b.annual-a.annual);$("leader").textContent=ranking[0].ticker;
