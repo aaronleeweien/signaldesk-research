@@ -83,6 +83,7 @@ ul{padding-left:20px}li{margin-bottom:8px;color:#c9d7e6}
 const $=x=>document.getElementById(x),fmt=x=>Number(x??0).toLocaleString("en-US",{maximumFractionDigits:2}),pct=x=>Number(x??0).toFixed(2)+"%",signed=x=>(Number(x)>0?"+":"")+pct(x);
 const names=["VOO DCA","QQQ DCA","Top-5 Momentum","Top-5 Trend Filter","Top-5 Defensive","Static Equal Weight"];
 $("date").innerHTML="Research saved: "+d.generated_utc+"<br/>Last completed US market date: "+d.asof_completed_us_session+"<br/><span class='tag'>RESEARCH ONLY</span>";
+$("easy-institutional").textContent="This model picks five stocks from a fixed list of 30. Its older test left out failed or delisted companies. That means impressive returns could be misleading.";
 const early=d.candidate_evidence.validation_2019_2022,later=d.candidate_evidence.diagnostic_2023_latest;
 $("val1").textContent=pct(early["Top-5 Momentum"])+" vs "+pct(early["VOO DCA"]);
 $("val2").textContent=pct(later["Top-5 Momentum"]);
