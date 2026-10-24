@@ -1,6 +1,6 @@
 {
   "protocol": "decision_hub_v1_fixed_2026-10-24",
-  "generated_utc": "2026-10-24 14:02 UTC",
+  "generated_utc": "2026-10-24 14:05 UTC",
   "market_last_completed_close": "2026-10-23",
   "us_market_context": "WEEKEND: US exchanges are closed. Next session is estimated.",
   "data_type": "Previous completed-session adjusted prices; NOT real-time trading quotes",
@@ -2646,5 +2646,10 @@
     "XMMO index methodology was changed in June 2019; older XMMO history under prior index is not evidence for the present method.",
     "US ETF after-tax results may differ materially from Ireland-domiciled CSPX for Singapore-based investors.",
     "This site is refreshed by scheduled GitHub Actions; it has no real-time data subscription and cannot guarantee notification delivery."
-  ]
+  ],
+  "broader_market": {
+    "available": false,
+    "status": "NO WIDER MARKET DATA",
+    "research_page": "market.html"
+  }
 }
