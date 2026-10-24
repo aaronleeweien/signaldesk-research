@@ -368,7 +368,7 @@ def save(report):
     Path("research").mkdir(exist_ok=True)
     Path("site").mkdir(exist_ok=True)
     Path("research/decision_hub.json").write_text(json.dumps(report,indent=2,default=json_safe)+"\n",encoding="utf-8")
-    Path("site/decision_hub.json").write_text(json.dumps(report,indent=2)+"\n",encoding="utf-8")
+    Path("site/decision_hub.json").write_text(json.dumps(report,indent=2,default=json_safe)+"\n",encoding="utf-8")
     html=Path("research/decision_template.html").read_text(encoding="utf-8")
     js=json.dumps(report,separators=(",",":"),ensure_ascii=True,default=json_safe).replace("<","\\u003c")
     Path("site/decisions.html").write_text(html.replace("/*DECISION_DATA*/",js),encoding="utf-8")
