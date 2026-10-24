@@ -59,6 +59,7 @@ footer{color:var(--muted);font-size:12px;margin-top:25px;border-top:1px solid va
 const fmt=x=>Number(x??0).toLocaleString("en-US",{maximumFractionDigits:2}),pct=x=>Number(x??0).toFixed(2)+"%",signed=x=>(Number(x)>0?"+":"")+pct(x),names=d.models;
 $("asof").innerHTML="Research updated "+d.generated_utc+"<br/>Last complete market day: "+d.last_market_session+"<br/>Model status: PAPER / NO GUARANTEED PROFIT";
 const full=d.metrics.full,spmo=full["SPMO DCA"],voo=full["VOO DCA"],qqq=full["QQQ DCA"],premium=spmo.annual_twr_pct-voo.annual_twr_pct;
+$("easy-factor").textContent="Over the same past years, SPMO grew "+pct(spmo.annual_twr_pct)+" a year versus VOO at "+pct(voo.annual_twr_pct)+". "+(premium>0?"SPMO did better in this period.":"SPMO did worse in this period.")+" This does NOT predict next year.";
 $("retspmo").textContent=pct(spmo.annual_twr_pct);$("retvoo").textContent=pct(voo.annual_twr_pct);$("ddspmo").textContent=pct(spmo.max_drawdown_pct);$("extra").textContent=signed(premium);
 $("extra").className=premium>0?"good":"bad";
 $("human").textContent="The actual SPMO fund has "+(premium>0?"outperformed":"underperformed")+" VOO by "+pct(Math.abs(premium))+" annualised percentage points in our common-sample simulation. This is stronger historical evidence than selecting today's surviving individual stocks, but it is not a reliable prediction. Compare its risk and QQQ performance before drawing conclusions.";
