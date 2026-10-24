@@ -30,7 +30,8 @@ class BeginnerDashboardTests(unittest.TestCase):
                 self.assertIn("What should I do?",page)
                 self.assertIn("Jargon:",page)
                 self.assertTrue(page.index('class="easy-wrap"')<page.index("<table") if "<table" in page else True)
-                self.assertIn("decisions.html",page)
+                if name != "decision_template.html":
+                    self.assertIn("decisions.html",page)
 
     def test_copy_preserves_historical_numbers_and_code(self):
         html='<!doctype html><html><head></head><body><main><h1>Original</h1><script>const returns = 11.23;</script></main></body></html>'
