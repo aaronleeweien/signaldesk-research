@@ -152,7 +152,7 @@ def render_article(info):
         why=H(story["why"])
         evidence=H(story["evidence"])
         missing=H(story.get("missing",""))
-        action=H(story.get("action",story.get("recommendation",""))))
+        action=H(story.get("action",story.get("recommendation","")))
         return f'''<section class="idea">
 <h3>{H(title)}</h3><p class="answer"><strong>What I would do:</strong> {action}</p>
 <p>{why}</p><p class="fact"><strong>Evidence:</strong> {evidence}</p>
