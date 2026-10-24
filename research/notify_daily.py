@@ -5,6 +5,8 @@ Workflow runs this on schedule only, not on code pushes or manual debug runs.
 """
 import os,json,urllib.request
 from pathlib import Path
+from datetime import datetime,date,time,timezone
+from zoneinfo import ZoneInfo
 
 def main():
     p=Path("research/daily_alert_payload.json")
@@ -14,16 +16,24 @@ def main():
     events=report.get("events",[])
     # Merge decision-centre newly observed ETF breakouts with the old scanner.
     # Eligibility still comes from the scanner's before-next-open journal timing.
-    if report.get("notify"):
-        hub_path=Path("research/decision_hub.json")
-        if hub_path.exists():
-            hub=json.loads(hub_path.read_text(encoding="utf-8"))
+    hub_eligible=False
+    hub_path=Path("research/decision_hub.json")
+    if hub_path.exists():
+        possible=json.loads(hub_path.read_text(encoding="utf-8"))
+        if possible.get("market_last_completed_close")==report.get("latest_close"):
+            nxt=possible["next_estimated_us_business_session"]
+            opening=datetime.combine(date.fromisoformat(nxt),time(9,30),
+                    tzinfo=ZoneInfo("America/New_York"))
+            hub_eligible=(datetime.now(timezone.utc)<opening.astimezone(timezone.utc))
+    if report.get("notify") or hub_eligible:
+        if hub_eligible:
+            hub=possible
             if hub.get("market_last_completed_close")==report.get("latest_close"):
                 existing={(e.get("type"),e.get("ticker")) for e in events}
                 for row in hub.get("trading_opportunities",[]):
                     if row.get("new_entry_setup") and ("HUB_PAPER_ENTRY_WATCH",row.get("ticker")) not in existing:
                         events.append({"type":"HUB_PAPER_ENTRY_WATCH","ticker":row["ticker"],"latest_planned_exit":row["latest_planned_exit"]})
-    if not report.get("notify") or not events:
+    if not (report.get("notify") or hub_eligible) or not events:
         print("No eligible new momentum event. No GitHub Issue created.");return
     repo=os.environ.get("GITHUB_REPOSITORY","")
     token=os.environ.get("GH_TOKEN","")
