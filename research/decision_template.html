@@ -64,22 +64,24 @@ summary{color:var(--accent);cursor:pointer;font-weight:650;padding:5px 0}details
 <p id="date-context">Checking latest recorded US prices…</p>
 <p>No trade is authorised merely because an asset is rising. The dashboard distinguishes an established ETF's historical outperformance from a proven buy/sell timing strategy.</p></div>
 <nav><a href="#invest">Investment ideas</a><a href="#trade">Trading setups</a><a href="#how">How it decides</a><a href="established.html">Full fund evidence</a><a href="validation.html">Strategy audit</a><a href="paper_forward.html">Forward paper records</a><a href="decision_hub.json">Raw daily data</a></nav>
+<details class="advanced-panel"><summary>See today\'s numbers (optional)</summary>
 <div class="grid">
 <div class="card"><small>Completed US market session</small><b id="date"></b><small>New signals use completed data only</small></div>
 <div class="card"><small>Historical ETF candidates</small><b id="fund-count"></b><small>Past outperformance, not a prediction</small></div>
 <div class="card"><small>New breakout setups</small><b id="new-signal"></b><small>May be zero on normal days</small></div>
 <div class="card"><small>Real-money trade approval</small><b class="bad">NONE</b><small>Research paper alerts only</small></div>
 </div>
+</details>
 <div class="tabs" role="tablist" aria-label="Decision view">
 <button id="invest-tab" class="selected" role="tab" aria-selected="true">1. Investment ideas</button>
 <button id="trade-tab" role="tab" aria-selected="false">2. Short-term trades</button>
 </div>
 <section id="invest" class="panel">
 <h2>Q: What could beat VOO in the long run?</h2>
-<p class="muted">These assets did well in the past. That is a reason to study them, not proof they will win again.</p>
+<p class="muted">Start with funds that beat VOO in our past tests. They could lose next time.</p>
 <details class="advanced-panel"><summary>Change investment filters (optional)</summary><div class="controls">
 <label>Time horizon<select id="invest-horizon"><option value="LONG">Long term: 1–5+ years (ETFs)</option><option value="SHORT">Short term: 4–12 weeks (stocks)</option><option value="ALL">All investment research</option></select></label>
-<label>Evidence filter<select id="invest-filter"><option value="all">All researched ideas</option><option value="outperform">ETFs that beat VOO in both periods</option><option value="trend">Positive momentum and trend</option></select></label>
+<label>Evidence filter<select id="invest-filter"><option value="all">All researched ideas</option><option value="outperform" selected>ETFs that beat VOO in both periods</option><option value="trend">Positive momentum and trend</option></select></label>
 <label>Sort by<select id="invest-sort"><option value="evidence">Evidence quality</option><option value="excess">Historical excess return</option><option value="momentum">Recent momentum score</option></select></label>
 </div></details>
 <p class="explain" id="invest-conclusion"><b>My answer:</b> Keep your normal DCA. Look at the researched funds below only if you want to consider a different long-term holding.</p>
