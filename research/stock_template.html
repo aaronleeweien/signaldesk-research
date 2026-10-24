@@ -29,11 +29,24 @@ table{border-collapse:collapse;width:100%;display:block;overflow:auto}th,td{bord
 p{margin:9px 0}li{margin-bottom:8px}
 @media(max-width:850px){.columns{grid-template-columns:1fr}.metrics{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:540px){main{padding:18px 10px 42px}.panel{padding:15px}.metric{padding:12px}.metric b{font-size:22px}nav{gap:7px}}
+
+/* Beginner-first reading layer; all detailed original research remains below. */
+.easy-wrap{background:#102b38;border:1px solid #4d8584;border-radius:15px;padding:18px 20px;margin:16px 0 22px;color:#eef8f7;max-width:100%}
+.easy-wrap h2{font-size:19px!important;margin:0 0 10px!important;line-height:1.3}
+.easy-wrap .easy-line{line-height:1.55;font-size:15px;margin:8px 0}
+.easy-wrap .easy-label{font-weight:800;color:#a9f2d4}
+.easy-wrap .easy-terms{font-size:12.5px;line-height:1.55;color:#c1d5d8;margin-top:13px;padding-top:12px;border-top:1px solid #44666d}
+.easy-wrap a{color:#b9e5ff}
+@media(max-width:530px){.easy-wrap{padding:14px 15px;margin:12px 0 16px}.easy-wrap .easy-line{font-size:14px}}
 </style>
 <script type="application/json" id="report">/*RESEARCH_DATA*/</script>
 <main><div class="eyebrow">SIGNALDESK / STOCK OPPORTUNITIES / RESEARCH V1</div>
 <h1>Which stocks could be worth buying or selling?</h1>
 <p class="sub">Evidence-driven, automatically refreshed stock rankings, position changes, and backtests against VOO. The model generates decisions for a paper account; you retain control over any actual brokerage orders.</p>
+<section class="easy-wrap" aria-label="Plain English page summary"><h2>**Is the stock-picking model ready?**</h2>
+<p class="easy-line"><span class="easy-label">In short:</span> <span id="easy-stock">Research only. See the results below.</span></p>
+<p class="easy-line"><span class="easy-label">What should I do?</span> <span id="easy-stockaction">Do not copy its paper stock targets as real trades. The stock list includes only companies that survived until now, which makes older returns look better than they might have been.</span></p>
+<p class="easy-terms">Jargon: Survivorship bias = leaving out failed or delisted stocks. Beta = how strongly returns move with VOO. Drawdown = biggest fall. <a href="decisions.html">Back to daily decisions →</a></p></section>
 <div class="warn"><b>RESEARCH ONLY — NOT VALIDATED FOR REAL-MONEY TRADES</b>
 <p>Stock rankings use a handpicked set of surviving companies. This creates <b>survivorship bias</b> and can exaggerate historical returns. None of the positions displayed here are reliable buy/sell recommendations. Future paper signals will help us test the process without that particular hindsight problem.</p></div>
 <nav><a href="#results">Backtesting</a><a href="#signals">Entry / Exit signals</a><a href="#history">Yearly performance</a><a href="#method">Methods & risks</a><a href="lab.html">ETF Quant Lab</a><a href="stocks_paper.html">Stock paper archive</a><a href="forward.html">ETF paper archive</a></nav>
