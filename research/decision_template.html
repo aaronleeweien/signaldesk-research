@@ -152,7 +152,7 @@ $("wide-investment-ideas").innerHTML=w.available?
  ' · Forward P/E: '+(x.forward_pe??"Unknown")+
  ' · Earnings growth: '+(x.earnings_growth_pct===null?"Unknown":pct(x.earnings_growth_pct))+
  '.</p><details><summary>Why, and what might be wrong?</summary><p>'+esc(x.simple_explanation)+'</p>'+
- '<p>'+esc(x.valuation_note)+'</p></details></article>').join(""):'<p>No stocks passed today's initial screen.</p>')+
+ '<p>'+esc(x.valuation_note)+'</p></details></article>').join(""):'<p>No stocks passed this screen.</p>')+
  '<p><a href="market.html">All wider-market research and exact coverage →</a></p>'
  :'<p class="small">Wider stock results are not available today. Do not use stale prices to trade.</p>';
 $("wide-trading-ideas").innerHTML=w.available?
