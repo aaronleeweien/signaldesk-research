@@ -114,21 +114,21 @@ def joined_critical(ai):
 
 def manual_research_prompt(asset):
     """Evidence-first ChatGPT handoff, no API calls or account information."""
-    source_lines='\\n'.join(
+    source_lines='\n'.join(
         f"- {src['id']} ({src['label']}): {src['url']}"
         for src in asset['sources'][:14])
     q=asset.get('qualitative') or {}
-    headline_lines='\\n'.join(
+    headline_lines='\n'.join(
         f"- {h['published_utc'][:10]} | {h['publisher']}: {h['title']}"
         for h in q.get('headlines',[])[:6])
     return ("Research "+asset['name']+" ("+asset['ticker']+") for someone whose default "
         "alternative is regular VOO investing. The market close is "+asset['research_date']+
-        ". Investigate, do not place an order.\\n\\n"
+        ". Investigate, do not place an order.\n\n"
         "OPEN AND VERIFY the dated primary filings and sources, rather than trusting "
         "a headline to mean an event happened. Examine the business, competitors, "
         "earnings drivers, cash flows, balance sheet, management guidance and risks. "
         "Clearly separate filed facts, claims, media interpretations, consensus "
-        "expectations and your own assumptions.\\n\\n"
+        "expectations and your own assumptions.\n\n"
         "Explain in connected simple English, defining each financial term at first use: "
         "(1) what happened; (2) why it affects future revenue, profits, cash flow or risk; "
         "(3) what expectations the current market price may already reflect; "
@@ -139,8 +139,8 @@ def manual_research_prompt(asset):
         "Do not skip causal steps or invent consensus forecasts, sentiment surveys, "
         "price targets or missing financial numbers. Clearly label inferences and proxy "
         "estimates, and explain how to test them. No cryptocurrency or crypto exposure. "
-        "Cite the evidence beside each material claim.\\n\\nSources:\\n"+source_lines+
-        ("\\n\\nNews leads to confirm (not established facts):\\n"+headline_lines if headline_lines else ""))
+        "Cite the evidence beside each material claim.\n\nSources:\n"+source_lines+
+        ("\n\nNews leads to confirm (not established facts):\n"+headline_lines if headline_lines else ""))
 
 def briefing(dossier,investigation):
     if dossier['market_date']!=investigation['market_date']:
