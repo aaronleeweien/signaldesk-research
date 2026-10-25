@@ -1,8 +1,8 @@
 {
   "version": "focused_dossier_v1",
   "market_date": "2026-10-23",
-  "generated_utc": "2026-10-25T05:01:05.501370+00:00",
-  "screened_total": 747,
+  "generated_utc": "2026-10-25T05:07:18.217340+00:00",
+  "screened_total": 748,
   "selected_equities": 2,
   "asset_count": 3,
   "assets": [
@@ -134,39 +134,39 @@
         },
         {
           "id": "S12",
-          "kind": "News-index headline · ad-hoc-news.de · 2026-10-24",
-          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPRS1QcDZlR3dTZUlWemZqZTRPazJNNE9xeVN5Y01FR2I5SDZSQmNuT2FOQy1uak5ka0c5LWhBd2xucjhtdDJ6b3FsdWRjYVB0amFiQmtVdWFHajJNSUxNcUVFVl92OEw2dWxXeDRnYjZkQlR1QW9xdFRGYVdHa3hDbTJvZ1JKWHhhQ0FKZzlCMDR3anZQOGExYm8tbmFNek9hQXpSemhwVjNxX0w2Nkt0QTJVMi1wVG40YU9LUTBwRGltUktuTzFqUVNNaXNHUnlFTm04eVpqQU1sX181MWdIWENUc3F4c0duVXk2ekZqUko?oc=5",
-          "summary": "Headline only, not checked article text: Marvell Technology announces AI connectivity products: what it means for Marvell Technology stock - ad-hoc-news.de"
+          "kind": "News-index headline · Cryptonews.net · 2026-10-24",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE4yclNfWFhsRXl0cFRTQlRKYVM2dWFCdHdyd0M0TUY3QzJvcDdXNXA1MVBqMnVTdWx5X21TcXZHN1FLUTBnaTZuTENzX1JYbEFiWEsyWUxVX3k?oc=5",
+          "summary": "Headline only, not checked article text: Wells Fargo, Cisco, Marvell among latest firms objecting to OKXICE's tokenized stock plan"
         },
         {
           "id": "S13",
-          "kind": "News-index headline · Simply Wall Street · 2026-10-24",
-          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQRTNBQ3dpQndNQ25iMUJCQVRPcFBuenhHZ1VmYzdMU0YxbFdBRHV1WUtOX1RTeFFvTFdOQ2tDcGxoVXBaM3FTOVhTVlVQSm1tS3JNU2tScUxmYkNlYjRlR2ZEMzlsUGNoY1pTcDd5NmtHVzQ1Uk8yV2I5ZWlJNjBQalA5bkdROUJVT2xvdUVqbW9Rd2lVMTh2ajRHd1hveXZUNTdpMl8xUTFHcUx0aG9nRTdNcVd2S0ZNUlFVRW9XRnM4b01yRDRKNG95M1ZIcWhPUzl6bWJFTmxxZ9IB3wFBVV95cUxNTTRhOTlQeURJRWtJeDFhdHZxbDg3R2ptVGhRbHc1eENVTmJqSThEOWlPQk9Eemg0a1R2aVAzVDFWVGVuQjVnalhGeHRZcjByazdJbklWbTFSci1QbzYtaFo1cWlPZ3BXdVM5MXBweFFPck9JS3VvRGpjREpxV1dyRlhPUnJ4SUE1bXBWUHVJeTlDMlhVYWQ5bnJrQVZTZkQ1eFU1VjVqZVJUbFJ2QWVpeUtCeFlSSEhoOXR3Q1JkUERKbWFpSDRiNWxxNV9aWU9ENmNRY3h6YjhJS0p2VWVv?oc=5",
-          "summary": "Headline only, not checked article text: How Investors May Respond To Marvell Technology (MRVL) New AI Chip Partnerships - Simply Wall Street"
+          "kind": "News-index headline · ad-hoc-news.de · 2026-10-24",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQeTg5VFNiNjhQTE1SU0l5Z2NjczE4SUtRZklXbGZmLXpZVHh5dWVDSU1zTlVTTFY5eS1RWl9pYzJVSE5mVTk4cW9XT0ZBTkZncmpzeU1YZlVRTDlmb0JydDRRRS1fTDdkc3I4Y3llOVA0TjU2UkpKbkdkd29VZTRvUEwtdUZONDhFWWJBNkt3U1g0Q1dJUi1Pc1I1TDM1Wlg3dzFVSWZ0aENCRkZyWjZwYVRiRFh3VExiWlpsNHFRTVkySlQ0UjVQVTVhdE9MV2VVT3pjVTB3RGROTFFK?oc=5",
+          "summary": "Headline only, not checked article text: Marvell's $3 Billion Safety Net Doesn't Tell You Where Revenue Comes From"
         },
         {
           "id": "S14",
-          "kind": "News-index headline · 24/7 Wall St. · 2026-10-23",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQeXJkbHZMamNyRlhNMnYxOGppQUk1eGlFR25EcTR2MTVSb3BYaERBRGhMby1vazAxaVRiczhFOTVYY3F5UXNiR3haRUFBcUJKdGdvYTJZTDhyc3kyNG8zVWhpZFlBUEhtS2s4VFdKUnl2NGhpRnI3cXRwMFVHOUlCaS1HUTlzb1pnd3E0U1ZFbFdjczJ2VnJuS0wtak00UnNVb0N6NTRpZnRGRWRtVTJzSDQwZUJsdnNsUTBHUHR0VnM4LVN6NWc?oc=5",
-          "summary": "Headline only, not checked article text: Marvell Technology Faces a Multi-Front War Against Taiwan’s Custom Silicon Ecosystem - 24/7 Wall St."
+          "kind": "News-index headline · ad-hoc-news.de · 2026-10-24",
+          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPRS1QcDZlR3dTZUlWemZqZTRPazJNNE9xeVN5Y01FR2I5SDZSQmNuT2FOQy1uak5ka0c5LWhBd2xucjhtdDJ6b3FsdWRjYVB0amFiQmtVdWFHajJNSUxNcUVFVl92OEw2dWxXeDRnYjZkQlR1QW9xdFRGYVdHa3hDbTJvZ1JKWHhhQ0FKZzlCMDR3anZQOGExYm8tbmFNek9hQXpSemhwVjNxX0w2Nkt0QTJVMi1wVG40YU9LUTBwRGltUktuTzFqUVNNaXNHUnlFTm04eVpqQU1sX181MWdIWENUc3F4c0duVXk2ekZqUko?oc=5",
+          "summary": "Headline only, not checked article text: Marvell Technology announces AI connectivity products: what it means for Marvell Technology stock"
         },
         {
           "id": "S15",
-          "kind": "News-index headline · Benzinga · 2026-10-23",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOTnpCbFIxRUdZeWg2QW1NT1o5QmswUGQyLVJYNG41UXNwRDVwVGZ4RGZXdUU4ZnUxbTFRLVNBTjJWMDNxUG1iSVhEVF9TLVFNNVU4Y0FwbXRrUTczY29CWmdUMlhNWUR4M01aZU5neVU4emE4bmloM21vaUpSdXI2YXd0OXdTajE5Tmt6U1drTi13VXpjVE1aS2E4VWpnWUpuUFk3UkJ6TkdNbGkwZFlhT3VHNkQ2anVs?oc=5",
-          "summary": "Headline only, not checked article text: What Is Going On With Marvell Technology Stock on Friday? - Benzinga"
+          "kind": "News-index headline · Simply Wall Street · 2026-10-24",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQRTNBQ3dpQndNQ25iMUJCQVRPcFBuenhHZ1VmYzdMU0YxbFdBRHV1WUtOX1RTeFFvTFdOQ2tDcGxoVXBaM3FTOVhTVlVQSm1tS3JNU2tScUxmYkNlYjRlR2ZEMzlsUGNoY1pTcDd5NmtHVzQ1Uk8yV2I5ZWlJNjBQalA5bkdROUJVT2xvdUVqbW9Rd2lVMTh2ajRHd1hveXZUNTdpMl8xUTFHcUx0aG9nRTdNcVd2S0ZNUlFVRW9XRnM4b01yRDRKNG95M1ZIcWhPUzl6bWJFTmxxZ9IB3wFBVV95cUxNTTRhOTlQeURJRWtJeDFhdHZxbDg3R2ptVGhRbHc1eENVTmJqSThEOWlPQk9Eemg0a1R2aVAzVDFWVGVuQjVnalhGeHRZcjByazdJbklWbTFSci1QbzYtaFo1cWlPZ3BXdVM5MXBweFFPck9JS3VvRGpjREpxV1dyRlhPUnJ4SUE1bXBWUHVJeTlDMlhVYWQ5bnJrQVZTZkQ1eFU1VjVqZVJUbFJ2QWVpeUtCeFlSSEhoOXR3Q1JkUERKbWFpSDRiNWxxNV9aWU9ENmNRY3h6YjhJS0p2VWVv?oc=5",
+          "summary": "Headline only, not checked article text: How Investors May Respond To Marvell Technology (MRVL) New AI Chip Partnerships"
         },
         {
           "id": "S16",
-          "kind": "News-index headline · AD HOC NEWS · 2026-10-23",
-          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOZWxaMGdBaGF2Z25Kdmg1VV9ONG41NWx1aTBuclhkNkptekxuUUt3ZWZ1TDRMSXVGTmFjVmRvMkZqUXVsMEE0MFJlTVp1OXlORTdBUUtud1ZqaEV6cW83X292RmJldXA1TkhGQ0w0MUNTZzltbXhZTmo5XzlxMXkzRTJCZG1Vb3BOMUJkamxGN0lVd1cybjFhVTBXdVlqdHU5bk1wajNuNWZSRlBUVWw3UVlOc3AtZ0l6WXkzSkpxbkhmeng0ZGlyRW12U0tvNEdkN3pj?oc=5",
-          "summary": "Headline only, not checked article text: Marvell lifts outlook as supply concerns pressure Marvell Technology stock - AD HOC NEWS"
+          "kind": "News-index headline · TradingView · 2026-10-23",
+          "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOd1JlYmExNUpoZm1hc3NBYU9fWFJ0SXFSRVN2TjhyYlRXRGJFaFNfeVhxRzBCbWpXRGxNSjJoUnpacXlXQ2c3eUxMQ0RwRFFiTGNyVUJJYkwtX0tMWmZHa2Z5SXJWUlFjcTcwZTFSYWNZVHlQUzBPZ0NJVm1ZZmoyaHBELTEtYVQzNEg1ajZlbUxVaTMteWsyWFk0NHd1ZllhclRwalQ0ZEI4VG4wRXViZS1KRk1PUlYwQXliRVk5NUtJVDBtZHdjZS0zdXhqWEl2Qk05ZWRSMW9hd0RWQkZpUWdkamlYMlVGQlQ5dTZwZm95TFY0T3J2UDRnWF9TVFBMam9hNzl3?oc=5",
+          "summary": "Headline only, not checked article text: Marvell Technology - Enters Third Amended And Restated Revolving Credit Agreement On Oct 22, 2026 - SEC Filing"
         },
         {
           "id": "S17",
-          "kind": "News-index headline · Yahoo Finance · 2026-10-23",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNU3Q5N0VZX2FxT2puUHpSeFJOai1YcUdPcGVoQUlBbFJ1WU1IT0l6ZHZWWFl1OFBTbzFfRXQ2MU1QWHZSZEIwSDdkVVh5OFoxYjBlUE5LNnFtSUpyaGh4NU5GQ2hCY2x3aW1teFQyTjFzd2ZTbkViS2p1MjdLckttRXpaRDA0MXppSWNMUnpiYkdLSHowa3FPTTIyOUozVjBQZDJuZg?oc=5",
-          "summary": "Headline only, not checked article text: What Marvell Technology Holders Bought Into Before A 170% Run - Yahoo Finance"
+          "kind": "News-index headline · TradingView · 2026-10-23",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOcFBMOEdBR0ZfUzRLejZfbkZ1QlFyQVlYNmxHaWxHZlJONkZPNEVpdFZES0NoRUdqVHJmRk0tbHNJSFFWVmo1S0FpOG5FcGJFTjBTbkxVV3ZzOEdQT3h4UlNDN1dlMjFwRmxSLUFnUkszWTZDX3p4dUF2aHhHSl94NXJYQnN6YUo1MHE4dU9lYWRUMlBYWS0tVXhMLXgxRFpmRFVKUGdxLVljZFl1cHA4SkpKaU1VT2VuQnMxQjBETmRLVDBuQW1UNzNiUXlJTTg?oc=5",
+          "summary": "Headline only, not checked article text: Marvell Technology Secures $3 Billion Five-Year Revolving Credit Facility"
         }
       ],
       "filings": {
@@ -247,85 +247,74 @@
       },
       "investment_role": "Candidate for multi-year valuation research, not an approved trade.",
       "qualitative_context": {
-        "asof_utc": "2026-10-25T05:01:05.662769+00:00",
+        "asof_utc": "2026-10-25T05:07:18.384430+00:00",
         "search_url": "https://news.google.com/rss/search?q=%22MARVELL%20TECHNOLOGY%22%20when%3A7d&hl=en-US&gl=US&ceid=US:en",
         "news_window_days": 7,
         "headline_sample": [
           {
-            "title": "Marvell Technology announces AI connectivity products: what it means for Marvell Technology stock - ad-hoc-news.de",
+            "title": "Wells Fargo, Cisco, Marvell among latest firms objecting to OKXICE's tokenized stock plan",
+            "published_utc": "2026-10-24T14:55:12+00:00",
+            "publisher": "Cryptonews.net",
+            "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE4yclNfWFhsRXl0cFRTQlRKYVM2dWFCdHdyd0M0TUY3QzJvcDdXNXA1MVBqMnVTdWx5X21TcXZHN1FLUTBnaTZuTENzX1JYbEFiWEsyWUxVX3k?oc=5",
+            "topic": "other"
+          },
+          {
+            "title": "Marvell's $3 Billion Safety Net Doesn't Tell You Where Revenue Comes From",
+            "published_utc": "2026-10-24T13:02:11+00:00",
+            "publisher": "ad-hoc-news.de",
+            "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQeTg5VFNiNjhQTE1SU0l5Z2NjczE4SUtRZklXbGZmLXpZVHh5dWVDSU1zTlVTTFY5eS1RWl9pYzJVSE5mVTk4cW9XT0ZBTkZncmpzeU1YZlVRTDlmb0JydDRRRS1fTDdkc3I4Y3llOVA0TjU2UkpKbkdkd29VZTRvUEwtdUZONDhFWWJBNkt3U1g0Q1dJUi1Pc1I1TDM1Wlg3dzFVSWZ0aENCRkZyWjZwYVRiRFh3VExiWlpsNHFRTVkySlQ0UjVQVTVhdE9MV2VVT3pjVTB3RGROTFFK?oc=5",
+            "topic": "demand"
+          },
+          {
+            "title": "Marvell Technology announces AI connectivity products: what it means for Marvell Technology stock",
             "published_utc": "2026-10-24T08:03:26+00:00",
             "publisher": "ad-hoc-news.de",
             "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPRS1QcDZlR3dTZUlWemZqZTRPazJNNE9xeVN5Y01FR2I5SDZSQmNuT2FOQy1uak5ka0c5LWhBd2xucjhtdDJ6b3FsdWRjYVB0amFiQmtVdWFHajJNSUxNcUVFVl92OEw2dWxXeDRnYjZkQlR1QW9xdFRGYVdHa3hDbTJvZ1JKWHhhQ0FKZzlCMDR3anZQOGExYm8tbmFNek9hQXpSemhwVjNxX0w2Nkt0QTJVMi1wVG40YU9LUTBwRGltUktuTzFqUVNNaXNHUnlFTm04eVpqQU1sX181MWdIWENUc3F4c0duVXk2ekZqUko?oc=5",
             "topic": "competition"
           },
           {
-            "title": "How Investors May Respond To Marvell Technology (MRVL) New AI Chip Partnerships - Simply Wall Street",
+            "title": "How Investors May Respond To Marvell Technology (MRVL) New AI Chip Partnerships",
             "published_utc": "2026-10-24T06:01:11+00:00",
             "publisher": "Simply Wall Street",
             "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQRTNBQ3dpQndNQ25iMUJCQVRPcFBuenhHZ1VmYzdMU0YxbFdBRHV1WUtOX1RTeFFvTFdOQ2tDcGxoVXBaM3FTOVhTVlVQSm1tS3JNU2tScUxmYkNlYjRlR2ZEMzlsUGNoY1pTcDd5NmtHVzQ1Uk8yV2I5ZWlJNjBQalA5bkdROUJVT2xvdUVqbW9Rd2lVMTh2ajRHd1hveXZUNTdpMl8xUTFHcUx0aG9nRTdNcVd2S0ZNUlFVRW9XRnM4b01yRDRKNG95M1ZIcWhPUzl6bWJFTmxxZ9IB3wFBVV95cUxNTTRhOTlQeURJRWtJeDFhdHZxbDg3R2ptVGhRbHc1eENVTmJqSThEOWlPQk9Eemg0a1R2aVAzVDFWVGVuQjVnalhGeHRZcjByazdJbklWbTFSci1QbzYtaFo1cWlPZ3BXdVM5MXBweFFPck9JS3VvRGpjREpxV1dyRlhPUnJ4SUE1bXBWUHVJeTlDMlhVYWQ5bnJrQVZTZkQ1eFU1VjVqZVJUbFJ2QWVpeUtCeFlSSEhoOXR3Q1JkUERKbWFpSDRiNWxxNV9aWU9ENmNRY3h6YjhJS0p2VWVv?oc=5",
+            "topic": "competition"
+          },
+          {
+            "title": "Marvell Technology - Enters Third Amended And Restated Revolving Credit Agreement On Oct 22, 2026 - SEC Filing",
+            "published_utc": "2026-10-23T22:15:47+00:00",
+            "publisher": "TradingView",
+            "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOd1JlYmExNUpoZm1hc3NBYU9fWFJ0SXFSRVN2TjhyYlRXRGJFaFNfeVhxRzBCbWpXRGxNSjJoUnpacXlXQ2c3eUxMQ0RwRFFiTGNyVUJJYkwtX0tMWmZHa2Z5SXJWUlFjcTcwZTFSYWNZVHlQUzBPZ0NJVm1ZZmoyaHBELTEtYVQzNEg1ajZlbUxVaTMteWsyWFk0NHd1ZllhclRwalQ0ZEI4VG4wRXViZS1KRk1PUlYwQXliRVk5NUtJVDBtZHdjZS0zdXhqWEl2Qk05ZWRSMW9hd0RWQkZpUWdkamlYMlVGQlQ5dTZwZm95TFY0T3J2UDRnWF9TVFBMam9hNzl3?oc=5",
             "topic": "other"
           },
           {
-            "title": "Marvell Technology Faces a Multi-Front War Against Taiwan’s Custom Silicon Ecosystem - 24/7 Wall St.",
-            "published_utc": "2026-10-23T16:45:00+00:00",
-            "publisher": "24/7 Wall St.",
-            "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQeXJkbHZMamNyRlhNMnYxOGppQUk1eGlFR25EcTR2MTVSb3BYaERBRGhMby1vazAxaVRiczhFOTVYY3F5UXNiR3haRUFBcUJKdGdvYTJZTDhyc3kyNG8zVWhpZFlBUEhtS2s4VFdKUnl2NGhpRnI3cXRwMFVHOUlCaS1HUTlzb1pnd3E0U1ZFbFdjczJ2VnJuS0wtak00UnNVb0N6NTRpZnRGRWRtVTJzSDQwZUJsdnNsUTBHUHR0VnM4LVN6NWc?oc=5",
+            "title": "Marvell Technology Secures $3 Billion Five-Year Revolving Credit Facility",
+            "published_utc": "2026-10-23T20:13:00+00:00",
+            "publisher": "TradingView",
+            "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOcFBMOEdBR0ZfUzRLejZfbkZ1QlFyQVlYNmxHaWxHZlJONkZPNEVpdFZES0NoRUdqVHJmRk0tbHNJSFFWVmo1S0FpOG5FcGJFTjBTbkxVV3ZzOEdQT3h4UlNDN1dlMjFwRmxSLUFnUkszWTZDX3p4dUF2aHhHSl94NXJYQnN6YUo1MHE4dU9lYWRUMlBYWS0tVXhMLXgxRFpmRFVKUGdxLVljZFl1cHA4SkpKaU1VT2VuQnMxQjBETmRLVDBuQW1UNzNiUXlJTTg?oc=5",
             "topic": "other"
-          },
-          {
-            "title": "What Is Going On With Marvell Technology Stock on Friday? - Benzinga",
-            "published_utc": "2026-10-23T16:20:48+00:00",
-            "publisher": "Benzinga",
-            "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOTnpCbFIxRUdZeWg2QW1NT1o5QmswUGQyLVJYNG41UXNwRDVwVGZ4RGZXdUU4ZnUxbTFRLVNBTjJWMDNxUG1iSVhEVF9TLVFNNVU4Y0FwbXRrUTczY29CWmdUMlhNWUR4M01aZU5neVU4emE4bmloM21vaUpSdXI2YXd0OXdTajE5Tmt6U1drTi13VXpjVE1aS2E4VWpnWUpuUFk3UkJ6TkdNbGkwZFlhT3VHNkQ2anVs?oc=5",
-            "topic": "other"
-          },
-          {
-            "title": "Marvell lifts outlook as supply concerns pressure Marvell Technology stock - AD HOC NEWS",
-            "published_utc": "2026-10-23T09:37:06+00:00",
-            "publisher": "AD HOC NEWS",
-            "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOZWxaMGdBaGF2Z25Kdmg1VV9ONG41NWx1aTBuclhkNkptekxuUUt3ZWZ1TDRMSXVGTmFjVmRvMkZqUXVsMEE0MFJlTVp1OXlORTdBUUtud1ZqaEV6cW83X292RmJldXA1TkhGQ0w0MUNTZzltbXhZTmo5XzlxMXkzRTJCZG1Vb3BOMUJkamxGN0lVd1cybjFhVTBXdVlqdHU5bk1wajNuNWZSRlBUVWw3UVlOc3AtZ0l6WXkzSkpxbkhmeng0ZGlyRW12U0tvNEdkN3pj?oc=5",
-            "topic": "commodity"
-          },
-          {
-            "title": "What Marvell Technology Holders Bought Into Before A 170% Run - Yahoo Finance",
-            "published_utc": "2026-10-23T05:12:00+00:00",
-            "publisher": "Yahoo Finance",
-            "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNU3Q5N0VZX2FxT2puUHpSeFJOai1YcUdPcGVoQUlBbFJ1WU1IT0l6ZHZWWFl1OFBTbzFfRXQ2MU1QWHZSZEIwSDdkVVh5OFoxYjBlUE5LNnFtSUpyaGh4NU5GQ2hCY2x3aW1teFQyTjFzd2ZTbkViS2p1MjdLckttRXpaRDA0MXppSWNMUnpiYkdLSHowa3FPTTIyOUozVjBQZDJuZg?oc=5",
-            "topic": "financing"
           }
         ],
         "narratives": [
           {
+            "topic": "demand",
+            "headline": "Marvell's $3 Billion Safety Net Doesn't Tell You Where Revenue Comes From",
+            "published_utc": "2026-10-24T13:02:11+00:00",
+            "publisher": "ad-hoc-news.de",
+            "source_url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQeTg5VFNiNjhQTE1SU0l5Z2NjczE4SUtRZklXbGZmLXpZVHh5dWVDSU1zTlVTTFY5eS1RWl9pYzJVSE5mVTk4cW9XT0ZBTkZncmpzeU1YZlVRTDlmb0JydDRRRS1fTDdkc3I4Y3llOVA0TjU2UkpKbkdkd29VZTRvUEwtdUZONDhFWWJBNkt3U1g0Q1dJUi1Pc1I1TDM1Wlg3dzFVSWZ0aENCRkZyWjZwYVRiRFh3VExiWlpsNHFRTVkySlQ0UjVQVTVhdE9MV2VVT3pjVTB3RGROTFFK?oc=5",
+            "mechanism": "If this reflects real changes in customer spending, it could change future sales and cash generation.",
+            "competing_reading": "A strong headline may describe an already expected development, or orders that are not yet profitable.",
+            "test": "Compare the next reported sales and customer guidance with the previous filing and market expectations.",
+            "evidence_level": "headline_coverage_not_confirmed_event"
+          },
+          {
             "topic": "competition",
-            "headline": "Marvell Technology announces AI connectivity products: what it means for Marvell Technology stock - ad-hoc-news.de",
+            "headline": "Marvell Technology announces AI connectivity products: what it means for Marvell Technology stock",
             "published_utc": "2026-10-24T08:03:26+00:00",
             "publisher": "ad-hoc-news.de",
             "source_url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPRS1QcDZlR3dTZUlWemZqZTRPazJNNE9xeVN5Y01FR2I5SDZSQmNuT2FOQy1uak5ka0c5LWhBd2xucjhtdDJ6b3FsdWRjYVB0amFiQmtVdWFHajJNSUxNcUVFVl92OEw2dWxXeDRnYjZkQlR1QW9xdFRGYVdHa3hDbTJvZ1JKWHhhQ0FKZzlCMDR3anZQOGExYm8tbmFNek9hQXpSemhwVjNxX0w2Nkt0QTJVMi1wVG40YU9LUTBwRGltUktuTzFqUVNNaXNHUnlFTm04eVpqQU1sX181MWdIWENUc3F4c0duVXk2ekZqUko?oc=5",
             "mechanism": "A lasting competitive change could alter future demand or the prices the company can charge.",
             "competing_reading": "A competitor announcement does not itself prove customers will switch.",
             "test": "Look for customer wins, product economics and margin changes in company filings.",
-            "evidence_level": "headline_coverage_not_confirmed_event"
-          },
-          {
-            "topic": "commodity",
-            "headline": "Marvell lifts outlook as supply concerns pressure Marvell Technology stock - AD HOC NEWS",
-            "published_utc": "2026-10-23T09:37:06+00:00",
-            "publisher": "AD HOC NEWS",
-            "source_url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOZWxaMGdBaGF2Z25Kdmg1VV9ONG41NWx1aTBuclhkNkptekxuUUt3ZWZ1TDRMSXVGTmFjVmRvMkZqUXVsMEE0MFJlTVp1OXlORTdBUUtud1ZqaEV6cW83X292RmJldXA1TkhGQ0w0MUNTZzltbXhZTmo5XzlxMXkzRTJCZG1Vb3BOMUJkamxGN0lVd1cybjFhVTBXdVlqdHU5bk1wajNuNWZSRlBUVWw3UVlOc3AtZ0l6WXkzSkpxbkhmeng0ZGlyRW12U0tvNEdkN3pj?oc=5",
-            "mechanism": "Changes in commodity supply, demand, currency or interest rates can alter what investors will pay for the exposure.",
-            "competing_reading": "Even a convincing macro narrative may already be priced in and an ETF may not track spot prices exactly.",
-            "test": "Compare actual commodity moves, real yields, currency shifts and the fund's tracking costs.",
-            "evidence_level": "headline_coverage_not_confirmed_event"
-          },
-          {
-            "topic": "financing",
-            "headline": "What Marvell Technology Holders Bought Into Before A 170% Run - Yahoo Finance",
-            "published_utc": "2026-10-23T05:12:00+00:00",
-            "publisher": "Yahoo Finance",
-            "source_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNU3Q5N0VZX2FxT2puUHpSeFJOai1YcUdPcGVoQUlBbFJ1WU1IT0l6ZHZWWFl1OFBTbzFfRXQ2MU1QWHZSZEIwSDdkVVh5OFoxYjBlUE5LNnFtSUpyaGh4NU5GQ2hCY2x3aW1teFQyTjFzd2ZTbkViS2p1MjdLckttRXpaRDA0MXppSWNMUnpiYkdLSHowa3FPTTIyOUozVjBQZDJuZg?oc=5",
-            "mechanism": "Borrowing costs or capital allocation can affect how much future cash ultimately belongs to shareholders.",
-            "competing_reading": "Higher dividends or buybacks can be funded by debt and are not automatically value creation.",
-            "test": "Check the balance sheet, debt maturities and cash available after capital spending.",
             "evidence_level": "headline_coverage_not_confirmed_event"
           }
         ],
@@ -341,7 +330,7 @@
         "ticker": "MPC",
         "name": "Marathon Petroleum Corporation",
         "fiscal_year_end": "2025-12-31",
-        "market_cap_usd": 128398704640.0,
+        "market_cap_usd": 133479268352.0,
         "forward_pe": 7.8240347,
         "revenue_usd": 132699000000.0,
         "revenue_growth_yoy_pct": -4.44,
@@ -349,29 +338,29 @@
         "operating_cash_usd": 8253000000.0,
         "capital_spending_usd": 3486000000.0,
         "fcf_usd": 4767000000.0,
-        "fcf_yield_pct": 3.71,
+        "fcf_yield_pct": 3.57,
         "fcf_positive_years": 3,
         "fcf_years_available": 3,
         "cash_usd": 7768000000.0,
         "debt_usd": 3311000000.0,
-        "price_implied_fcf_growth_pct": 24.16,
+        "price_implied_fcf_growth_pct": 25.23,
         "reverse_model_required_return_pct": 11.0,
         "reverse_model_terminal_growth_pct": 2.0,
         "scenario_sensitivity": {
           "no_growth": {
             "annual_fcf_growth_assumed_pct": 0.0,
             "illustrative_equity_value_usd": 49680142532.83,
-            "value_as_pct_of_current_market_cap": 38.69
+            "value_as_pct_of_current_market_cap": 37.22
           },
           "moderate_growth": {
             "annual_fcf_growth_assumed_pct": 5.0,
             "illustrative_equity_value_usd": 61157267884.14,
-            "value_as_pct_of_current_market_cap": 47.63
+            "value_as_pct_of_current_market_cap": 45.82
           },
           "fast_growth": {
             "annual_fcf_growth_assumed_pct": 10.0,
             "illustrative_equity_value_usd": 74834348576.12,
-            "value_as_pct_of_current_market_cap": 58.28
+            "value_as_pct_of_current_market_cap": 56.06
           }
         },
         "annual_history": [
@@ -461,39 +450,39 @@
         },
         {
           "id": "S12",
-          "kind": "News-index headline · MarketBeat · 2026-10-24",
-          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPM2VqeWtGdl96eFVQUzhGVEh2Snk1UWppOGJxSlEyWUZDNTZfQ1VqNWdBR3NTdFQwdDZ6RHhwdHVaWE55Z0hCNF85ZXVldWxkYmRTeDhpLVJvMkdCSVBJSjBkanBGM2FFQ1VHQU1Obm9WOWJEbGpQRlJ6Yld5WEtjdzhtazdRS0pkYTQ0T25nWUhzdFo2dkJBUnA1cC0ybjZJVDNpTXB1aDhtLWhwYkttRHpsM2lpZVRHWnNBcW4ydXlrZ2kwWk9qZDJXaVhYTlkxdjVlNnhqaEs?oc=5",
-          "summary": "Headline only, not checked article text: Marathon Petroleum Corporation $MPC Stock Sold by Sterling Capital Management LLC - MarketBeat"
+          "kind": "News-index headline · MarketBeat · 2026-10-22",
+          "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQdFJ1RHd3QllWZUxOdjY2akZLT2kzWWh5OVp2bXNPTURZY2E3R0hIV0h3YW4yRUlqWlBGa3NPLWppTlhWVGhENEpLNzNsNGNUakw3T2ppaVlXY19SVWlHXzBaM3hkVTZweTZvN0Z5b2RCUE4yTWUyV0NxOFJlOG12b0RYMklyVHpIWUJpNTFIVy0tT0tGWl9NUTcyTVYtUlc3S3JzY1RwUC0yazB5UUtpSEFESTJiV19NZHRLRjczLU9FdUtzemw1T3hQYmdJNjMxbVFtMDgtY2U4Nm44WmhZU204bDZrQnlYYXgwbGhR?oc=5",
+          "summary": "Headline only, not checked article text: 47,182 Marathon Petroleum Corporation $MPC Shares Sold by Robeco Institutional Asset Management B.V."
         },
         {
           "id": "S13",
-          "kind": "News-index headline · MarketBeat · 2026-10-24",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQMHlLd1lNN3FmZHVMdUs1UFE2QmFHYWNkY3VCOVoxYS1CRVAyVmdhdmYwRm8wMWRqbk54ejBrVVAySnlUc2M3a0l5M2VHamtwbHE2eEx1S21xdjQxY3JfbDdDTEt5TUl5N2JlaHlGN1RpOWphenoyTVFUbjFWNDhiYkRTU19OelNkbnEtczdxWk9oVmU4M3l5WGtIU0Y3c0thdzBMZ25jWVFXaXhlMWNUbEd0MzZoLTNXOFFRUURaSy1qUE9EOXBuNk5sdXk?oc=5",
-          "summary": "Headline only, not checked article text: Marathon Petroleum Corporation $MPC Shares Bought by Atlatl Advisers LLC - MarketBeat"
+          "kind": "News-index headline · MarketBeat · 2026-10-22",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQbzVGNEJaV3VOalZyRDlKNTlJWGpZdUp0dWJ1WjJ0SVFEQlZQbkh3RTA0YmtBWDZ1MFJ1dzZ6UTdObmdZdGJPME9wWlZJQXlrWEpGZDlGdkNKbHB6c3p1THlJd1Z2REd3SmhfT09wUFZLcHdfSm9EeUJDRjJ5Q2g5NWlmU0V1STdUeU5kcjlIMmJEU0ppV1lkOUE3ZTF1MFlQV0lrd0JpYVBFbzV6U1ZmR1hVY3VFVXFkeHU3Zk1lZWZjVVMzS0QtNDBKcXRYbnB5MW00dWUyUHhrQQ?oc=5",
+          "summary": "Headline only, not checked article text: Marathon Petroleum Corporation $MPC Stock Position Reduced by Hosking Partners LLP"
         },
         {
           "id": "S14",
-          "kind": "News-index headline · TradingView · 2026-10-23",
-          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9KckpmQzlzdTB5bDZmV0N5cC1Oc3VHc1NHQXg5NG5pQ1RmR1ZqUW9QblQxLWNRLThhNzVMekZfTms3Qk56YWpQVTl6WnBEdFRaOFd2aWxKMzFVR2l0U0pSOWFhOTdvTUt1RGxLckFKa1JNLUU0WHFN?oc=5",
-          "summary": "Headline only, not checked article text: Marathon Petroleum Corporation Estimates – LSX:A1JEXK - TradingView"
+          "kind": "News-index headline · MarketBeat · 2026-10-22",
+          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQRzlib29DTUM4XzE4R3N6Q25jU2ZIWE9sd253eWNNX1BGbGFSMWJOcElsTG5LLWNJRk5DSE5yWWtSZmRENnpHNzQybkx5ZnA1MzN3X3NGQ1FYTDhXN0twb1lweDdMRzZiT25mZmJ6STNIOHFBVVhocDlxUjNQNTJWRFdLUnVWazFOWGtLYVotVElENXg3dTJ1VThHZ1VCdTVFdjN4MTd0cWJOMzEyTmlaWV9pNHNjbzZoNTJucXZYeFBTYTg3U2llRXZ2eVhfNGk3ZGVIV3VtN3BPQmhqWlBtdXhxQQ?oc=5",
+          "summary": "Headline only, not checked article text: Foster Victor Wealth Advisors LLC Buys 9,613 Shares of Marathon Petroleum Corporation $MPC"
         },
         {
           "id": "S15",
-          "kind": "News-index headline · MarketBeat · 2026-10-23",
-          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQMWtSeGNLX0I2QXgxYnFYUjJ0ZS1nb1pGdlBLZmt6SWpDMFBHMHhiejdVTl85Vkk4TS1rb3hsLTd2ZEFFSi1sLXJRUkhCbFI1d3BFYnc2enVoZWhMdGM3REZDVUZuNC1xS2V3X1A3elVRMmh0MHhzSE42cmJQeUpIaTc1bDdVelEyY0lSNUJPdlZsOEFnWjZYMWlpaXpoWWNOcWpER2plSS04VWphMkpiRGVzMUowb2ltYkZJME5xX3V1SEZMZHFVLTBucW01Y1N4ZjFqRDVLcDZBMUF5dzFWTUIyZw?oc=5",
-          "summary": "Headline only, not checked article text: Marathon Petroleum Corporation $MPC Holdings Lessened by Adams Natural Resources Fund Inc. - MarketBeat"
+          "kind": "News-index headline · MarketBeat · 2026-10-22",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOUi1aaDhHeV9nVzl1bndZdXN4Rk9LamRWUGdjUm5TaXlMcjdOZUY0RWlIVGd6QmwxdENQbG9ocklnd3pnTzN3UkZMUGxKRmRtSGUyWWVmNC1XV1Q1WE1oc0xnMHMyQ19kN2dINk1XM3I2ajNLcHRSY0NfN1hmeHEzMHVLMXVSTVpaS1p5UFNNTHpqT2lyaDRZN2RzaTM2RlNhLVVKSEFvQ1dGN3UxZU9nQkY4dGx0MmFpNXhfZktvT0ZGaVI1Mzk5VERFRWFrSDIxaEJrSTZhNTh5Wmw0VGc?oc=5",
+          "summary": "Headline only, not checked article text: 9,509 Marathon Petroleum Corporation $MPC Shares Sold by Crossmark Global Holdings Inc."
         },
         {
           "id": "S16",
-          "kind": "News-index headline · Yahoo Finance Australia · 2026-10-22",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOd1hSeG1nWUZZSENwcHFuWUhiay1wS1NRenRXUFdvVXJZMHRqQ3pMaERfV3JYTFk1aXhrMlBTWm1DVWFTS0ROT0RfN0pibkoyaXN3Tnk5b0ZrbzhzYzJOQmpyblF1bnZoc09lX2g3Ujg1dnk2MEtaY3VhMmV4bjhTSHg1Y0lkZERfZnl4VXZnVkxralE?oc=5",
-          "summary": "Headline only, not checked article text: Marathon Petroleum Corporation (MPC) Stock forecasts - Yahoo Finance Australia"
+          "kind": "News-index headline · Yahoo Finance · 2026-10-21",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPZ2l1bGp3NFVxQXZLR1dWM1FIWFBJV3JtUzdkbVlBYkVMTHJZRnd3MmdMcmxDcl9mVk8xdVRidDVrRHhzbDNDNGh2UlRhTzFTMkhPblhfcENjMFdwVTBzODFjNWhWS3RYaFMtNWl3YUJNUXJ6Y0NleVFDdURXTTdWaGVvVTBPNXEtZm9WNGowcUdzVzJvMlFJalNrUQ?oc=5",
+          "summary": "Headline only, not checked article text: Cognite Earns Corporate Supplier of the Year Award from Marathon Petroleum Corporation"
         },
         {
           "id": "S17",
-          "kind": "News-index headline · Yahoo Finance UK · 2026-10-22",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNVWw1M0NHQ0Nqa0xoMGlKV25fS2hveUFFWEg4NU1fYVd2TVBITnNEUW1SOTJLU1pibW0wTXo3SXBESndrYTRlSDFlSDZ2RHFwaVEyLUttejZjbVBtTDZDMHR3dWM3SzNmTEJLLXlIR3BqeXY0bUV5aGh3V3dXTVRka1QtYkpSa1oxbUJ1d1NSOGtWN2M?oc=5",
-          "summary": "Headline only, not checked article text: Marathon Petroleum Corporation (MPC) Stock forecasts - Yahoo Finance UK"
+          "kind": "News-index headline · MarketBeat · 2026-10-21",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPNm9SeFBrODIyNmxsZnFXdnpBYnUxQXNuRVVRQVFrLVpIN3VEV3plRnlfWVkzWUZDSWg1YUVmbnFzTTZ4c2RXT2hwS3RCaTFERlBIdnFkajVlbjlEek53Y3hWUlB6V193dHdpd3Y2d0NFS2JSOG02QVhPckpzOGZ0SlFMVDAzT18xLVZEelRGRWxIdXAwZzFNVHliTTd5dWZ6YTljVHlEejl5V2dBUWVaMjl3OFFudmVyVUlHTUtzQW10MXp2M3VuWmIta1BjNmowSjlmcw?oc=5",
+          "summary": "Headline only, not checked article text: Marathon Petroleum Corporation $MPC Stock: Kirr Marbach & Co. LLC IN Reduces Stake"
         }
       ],
       "filings": {
@@ -574,66 +563,54 @@
       },
       "investment_role": "Candidate for multi-year valuation research, not an approved trade.",
       "qualitative_context": {
-        "asof_utc": "2026-10-25T05:01:05.662769+00:00",
+        "asof_utc": "2026-10-25T05:07:18.384430+00:00",
         "search_url": "https://news.google.com/rss/search?q=%22Marathon%20Petroleum%22%20when%3A7d&hl=en-US&gl=US&ceid=US:en",
         "news_window_days": 7,
         "headline_sample": [
           {
-            "title": "Marathon Petroleum Corporation $MPC Stock Sold by Sterling Capital Management LLC - MarketBeat",
-            "published_utc": "2026-10-24T14:43:49+00:00",
+            "title": "47,182 Marathon Petroleum Corporation $MPC Shares Sold by Robeco Institutional Asset Management B.V.",
+            "published_utc": "2026-10-22T09:31:14+00:00",
             "publisher": "MarketBeat",
-            "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPM2VqeWtGdl96eFVQUzhGVEh2Snk1UWppOGJxSlEyWUZDNTZfQ1VqNWdBR3NTdFQwdDZ6RHhwdHVaWE55Z0hCNF85ZXVldWxkYmRTeDhpLVJvMkdCSVBJSjBkanBGM2FFQ1VHQU1Obm9WOWJEbGpQRlJ6Yld5WEtjdzhtazdRS0pkYTQ0T25nWUhzdFo2dkJBUnA1cC0ybjZJVDNpTXB1aDhtLWhwYkttRHpsM2lpZVRHWnNBcW4ydXlrZ2kwWk9qZDJXaVhYTlkxdjVlNnhqaEs?oc=5",
+            "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQdFJ1RHd3QllWZUxOdjY2akZLT2kzWWh5OVp2bXNPTURZY2E3R0hIV0h3YW4yRUlqWlBGa3NPLWppTlhWVGhENEpLNzNsNGNUakw3T2ppaVlXY19SVWlHXzBaM3hkVTZweTZvN0Z5b2RCUE4yTWUyV0NxOFJlOG12b0RYMklyVHpIWUJpNTFIVy0tT0tGWl9NUTcyTVYtUlc3S3JzY1RwUC0yazB5UUtpSEFESTJiV19NZHRLRjczLU9FdUtzemw1T3hQYmdJNjMxbVFtMDgtY2U4Nm44WmhZU204bDZrQnlYYXgwbGhR?oc=5",
             "topic": "other"
           },
           {
-            "title": "Marathon Petroleum Corporation $MPC Shares Bought by Atlatl Advisers LLC - MarketBeat",
-            "published_utc": "2026-10-24T08:43:52+00:00",
+            "title": "Marathon Petroleum Corporation $MPC Stock Position Reduced by Hosking Partners LLP",
+            "published_utc": "2026-10-22T08:14:52+00:00",
             "publisher": "MarketBeat",
-            "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQMHlLd1lNN3FmZHVMdUs1UFE2QmFHYWNkY3VCOVoxYS1CRVAyVmdhdmYwRm8wMWRqbk54ejBrVVAySnlUc2M3a0l5M2VHamtwbHE2eEx1S21xdjQxY3JfbDdDTEt5TUl5N2JlaHlGN1RpOWphenoyTVFUbjFWNDhiYkRTU19OelNkbnEtczdxWk9oVmU4M3l5WGtIU0Y3c0thdzBMZ25jWVFXaXhlMWNUbEd0MzZoLTNXOFFRUURaSy1qUE9EOXBuNk5sdXk?oc=5",
+            "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQbzVGNEJaV3VOalZyRDlKNTlJWGpZdUp0dWJ1WjJ0SVFEQlZQbkh3RTA0YmtBWDZ1MFJ1dzZ6UTdObmdZdGJPME9wWlZJQXlrWEpGZDlGdkNKbHB6c3p1THlJd1Z2REd3SmhfT09wUFZLcHdfSm9EeUJDRjJ5Q2g5NWlmU0V1STdUeU5kcjlIMmJEU0ppV1lkOUE3ZTF1MFlQV0lrd0JpYVBFbzV6U1ZmR1hVY3VFVXFkeHU3Zk1lZWZjVVMzS0QtNDBKcXRYbnB5MW00dWUyUHhrQQ?oc=5",
             "topic": "other"
           },
           {
-            "title": "Marathon Petroleum Corporation Estimates – LSX:A1JEXK - TradingView",
-            "published_utc": "2026-10-23T11:48:40+00:00",
-            "publisher": "TradingView",
-            "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9KckpmQzlzdTB5bDZmV0N5cC1Oc3VHc1NHQXg5NG5pQ1RmR1ZqUW9QblQxLWNRLThhNzVMekZfTms3Qk56YWpQVTl6WnBEdFRaOFd2aWxKMzFVR2l0U0pSOWFhOTdvTUt1RGxLckFKa1JNLUU0WHFN?oc=5",
-            "topic": "other"
-          },
-          {
-            "title": "Marathon Petroleum Corporation $MPC Holdings Lessened by Adams Natural Resources Fund Inc. - MarketBeat",
-            "published_utc": "2026-10-23T09:02:10+00:00",
+            "title": "Foster Victor Wealth Advisors LLC Buys 9,613 Shares of Marathon Petroleum Corporation $MPC",
+            "published_utc": "2026-10-22T08:12:48+00:00",
             "publisher": "MarketBeat",
-            "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQMWtSeGNLX0I2QXgxYnFYUjJ0ZS1nb1pGdlBLZmt6SWpDMFBHMHhiejdVTl85Vkk4TS1rb3hsLTd2ZEFFSi1sLXJRUkhCbFI1d3BFYnc2enVoZWhMdGM3REZDVUZuNC1xS2V3X1A3elVRMmh0MHhzSE42cmJQeUpIaTc1bDdVelEyY0lSNUJPdlZsOEFnWjZYMWlpaXpoWWNOcWpER2plSS04VWphMkpiRGVzMUowb2ltYkZJME5xX3V1SEZMZHFVLTBucW01Y1N4ZjFqRDVLcDZBMUF5dzFWTUIyZw?oc=5",
+            "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQRzlib29DTUM4XzE4R3N6Q25jU2ZIWE9sd253eWNNX1BGbGFSMWJOcElsTG5LLWNJRk5DSE5yWWtSZmRENnpHNzQybkx5ZnA1MzN3X3NGQ1FYTDhXN0twb1lweDdMRzZiT25mZmJ6STNIOHFBVVhocDlxUjNQNTJWRFdLUnVWazFOWGtLYVotVElENXg3dTJ1VThHZ1VCdTVFdjN4MTd0cWJOMzEyTmlaWV9pNHNjbzZoNTJucXZYeFBTYTg3U2llRXZ2eVhfNGk3ZGVIV3VtN3BPQmhqWlBtdXhxQQ?oc=5",
             "topic": "other"
           },
           {
-            "title": "Marathon Petroleum Corporation (MPC) Stock forecasts - Yahoo Finance Australia",
-            "published_utc": "2026-10-22T15:48:39+00:00",
-            "publisher": "Yahoo Finance Australia",
-            "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOd1hSeG1nWUZZSENwcHFuWUhiay1wS1NRenRXUFdvVXJZMHRqQ3pMaERfV3JYTFk1aXhrMlBTWm1DVWFTS0ROT0RfN0pibkoyaXN3Tnk5b0ZrbzhzYzJOQmpyblF1bnZoc09lX2g3Ujg1dnk2MEtaY3VhMmV4bjhTSHg1Y0lkZERfZnl4VXZnVkxralE?oc=5",
-            "topic": "financing"
+            "title": "9,509 Marathon Petroleum Corporation $MPC Shares Sold by Crossmark Global Holdings Inc.",
+            "published_utc": "2026-10-22T08:08:16+00:00",
+            "publisher": "MarketBeat",
+            "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOUi1aaDhHeV9nVzl1bndZdXN4Rk9LamRWUGdjUm5TaXlMcjdOZUY0RWlIVGd6QmwxdENQbG9ocklnd3pnTzN3UkZMUGxKRmRtSGUyWWVmNC1XV1Q1WE1oc0xnMHMyQ19kN2dINk1XM3I2ajNLcHRSY0NfN1hmeHEzMHVLMXVSTVpaS1p5UFNNTHpqT2lyaDRZN2RzaTM2RlNhLVVKSEFvQ1dGN3UxZU9nQkY4dGx0MmFpNXhfZktvT0ZGaVI1Mzk5VERFRWFrSDIxaEJrSTZhNTh5Wmw0VGc?oc=5",
+            "topic": "other"
           },
           {
-            "title": "Marathon Petroleum Corporation (MPC) Stock forecasts - Yahoo Finance UK",
-            "published_utc": "2026-10-22T11:19:52+00:00",
-            "publisher": "Yahoo Finance UK",
-            "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNVWw1M0NHQ0Nqa0xoMGlKV25fS2hveUFFWEg4NU1fYVd2TVBITnNEUW1SOTJLU1pibW0wTXo3SXBESndrYTRlSDFlSDZ2RHFwaVEyLUttejZjbVBtTDZDMHR3dWM3SzNmTEJLLXlIR3BqeXY0bUV5aGh3V3dXTVRka1QtYkpSa1oxbUJ1d1NSOGtWN2M?oc=5",
-            "topic": "financing"
+            "title": "Cognite Earns Corporate Supplier of the Year Award from Marathon Petroleum Corporation",
+            "published_utc": "2026-10-21T17:06:00+00:00",
+            "publisher": "Yahoo Finance",
+            "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPZ2l1bGp3NFVxQXZLR1dWM1FIWFBJV3JtUzdkbVlBYkVMTHJZRnd3MmdMcmxDcl9mVk8xdVRidDVrRHhzbDNDNGh2UlRhTzFTMkhPblhfcENjMFdwVTBzODFjNWhWS3RYaFMtNWl3YUJNUXJ6Y0NleVFDdURXTTdWaGVvVTBPNXEtZm9WNGowcUdzVzJvMlFJalNrUQ?oc=5",
+            "topic": "other"
+          },
+          {
+            "title": "Marathon Petroleum Corporation $MPC Stock: Kirr Marbach & Co. LLC IN Reduces Stake",
+            "published_utc": "2026-10-21T11:24:08+00:00",
+            "publisher": "MarketBeat",
+            "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPNm9SeFBrODIyNmxsZnFXdnpBYnUxQXNuRVVRQVFrLVpIN3VEV3plRnlfWVkzWUZDSWg1YUVmbnFzTTZ4c2RXT2hwS3RCaTFERlBIdnFkajVlbjlEek53Y3hWUlB6V193dHdpd3Y2d0NFS2JSOG02QVhPckpzOGZ0SlFMVDAzT18xLVZEelRGRWxIdXAwZzFNVHliTTd5dWZ6YTljVHlEejl5V2dBUWVaMjl3OFFudmVyVUlHTUtzQW10MXp2M3VuWmIta1BjNmowSjlmcw?oc=5",
+            "topic": "other"
           }
         ],
-        "narratives": [
-          {
-            "topic": "financing",
-            "headline": "Marathon Petroleum Corporation (MPC) Stock forecasts - Yahoo Finance Australia",
-            "published_utc": "2026-10-22T15:48:39+00:00",
-            "publisher": "Yahoo Finance Australia",
-            "source_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOd1hSeG1nWUZZSENwcHFuWUhiay1wS1NRenRXUFdvVXJZMHRqQ3pMaERfV3JYTFk1aXhrMlBTWm1DVWFTS0ROT0RfN0pibkoyaXN3Tnk5b0ZrbzhzYzJOQmpyblF1bnZoc09lX2g3Ujg1dnk2MEtaY3VhMmV4bjhTSHg1Y0lkZERfZnl4VXZnVkxralE?oc=5",
-            "mechanism": "Borrowing costs or capital allocation can affect how much future cash ultimately belongs to shareholders.",
-            "competing_reading": "Higher dividends or buybacks can be funded by debt and are not automatically value creation.",
-            "test": "Check the balance sheet, debt maturities and cash available after capital spending.",
-            "evidence_level": "headline_coverage_not_confirmed_event"
-          }
-        ],
+        "narratives": [],
         "coverage_limit": "An indexed RSS headline sample, not a full-text article review, verified event, consensus forecast, or investor sentiment poll.",
         "fetch_issues": []
       }
@@ -669,17 +646,17 @@
           "id": "S3",
           "kind": "News-index headline · Morningstar · 2026-10-19",
           "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOZWROX2ZxNkgxTVpVdTlFSmdaT1paOVpfN1RxY0x1Y2djX2ZqSXB3b2wzUVZaakpEd1FvZTQxejl3ck9IVjBNaXdJVVN2ZFdsUTJWQy1yTDJzUnVhcTZxMl9seDBrUm83TThTTHBxM3hpaGVjaXU3N01qODFicnZSeWZpcWhvbk1NYTdDa2pZYUNWc00yRkc0Ng?oc=5",
-          "summary": "Headline only, not checked article text: Why Is the Gold Price Falling Even as Investors and Central Banks Pile In? - Morningstar"
+          "summary": "Headline only, not checked article text: Why Is the Gold Price Falling Even as Investors and Central Banks Pile In?"
         }
       ],
       "investment_role": "Portfolio-diversification research, not a commodity spot-price prediction.",
       "qualitative_context": {
-        "asof_utc": "2026-10-25T05:01:05.662769+00:00",
+        "asof_utc": "2026-10-25T05:07:18.384430+00:00",
         "search_url": "https://news.google.com/rss/search?q=%22gold%20prices%20ETF%22%20when%3A7d&hl=en-US&gl=US&ceid=US:en",
         "news_window_days": 7,
         "headline_sample": [
           {
-            "title": "Why Is the Gold Price Falling Even as Investors and Central Banks Pile In? - Morningstar",
+            "title": "Why Is the Gold Price Falling Even as Investors and Central Banks Pile In?",
             "published_utc": "2026-10-19T06:08:04+00:00",
             "publisher": "Morningstar",
             "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOZWROX2ZxNkgxTVpVdTlFSmdaT1paOVpfN1RxY0x1Y2djX2ZqSXB3b2wzUVZaakpEd1FvZTQxejl3ck9IVjBNaXdJVVN2ZFdsUTJWQy1yTDJzUnVhcTZxMl9seDBrUm83TThTTHBxM3hpaGVjaXU3N01qODFicnZSeWZpcWhvbk1NYTdDa2pZYUNWc00yRkc0Ng?oc=5",
@@ -689,7 +666,7 @@
         "narratives": [
           {
             "topic": "commodity",
-            "headline": "Why Is the Gold Price Falling Even as Investors and Central Banks Pile In? - Morningstar",
+            "headline": "Why Is the Gold Price Falling Even as Investors and Central Banks Pile In?",
             "published_utc": "2026-10-19T06:08:04+00:00",
             "publisher": "Morningstar",
             "source_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOZWROX2ZxNkgxTVpVdTlFSmdaT1paOVpfN1RxY0x1Y2djX2ZqSXB3b2wzUVZaakpEd1FvZTQxejl3ck9IVjBNaXdJVVN2ZFdsUTJWQy1yTDJzUnVhcTZxMl9seDBrUm83TThTTHBxM3hpaGVjaXU3N01qODFicnZSeWZpcWhvbk1NYTdDa2pZYUNWc00yRkc0Ng?oc=5",
@@ -707,6 +684,6 @@
   "excluded": "All cryptocurrency, tokens and crypto-exposed businesses; no crypto recommendations.",
   "benchmark": "VOO after costs where comparable",
   "diagnostics": [],
-  "qualitative_asof_utc": "2026-10-25T05:01:05.662769+00:00",
+  "qualitative_asof_utc": "2026-10-25T05:07:18.384430+00:00",
   "qualitative_method": "Dated headline watch + SEC filings; causal implications are conditional, not sentiment forecasts."
 }

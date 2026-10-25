@@ -22,11 +22,21 @@ Maintain the VOO baseline; place new ideas on a documented research watchlist ra
 
 **What today’s price appears to demand:** A reverse cash-flow check asks a useful question: what growth would today's price need to justify it? We project from the last reported annual free cash flow using an assumed constant growth rate for five years, then discount those cash flows back to today. Under deliberately fixed assumptions of an 11% required return, 2% perpetual growth beyond year five and no net borrowing, the price implies approximately 78.3% annual free-cash-flow growth over five years. If growth were instead 0% growth → 7% of today's market cap; 5% growth → 9% of today's market cap; 10% growth → 11% of today's market cap. These are sensitivity calculations, not company-specific fair values. [S1][S2]
 
-**What the financial press is covering (as of 2026-10-25T05:01:05.662769+00:00):**
+**What the financial press is covering (as of 2026-10-25T05:07:18.384430+00:00):**
 
 The headlines below are reports of *coverage*, not verified company events or a survey of investor opinion. Some may have appeared after the market close shown above.
 
-**Headline (2026-10-24, ad-hoc-news.de):** Marvell Technology announces AI connectivity products: what it means for Marvell Technology stock - ad-hoc-news.de
+**Headline (2026-10-24, ad-hoc-news.de):** Marvell's $3 Billion Safety Net Doesn't Tell You Where Revenue Comes From
+
+**Why it could affect value, if substantiated:** If this reflects real changes in customer spending, it could change future sales and cash generation.
+
+**Why the stock might not move as expected:** A strong headline may describe an already expected development, or orders that are not yet profitable.
+
+**What would confirm or refute that interpretation:** Compare the next reported sales and customer guidance with the previous filing and market expectations.
+
+**Check the original news coverage:** https://news.google.com/rss/articles/CBMi3AFBVV95cUxQeTg5VFNiNjhQTE1SU0l5Z2NjczE4SUtRZklXbGZmLXpZVHh5dWVDSU1zTlVTTFY5eS1RWl9pYzJVSE5mVTk4cW9XT0ZBTkZncmpzeU1YZlVRTDlmb0JydDRRRS1fTDdkc3I4Y3llOVA0TjU2UkpKbkdkd29VZTRvUEwtdUZONDhFWWJBNkt3U1g0Q1dJUi1Pc1I1TDM1Wlg3dzFVSWZ0aENCRkZyWjZwYVRiRFh3VExiWlpsNHFRTVkySlQ0UjVQVTVhdE9MV2VVT3pjVTB3RGROTFFK?oc=5
+
+**Headline (2026-10-24, ad-hoc-news.de):** Marvell Technology announces AI connectivity products: what it means for Marvell Technology stock
 
 **Why it could affect value, if substantiated:** A lasting competitive change could alter future demand or the prices the company can charge.
 
@@ -35,26 +45,6 @@ The headlines below are reports of *coverage*, not verified company events or a 
 **What would confirm or refute that interpretation:** Look for customer wins, product economics and margin changes in company filings.
 
 **Check the original news coverage:** https://news.google.com/rss/articles/CBMi8AFBVV95cUxPRS1QcDZlR3dTZUlWemZqZTRPazJNNE9xeVN5Y01FR2I5SDZSQmNuT2FOQy1uak5ka0c5LWhBd2xucjhtdDJ6b3FsdWRjYVB0amFiQmtVdWFHajJNSUxNcUVFVl92OEw2dWxXeDRnYjZkQlR1QW9xdFRGYVdHa3hDbTJvZ1JKWHhhQ0FKZzlCMDR3anZQOGExYm8tbmFNek9hQXpSemhwVjNxX0w2Nkt0QTJVMi1wVG40YU9LUTBwRGltUktuTzFqUVNNaXNHUnlFTm04eVpqQU1sX181MWdIWENUc3F4c0duVXk2ekZqUko?oc=5
-
-**Headline (2026-10-23, AD HOC NEWS):** Marvell lifts outlook as supply concerns pressure Marvell Technology stock - AD HOC NEWS
-
-**Why it could affect value, if substantiated:** Changes in commodity supply, demand, currency or interest rates can alter what investors will pay for the exposure.
-
-**Why the stock might not move as expected:** Even a convincing macro narrative may already be priced in and an ETF may not track spot prices exactly.
-
-**What would confirm or refute that interpretation:** Compare actual commodity moves, real yields, currency shifts and the fund's tracking costs.
-
-**Check the original news coverage:** https://news.google.com/rss/articles/CBMi0wFBVV95cUxOZWxaMGdBaGF2Z25Kdmg1VV9ONG41NWx1aTBuclhkNkptekxuUUt3ZWZ1TDRMSXVGTmFjVmRvMkZqUXVsMEE0MFJlTVp1OXlORTdBUUtud1ZqaEV6cW83X292RmJldXA1TkhGQ0w0MUNTZzltbXhZTmo5XzlxMXkzRTJCZG1Vb3BOMUJkamxGN0lVd1cybjFhVTBXdVlqdHU5bk1wajNuNWZSRlBUVWw3UVlOc3AtZ0l6WXkzSkpxbkhmeng0ZGlyRW12U0tvNEdkN3pj?oc=5
-
-**Headline (2026-10-23, Yahoo Finance):** What Marvell Technology Holders Bought Into Before A 170% Run - Yahoo Finance
-
-**Why it could affect value, if substantiated:** Borrowing costs or capital allocation can affect how much future cash ultimately belongs to shareholders.
-
-**Why the stock might not move as expected:** Higher dividends or buybacks can be funded by debt and are not automatically value creation.
-
-**What would confirm or refute that interpretation:** Check the balance sheet, debt maturities and cash available after capital spending.
-
-**Check the original news coverage:** https://news.google.com/rss/articles/CBMipAFBVV95cUxNU3Q5N0VZX2FxT2puUHpSeFJOai1YcUdPcGVoQUlBbFJ1WU1IT0l6ZHZWWFl1OFBTbzFfRXQ2MU1QWHZSZEIwSDdkVVh5OFoxYjBlUE5LNnFtSUpyaGh4NU5GQ2hCY2x3aW1teFQyTjFzd2ZTbkViS2p1MjdLckttRXpaRDA0MXppSWNMUnpiYkdLSHowa3FPTTIyOUozVjBQZDJuZg?oc=5
 
 **Primary document to cross-check (10-K, filed 2026-03-11):** https://www.sec.gov/Archives/edgar/data/1835632/000183563226000011/mrvl-20260131.htm
 
@@ -86,17 +76,17 @@ Sources:
 - S9 (10-K read passages, filed 2026-03-11): https://www.sec.gov/Archives/edgar/data/1835632/000183563226000011/mrvl-20260131.htm
 - S10 (10-Q read passages, filed 2026-08-28): https://www.sec.gov/Archives/edgar/data/1835632/000183563226000025/mrvl-20260801.htm
 - S11 (8-K read passages, filed 2026-10-23): https://www.sec.gov/Archives/edgar/data/1835632/000119312526430424/d147430d8k.htm
-- S12 (News-index headline · ad-hoc-news.de · 2026-10-24): https://news.google.com/rss/articles/CBMi8AFBVV95cUxPRS1QcDZlR3dTZUlWemZqZTRPazJNNE9xeVN5Y01FR2I5SDZSQmNuT2FOQy1uak5ka0c5LWhBd2xucjhtdDJ6b3FsdWRjYVB0amFiQmtVdWFHajJNSUxNcUVFVl92OEw2dWxXeDRnYjZkQlR1QW9xdFRGYVdHa3hDbTJvZ1JKWHhhQ0FKZzlCMDR3anZQOGExYm8tbmFNek9hQXpSemhwVjNxX0w2Nkt0QTJVMi1wVG40YU9LUTBwRGltUktuTzFqUVNNaXNHUnlFTm04eVpqQU1sX181MWdIWENUc3F4c0duVXk2ekZqUko?oc=5
-- S13 (News-index headline · Simply Wall Street · 2026-10-24): https://news.google.com/rss/articles/CBMi2gFBVV95cUxQRTNBQ3dpQndNQ25iMUJCQVRPcFBuenhHZ1VmYzdMU0YxbFdBRHV1WUtOX1RTeFFvTFdOQ2tDcGxoVXBaM3FTOVhTVlVQSm1tS3JNU2tScUxmYkNlYjRlR2ZEMzlsUGNoY1pTcDd5NmtHVzQ1Uk8yV2I5ZWlJNjBQalA5bkdROUJVT2xvdUVqbW9Rd2lVMTh2ajRHd1hveXZUNTdpMl8xUTFHcUx0aG9nRTdNcVd2S0ZNUlFVRW9XRnM4b01yRDRKNG95M1ZIcWhPUzl6bWJFTmxxZ9IB3wFBVV95cUxNTTRhOTlQeURJRWtJeDFhdHZxbDg3R2ptVGhRbHc1eENVTmJqSThEOWlPQk9Eemg0a1R2aVAzVDFWVGVuQjVnalhGeHRZcjByazdJbklWbTFSci1QbzYtaFo1cWlPZ3BXdVM5MXBweFFPck9JS3VvRGpjREpxV1dyRlhPUnJ4SUE1bXBWUHVJeTlDMlhVYWQ5bnJrQVZTZkQ1eFU1VjVqZVJUbFJ2QWVpeUtCeFlSSEhoOXR3Q1JkUERKbWFpSDRiNWxxNV9aWU9ENmNRY3h6YjhJS0p2VWVv?oc=5
-- S14 (News-index headline · 24/7 Wall St. · 2026-10-23): https://news.google.com/rss/articles/CBMixgFBVV95cUxQeXJkbHZMamNyRlhNMnYxOGppQUk1eGlFR25EcTR2MTVSb3BYaERBRGhMby1vazAxaVRiczhFOTVYY3F5UXNiR3haRUFBcUJKdGdvYTJZTDhyc3kyNG8zVWhpZFlBUEhtS2s4VFdKUnl2NGhpRnI3cXRwMFVHOUlCaS1HUTlzb1pnd3E0U1ZFbFdjczJ2VnJuS0wtak00UnNVb0N6NTRpZnRGRWRtVTJzSDQwZUJsdnNsUTBHUHR0VnM4LVN6NWc?oc=5
+- S12 (News-index headline · Cryptonews.net · 2026-10-24): https://news.google.com/rss/articles/CBMiWEFVX3lxTE4yclNfWFhsRXl0cFRTQlRKYVM2dWFCdHdyd0M0TUY3QzJvcDdXNXA1MVBqMnVTdWx5X21TcXZHN1FLUTBnaTZuTENzX1JYbEFiWEsyWUxVX3k?oc=5
+- S13 (News-index headline · ad-hoc-news.de · 2026-10-24): https://news.google.com/rss/articles/CBMi3AFBVV95cUxQeTg5VFNiNjhQTE1SU0l5Z2NjczE4SUtRZklXbGZmLXpZVHh5dWVDSU1zTlVTTFY5eS1RWl9pYzJVSE5mVTk4cW9XT0ZBTkZncmpzeU1YZlVRTDlmb0JydDRRRS1fTDdkc3I4Y3llOVA0TjU2UkpKbkdkd29VZTRvUEwtdUZONDhFWWJBNkt3U1g0Q1dJUi1Pc1I1TDM1Wlg3dzFVSWZ0aENCRkZyWjZwYVRiRFh3VExiWlpsNHFRTVkySlQ0UjVQVTVhdE9MV2VVT3pjVTB3RGROTFFK?oc=5
+- S14 (News-index headline · ad-hoc-news.de · 2026-10-24): https://news.google.com/rss/articles/CBMi8AFBVV95cUxPRS1QcDZlR3dTZUlWemZqZTRPazJNNE9xeVN5Y01FR2I5SDZSQmNuT2FOQy1uak5ka0c5LWhBd2xucjhtdDJ6b3FsdWRjYVB0amFiQmtVdWFHajJNSUxNcUVFVl92OEw2dWxXeDRnYjZkQlR1QW9xdFRGYVdHa3hDbTJvZ1JKWHhhQ0FKZzlCMDR3anZQOGExYm8tbmFNek9hQXpSemhwVjNxX0w2Nkt0QTJVMi1wVG40YU9LUTBwRGltUktuTzFqUVNNaXNHUnlFTm04eVpqQU1sX181MWdIWENUc3F4c0duVXk2ekZqUko?oc=5
 
 News leads to confirm (not established facts):
-- 2026-10-24 | ad-hoc-news.de: Marvell Technology announces AI connectivity products: what it means for Marvell Technology stock - ad-hoc-news.de
-- 2026-10-24 | Simply Wall Street: How Investors May Respond To Marvell Technology (MRVL) New AI Chip Partnerships - Simply Wall Street
-- 2026-10-23 | 24/7 Wall St.: Marvell Technology Faces a Multi-Front War Against Taiwan’s Custom Silicon Ecosystem - 24/7 Wall St.
-- 2026-10-23 | Benzinga: What Is Going On With Marvell Technology Stock on Friday? - Benzinga
-- 2026-10-23 | AD HOC NEWS: Marvell lifts outlook as supply concerns pressure Marvell Technology stock - AD HOC NEWS
-- 2026-10-23 | Yahoo Finance: What Marvell Technology Holders Bought Into Before A 170% Run - Yahoo Finance
+- 2026-10-24 | Cryptonews.net: Wells Fargo, Cisco, Marvell among latest firms objecting to OKXICE's tokenized stock plan
+- 2026-10-24 | ad-hoc-news.de: Marvell's $3 Billion Safety Net Doesn't Tell You Where Revenue Comes From
+- 2026-10-24 | ad-hoc-news.de: Marvell Technology announces AI connectivity products: what it means for Marvell Technology stock
+- 2026-10-24 | Simply Wall Street: How Investors May Respond To Marvell Technology (MRVL) New AI Chip Partnerships
+- 2026-10-23 | TradingView: Marvell Technology - Enters Third Amended And Restated Revolving Credit Agreement On Oct 22, 2026 - SEC Filing
+- 2026-10-23 | TradingView: Marvell Technology Secures $3 Billion Five-Year Revolving Credit Facility
 
 ```
 
@@ -128,17 +118,17 @@ News leads to confirm (not established facts):
 
 - [S11] 8-K read passages, filed 2026-10-23: https://www.sec.gov/Archives/edgar/data/1835632/000119312526430424/d147430d8k.htm
 
-- [S12] News-index headline · ad-hoc-news.de · 2026-10-24: https://news.google.com/rss/articles/CBMi8AFBVV95cUxPRS1QcDZlR3dTZUlWemZqZTRPazJNNE9xeVN5Y01FR2I5SDZSQmNuT2FOQy1uak5ka0c5LWhBd2xucjhtdDJ6b3FsdWRjYVB0amFiQmtVdWFHajJNSUxNcUVFVl92OEw2dWxXeDRnYjZkQlR1QW9xdFRGYVdHa3hDbTJvZ1JKWHhhQ0FKZzlCMDR3anZQOGExYm8tbmFNek9hQXpSemhwVjNxX0w2Nkt0QTJVMi1wVG40YU9LUTBwRGltUktuTzFqUVNNaXNHUnlFTm04eVpqQU1sX181MWdIWENUc3F4c0duVXk2ekZqUko?oc=5
+- [S12] News-index headline · Cryptonews.net · 2026-10-24: https://news.google.com/rss/articles/CBMiWEFVX3lxTE4yclNfWFhsRXl0cFRTQlRKYVM2dWFCdHdyd0M0TUY3QzJvcDdXNXA1MVBqMnVTdWx5X21TcXZHN1FLUTBnaTZuTENzX1JYbEFiWEsyWUxVX3k?oc=5
 
-- [S13] News-index headline · Simply Wall Street · 2026-10-24: https://news.google.com/rss/articles/CBMi2gFBVV95cUxQRTNBQ3dpQndNQ25iMUJCQVRPcFBuenhHZ1VmYzdMU0YxbFdBRHV1WUtOX1RTeFFvTFdOQ2tDcGxoVXBaM3FTOVhTVlVQSm1tS3JNU2tScUxmYkNlYjRlR2ZEMzlsUGNoY1pTcDd5NmtHVzQ1Uk8yV2I5ZWlJNjBQalA5bkdROUJVT2xvdUVqbW9Rd2lVMTh2ajRHd1hveXZUNTdpMl8xUTFHcUx0aG9nRTdNcVd2S0ZNUlFVRW9XRnM4b01yRDRKNG95M1ZIcWhPUzl6bWJFTmxxZ9IB3wFBVV95cUxNTTRhOTlQeURJRWtJeDFhdHZxbDg3R2ptVGhRbHc1eENVTmJqSThEOWlPQk9Eemg0a1R2aVAzVDFWVGVuQjVnalhGeHRZcjByazdJbklWbTFSci1QbzYtaFo1cWlPZ3BXdVM5MXBweFFPck9JS3VvRGpjREpxV1dyRlhPUnJ4SUE1bXBWUHVJeTlDMlhVYWQ5bnJrQVZTZkQ1eFU1VjVqZVJUbFJ2QWVpeUtCeFlSSEhoOXR3Q1JkUERKbWFpSDRiNWxxNV9aWU9ENmNRY3h6YjhJS0p2VWVv?oc=5
+- [S13] News-index headline · ad-hoc-news.de · 2026-10-24: https://news.google.com/rss/articles/CBMi3AFBVV95cUxQeTg5VFNiNjhQTE1SU0l5Z2NjczE4SUtRZklXbGZmLXpZVHh5dWVDSU1zTlVTTFY5eS1RWl9pYzJVSE5mVTk4cW9XT0ZBTkZncmpzeU1YZlVRTDlmb0JydDRRRS1fTDdkc3I4Y3llOVA0TjU2UkpKbkdkd29VZTRvUEwtdUZONDhFWWJBNkt3U1g0Q1dJUi1Pc1I1TDM1Wlg3dzFVSWZ0aENCRkZyWjZwYVRiRFh3VExiWlpsNHFRTVkySlQ0UjVQVTVhdE9MV2VVT3pjVTB3RGROTFFK?oc=5
 
-- [S14] News-index headline · 24/7 Wall St. · 2026-10-23: https://news.google.com/rss/articles/CBMixgFBVV95cUxQeXJkbHZMamNyRlhNMnYxOGppQUk1eGlFR25EcTR2MTVSb3BYaERBRGhMby1vazAxaVRiczhFOTVYY3F5UXNiR3haRUFBcUJKdGdvYTJZTDhyc3kyNG8zVWhpZFlBUEhtS2s4VFdKUnl2NGhpRnI3cXRwMFVHOUlCaS1HUTlzb1pnd3E0U1ZFbFdjczJ2VnJuS0wtak00UnNVb0N6NTRpZnRGRWRtVTJzSDQwZUJsdnNsUTBHUHR0VnM4LVN6NWc?oc=5
+- [S14] News-index headline · ad-hoc-news.de · 2026-10-24: https://news.google.com/rss/articles/CBMi8AFBVV95cUxPRS1QcDZlR3dTZUlWemZqZTRPazJNNE9xeVN5Y01FR2I5SDZSQmNuT2FOQy1uak5ka0c5LWhBd2xucjhtdDJ6b3FsdWRjYVB0amFiQmtVdWFHajJNSUxNcUVFVl92OEw2dWxXeDRnYjZkQlR1QW9xdFRGYVdHa3hDbTJvZ1JKWHhhQ0FKZzlCMDR3anZQOGExYm8tbmFNek9hQXpSemhwVjNxX0w2Nkt0QTJVMi1wVG40YU9LUTBwRGltUktuTzFqUVNNaXNHUnlFTm04eVpqQU1sX181MWdIWENUc3F4c0duVXk2ekZqUko?oc=5
 
-- [S15] News-index headline · Benzinga · 2026-10-23: https://news.google.com/rss/articles/CBMiuAFBVV95cUxOTnpCbFIxRUdZeWg2QW1NT1o5QmswUGQyLVJYNG41UXNwRDVwVGZ4RGZXdUU4ZnUxbTFRLVNBTjJWMDNxUG1iSVhEVF9TLVFNNVU4Y0FwbXRrUTczY29CWmdUMlhNWUR4M01aZU5neVU4emE4bmloM21vaUpSdXI2YXd0OXdTajE5Tmt6U1drTi13VXpjVE1aS2E4VWpnWUpuUFk3UkJ6TkdNbGkwZFlhT3VHNkQ2anVs?oc=5
+- [S15] News-index headline · Simply Wall Street · 2026-10-24: https://news.google.com/rss/articles/CBMi2gFBVV95cUxQRTNBQ3dpQndNQ25iMUJCQVRPcFBuenhHZ1VmYzdMU0YxbFdBRHV1WUtOX1RTeFFvTFdOQ2tDcGxoVXBaM3FTOVhTVlVQSm1tS3JNU2tScUxmYkNlYjRlR2ZEMzlsUGNoY1pTcDd5NmtHVzQ1Uk8yV2I5ZWlJNjBQalA5bkdROUJVT2xvdUVqbW9Rd2lVMTh2ajRHd1hveXZUNTdpMl8xUTFHcUx0aG9nRTdNcVd2S0ZNUlFVRW9XRnM4b01yRDRKNG95M1ZIcWhPUzl6bWJFTmxxZ9IB3wFBVV95cUxNTTRhOTlQeURJRWtJeDFhdHZxbDg3R2ptVGhRbHc1eENVTmJqSThEOWlPQk9Eemg0a1R2aVAzVDFWVGVuQjVnalhGeHRZcjByazdJbklWbTFSci1QbzYtaFo1cWlPZ3BXdVM5MXBweFFPck9JS3VvRGpjREpxV1dyRlhPUnJ4SUE1bXBWUHVJeTlDMlhVYWQ5bnJrQVZTZkQ1eFU1VjVqZVJUbFJ2QWVpeUtCeFlSSEhoOXR3Q1JkUERKbWFpSDRiNWxxNV9aWU9ENmNRY3h6YjhJS0p2VWVv?oc=5
 
-- [S16] News-index headline · AD HOC NEWS · 2026-10-23: https://news.google.com/rss/articles/CBMi0wFBVV95cUxOZWxaMGdBaGF2Z25Kdmg1VV9ONG41NWx1aTBuclhkNkptekxuUUt3ZWZ1TDRMSXVGTmFjVmRvMkZqUXVsMEE0MFJlTVp1OXlORTdBUUtud1ZqaEV6cW83X292RmJldXA1TkhGQ0w0MUNTZzltbXhZTmo5XzlxMXkzRTJCZG1Vb3BOMUJkamxGN0lVd1cybjFhVTBXdVlqdHU5bk1wajNuNWZSRlBUVWw3UVlOc3AtZ0l6WXkzSkpxbkhmeng0ZGlyRW12U0tvNEdkN3pj?oc=5
+- [S16] News-index headline · TradingView · 2026-10-23: https://news.google.com/rss/articles/CBMihgJBVV95cUxOd1JlYmExNUpoZm1hc3NBYU9fWFJ0SXFSRVN2TjhyYlRXRGJFaFNfeVhxRzBCbWpXRGxNSjJoUnpacXlXQ2c3eUxMQ0RwRFFiTGNyVUJJYkwtX0tMWmZHa2Z5SXJWUlFjcTcwZTFSYWNZVHlQUzBPZ0NJVm1ZZmoyaHBELTEtYVQzNEg1ajZlbUxVaTMteWsyWFk0NHd1ZllhclRwalQ0ZEI4VG4wRXViZS1KRk1PUlYwQXliRVk5NUtJVDBtZHdjZS0zdXhqWEl2Qk05ZWRSMW9hd0RWQkZpUWdkamlYMlVGQlQ5dTZwZm95TFY0T3J2UDRnWF9TVFBMam9hNzl3?oc=5
 
-- [S17] News-index headline · Yahoo Finance · 2026-10-23: https://news.google.com/rss/articles/CBMipAFBVV95cUxNU3Q5N0VZX2FxT2puUHpSeFJOai1YcUdPcGVoQUlBbFJ1WU1IT0l6ZHZWWFl1OFBTbzFfRXQ2MU1QWHZSZEIwSDdkVVh5OFoxYjBlUE5LNnFtSUpyaGh4NU5GQ2hCY2x3aW1teFQyTjFzd2ZTbkViS2p1MjdLckttRXpaRDA0MXppSWNMUnpiYkdLSHowa3FPTTIyOUozVjBQZDJuZg?oc=5
+- [S17] News-index headline · TradingView · 2026-10-23: https://news.google.com/rss/articles/CBMizwFBVV95cUxOcFBMOEdBR0ZfUzRLejZfbkZ1QlFyQVlYNmxHaWxHZlJONkZPNEVpdFZES0NoRUdqVHJmRk0tbHNJSFFWVmo1S0FpOG5FcGJFTjBTbkxVV3ZzOEdQT3h4UlNDN1dlMjFwRmxSLUFnUkszWTZDX3p4dUF2aHhHSl94NXJYQnN6YUo1MHE4dU9lYWRUMlBYWS0tVXhMLXgxRFpmRFVKUGdxLVljZFl1cHA4SkpKaU1VT2VuQnMxQjBETmRLVDBuQW1UNzNiUXlJTTg?oc=5
 
 
 
@@ -148,21 +138,11 @@ News leads to confirm (not established facts):
 
 **Financial context:** The latest available cash balance is $7.77 billion and the SEC long-term debt tag is $3.31 billion. That debt tag is not a measure of every financial obligation. [S1]
 
-**What today’s price appears to demand:** A reverse cash-flow check asks a useful question: what growth would today's price need to justify it? We project from the last reported annual free cash flow using an assumed constant growth rate for five years, then discount those cash flows back to today. Under deliberately fixed assumptions of an 11% required return, 2% perpetual growth beyond year five and no net borrowing, the price implies approximately 24.2% annual free-cash-flow growth over five years. If growth were instead 0% growth → 39% of today's market cap; 5% growth → 48% of today's market cap; 10% growth → 58% of today's market cap. These are sensitivity calculations, not company-specific fair values. [S1][S2]
+**What today’s price appears to demand:** A reverse cash-flow check asks a useful question: what growth would today's price need to justify it? We project from the last reported annual free cash flow using an assumed constant growth rate for five years, then discount those cash flows back to today. Under deliberately fixed assumptions of an 11% required return, 2% perpetual growth beyond year five and no net borrowing, the price implies approximately 25.2% annual free-cash-flow growth over five years. If growth were instead 0% growth → 37% of today's market cap; 5% growth → 46% of today's market cap; 10% growth → 56% of today's market cap. These are sensitivity calculations, not company-specific fair values. [S1][S2]
 
-**What the financial press is covering (as of 2026-10-25T05:01:05.662769+00:00):**
+**What the financial press is covering (as of 2026-10-25T05:07:18.384430+00:00):**
 
-The headlines below are reports of *coverage*, not verified company events or a survey of investor opinion. Some may have appeared after the market close shown above.
-
-**Headline (2026-10-22, Yahoo Finance Australia):** Marathon Petroleum Corporation (MPC) Stock forecasts - Yahoo Finance Australia
-
-**Why it could affect value, if substantiated:** Borrowing costs or capital allocation can affect how much future cash ultimately belongs to shareholders.
-
-**Why the stock might not move as expected:** Higher dividends or buybacks can be funded by debt and are not automatically value creation.
-
-**What would confirm or refute that interpretation:** Check the balance sheet, debt maturities and cash available after capital spending.
-
-**Check the original news coverage:** https://news.google.com/rss/articles/CBMikwFBVV95cUxOd1hSeG1nWUZZSENwcHFuWUhiay1wS1NRenRXUFdvVXJZMHRqQ3pMaERfV3JYTFk1aXhrMlBTWm1DVWFTS0ROT0RfN0pibkoyaXN3Tnk5b0ZrbzhzYzJOQmpyblF1bnZoc09lX2g3Ujg1dnk2MEtaY3VhMmV4bjhTSHg1Y0lkZERfZnl4VXZnVkxralE?oc=5
+**Decision now:** use the filed business results as the evidence base. Do not infer bullish or bearish investor sentiment from an empty or incomplete news sample; check the next filing and guidance against earlier company figures.
 
 **Primary document to cross-check (10-K, filed 2026-02-26):** https://www.sec.gov/Archives/edgar/data/1510295/000151029526000009/mpc-20251231.htm
 
@@ -194,17 +174,17 @@ Sources:
 - S9 (10-K read passages, filed 2026-02-26): https://www.sec.gov/Archives/edgar/data/1510295/000151029526000009/mpc-20251231.htm
 - S10 (10-Q read passages, filed 2026-08-04): https://www.sec.gov/Archives/edgar/data/1510295/000151029526000061/mpc-20260630.htm
 - S11 (8-K read passages, filed 2026-08-04): https://www.sec.gov/Archives/edgar/data/1510295/000151029526000060/mpc-20260804.htm
-- S12 (News-index headline · MarketBeat · 2026-10-24): https://news.google.com/rss/articles/CBMi2AFBVV95cUxPM2VqeWtGdl96eFVQUzhGVEh2Snk1UWppOGJxSlEyWUZDNTZfQ1VqNWdBR3NTdFQwdDZ6RHhwdHVaWE55Z0hCNF85ZXVldWxkYmRTeDhpLVJvMkdCSVBJSjBkanBGM2FFQ1VHQU1Obm9WOWJEbGpQRlJ6Yld5WEtjdzhtazdRS0pkYTQ0T25nWUhzdFo2dkJBUnA1cC0ybjZJVDNpTXB1aDhtLWhwYkttRHpsM2lpZVRHWnNBcW4ydXlrZ2kwWk9qZDJXaVhYTlkxdjVlNnhqaEs?oc=5
-- S13 (News-index headline · MarketBeat · 2026-10-24): https://news.google.com/rss/articles/CBMizAFBVV95cUxQMHlLd1lNN3FmZHVMdUs1UFE2QmFHYWNkY3VCOVoxYS1CRVAyVmdhdmYwRm8wMWRqbk54ejBrVVAySnlUc2M3a0l5M2VHamtwbHE2eEx1S21xdjQxY3JfbDdDTEt5TUl5N2JlaHlGN1RpOWphenoyTVFUbjFWNDhiYkRTU19OelNkbnEtczdxWk9oVmU4M3l5WGtIU0Y3c0thdzBMZ25jWVFXaXhlMWNUbEd0MzZoLTNXOFFRUURaSy1qUE9EOXBuNk5sdXk?oc=5
-- S14 (News-index headline · TradingView · 2026-10-23): https://news.google.com/rss/articles/CBMid0FVX3lxTE9KckpmQzlzdTB5bDZmV0N5cC1Oc3VHc1NHQXg5NG5pQ1RmR1ZqUW9QblQxLWNRLThhNzVMekZfTms3Qk56YWpQVTl6WnBEdFRaOFd2aWxKMzFVR2l0U0pSOWFhOTdvTUt1RGxLckFKa1JNLUU0WHFN?oc=5
+- S12 (News-index headline · MarketBeat · 2026-10-22): https://news.google.com/rss/articles/CBMi7gFBVV95cUxQdFJ1RHd3QllWZUxOdjY2akZLT2kzWWh5OVp2bXNPTURZY2E3R0hIV0h3YW4yRUlqWlBGa3NPLWppTlhWVGhENEpLNzNsNGNUakw3T2ppaVlXY19SVWlHXzBaM3hkVTZweTZvN0Z5b2RCUE4yTWUyV0NxOFJlOG12b0RYMklyVHpIWUJpNTFIVy0tT0tGWl9NUTcyTVYtUlc3S3JzY1RwUC0yazB5UUtpSEFESTJiV19NZHRLRjczLU9FdUtzemw1T3hQYmdJNjMxbVFtMDgtY2U4Nm44WmhZU204bDZrQnlYYXgwbGhR?oc=5
+- S13 (News-index headline · MarketBeat · 2026-10-22): https://news.google.com/rss/articles/CBMi2gFBVV95cUxQbzVGNEJaV3VOalZyRDlKNTlJWGpZdUp0dWJ1WjJ0SVFEQlZQbkh3RTA0YmtBWDZ1MFJ1dzZ6UTdObmdZdGJPME9wWlZJQXlrWEpGZDlGdkNKbHB6c3p1THlJd1Z2REd3SmhfT09wUFZLcHdfSm9EeUJDRjJ5Q2g5NWlmU0V1STdUeU5kcjlIMmJEU0ppV1lkOUE3ZTF1MFlQV0lrd0JpYVBFbzV6U1ZmR1hVY3VFVXFkeHU3Zk1lZWZjVVMzS0QtNDBKcXRYbnB5MW00dWUyUHhrQQ?oc=5
+- S14 (News-index headline · MarketBeat · 2026-10-22): https://news.google.com/rss/articles/CBMi4wFBVV95cUxQRzlib29DTUM4XzE4R3N6Q25jU2ZIWE9sd253eWNNX1BGbGFSMWJOcElsTG5LLWNJRk5DSE5yWWtSZmRENnpHNzQybkx5ZnA1MzN3X3NGQ1FYTDhXN0twb1lweDdMRzZiT25mZmJ6STNIOHFBVVhocDlxUjNQNTJWRFdLUnVWazFOWGtLYVotVElENXg3dTJ1VThHZ1VCdTVFdjN4MTd0cWJOMzEyTmlaWV9pNHNjbzZoNTJucXZYeFBTYTg3U2llRXZ2eVhfNGk3ZGVIV3VtN3BPQmhqWlBtdXhxQQ?oc=5
 
 News leads to confirm (not established facts):
-- 2026-10-24 | MarketBeat: Marathon Petroleum Corporation $MPC Stock Sold by Sterling Capital Management LLC - MarketBeat
-- 2026-10-24 | MarketBeat: Marathon Petroleum Corporation $MPC Shares Bought by Atlatl Advisers LLC - MarketBeat
-- 2026-10-23 | TradingView: Marathon Petroleum Corporation Estimates – LSX:A1JEXK - TradingView
-- 2026-10-23 | MarketBeat: Marathon Petroleum Corporation $MPC Holdings Lessened by Adams Natural Resources Fund Inc. - MarketBeat
-- 2026-10-22 | Yahoo Finance Australia: Marathon Petroleum Corporation (MPC) Stock forecasts - Yahoo Finance Australia
-- 2026-10-22 | Yahoo Finance UK: Marathon Petroleum Corporation (MPC) Stock forecasts - Yahoo Finance UK
+- 2026-10-22 | MarketBeat: 47,182 Marathon Petroleum Corporation $MPC Shares Sold by Robeco Institutional Asset Management B.V.
+- 2026-10-22 | MarketBeat: Marathon Petroleum Corporation $MPC Stock Position Reduced by Hosking Partners LLP
+- 2026-10-22 | MarketBeat: Foster Victor Wealth Advisors LLC Buys 9,613 Shares of Marathon Petroleum Corporation $MPC
+- 2026-10-22 | MarketBeat: 9,509 Marathon Petroleum Corporation $MPC Shares Sold by Crossmark Global Holdings Inc.
+- 2026-10-21 | Yahoo Finance: Cognite Earns Corporate Supplier of the Year Award from Marathon Petroleum Corporation
+- 2026-10-21 | MarketBeat: Marathon Petroleum Corporation $MPC Stock: Kirr Marbach & Co. LLC IN Reduces Stake
 
 ```
 
@@ -236,17 +216,17 @@ News leads to confirm (not established facts):
 
 - [S11] 8-K read passages, filed 2026-08-04: https://www.sec.gov/Archives/edgar/data/1510295/000151029526000060/mpc-20260804.htm
 
-- [S12] News-index headline · MarketBeat · 2026-10-24: https://news.google.com/rss/articles/CBMi2AFBVV95cUxPM2VqeWtGdl96eFVQUzhGVEh2Snk1UWppOGJxSlEyWUZDNTZfQ1VqNWdBR3NTdFQwdDZ6RHhwdHVaWE55Z0hCNF85ZXVldWxkYmRTeDhpLVJvMkdCSVBJSjBkanBGM2FFQ1VHQU1Obm9WOWJEbGpQRlJ6Yld5WEtjdzhtazdRS0pkYTQ0T25nWUhzdFo2dkJBUnA1cC0ybjZJVDNpTXB1aDhtLWhwYkttRHpsM2lpZVRHWnNBcW4ydXlrZ2kwWk9qZDJXaVhYTlkxdjVlNnhqaEs?oc=5
+- [S12] News-index headline · MarketBeat · 2026-10-22: https://news.google.com/rss/articles/CBMi7gFBVV95cUxQdFJ1RHd3QllWZUxOdjY2akZLT2kzWWh5OVp2bXNPTURZY2E3R0hIV0h3YW4yRUlqWlBGa3NPLWppTlhWVGhENEpLNzNsNGNUakw3T2ppaVlXY19SVWlHXzBaM3hkVTZweTZvN0Z5b2RCUE4yTWUyV0NxOFJlOG12b0RYMklyVHpIWUJpNTFIVy0tT0tGWl9NUTcyTVYtUlc3S3JzY1RwUC0yazB5UUtpSEFESTJiV19NZHRLRjczLU9FdUtzemw1T3hQYmdJNjMxbVFtMDgtY2U4Nm44WmhZU204bDZrQnlYYXgwbGhR?oc=5
 
-- [S13] News-index headline · MarketBeat · 2026-10-24: https://news.google.com/rss/articles/CBMizAFBVV95cUxQMHlLd1lNN3FmZHVMdUs1UFE2QmFHYWNkY3VCOVoxYS1CRVAyVmdhdmYwRm8wMWRqbk54ejBrVVAySnlUc2M3a0l5M2VHamtwbHE2eEx1S21xdjQxY3JfbDdDTEt5TUl5N2JlaHlGN1RpOWphenoyTVFUbjFWNDhiYkRTU19OelNkbnEtczdxWk9oVmU4M3l5WGtIU0Y3c0thdzBMZ25jWVFXaXhlMWNUbEd0MzZoLTNXOFFRUURaSy1qUE9EOXBuNk5sdXk?oc=5
+- [S13] News-index headline · MarketBeat · 2026-10-22: https://news.google.com/rss/articles/CBMi2gFBVV95cUxQbzVGNEJaV3VOalZyRDlKNTlJWGpZdUp0dWJ1WjJ0SVFEQlZQbkh3RTA0YmtBWDZ1MFJ1dzZ6UTdObmdZdGJPME9wWlZJQXlrWEpGZDlGdkNKbHB6c3p1THlJd1Z2REd3SmhfT09wUFZLcHdfSm9EeUJDRjJ5Q2g5NWlmU0V1STdUeU5kcjlIMmJEU0ppV1lkOUE3ZTF1MFlQV0lrd0JpYVBFbzV6U1ZmR1hVY3VFVXFkeHU3Zk1lZWZjVVMzS0QtNDBKcXRYbnB5MW00dWUyUHhrQQ?oc=5
 
-- [S14] News-index headline · TradingView · 2026-10-23: https://news.google.com/rss/articles/CBMid0FVX3lxTE9KckpmQzlzdTB5bDZmV0N5cC1Oc3VHc1NHQXg5NG5pQ1RmR1ZqUW9QblQxLWNRLThhNzVMekZfTms3Qk56YWpQVTl6WnBEdFRaOFd2aWxKMzFVR2l0U0pSOWFhOTdvTUt1RGxLckFKa1JNLUU0WHFN?oc=5
+- [S14] News-index headline · MarketBeat · 2026-10-22: https://news.google.com/rss/articles/CBMi4wFBVV95cUxQRzlib29DTUM4XzE4R3N6Q25jU2ZIWE9sd253eWNNX1BGbGFSMWJOcElsTG5LLWNJRk5DSE5yWWtSZmRENnpHNzQybkx5ZnA1MzN3X3NGQ1FYTDhXN0twb1lweDdMRzZiT25mZmJ6STNIOHFBVVhocDlxUjNQNTJWRFdLUnVWazFOWGtLYVotVElENXg3dTJ1VThHZ1VCdTVFdjN4MTd0cWJOMzEyTmlaWV9pNHNjbzZoNTJucXZYeFBTYTg3U2llRXZ2eVhfNGk3ZGVIV3VtN3BPQmhqWlBtdXhxQQ?oc=5
 
-- [S15] News-index headline · MarketBeat · 2026-10-23: https://news.google.com/rss/articles/CBMi4wFBVV95cUxQMWtSeGNLX0I2QXgxYnFYUjJ0ZS1nb1pGdlBLZmt6SWpDMFBHMHhiejdVTl85Vkk4TS1rb3hsLTd2ZEFFSi1sLXJRUkhCbFI1d3BFYnc2enVoZWhMdGM3REZDVUZuNC1xS2V3X1A3elVRMmh0MHhzSE42cmJQeUpIaTc1bDdVelEyY0lSNUJPdlZsOEFnWjZYMWlpaXpoWWNOcWpER2plSS04VWphMkpiRGVzMUowb2ltYkZJME5xX3V1SEZMZHFVLTBucW01Y1N4ZjFqRDVLcDZBMUF5dzFWTUIyZw?oc=5
+- [S15] News-index headline · MarketBeat · 2026-10-22: https://news.google.com/rss/articles/CBMi3gFBVV95cUxOUi1aaDhHeV9nVzl1bndZdXN4Rk9LamRWUGdjUm5TaXlMcjdOZUY0RWlIVGd6QmwxdENQbG9ocklnd3pnTzN3UkZMUGxKRmRtSGUyWWVmNC1XV1Q1WE1oc0xnMHMyQ19kN2dINk1XM3I2ajNLcHRSY0NfN1hmeHEzMHVLMXVSTVpaS1p5UFNNTHpqT2lyaDRZN2RzaTM2RlNhLVVKSEFvQ1dGN3UxZU9nQkY4dGx0MmFpNXhfZktvT0ZGaVI1Mzk5VERFRWFrSDIxaEJrSTZhNTh5Wmw0VGc?oc=5
 
-- [S16] News-index headline · Yahoo Finance Australia · 2026-10-22: https://news.google.com/rss/articles/CBMikwFBVV95cUxOd1hSeG1nWUZZSENwcHFuWUhiay1wS1NRenRXUFdvVXJZMHRqQ3pMaERfV3JYTFk1aXhrMlBTWm1DVWFTS0ROT0RfN0pibkoyaXN3Tnk5b0ZrbzhzYzJOQmpyblF1bnZoc09lX2g3Ujg1dnk2MEtaY3VhMmV4bjhTSHg1Y0lkZERfZnl4VXZnVkxralE?oc=5
+- [S16] News-index headline · Yahoo Finance · 2026-10-21: https://news.google.com/rss/articles/CBMimwFBVV95cUxPZ2l1bGp3NFVxQXZLR1dWM1FIWFBJV3JtUzdkbVlBYkVMTHJZRnd3MmdMcmxDcl9mVk8xdVRidDVrRHhzbDNDNGh2UlRhTzFTMkhPblhfcENjMFdwVTBzODFjNWhWS3RYaFMtNWl3YUJNUXJ6Y0NleVFDdURXTTdWaGVvVTBPNXEtZm9WNGowcUdzVzJvMlFJalNrUQ?oc=5
 
-- [S17] News-index headline · Yahoo Finance UK · 2026-10-22: https://news.google.com/rss/articles/CBMikwFBVV95cUxNVWw1M0NHQ0Nqa0xoMGlKV25fS2hveUFFWEg4NU1fYVd2TVBITnNEUW1SOTJLU1pibW0wTXo3SXBESndrYTRlSDFlSDZ2RHFwaVEyLUttejZjbVBtTDZDMHR3dWM3SzNmTEJLLXlIR3BqeXY0bUV5aGh3V3dXTVRka1QtYkpSa1oxbUJ1d1NSOGtWN2M?oc=5
+- [S17] News-index headline · MarketBeat · 2026-10-21: https://news.google.com/rss/articles/CBMi1AFBVV95cUxPNm9SeFBrODIyNmxsZnFXdnpBYnUxQXNuRVVRQVFrLVpIN3VEV3plRnlfWVkzWUZDSWg1YUVmbnFzTTZ4c2RXT2hwS3RCaTFERlBIdnFkajVlbjlEek53Y3hWUlB6V193dHdpd3Y2d0NFS2JSOG02QVhPckpzOGZ0SlFMVDAzT18xLVZEelRGRWxIdXAwZzFNVHliTTd5dWZ6YTljVHlEejl5V2dBUWVaMjl3OFFudmVyVUlHTUtzQW10MXp2M3VuWmIta1BjNmowSjlmcw?oc=5
 
 
 
@@ -258,11 +238,11 @@ News leads to confirm (not established facts):
 
 **What today’s price appears to demand:** For this exposure, monitor underlying commodity prices, financing conditions and ETF tracking costs rather than applying a company discounted-cash-flow formula.
 
-**What the financial press is covering (as of 2026-10-25T05:01:05.662769+00:00):**
+**What the financial press is covering (as of 2026-10-25T05:07:18.384430+00:00):**
 
 The headlines below are reports of *coverage*, not verified company events or a survey of investor opinion. Some may have appeared after the market close shown above.
 
-**Headline (2026-10-19, Morningstar):** Why Is the Gold Price Falling Even as Investors and Central Banks Pile In? - Morningstar
+**Headline (2026-10-19, Morningstar):** Why Is the Gold Price Falling Even as Investors and Central Banks Pile In?
 
 **Why it could affect value, if substantiated:** Changes in commodity supply, demand, currency or interest rates can alter what investors will pay for the exposure.
 
@@ -292,7 +272,7 @@ Sources:
 - S3 (News-index headline · Morningstar · 2026-10-19): https://news.google.com/rss/articles/CBMimAFBVV95cUxOZWROX2ZxNkgxTVpVdTlFSmdaT1paOVpfN1RxY0x1Y2djX2ZqSXB3b2wzUVZaakpEd1FvZTQxejl3ck9IVjBNaXdJVVN2ZFdsUTJWQy1yTDJzUnVhcTZxMl9seDBrUm83TThTTHBxM3hpaGVjaXU3N01qODFicnZSeWZpcWhvbk1NYTdDa2pZYUNWc00yRkc0Ng?oc=5
 
 News leads to confirm (not established facts):
-- 2026-10-19 | Morningstar: Why Is the Gold Price Falling Even as Investors and Central Banks Pile In? - Morningstar
+- 2026-10-19 | Morningstar: Why Is the Gold Price Falling Even as Investors and Central Banks Pile In?
 
 ```
 
