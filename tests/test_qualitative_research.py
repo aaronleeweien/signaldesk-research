@@ -61,6 +61,19 @@ class QualitativeResearchTests(unittest.TestCase):
         self.assertEqual(n.identify_topic("Oil futures move with crude supply"),"commodity")
         self.assertTrue(n.has_entity("Marvell launches another product",self.stock()))
 
+    def test_crypto_tokenization_and_shareholdings_removed(self):
+        rows=[
+          ("Wells Fargo, Cisco, Marvell object to a tokenized stock plan - Example",
+           "Sat, 24 Oct 2026 13:00:00 GMT","Example",NEWS_LINK),
+          ("Marvell Technology Shares Sold by Institutional Investors - Example",
+           "Sat, 24 Oct 2026 12:00:00 GMT","Example",NEWS_LINK+"2"),
+          ("Marvell Technology Secures New Revolving Credit Facility - Example",
+           "Sat, 24 Oct 2026 11:00:00 GMT","Example",NEWS_LINK+"3")]
+        parsed=n.parse_news(fixture_rss(rows),self.stock(),NOW)
+        self.assertEqual(len(parsed),1)
+        self.assertEqual(parsed[0]["topic"],"financing")
+        self.assertIn("Credit Facility",parsed[0]["title"])
+
     def test_stale_future_unrelated_and_invalid_links_excluded(self):
         items=[
           ("Marvell Technology growing sales","Thu, 15 Oct 2026 14:00:00 GMT","Source A",NEWS_LINK),

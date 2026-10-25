@@ -40,7 +40,7 @@ NARRATIVE_RULES = (
      "A rule or legal outcome could affect costs, demand, or the company's ability to operate.",
      "The impact could be limited, delayed, challenged or already reflected in the price.",
      "Check the actual decision, timing, geographic exposure and estimated cash-flow impact."),
-    ("financing", ("debt", "financ", "interest", "rate", "bond", "buyback", "dividend", "liquid"),
+    ("financing", ("debt", "financ", "interest", "rate", "bond", "buyback", "dividend", "liquid", "credit", "loan", "revolving"),
      "Borrowing costs or capital allocation can affect how much future cash ultimately belongs to shareholders.",
      "Higher dividends or buybacks can be funded by debt and are not automatically value creation.",
      "Check the balance sheet, debt maturities and cash available after capital spending."),
@@ -76,6 +76,12 @@ LOW_SIGNAL = (
     r"\bstock forecasts?\b",
     r"\bcorporation estimates\b",
     r"\bshares? bought by\b",
+    r"\bshares? sold by\b",
+    r"\bshares? purchased by\b",
+    r"\b(?:buys?|sells?) [0-9,]+ shares?\b",
+    r"\bstock position reduced by\b",
+    r"\breduces? stake\b",
+    r"\bstock position (?:increased|decreased)\b",
     r"\bstock sold by\b",
     r"\bholdings? lessened by\b",
     r"\bwhat is going on with\b",
@@ -132,7 +138,10 @@ def parse_news(xml,asset,now=None,max_items=6):
         if outlet and title.lower().endswith(suffix.lower()):
             title=title[:-len(suffix)].rstrip()
         if not title or not link.startswith("https://news.google.com/"):continue
+        # Crypto-tokenization stories and crypto exchange news are prohibited
+        # even when they incidentally mention a legitimate equity issuer.
         if not has_entity(title,asset) or CRYPTO.search(title):continue
+        if re.search(r"\b(?:tokeniz(?:ed|ation)|tokenis(?:ed|ation)|okx|stablecoins?)\b",title,re.I):continue
         if low_information(title):continue
         try:
             when=parsedate_to_datetime(stamp).astimezone(timezone.utc)
