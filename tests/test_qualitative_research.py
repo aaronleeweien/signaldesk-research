@@ -134,13 +134,14 @@ class QualitativeResearchTests(unittest.TestCase):
             {"market_date":"2026-10-23","investigations":{},"ai_review_configured":False})
         html=p.render_html(report)
         md=p.render_markdown(report)
-        for phrase in ("Why it could matter IF true",
-                       "Why that does not prove a profitable trade",
-                       "The decisive follow-up check"):
+        for phrase in ("Hypothetical economic effect",
+                       "Alternative explanation",
+                       "Outstanding verification"):
             self.assertIn(phrase,html)
         self.assertIn("not verified company events",md)
-        self.assertIn("Research mode: 0 of 1",md)
-        self.assertIn("Primary document to cross-check (10-Q",md)
+        self.assertIn("0 of 1 candidates had a complete",md)
+        self.assertIn("Evidence audit",md)
+        self.assertNotIn("Investigate with ChatGPT",html+md)
         self.assertIn("2026-10-25T02:00:00+00:00",html)
 
 if __name__=="__main__":

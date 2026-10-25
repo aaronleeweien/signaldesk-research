@@ -102,6 +102,56 @@ class FocusedResearchTests(unittest.TestCase):
         self.assertTrue(any(x['form']=='10-K' for x in result['read_passages']))
         self.assertTrue(all(x['url'].startswith('https://www.sec.gov/') for x in result['priority_filings']))
 
+    def test_report_is_self_contained_without_paid_ai(self):
+        rows, screen = self.fixture()
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            market = {'last_completed_us_price_date': '2026-10-23',
+                      'stock_investing_watchlist': screen,
+                      'discovery_feeds': {'unique_stock_quotes': 3}}
+            sec = {'source_market_date': '2026-10-23', 'companies': rows}
+            hub = {'market_last_completed_close': '2026-10-23'}
+            est = {'latest_completed_us_market_day': '2026-10-23'}
+            for name, obj in [('market_discovery.json', market),
+                              ('sec_fundamentals.json', sec),
+                              ('decision_hub.json', hub),
+                              ('established_strategies.json', est)]:
+                (root/name).write_text(json.dumps(obj))
+            quotes = lambda: {'VOO': {'return_6m_pct': 8, 'asof': '2026-10-23'},
+                              'GLD': {'return_3m_pct': 5, 'return_6m_pct': 6,
+                                      'asof': '2026-10-23',
+                                      'source': 'https://finance.yahoo.com/quote/GLD/history/'}}
+            dossier = d.assemble(root, quote_fn=quotes, filing_fn=lambda c, a: {
+                'submissions_url': 'https://data.sec.gov/submissions/CIK0000000123.json',
+                'recent_filings': []})
+            report = pub.briefing(dossier, {'market_date': '2026-10-23',
+                                            'investigations': {}, 'ai_review_configured': False})
+            html = pub.render_html(report)
+            md = pub.render_markdown(report)
+            self.assertEqual(report['ai_analysed_count'], 0)
+            self.assertIn('NO SWITCH FROM VOO', html)
+            self.assertIn('Bull', html)
+            self.assertIn('Evidence completeness', html)
+            self.assertIn('VOO comparison', md)
+            self.assertNotIn('Copy-ready', html+md)
+            self.assertNotIn('Investigate with ChatGPT', html+md)
+            self.assertNotIn('manual_research_prompt', json.dumps(report))
+            self.assertIn('research_completeness', json.dumps(report))
+            self.assertEqual(len(report['assets']), 3)
+
+    def test_research_does_not_call_headline_a_confirmed_event(self):
+        from research.research_synthesis import analyse
+        case = {'ticker': 'XYZ', 'kind': 'equity', 'metrics': {
+            'annual_history': [{'free_cash_flow_usd': 105}, {'free_cash_flow_usd': 100}],
+            'revenue_growth_yoy_pct': 30, 'fcf_yield_pct': 1,
+            'fcf_usd': 105, 'market_cap_usd': 9999},
+            'qualitative_context': {'headline_sample': [{'title': 'Unverified deal'}]}}
+        memo = analyse(case)
+        self.assertIn('NO SWITCH', memo['decision'])
+        self.assertIn('cash', memo['economic_mechanism'].lower())
+        self.assertTrue(any('NOT independently verified' in item for item in memo['source_audit']))
+        self.assertIn('defensible', memo['pricing_interpretation'].lower())
+
     def test_never_publish_stale_cross_source_dossier(self):
         with self.assertRaises(ValueError):
             pub.briefing({'market_date':'2026-10-23','assets':[]},
