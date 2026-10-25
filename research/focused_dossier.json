@@ -1,8 +1,8 @@
 {
   "version": "focused_dossier_v1",
   "market_date": "2026-10-23",
-  "generated_utc": "2026-10-25T05:11:11.168666+00:00",
-  "screened_total": 747,
+  "generated_utc": "2026-10-25T05:17:25.531377+00:00",
+  "screened_total": 748,
   "selected_equities": 2,
   "asset_count": 3,
   "assets": [
@@ -247,7 +247,7 @@
       },
       "investment_role": "Candidate for multi-year valuation research, not an approved trade.",
       "qualitative_context": {
-        "asof_utc": "2026-10-25T05:11:11.279907+00:00",
+        "asof_utc": "2026-10-25T05:17:25.689243+00:00",
         "search_url": "https://news.google.com/rss/search?q=%22MARVELL%20TECHNOLOGY%22%20when%3A7d&hl=en-US&gl=US&ceid=US:en",
         "news_window_days": 7,
         "headline_sample": [
@@ -341,7 +341,7 @@
         "ticker": "MPC",
         "name": "Marathon Petroleum Corporation",
         "fiscal_year_end": "2025-12-31",
-        "market_cap_usd": 128398704640.0,
+        "market_cap_usd": 133479268352.0,
         "forward_pe": 7.8240347,
         "revenue_usd": 132699000000.0,
         "revenue_growth_yoy_pct": -4.44,
@@ -349,29 +349,29 @@
         "operating_cash_usd": 8253000000.0,
         "capital_spending_usd": 3486000000.0,
         "fcf_usd": 4767000000.0,
-        "fcf_yield_pct": 3.71,
+        "fcf_yield_pct": 3.57,
         "fcf_positive_years": 3,
         "fcf_years_available": 3,
         "cash_usd": 7768000000.0,
         "debt_usd": 3311000000.0,
-        "price_implied_fcf_growth_pct": 24.16,
+        "price_implied_fcf_growth_pct": 25.23,
         "reverse_model_required_return_pct": 11.0,
         "reverse_model_terminal_growth_pct": 2.0,
         "scenario_sensitivity": {
           "no_growth": {
             "annual_fcf_growth_assumed_pct": 0.0,
             "illustrative_equity_value_usd": 49680142532.83,
-            "value_as_pct_of_current_market_cap": 38.69
+            "value_as_pct_of_current_market_cap": 37.22
           },
           "moderate_growth": {
             "annual_fcf_growth_assumed_pct": 5.0,
             "illustrative_equity_value_usd": 61157267884.14,
-            "value_as_pct_of_current_market_cap": 47.63
+            "value_as_pct_of_current_market_cap": 45.82
           },
           "fast_growth": {
             "annual_fcf_growth_assumed_pct": 10.0,
             "illustrative_equity_value_usd": 74834348576.12,
-            "value_as_pct_of_current_market_cap": 58.28
+            "value_as_pct_of_current_market_cap": 56.06
           }
         },
         "annual_history": [
@@ -461,39 +461,39 @@
         },
         {
           "id": "S12",
-          "kind": "News-index headline · Yahoo Finance · 2026-10-21",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPZ2l1bGp3NFVxQXZLR1dWM1FIWFBJV3JtUzdkbVlBYkVMTHJZRnd3MmdMcmxDcl9mVk8xdVRidDVrRHhzbDNDNGh2UlRhTzFTMkhPblhfcENjMFdwVTBzODFjNWhWS3RYaFMtNWl3YUJNUXJ6Y0NleVFDdURXTTdWaGVvVTBPNXEtZm9WNGowcUdzVzJvMlFJalNrUQ?oc=5",
-          "summary": "Headline only, not checked article text: Cognite Earns Corporate Supplier of the Year Award from Marathon Petroleum Corporation"
+          "kind": "News-index headline · ad-hoc-news.de · 2026-10-24",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPTWk4VkhPaWlMTEdJMHMtaGt5S1V5WHNaSEVYYktPNVpHU1E0ZElOUmVIaFNWMEJRS2dxeDMtZll0RzhKQ2tMdnNLb3ZvQ1NLUzNHb2VyUk5LWjNvZ1h6Q1M2TGxEaHp4dVRqYjh1YnJhdl9sdXhZTmVfM2dGbGdFU3J0SmlEVkJHQ1IxeXNXTGJ2ZzlYUmt5S1RDTXdKcXZYNkZNVGU1cXV4QzA3bnhqTlZ0SUVxSW52cnFzelgtV3hOTVY0ZUFTcw?oc=5",
+          "summary": "Headline only, not checked article text: Marathon Petroleum stock trades 0.21 percent above its Xetra close"
         },
         {
           "id": "S13",
-          "kind": "News-index headline · Yahoo Finance · 2026-10-20",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQbHppQURzM2tCTU5aZHJCbVFadHh5Y1ZKMmxKbDYxakxnZEFrRWF4Zzhmbld0U0l6aEhIT3lTNjFEejIzMjQwWHdYalkxeENNc1BHdzk1QzBvaHk5N3BZdzFhVnNIbk9oTVA5QzZjLUE0OFN0bWs5aDMyOHduV0VGNjk3c0pPQzA2RGN0YnVsMHJQYlZTaDNXS1FUdDNIMzhEXzBBTmIyM1U4ZmpaWUhB?oc=5",
-          "summary": "Headline only, not checked article text: Marathon Petroleum Corporation (MPC) is Attracting Investor Attention: Here is What You Should Know"
+          "kind": "News-index headline · Simply Wall Street · 2026-10-24",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPTHNZSlZremh5cWVkTk1sM1hRTElfaDNTd2RENHlOS01MX3lCWG5ST1NQREs4MjFpOF9RanAtaDNkUklXQ0xYcFVYdURUMWtzMUFNcTVRa1J0azJocGZvM1Q4c3hvc25MWnpndzRYVi03ckZuX0p5NjhiYUNZd2RYZURtQTF6U1p5bk5HRU5hdkpCOERfYzRHaUwyUTJJRmM5SVNSVUh2NnZtOENNMVF4UUxpMF93b3lBZ3U0QS1pbGxxcUpaeUdoVVJuM2Q2Z9IBzgFBVV95cUxPTHNZSlZremh5cWVkTk1sM1hRTElfaDNTd2RENHlOS01MX3lCWG5ST1NQREs4MjFpOF9RanAtaDNkUklXQ0xYcFVYdURUMWtzMUFNcTVRa1J0azJocGZvM1Q4c3hvc25MWnpndzRYVi03ckZuX0p5NjhiYUNZd2RYZURtQTF6U1p5bk5HRU5hdkpCOERfYzRHaUwyUTJJRmM5SVNSVUh2NnZtOENNMVF4UUxpMF93b3lBZ3U0QS1pbGxxcUpaeUdoVVJuM2Q2Zw?oc=5",
+          "summary": "Headline only, not checked article text: Why Everyone Is Watching Marathon Petroleum (MPC) Right Now"
         },
         {
           "id": "S14",
-          "kind": "News-index headline · MarketBeat · 2026-10-20",
-          "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOVWFuZHlkTl9tQUE0VEkwcV9uMnhMankzdjBlRzRTYnllWnYyc1VJVEpSZzZjcGVNR3Rxb29FQmQwd2ppMldJeWI2dGVYbmhIcHJpVXRQQkl5UlhSb3lSbG54OUJMSmFXY1hTTTJfUXozTHhmLWM0UnNrMU5zVkE2cFdnYklsX0p6c3FYRlptZHRkODY4M2V2ZzRSMlV2dVFtSk90aWI3MjA1Q0Vkek0wZDZkNnJhNGJJUGc4NHBEM3gtMmtLTUNHZzZPSFR4a2U4Zjh4OExyTDctV2NKNVV6d0VneUxOaklrd21SWUtySFh1ZFJqV2JrQ01xSQ?oc=5",
-          "summary": "Headline only, not checked article text: Parkway Wealth Management Group LLC Makes New $4.52 Million Investment in Marathon Petroleum Corporation $MPC"
+          "kind": "News-index headline · Kalkine India · 2026-10-23",
+          "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPQXBFU1JOZ01YeXM1U0xOU2lELWp4STN3U2xTeHMwMXVFMkxWSTdrazdnVHozNm84OTFid0xzWUdKTzN3cUNIaE1OeDJMNThQOE1yX0lobTg5ZVFZTEVERE9NT2E4elVSTjhwTXBiNkwxM0Y0Nkp3eVN4RFA4aHdxaC1vN2NlSW91Y25XaHVYWUpMbTVwM05oSnI5OFd0M2pNMlpMYVFqaHdOLWRfdVZFNGgxR205V25FQ1h3ekdhd3MxOVBjSXBlMjZTbVNGRVlEaVlCOHk0TjBBclJyTURpOUZNY2RDaXR1UmU0?oc=5",
+          "summary": "Headline only, not checked article text: Marathon Petroleum (NYSE:MPC) Stock Slips 1.86%: P/E, EPS and Technical Review"
         },
         {
           "id": "S15",
-          "kind": "News-index headline · MarketBeat · 2026-10-19",
-          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNODlVazVVWFpxQ3FmamVzXzMwbWNERmpmc1pmQWgtZHl3VllXT2RIX21xbktKQW04enB6MS1YRll1U01aXzdZalBqVTVvb2VyVGFJNjlUOWZsOC1BSnRxbkE3Y0F0X2xybTBEMC15bG8tUkk2dHdfQWV0Z256UE5Ja1lobHc4ZzZnd1NTZ1NqUFFiZWs5T290X0MzblpmU2M1bF8waUR2dVJPM0NlWFVSRWwwN1FfSHdtSDBXUTI3NVhUQmEySnFuY3llRHpqY2NTVmljZDNBcEE?oc=5",
-          "summary": "Headline only, not checked article text: Marathon Petroleum Corporation $MPC Stock: Fairvoy Private Wealth LLC Raises Stake"
+          "kind": "News-index headline · Yahoo Finance · 2026-10-23",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQRVY4cFBWUTUtNkE3OUZBTnkwUU9FSmZIS3JWdFVyT0xsYThZVEE3bzdOYnBUVnB6N0NhekFuUUFXNnlMUm1wR3NEbWc5SFJWckJsNHdxdlZwMm9ZZ1V4V1Y3N05IX1NLVEEtT1VwQVFqazNFQ0lIOUpUZTh2NDlzbk80NDk0MzZyOEdGVVRlZVJnejhMQk5uRzl2ZGtxUW9UeHVHUFRR?oc=5",
+          "summary": "Headline only, not checked article text: Marathon Petroleum (MPC): Position Exited After Strong Gains"
         },
         {
           "id": "S16",
-          "kind": "News-index headline · MarketBeat · 2026-10-18",
-          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOeWdldF85S1JySUtOLTh3VFFKNzktV0NfcUM4RERSdk82VXpDWVlrZU9GdU1WODNVaGFUcnozVGN3VnVZV05TNjlvclA4aEVoMkJ0azU2NmdfdFZtYVNMa1M2MTVIMG9WMElPUWZXRHIzcnVFNHZkazdNTTV5TDdiSHlPdmVWdXJoeFQ0ZUdlRE0zNk4xczB2aG9WX2U5eHY2c2t5UlRoSmdFbEJVZzZzVzVpTWdWRWJhOHhMa2VWNFpwcFBaU1pBQnZ0Q0tvQUYwUW5xZzJlcE1jdw?oc=5",
-          "summary": "Headline only, not checked article text: USA Financial Formulas Acquires 2,978 Shares of Marathon Petroleum Corporation $MPC"
+          "kind": "News-index headline · ad-hoc-news.de · 2026-10-23",
+          "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQX1c2ZUhNUHRpR1dLVk9FWkEwV1Y0ZlU3bzhobU1JZnlQS190Q0ZWOFY4Tk0xb2R1OXRUa1AxVWxzOFFfSFZvUkRDYnU5dGg4UDVLcGRLeTRmaHNFQ3YyTlVLSEhrZTA3S25fNGJaWDFwX1MyYnlCOEg5d3BydUdZSE03VGRreE1Ta0drTEtXODlfOHFKTnZjSm9pLXRaN3VBOWZnN1FUTThQTVN4WnZSTFdjbXdoOTBvcldHVE9EdHpiZHdlY2kxbVQ1emo4TkpFQ2Y3QlpGdW1ZTkhFWFdMNGdJSUhxTVdKcllGQXJR?oc=5",
+          "summary": "Headline only, not checked article text: Marathon Petroleum stock: Valero at 9.55 times earnings beats Marathon Petroleum stock at 15.88"
         },
         {
           "id": "S17",
-          "kind": "News-index headline · MarketBeat · 2026-10-18",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQS0FhbTdoY0pwUVc1bndEM2JuajVuN1NHY0FGSXZaUkcyMDdiaGdIbUhaNVhWNFRpQVNIZXpBVkZVX1lrNWZsOTcyeEhtZkh6bklmUlZzZ0w1d0lhdmJTSTN6UFJJRjNycFBKLUdvWWtWNjBpd2dBMU9hOEloNWZ0ZG1nY3hwa2o1LXB4cEFWOEdWdEIyT0NJbUZidTExSmROOGpOR3QtVzZnUHhoWW15ZkhQYThwdU1kTkViWUcwRVIzYlE5Y2pxNWR4R0o?oc=5",
-          "summary": "Headline only, not checked article text: Marathon Petroleum Corporation $MPC Stake Raised by Vontobel Holding Ltd."
+          "kind": "News-index headline · AD HOC NEWS · 2026-10-23",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNa0lYVVNzTjNXVEM4eGNEelR0Yk1xczA0cXoxUVc2VGZjdXVCMU1Wc092S2RsVWZELVdLVUZDUFpZVDJtbmRyeXhrUUVlWm81eDhWb1RmajdLRzNzSF9HbTJKQ3R1SE42ckoxYkdYS3ItaUg2dDBuR1JqbG5RbmkzUGNvOEFvNXFmY2wzdjNjNW00cVlUNFJkVFhkOVViNEV0cDY3SzJtZFZPdDBLUlVZQm5xeHdfcE13TU9SUm0zNEFPeG8?oc=5",
+          "summary": "Headline only, not checked article text: TD Cowen raises target for Marathon Petroleum stock to USD 478"
         }
       ],
       "filings": {
@@ -574,63 +574,63 @@
       },
       "investment_role": "Candidate for multi-year valuation research, not an approved trade.",
       "qualitative_context": {
-        "asof_utc": "2026-10-25T05:11:11.279907+00:00",
+        "asof_utc": "2026-10-25T05:17:25.689243+00:00",
         "search_url": "https://news.google.com/rss/search?q=%22Marathon%20Petroleum%22%20when%3A7d&hl=en-US&gl=US&ceid=US:en",
         "news_window_days": 7,
         "headline_sample": [
           {
-            "title": "Cognite Earns Corporate Supplier of the Year Award from Marathon Petroleum Corporation",
-            "published_utc": "2026-10-21T17:06:00+00:00",
+            "title": "Marathon Petroleum stock trades 0.21 percent above its Xetra close",
+            "published_utc": "2026-10-24T08:45:15+00:00",
+            "publisher": "ad-hoc-news.de",
+            "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPTWk4VkhPaWlMTEdJMHMtaGt5S1V5WHNaSEVYYktPNVpHU1E0ZElOUmVIaFNWMEJRS2dxeDMtZll0RzhKQ2tMdnNLb3ZvQ1NLUzNHb2VyUk5LWjNvZ1h6Q1M2TGxEaHp4dVRqYjh1YnJhdl9sdXhZTmVfM2dGbGdFU3J0SmlEVkJHQ1IxeXNXTGJ2ZzlYUmt5S1RDTXdKcXZYNkZNVGU1cXV4QzA3bnhqTlZ0SUVxSW52cnFzelgtV3hOTVY0ZUFTcw?oc=5",
+            "topic": "other"
+          },
+          {
+            "title": "Why Everyone Is Watching Marathon Petroleum (MPC) Right Now",
+            "published_utc": "2026-10-24T06:45:25+00:00",
+            "publisher": "Simply Wall Street",
+            "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPTHNZSlZremh5cWVkTk1sM1hRTElfaDNTd2RENHlOS01MX3lCWG5ST1NQREs4MjFpOF9RanAtaDNkUklXQ0xYcFVYdURUMWtzMUFNcTVRa1J0azJocGZvM1Q4c3hvc25MWnpndzRYVi03ckZuX0p5NjhiYUNZd2RYZURtQTF6U1p5bk5HRU5hdkpCOERfYzRHaUwyUTJJRmM5SVNSVUh2NnZtOENNMVF4UUxpMF93b3lBZ3U0QS1pbGxxcUpaeUdoVVJuM2Q2Z9IBzgFBVV95cUxPTHNZSlZremh5cWVkTk1sM1hRTElfaDNTd2RENHlOS01MX3lCWG5ST1NQREs4MjFpOF9RanAtaDNkUklXQ0xYcFVYdURUMWtzMUFNcTVRa1J0azJocGZvM1Q4c3hvc25MWnpndzRYVi03ckZuX0p5NjhiYUNZd2RYZURtQTF6U1p5bk5HRU5hdkpCOERfYzRHaUwyUTJJRmM5SVNSVUh2NnZtOENNMVF4UUxpMF93b3lBZ3U0QS1pbGxxcUpaeUdoVVJuM2Q2Zw?oc=5",
+            "topic": "other"
+          },
+          {
+            "title": "Marathon Petroleum (NYSE:MPC) Stock Slips 1.86%: P/E, EPS and Technical Review",
+            "published_utc": "2026-10-23T18:39:00+00:00",
+            "publisher": "Kalkine India",
+            "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPQXBFU1JOZ01YeXM1U0xOU2lELWp4STN3U2xTeHMwMXVFMkxWSTdrazdnVHozNm84OTFid0xzWUdKTzN3cUNIaE1OeDJMNThQOE1yX0lobTg5ZVFZTEVERE9NT2E4elVSTjhwTXBiNkwxM0Y0Nkp3eVN4RFA4aHdxaC1vN2NlSW91Y25XaHVYWUpMbTVwM05oSnI5OFd0M2pNMlpMYVFqaHdOLWRfdVZFNGgxR205V25FQ1h3ekdhd3MxOVBjSXBlMjZTbVNGRVlEaVlCOHk0TjBBclJyTURpOUZNY2RDaXR1UmU0?oc=5",
+            "topic": "other"
+          },
+          {
+            "title": "Marathon Petroleum (MPC): Position Exited After Strong Gains",
+            "published_utc": "2026-10-23T14:52:45+00:00",
             "publisher": "Yahoo Finance",
-            "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPZ2l1bGp3NFVxQXZLR1dWM1FIWFBJV3JtUzdkbVlBYkVMTHJZRnd3MmdMcmxDcl9mVk8xdVRidDVrRHhzbDNDNGh2UlRhTzFTMkhPblhfcENjMFdwVTBzODFjNWhWS3RYaFMtNWl3YUJNUXJ6Y0NleVFDdURXTTdWaGVvVTBPNXEtZm9WNGowcUdzVzJvMlFJalNrUQ?oc=5",
+            "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQRVY4cFBWUTUtNkE3OUZBTnkwUU9FSmZIS3JWdFVyT0xsYThZVEE3bzdOYnBUVnB6N0NhekFuUUFXNnlMUm1wR3NEbWc5SFJWckJsNHdxdlZwMm9ZZ1V4V1Y3N05IX1NLVEEtT1VwQVFqazNFQ0lIOUpUZTh2NDlzbk80NDk0MzZyOEdGVVRlZVJnejhMQk5uRzl2ZGtxUW9UeHVHUFRR?oc=5",
             "topic": "other"
           },
           {
-            "title": "Marathon Petroleum Corporation (MPC) is Attracting Investor Attention: Here is What You Should Know",
-            "published_utc": "2026-10-20T12:00:03+00:00",
-            "publisher": "Yahoo Finance",
-            "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQbHppQURzM2tCTU5aZHJCbVFadHh5Y1ZKMmxKbDYxakxnZEFrRWF4Zzhmbld0U0l6aEhIT3lTNjFEejIzMjQwWHdYalkxeENNc1BHdzk1QzBvaHk5N3BZdzFhVnNIbk9oTVA5QzZjLUE0OFN0bWs5aDMyOHduV0VGNjk3c0pPQzA2RGN0YnVsMHJQYlZTaDNXS1FUdDNIMzhEXzBBTmIyM1U4ZmpaWUhB?oc=5",
-            "topic": "other"
+            "title": "Marathon Petroleum stock: Valero at 9.55 times earnings beats Marathon Petroleum stock at 15.88",
+            "published_utc": "2026-10-23T14:49:11+00:00",
+            "publisher": "ad-hoc-news.de",
+            "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQX1c2ZUhNUHRpR1dLVk9FWkEwV1Y0ZlU3bzhobU1JZnlQS190Q0ZWOFY4Tk0xb2R1OXRUa1AxVWxzOFFfSFZvUkRDYnU5dGg4UDVLcGRLeTRmaHNFQ3YyTlVLSEhrZTA3S25fNGJaWDFwX1MyYnlCOEg5d3BydUdZSE03VGRreE1Ta0drTEtXODlfOHFKTnZjSm9pLXRaN3VBOWZnN1FUTThQTVN4WnZSTFdjbXdoOTBvcldHVE9EdHpiZHdlY2kxbVQ1emo4TkpFQ2Y3QlpGdW1ZTkhFWFdMNGdJSUhxTVdKcllGQXJR?oc=5",
+            "topic": "profitability"
           },
           {
-            "title": "Parkway Wealth Management Group LLC Makes New $4.52 Million Investment in Marathon Petroleum Corporation $MPC",
-            "published_utc": "2026-10-20T11:31:56+00:00",
-            "publisher": "MarketBeat",
-            "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOVWFuZHlkTl9tQUE0VEkwcV9uMnhMankzdjBlRzRTYnllWnYyc1VJVEpSZzZjcGVNR3Rxb29FQmQwd2ppMldJeWI2dGVYbmhIcHJpVXRQQkl5UlhSb3lSbG54OUJMSmFXY1hTTTJfUXozTHhmLWM0UnNrMU5zVkE2cFdnYklsX0p6c3FYRlptZHRkODY4M2V2ZzRSMlV2dVFtSk90aWI3MjA1Q0Vkek0wZDZkNnJhNGJJUGc4NHBEM3gtMmtLTUNHZzZPSFR4a2U4Zjh4OExyTDctV2NKNVV6d0VneUxOaklrd21SWUtySFh1ZFJqV2JrQ01xSQ?oc=5",
-            "topic": "other"
-          },
-          {
-            "title": "Marathon Petroleum Corporation $MPC Stock: Fairvoy Private Wealth LLC Raises Stake",
-            "published_utc": "2026-10-19T23:34:48+00:00",
-            "publisher": "MarketBeat",
-            "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNODlVazVVWFpxQ3FmamVzXzMwbWNERmpmc1pmQWgtZHl3VllXT2RIX21xbktKQW04enB6MS1YRll1U01aXzdZalBqVTVvb2VyVGFJNjlUOWZsOC1BSnRxbkE3Y0F0X2xybTBEMC15bG8tUkk2dHdfQWV0Z256UE5Ja1lobHc4ZzZnd1NTZ1NqUFFiZWs5T290X0MzblpmU2M1bF8waUR2dVJPM0NlWFVSRWwwN1FfSHdtSDBXUTI3NVhUQmEySnFuY3llRHpqY2NTVmljZDNBcEE?oc=5",
-            "topic": "other"
-          },
-          {
-            "title": "USA Financial Formulas Acquires 2,978 Shares of Marathon Petroleum Corporation $MPC",
-            "published_utc": "2026-10-18T10:16:30+00:00",
-            "publisher": "MarketBeat",
-            "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOeWdldF85S1JySUtOLTh3VFFKNzktV0NfcUM4RERSdk82VXpDWVlrZU9GdU1WODNVaGFUcnozVGN3VnVZV05TNjlvclA4aEVoMkJ0azU2NmdfdFZtYVNMa1M2MTVIMG9WMElPUWZXRHIzcnVFNHZkazdNTTV5TDdiSHlPdmVWdXJoeFQ0ZUdlRE0zNk4xczB2aG9WX2U5eHY2c2t5UlRoSmdFbEJVZzZzVzVpTWdWRWJhOHhMa2VWNFpwcFBaU1pBQnZ0Q0tvQUYwUW5xZzJlcE1jdw?oc=5",
-            "topic": "financing"
-          },
-          {
-            "title": "Marathon Petroleum Corporation $MPC Stake Raised by Vontobel Holding Ltd.",
-            "published_utc": "2026-10-18T09:26:21+00:00",
-            "publisher": "MarketBeat",
-            "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQS0FhbTdoY0pwUVc1bndEM2JuajVuN1NHY0FGSXZaUkcyMDdiaGdIbUhaNVhWNFRpQVNIZXpBVkZVX1lrNWZsOTcyeEhtZkh6bklmUlZzZ0w1d0lhdmJTSTN6UFJJRjNycFBKLUdvWWtWNjBpd2dBMU9hOEloNWZ0ZG1nY3hwa2o1LXB4cEFWOEdWdEIyT0NJbUZidTExSmROOGpOR3QtVzZnUHhoWW15ZkhQYThwdU1kTkViWUcwRVIzYlE5Y2pxNWR4R0o?oc=5",
+            "title": "TD Cowen raises target for Marathon Petroleum stock to USD 478",
+            "published_utc": "2026-10-23T09:00:41+00:00",
+            "publisher": "AD HOC NEWS",
+            "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNa0lYVVNzTjNXVEM4eGNEelR0Yk1xczA0cXoxUVc2VGZjdXVCMU1Wc092S2RsVWZELVdLVUZDUFpZVDJtbmRyeXhrUUVlWm81eDhWb1RmajdLRzNzSF9HbTJKQ3R1SE42ckoxYkdYS3ItaUg2dDBuR1JqbG5RbmkzUGNvOEFvNXFmY2wzdjNjNW00cVlUNFJkVFhkOVViNEV0cDY3SzJtZFZPdDBLUlVZQm5xeHdfcE13TU9SUm0zNEFPeG8?oc=5",
             "topic": "other"
           }
         ],
         "narratives": [
           {
-            "topic": "financing",
-            "headline": "USA Financial Formulas Acquires 2,978 Shares of Marathon Petroleum Corporation $MPC",
-            "published_utc": "2026-10-18T10:16:30+00:00",
-            "publisher": "MarketBeat",
-            "source_url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOeWdldF85S1JySUtOLTh3VFFKNzktV0NfcUM4RERSdk82VXpDWVlrZU9GdU1WODNVaGFUcnozVGN3VnVZV05TNjlvclA4aEVoMkJ0azU2NmdfdFZtYVNMa1M2MTVIMG9WMElPUWZXRHIzcnVFNHZkazdNTTV5TDdiSHlPdmVWdXJoeFQ0ZUdlRE0zNk4xczB2aG9WX2U5eHY2c2t5UlRoSmdFbEJVZzZzVzVpTWdWRWJhOHhMa2VWNFpwcFBaU1pBQnZ0Q0tvQUYwUW5xZzJlcE1jdw?oc=5",
-            "mechanism": "Borrowing costs or capital allocation can affect how much future cash ultimately belongs to shareholders.",
-            "competing_reading": "Higher dividends or buybacks can be funded by debt and are not automatically value creation.",
-            "test": "Check the balance sheet, debt maturities and cash available after capital spending.",
+            "topic": "profitability",
+            "headline": "Marathon Petroleum stock: Valero at 9.55 times earnings beats Marathon Petroleum stock at 15.88",
+            "published_utc": "2026-10-23T14:49:11+00:00",
+            "publisher": "ad-hoc-news.de",
+            "source_url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQX1c2ZUhNUHRpR1dLVk9FWkEwV1Y0ZlU3bzhobU1JZnlQS190Q0ZWOFY4Tk0xb2R1OXRUa1AxVWxzOFFfSFZvUkRDYnU5dGg4UDVLcGRLeTRmaHNFQ3YyTlVLSEhrZTA3S25fNGJaWDFwX1MyYnlCOEg5d3BydUdZSE03VGRreE1Ta0drTEtXODlfOHFKTnZjSm9pLXRaN3VBOWZnN1FUTThQTVN4WnZSTFdjbXdoOTBvcldHVE9EdHpiZHdlY2kxbVQ1emo4TkpFQ2Y3QlpGdW1ZTkhFWFdMNGdJSUhxTVdKcllGQXJR?oc=5",
+            "mechanism": "Changes in selling prices or operating costs affect the fraction of sales that becomes profit and cash.",
+            "competing_reading": "A temporary price or cost improvement may disappear when conditions normalize.",
+            "test": "Check reported operating margins, cash conversion and the reasons for changes.",
             "evidence_level": "headline_coverage_not_confirmed_event"
           }
         ],
@@ -674,7 +674,7 @@
       ],
       "investment_role": "Portfolio-diversification research, not a commodity spot-price prediction.",
       "qualitative_context": {
-        "asof_utc": "2026-10-25T05:11:11.279907+00:00",
+        "asof_utc": "2026-10-25T05:17:25.689243+00:00",
         "search_url": "https://news.google.com/rss/search?q=%22gold%20prices%20ETF%22%20when%3A7d&hl=en-US&gl=US&ceid=US:en",
         "news_window_days": 7,
         "headline_sample": [
@@ -707,6 +707,6 @@
   "excluded": "All cryptocurrency, tokens and crypto-exposed businesses; no crypto recommendations.",
   "benchmark": "VOO after costs where comparable",
   "diagnostics": [],
-  "qualitative_asof_utc": "2026-10-25T05:11:11.279907+00:00",
+  "qualitative_asof_utc": "2026-10-25T05:17:25.689243+00:00",
   "qualitative_method": "Dated headline watch + SEC filings; causal implications are conditional, not sentiment forecasts."
 }

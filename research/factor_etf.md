@@ -14,7 +14,7 @@ Latest complete US market session: 2026-10-23
 | MTUM DCA | 15.30% | -34.08% | 1.06 | 121 | 13.99 |
 | SPMO/VOO 50-50 | 17.12% | -32.48% | 1.01 | 242 | 26.47 |
 | SPMO-VOO 6M Rotation | 16.95% | -34.00% | 1.03 | 138 | 414.47 |
-| SPMO Trend + SHY | 14.25% | -20.97% | 0.48 | 135 | 452.56 |
+| SPMO Trend + SHY | 14.25% | -20.97% | 0.48 | 135 | 452.57 |
 
 ## Distinct retrospective windows
 
