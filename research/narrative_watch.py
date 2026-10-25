@@ -118,7 +118,7 @@ def has_entity(title,asset):
                     "USO":("oil","crude"),"DBA":("agricultur","crop")}.get(
                         asset["ticker"],("commodity",)))
     name=asset.get("name","").lower()
-    stem=re.split(r"\b(?:inc|corp|co|ltd|plc)\b",name)[0].strip(" ,.")
+    stem=re.split(r"\b(?:incorporated|corporation|company|inc|corp|co|ltd|plc)\b",name)[0].strip(" ,.")
     if len(stem)>6 and stem in lower:return True
     # Recognize distinctive one-word brands (e.g., Marvell) when news drops a
     # formal suffix. Avoid ambiguous first names such as Marathon or United.
