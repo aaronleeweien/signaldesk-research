@@ -111,35 +111,56 @@ def excerpt(document):
             sections.append({'section':name,'text':s[i:i+2300]})
     return sections or [{'section':'Filing excerpt','text':s[:2200]}]
 
-def get_filing_evidence(cik,user_agent,fetch_json=get_json):
-    """Read actual SEC filing metadata. Filing excerpts are optional corroboration."""
+def get_filing_evidence(cik,user_agent,fetch_json=get_json,fetch_html=None):
+    """Fetch latest US filing *content*, not merely links to company filings.
+
+    Annual 10-K is retrieved by form from the whole SEC submission index. It
+    often is not in the latest five 8-Ks or 10-Qs! Save only short excerpts;
+    preserve exact form, filing date and official URL for each quoted passage.
+    """
     submissions_url=f'https://data.sec.gov/submissions/CIK{int(cik):010d}.json'
     data=fetch_json(submissions_url,user_agent)
     recent=(data.get('filings') or {}).get('recent') or {}
-    filings=[]
     forms=recent.get('form') or []
-    for i,form in enumerate(forms[:120]):
+    all_items=[]
+    for i,form in enumerate(forms):
         if form not in ('10-K','10-Q','8-K','20-F','6-K'):continue
-        accession=recent.get('accessionNumber',[])[i]
-        primary=recent.get('primaryDocument',[])[i]
-        filing_date=recent.get('filingDate',[])[i]
-        if not accession or not primary:continue
-        url=f'https://www.sec.gov/Archives/edgar/data/{int(cik)}/{accession.replace("-","")}/{primary}'
-        filings.append({'form':form,'filed':filing_date,'url':url,'accession':accession})
-        if len(filings)>=5:break
-    source_excerpt=[]
-    annual=next((x for x in filings if x['form'] in ('10-K','20-F')),None)
-    if annual:
         try:
-            req=Request(annual['url'],headers={'User-Agent':user_agent,'Accept':'text/html'})
+            acc=recent['accessionNumber'][i]
+            primary=recent['primaryDocument'][i]
+            filed=recent['filingDate'][i]
+        except (KeyError,IndexError):continue
+        if not acc or not primary:continue
+        url=f'https://www.sec.gov/Archives/edgar/data/{int(cik)}/{acc.replace("-","")}/{primary}'
+        all_items.append({'form':form,'filed':filed,'url':url,'accession':acc})
+    recent_list=all_items[:5]
+    annual=next((x for x in all_items if x['form'] in ('10-K','20-F')),None)
+    quarterly=next((x for x in all_items if x['form'] in ('10-Q','6-K')),None)
+    event=next((x for x in all_items if x['form']=='8-K'),None)
+    # A strong investigative packet needs at least these three *document types*.
+    selected=[]
+    for item in (annual,quarterly,event):
+        if item and item['url'] not in {x['url'] for x in selected}:selected.append(item)
+    if fetch_html is None:
+        def fetch_html(url,agent):
+            req=Request(url,headers={'User-Agent':agent,'Accept':'text/html'})
             with urlopen(req,timeout=30) as response:
-                content=response.read(3_000_000).decode('utf-8','replace')
-            source_excerpt=excerpt(content)
-        except Exception:
-            # Metadata remains usable; do not misrepresent a section we didn't read.
-            source_excerpt=[]
-    return {'submissions_url':submissions_url,'recent_filings':filings,
-            'annual_excerpt':source_excerpt}
+                return response.read(3_000_000).decode('utf-8','replace')
+    passages=[];source_errors=[]
+    for item in selected:
+        try:
+            document=fetch_html(item['url'],user_agent)
+            selected_excerpts=excerpt(document)
+            text=' '.join(x['section']+': '+x['text'][:450] for x in selected_excerpts)[:1250]
+            if text.strip():
+                passages.append({'form':item['form'],'filed':item['filed'],
+                                 'url':item['url'],'text':text})
+        except Exception as exc:
+            source_errors.append(item['form']+': '+type(exc).__name__)
+        time.sleep(.3)
+    return {'submissions_url':submissions_url,'recent_filings':recent_list,
+            'priority_filings':selected,'read_passages':passages,
+            'fetch_issues':source_errors}
 
 
 def commodity_snapshot(tickers=('GLD','SLV','USO','DBA','VOO')):
@@ -190,10 +211,16 @@ def assemble(root=Path('research'),quote_fn=commodity_snapshot,filing_fn=get_fil
                 for f in filing.get('recent_filings',[])[:4]:
                     sources.append({'id':f'S{len(sources)+1}','kind':f['form']+' filed '+f['filed'],
                                     'url':f['url'],'summary':f['form']+' primary filing document; examine before relying on management claims.'})
-                if filing.get('annual_excerpt'):
-                    sources.append({'id':f'S{len(sources)+1}','kind':'Selected annual filing passages',
-                                    'url':next((x['url'] for x in filing['recent_filings'] if x['form'] in ('10-K','20-F')),filing['submissions_url']),
-                                    'summary':' '.join(z['section']+': '+z['text'][:500] for z in filing['annual_excerpt'])[:1650]})
+                for primary in filing.get('priority_filings',[]):
+                    if primary['url'] not in {x['url'] for x in sources}:
+                        sources.append({'id':f'S{len(sources)+1}',
+                            'kind':primary['form']+' primary filing, '+primary['filed'],
+                            'url':primary['url'],
+                            'summary':'Official company filing. The cited report is a research lead, not an independently verified claim.'})
+                for passage in filing.get('read_passages',[]):
+                    sources.append({'id':f'S{len(sources)+1}',
+                        'kind':passage['form']+' read passages, filed '+passage['filed'],
+                        'url':passage['url'],'summary':passage['text']})
             except Exception as exc:diagnostics.append(sym+': SEC submissions '+type(exc).__name__)
         dossiers.append({'kind':'equity','ticker':sym,'name':metrics['name'],
                          'metrics':metrics,'sources':sources,'filings':filing,
