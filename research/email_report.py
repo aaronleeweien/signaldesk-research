@@ -13,7 +13,9 @@ from pathlib import Path
 from zoneinfo import ZoneInfo
 import json
 import os
+import re
 import smtplib
+from urllib.parse import urljoin
 
 REPORT_URL = "https://aaronleeweien.github.io/signaldesk-research/report.html"
 
@@ -22,6 +24,13 @@ def verified_address(value):
     if display or address != value or "@" not in address or "\r" in value or "\n" in value:
         raise ValueError("Use a plain email address, without header formatting.")
     return address
+
+def email_ready_html(html):
+    """Turn website-relative and fragment links into real public URLs in email."""
+    return re.sub(
+        r'href="([^"]+)"',
+        lambda match: 'href="' + urljoin(REPORT_URL, match.group(1)) + '"',
+        html, flags=re.IGNORECASE)
 
 def build_message(sender, recipient, report, markdown, html):
     sender = verified_address(sender)
@@ -41,13 +50,13 @@ def build_message(sender, recipient, report, markdown, html):
     msg["Subject"] = f"SignalDesk Daily | US market close {day.isoformat()} | Research only"
     msg.set_content(markdown + f"\nFull report and sources: {REPORT_URL}\n")
     # The HTML is a readable article; full evidence links remain clickable.
-    msg.add_alternative(html, subtype="html")
+    msg.add_alternative(email_ready_html(html), subtype="html")
     return msg
 
 def main(base=Path("research"), site=Path("site")):
     sender = os.environ.get("SIGNALDESK_GMAIL_FROM", "").strip()
     recipient = os.environ.get("SIGNALDESK_MAIL_TO", "").strip()
-    password = os.environ.get("SIGNALDESK_GMAIL_APP_PASSWORD", "").strip()
+    password = "".join(os.environ.get("SIGNALDESK_GMAIL_APP_PASSWORD", "").split())
     if not all((sender, recipient, password)):
         print("::warning::SignalDesk daily email NOT active: set SIGNALDESK_GMAIL_FROM, SIGNALDESK_MAIL_TO, SIGNALDESK_GMAIL_APP_PASSWORD as repository secrets.")
         return False
