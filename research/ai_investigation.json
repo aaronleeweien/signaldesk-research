@@ -1,0 +1,9 @@
+{
+  "version": "ai_investigation_v1",
+  "market_date": "2026-10-23",
+  "ai_review_configured": false,
+  "model": null,
+  "investigations": {},
+  "errors": {},
+  "approved_for_trading": false
+}

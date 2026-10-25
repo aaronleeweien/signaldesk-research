@@ -1,0 +1,146 @@
+{
+  "date": "2026-10-23",
+  "fresh": true,
+  "title": "SignalDesk | Investment Research Desk",
+  "headline": "VOO remains the default; investigate only a few clearly defined alternatives.",
+  "subtitle": "Deep research is an argument to test, not a signal to buy.",
+  "summary": "We keep a diversified VOO base. Today we concentrate on a few public-company and commodity exposures, calculating what their historical accounts show, what their market prices assume, and which future evidence should change our view.",
+  "assets": [
+    {
+      "ticker": "MRVL",
+      "name": "MARVELL TECHNOLOGY, INC",
+      "kind": "equity",
+      "facts": {
+        "observation": "MRVL reported $8.19 billion in annual sales for its fiscal year ending 2026-01-31. Sales changed +42.1% from the previous annual filing. Of those operations, $1.75 billion became operating cash. After $354.1 million of investment in property and equipment, the simplified free cash flow was $1.40 billion. Free cash flow is the money remaining after those investment costs; it is not the same as accounting profit. The company generated positive free cash flow in 3 of 3 recorded years. [S1]",
+        "financial_health": "The latest available cash balance is $3.93 billion and the SEC long-term debt tag is $4.96 billion. That debt tag is not a measure of every financial obligation. [S1]",
+        "valuation": "A reverse cash-flow check asks a useful question: what growth would today's price need to justify it? Under deliberately fixed assumptions of an 11% required return, 2% perpetual growth and no net borrowing, the price implies approximately 78.3% annual free-cash-flow growth over five years. If growth were instead 0% growth \u2192 7% of today's market cap; 5% growth \u2192 9% of today's market cap; 10% growth \u2192 11% of today's market cap. These are sensitivity calculations, not company-specific fair values. [S1][S2]",
+        "counter_case": "An important alternative explanation is that last year's cash generation may not represent a normal year. Competitive changes, industry cycles and working-capital timing can make a stock look inexpensive right before its profits decline. Our next test is to compare the latest quarterly filing with the prior three annual years.",
+        "decision": "RESEARCH / WATCH MRVL; no automatic purchase. Demand an independently justified earnings path and a margin of safety before diverting VOO contributions.",
+        "next_check": "Read the latest 10-Q and management risk discussion; normalize margins and cash conversion across a full business cycle."
+      },
+      "ai": null,
+      "sources": [
+        {
+          "id": "S1",
+          "label": "SEC company financial facts",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001835632.json"
+        },
+        {
+          "id": "S2",
+          "label": "Market screener snapshot",
+          "url": "https://finance.yahoo.com/quote/MRVL/financials/"
+        },
+        {
+          "id": "S3",
+          "label": "SEC submissions",
+          "url": "https://data.sec.gov/submissions/CIK0001835632.json"
+        },
+        {
+          "id": "S4",
+          "label": "8-K filed 2026-10-23",
+          "url": "https://www.sec.gov/Archives/edgar/data/1835632/000119312526430424/d147430d8k.htm"
+        },
+        {
+          "id": "S5",
+          "label": "8-K filed 2026-09-25",
+          "url": "https://www.sec.gov/Archives/edgar/data/1835632/000162828026063592/mrvl-20260925.htm"
+        },
+        {
+          "id": "S6",
+          "label": "10-Q filed 2026-08-28",
+          "url": "https://www.sec.gov/Archives/edgar/data/1835632/000183563226000025/mrvl-20260801.htm"
+        },
+        {
+          "id": "S7",
+          "label": "8-K filed 2026-08-27",
+          "url": "https://www.sec.gov/Archives/edgar/data/1835632/000183563226000022/mrvl-20260827.htm"
+        }
+      ]
+    },
+    {
+      "ticker": "MPC",
+      "name": "Marathon Petroleum Corporation",
+      "kind": "equity",
+      "facts": {
+        "observation": "MPC reported $132.70 billion in annual sales for its fiscal year ending 2025-12-31. Sales changed -4.4% from the previous annual filing. Of those operations, $8.25 billion became operating cash. After $3.49 billion of investment in property and equipment, the simplified free cash flow was $4.77 billion. Free cash flow is the money remaining after those investment costs; it is not the same as accounting profit. The company generated positive free cash flow in 3 of 3 recorded years. [S1]",
+        "financial_health": "The latest available cash balance is $7.77 billion and the SEC long-term debt tag is $3.31 billion. That debt tag is not a measure of every financial obligation. [S1]",
+        "valuation": "A reverse cash-flow check asks a useful question: what growth would today's price need to justify it? Under deliberately fixed assumptions of an 11% required return, 2% perpetual growth and no net borrowing, the price implies approximately 24.2% annual free-cash-flow growth over five years. If growth were instead 0% growth \u2192 39% of today's market cap; 5% growth \u2192 48% of today's market cap; 10% growth \u2192 58% of today's market cap. These are sensitivity calculations, not company-specific fair values. [S1][S2]",
+        "counter_case": "An important alternative explanation is that last year's cash generation may not represent a normal year. Competitive changes, industry cycles and working-capital timing can make a stock look inexpensive right before its profits decline. Our next test is to compare the latest quarterly filing with the prior three annual years.",
+        "decision": "RESEARCH / WATCH MPC; no automatic purchase. Demand an independently justified earnings path and a margin of safety before diverting VOO contributions.",
+        "next_check": "Read the latest 10-Q and management risk discussion; normalize margins and cash conversion across a full business cycle."
+      },
+      "ai": null,
+      "sources": [
+        {
+          "id": "S1",
+          "label": "SEC company financial facts",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001510295.json"
+        },
+        {
+          "id": "S2",
+          "label": "Market screener snapshot",
+          "url": "https://finance.yahoo.com/quote/MPC/financials/"
+        },
+        {
+          "id": "S3",
+          "label": "SEC submissions",
+          "url": "https://data.sec.gov/submissions/CIK0001510295.json"
+        },
+        {
+          "id": "S4",
+          "label": "10-Q filed 2026-08-04",
+          "url": "https://www.sec.gov/Archives/edgar/data/1510295/000151029526000061/mpc-20260630.htm"
+        },
+        {
+          "id": "S5",
+          "label": "8-K filed 2026-08-04",
+          "url": "https://www.sec.gov/Archives/edgar/data/1510295/000151029526000060/mpc-20260804.htm"
+        },
+        {
+          "id": "S6",
+          "label": "8-K filed 2026-06-29",
+          "url": "https://www.sec.gov/Archives/edgar/data/1510295/000151029526000055/mpc-20260626.htm"
+        },
+        {
+          "id": "S7",
+          "label": "10-Q filed 2026-05-05",
+          "url": "https://www.sec.gov/Archives/edgar/data/1510295/000151029526000042/mpc-20260331.htm"
+        }
+      ]
+    },
+    {
+      "ticker": "GLD",
+      "name": "Physical gold",
+      "kind": "commodity_proxy",
+      "facts": {
+        "observation": "GLD is an exchange-traded route into physical gold, not a claim of owning the spot commodity directly. Its adjusted share price changed -2.1% over three months and -15.4% over six months. That is -22.4 percentage points versus VOO over those same six months. Price date: 2026-10-23. [S1][S2]",
+        "financial_health": "Unlike a company, a commodity has no earnings or free cash flow to forecast. Its case depends on economic demand, interest rates, currency conditions and fund costs.",
+        "valuation": "For this exposure, monitor underlying commodity prices, financing conditions and ETF tracking costs rather than applying a company discounted-cash-flow formula.",
+        "counter_case": "If interest-bearing assets become relatively more attractive, a commodity without cash distributions can lose demand. Past price momentum alone is not evidence of future outperformance.",
+        "decision": "DIVERSIFICATION WATCH, not a performance-chasing trade. Compare the benefit of adding this exposure to your existing VOO holdings against extra costs and volatility.",
+        "next_check": "Compare the fund's issuer documentation, charges and tracking against VOO, then test a modest allocation across different inflation and equity-market regimes."
+      },
+      "ai": null,
+      "sources": [
+        {
+          "id": "S1",
+          "label": "Fund issuer",
+          "url": "https://www.spdrgoldshares.com/usa/"
+        },
+        {
+          "id": "S2",
+          "label": "Historical adjusted ETF prices",
+          "url": "https://finance.yahoo.com/quote/GLD/history/"
+        }
+      ]
+    }
+  ],
+  "ai_analysed_count": 0,
+  "ai_configured": false,
+  "research_failures_count": 0,
+  "selected_from": 747,
+  "research_version": "focused_dossier_v1",
+  "conclusion": "Maintain the VOO baseline; place new ideas on a documented research watchlist rather than trade on a screener ranking.",
+  "method": "SEC filing facts + dated market data; quantitative valuations are scenario stress tests; source-bounded analyst and skeptical review only when configured.",
+  "crypto_excluded": true
+}

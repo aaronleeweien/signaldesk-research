@@ -1,0 +1,325 @@
+{
+  "version": "focused_dossier_v1",
+  "market_date": "2026-10-23",
+  "generated_utc": "2026-10-25T01:52:07.843963+00:00",
+  "screened_total": 747,
+  "selected_equities": 2,
+  "asset_count": 3,
+  "assets": [
+    {
+      "kind": "equity",
+      "ticker": "MRVL",
+      "name": "MARVELL TECHNOLOGY, INC",
+      "metrics": {
+        "ticker": "MRVL",
+        "name": "MARVELL TECHNOLOGY, INC",
+        "fiscal_year_end": "2026-01-31",
+        "market_cap_usd": 205362987008.0,
+        "forward_pe": 31.178707,
+        "revenue_usd": 8194600000.0,
+        "revenue_growth_yoy_pct": 42.09,
+        "net_income_usd": 2670100000.0,
+        "operating_cash_usd": 1750500000.0,
+        "capital_spending_usd": 354100000.0,
+        "fcf_usd": 1396400000.0,
+        "fcf_yield_pct": 0.68,
+        "fcf_positive_years": 3,
+        "fcf_years_available": 3,
+        "cash_usd": 3932800000.0,
+        "debt_usd": 4962900000.0,
+        "price_implied_fcf_growth_pct": 78.35,
+        "reverse_model_required_return_pct": 11.0,
+        "reverse_model_terminal_growth_pct": 2.0,
+        "scenario_sensitivity": {
+          "no_growth": {
+            "annual_fcf_growth_assumed_pct": 0.0,
+            "illustrative_equity_value_usd": 14552832186.46,
+            "value_as_pct_of_current_market_cap": 7.09
+          },
+          "moderate_growth": {
+            "annual_fcf_growth_assumed_pct": 5.0,
+            "illustrative_equity_value_usd": 17914832992.11,
+            "value_as_pct_of_current_market_cap": 8.72
+          },
+          "fast_growth": {
+            "annual_fcf_growth_assumed_pct": 10.0,
+            "illustrative_equity_value_usd": 21921267957.14,
+            "value_as_pct_of_current_market_cap": 10.67
+          }
+        },
+        "annual_history": [
+          {
+            "fiscal_year_ended": "2026-01-31",
+            "revenue_usd": 8194600000.0,
+            "free_cash_flow_usd": 1396400000.0
+          },
+          {
+            "fiscal_year_ended": "2025-02-01",
+            "revenue_usd": 5767300000.0,
+            "free_cash_flow_usd": 1396600000.0
+          },
+          {
+            "fiscal_year_ended": "2024-02-03",
+            "revenue_usd": 5507700000.0,
+            "free_cash_flow_usd": 1034200000.0
+          }
+        ]
+      },
+      "sources": [
+        {
+          "id": "S1",
+          "kind": "SEC company financial facts",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001835632.json",
+          "summary": "SEC filed annual statements; values computed in verified_metrics, including fiscal year and filing dates."
+        },
+        {
+          "id": "S2",
+          "kind": "Market screener snapshot",
+          "url": "https://finance.yahoo.com/quote/MRVL/financials/",
+          "summary": "Yahoo screen-forward P/E and as-of market capitalization are non-audited and change daily."
+        },
+        {
+          "id": "S3",
+          "kind": "SEC submissions",
+          "url": "https://data.sec.gov/submissions/CIK0001835632.json",
+          "summary": "Dated SEC filing history, including recent 10-Q and 8-K documents."
+        },
+        {
+          "id": "S4",
+          "kind": "8-K filed 2026-10-23",
+          "url": "https://www.sec.gov/Archives/edgar/data/1835632/000119312526430424/d147430d8k.htm",
+          "summary": "8-K primary filing document; examine before relying on management claims."
+        },
+        {
+          "id": "S5",
+          "kind": "8-K filed 2026-09-25",
+          "url": "https://www.sec.gov/Archives/edgar/data/1835632/000162828026063592/mrvl-20260925.htm",
+          "summary": "8-K primary filing document; examine before relying on management claims."
+        },
+        {
+          "id": "S6",
+          "kind": "10-Q filed 2026-08-28",
+          "url": "https://www.sec.gov/Archives/edgar/data/1835632/000183563226000025/mrvl-20260801.htm",
+          "summary": "10-Q primary filing document; examine before relying on management claims."
+        },
+        {
+          "id": "S7",
+          "kind": "8-K filed 2026-08-27",
+          "url": "https://www.sec.gov/Archives/edgar/data/1835632/000183563226000022/mrvl-20260827.htm",
+          "summary": "8-K primary filing document; examine before relying on management claims."
+        }
+      ],
+      "filings": {
+        "submissions_url": "https://data.sec.gov/submissions/CIK0001835632.json",
+        "recent_filings": [
+          {
+            "form": "8-K",
+            "filed": "2026-10-23",
+            "url": "https://www.sec.gov/Archives/edgar/data/1835632/000119312526430424/d147430d8k.htm",
+            "accession": "0001193125-26-430424"
+          },
+          {
+            "form": "8-K",
+            "filed": "2026-09-25",
+            "url": "https://www.sec.gov/Archives/edgar/data/1835632/000162828026063592/mrvl-20260925.htm",
+            "accession": "0001628280-26-063592"
+          },
+          {
+            "form": "10-Q",
+            "filed": "2026-08-28",
+            "url": "https://www.sec.gov/Archives/edgar/data/1835632/000183563226000025/mrvl-20260801.htm",
+            "accession": "0001835632-26-000025"
+          },
+          {
+            "form": "8-K",
+            "filed": "2026-08-27",
+            "url": "https://www.sec.gov/Archives/edgar/data/1835632/000183563226000022/mrvl-20260827.htm",
+            "accession": "0001835632-26-000022"
+          },
+          {
+            "form": "8-K",
+            "filed": "2026-08-19",
+            "url": "https://www.sec.gov/Archives/edgar/data/1835632/000119312526356217/d412696d8k.htm",
+            "accession": "0001193125-26-356217"
+          }
+        ],
+        "annual_excerpt": []
+      },
+      "investment_role": "Candidate for multi-year valuation research, not an approved trade."
+    },
+    {
+      "kind": "equity",
+      "ticker": "MPC",
+      "name": "Marathon Petroleum Corporation",
+      "metrics": {
+        "ticker": "MPC",
+        "name": "Marathon Petroleum Corporation",
+        "fiscal_year_end": "2025-12-31",
+        "market_cap_usd": 128398704640.0,
+        "forward_pe": 7.8240347,
+        "revenue_usd": 132699000000.0,
+        "revenue_growth_yoy_pct": -4.44,
+        "net_income_usd": 4047000000.0,
+        "operating_cash_usd": 8253000000.0,
+        "capital_spending_usd": 3486000000.0,
+        "fcf_usd": 4767000000.0,
+        "fcf_yield_pct": 3.71,
+        "fcf_positive_years": 3,
+        "fcf_years_available": 3,
+        "cash_usd": 7768000000.0,
+        "debt_usd": 3311000000.0,
+        "price_implied_fcf_growth_pct": 24.16,
+        "reverse_model_required_return_pct": 11.0,
+        "reverse_model_terminal_growth_pct": 2.0,
+        "scenario_sensitivity": {
+          "no_growth": {
+            "annual_fcf_growth_assumed_pct": 0.0,
+            "illustrative_equity_value_usd": 49680142532.83,
+            "value_as_pct_of_current_market_cap": 38.69
+          },
+          "moderate_growth": {
+            "annual_fcf_growth_assumed_pct": 5.0,
+            "illustrative_equity_value_usd": 61157267884.14,
+            "value_as_pct_of_current_market_cap": 47.63
+          },
+          "fast_growth": {
+            "annual_fcf_growth_assumed_pct": 10.0,
+            "illustrative_equity_value_usd": 74834348576.12,
+            "value_as_pct_of_current_market_cap": 58.28
+          }
+        },
+        "annual_history": [
+          {
+            "fiscal_year_ended": "2025-12-31",
+            "revenue_usd": 132699000000.0,
+            "free_cash_flow_usd": 4767000000.0
+          },
+          {
+            "fiscal_year_ended": "2024-12-31",
+            "revenue_usd": 138864000000.0,
+            "free_cash_flow_usd": 6132000000.0
+          },
+          {
+            "fiscal_year_ended": "2023-12-31",
+            "revenue_usd": 148379000000.0,
+            "free_cash_flow_usd": 12227000000.0
+          }
+        ]
+      },
+      "sources": [
+        {
+          "id": "S1",
+          "kind": "SEC company financial facts",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001510295.json",
+          "summary": "SEC filed annual statements; values computed in verified_metrics, including fiscal year and filing dates."
+        },
+        {
+          "id": "S2",
+          "kind": "Market screener snapshot",
+          "url": "https://finance.yahoo.com/quote/MPC/financials/",
+          "summary": "Yahoo screen-forward P/E and as-of market capitalization are non-audited and change daily."
+        },
+        {
+          "id": "S3",
+          "kind": "SEC submissions",
+          "url": "https://data.sec.gov/submissions/CIK0001510295.json",
+          "summary": "Dated SEC filing history, including recent 10-Q and 8-K documents."
+        },
+        {
+          "id": "S4",
+          "kind": "10-Q filed 2026-08-04",
+          "url": "https://www.sec.gov/Archives/edgar/data/1510295/000151029526000061/mpc-20260630.htm",
+          "summary": "10-Q primary filing document; examine before relying on management claims."
+        },
+        {
+          "id": "S5",
+          "kind": "8-K filed 2026-08-04",
+          "url": "https://www.sec.gov/Archives/edgar/data/1510295/000151029526000060/mpc-20260804.htm",
+          "summary": "8-K primary filing document; examine before relying on management claims."
+        },
+        {
+          "id": "S6",
+          "kind": "8-K filed 2026-06-29",
+          "url": "https://www.sec.gov/Archives/edgar/data/1510295/000151029526000055/mpc-20260626.htm",
+          "summary": "8-K primary filing document; examine before relying on management claims."
+        },
+        {
+          "id": "S7",
+          "kind": "10-Q filed 2026-05-05",
+          "url": "https://www.sec.gov/Archives/edgar/data/1510295/000151029526000042/mpc-20260331.htm",
+          "summary": "10-Q primary filing document; examine before relying on management claims."
+        }
+      ],
+      "filings": {
+        "submissions_url": "https://data.sec.gov/submissions/CIK0001510295.json",
+        "recent_filings": [
+          {
+            "form": "10-Q",
+            "filed": "2026-08-04",
+            "url": "https://www.sec.gov/Archives/edgar/data/1510295/000151029526000061/mpc-20260630.htm",
+            "accession": "0001510295-26-000061"
+          },
+          {
+            "form": "8-K",
+            "filed": "2026-08-04",
+            "url": "https://www.sec.gov/Archives/edgar/data/1510295/000151029526000060/mpc-20260804.htm",
+            "accession": "0001510295-26-000060"
+          },
+          {
+            "form": "8-K",
+            "filed": "2026-06-29",
+            "url": "https://www.sec.gov/Archives/edgar/data/1510295/000151029526000055/mpc-20260626.htm",
+            "accession": "0001510295-26-000055"
+          },
+          {
+            "form": "10-Q",
+            "filed": "2026-05-05",
+            "url": "https://www.sec.gov/Archives/edgar/data/1510295/000151029526000042/mpc-20260331.htm",
+            "accession": "0001510295-26-000042"
+          },
+          {
+            "form": "8-K",
+            "filed": "2026-05-05",
+            "url": "https://www.sec.gov/Archives/edgar/data/1510295/000151029526000039/mpc-20260505.htm",
+            "accession": "0001510295-26-000039"
+          }
+        ],
+        "annual_excerpt": []
+      },
+      "investment_role": "Candidate for multi-year valuation research, not an approved trade."
+    },
+    {
+      "kind": "commodity_proxy",
+      "ticker": "GLD",
+      "name": "Physical gold",
+      "metrics": {
+        "price_usd": 366.61,
+        "return_3m_pct": -2.14,
+        "return_6m_pct": -15.38,
+        "asof": "2026-10-23",
+        "source": "https://finance.yahoo.com/quote/GLD/history/",
+        "relative_6m_to_voo_pp": -22.39,
+        "proxy_kind": "Physical gold",
+        "voo_return_6m_pct": 7.01
+      },
+      "sources": [
+        {
+          "id": "S1",
+          "kind": "Fund issuer",
+          "url": "https://www.spdrgoldshares.com/usa/",
+          "summary": "Issuer describes the commodity exposure and its costs and structure."
+        },
+        {
+          "id": "S2",
+          "kind": "Historical adjusted ETF prices",
+          "url": "https://finance.yahoo.com/quote/GLD/history/",
+          "summary": "Historical adjusted share prices, not a spot commodity price or futures curve."
+        }
+      ],
+      "investment_role": "Portfolio-diversification research, not a commodity spot-price prediction."
+    }
+  ],
+  "excluded": "All cryptocurrency, tokens and crypto-exposed businesses; no crypto recommendations.",
+  "benchmark": "VOO after costs where comparable",
+  "diagnostics": []
+}

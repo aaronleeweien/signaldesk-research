@@ -1,179 +1,111 @@
-# SignalDesk — Daily Investment Report
+# SignalDesk | Investment Research Desk
 
 Market close: 2026-10-23
 
+**VOO remains the default; investigate only a few clearly defined alternatives.**
 
+We keep a diversified VOO base. Today we concentrate on a few public-company and commodity exposures, calculating what their historical accounts show, what their market prices assume, and which future evidence should change our view.
 
-**My recommendation: keep investing in VOO. Do not open a new real-money trade.**
 
 
+## Today’s conclusion
 
-VOO is already a simple way to own many large US companies. A different asset must give us a good reason to expect better future returns, not just show that it made more money before.
+Maintain the VOO baseline; place new ideas on a documented research watchlist rather than trade on a screener ranking.
 
 
 
-## Could something beat VOO over the next few years?
+## 1. MRVL — MARVELL TECHNOLOGY, INC
 
+**Why it is on the desk:** MRVL reported $8.19 billion in annual sales for its fiscal year ending 2026-01-31. Sales changed +42.1% from the previous annual filing. Of those operations, $1.75 billion became operating cash. After $354.1 million of investment in property and equipment, the simplified free cash flow was $1.40 billion. Free cash flow is the money remaining after those investment costs; it is not the same as accounting profit. The company generated positive free cash flow in 3 of 3 recorded years. [S1]
 
+**Financial context:** The latest available cash balance is $3.93 billion and the SEC long-term debt tag is $4.96 billion. That debt tag is not a measure of every financial obligation. [S1]
 
-### QQQ
+**What today’s price appears to demand:** A reverse cash-flow check asks a useful question: what growth would today's price need to justify it? Under deliberately fixed assumptions of an 11% required return, 2% perpetual growth and no net borrowing, the price implies approximately 78.3% annual free-cash-flow growth over five years. If growth were instead 0% growth → 7% of today's market cap; 5% growth → 9% of today's market cap; 10% growth → 11% of today's market cap. These are sensitivity calculations, not company-specific fair values. [S1][S2]
 
-**What I would do:** KEEP ON THE LONG-TERM WATCHLIST. Do not replace VOO yet.
+**The opposing case:** An important alternative explanation is that last year's cash generation may not represent a normal year. Competitive changes, industry cycles and working-capital timing can make a stock look inexpensive right before its profits decline. Our next test is to compare the latest quarterly filing with the prior three annual years.
 
-QQQ owns many large Nasdaq-listed companies. Some grew much faster than the wider S&P 500 → QQQ earned more over the period we tested. But heavy exposure to growth companies also means it can fall hard if their prices drop.
+**Research decision:** RESEARCH / WATCH MRVL; no automatic purchase. Demand an independently justified earnings path and a margin of safety before diverting VOO contributions.
 
-**Evidence:** Since January 2022, annualised total return (average compounded yearly growth) was 13.18%, against VOO at 11.69%. That is +1.49 percentage points per year; the fund's largest peak-to-trough drop (drawdown) was -34.88%.
+**The next real investigation:** Read the latest 10-Q and management risk discussion; normalize margins and cash conversion across a full business cycle.
 
-**Still missing:** We have actual past fund returns, but not a reliable forecast of the return at today's price.
+**Primary evidence:**
 
+- [S1] SEC company financial facts: https://data.sec.gov/api/xbrl/companyfacts/CIK0001835632.json
 
+- [S2] Market screener snapshot: https://finance.yahoo.com/quote/MRVL/financials/
 
-### SPMO
+- [S3] SEC submissions: https://data.sec.gov/submissions/CIK0001835632.json
 
-**What I would do:** RESEARCH AS A POSSIBLE LONG-TERM ADDITION; no immediate switch.
+- [S4] 8-K filed 2026-10-23: https://www.sec.gov/Archives/edgar/data/1835632/000119312526430424/d147430d8k.htm
 
-SPMO holds S&P 500 stocks whose prices had stronger momentum (recent price strength). Those stocks kept performing well in some past periods → the fund beat VOO. The current trend check is weak, so the record alone does not settle whether to buy now.
+- [S5] 8-K filed 2026-09-25: https://www.sec.gov/Archives/edgar/data/1835632/000162828026063592/mrvl-20260925.htm
 
-**Evidence:** Since January 2022, annualised total return (average compounded yearly growth) was 18.51%, against VOO at 11.69%. That is +6.82 percentage points per year; the fund's largest peak-to-trough drop (drawdown) was -22.77%.
+- [S6] 10-Q filed 2026-08-28: https://www.sec.gov/Archives/edgar/data/1835632/000183563226000025/mrvl-20260801.htm
 
-**Still missing:** We have no defensible future expected return or fair-value estimate for this fund.
+- [S7] 8-K filed 2026-08-27: https://www.sec.gov/Archives/edgar/data/1835632/000183563226000022/mrvl-20260827.htm
 
 
 
-### SMH
+## 2. MPC — Marathon Petroleum Corporation
 
-**What I would do:** ONLY IF YOU ACCEPT A MUCH BIGGER LOSS RISK. Not my first choice.
+**Why it is on the desk:** MPC reported $132.70 billion in annual sales for its fiscal year ending 2025-12-31. Sales changed -4.4% from the previous annual filing. Of those operations, $8.25 billion became operating cash. After $3.49 billion of investment in property and equipment, the simplified free cash flow was $4.77 billion. Free cash flow is the money remaining after those investment costs; it is not the same as accounting profit. The company generated positive free cash flow in 3 of 3 recorded years. [S1]
 
-SMH concentrates in semiconductor companies. That industry grew unusually fast → SMH beat VOO by a lot. Concentration works both ways → one bad period for chip stocks can hurt more than a broad fund.
+**Financial context:** The latest available cash balance is $7.77 billion and the SEC long-term debt tag is $3.31 billion. That debt tag is not a measure of every financial obligation. [S1]
 
-**Evidence:** Since January 2022, annualised total return (average compounded yearly growth) was 29.53%, against VOO at 11.69%. That is +17.84 percentage points per year; the fund's largest peak-to-trough drop (drawdown) was -45.08%.
+**What today’s price appears to demand:** A reverse cash-flow check asks a useful question: what growth would today's price need to justify it? Under deliberately fixed assumptions of an 11% required return, 2% perpetual growth and no net borrowing, the price implies approximately 24.2% annual free-cash-flow growth over five years. If growth were instead 0% growth → 39% of today's market cap; 5% growth → 48% of today's market cap; 10% growth → 58% of today's market cap. These are sensitivity calculations, not company-specific fair values. [S1][S2]
 
-**Still missing:** The return came with higher sector concentration; it does not prove that this extra risk is worth taking from here.
+**The opposing case:** An important alternative explanation is that last year's cash generation may not represent a normal year. Competitive changes, industry cycles and working-capital timing can make a stock look inexpensive right before its profits decline. Our next test is to compare the latest quarterly filing with the prior three annual years.
 
+**Research decision:** RESEARCH / WATCH MPC; no automatic purchase. Demand an independently justified earnings path and a margin of safety before diverting VOO contributions.
 
+**The next real investigation:** Read the latest 10-Q and management risk discussion; normalize margins and cash conversion across a full business cycle.
 
-### Stock example: VSXY
+**Primary evidence:**
 
-**What I would do:** RESEARCH FURTHER; do not buy based on this screen alone.
+- [S1] SEC company financial facts: https://data.sec.gov/api/xbrl/companyfacts/CIK0001510295.json
 
-VSXY's price rose faster than VOO over the last year → our screen noticed it. We then looked at its forward P/E (price divided by forecast earnings) to ask whether the price might be expensive. But P/E alone cannot tell us what the company is worth.
+- [S2] Market screener snapshot: https://finance.yahoo.com/quote/MPC/financials/
 
-**Evidence:** Past one-year advantage over VOO: +177.03 percentage points. Forward P/E: 16.1. Displayed EPS growth: 26.08%.
+- [S3] SEC submissions: https://data.sec.gov/submissions/CIK0001510295.json
 
-**Still missing:** Important: the growth number was calculated from trailing and forward P/E ratios, NOT obtained from an independent company profit forecast.
+- [S4] 10-Q filed 2026-08-04: https://www.sec.gov/Archives/edgar/data/1510295/000151029526000061/mpc-20260630.htm
 
+- [S5] 8-K filed 2026-08-04: https://www.sec.gov/Archives/edgar/data/1510295/000151029526000060/mpc-20260804.htm
 
+- [S6] 8-K filed 2026-06-29: https://www.sec.gov/Archives/edgar/data/1510295/000151029526000055/mpc-20260626.htm
 
-## What the actual SEC financial filings say
+- [S7] 10-Q filed 2026-05-05: https://www.sec.gov/Archives/edgar/data/1510295/000151029526000042/mpc-20260331.htm
 
 
 
-### Filing: VSXY
+## 3. GLD — Physical gold
 
-PRIMARY-SOURCE FINANCIAL CHECK ONLY; not a buy recommendation.
+**Why it is on the desk:** GLD is an exchange-traded route into physical gold, not a claim of owning the spot commodity directly. Its adjusted share price changed -2.1% over three months and -15.4% over six months. That is -22.4 percentage points versus VOO over those same six months. Price date: 2026-10-23. [S1][S2]
 
-FCF (free cash flow) means cash generated from operations minus money spent on property and equipment. Positive FCF can help a company invest, repay debt or return cash to shareholders. FCF yield compares that historical cash with today's market value: a higher number can be attractive but could also mean that cash flow is expected to decline. Revenue growth tells us whether sales expanded, not whether investors will earn a profit.
+**Financial context:** Unlike a company, a commodity has no earnings or free cash flow to forecast. Its case depends on economic demand, interest rates, currency conditions and fund costs.
 
-**Reported facts:** SEC 10-K year ended 2026-01-31: revenue USD 6.55 billion; year-on-year revenue growth 5.18%; net income USD 0.16 billion; operating cash flow USD 0.50 billion; capital spending USD 0.19 billion; free cash flow USD 0.31 billion; free-cash-flow yield 4.31%. Annual free cash flow in the latest available filing years: 2026-01-31: USD 0.31 billion; 2025-02-01: USD 0.25 billion; 2024-02-03: USD 0.13 billion. Positive free cash flow in 3 of 3 available years; a single positive year is not proof of stability. Reported cash balance USD 0.52 billion (balance-sheet date 2026-08-01). Reported long-term-debt tag USD 0.97 billion (balance-sheet date 2026-08-01); this may NOT include every liability. Reverse-valuation arithmetic: today's stock-market value would require about 20.15% annual free-cash-flow growth for five years under the FIXED 11% investor-required return and 2% perpetual terminal growth assumptions. Sensitivity if FCF growth instead stays at 0%, 5%, or 10%: no growth: 44.89% of market cap; moderate growth: 55.25% of market cap; fast growth: 67.61% of market cap.
+**What today’s price appears to demand:** For this exposure, monitor underlying commodity prices, financing conditions and ETF tracking costs rather than applying a company discounted-cash-flow formula.
 
-**Limitations:** We still need current-quarter context, business quality, competitors, detailed debt analysis, forward earnings and a properly justified valuation scenario before claiming this may beat VOO. Annual reports lag today's market price; the SEC facts may include amendments. The reverse-valuation calculation is a sensitivity exercise, NOT a verified fair value or a company forecast: real growth, discount rates, cash use and borrowing could differ substantially.
+**The opposing case:** If interest-bearing assets become relatively more attractive, a commodity without cash distributions can lose demand. Past price momentum alone is not evidence of future outperformance.
 
-**SEC source:** https://data.sec.gov/api/xbrl/companyfacts/CIK0001856437.json
+**Research decision:** DIVERSIFICATION WATCH, not a performance-chasing trade. Compare the benefit of adding this exposure to your existing VOO holdings against extra costs and volatility.
 
-**Filed:** 2026-03-20
+**The next real investigation:** Compare the fund's issuer documentation, charges and tracking against VOO, then test a modest allocation across different inflation and equity-market regimes.
 
+**Primary evidence:**
 
+- [S1] Fund issuer: https://www.spdrgoldshares.com/usa/
 
-### Filing: MRVL
+- [S2] Historical adjusted ETF prices: https://finance.yahoo.com/quote/GLD/history/
 
-PRIMARY-SOURCE FINANCIAL CHECK ONLY; not a buy recommendation.
 
-FCF (free cash flow) means cash generated from operations minus money spent on property and equipment. Positive FCF can help a company invest, repay debt or return cash to shareholders. FCF yield compares that historical cash with today's market value: a higher number can be attractive but could also mean that cash flow is expected to decline. Revenue growth tells us whether sales expanded, not whether investors will earn a profit.
 
-**Reported facts:** SEC 10-K year ended 2026-01-31: revenue USD 8.19 billion; year-on-year revenue growth 42.09%; net income USD 2.67 billion; operating cash flow USD 1.75 billion; capital spending USD 0.35 billion; free cash flow USD 1.40 billion; free-cash-flow yield 0.68%. Annual free cash flow in the latest available filing years: 2026-01-31: USD 1.40 billion; 2025-02-01: USD 1.40 billion; 2024-02-03: USD 1.03 billion. Positive free cash flow in 3 of 3 available years; a single positive year is not proof of stability. Reported cash balance USD 3.93 billion (balance-sheet date 2026-08-01). Reported long-term-debt tag USD 4.96 billion (balance-sheet date 2026-08-01); this may NOT include every liability. Reverse-valuation arithmetic: today's stock-market value would require about 78.35% annual free-cash-flow growth for five years under the FIXED 11% investor-required return and 2% perpetual terminal growth assumptions. Sensitivity if FCF growth instead stays at 0%, 5%, or 10%: no growth: 7.09% of market cap; moderate growth: 8.72% of market cap; fast growth: 10.67% of market cap.
+## How the evidence is used
 
-**Limitations:** We still need current-quarter context, business quality, competitors, detailed debt analysis, forward earnings and a properly justified valuation scenario before claiming this may beat VOO. Annual reports lag today's market price; the SEC facts may include amendments. The reverse-valuation calculation is a sensitivity exercise, NOT a verified fair value or a company forecast: real growth, discount rates, cash use and borrowing could differ substantially.
+Facts from SEC financial statements are not the same as estimates of next-year earnings. The cash-flow valuation is a numerical stress test; independent AI review adds interpretation only when source identifiers can be verified.
 
-**SEC source:** https://data.sec.gov/api/xbrl/companyfacts/CIK0001835632.json
+Past performance and today’s valuation do not guarantee an outperforming investment. No crypto is included. This report makes no brokerage trades.
 
-**Filed:** 2026-03-11
+Research mode: 0 of 3 opportunities received two-pass AI investigation. 
 
-
-
-### Filing: PBR
-
-PRIMARY-SOURCE FINANCIAL CHECK ONLY; not a buy recommendation.
-
-FCF (free cash flow) means cash generated from operations minus money spent on property and equipment. Positive FCF can help a company invest, repay debt or return cash to shareholders. FCF yield compares that historical cash with today's market value: a higher number can be attractive but could also mean that cash flow is expected to decline. Revenue growth tells us whether sales expanded, not whether investors will earn a profit.
-
-**Reported facts:** SEC 10-K year ended unknown period: revenue not available; year-on-year revenue growth not available; net income not available; operating cash flow not available; capital spending not available; free cash flow not available; free-cash-flow yield not available.
-
-**Limitations:** We still need current-quarter context, business quality, competitors, detailed debt analysis, forward earnings and a properly justified valuation scenario before claiming this may beat VOO. Annual reports lag today's market price; the SEC facts may include amendments. The reverse-valuation calculation is a sensitivity exercise, NOT a verified fair value or a company forecast: real growth, discount rates, cash use and borrowing could differ substantially.
-
-**SEC source:** https://data.sec.gov/api/xbrl/companyfacts/CIK0001119639.json
-
-**Filed:** 
-
-
-
-### Filing: MPC
-
-PRIMARY-SOURCE FINANCIAL CHECK ONLY; not a buy recommendation.
-
-FCF (free cash flow) means cash generated from operations minus money spent on property and equipment. Positive FCF can help a company invest, repay debt or return cash to shareholders. FCF yield compares that historical cash with today's market value: a higher number can be attractive but could also mean that cash flow is expected to decline. Revenue growth tells us whether sales expanded, not whether investors will earn a profit.
-
-**Reported facts:** SEC 10-K year ended 2025-12-31: revenue USD 132.70 billion; year-on-year revenue growth -4.44%; net income USD 4.05 billion; operating cash flow USD 8.25 billion; capital spending USD 3.49 billion; free cash flow USD 4.77 billion; free-cash-flow yield 3.57%. Annual free cash flow in the latest available filing years: 2025-12-31: USD 4.77 billion; 2024-12-31: USD 6.13 billion; 2023-12-31: USD 12.23 billion. Positive free cash flow in 3 of 3 available years; a single positive year is not proof of stability. Reported cash balance USD 7.77 billion (balance-sheet date 2026-06-30). Reported long-term-debt tag USD 3.31 billion (balance-sheet date 2012-03-31); this may NOT include every liability. Reverse-valuation arithmetic: today's stock-market value would require about 25.23% annual free-cash-flow growth for five years under the FIXED 11% investor-required return and 2% perpetual terminal growth assumptions. Sensitivity if FCF growth instead stays at 0%, 5%, or 10%: no growth: 37.22% of market cap; moderate growth: 45.82% of market cap; fast growth: 56.06% of market cap.
-
-**Limitations:** We still need current-quarter context, business quality, competitors, detailed debt analysis, forward earnings and a properly justified valuation scenario before claiming this may beat VOO. Annual reports lag today's market price; the SEC facts may include amendments. The reverse-valuation calculation is a sensitivity exercise, NOT a verified fair value or a company forecast: real growth, discount rates, cash use and borrowing could differ substantially.
-
-**SEC source:** https://data.sec.gov/api/xbrl/companyfacts/CIK0001510295.json
-
-**Filed:** 2026-02-26
-
-
-
-## Is there a short-term trade?
-
-
-
-3 new technical breakouts appeared in our limited ETF/stock scanner. 0 of those passed our historical evidence check. No real-money trades are approved.
-
-
-
-### XLE breakout
-
-PAPER-TEST ONLY. I would not place a real trade.
-
-XLE moved above its recent high → our breakout rule noticed it → the model would buy at the next US open and sell when a stop or trend rule triggers. But spotting a big price move is not proof we can earn more than holding VOO.
-
-The old trades made +0.29 percentage points more per trade, on average, than VOO bought and sold on the same dates; the required historical evidence check failed.
-
-The paper entry is the next US regular open, not a known purchase price. Exit at the next open after the 7% closing stop, 10-day low, 200-day average, or after 15 sessions. The sell date can change.
-
-
-
-### Rebound research
-
-NOT A REAL TRADE. Keep it as a separate research idea.
-
-A falling stock can sometimes bounce back. The strategy buys after an unusually large fall → sells when the price recovers or a preset exit triggers → compares the entire account with regular VOO investing. Some companies passed the past test, but that test chose from today's surviving stocks.
-
-It checked 88 stocks; 2 passed the early historical filter (PLTR, FROG). It found 0 new paper entries.
-
-Because we know which stocks survived until today, the old results may be biased. This is not Kotegawa's exact trading method.
-
-
-
-**Final recommendation:** Keep DCA into VOO; no real trade is approved.
-
-
-
-## Missing evidence / limitations
-
-- The US exchange catalog had 10,931 listings, but only 747 stocks were in the screener output, 88 had historical prices checked, and 30 had basic valuation and growth fields. This is NOT every asset in the market.
-
-- Our stock-level valuation is a basic filter, not a Wall Street-quality fair-value model. No independent forecasts, earnings calls, detailed balance-sheet work, management evaluation or scenario-based price targets are in the report.
-
-- Backtests use historical prices and a modern selected stock universe. Results may look good because we know which stocks survived or because we tested multiple ideas.
-
-- The report uses completed US market prices, not live quotes. It cannot know tomorrow's profitable sell date.
+See the permanent historical backtest and paper records at the SignalDesk website.
