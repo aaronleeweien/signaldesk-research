@@ -99,7 +99,7 @@ def equity(asset):
             f"points as of {quote.get('last_price_date', 'the recorded close')}. "
             "This historical period is not a 3–6-month forecast. [S2]"
         )
-    if sales is not None and sales > 15 and fcf_growth is not None and fcf_growth < 5:
+    if sales is not None and sales > 15 and fcf_growth is not None and fcf_growth < 5.1:
         mechanism = (
             f"Revenue at {ticker} has grown much faster than cash remaining after capital spending. "
             "New sales only create lasting shareholder value if they eventually generate cash; "
