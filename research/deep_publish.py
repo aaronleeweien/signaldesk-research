@@ -207,8 +207,8 @@ def render_markdown(r):
                       'Do not infer bullish or bearish investor sentiment from an empty or incomplete '
                       'news sample; check the next filing and guidance against earlier company figures.']
         if q.get('filing_observations'):
-            for r in q['filing_observations']:
-                lines += [f"**Primary document to cross-check ({r['form']}, filed {r['filed']}):** {r['url']}"]
+            for filed_record in q['filing_observations']:
+                lines += [f"**Primary document to cross-check ({filed_record['form']}, filed {filed_record['filed']}):** {filed_record['url']}"]
         lines += ['**Important distinction:** A well-supported business story can still be a poor '
                   'investment if the stock price already reflects that story.']
         if a['ai']:

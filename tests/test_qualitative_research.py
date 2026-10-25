@@ -70,6 +70,9 @@ class QualitativeResearchTests(unittest.TestCase):
             "sources":[{"id":"S1","url":"https://news.google.com/rss/articles/xxx",
                         "kind":"source","summary":"headline"}],
             "qualitative_context":{"asof_utc":"2026-10-25T02:00:00+00:00",
+                "filing_observations":[{"form":"10-Q","filed":"2026-08-28",
+                    "url":"https://www.sec.gov/Archives/edgar/data/example",
+                    "excerpt":"Company filing passage"}],
                 "headline_sample":[{"title":"Gold prices rise","publisher":"Example",
                                     "published_utc":"2026-10-24T12:00:00+00:00",
                                     "url":NEWS_LINK}],
@@ -88,6 +91,8 @@ class QualitativeResearchTests(unittest.TestCase):
                        "The decisive follow-up check"):
             self.assertIn(phrase,html)
         self.assertIn("not verified company events",md)
+        self.assertIn("Research mode: 0 of 1",md)
+        self.assertIn("Primary document to cross-check (10-Q",md)
         self.assertIn("2026-10-25T02:00:00+00:00",html)
 
 if __name__=="__main__":
