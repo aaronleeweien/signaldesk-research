@@ -65,6 +65,8 @@ jobs:
           SIGNALDESK_SEC_USER_AGENT: ${{ secrets.SIGNALDESK_SEC_USER_AGENT }}
           SIGNALDESK_MAIL_TO: ${{ secrets.SIGNALDESK_MAIL_TO }}
         run: python research/deep_dossier.py
+      - name: Add dated market headlines and conditional economic narratives (no paid API)
+        run: python research/narrative_watch.py
       - name: Independently investigate and challenge the focused theses using AI
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
