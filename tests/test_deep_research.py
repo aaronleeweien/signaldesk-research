@@ -80,6 +80,28 @@ class FocusedResearchTests(unittest.TestCase):
             ai.validate({'summary':'The upside is a guaranteed 25% profit.','evidence_ids':['S1']},
                         {'S1'},('summary',))
 
+    def test_annual_filing_retrieved_even_when_buried_behind_events(self):
+        from research.deep_dossier import get_filing_evidence
+        forms=['8-K']*9+['10-Q','10-K']
+        ids=['0000000123-26-'+str(i).zfill(6) for i in range(len(forms))]
+        recent={'form':forms,
+            'accessionNumber':ids,
+            'primaryDocument':['document.htm']*len(forms),
+            'filingDate':['2026-10-20']*9+['2026-09-01','2026-03-01']}
+        def fake_json(url,agent):
+            return {'filings':{'recent':recent}}
+        def fake_html(url,agent):
+            return ('<html><body>Risk factors index. Managements discussion index. '
+                'Risk Factors Our customers may reduce orders. '
+                'Managements Discussion Revenue growth depends on chip demand.'
+                '</body></html>')
+        result=get_filing_evidence(123,'test contact',fetch_json=fake_json,fetch_html=fake_html)
+        self.assertIn('10-K',[x['form'] for x in result['priority_filings']])
+        self.assertIn('10-Q',[x['form'] for x in result['priority_filings']])
+        self.assertIn('8-K',[x['form'] for x in result['priority_filings']])
+        self.assertTrue(any(x['form']=='10-K' for x in result['read_passages']))
+        self.assertTrue(all(x['url'].startswith('https://www.sec.gov/') for x in result['priority_filings']))
+
     def test_never_publish_stale_cross_source_dossier(self):
         with self.assertRaises(ValueError):
             pub.briefing({'market_date':'2026-10-23','assets':[]},
