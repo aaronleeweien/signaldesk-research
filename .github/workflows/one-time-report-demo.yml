@@ -1,0 +1,60 @@
+name: One-time SignalDesk full report email demo
+on:
+  push:
+    paths:
+      - .github/workflows/one-time-report-demo.yml
+permissions:
+  contents: read
+jobs:
+  demo:
+    runs-on: ubuntu-latest
+    environment: github-pages
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Send current completed-market report as a clearly marked demo
+        env:
+          SIGNALDESK_GMAIL_FROM: ${{ secrets.SIGNALDESK_GMAIL_FROM }}
+          SIGNALDESK_MAIL_TO: ${{ secrets.SIGNALDESK_MAIL_TO }}
+          SIGNALDESK_GMAIL_APP_PASSWORD: ${{ secrets.SIGNALDESK_GMAIL_APP_PASSWORD }}
+        run: |
+          python - <<'PY'
+          import os
+          import smtplib
+          from research import editorial_report as editorial
+          from research.email_report import build_message
+          sender = os.environ.get("SIGNALDESK_GMAIL_FROM", "").strip()
+          recipient = os.environ.get("SIGNALDESK_MAIL_TO", "").strip()
+          password = "".join(os.environ.get("SIGNALDESK_GMAIL_APP_PASSWORD", "").split())
+          if not sender or not recipient or len(password) != 16:
+              raise SystemExit("Missing sender/recipient secret or invalid Google app-password length")
+          hub = editorial.get("decision_hub.json")
+          market = editorial.get("market_discovery.json")
+          established = editorial.get("established_strategies.json")
+          reversion = editorial.get("kotegawa_reversion.json")
+          sec = editorial.get("sec_fundamentals.json")
+          if any(x is None for x in (hub, market, established)):
+              raise SystemExit("Required SignalDesk research sources are missing")
+          info = editorial.narrative_bundle(
+              hub, market, established, rev=reversion, fundamentals=sec)
+          if not info["fresh"]:
+              raise SystemExit("Source market dates do not match; demo blocked")
+          demo_notice = ("DEMONSTRATION EMAIL — this is the existing research for the "
+              "completed US market session " + info["date"] +
+              ". It is NOT today's live trading advice or a new buy recommendation.")
+          markdown = demo_notice + "\n\n" + editorial.render_markdown(info)
+          html = editorial.render_article(info).replace(
+              '<div class="overline">SIGNALDESK · INVESTMENT RESEARCH NOTE</div>',
+              '<p style="padding:12px;border:1px solid #cbd9e1;font:14px system-ui">'
+              + demo_notice + '</p>'
+              + '<div class="overline">SIGNALDESK · INVESTMENT RESEARCH NOTE</div>')
+          message = build_message(sender, recipient, info, markdown, html)
+          message.replace_header("Subject",
+              f"SignalDesk DEMO — Complete research report ({info['date']})")
+          with smtplib.SMTP_SSL("smtp.gmail.com", 465, timeout=35) as smtp:
+              smtp.login(sender, password)
+              smtp.send_message(message)
+          print("DEMO FULL REPORT ACCEPTED BY GMAIL; research market date:", info["date"])
+          PY
