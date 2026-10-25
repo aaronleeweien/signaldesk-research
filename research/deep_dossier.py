@@ -223,7 +223,7 @@ def assemble(root=Path('research'),quote_fn=commodity_snapshot,filing_fn=get_fil
                         'url':passage['url'],'summary':passage['text']})
             except Exception as exc:diagnostics.append(sym+': SEC submissions '+type(exc).__name__)
         dossiers.append({'kind':'equity','ticker':sym,'name':metrics['name'],
-                         'metrics':metrics,'sources':sources,'filings':filing,
+                         'metrics':metrics,'price_context':{key:quote.get(key) for key in ('last_price_date','last_close_usd','return_last_year_pct','voo_same_year_pct','relative_to_voo_year_pp','momentum_3m_pct','momentum_6m_pct','above_200d_average')},'sources':sources,'filings':filing,
                          'investment_role':'Candidate for multi-year valuation research, not an approved trade.'})
     # An exposure to a REAL commodity via an exchange-traded proxy, not digital assets.
     commodity_prices={}
