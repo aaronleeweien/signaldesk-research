@@ -16,7 +16,7 @@
     "benchmark": "VOO DCA same dates and trading costs",
     "dataset_bias": "2026 survivor-only US market; never blindly extrapolate backtest"
   },
-  "screened_prices_for_assets": 88,
+  "screened_prices_for_assets": 87,
   "passing_retrospective_tests": 2,
   "new_paper_entry_setups": 0,
   "historical_screen_summary": [

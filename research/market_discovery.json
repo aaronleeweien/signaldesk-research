@@ -1,6 +1,6 @@
 {
   "version": "market_discovery_v1",
-  "generated_utc": "2026-10-25 01:59 UTC",
+  "generated_utc": "2026-10-25 05:00 UTC",
   "last_completed_us_price_date": "2026-10-23",
   "scope": "US exchange-listed public stocks and ETFs; NOT the entire global financial market.",
   "universe_catalog": {
@@ -20,7 +20,7 @@
     "screen_fully_marketwide": false,
     "screener_source": "https://ranaroussi.github.io/yfinance/reference/api/yfinance.screen.html"
   },
-  "stocks_with_price_and_momentum_results": 88,
+  "stocks_with_price_and_momentum_results": 87,
   "stocks_with_price_growth_and_valuation_data": 30,
   "stock_investing_watchlist": [
     {
@@ -1018,51 +1018,6 @@
       ]
     },
     {
-      "ticker": "BUUU",
-      "name": "BUUU Group Limited",
-      "sector": null,
-      "industry": null,
-      "market_cap_usd": 10158802944.0,
-      "average_volume_shares": 900737.0,
-      "forward_pe": null,
-      "trailing_pe": null,
-      "peg": null,
-      "earnings_growth_pct": null,
-      "revenue_growth_pct": null,
-      "sources": [
-        "Strong price momentum",
-        "Low price versus earnings"
-      ],
-      "earnings_growth_source": "not available",
-      "asset_type": "Stock",
-      "status": "WATCH / MISSING PROOF",
-      "forecast_status": "FORECAST PARTIAL — NOT A PRICE TARGET",
-      "last_close_usd": 53.9,
-      "return_last_year_pct": 565.43,
-      "voo_same_year_pct": 15.09,
-      "relative_to_voo_year_pp": 550.34,
-      "momentum_3m_pct": 134.49,
-      "momentum_6m_pct": 282.27,
-      "above_200d_average": true,
-      "trend_is_positive": true,
-      "valuation_metrics_complete": false,
-      "larger_established_company": true,
-      "extreme_one_year_return": true,
-      "fundamentals_are_forecasts": true,
-      "priority_score": 2067.78,
-      "last_price_date": "2026-10-23",
-      "simple_explanation": "One or more checks is missing: past outperformance, a strong trend, or enough earnings/valuation data.",
-      "valuation_note": "Forward P/E = today's stock price divided by estimated next-year earnings. A low P/E alone does not mean undervalued.",
-      "warnings": [
-        "Company earnings estimates can be wrong and often change.",
-        "When direct earnings growth is missing, any shown growth is estimated using forward and trailing P/E, not independent financial research.",
-        "Forward P/E does not measure true fair value; valuation differs by industry.",
-        "The current US-listed stock universe excludes previously delisted companies; historical results can be biased.",
-        "A large one-year price gain may reverse, so it is not automatically a good purchase.",
-        "Comparing trailing one-year stock returns with VOO is NOT proof of future excess returns."
-      ]
-    },
-    {
       "ticker": "IOVA",
       "name": "Iovance Biotherapeutics, Inc.",
       "sector": null,
@@ -1377,6 +1332,51 @@
         "A large one-year price gain may reverse, so it is not automatically a good purchase.",
         "Comparing trailing one-year stock returns with VOO is NOT proof of future excess returns."
       ]
+    },
+    {
+      "ticker": "RVMD",
+      "name": "Revolution Medicines, Inc.",
+      "sector": null,
+      "industry": null,
+      "market_cap_usd": 40078766080.0,
+      "average_volume_shares": 1980340.0,
+      "forward_pe": -32.44124,
+      "trailing_pe": null,
+      "peg": null,
+      "earnings_growth_pct": null,
+      "revenue_growth_pct": null,
+      "sources": [
+        "Strong price momentum",
+        "Low price versus earnings"
+      ],
+      "earnings_growth_source": "not available",
+      "asset_type": "Stock",
+      "status": "WATCH / MISSING PROOF",
+      "forecast_status": "FORECAST PARTIAL — NOT A PRICE TARGET",
+      "last_close_usd": 186.99,
+      "return_last_year_pct": 252.94,
+      "voo_same_year_pct": 15.09,
+      "relative_to_voo_year_pp": 237.85,
+      "momentum_3m_pct": -0.57,
+      "momentum_6m_pct": 38.2,
+      "above_200d_average": true,
+      "trend_is_positive": false,
+      "valuation_metrics_complete": false,
+      "larger_established_company": true,
+      "extreme_one_year_return": true,
+      "fundamentals_are_forecasts": true,
+      "priority_score": 751.19,
+      "last_price_date": "2026-10-23",
+      "simple_explanation": "One or more checks is missing: past outperformance, a strong trend, or enough earnings/valuation data.",
+      "valuation_note": "Forward P/E = today's stock price divided by estimated next-year earnings. A low P/E alone does not mean undervalued.",
+      "warnings": [
+        "Company earnings estimates can be wrong and often change.",
+        "When direct earnings growth is missing, any shown growth is estimated using forward and trailing P/E, not independent financial research.",
+        "Forward P/E does not measure true fair value; valuation differs by industry.",
+        "The current US-listed stock universe excludes previously delisted companies; historical results can be biased.",
+        "A large one-year price gain may reverse, so it is not automatically a good purchase.",
+        "Comparing trailing one-year stock returns with VOO is NOT proof of future excess returns."
+      ]
     }
   ],
   "expanded_trade_watches": [
@@ -1511,7 +1511,7 @@
       "benchmark": "VOO DCA same dates and trading costs",
       "dataset_bias": "2026 survivor-only US market; never blindly extrapolate backtest"
     },
-    "screened_prices_for_assets": 88,
+    "screened_prices_for_assets": 87,
     "passing_retrospective_tests": 2,
     "new_paper_entry_setups": 0,
     "historical_screen_summary": [
