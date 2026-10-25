@@ -44,6 +44,14 @@ Maintain the VOO baseline; place new ideas on a documented research watchlist ra
 
 - [S7] 8-K filed 2026-08-27: https://www.sec.gov/Archives/edgar/data/1835632/000183563226000022/mrvl-20260827.htm
 
+- [S8] 10-K primary filing, 2026-03-11: https://www.sec.gov/Archives/edgar/data/1835632/000183563226000011/mrvl-20260131.htm
+
+- [S9] 10-K read passages, filed 2026-03-11: https://www.sec.gov/Archives/edgar/data/1835632/000183563226000011/mrvl-20260131.htm
+
+- [S10] 10-Q read passages, filed 2026-08-28: https://www.sec.gov/Archives/edgar/data/1835632/000183563226000025/mrvl-20260801.htm
+
+- [S11] 8-K read passages, filed 2026-10-23: https://www.sec.gov/Archives/edgar/data/1835632/000119312526430424/d147430d8k.htm
+
 
 
 ## 2. MPC — Marathon Petroleum Corporation
@@ -75,6 +83,14 @@ Maintain the VOO baseline; place new ideas on a documented research watchlist ra
 - [S6] 8-K filed 2026-06-29: https://www.sec.gov/Archives/edgar/data/1510295/000151029526000055/mpc-20260626.htm
 
 - [S7] 10-Q filed 2026-05-05: https://www.sec.gov/Archives/edgar/data/1510295/000151029526000042/mpc-20260331.htm
+
+- [S8] 10-K primary filing, 2026-02-26: https://www.sec.gov/Archives/edgar/data/1510295/000151029526000009/mpc-20251231.htm
+
+- [S9] 10-K read passages, filed 2026-02-26: https://www.sec.gov/Archives/edgar/data/1510295/000151029526000009/mpc-20251231.htm
+
+- [S10] 10-Q read passages, filed 2026-08-04: https://www.sec.gov/Archives/edgar/data/1510295/000151029526000061/mpc-20260630.htm
+
+- [S11] 8-K read passages, filed 2026-08-04: https://www.sec.gov/Archives/edgar/data/1510295/000151029526000060/mpc-20260804.htm
 
 
 

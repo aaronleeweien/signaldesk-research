@@ -1,7 +1,7 @@
 {
   "version": "focused_dossier_v1",
   "market_date": "2026-10-23",
-  "generated_utc": "2026-10-25T01:52:07.843963+00:00",
+  "generated_utc": "2026-10-25T01:59:39.158165+00:00",
   "screened_total": 747,
   "selected_equities": 2,
   "asset_count": 3,
@@ -107,6 +107,30 @@
           "kind": "8-K filed 2026-08-27",
           "url": "https://www.sec.gov/Archives/edgar/data/1835632/000183563226000022/mrvl-20260827.htm",
           "summary": "8-K primary filing document; examine before relying on management claims."
+        },
+        {
+          "id": "S8",
+          "kind": "10-K primary filing, 2026-03-11",
+          "url": "https://www.sec.gov/Archives/edgar/data/1835632/000183563226000011/mrvl-20260131.htm",
+          "summary": "Official company filing. The cited report is a research lead, not an independently verified claim."
+        },
+        {
+          "id": "S9",
+          "kind": "10-K read passages, filed 2026-03-11",
+          "url": "https://www.sec.gov/Archives/edgar/data/1835632/000183563226000011/mrvl-20260131.htm",
+          "summary": "Management discussion: Management\u2019s Discussion and Analysis of Financial Condition and Results of Operations\u201d of this Annual Report on Form 10-K for further information. 9 Table of Contents Manufacturing Integrated Circuit Fabrication The vast majority of our integrated circuits are fabricated using available CMOS processes, which is intended to provide greater flexibility to engage independent foundries to manufacture integrated circuits at lower costs. By outsourcing Risk factors: Risk Factors.\u201d These forward-looking statements speak only as of the date hereof. Unless required by law, we undertake no obligation to update publicly any forward-looking statements. 2 Table of Contents PART I Item 1. Business Our Company Marvell Technology, Inc., together with its consolidated subsidiaries (\u201cMarvell,\u201d \u201cMTI,\u201d the \u201cCompany,\u201d \u201cwe,\u201d or \u201cus\u201d) is a leading supplier of data infrastructure semiconductor solutions, spanning the data cen Business overview: Item 1. Business Our Company Marvell Technology, Inc., together with its consolidated subsidiaries (\u201cMarvell,\u201d \u201cMTI,\u201d the \u201cCompany,\u201d \u201cwe,\u201d or \u201cus\u201d) is a leading supplier of data infrastructure semiconductor solutions, spanning the data center core to network edge. We are a fabless supplier o"
+        },
+        {
+          "id": "S10",
+          "kind": "10-Q read passages, filed 2026-08-28",
+          "url": "https://www.sec.gov/Archives/edgar/data/1835632/000183563226000025/mrvl-20260801.htm",
+          "summary": "Management discussion: Management\u2019s Discussion and Analysis of Financial Condition and Results of Operations This Quarterly Report on Form 10-Q contains forward-looking statements within the meaning of Section 27A of the Securities Act of 1933, as amended (the \u201cSecurities Act\u201d), and Section 21E of the Securities Exchange Act of 1934, as amended (the \u201cExchange Act\u201d), which are subject to the \u201csafe harbor\u201d created by those sections. These statements involve known and unk Risk factors: Risk Factors,\u201d and other sections of this Quarterly Report on Form 10-Q. These forward-looking statements speak only as of the date hereof. Unless required by law, we undertake no obligation to update any forward-looking statements. Overview We are a leading supplier of data infrastructure semiconductor solutions, spanning the data center core to network edge. We are a fabless supplier of high-performance semiconductor products with core strength"
+        },
+        {
+          "id": "S11",
+          "kind": "8-K read passages, filed 2026-10-23",
+          "url": "https://www.sec.gov/Archives/edgar/data/1835632/000119312526430424/d147430d8k.htm",
+          "summary": "Filing excerpt: UNITED STATES SECURITIES AND EXCHANGE COMMISSION Washington, D.C. 20549 FORM 8-K CURRENT REPORT Pursuant to Section 13 or 15(d) of the Securities Exchange Act of 1934 Date of Report: October 22, 2026 (Date of earliest event reported) MARVELL TECHNOLOGY, INC. (Exact name of registrant as specified in its charter) Delaware 001-40357 85-3971597 (State or other jurisdiction of incorporation) (Commission File Number) (IRS Employer Identification No.) "
         }
       ],
       "filings": {
@@ -143,7 +167,47 @@
             "accession": "0001193125-26-356217"
           }
         ],
-        "annual_excerpt": []
+        "priority_filings": [
+          {
+            "form": "10-K",
+            "filed": "2026-03-11",
+            "url": "https://www.sec.gov/Archives/edgar/data/1835632/000183563226000011/mrvl-20260131.htm",
+            "accession": "0001835632-26-000011"
+          },
+          {
+            "form": "10-Q",
+            "filed": "2026-08-28",
+            "url": "https://www.sec.gov/Archives/edgar/data/1835632/000183563226000025/mrvl-20260801.htm",
+            "accession": "0001835632-26-000025"
+          },
+          {
+            "form": "8-K",
+            "filed": "2026-10-23",
+            "url": "https://www.sec.gov/Archives/edgar/data/1835632/000119312526430424/d147430d8k.htm",
+            "accession": "0001193125-26-430424"
+          }
+        ],
+        "read_passages": [
+          {
+            "form": "10-K",
+            "filed": "2026-03-11",
+            "url": "https://www.sec.gov/Archives/edgar/data/1835632/000183563226000011/mrvl-20260131.htm",
+            "text": "Management discussion: Management\u2019s Discussion and Analysis of Financial Condition and Results of Operations\u201d of this Annual Report on Form 10-K for further information. 9 Table of Contents Manufacturing Integrated Circuit Fabrication The vast majority of our integrated circuits are fabricated using available CMOS processes, which is intended to provide greater flexibility to engage independent foundries to manufacture integrated circuits at lower costs. By outsourcing Risk factors: Risk Factors.\u201d These forward-looking statements speak only as of the date hereof. Unless required by law, we undertake no obligation to update publicly any forward-looking statements. 2 Table of Contents PART I Item 1. Business Our Company Marvell Technology, Inc., together with its consolidated subsidiaries (\u201cMarvell,\u201d \u201cMTI,\u201d the \u201cCompany,\u201d \u201cwe,\u201d or \u201cus\u201d) is a leading supplier of data infrastructure semiconductor solutions, spanning the data cen Business overview: Item 1. Business Our Company Marvell Technology, Inc., together with its consolidated subsidiaries (\u201cMarvell,\u201d \u201cMTI,\u201d the \u201cCompany,\u201d \u201cwe,\u201d or \u201cus\u201d) is a leading supplier of data infrastructure semiconductor solutions, spanning the data center core to network edge. We are a fabless supplier o"
+          },
+          {
+            "form": "10-Q",
+            "filed": "2026-08-28",
+            "url": "https://www.sec.gov/Archives/edgar/data/1835632/000183563226000025/mrvl-20260801.htm",
+            "text": "Management discussion: Management\u2019s Discussion and Analysis of Financial Condition and Results of Operations This Quarterly Report on Form 10-Q contains forward-looking statements within the meaning of Section 27A of the Securities Act of 1933, as amended (the \u201cSecurities Act\u201d), and Section 21E of the Securities Exchange Act of 1934, as amended (the \u201cExchange Act\u201d), which are subject to the \u201csafe harbor\u201d created by those sections. These statements involve known and unk Risk factors: Risk Factors,\u201d and other sections of this Quarterly Report on Form 10-Q. These forward-looking statements speak only as of the date hereof. Unless required by law, we undertake no obligation to update any forward-looking statements. Overview We are a leading supplier of data infrastructure semiconductor solutions, spanning the data center core to network edge. We are a fabless supplier of high-performance semiconductor products with core strength"
+          },
+          {
+            "form": "8-K",
+            "filed": "2026-10-23",
+            "url": "https://www.sec.gov/Archives/edgar/data/1835632/000119312526430424/d147430d8k.htm",
+            "text": "Filing excerpt: UNITED STATES SECURITIES AND EXCHANGE COMMISSION Washington, D.C. 20549 FORM 8-K CURRENT REPORT Pursuant to Section 13 or 15(d) of the Securities Exchange Act of 1934 Date of Report: October 22, 2026 (Date of earliest event reported) MARVELL TECHNOLOGY, INC. (Exact name of registrant as specified in its charter) Delaware 001-40357 85-3971597 (State or other jurisdiction of incorporation) (Commission File Number) (IRS Employer Identification No.) "
+          }
+        ],
+        "fetch_issues": []
       },
       "investment_role": "Candidate for multi-year valuation research, not an approved trade."
     },
@@ -248,6 +312,30 @@
           "kind": "10-Q filed 2026-05-05",
           "url": "https://www.sec.gov/Archives/edgar/data/1510295/000151029526000042/mpc-20260331.htm",
           "summary": "10-Q primary filing document; examine before relying on management claims."
+        },
+        {
+          "id": "S8",
+          "kind": "10-K primary filing, 2026-02-26",
+          "url": "https://www.sec.gov/Archives/edgar/data/1510295/000151029526000009/mpc-20251231.htm",
+          "summary": "Official company filing. The cited report is a research lead, not an independently verified claim."
+        },
+        {
+          "id": "S9",
+          "kind": "10-K read passages, filed 2026-02-26",
+          "url": "https://www.sec.gov/Archives/edgar/data/1510295/000151029526000009/mpc-20251231.htm",
+          "summary": "Management discussion: Management\u2019s Discussion and Analysis of Financial Condition and Results of Operations and Item 7A. Quantitative and Qualitative Disclosures about Market Risk includes forward-looking statements that are subject to risks, contingencies or uncertainties. You can identify forward-looking statements by words such as \u201cadvance,\u201d \u201canticipate,\u201d \u201cbelieve,\u201d \u201ccommitment,\u201d \u201ccontinue,\u201d \u201ccould,\u201d \u201cdesign,\u201d \u201cdrive,\u201d \u201cendeavor,\u201d \u201cestimate,\u201d \u201cexpect,\u201d \u201cfocus,\u201d \u201cfo Risk factors: Risk Factors, Item 3. Legal Proceedings, Item 7. Management\u2019s Discussion and Analysis of Financial Condition and Results of Operations and Item 7A. Quantitative and Qualitative Disclosures about Market Risk includes forward-looking statements that are subject to risks, contingencies or uncertainties. You can identify forward-looking statements by words such as \u201cadvance,\u201d \u201canticipate,\u201d \u201cbelieve,\u201d \u201ccommitment,\u201d \u201ccontinue,\u201d \u201ccould,\u201d \u201cdesign,\u201d \u201cdrive Business overview: Item 1. Business, Item 1A. Risk Factors, Item 3. Legal Proceedings, Item 7. Management\u2019s Discussion and Analysis of Financial Condition and Results of Operations and Item 7A. Quantitative and Qualitative Disclosures about Market Risk includes forward-looking statements that are subject to ri"
+        },
+        {
+          "id": "S10",
+          "kind": "10-Q read passages, filed 2026-08-04",
+          "url": "https://www.sec.gov/Archives/edgar/data/1510295/000151029526000061/mpc-20260630.htm",
+          "summary": "Management discussion: Management\u2019s Discussion and Analysis of Financial Condition and Results of Operations This section should also be read in conjunction with the unaudited consolidated financial statements and accompanying footnotes included under Item 1. Financial Statements and in conjunction with our Annual Report on Form 10-K for the year ended December 31, 2025. DISCLOSURES REGARDING FORWARD-LOOKING STATEMENTS This Quarterly Report on Form 10-Q, particularly I Risk factors: risk factors affecting our business, see the risk factors described in our Annual Report on Form 10-K for the year ended December 31, 2025. We undertake no obligation to update any forward-looking statements except to the extent required by applicable law. EXECUTIVE SUMMARY Business and Economic Environment Update Our Refining & Marketing segment results for the second quarter of 2026 versus the second quarter of 2025 reflect higher realized refi"
+        },
+        {
+          "id": "S11",
+          "kind": "8-K read passages, filed 2026-08-04",
+          "url": "https://www.sec.gov/Archives/edgar/data/1510295/000151029526000060/mpc-20260804.htm",
+          "summary": "Filing excerpt: UNITED STATES SECURITIES AND EXCHANGE COMMISSION Washington, D.C. 20549 _____________________________________________ FORM 8-K _____________________________________________ CURRENT REPORT Pursuant to Section 13 or 15(d) of the Securities Exchange Act of 1934 Date of Report (Date of earliest event reported) August 4, 2026 _____________________________________________ Marathon Petroleum Corporation (Exact name of registrant as specified in its char"
         }
       ],
       "filings": {
@@ -284,7 +372,47 @@
             "accession": "0001510295-26-000039"
           }
         ],
-        "annual_excerpt": []
+        "priority_filings": [
+          {
+            "form": "10-K",
+            "filed": "2026-02-26",
+            "url": "https://www.sec.gov/Archives/edgar/data/1510295/000151029526000009/mpc-20251231.htm",
+            "accession": "0001510295-26-000009"
+          },
+          {
+            "form": "10-Q",
+            "filed": "2026-08-04",
+            "url": "https://www.sec.gov/Archives/edgar/data/1510295/000151029526000061/mpc-20260630.htm",
+            "accession": "0001510295-26-000061"
+          },
+          {
+            "form": "8-K",
+            "filed": "2026-08-04",
+            "url": "https://www.sec.gov/Archives/edgar/data/1510295/000151029526000060/mpc-20260804.htm",
+            "accession": "0001510295-26-000060"
+          }
+        ],
+        "read_passages": [
+          {
+            "form": "10-K",
+            "filed": "2026-02-26",
+            "url": "https://www.sec.gov/Archives/edgar/data/1510295/000151029526000009/mpc-20251231.htm",
+            "text": "Management discussion: Management\u2019s Discussion and Analysis of Financial Condition and Results of Operations and Item 7A. Quantitative and Qualitative Disclosures about Market Risk includes forward-looking statements that are subject to risks, contingencies or uncertainties. You can identify forward-looking statements by words such as \u201cadvance,\u201d \u201canticipate,\u201d \u201cbelieve,\u201d \u201ccommitment,\u201d \u201ccontinue,\u201d \u201ccould,\u201d \u201cdesign,\u201d \u201cdrive,\u201d \u201cendeavor,\u201d \u201cestimate,\u201d \u201cexpect,\u201d \u201cfocus,\u201d \u201cfo Risk factors: Risk Factors, Item 3. Legal Proceedings, Item 7. Management\u2019s Discussion and Analysis of Financial Condition and Results of Operations and Item 7A. Quantitative and Qualitative Disclosures about Market Risk includes forward-looking statements that are subject to risks, contingencies or uncertainties. You can identify forward-looking statements by words such as \u201cadvance,\u201d \u201canticipate,\u201d \u201cbelieve,\u201d \u201ccommitment,\u201d \u201ccontinue,\u201d \u201ccould,\u201d \u201cdesign,\u201d \u201cdrive Business overview: Item 1. Business, Item 1A. Risk Factors, Item 3. Legal Proceedings, Item 7. Management\u2019s Discussion and Analysis of Financial Condition and Results of Operations and Item 7A. Quantitative and Qualitative Disclosures about Market Risk includes forward-looking statements that are subject to ri"
+          },
+          {
+            "form": "10-Q",
+            "filed": "2026-08-04",
+            "url": "https://www.sec.gov/Archives/edgar/data/1510295/000151029526000061/mpc-20260630.htm",
+            "text": "Management discussion: Management\u2019s Discussion and Analysis of Financial Condition and Results of Operations This section should also be read in conjunction with the unaudited consolidated financial statements and accompanying footnotes included under Item 1. Financial Statements and in conjunction with our Annual Report on Form 10-K for the year ended December 31, 2025. DISCLOSURES REGARDING FORWARD-LOOKING STATEMENTS This Quarterly Report on Form 10-Q, particularly I Risk factors: risk factors affecting our business, see the risk factors described in our Annual Report on Form 10-K for the year ended December 31, 2025. We undertake no obligation to update any forward-looking statements except to the extent required by applicable law. EXECUTIVE SUMMARY Business and Economic Environment Update Our Refining & Marketing segment results for the second quarter of 2026 versus the second quarter of 2025 reflect higher realized refi"
+          },
+          {
+            "form": "8-K",
+            "filed": "2026-08-04",
+            "url": "https://www.sec.gov/Archives/edgar/data/1510295/000151029526000060/mpc-20260804.htm",
+            "text": "Filing excerpt: UNITED STATES SECURITIES AND EXCHANGE COMMISSION Washington, D.C. 20549 _____________________________________________ FORM 8-K _____________________________________________ CURRENT REPORT Pursuant to Section 13 or 15(d) of the Securities Exchange Act of 1934 Date of Report (Date of earliest event reported) August 4, 2026 _____________________________________________ Marathon Petroleum Corporation (Exact name of registrant as specified in its char"
+          }
+        ],
+        "fetch_issues": []
       },
       "investment_role": "Candidate for multi-year valuation research, not an approved trade."
     },

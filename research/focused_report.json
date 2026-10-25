@@ -54,6 +54,26 @@
           "id": "S7",
           "label": "8-K filed 2026-08-27",
           "url": "https://www.sec.gov/Archives/edgar/data/1835632/000183563226000022/mrvl-20260827.htm"
+        },
+        {
+          "id": "S8",
+          "label": "10-K primary filing, 2026-03-11",
+          "url": "https://www.sec.gov/Archives/edgar/data/1835632/000183563226000011/mrvl-20260131.htm"
+        },
+        {
+          "id": "S9",
+          "label": "10-K read passages, filed 2026-03-11",
+          "url": "https://www.sec.gov/Archives/edgar/data/1835632/000183563226000011/mrvl-20260131.htm"
+        },
+        {
+          "id": "S10",
+          "label": "10-Q read passages, filed 2026-08-28",
+          "url": "https://www.sec.gov/Archives/edgar/data/1835632/000183563226000025/mrvl-20260801.htm"
+        },
+        {
+          "id": "S11",
+          "label": "8-K read passages, filed 2026-10-23",
+          "url": "https://www.sec.gov/Archives/edgar/data/1835632/000119312526430424/d147430d8k.htm"
         }
       ]
     },
@@ -105,6 +125,26 @@
           "id": "S7",
           "label": "10-Q filed 2026-05-05",
           "url": "https://www.sec.gov/Archives/edgar/data/1510295/000151029526000042/mpc-20260331.htm"
+        },
+        {
+          "id": "S8",
+          "label": "10-K primary filing, 2026-02-26",
+          "url": "https://www.sec.gov/Archives/edgar/data/1510295/000151029526000009/mpc-20251231.htm"
+        },
+        {
+          "id": "S9",
+          "label": "10-K read passages, filed 2026-02-26",
+          "url": "https://www.sec.gov/Archives/edgar/data/1510295/000151029526000009/mpc-20251231.htm"
+        },
+        {
+          "id": "S10",
+          "label": "10-Q read passages, filed 2026-08-04",
+          "url": "https://www.sec.gov/Archives/edgar/data/1510295/000151029526000061/mpc-20260630.htm"
+        },
+        {
+          "id": "S11",
+          "label": "8-K read passages, filed 2026-08-04",
+          "url": "https://www.sec.gov/Archives/edgar/data/1510295/000151029526000060/mpc-20260804.htm"
         }
       ]
     },
