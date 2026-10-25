@@ -74,6 +74,22 @@ class QualitativeResearchTests(unittest.TestCase):
         self.assertEqual(parsed[0]["topic"],"financing")
         self.assertIn("Credit Facility",parsed[0]["title"])
 
+    def test_institutional_portfolio_changes_do_not_mean_company_financing(self):
+        stock={"ticker":"MPC","name":"MARATHON PETROLEUM CORPORATION",
+               "kind":"equity","sources":[],"metrics":{}}
+        rows=[
+          ("USA Financial Formulas Acquires 2,978 Shares of Marathon Petroleum Corporation - Example",
+           "Sat, 24 Oct 2026 13:00:00 GMT","Example",NEWS_LINK),
+          ("Parkway Wealth Makes New $4 Million Investment in Marathon Petroleum Corporation - Example",
+           "Sat, 24 Oct 2026 12:00:00 GMT","Example",NEWS_LINK+"2"),
+          ("Marathon Petroleum Corporation $MPC Stake Raised by Fund Manager - Example",
+           "Sat, 24 Oct 2026 11:00:00 GMT","Example",NEWS_LINK+"3"),
+          ("Marathon Petroleum secures revolving credit facility - Example",
+           "Sat, 24 Oct 2026 10:00:00 GMT","Example",NEWS_LINK+"4")]
+        parsed=n.parse_news(fixture_rss(rows),stock,NOW)
+        self.assertEqual(len(parsed),1)
+        self.assertEqual(parsed[0]["topic"],"financing")
+
     def test_stale_future_unrelated_and_invalid_links_excluded(self):
         items=[
           ("Marvell Technology growing sales","Thu, 15 Oct 2026 14:00:00 GMT","Source A",NEWS_LINK),
