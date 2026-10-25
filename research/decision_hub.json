@@ -1,6 +1,6 @@
 {
   "protocol": "decision_hub_v1_fixed_2026-10-24",
-  "generated_utc": "2026-10-25 05:17 UTC",
+  "generated_utc": "2026-10-25 08:43 UTC",
   "market_last_completed_close": "2026-10-23",
   "us_market_context": "WEEKEND: US exchanges are closed. Next session is estimated.",
   "data_type": "Previous completed-session adjusted prices; NOT real-time trading quotes",

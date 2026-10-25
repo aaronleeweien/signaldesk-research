@@ -1,7 +1,7 @@
 {
   "version": "focused_dossier_v1",
   "market_date": "2026-10-23",
-  "generated_utc": "2026-10-25T05:17:25.531377+00:00",
+  "generated_utc": "2026-10-25T08:43:46.013674+00:00",
   "screened_total": 748,
   "selected_equities": 2,
   "asset_count": 3,
@@ -64,6 +64,16 @@
             "free_cash_flow_usd": 1034200000.0
           }
         ]
+      },
+      "price_context": {
+        "last_price_date": "2026-10-23",
+        "last_close_usd": 228.51,
+        "return_last_year_pct": 182.41,
+        "voo_same_year_pct": 15.09,
+        "relative_to_voo_year_pp": 167.32,
+        "momentum_3m_pct": 20.82,
+        "momentum_6m_pct": 39.14,
+        "above_200d_average": true
       },
       "sources": [
         {
@@ -134,39 +144,39 @@
         },
         {
           "id": "S12",
+          "kind": "News-index headline · Stocktwits · 2026-10-24",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOcWx0ZEYwanlQSHJzT2duTXIxUGRmRlQtLTIxbTl1ZU9xd2FQY3pVNDc0b1kxWXFaVlJZSVc2dFRuTW9oVXQ5Rl9YWEphMGpONURfY2swU2t2aUdNby03VTgzRzlvOTc5eXJySklrWEFaUHhKNG9hM0VEZUd6UzJic1pPYzdJUEdzbmJMYmNMX0NSVG1oaG9oWjNZZWRXUmZmWWlEdGZpSnlkTWkwY2YtdHJQSVN1SXpXTWZweHFPaGdPRGFlcVdZY1lxdk9mZ2Rn?oc=5",
+          "summary": "Headline only, not checked article text: MRVL Stock Jumps 6% As Top Wall Street Firms Furnish Bullish Signals Ahead Of Marvell Earnings"
+        },
+        {
+          "id": "S13",
           "kind": "News-index headline · ad-hoc-news.de · 2026-10-24",
           "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQeTg5VFNiNjhQTE1SU0l5Z2NjczE4SUtRZklXbGZmLXpZVHh5dWVDSU1zTlVTTFY5eS1RWl9pYzJVSE5mVTk4cW9XT0ZBTkZncmpzeU1YZlVRTDlmb0JydDRRRS1fTDdkc3I4Y3llOVA0TjU2UkpKbkdkd29VZTRvUEwtdUZONDhFWWJBNkt3U1g0Q1dJUi1Pc1I1TDM1Wlg3dzFVSWZ0aENCRkZyWjZwYVRiRFh3VExiWlpsNHFRTVkySlQ0UjVQVTVhdE9MV2VVT3pjVTB3RGROTFFK?oc=5",
           "summary": "Headline only, not checked article text: Marvell's $3 Billion Safety Net Doesn't Tell You Where Revenue Comes From"
         },
         {
-          "id": "S13",
+          "id": "S14",
           "kind": "News-index headline · ad-hoc-news.de · 2026-10-24",
           "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPRS1QcDZlR3dTZUlWemZqZTRPazJNNE9xeVN5Y01FR2I5SDZSQmNuT2FOQy1uak5ka0c5LWhBd2xucjhtdDJ6b3FsdWRjYVB0amFiQmtVdWFHajJNSUxNcUVFVl92OEw2dWxXeDRnYjZkQlR1QW9xdFRGYVdHa3hDbTJvZ1JKWHhhQ0FKZzlCMDR3anZQOGExYm8tbmFNek9hQXpSemhwVjNxX0w2Nkt0QTJVMi1wVG40YU9LUTBwRGltUktuTzFqUVNNaXNHUnlFTm04eVpqQU1sX181MWdIWENUc3F4c0duVXk2ekZqUko?oc=5",
           "summary": "Headline only, not checked article text: Marvell Technology announces AI connectivity products: what it means for Marvell Technology stock"
         },
         {
-          "id": "S14",
+          "id": "S15",
           "kind": "News-index headline · Simply Wall Street · 2026-10-24",
           "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQRTNBQ3dpQndNQ25iMUJCQVRPcFBuenhHZ1VmYzdMU0YxbFdBRHV1WUtOX1RTeFFvTFdOQ2tDcGxoVXBaM3FTOVhTVlVQSm1tS3JNU2tScUxmYkNlYjRlR2ZEMzlsUGNoY1pTcDd5NmtHVzQ1Uk8yV2I5ZWlJNjBQalA5bkdROUJVT2xvdUVqbW9Rd2lVMTh2ajRHd1hveXZUNTdpMl8xUTFHcUx0aG9nRTdNcVd2S0ZNUlFVRW9XRnM4b01yRDRKNG95M1ZIcWhPUzl6bWJFTmxxZ9IB3wFBVV95cUxNTTRhOTlQeURJRWtJeDFhdHZxbDg3R2ptVGhRbHc1eENVTmJqSThEOWlPQk9Eemg0a1R2aVAzVDFWVGVuQjVnalhGeHRZcjByazdJbklWbTFSci1QbzYtaFo1cWlPZ3BXdVM5MXBweFFPck9JS3VvRGpjREpxV1dyRlhPUnJ4SUE1bXBWUHVJeTlDMlhVYWQ5bnJrQVZTZkQ1eFU1VjVqZVJUbFJ2QWVpeUtCeFlSSEhoOXR3Q1JkUERKbWFpSDRiNWxxNV9aWU9ENmNRY3h6YjhJS0p2VWVv?oc=5",
           "summary": "Headline only, not checked article text: How Investors May Respond To Marvell Technology (MRVL) New AI Chip Partnerships"
         },
         {
-          "id": "S15",
+          "id": "S16",
           "kind": "News-index headline · TradingView · 2026-10-23",
           "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOd1JlYmExNUpoZm1hc3NBYU9fWFJ0SXFSRVN2TjhyYlRXRGJFaFNfeVhxRzBCbWpXRGxNSjJoUnpacXlXQ2c3eUxMQ0RwRFFiTGNyVUJJYkwtX0tMWmZHa2Z5SXJWUlFjcTcwZTFSYWNZVHlQUzBPZ0NJVm1ZZmoyaHBELTEtYVQzNEg1ajZlbUxVaTMteWsyWFk0NHd1ZllhclRwalQ0ZEI4VG4wRXViZS1KRk1PUlYwQXliRVk5NUtJVDBtZHdjZS0zdXhqWEl2Qk05ZWRSMW9hd0RWQkZpUWdkamlYMlVGQlQ5dTZwZm95TFY0T3J2UDRnWF9TVFBMam9hNzl3?oc=5",
           "summary": "Headline only, not checked article text: Marvell Technology - Enters Third Amended And Restated Revolving Credit Agreement On Oct 22, 2026 - SEC Filing"
         },
         {
-          "id": "S16",
+          "id": "S17",
           "kind": "News-index headline · TradingView · 2026-10-23",
           "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOcFBMOEdBR0ZfUzRLejZfbkZ1QlFyQVlYNmxHaWxHZlJONkZPNEVpdFZES0NoRUdqVHJmRk0tbHNJSFFWVmo1S0FpOG5FcGJFTjBTbkxVV3ZzOEdQT3h4UlNDN1dlMjFwRmxSLUFnUkszWTZDX3p4dUF2aHhHSl94NXJYQnN6YUo1MHE4dU9lYWRUMlBYWS0tVXhMLXgxRFpmRFVKUGdxLVljZFl1cHA4SkpKaU1VT2VuQnMxQjBETmRLVDBuQW1UNzNiUXlJTTg?oc=5",
           "summary": "Headline only, not checked article text: Marvell Technology Secures $3 Billion Five-Year Revolving Credit Facility"
-        },
-        {
-          "id": "S17",
-          "kind": "News-index headline · Kalkine India · 2026-10-23",
-          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQUHB2R1ZOYlhFN2RpQ2F5WFAzWHN5VFQxQjZualZROU5tMDFpczY0eVVEYk5relQ0X1pGUWFkaGJNV1lSN2lLblhOa2RvXzRnUjhqcWxRVzE3cjRvVVV4SWFtTnAxMVNjV2pQRERnRDdDSUJNNWhYM2VKLVBZVVdKUGcwNGFrcVdoVnJCTF9XdHl4d093LXJPZGZCdUREenNBeDBaeHU3SnhfZmQ3eFk4bE9NQVhGWGlxRGc0ZFJPSXZvUUVHTUxCRVF5Wkd4MVd0aWVCWko4WnJLdmJWT3RKNHlBd0twQQ?oc=5",
-          "summary": "Headline only, not checked article text: Marvell Technology (NASDAQ:MRVL) Stock Falls 8.70%: P/E, Volume and Technicals"
         }
       ],
       "filings": {
@@ -247,10 +257,17 @@
       },
       "investment_role": "Candidate for multi-year valuation research, not an approved trade.",
       "qualitative_context": {
-        "asof_utc": "2026-10-25T05:17:25.689243+00:00",
+        "asof_utc": "2026-10-25T08:43:46.164754+00:00",
         "search_url": "https://news.google.com/rss/search?q=%22MARVELL%20TECHNOLOGY%22%20when%3A7d&hl=en-US&gl=US&ceid=US:en",
         "news_window_days": 7,
         "headline_sample": [
+          {
+            "title": "MRVL Stock Jumps 6% As Top Wall Street Firms Furnish Bullish Signals Ahead Of Marvell Earnings",
+            "published_utc": "2026-10-24T21:47:31+00:00",
+            "publisher": "Stocktwits",
+            "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOcWx0ZEYwanlQSHJzT2duTXIxUGRmRlQtLTIxbTl1ZU9xd2FQY3pVNDc0b1kxWXFaVlJZSVc2dFRuTW9oVXQ5Rl9YWEphMGpONURfY2swU2t2aUdNby03VTgzRzlvOTc5eXJySklrWEFaUHhKNG9hM0VEZUd6UzJic1pPYzdJUEdzbmJMYmNMX0NSVG1oaG9oWjNZZWRXUmZmWWlEdGZpSnlkTWkwY2YtdHJQSVN1SXpXTWZweHFPaGdPRGFlcVdZY1lxdk9mZ2Rn?oc=5",
+            "topic": "profitability"
+          },
           {
             "title": "Marvell's $3 Billion Safety Net Doesn't Tell You Where Revenue Comes From",
             "published_utc": "2026-10-24T13:02:11+00:00",
@@ -285,16 +302,20 @@
             "publisher": "TradingView",
             "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOcFBMOEdBR0ZfUzRLejZfbkZ1QlFyQVlYNmxHaWxHZlJONkZPNEVpdFZES0NoRUdqVHJmRk0tbHNJSFFWVmo1S0FpOG5FcGJFTjBTbkxVV3ZzOEdQT3h4UlNDN1dlMjFwRmxSLUFnUkszWTZDX3p4dUF2aHhHSl94NXJYQnN6YUo1MHE4dU9lYWRUMlBYWS0tVXhMLXgxRFpmRFVKUGdxLVljZFl1cHA4SkpKaU1VT2VuQnMxQjBETmRLVDBuQW1UNzNiUXlJTTg?oc=5",
             "topic": "financing"
-          },
-          {
-            "title": "Marvell Technology (NASDAQ:MRVL) Stock Falls 8.70%: P/E, Volume and Technicals",
-            "published_utc": "2026-10-23T18:12:00+00:00",
-            "publisher": "Kalkine India",
-            "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQUHB2R1ZOYlhFN2RpQ2F5WFAzWHN5VFQxQjZualZROU5tMDFpczY0eVVEYk5relQ0X1pGUWFkaGJNV1lSN2lLblhOa2RvXzRnUjhqcWxRVzE3cjRvVVV4SWFtTnAxMVNjV2pQRERnRDdDSUJNNWhYM2VKLVBZVVdKUGcwNGFrcVdoVnJCTF9XdHl4d093LXJPZGZCdUREenNBeDBaeHU3SnhfZmQ3eFk4bE9NQVhGWGlxRGc0ZFJPSXZvUUVHTUxCRVF5Wkd4MVd0aWVCWko4WnJLdmJWT3RKNHlBd0twQQ?oc=5",
-            "topic": "other"
           }
         ],
         "narratives": [
+          {
+            "topic": "profitability",
+            "headline": "MRVL Stock Jumps 6% As Top Wall Street Firms Furnish Bullish Signals Ahead Of Marvell Earnings",
+            "published_utc": "2026-10-24T21:47:31+00:00",
+            "publisher": "Stocktwits",
+            "source_url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOcWx0ZEYwanlQSHJzT2duTXIxUGRmRlQtLTIxbTl1ZU9xd2FQY3pVNDc0b1kxWXFaVlJZSVc2dFRuTW9oVXQ5Rl9YWEphMGpONURfY2swU2t2aUdNby03VTgzRzlvOTc5eXJySklrWEFaUHhKNG9hM0VEZUd6UzJic1pPYzdJUEdzbmJMYmNMX0NSVG1oaG9oWjNZZWRXUmZmWWlEdGZpSnlkTWkwY2YtdHJQSVN1SXpXTWZweHFPaGdPRGFlcVdZY1lxdk9mZ2Rn?oc=5",
+            "mechanism": "Changes in selling prices or operating costs affect the fraction of sales that becomes profit and cash.",
+            "competing_reading": "A temporary price or cost improvement may disappear when conditions normalize.",
+            "test": "Check reported operating margins, cash conversion and the reasons for changes.",
+            "evidence_level": "headline_coverage_not_confirmed_event"
+          },
           {
             "topic": "demand",
             "headline": "Marvell's $3 Billion Safety Net Doesn't Tell You Where Revenue Comes From",
@@ -315,17 +336,6 @@
             "mechanism": "A lasting competitive change could alter future demand or the prices the company can charge.",
             "competing_reading": "A competitor announcement does not itself prove customers will switch.",
             "test": "Look for customer wins, product economics and margin changes in company filings.",
-            "evidence_level": "headline_coverage_not_confirmed_event"
-          },
-          {
-            "topic": "financing",
-            "headline": "Marvell Technology - Enters Third Amended And Restated Revolving Credit Agreement On Oct 22, 2026 - SEC Filing",
-            "published_utc": "2026-10-23T22:15:47+00:00",
-            "publisher": "TradingView",
-            "source_url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOd1JlYmExNUpoZm1hc3NBYU9fWFJ0SXFSRVN2TjhyYlRXRGJFaFNfeVhxRzBCbWpXRGxNSjJoUnpacXlXQ2c3eUxMQ0RwRFFiTGNyVUJJYkwtX0tMWmZHa2Z5SXJWUlFjcTcwZTFSYWNZVHlQUzBPZ0NJVm1ZZmoyaHBELTEtYVQzNEg1ajZlbUxVaTMteWsyWFk0NHd1ZllhclRwalQ0ZEI4VG4wRXViZS1KRk1PUlYwQXliRVk5NUtJVDBtZHdjZS0zdXhqWEl2Qk05ZWRSMW9hd0RWQkZpUWdkamlYMlVGQlQ5dTZwZm95TFY0T3J2UDRnWF9TVFBMam9hNzl3?oc=5",
-            "mechanism": "Borrowing costs or capital allocation can affect how much future cash ultimately belongs to shareholders.",
-            "competing_reading": "Higher dividends or buybacks can be funded by debt and are not automatically value creation.",
-            "test": "Check the balance sheet, debt maturities and cash available after capital spending.",
             "evidence_level": "headline_coverage_not_confirmed_event"
           }
         ],
@@ -391,6 +401,16 @@
             "free_cash_flow_usd": 12227000000.0
           }
         ]
+      },
+      "price_context": {
+        "last_price_date": "2026-10-23",
+        "last_close_usd": 457.22,
+        "return_last_year_pct": 146.56,
+        "voo_same_year_pct": 15.09,
+        "relative_to_voo_year_pp": 131.46,
+        "momentum_3m_pct": 46.78,
+        "momentum_6m_pct": 105.33,
+        "above_200d_average": true
       },
       "sources": [
         {
@@ -574,7 +594,7 @@
       },
       "investment_role": "Candidate for multi-year valuation research, not an approved trade.",
       "qualitative_context": {
-        "asof_utc": "2026-10-25T05:17:25.689243+00:00",
+        "asof_utc": "2026-10-25T08:43:46.164754+00:00",
         "search_url": "https://news.google.com/rss/search?q=%22Marathon%20Petroleum%22%20when%3A7d&hl=en-US&gl=US&ceid=US:en",
         "news_window_days": 7,
         "headline_sample": [
@@ -674,7 +694,7 @@
       ],
       "investment_role": "Portfolio-diversification research, not a commodity spot-price prediction.",
       "qualitative_context": {
-        "asof_utc": "2026-10-25T05:17:25.689243+00:00",
+        "asof_utc": "2026-10-25T08:43:46.164754+00:00",
         "search_url": "https://news.google.com/rss/search?q=%22gold%20prices%20ETF%22%20when%3A7d&hl=en-US&gl=US&ceid=US:en",
         "news_window_days": 7,
         "headline_sample": [
@@ -707,6 +727,6 @@
   "excluded": "All cryptocurrency, tokens and crypto-exposed businesses; no crypto recommendations.",
   "benchmark": "VOO after costs where comparable",
   "diagnostics": [],
-  "qualitative_asof_utc": "2026-10-25T05:17:25.689243+00:00",
+  "qualitative_asof_utc": "2026-10-25T08:43:46.164754+00:00",
   "qualitative_method": "Dated headline watch + SEC filings; causal implications are conditional, not sentiment forecasts."
 }

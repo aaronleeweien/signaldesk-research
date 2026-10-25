@@ -3,7 +3,7 @@
   "fresh": true,
   "title": "SignalDesk | Investment Research Desk",
   "headline": "VOO remains the default; investigate only a few clearly defined alternatives.",
-  "subtitle": "Deep research is an argument to test, not a signal to buy.",
+  "subtitle": "A complete decision memo from available sources, with explicit research limitations.",
   "summary": "We keep a diversified VOO base. Today we concentrate on a few public-company and commodity exposures, calculating what their historical accounts show, what their market prices assume, and which future evidence should change our view.",
   "assets": [
     {
@@ -77,38 +77,45 @@
         },
         {
           "id": "S12",
-          "label": "News-index headline \u00b7 ad-hoc-news.de \u00b7 2026-10-24",
-          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQeTg5VFNiNjhQTE1SU0l5Z2NjczE4SUtRZklXbGZmLXpZVHh5dWVDSU1zTlVTTFY5eS1RWl9pYzJVSE5mVTk4cW9XT0ZBTkZncmpzeU1YZlVRTDlmb0JydDRRRS1fTDdkc3I4Y3llOVA0TjU2UkpKbkdkd29VZTRvUEwtdUZONDhFWWJBNkt3U1g0Q1dJUi1Pc1I1TDM1Wlg3dzFVSWZ0aENCRkZyWjZwYVRiRFh3VExiWlpsNHFRTVkySlQ0UjVQVTVhdE9MV2VVT3pjVTB3RGROTFFK?oc=5"
+          "label": "News-index headline \u00b7 Stocktwits \u00b7 2026-10-24",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOcWx0ZEYwanlQSHJzT2duTXIxUGRmRlQtLTIxbTl1ZU9xd2FQY3pVNDc0b1kxWXFaVlJZSVc2dFRuTW9oVXQ5Rl9YWEphMGpONURfY2swU2t2aUdNby03VTgzRzlvOTc5eXJySklrWEFaUHhKNG9hM0VEZUd6UzJic1pPYzdJUEdzbmJMYmNMX0NSVG1oaG9oWjNZZWRXUmZmWWlEdGZpSnlkTWkwY2YtdHJQSVN1SXpXTWZweHFPaGdPRGFlcVdZY1lxdk9mZ2Rn?oc=5"
         },
         {
           "id": "S13",
           "label": "News-index headline \u00b7 ad-hoc-news.de \u00b7 2026-10-24",
-          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPRS1QcDZlR3dTZUlWemZqZTRPazJNNE9xeVN5Y01FR2I5SDZSQmNuT2FOQy1uak5ka0c5LWhBd2xucjhtdDJ6b3FsdWRjYVB0amFiQmtVdWFHajJNSUxNcUVFVl92OEw2dWxXeDRnYjZkQlR1QW9xdFRGYVdHa3hDbTJvZ1JKWHhhQ0FKZzlCMDR3anZQOGExYm8tbmFNek9hQXpSemhwVjNxX0w2Nkt0QTJVMi1wVG40YU9LUTBwRGltUktuTzFqUVNNaXNHUnlFTm04eVpqQU1sX181MWdIWENUc3F4c0duVXk2ekZqUko?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQeTg5VFNiNjhQTE1SU0l5Z2NjczE4SUtRZklXbGZmLXpZVHh5dWVDSU1zTlVTTFY5eS1RWl9pYzJVSE5mVTk4cW9XT0ZBTkZncmpzeU1YZlVRTDlmb0JydDRRRS1fTDdkc3I4Y3llOVA0TjU2UkpKbkdkd29VZTRvUEwtdUZONDhFWWJBNkt3U1g0Q1dJUi1Pc1I1TDM1Wlg3dzFVSWZ0aENCRkZyWjZwYVRiRFh3VExiWlpsNHFRTVkySlQ0UjVQVTVhdE9MV2VVT3pjVTB3RGROTFFK?oc=5"
         },
         {
           "id": "S14",
+          "label": "News-index headline \u00b7 ad-hoc-news.de \u00b7 2026-10-24",
+          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPRS1QcDZlR3dTZUlWemZqZTRPazJNNE9xeVN5Y01FR2I5SDZSQmNuT2FOQy1uak5ka0c5LWhBd2xucjhtdDJ6b3FsdWRjYVB0amFiQmtVdWFHajJNSUxNcUVFVl92OEw2dWxXeDRnYjZkQlR1QW9xdFRGYVdHa3hDbTJvZ1JKWHhhQ0FKZzlCMDR3anZQOGExYm8tbmFNek9hQXpSemhwVjNxX0w2Nkt0QTJVMi1wVG40YU9LUTBwRGltUktuTzFqUVNNaXNHUnlFTm04eVpqQU1sX181MWdIWENUc3F4c0duVXk2ekZqUko?oc=5"
+        },
+        {
+          "id": "S15",
           "label": "News-index headline \u00b7 Simply Wall Street \u00b7 2026-10-24",
           "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQRTNBQ3dpQndNQ25iMUJCQVRPcFBuenhHZ1VmYzdMU0YxbFdBRHV1WUtOX1RTeFFvTFdOQ2tDcGxoVXBaM3FTOVhTVlVQSm1tS3JNU2tScUxmYkNlYjRlR2ZEMzlsUGNoY1pTcDd5NmtHVzQ1Uk8yV2I5ZWlJNjBQalA5bkdROUJVT2xvdUVqbW9Rd2lVMTh2ajRHd1hveXZUNTdpMl8xUTFHcUx0aG9nRTdNcVd2S0ZNUlFVRW9XRnM4b01yRDRKNG95M1ZIcWhPUzl6bWJFTmxxZ9IB3wFBVV95cUxNTTRhOTlQeURJRWtJeDFhdHZxbDg3R2ptVGhRbHc1eENVTmJqSThEOWlPQk9Eemg0a1R2aVAzVDFWVGVuQjVnalhGeHRZcjByazdJbklWbTFSci1QbzYtaFo1cWlPZ3BXdVM5MXBweFFPck9JS3VvRGpjREpxV1dyRlhPUnJ4SUE1bXBWUHVJeTlDMlhVYWQ5bnJrQVZTZkQ1eFU1VjVqZVJUbFJ2QWVpeUtCeFlSSEhoOXR3Q1JkUERKbWFpSDRiNWxxNV9aWU9ENmNRY3h6YjhJS0p2VWVv?oc=5"
         },
         {
-          "id": "S15",
+          "id": "S16",
           "label": "News-index headline \u00b7 TradingView \u00b7 2026-10-23",
           "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOd1JlYmExNUpoZm1hc3NBYU9fWFJ0SXFSRVN2TjhyYlRXRGJFaFNfeVhxRzBCbWpXRGxNSjJoUnpacXlXQ2c3eUxMQ0RwRFFiTGNyVUJJYkwtX0tMWmZHa2Z5SXJWUlFjcTcwZTFSYWNZVHlQUzBPZ0NJVm1ZZmoyaHBELTEtYVQzNEg1ajZlbUxVaTMteWsyWFk0NHd1ZllhclRwalQ0ZEI4VG4wRXViZS1KRk1PUlYwQXliRVk5NUtJVDBtZHdjZS0zdXhqWEl2Qk05ZWRSMW9hd0RWQkZpUWdkamlYMlVGQlQ5dTZwZm95TFY0T3J2UDRnWF9TVFBMam9hNzl3?oc=5"
         },
         {
-          "id": "S16",
+          "id": "S17",
           "label": "News-index headline \u00b7 TradingView \u00b7 2026-10-23",
           "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOcFBMOEdBR0ZfUzRLejZfbkZ1QlFyQVlYNmxHaWxHZlJONkZPNEVpdFZES0NoRUdqVHJmRk0tbHNJSFFWVmo1S0FpOG5FcGJFTjBTbkxVV3ZzOEdQT3h4UlNDN1dlMjFwRmxSLUFnUkszWTZDX3p4dUF2aHhHSl94NXJYQnN6YUo1MHE4dU9lYWRUMlBYWS0tVXhMLXgxRFpmRFVKUGdxLVljZFl1cHA4SkpKaU1VT2VuQnMxQjBETmRLVDBuQW1UNzNiUXlJTTg?oc=5"
-        },
-        {
-          "id": "S17",
-          "label": "News-index headline \u00b7 Kalkine India \u00b7 2026-10-23",
-          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQUHB2R1ZOYlhFN2RpQ2F5WFAzWHN5VFQxQjZualZROU5tMDFpczY0eVVEYk5relQ0X1pGUWFkaGJNV1lSN2lLblhOa2RvXzRnUjhqcWxRVzE3cjRvVVV4SWFtTnAxMVNjV2pQRERnRDdDSUJNNWhYM2VKLVBZVVdKUGcwNGFrcVdoVnJCTF9XdHl4d093LXJPZGZCdUREenNBeDBaeHU3SnhfZmQ3eFk4bE9NQVhGWGlxRGc0ZFJPSXZvUUVHTUxCRVF5Wkd4MVd0aWVCWko4WnJLdmJWT3RKNHlBd0twQQ?oc=5"
         }
       ],
       "qualitative": {
-        "asof_utc": "2026-10-25T05:17:25.689243+00:00",
+        "asof_utc": "2026-10-25T08:43:46.164754+00:00",
         "headlines": [
+          {
+            "title": "MRVL Stock Jumps 6% As Top Wall Street Firms Furnish Bullish Signals Ahead Of Marvell Earnings",
+            "published_utc": "2026-10-24T21:47:31+00:00",
+            "publisher": "Stocktwits",
+            "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOcWx0ZEYwanlQSHJzT2duTXIxUGRmRlQtLTIxbTl1ZU9xd2FQY3pVNDc0b1kxWXFaVlJZSVc2dFRuTW9oVXQ5Rl9YWEphMGpONURfY2swU2t2aUdNby03VTgzRzlvOTc5eXJySklrWEFaUHhKNG9hM0VEZUd6UzJic1pPYzdJUEdzbmJMYmNMX0NSVG1oaG9oWjNZZWRXUmZmWWlEdGZpSnlkTWkwY2YtdHJQSVN1SXpXTWZweHFPaGdPRGFlcVdZY1lxdk9mZ2Rn?oc=5",
+            "topic": "profitability"
+          },
           {
             "title": "Marvell's $3 Billion Safety Net Doesn't Tell You Where Revenue Comes From",
             "published_utc": "2026-10-24T13:02:11+00:00",
@@ -143,16 +150,20 @@
             "publisher": "TradingView",
             "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOcFBMOEdBR0ZfUzRLejZfbkZ1QlFyQVlYNmxHaWxHZlJONkZPNEVpdFZES0NoRUdqVHJmRk0tbHNJSFFWVmo1S0FpOG5FcGJFTjBTbkxVV3ZzOEdQT3h4UlNDN1dlMjFwRmxSLUFnUkszWTZDX3p4dUF2aHhHSl94NXJYQnN6YUo1MHE4dU9lYWRUMlBYWS0tVXhMLXgxRFpmRFVKUGdxLVljZFl1cHA4SkpKaU1VT2VuQnMxQjBETmRLVDBuQW1UNzNiUXlJTTg?oc=5",
             "topic": "financing"
-          },
-          {
-            "title": "Marvell Technology (NASDAQ:MRVL) Stock Falls 8.70%: P/E, Volume and Technicals",
-            "published_utc": "2026-10-23T18:12:00+00:00",
-            "publisher": "Kalkine India",
-            "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQUHB2R1ZOYlhFN2RpQ2F5WFAzWHN5VFQxQjZualZROU5tMDFpczY0eVVEYk5relQ0X1pGUWFkaGJNV1lSN2lLblhOa2RvXzRnUjhqcWxRVzE3cjRvVVV4SWFtTnAxMVNjV2pQRERnRDdDSUJNNWhYM2VKLVBZVVdKUGcwNGFrcVdoVnJCTF9XdHl4d093LXJPZGZCdUREenNBeDBaeHU3SnhfZmQ3eFk4bE9NQVhGWGlxRGc0ZFJPSXZvUUVHTUxCRVF5Wkd4MVd0aWVCWko4WnJLdmJWT3RKNHlBd0twQQ?oc=5",
-            "topic": "other"
           }
         ],
         "narratives": [
+          {
+            "topic": "profitability",
+            "headline": "MRVL Stock Jumps 6% As Top Wall Street Firms Furnish Bullish Signals Ahead Of Marvell Earnings",
+            "published_utc": "2026-10-24T21:47:31+00:00",
+            "publisher": "Stocktwits",
+            "source_url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOcWx0ZEYwanlQSHJzT2duTXIxUGRmRlQtLTIxbTl1ZU9xd2FQY3pVNDc0b1kxWXFaVlJZSVc2dFRuTW9oVXQ5Rl9YWEphMGpONURfY2swU2t2aUdNby03VTgzRzlvOTc5eXJySklrWEFaUHhKNG9hM0VEZUd6UzJic1pPYzdJUEdzbmJMYmNMX0NSVG1oaG9oWjNZZWRXUmZmWWlEdGZpSnlkTWkwY2YtdHJQSVN1SXpXTWZweHFPaGdPRGFlcVdZY1lxdk9mZ2Rn?oc=5",
+            "mechanism": "Changes in selling prices or operating costs affect the fraction of sales that becomes profit and cash.",
+            "competing_reading": "A temporary price or cost improvement may disappear when conditions normalize.",
+            "test": "Check reported operating margins, cash conversion and the reasons for changes.",
+            "evidence_level": "headline_coverage_not_confirmed_event"
+          },
           {
             "topic": "demand",
             "headline": "Marvell's $3 Billion Safety Net Doesn't Tell You Where Revenue Comes From",
@@ -174,17 +185,6 @@
             "competing_reading": "A competitor announcement does not itself prove customers will switch.",
             "test": "Look for customer wins, product economics and margin changes in company filings.",
             "evidence_level": "headline_coverage_not_confirmed_event"
-          },
-          {
-            "topic": "financing",
-            "headline": "Marvell Technology - Enters Third Amended And Restated Revolving Credit Agreement On Oct 22, 2026 - SEC Filing",
-            "published_utc": "2026-10-23T22:15:47+00:00",
-            "publisher": "TradingView",
-            "source_url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOd1JlYmExNUpoZm1hc3NBYU9fWFJ0SXFSRVN2TjhyYlRXRGJFaFNfeVhxRzBCbWpXRGxNSjJoUnpacXlXQ2c3eUxMQ0RwRFFiTGNyVUJJYkwtX0tMWmZHa2Z5SXJWUlFjcTcwZTFSYWNZVHlQUzBPZ0NJVm1ZZmoyaHBELTEtYVQzNEg1ajZlbUxVaTMteWsyWFk0NHd1ZllhclRwalQ0ZEI4VG4wRXViZS1KRk1PUlYwQXliRVk5NUtJVDBtZHdjZS0zdXhqWEl2Qk05ZWRSMW9hd0RWQkZpUWdkamlYMlVGQlQ5dTZwZm95TFY0T3J2UDRnWF9TVFBMam9hNzl3?oc=5",
-            "mechanism": "Borrowing costs or capital allocation can affect how much future cash ultimately belongs to shareholders.",
-            "competing_reading": "Higher dividends or buybacks can be funded by debt and are not automatically value creation.",
-            "test": "Check the balance sheet, debt maturities and cash available after capital spending.",
-            "evidence_level": "headline_coverage_not_confirmed_event"
           }
         ],
         "search_url": "https://news.google.com/rss/search?q=%22MARVELL%20TECHNOLOGY%22%20when%3A7d&hl=en-US&gl=US&ceid=US:en",
@@ -205,8 +205,35 @@
           }
         ]
       },
-      "research_date": "2026-10-23",
-      "manual_research_prompt": "Research MARVELL TECHNOLOGY, INC (MRVL) for someone whose default alternative is regular VOO investing. The market close is 2026-10-23. Investigate, do not place an order.\n\nOPEN AND VERIFY the dated primary filings and sources, rather than trusting a headline to mean an event happened. Examine the business, competitors, earnings drivers, cash flows, balance sheet, management guidance and risks. Clearly separate filed facts, claims, media interpretations, consensus expectations and your own assumptions.\n\nExplain in connected simple English, defining each financial term at first use: (1) what happened; (2) why it affects future revenue, profits, cash flow or risk; (3) what expectations the current market price may already reflect; (4) how reasonable investors could disagree; (5) bull/base/bear scenarios with explicit sourced assumptions; (6) major upcoming catalysts; (7) strongest opposing evidence; (8) measurable falsification tests; (9) costs and risk versus VOO; and (10) an actionable WATCH / INVESTIGATE / NO-TRADE conclusion. Do not skip causal steps or invent consensus forecasts, sentiment surveys, price targets or missing financial numbers. Clearly label inferences and proxy estimates, and explain how to test them. No cryptocurrency or crypto exposure. Cite the evidence beside each material claim.\n\nSources:\n- S1 (SEC company financial facts): https://data.sec.gov/api/xbrl/companyfacts/CIK0001835632.json\n- S2 (Market screener snapshot): https://finance.yahoo.com/quote/MRVL/financials/\n- S3 (SEC submissions): https://data.sec.gov/submissions/CIK0001835632.json\n- S4 (8-K filed 2026-10-23): https://www.sec.gov/Archives/edgar/data/1835632/000119312526430424/d147430d8k.htm\n- S5 (8-K filed 2026-09-25): https://www.sec.gov/Archives/edgar/data/1835632/000162828026063592/mrvl-20260925.htm\n- S6 (10-Q filed 2026-08-28): https://www.sec.gov/Archives/edgar/data/1835632/000183563226000025/mrvl-20260801.htm\n- S7 (8-K filed 2026-08-27): https://www.sec.gov/Archives/edgar/data/1835632/000183563226000022/mrvl-20260827.htm\n- S8 (10-K primary filing, 2026-03-11): https://www.sec.gov/Archives/edgar/data/1835632/000183563226000011/mrvl-20260131.htm\n- S9 (10-K read passages, filed 2026-03-11): https://www.sec.gov/Archives/edgar/data/1835632/000183563226000011/mrvl-20260131.htm\n- S10 (10-Q read passages, filed 2026-08-28): https://www.sec.gov/Archives/edgar/data/1835632/000183563226000025/mrvl-20260801.htm\n- S11 (8-K read passages, filed 2026-10-23): https://www.sec.gov/Archives/edgar/data/1835632/000119312526430424/d147430d8k.htm\n- S12 (News-index headline \u00b7 ad-hoc-news.de \u00b7 2026-10-24): https://news.google.com/rss/articles/CBMi3AFBVV95cUxQeTg5VFNiNjhQTE1SU0l5Z2NjczE4SUtRZklXbGZmLXpZVHh5dWVDSU1zTlVTTFY5eS1RWl9pYzJVSE5mVTk4cW9XT0ZBTkZncmpzeU1YZlVRTDlmb0JydDRRRS1fTDdkc3I4Y3llOVA0TjU2UkpKbkdkd29VZTRvUEwtdUZONDhFWWJBNkt3U1g0Q1dJUi1Pc1I1TDM1Wlg3dzFVSWZ0aENCRkZyWjZwYVRiRFh3VExiWlpsNHFRTVkySlQ0UjVQVTVhdE9MV2VVT3pjVTB3RGROTFFK?oc=5\n- S13 (News-index headline \u00b7 ad-hoc-news.de \u00b7 2026-10-24): https://news.google.com/rss/articles/CBMi8AFBVV95cUxPRS1QcDZlR3dTZUlWemZqZTRPazJNNE9xeVN5Y01FR2I5SDZSQmNuT2FOQy1uak5ka0c5LWhBd2xucjhtdDJ6b3FsdWRjYVB0amFiQmtVdWFHajJNSUxNcUVFVl92OEw2dWxXeDRnYjZkQlR1QW9xdFRGYVdHa3hDbTJvZ1JKWHhhQ0FKZzlCMDR3anZQOGExYm8tbmFNek9hQXpSemhwVjNxX0w2Nkt0QTJVMi1wVG40YU9LUTBwRGltUktuTzFqUVNNaXNHUnlFTm04eVpqQU1sX181MWdIWENUc3F4c0duVXk2ekZqUko?oc=5\n- S14 (News-index headline \u00b7 Simply Wall Street \u00b7 2026-10-24): https://news.google.com/rss/articles/CBMi2gFBVV95cUxQRTNBQ3dpQndNQ25iMUJCQVRPcFBuenhHZ1VmYzdMU0YxbFdBRHV1WUtOX1RTeFFvTFdOQ2tDcGxoVXBaM3FTOVhTVlVQSm1tS3JNU2tScUxmYkNlYjRlR2ZEMzlsUGNoY1pTcDd5NmtHVzQ1Uk8yV2I5ZWlJNjBQalA5bkdROUJVT2xvdUVqbW9Rd2lVMTh2ajRHd1hveXZUNTdpMl8xUTFHcUx0aG9nRTdNcVd2S0ZNUlFVRW9XRnM4b01yRDRKNG95M1ZIcWhPUzl6bWJFTmxxZ9IB3wFBVV95cUxNTTRhOTlQeURJRWtJeDFhdHZxbDg3R2ptVGhRbHc1eENVTmJqSThEOWlPQk9Eemg0a1R2aVAzVDFWVGVuQjVnalhGeHRZcjByazdJbklWbTFSci1QbzYtaFo1cWlPZ3BXdVM5MXBweFFPck9JS3VvRGpjREpxV1dyRlhPUnJ4SUE1bXBWUHVJeTlDMlhVYWQ5bnJrQVZTZkQ1eFU1VjVqZVJUbFJ2QWVpeUtCeFlSSEhoOXR3Q1JkUERKbWFpSDRiNWxxNV9aWU9ENmNRY3h6YjhJS0p2VWVv?oc=5\n\nNews leads to confirm (not established facts):\n- 2026-10-24 | ad-hoc-news.de: Marvell's $3 Billion Safety Net Doesn't Tell You Where Revenue Comes From\n- 2026-10-24 | ad-hoc-news.de: Marvell Technology announces AI connectivity products: what it means for Marvell Technology stock\n- 2026-10-24 | Simply Wall Street: How Investors May Respond To Marvell Technology (MRVL) New AI Chip Partnerships\n- 2026-10-23 | TradingView: Marvell Technology - Enters Third Amended And Restated Revolving Credit Agreement On Oct 22, 2026 - SEC Filing\n- 2026-10-23 | TradingView: Marvell Technology Secures $3 Billion Five-Year Revolving Credit Facility\n- 2026-10-23 | Kalkine India: Marvell Technology (NASDAQ:MRVL) Stock Falls 8.70%: P/E, Volume and Technicals"
+      "independent": {
+        "completed_evidence": [
+          "The last fiscal-year revenue changed +42.1%; annual free cash flow changed -0.0% versus the previous SEC-observed year. These are historical outcomes, not forecasts. [S1]",
+          "Annual free cash flow: 1.40 billion USD; market capitalisation from the screen: 205.36 billion USD; historical FCF yield: +0.7%. [S1][S2]",
+          "Screened forward price/earnings multiple: 31.2 times. The denominator is an unaudited forecast, not an independently checked earnings consensus. [S2]",
+          "Cash: 3.93 billion USD; reported long-term-debt tag: 4.96 billion USD. The debt tag excludes some obligations and must not be mistaken for full net debt. [S1]",
+          "The stock's preceding one-year price return exceeded VOO by +167.3 percentage points as of 2026-10-23. This historical period is not a 3\u20136-month forecast. [S2]"
+        ],
+        "economic_mechanism": "Revenue at MRVL has grown much faster than cash remaining after capital spending. New sales only create lasting shareholder value if they eventually generate cash; strong headlines about demand cannot establish that conversion.",
+        "pricing_interpretation": "The fixed-parameter reverse cash-flow exercise implies 78.3% annual free-cash-flow growth for five years, under 11% required return, 2% terminal growth and no net borrowing adjustment. This is a stress-test assumption, not a company-specific fair value or near-term target. [S1][S2]",
+        "counterargument": "Revenue growth might continue without corresponding cash-flow improvement. In that case an expensive valuation could compress even if sales rise.",
+        "catalyst": "The next SEC quarterly earnings disclosure could change expectations; the last identified 10-Q was filed 2026-08-28. An exact future earnings date and pre-release consensus are not verified.",
+        "scenarios": [
+          "Bull (conditional): the next filed results show better sustainable cash generation than the market anticipated, causing upward earnings revisions and possible outperformance versus VOO.",
+          "Base (unverified): results roughly match expectations and the market does not re-rate the shares; the historical numbers alone provide no edge over VOO.",
+          "Bear (conditional): cash conversion deteriorates or the earnings multiple falls; a concentrated stock can lose substantially more than VOO."
+        ],
+        "voo_test": "To justify a switch, evidence must show a better prospective 3\u20136-month risk-adjusted payoff than VOO after fees; the present materials do not establish this.",
+        "decision": "NO SWITCH FROM VOO: keep on research watchlist until an independently verified, priced catalyst and forward-earnings evidence exist.",
+        "research_completeness": "PARTIAL \u2014 filed historical numbers quantified; future expectations and precise catalysts unverified",
+        "source_audit": [
+          "Annual SEC financial periods available: 3",
+          "Recent official filings identified: 10-K (2026-03-11), 10-Q (2026-08-28), 8-K (2026-10-23)",
+          "Short filing excerpts retrieved: 3; these are not comprehensive readings of all risk factors, guidance or management discussion",
+          "Verified forward earnings consensus and dated catalyst: unavailable",
+          "Recent news-index headlines: 6; article text and investor-sentiment distribution NOT independently verified"
+        ]
+      },
+      "research_date": "2026-10-23"
     },
     {
       "ticker": "MPC",
@@ -309,7 +336,7 @@
         }
       ],
       "qualitative": {
-        "asof_utc": "2026-10-25T05:17:25.689243+00:00",
+        "asof_utc": "2026-10-25T08:43:46.164754+00:00",
         "headlines": [
           {
             "title": "Marathon Petroleum stock trades 0.21 percent above its Xetra close",
@@ -385,8 +412,35 @@
           }
         ]
       },
-      "research_date": "2026-10-23",
-      "manual_research_prompt": "Research Marathon Petroleum Corporation (MPC) for someone whose default alternative is regular VOO investing. The market close is 2026-10-23. Investigate, do not place an order.\n\nOPEN AND VERIFY the dated primary filings and sources, rather than trusting a headline to mean an event happened. Examine the business, competitors, earnings drivers, cash flows, balance sheet, management guidance and risks. Clearly separate filed facts, claims, media interpretations, consensus expectations and your own assumptions.\n\nExplain in connected simple English, defining each financial term at first use: (1) what happened; (2) why it affects future revenue, profits, cash flow or risk; (3) what expectations the current market price may already reflect; (4) how reasonable investors could disagree; (5) bull/base/bear scenarios with explicit sourced assumptions; (6) major upcoming catalysts; (7) strongest opposing evidence; (8) measurable falsification tests; (9) costs and risk versus VOO; and (10) an actionable WATCH / INVESTIGATE / NO-TRADE conclusion. Do not skip causal steps or invent consensus forecasts, sentiment surveys, price targets or missing financial numbers. Clearly label inferences and proxy estimates, and explain how to test them. No cryptocurrency or crypto exposure. Cite the evidence beside each material claim.\n\nSources:\n- S1 (SEC company financial facts): https://data.sec.gov/api/xbrl/companyfacts/CIK0001510295.json\n- S2 (Market screener snapshot): https://finance.yahoo.com/quote/MPC/financials/\n- S3 (SEC submissions): https://data.sec.gov/submissions/CIK0001510295.json\n- S4 (10-Q filed 2026-08-04): https://www.sec.gov/Archives/edgar/data/1510295/000151029526000061/mpc-20260630.htm\n- S5 (8-K filed 2026-08-04): https://www.sec.gov/Archives/edgar/data/1510295/000151029526000060/mpc-20260804.htm\n- S6 (8-K filed 2026-06-29): https://www.sec.gov/Archives/edgar/data/1510295/000151029526000055/mpc-20260626.htm\n- S7 (10-Q filed 2026-05-05): https://www.sec.gov/Archives/edgar/data/1510295/000151029526000042/mpc-20260331.htm\n- S8 (10-K primary filing, 2026-02-26): https://www.sec.gov/Archives/edgar/data/1510295/000151029526000009/mpc-20251231.htm\n- S9 (10-K read passages, filed 2026-02-26): https://www.sec.gov/Archives/edgar/data/1510295/000151029526000009/mpc-20251231.htm\n- S10 (10-Q read passages, filed 2026-08-04): https://www.sec.gov/Archives/edgar/data/1510295/000151029526000061/mpc-20260630.htm\n- S11 (8-K read passages, filed 2026-08-04): https://www.sec.gov/Archives/edgar/data/1510295/000151029526000060/mpc-20260804.htm\n- S12 (News-index headline \u00b7 ad-hoc-news.de \u00b7 2026-10-24): https://news.google.com/rss/articles/CBMiyAFBVV95cUxPTWk4VkhPaWlMTEdJMHMtaGt5S1V5WHNaSEVYYktPNVpHU1E0ZElOUmVIaFNWMEJRS2dxeDMtZll0RzhKQ2tMdnNLb3ZvQ1NLUzNHb2VyUk5LWjNvZ1h6Q1M2TGxEaHp4dVRqYjh1YnJhdl9sdXhZTmVfM2dGbGdFU3J0SmlEVkJHQ1IxeXNXTGJ2ZzlYUmt5S1RDTXdKcXZYNkZNVGU1cXV4QzA3bnhqTlZ0SUVxSW52cnFzelgtV3hOTVY0ZUFTcw?oc=5\n- S13 (News-index headline \u00b7 Simply Wall Street \u00b7 2026-10-24): https://news.google.com/rss/articles/CBMizgFBVV95cUxPTHNZSlZremh5cWVkTk1sM1hRTElfaDNTd2RENHlOS01MX3lCWG5ST1NQREs4MjFpOF9RanAtaDNkUklXQ0xYcFVYdURUMWtzMUFNcTVRa1J0azJocGZvM1Q4c3hvc25MWnpndzRYVi03ckZuX0p5NjhiYUNZd2RYZURtQTF6U1p5bk5HRU5hdkpCOERfYzRHaUwyUTJJRmM5SVNSVUh2NnZtOENNMVF4UUxpMF93b3lBZ3U0QS1pbGxxcUpaeUdoVVJuM2Q2Z9IBzgFBVV95cUxPTHNZSlZremh5cWVkTk1sM1hRTElfaDNTd2RENHlOS01MX3lCWG5ST1NQREs4MjFpOF9RanAtaDNkUklXQ0xYcFVYdURUMWtzMUFNcTVRa1J0azJocGZvM1Q4c3hvc25MWnpndzRYVi03ckZuX0p5NjhiYUNZd2RYZURtQTF6U1p5bk5HRU5hdkpCOERfYzRHaUwyUTJJRmM5SVNSVUh2NnZtOENNMVF4UUxpMF93b3lBZ3U0QS1pbGxxcUpaeUdoVVJuM2Q2Zw?oc=5\n- S14 (News-index headline \u00b7 Kalkine India \u00b7 2026-10-23): https://news.google.com/rss/articles/CBMi6wFBVV95cUxPQXBFU1JOZ01YeXM1U0xOU2lELWp4STN3U2xTeHMwMXVFMkxWSTdrazdnVHozNm84OTFid0xzWUdKTzN3cUNIaE1OeDJMNThQOE1yX0lobTg5ZVFZTEVERE9NT2E4elVSTjhwTXBiNkwxM0Y0Nkp3eVN4RFA4aHdxaC1vN2NlSW91Y25XaHVYWUpMbTVwM05oSnI5OFd0M2pNMlpMYVFqaHdOLWRfdVZFNGgxR205V25FQ1h3ekdhd3MxOVBjSXBlMjZTbVNGRVlEaVlCOHk0TjBBclJyTURpOUZNY2RDaXR1UmU0?oc=5\n\nNews leads to confirm (not established facts):\n- 2026-10-24 | ad-hoc-news.de: Marathon Petroleum stock trades 0.21 percent above its Xetra close\n- 2026-10-24 | Simply Wall Street: Why Everyone Is Watching Marathon Petroleum (MPC) Right Now\n- 2026-10-23 | Kalkine India: Marathon Petroleum (NYSE:MPC) Stock Slips 1.86%: P/E, EPS and Technical Review\n- 2026-10-23 | Yahoo Finance: Marathon Petroleum (MPC): Position Exited After Strong Gains\n- 2026-10-23 | ad-hoc-news.de: Marathon Petroleum stock: Valero at 9.55 times earnings beats Marathon Petroleum stock at 15.88\n- 2026-10-23 | AD HOC NEWS: TD Cowen raises target for Marathon Petroleum stock to USD 478"
+      "independent": {
+        "completed_evidence": [
+          "The last fiscal-year revenue changed -4.4%; annual free cash flow changed -22.3% versus the previous SEC-observed year. These are historical outcomes, not forecasts. [S1]",
+          "Annual free cash flow: 4.77 billion USD; market capitalisation from the screen: 133.48 billion USD; historical FCF yield: +3.6%. [S1][S2]",
+          "Screened forward price/earnings multiple: 7.8 times. The denominator is an unaudited forecast, not an independently checked earnings consensus. [S2]",
+          "Cash: 7.77 billion USD; reported long-term-debt tag: 3.31 billion USD. The debt tag excludes some obligations and must not be mistaken for full net debt. [S1]",
+          "The stock's preceding one-year price return exceeded VOO by +131.5 percentage points as of 2026-10-23. This historical period is not a 3\u20136-month forecast. [S2]"
+        ],
+        "economic_mechanism": "MPC is a potential earnings-recovery candidate, not an established growth winner: reported sales declined. A recovery could surprise investors, but the reported annual cash flow cannot prove when it will occur.",
+        "pricing_interpretation": "The fixed-parameter reverse cash-flow exercise implies 25.2% annual free-cash-flow growth for five years, under 11% required return, 2% terminal growth and no net borrowing adjustment. This is a stress-test assumption, not a company-specific fair value or near-term target. [S1][S2]",
+        "counterargument": "A cyclical high in margins or cash flow could reverse before the market's expected recovery. Historical profitability may therefore overstate value.",
+        "catalyst": "The next SEC quarterly earnings disclosure could change expectations; the last identified 10-Q was filed 2026-08-04. An exact future earnings date and pre-release consensus are not verified.",
+        "scenarios": [
+          "Bull (conditional): the next filed results show better sustainable cash generation than the market anticipated, causing upward earnings revisions and possible outperformance versus VOO.",
+          "Base (unverified): results roughly match expectations and the market does not re-rate the shares; the historical numbers alone provide no edge over VOO.",
+          "Bear (conditional): cash conversion deteriorates or the earnings multiple falls; a concentrated stock can lose substantially more than VOO."
+        ],
+        "voo_test": "To justify a switch, evidence must show a better prospective 3\u20136-month risk-adjusted payoff than VOO after fees; the present materials do not establish this.",
+        "decision": "NO SWITCH FROM VOO: keep on research watchlist until an independently verified, priced catalyst and forward-earnings evidence exist.",
+        "research_completeness": "PARTIAL \u2014 filed historical numbers quantified; future expectations and precise catalysts unverified",
+        "source_audit": [
+          "Annual SEC financial periods available: 3",
+          "Recent official filings identified: 10-K (2026-02-26), 10-Q (2026-08-04), 8-K (2026-08-04)",
+          "Short filing excerpts retrieved: 3; these are not comprehensive readings of all risk factors, guidance or management discussion",
+          "Verified forward earnings consensus and dated catalyst: unavailable",
+          "Recent news-index headlines: 6; article text and investor-sentiment distribution NOT independently verified"
+        ]
+      },
+      "research_date": "2026-10-23"
     },
     {
       "ticker": "GLD",
@@ -419,7 +473,7 @@
         }
       ],
       "qualitative": {
-        "asof_utc": "2026-10-25T05:17:25.689243+00:00",
+        "asof_utc": "2026-10-25T08:43:46.164754+00:00",
         "headlines": [
           {
             "title": "Why Is the Gold Price Falling Even as Investors and Central Banks Pile In?",
@@ -447,8 +501,30 @@
         "source_status": "recent_index_headlines",
         "filing_observations": []
       },
-      "research_date": "2026-10-23",
-      "manual_research_prompt": "Research Physical gold (GLD) for someone whose default alternative is regular VOO investing. The market close is 2026-10-23. Investigate, do not place an order.\n\nOPEN AND VERIFY the dated primary filings and sources, rather than trusting a headline to mean an event happened. Examine the business, competitors, earnings drivers, cash flows, balance sheet, management guidance and risks. Clearly separate filed facts, claims, media interpretations, consensus expectations and your own assumptions.\n\nExplain in connected simple English, defining each financial term at first use: (1) what happened; (2) why it affects future revenue, profits, cash flow or risk; (3) what expectations the current market price may already reflect; (4) how reasonable investors could disagree; (5) bull/base/bear scenarios with explicit sourced assumptions; (6) major upcoming catalysts; (7) strongest opposing evidence; (8) measurable falsification tests; (9) costs and risk versus VOO; and (10) an actionable WATCH / INVESTIGATE / NO-TRADE conclusion. Do not skip causal steps or invent consensus forecasts, sentiment surveys, price targets or missing financial numbers. Clearly label inferences and proxy estimates, and explain how to test them. No cryptocurrency or crypto exposure. Cite the evidence beside each material claim.\n\nSources:\n- S1 (Fund issuer): https://www.spdrgoldshares.com/usa/\n- S2 (Historical adjusted ETF prices): https://finance.yahoo.com/quote/GLD/history/\n- S3 (News-index headline \u00b7 Morningstar \u00b7 2026-10-19): https://news.google.com/rss/articles/CBMimAFBVV95cUxOZWROX2ZxNkgxTVpVdTlFSmdaT1paOVpfN1RxY0x1Y2djX2ZqSXB3b2wzUVZaakpEd1FvZTQxejl3ck9IVjBNaXdJVVN2ZFdsUTJWQy1yTDJzUnVhcTZxMl9seDBrUm83TThTTHBxM3hpaGVjaXU3N01qODFicnZSeWZpcWhvbk1NYTdDa2pZYUNWc00yRkc0Ng?oc=5\n\nNews leads to confirm (not established facts):\n- 2026-10-19 | Morningstar: Why Is the Gold Price Falling Even as Investors and Central Banks Pile In?"
+      "independent": {
+        "completed_evidence": [
+          "Adjusted ETF-price return through 2026-10-23: three months -2.1%, six months -15.4%. [S2]",
+          "Six-month adjusted ETF-price return relative to VOO: -22.4 percentage points. Backward-looking price returns are not a future return forecast. [S2]"
+        ],
+        "economic_mechanism": "Commodity ETFs may react to real yields, the currency, underlying supply and demand, and ETF structure; these drivers cannot establish future price moves by themselves.",
+        "pricing_interpretation": "A commodity has no corporate free cash flow to discount. Fund structure, tracking and costs matter; no forward price target has been established.",
+        "counterargument": "The commodity's attractive narrative may be already priced in or reverse, causing losses while VOO performs better.",
+        "catalyst": "Future monetary and physical supply/demand developments over three to six months; neither timing nor surprise magnitude is verified.",
+        "scenarios": [
+          "Bull (conditional): an unexpectedly favourable supply/demand shock moves prices above what was already expected.",
+          "Base (unverified): anticipated conditions remain priced in; there is no established excess-return advantage.",
+          "Bear (conditional): real yields, currencies or physical supply move adversely; the ETF underperforms VOO."
+        ],
+        "voo_test": "A diversification rationale is not proof of positive return versus VOO over the same next six months.",
+        "decision": "NO SWITCH FROM VOO for 3\u20136-month outperformance; diversification is a separate investment decision.",
+        "research_completeness": "PARTIAL \u2014 fund prices quantified; future drivers and valuation not independently resolved",
+        "source_audit": [
+          "Issuer description and dated adjusted ETF prices available",
+          "Future macroeconomic expectations and current issuer tracking costs not fully verified",
+          "Recent news-index headlines: 1; article text and investor-sentiment distribution NOT independently verified"
+        ]
+      },
+      "research_date": "2026-10-23"
     }
   ],
   "ai_analysed_count": 0,
@@ -456,8 +532,8 @@
   "research_failures_count": 0,
   "selected_from": 748,
   "research_version": "focused_dossier_v1",
-  "qualitative_asof_utc": "2026-10-25T05:17:25.689243+00:00",
-  "conclusion": "Maintain the VOO baseline; place new ideas on a documented research watchlist rather than trade on a screener ranking.",
-  "method": "SEC filings, dated market prices and independently attributed news headlines. Headline themes are hypotheses, NOT votes, crowd sentiment measurements, or forecasts. Financial calculations use Python; optional AI analysis is separately labelled.",
+  "qualitative_asof_utc": "2026-10-25T08:43:46.164754+00:00",
+  "conclusion": "No independently verified 3\u20136-month excess-return advantage is established for these candidates. Keep VOO as the default; do not switch solely on price screens or headlines.",
+  "method": "SEC filings, dated market prices and independently attributed news headlines. Headline themes are hypotheses, NOT votes, crowd sentiment measurements, or forecasts. Financial calculations and conditional scenarios are generated in the report; any completed AI review is separately labelled. No user-directed homework is required.",
   "crypto_excluded": true
 }

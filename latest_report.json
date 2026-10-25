@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-25 05:14 UTC",
+  "generated_at_utc": "2026-10-25 08:41 UTC",
   "last_market_session": "2026-10-23",
   "research_only": true,
   "approved_for_live_trading": false,
@@ -17,7 +17,7 @@
   },
   "development": {
     "DCA": {
-      "end": 31190.2,
+      "end": 31190.19,
       "deposited": 12700.0,
       "annual": 16.22,
       "drawdown": -34.0,
@@ -26,7 +26,7 @@
       "cost": 12.69
     },
     "200-day trend": {
-      "end": 23510.81,
+      "end": 23510.82,
       "deposited": 12700.0,
       "annual": 11.42,
       "drawdown": -19.81,
@@ -44,7 +44,7 @@
       "cost": 135.16
     },
     "6-month momentum": {
-      "end": 19114.05,
+      "end": 19114.04,
       "deposited": 12700.0,
       "annual": 7.82,
       "drawdown": -23.4,
@@ -53,13 +53,13 @@
       "cost": 239.51
     },
     "20-day breakout": {
-      "end": 16275.29,
+      "end": 16275.26,
       "deposited": 12700.0,
       "annual": 3.66,
       "drawdown": -14.59,
       "sharpe": 0.532,
       "orders": 175,
-      "cost": 972.0
+      "cost": 971.99
     }
   },
   "holdout": {
@@ -91,7 +91,7 @@
       "cost": 58.57
     },
     "6-month momentum": {
-      "end": 10348.22,
+      "end": 10348.21,
       "deposited": 7700.0,
       "annual": 7.04,
       "drawdown": -17.68,
@@ -114,7 +114,7 @@
       "cost_bps": 0,
       "model_annual_return_pct": 8.77,
       "dca_annual_return_pct": 11.74,
-      "model_minus_dca_final_usd": -1266.5400000000009
+      "model_minus_dca_final_usd": -1266.550000000001
     },
     {
       "cost_bps": 10,
