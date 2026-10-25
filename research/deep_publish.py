@@ -69,9 +69,9 @@ def verified_commodity(asset):
             f"changed {percent(m['return_3m_pct'])} over three months and "
             f"{percent(m['return_6m_pct'])} over six months. {comparison} "
             f"Price date: {m['asof']}. [S1][S2]"),
-        'financial_health':("Unlike a company, gold has no earnings or free cash flow to forecast. "
-            "Its investment case depends on macroeconomic demand, real interest rates, currency conditions and fund costs."),
-        'valuation':("For this exposure, monitor the gold price, real interest rates and the ETF's tracking costs "
+        'financial_health':("Unlike a company, a commodity has no earnings or free cash flow to forecast. "
+            "Its case depends on economic demand, interest rates, currency conditions and fund costs."),
+        'valuation':("For this exposure, monitor underlying commodity prices, financing conditions and ETF tracking costs "
             "rather than applying a company discounted-cash-flow formula."),
         'counter_case':("If interest-bearing assets become relatively more attractive, a commodity without "
             "cash distributions can lose demand. Past price momentum alone is not evidence of future outperformance."),
