@@ -185,7 +185,8 @@ def render_markdown(r):
                       '**Adversarial critique:** '+ai['review'],
                       '**Revised assessment:** '+ai['revision']]
         q = a.get('qualitative') or {}
-        lines += ['### Dated headline leads — not established corporate events']
+        lines += ['### Dated headline leads — not verified company events',
+                  'News monitoring timestamp: '+str(q.get('asof_utc') or 'not recorded')]
         for item in (q.get('narratives') or [])[:3]:
             lines += [
                 f"**{item.get('published_utc','')[:10]} · {item.get('publisher','Unknown')}:** {item.get('headline','')}",
@@ -249,6 +250,7 @@ footer{border-top:1px solid #d5dce2;padding-top:20px;color:#546879;font:14px/1.7
                 body+=paragraph(label,ai[key])
         q=a.get('qualitative') or {}
         body+='<h3>Press narrative leads (unverified, not investor sentiment)</h3>'
+        body+=paragraph('News-index timestamp (may follow last market close)',q.get('asof_utc') or 'not recorded')
         narratives=q.get('narratives') or []
         if narratives:
             for n in narratives[:3]:
