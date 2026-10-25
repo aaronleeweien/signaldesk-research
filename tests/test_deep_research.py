@@ -150,7 +150,7 @@ class FocusedResearchTests(unittest.TestCase):
         self.assertIn('NO SWITCH', memo['decision'])
         self.assertIn('cash', memo['economic_mechanism'].lower())
         self.assertTrue(any('NOT independently verified' in item for item in memo['source_audit']))
-        self.assertIn('unavailable', memo['pricing_interpretation'].lower())
+        self.assertIn('defensible', memo['pricing_interpretation'].lower())
 
     def test_never_publish_stale_cross_source_dossier(self):
         with self.assertRaises(ValueError):
