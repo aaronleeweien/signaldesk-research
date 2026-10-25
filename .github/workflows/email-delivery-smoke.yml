@@ -1,0 +1,52 @@
+name: One-time SignalDesk Gmail delivery verification
+on:
+  push:
+    paths:
+      - '.github/workflows/email-delivery-smoke.yml'
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    environment: github-pages
+    steps:
+      - name: Verify configured secrets and send one harmless test email
+        env:
+          SIGNALDESK_GMAIL_FROM: ${{ secrets.SIGNALDESK_GMAIL_FROM }}
+          SIGNALDESK_MAIL_TO: ${{ secrets.SIGNALDESK_MAIL_TO }}
+          SIGNALDESK_GMAIL_APP_PASSWORD: ${{ secrets.SIGNALDESK_GMAIL_APP_PASSWORD }}
+        run: |
+          python - <<'PY'
+          import os
+          import smtplib
+          from email.message import EmailMessage
+          from email.utils import parseaddr
+          expected = ('SIGNALDESK_GMAIL_FROM', 'SIGNALDESK_MAIL_TO', 'SIGNALDESK_GMAIL_APP_PASSWORD')
+          missing = [name for name in expected if not os.environ.get(name)]
+          if missing:
+              raise SystemExit('GitHub secrets missing: ' + ', '.join(missing))
+          sender = os.environ['SIGNALDESK_GMAIL_FROM'].strip()
+          recipient = os.environ['SIGNALDESK_MAIL_TO'].strip()
+          password = os.environ['SIGNALDESK_GMAIL_APP_PASSWORD'].replace(' ', '').strip()
+          for address in (sender, recipient):
+              if not address or parseaddr(address)[1] != address or any(c in address for c in '\r\n'):
+                  raise SystemExit('Sender or recipient email address is malformed')
+          if sender.lower() != recipient.lower():
+              raise SystemExit('For this SignalDesk setup, sender and recipient must be the same Gmail account.')
+          if len(password) != 16:
+              raise SystemExit('Google app password must be 16 characters after removing display spaces.')
+          msg = EmailMessage()
+          msg['From'] = sender
+          msg['To'] = recipient
+          msg['Subject'] = 'SignalDesk email setup — delivery test'
+          msg.set_content(
+              'This is a one-time test of SignalDesk automatic email delivery. '
+              'If you receive this, the GitHub Gmail sender credentials worked. '
+              'Full investment reports are scheduled for trading days after research completes. '
+              'This is not an investment recommendation.'
+          )
+          with smtplib.SMTP_SSL('smtp.gmail.com', 465, timeout=35) as smtp:
+              smtp.login(sender, password)
+              smtp.send_message(msg)
+          print('SMTP LOGIN AND TEST EMAIL ACCEPTED SUCCESSFULLY. Check inbox/spam for arrival.')
+          PY
