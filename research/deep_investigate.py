@@ -104,7 +104,13 @@ def investigate_asset(dossier,api_key,request=call_model):
     permitted={s['id'] for s in dossier['sources']}
     evidence={'kind':dossier['kind'],'ticker':dossier['ticker'],
               'name':dossier['name'],'verified_metrics':dossier['metrics'],
-              'sources':dossier['sources'],'role':dossier['investment_role']}
+              'sources':dossier['sources'],
+               'dated_price_context':dossier.get('price_context') or {},
+               'primary_filing_excerpts':(dossier.get('filings') or {}).get('read_passages') or [],
+               'primary_filing_records':(dossier.get('filings') or {}).get('priority_filings') or [],
+               'press_headlines_unverified':(dossier.get('qualitative_context') or {}).get('headline_sample') or [],
+               'press_scenarios_unverified':(dossier.get('qualitative_context') or {}).get('narratives') or [],
+               'role':dossier['investment_role']}
     primary=request(api_key,SYSTEM,evidence,ANALYST_SCHEMA)
     validate(primary,permitted,FIELDS)
     second=request(api_key,REVIEWER,
