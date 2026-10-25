@@ -29,3 +29,23 @@ Set these **GitHub repository → Settings → Secrets and variables → Actions
 Optionally set `SIGNALDESK_SEC_USER_AGENT` as explained above.
 
 The email includes both a plain-text research article and the HTML article with source links. The recipient and sender addresses are only in GitHub Actions secrets, and the committed email receipt contains **dates only**, not addresses. Failed SMTP sends fail the scheduled workflow rather than pretending delivery succeeded. Email is not active merely because the code exists; verify a successful scheduled run and receipt after configuring secrets. No report is sent on the normal US weekend, when there is no new market close.
+
+## Focused AI research desk (v2; no cryptocurrency)
+
+The daily publication at `report.html` is now a **focused multi-asset research note** rather than a wall of screens. The legacy quantitative pages and paper ledgers are retained. The research pipeline selects up to two SEC-filed companies whose financial information is available, plus one commodity ETF exposure (physical gold first when a current GLD quote is available; other eligible noncrypto physical or futures proxies may be researched later). **No cryptocurrency and no crypto-linked companies or tokens** are eligible for selection.
+
+Source chain: existing broad screener → official SEC XBRL figures → recent SEC filings with short passages where publicly reachable → independent historical ETF quotes for commodity comparison → structured OpenAI analyst → independent skeptical reviewer → deterministic valuation and evidence presentation. The AI only gets public research data, never brokerage credentials or email app passwords. It may not introduce new numeric return targets into the report. Citations are restricted to retrieved source identifiers. Quantitative results are still supplied by Python and never changed by the AI. The report is research-only, and offers explicit opposing arguments and decision conditions instead of forced daily BUY signals.
+
+### Activate unattended AI analysis
+
+ChatGPT Plus **does not cover OpenAI API usage**. In repository **Settings → Secrets and variables → Actions → New repository secret**, add:
+
+- `OPENAI_API_KEY`: An OpenAI API secret key created under your own API account at https://platform.openai.com/api-keys . Do **not** paste the key into this public repository or ChatGPT. Configure API spend limits in the OpenAI platform first. The default model in the scheduled workflow is `gpt-6.1-sol`.
+- The existing three Gmail secrets stay unchanged. Your existing Gmail app password is **not** an OpenAI API key and must not be reused.
+- `SIGNALDESK_SEC_USER_AGENT`: Optional explicit SEC contact string, otherwise the workflow uses the stored recipient email as contact only for SEC requests.
+
+If the API key has not been configured, the automated publication still provides financial evidence and detailed deterministic asset investigation. **It accurately labels its AI-review count**; it never claims that the model researched an asset when it did not. On API errors, reports retain the valid calculations rather than fabricating research. Delayed or inconsistent input dates block new reports before mailing.
+
+A separate company-specific forecast and rigorous true historical point-in-time fundamental database remain methodological research objectives; the current fixed-parameter reverse cash-flow exercise must not be interpreted as a reliable fair-value prediction. Model output must be manually reviewed before acting on a particular security. Daily scheduled emails will contain the focused report after website deployment.
+
+Provider documentation: https://developers.openai.com/api/docs/models/gpt-6.1-sol and https://developers.openai.com/api/docs/guides/structured-outputs . GitHub Models was retired on 2026-07-30, so its old free inference API is **not** used.
