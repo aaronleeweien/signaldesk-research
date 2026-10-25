@@ -48,15 +48,6 @@
       "historical_only_pass": true
     },
     {
-      "ticker": "INSW",
-      "trades": 18,
-      "strategy_annual_pct": 16.11,
-      "voo_annual_pct": 15.43,
-      "annual_excess_pp": 0.68,
-      "recent_excess_pp": -2.31,
-      "historical_only_pass": false
-    },
-    {
       "ticker": "RBRK",
       "trades": 7,
       "strategy_annual_pct": 14.15,
@@ -72,15 +63,6 @@
       "voo_annual_pct": 15.43,
       "annual_excess_pp": -6.21,
       "recent_excess_pp": 4.24,
-      "historical_only_pass": false
-    },
-    {
-      "ticker": "CMBT",
-      "trades": 19,
-      "strategy_annual_pct": 8.38,
-      "voo_annual_pct": 15.43,
-      "annual_excess_pp": -7.05,
-      "recent_excess_pp": -3.78,
       "historical_only_pass": false
     },
     {
@@ -273,6 +255,15 @@
       "historical_only_pass": false
     },
     {
+      "ticker": "MXL",
+      "trades": 38,
+      "strategy_annual_pct": 2.26,
+      "voo_annual_pct": 15.43,
+      "annual_excess_pp": -13.17,
+      "recent_excess_pp": -15.68,
+      "historical_only_pass": false
+    },
+    {
       "ticker": "PBR",
       "trades": 17,
       "strategy_annual_pct": 2.24,
@@ -288,6 +279,15 @@
       "voo_annual_pct": 15.43,
       "annual_excess_pp": -13.37,
       "recent_excess_pp": -6.85,
+      "historical_only_pass": false
+    },
+    {
+      "ticker": "STX",
+      "trades": 19,
+      "strategy_annual_pct": 2.05,
+      "voo_annual_pct": 15.43,
+      "annual_excess_pp": -13.38,
+      "recent_excess_pp": -6.31,
       "historical_only_pass": false
     }
   ],

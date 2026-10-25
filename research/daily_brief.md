@@ -66,7 +66,69 @@ VSXY's price rose faster than VOO over the last year → our screen noticed it. 
 
 ## What the actual SEC financial filings say
 
-No independently verified SEC company filings were available for this market session.
+
+
+### Filing: VSXY
+
+PRIMARY-SOURCE FINANCIAL CHECK ONLY; not a buy recommendation.
+
+FCF (free cash flow) means cash generated from operations minus money spent on property and equipment. Positive FCF can help a company invest, repay debt or return cash to shareholders. FCF yield compares that historical cash with today's market value: a higher number can be attractive but could also mean that cash flow is expected to decline. Revenue growth tells us whether sales expanded, not whether investors will earn a profit.
+
+**Reported facts:** SEC 10-K year ended 2026-01-31: revenue USD 6.55 billion; year-on-year revenue growth 5.18%; net income USD 0.16 billion; operating cash flow USD 0.50 billion; capital spending USD 0.19 billion; free cash flow USD 0.31 billion; free-cash-flow yield 4.31%. Annual free cash flow in the latest available filing years: 2026-01-31: USD 0.31 billion; 2025-02-01: USD 0.25 billion; 2024-02-03: USD 0.13 billion. Positive free cash flow in 3 of 3 available years; a single positive year is not proof of stability. Reported cash balance USD 0.52 billion (balance-sheet date 2026-08-01). Reported long-term-debt tag USD 0.97 billion (balance-sheet date 2026-08-01); this may NOT include every liability. Reverse-valuation arithmetic: today's stock-market value would require about 20.15% annual free-cash-flow growth for five years under the FIXED 11% investor-required return and 2% perpetual terminal growth assumptions. Sensitivity if FCF growth instead stays at 0%, 5%, or 10%: no growth: 44.89% of market cap; moderate growth: 55.25% of market cap; fast growth: 67.61% of market cap.
+
+**Limitations:** We still need current-quarter context, business quality, competitors, detailed debt analysis, forward earnings and a properly justified valuation scenario before claiming this may beat VOO. Annual reports lag today's market price; the SEC facts may include amendments. The reverse-valuation calculation is a sensitivity exercise, NOT a verified fair value or a company forecast: real growth, discount rates, cash use and borrowing could differ substantially.
+
+**SEC source:** https://data.sec.gov/api/xbrl/companyfacts/CIK0001856437.json
+
+**Filed:** 2026-03-20
+
+
+
+### Filing: MRVL
+
+PRIMARY-SOURCE FINANCIAL CHECK ONLY; not a buy recommendation.
+
+FCF (free cash flow) means cash generated from operations minus money spent on property and equipment. Positive FCF can help a company invest, repay debt or return cash to shareholders. FCF yield compares that historical cash with today's market value: a higher number can be attractive but could also mean that cash flow is expected to decline. Revenue growth tells us whether sales expanded, not whether investors will earn a profit.
+
+**Reported facts:** SEC 10-K year ended 2026-01-31: revenue USD 8.19 billion; year-on-year revenue growth 42.09%; net income USD 2.67 billion; operating cash flow USD 1.75 billion; capital spending USD 0.35 billion; free cash flow USD 1.40 billion; free-cash-flow yield 0.68%. Annual free cash flow in the latest available filing years: 2026-01-31: USD 1.40 billion; 2025-02-01: USD 1.40 billion; 2024-02-03: USD 1.03 billion. Positive free cash flow in 3 of 3 available years; a single positive year is not proof of stability. Reported cash balance USD 3.93 billion (balance-sheet date 2026-08-01). Reported long-term-debt tag USD 4.96 billion (balance-sheet date 2026-08-01); this may NOT include every liability. Reverse-valuation arithmetic: today's stock-market value would require about 78.35% annual free-cash-flow growth for five years under the FIXED 11% investor-required return and 2% perpetual terminal growth assumptions. Sensitivity if FCF growth instead stays at 0%, 5%, or 10%: no growth: 7.09% of market cap; moderate growth: 8.72% of market cap; fast growth: 10.67% of market cap.
+
+**Limitations:** We still need current-quarter context, business quality, competitors, detailed debt analysis, forward earnings and a properly justified valuation scenario before claiming this may beat VOO. Annual reports lag today's market price; the SEC facts may include amendments. The reverse-valuation calculation is a sensitivity exercise, NOT a verified fair value or a company forecast: real growth, discount rates, cash use and borrowing could differ substantially.
+
+**SEC source:** https://data.sec.gov/api/xbrl/companyfacts/CIK0001835632.json
+
+**Filed:** 2026-03-11
+
+
+
+### Filing: PBR
+
+PRIMARY-SOURCE FINANCIAL CHECK ONLY; not a buy recommendation.
+
+FCF (free cash flow) means cash generated from operations minus money spent on property and equipment. Positive FCF can help a company invest, repay debt or return cash to shareholders. FCF yield compares that historical cash with today's market value: a higher number can be attractive but could also mean that cash flow is expected to decline. Revenue growth tells us whether sales expanded, not whether investors will earn a profit.
+
+**Reported facts:** SEC 10-K year ended unknown period: revenue not available; year-on-year revenue growth not available; net income not available; operating cash flow not available; capital spending not available; free cash flow not available; free-cash-flow yield not available.
+
+**Limitations:** We still need current-quarter context, business quality, competitors, detailed debt analysis, forward earnings and a properly justified valuation scenario before claiming this may beat VOO. Annual reports lag today's market price; the SEC facts may include amendments. The reverse-valuation calculation is a sensitivity exercise, NOT a verified fair value or a company forecast: real growth, discount rates, cash use and borrowing could differ substantially.
+
+**SEC source:** https://data.sec.gov/api/xbrl/companyfacts/CIK0001119639.json
+
+**Filed:** 
+
+
+
+### Filing: MPC
+
+PRIMARY-SOURCE FINANCIAL CHECK ONLY; not a buy recommendation.
+
+FCF (free cash flow) means cash generated from operations minus money spent on property and equipment. Positive FCF can help a company invest, repay debt or return cash to shareholders. FCF yield compares that historical cash with today's market value: a higher number can be attractive but could also mean that cash flow is expected to decline. Revenue growth tells us whether sales expanded, not whether investors will earn a profit.
+
+**Reported facts:** SEC 10-K year ended 2025-12-31: revenue USD 132.70 billion; year-on-year revenue growth -4.44%; net income USD 4.05 billion; operating cash flow USD 8.25 billion; capital spending USD 3.49 billion; free cash flow USD 4.77 billion; free-cash-flow yield 3.57%. Annual free cash flow in the latest available filing years: 2025-12-31: USD 4.77 billion; 2024-12-31: USD 6.13 billion; 2023-12-31: USD 12.23 billion. Positive free cash flow in 3 of 3 available years; a single positive year is not proof of stability. Reported cash balance USD 7.77 billion (balance-sheet date 2026-06-30). Reported long-term-debt tag USD 3.31 billion (balance-sheet date 2012-03-31); this may NOT include every liability. Reverse-valuation arithmetic: today's stock-market value would require about 25.23% annual free-cash-flow growth for five years under the FIXED 11% investor-required return and 2% perpetual terminal growth assumptions. Sensitivity if FCF growth instead stays at 0%, 5%, or 10%: no growth: 37.22% of market cap; moderate growth: 45.82% of market cap; fast growth: 56.06% of market cap.
+
+**Limitations:** We still need current-quarter context, business quality, competitors, detailed debt analysis, forward earnings and a properly justified valuation scenario before claiming this may beat VOO. Annual reports lag today's market price; the SEC facts may include amendments. The reverse-valuation calculation is a sensitivity exercise, NOT a verified fair value or a company forecast: real growth, discount rates, cash use and borrowing could differ substantially.
+
+**SEC source:** https://data.sec.gov/api/xbrl/companyfacts/CIK0001510295.json
+
+**Filed:** 2026-02-26
 
 
 
@@ -108,7 +170,7 @@ Because we know which stocks survived until today, the old results may be biased
 
 ## Missing evidence / limitations
 
-- The US exchange catalog had 10,931 listings, but only 751 stocks were in the screener output, 88 had historical prices checked, and 32 had basic valuation and growth fields. This is NOT every asset in the market.
+- The US exchange catalog had 10,931 listings, but only 747 stocks were in the screener output, 88 had historical prices checked, and 30 had basic valuation and growth fields. This is NOT every asset in the market.
 
 - Our stock-level valuation is a basic filter, not a Wall Street-quality fair-value model. No independent forecasts, earnings calls, detailed balance-sheet work, management evaluation or scenario-based price targets are in the report.
 
