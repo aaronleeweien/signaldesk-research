@@ -8,6 +8,10 @@ from datetime import datetime, timezone
 from pathlib import Path
 from html import escape as H
 import json
+try:
+    from . import research_synthesis
+except ImportError:
+    import research_synthesis
 
 REPORT_URL='https://aaronleeweien.github.io/signaldesk-research/report.html'
 
@@ -120,36 +124,6 @@ def joined_critical(ai):
         'revision':reviewer['revised_conclusion'],'next':reviewer['decision_condition'],
         'sources':list(dict.fromkeys(analyst['evidence_ids']+reviewer['evidence_ids']))}
 
-def manual_research_prompt(asset):
-    """Evidence-first ChatGPT handoff, no API calls or account information."""
-    source_lines='\n'.join(
-        f"- {src['id']} ({src['label']}): {src['url']}"
-        for src in asset['sources'][:14])
-    q=asset.get('qualitative') or {}
-    headline_lines='\n'.join(
-        f"- {h['published_utc'][:10]} | {h['publisher']}: {h['title']}"
-        for h in q.get('headlines',[])[:6])
-    return ("Research "+asset['name']+" ("+asset['ticker']+") for someone whose default "
-        "alternative is regular VOO investing. The market close is "+asset['research_date']+
-        ". Investigate, do not place an order.\n\n"
-        "OPEN AND VERIFY the dated primary filings and sources, rather than trusting "
-        "a headline to mean an event happened. Examine the business, competitors, "
-        "earnings drivers, cash flows, balance sheet, management guidance and risks. "
-        "Clearly separate filed facts, claims, media interpretations, consensus "
-        "expectations and your own assumptions.\n\n"
-        "Explain in connected simple English, defining each financial term at first use: "
-        "(1) what happened; (2) why it affects future revenue, profits, cash flow or risk; "
-        "(3) what expectations the current market price may already reflect; "
-        "(4) how reasonable investors could disagree; (5) bull/base/bear scenarios with "
-        "explicit sourced assumptions; (6) major upcoming catalysts; (7) strongest opposing "
-        "evidence; (8) measurable falsification tests; (9) costs and risk versus VOO; and "
-        "(10) an actionable WATCH / INVESTIGATE / NO-TRADE conclusion. "
-        "Do not skip causal steps or invent consensus forecasts, sentiment surveys, "
-        "price targets or missing financial numbers. Clearly label inferences and proxy "
-        "estimates, and explain how to test them. No cryptocurrency or crypto exposure. "
-        "Cite the evidence beside each material claim.\n\nSources:\n"+source_lines+
-        ("\n\nNews leads to confirm (not established facts):\n"+headline_lines if headline_lines else ""))
-
 def briefing(dossier,investigation):
     if dossier['market_date']!=investigation['market_date']:
         raise ValueError('AI and quantitative source dates do not match')
@@ -159,14 +133,14 @@ def briefing(dossier,investigation):
         ai=joined_critical(investigation['investigations'].get(asset['ticker'],{}))
         assets.append({'ticker':asset['ticker'],'name':asset['name'],'kind':asset['kind'],
                        'facts':verified,'ai':ai,'sources':source_list(asset),
-                       'qualitative':qualitative_coverage(asset),'research_date':dossier['market_date']})
-    for item in assets:
-        item['manual_research_prompt']=manual_research_prompt(item)
+                       'qualitative':qualitative_coverage(asset),
+                       'independent':research_synthesis.analyse(asset),
+                       'research_date':dossier['market_date']})
     if not assets:raise ValueError('No independently measured asset for focused research')
     return {'date':dossier['market_date'],'fresh':True,
             'title':'SignalDesk | Investment Research Desk',
             'headline':'VOO remains the default; investigate only a few clearly defined alternatives.',
-            'subtitle':'Deep research is an argument to test, not a signal to buy.',
+            'subtitle':'A complete decision memo from available sources, with explicit research limitations.',
             'summary':('We keep a diversified VOO base. Today we concentrate on a few public-company and commodity '
                        'exposures, calculating what their historical accounts show, what their market prices assume, '
                        'and which future evidence should change our view.'),
@@ -176,133 +150,144 @@ def briefing(dossier,investigation):
             'selected_from':dossier.get('screened_total'),
             'research_version':dossier['version'],
             'qualitative_asof_utc':dossier.get('qualitative_asof_utc'),
-            'conclusion':'Maintain the VOO baseline; place new ideas on a documented research watchlist rather than trade on a screener ranking.',
+            'conclusion':'No independently verified 3–6-month excess-return advantage is established for these candidates. Keep VOO as the default; do not switch solely on price screens or headlines.',
             'method':('SEC filings, dated market prices and independently attributed news headlines. '
                 'Headline themes are hypotheses, NOT votes, crowd sentiment measurements, or forecasts. '
-                'Financial calculations use Python; optional AI analysis is separately labelled.'),
+                'Financial calculations and conditional scenarios are generated in the report; any completed AI review is separately labelled. No user-directed homework is required.'),
             'crypto_excluded':True}
 
 def render_markdown(r):
-    lines=['# '+r['title'],f"Market close: {r['date']}",
-           '**'+r['headline']+'**',r['summary'],'',
-           '## Today’s conclusion',r['conclusion'],'']
-    for i,a in enumerate(r['assets'],1):
-        f=a['facts'];lines += [f"## {i}. {a['ticker']} — {a['name']}",
-           '**Why it is on the desk:** '+f['observation'],
-           '**Financial context:** '+f['financial_health'],
-           '**What today’s price appears to demand:** '+f['valuation']]
-        q=a.get('qualitative') or {}
-        lines += ['**What the financial press is covering (as of '+str(q.get('asof_utc') or 'the report')+'):**']
-        if q.get('narratives'):
-            lines += ['The headlines below are reports of *coverage*, not verified company events '
-                      'or a survey of investor opinion. Some may have appeared after the market close shown above.']
-            for n in q['narratives']:
-                lines += [f"**Headline ({n['published_utc'][:10]}, {n['publisher']}):** {n['headline']}",
-                    '**Why it could affect value, if substantiated:** '+n['mechanism'],
-                    '**Why the stock might not move as expected:** '+n['competing_reading'],
-                    '**What would confirm or refute that interpretation:** '+n['test'],
-                    '**Check the original news coverage:** '+n['source_url']]
-        else:
-            lines += ['**Decision now:** use the filed business results as the evidence base. '
-                      'Do not infer bullish or bearish investor sentiment from an empty or incomplete '
-                      'news sample; check the next filing and guidance against earlier company figures.']
-        if q.get('filing_observations'):
-            for filed_record in q['filing_observations']:
-                lines += [f"**Primary document to cross-check ({filed_record['form']}, filed {filed_record['filed']}):** {filed_record['url']}"]
-        lines += ['**Important distinction:** A well-supported business story can still be a poor '
-                  'investment if the stock price already reflects that story.']
-        if a['ai']:
-            c=a['ai'];lines += [
-                '**Investigative thesis:** '+c['explanation'],
-                '**Business and economic drivers:** '+c['business'],
-                '**What the market appears to assume:** '+c['market_view'],
-                '**Where that view could be wrong:** '+c['variant'],
-                '**What could cause revaluation:** '+c['catalyst'],
-                '**The strongest opposing argument:** '+c['bear'],
-                '**Independent reviewer’s challenge:** '+c['review'],
-                '**Alternative explanation:** '+c['alternative'],
-                '**Reviewer’s revised conclusion:** '+c['revision'],
-                '**VOO comparison:** '+c['benchmark'],
-                '**Thesis invalidation test:** '+c['invalidation'],
-                '**What to track:** '+c['monitor'],
-                '**Decision checkpoint:** '+c['next']]
-        else:
-            lines += ['**The opposing case:** '+f['counter_case']]
-        lines += ['**Copy-ready guided ChatGPT investigation:**',
-                  '```text',a['manual_research_prompt'],'```']
-        lines += ['**Research decision:** '+f['decision'],
-                  '**The next real investigation:** '+f['next_check'],
-                  '**Primary evidence:**']
-        for source in a['sources']:
-            lines.append(f"- [{source['id']}] {source['label']}: {source['url']}")
-        lines.append('')
-    lines += ['## How the evidence is used',
-        'Facts from SEC financial statements are not the same as estimates of next-year earnings. '
-        'The cash-flow valuation is a numerical stress test; independent AI review adds interpretation '
-        'only when source identifiers can be verified.',
-        'Past performance and today’s valuation do not guarantee an outperforming investment. '
-        'No crypto is included. This report makes no brokerage trades.',
-        f"Research mode: {r['ai_analysed_count']} of {len(r['assets'])} opportunities received two-pass AI investigation. ",
-        'See the permanent historical backtest and paper records at the SignalDesk website.']
+    lines = ['# ' + r['title'], f"US market close: {r['date']}",
+             '**'+r['headline']+'**', r['summary'],
+             '## Decision', r['conclusion'],
+             '**Research status:** '+str(r['ai_analysed_count'])+' of '+str(len(r['assets']))
+             +' candidates had a complete two-pass AI investigation. '
+             'All candidates receive automated source-bounded financial assessment. '
+             'An absence of AI review or verified forward expectations is not concealed.']
+    for n, a in enumerate(r['assets'],1):
+        z = a['independent']
+        lines += [f"## {n}. {a['ticker']} — {a['name']}",
+                  '**3–6-month decision:** '+z['decision'],
+                  '**Evidence completeness:** '+z['research_completeness'],
+                  '### What the recorded data actually establish']
+        lines += ['- '+fact for fact in z['completed_evidence']]
+        lines += ['### Economic and price mechanism',z['economic_mechanism'],
+                  '**Valuation and implied assumptions:** '+z['pricing_interpretation'],
+                  '**Strongest opposing interpretation:** '+z['counterargument'],
+                  '**Catalyst and time evidence:** '+z['catalyst'],
+                  '**VOO comparison:** '+z['voo_test'],
+                  '### Bull, base and bear outcomes (conditional, not price forecasts)']
+        lines += ['- '+scenario for scenario in z['scenarios']]
+        if a.get('ai'):
+            ai=a['ai']
+            lines += ['### Completed independent AI / skeptical review',
+                      '**Investigator:** '+ai['explanation'],
+                      '**Adversarial critique:** '+ai['review'],
+                      '**Revised assessment:** '+ai['revision']]
+        q = a.get('qualitative') or {}
+        lines += ['### Dated headline leads — not established corporate events']
+        for item in (q.get('narratives') or [])[:3]:
+            lines += [
+                f"**{item.get('published_utc','')[:10]} · {item.get('publisher','Unknown')}:** {item.get('headline','')}",
+                'Conditional economic path: '+item.get('mechanism',''),
+                'Alternative reading: '+item.get('competing_reading',''),
+                'Evidence needed before treating this as fact: '+item.get('test',''),
+                'Coverage URL: '+item.get('source_url','')]
+        if not q.get('narratives'):
+            lines += ['No representative verified narrative sample was available; no sentiment score was invented.']
+        lines += ['### Evidence audit and research gaps']
+        lines += ['- '+x for x in z['source_audit']]
+        lines += ['### Sources used or identified']
+        lines += [f"- [{x['id']}] {x['label']}: {x['url']}" for x in a['sources']]
+    lines += ['## Method and limits',r['method'],
+              'This report cannot know the future. Historical accounts, market screens, '
+              'limited filing excerpts and dated headline samples do not constitute fully '
+              'verified earnings expectations or an expected-return model. '
+              'No buy instruction, fabricated target or real-money order is made.']
     return '\n\n'.join(lines)+'\n'
+
 
 def render_html(r):
     esc=H
+    css="""body{margin:0;background:#f7f9fb;color:#172739;font:17px/1.7 Georgia,serif}
+main{max-width:920px;margin:0 auto;padding:34px 20px 80px}
+h1,h2,h3,.meta,.eyebrow,.verdict,nav,footer,strong,summary{font-family:system-ui,Arial,sans-serif}
+h1{font-size:clamp(32px,5vw,52px);line-height:1.13;margin:12px 0}h2{font-size:27px}
+h3{font-size:19px;margin-top:25px}.meta,.eyebrow{font:13px system-ui;color:#617183}
+.intro{font-size:20px}.summary{padding:20px;background:#eaf1f5;border-left:4px solid #365978}
+.asset{background:white;border:1px solid #d6e0e8;border-radius:13px;margin:30px 0;padding:28px}
+.asset p{margin:11px 0}.asset ul{padding-left:24px}li{margin:7px 0}
+.verdict{padding:16px;background:#ecf2ec;border-left:4px solid #47795c;font-weight:700}
+.narrative{border-left:3px solid #b4c8d5;padding:10px 15px;background:#f5f8fb;margin:12px 0}
+.evidence{font:13px/1.6 system-ui;overflow-wrap:anywhere}.audit{margin-top:20px}
+details{border:1px solid #c9d5dd;border-radius:8px;padding:13px}summary{cursor:pointer}
+a{color:#155b82}nav{display:flex;flex-wrap:wrap;gap:15px;margin:20px 0;font:14px system-ui}
+footer{border-top:1px solid #d5dce2;padding-top:20px;color:#546879;font:14px/1.7 system-ui}
+@media(max-width:600px){.asset{padding:17px}main{padding:20px 12px}}
+"""
+    def paragraph(label, text):
+        return '<p><strong>'+esc(label)+':</strong> '+esc(str(text))+'</p>'
     sections=[]
-    def p(title,value):return f'<p><strong>{esc(title)}.</strong> {esc(value)}</p>'
     for i,a in enumerate(r['assets'],1):
-        f=a['facts'];body=p('Why it deserves investigation',f['observation'])
-        body+=p('Financial reality',f['financial_health'])+p('Valuation or economic pricing',f['valuation'])
+        z=a['independent']
+        body='<p class="verdict">'+esc(z['decision'])+'</p>'
+        body+=paragraph('Evidence completeness',z['research_completeness'])
+        body+='<h3>What the recorded data actually establish</h3><ul>'
+        body+=''.join('<li>'+esc(x)+'</li>' for x in z['completed_evidence'])+'</ul>'
+        for label,key in [('Economic mechanism','economic_mechanism'),
+                          ('Valuation and implied assumptions','pricing_interpretation'),
+                          ('Strongest opposing interpretation','counterargument'),
+                          ('Next 3–6-month catalyst and its verification status','catalyst'),
+                          ('How this compares with holding VOO','voo_test')]:
+            body+=paragraph(label,z[key])
+        body+='<h3>Three possible outcomes — not price targets</h3><ul>'
+        body+=''.join('<li>'+esc(x)+'</li>' for x in z['scenarios'])+'</ul>'
+        if a.get('ai'):
+            ai=a['ai'];body+='<h3>Completed model investigation and skeptical review</h3>'
+            for key,label in [('explanation','Investigator'),('review','Skeptical reviewer'),
+                              ('revision','Revised assessment'),('benchmark','VOO challenge')]:
+                body+=paragraph(label,ai[key])
         q=a.get('qualitative') or {}
-        body+='<h3>Market narratives: what is being discussed, and why it matters</h3>'
-        if q.get('narratives'):
-            asof=q.get('asof_utc') or 'unknown'
-            body+=p('How to read this', 'These are dated news-index headlines as of '+asof+
-                    '. A headline identifies a possible change in expectations, not a confirmed event, '
-                    'an investor-sentiment poll, or proof that the share price will rise. Some headlines '
-                    'may postdate the last completed US market session.')
-            for n in q['narratives']:
+        body+='<h3>Press narrative leads (unverified, not investor sentiment)</h3>'
+        narratives=q.get('narratives') or []
+        if narratives:
+            for n in narratives[:3]:
                 body+='<div class="narrative">'
-                body+=p('What appeared ('+n['published_utc'][:10]+'; '+n['publisher']+')',
-                       n['headline'])
-                body+=p('Why it could matter IF true',n['mechanism'])
-                body+=p('Why that does not prove a profitable trade',n['competing_reading'])
-                body+=p('The decisive follow-up check',n['test'])
-                body+=f'<p><a href="{esc(n["source_url"],quote=True)}" rel="noopener noreferrer">Read cited news coverage</a></p>'
+                body+=paragraph(str(n.get('published_utc',''))[:10]+' · '+n.get('publisher',''),n.get('headline',''))
+                body+=paragraph('Hypothetical economic effect',n.get('mechanism',''))
+                body+=paragraph('Alternative explanation',n.get('competing_reading',''))
+                body+=paragraph('Outstanding verification',n.get('test',''))
+                if n.get('source_url'):
+                    body+='<p><a href="'+esc(n['source_url'],quote=True)+'">Original coverage lead</a></p>'
                 body+='</div>'
         else:
-            body+=p('Reasoned conclusion',
-                    'Use the business filings and valuation cases for the current decision. '
-                    'Without a representative set of recent attributed stories, do not invent a '
-                    'market-mood label. Check actual company guidance and the next financial release.')
-        body+=p('The essential link',
-                'A story changes investment value only if it changes expected future cash flows, '
-                'the risk of receiving them, or the price investors will pay—and only if that '
-                'change was not already fully reflected in the current share price.')
-        if a['ai']:
-            c=a['ai']
-            for title,key in [('The investment thesis','explanation'),('Business drivers','business'),
-                 ('Market expectations','market_view'),('Why investors may be wrong','variant'),
-                 ('Catalyst','catalyst'),('The bear case','bear'),('Skeptical review','review'),
-                 ('Alternative explanation','alternative'),("Reviewer's verdict",'revision'),
-                 ('Why compare against VOO','benchmark'),('What disproves the thesis','invalidation'),
-                 ('Ongoing watchpoints','monitor'),('Decision checkpoint','next')]:
-                body+=p(title,c[key])
-        else:body+=p('The strongest competing interpretation',f['counter_case'])
-        body+='<details class="ai-prompt"><summary>Investigate with ChatGPT: copy the source-linked research brief</summary>'
-        body+='<p>This uses your current ChatGPT access and does not require an API subscription. Verify the sources and ask ChatGPT to challenge its own case.</p>'
-        body+='<pre>'+esc(a['manual_research_prompt'])+'</pre></details>'
-        body+=f'<p class="decision">{esc(f["decision"])}</p>'+p('Next research action',f['next_check'])
-        links=' · '.join(f'<a href="{esc(s["url"],quote=True)}" rel="noopener noreferrer">{esc(s["id"])}: {esc(s["label"])}</a>' for s in a['sources'])
-        sections.append(f'<section class="asset"><div class="eyebrow">DOSSIER {i:02d} · {"COMPANY" if a["kind"]=="equity" else "COMMODITY EXPOSURE"}</div><h2>{esc(a["ticker"])} <small>{esc(a["name"])}</small></h2>{body}<p class="evidence"><strong>Open the underlying evidence:</strong> {links}</p></section>')
-    mode=(f"Two-pass AI analyst and skeptical reviewer completed for {r['ai_analysed_count']} of {len(r['assets'])} cases."
-          if r['ai_analysed_count'] else "This edition uses filed financial evidence and deterministic research; model-based investigation activates after an AI API key is configured.")
-    return f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>SignalDesk — Focused Investment Research</title>
-<style>body{{margin:0;background:#f7f9fa;color:#142536;font:17px/1.75 Georgia,serif}}main{{max-width:900px;margin:auto;padding:30px 22px 70px}}h1,h2,.decision,.eyebrow,.nav,.meta,.evidence,.summary,footer{{font-family:system-ui,-apple-system,Arial,sans-serif}}h1{{font-size:clamp(30px,6vw,51px);letter-spacing:-.04em;line-height:1.12}}h2{{font-size:28px;line-height:1.25;margin:8px 0 20px}}h2 small{{display:block;font-size:15px;font-weight:400;color:#5c6c7b;margin-top:4px}}.eyebrow{{font-size:11px;letter-spacing:.14em;font-weight:800;color:#50697b}}.meta{{font-size:13px;color:#607082}}.intro{{font-size:20px;line-height:1.55}}.summary{{font-size:17px;background:#eef3f7;border-left:4px solid #345879;padding:18px;margin:20px 0}}.asset{{background:white;border:1px solid #d6e0e8;border-radius:14px;margin:32px 0;padding:28px}}.asset p{{margin:13px 0}}.asset h3{{font:700 18px/1.4 system-ui,-apple-system,Arial,sans-serif;margin:25px 0 10px}}.narrative{{border-left:3px solid #9ab4c6;background:#f2f6fa;padding:12px 16px;margin:14px 0}}.ai-prompt{{margin:18px 0;border:1px solid #b9cbd8;border-radius:8px;padding:12px}}.ai-prompt summary{{font:700 14px/1.5 system-ui;cursor:pointer}}.ai-prompt pre{{white-space:pre-wrap;overflow-wrap:anywhere;font:13px/1.55 system-ui;padding:10px;background:#f5f8fa;border-radius:6px}}.asset strong{{font-family:system-ui,-apple-system,Arial,sans-serif;font-size:15px}}.decision{{background:#eff4f0;border-left:4px solid #437b68;padding:16px;font-size:15px;font-weight:700}}a{{color:#195d83;text-underline-offset:3px}}.evidence{{border-top:1px solid #e2e7eb;font-size:13px;padding-top:15px;word-break:break-word}}footer{{font-size:13px;color:#627180;padding-top:20px;border-top:1px solid #d6dce1}}.nav{{display:flex;flex-wrap:wrap;gap:18px;font-size:13px;margin:16px 0}}@media(max-width:650px){{.asset{{padding:19px}}main{{padding:22px 14px}}body{{font-size:16px}}}}</style>
-</head><body><main><div class="eyebrow">SIGNALDESK · INDEPENDENT RESEARCH DESK · NO CRYPTO</div><h1>Fewer ideas.<br>Stronger arguments.</h1><div class="meta">Completed US trading session: <b>{esc(r['date'])}</b> · Research only · No auto-trading</div>
-<p class="intro">{esc(r['summary'])}</p><p class="meta">Market narrative monitoring updated at: {esc(r.get('qualitative_asof_utc') or 'not recorded')}. This timestamp can be later than the market-pricing date.</p><div class="summary"><b>Bottom line:</b> {esc(r['conclusion'])}</div>
-<nav class="nav"><a href="decisions.html">Quantitative research</a><a href="validation.html">Historical validation</a><a href="market.html">Full screening evidence</a><a href="established.html">ETF comparisons</a></nav>
-{''.join(sections)}<footer><p><strong>Method.</strong> {esc(r['method'])}</p><p><strong>Review status.</strong> {esc(mode)}</p><p>Primary-company disclosures and historical price data carry uncertainty. An investment hypothesis is only as strong as its evidence, assumptions, and future checks. No order is placed and no claim of reliably outperforming VOO is made.</p></footer></main></body></html>'''
+            body+='<p>No verified representative news sample; no sentiment conclusion inferred.</p>'
+        body+='<details class="audit"><summary>Source audit: what was checked, and what remains unverified</summary><ul>'
+        body+=''.join('<li>'+esc(x)+'</li>' for x in z['source_audit'])+'</ul></details>'
+        links=' · '.join('<a href="'+esc(x['url'],quote=True)+'" rel="noopener noreferrer">'+
+                         esc(x['id']+': '+x['label'])+'</a>' for x in a['sources'])
+        body+='<p class="evidence"><strong>Underlying documents and market evidence:</strong> '+links+'</p>'
+        sections.append('<section class="asset"><div class="eyebrow">RESEARCH DOSSIER '+str(i)+'</div><h2>'+
+                        esc(a['ticker'])+' <small>'+esc(a['name'])+'</small></h2>'+body+'</section>')
+    status=str(r['ai_analysed_count'])+' of '+str(len(r['assets']))+' completed a source-bounded two-pass AI review. '+(
+        'All candidates received automatic audited fundamental scenarios. '
+        'Lack of AI review, independently verified consensus or full article analysis '
+        'is disclosed rather than passed to the reader.')
+    nav='<nav><a href="decisions.html">Quantitative research</a><a href="validation.html">Historical validation</a><a href="market.html">Stock screening</a><a href="established.html">ETF comparisons</a></nav>'
+    return ('<!doctype html><html lang="en"><head><meta charset="utf-8">'
+            '<meta name="viewport" content="width=device-width,initial-scale=1">'
+            '<title>SignalDesk — Evidence-Led Investment Research</title><style>'+css+
+            '</style></head><body><main><div class="eyebrow">SIGNALDESK · EVIDENCE-LED INVESTMENT RESEARCH · NO CRYPTO</div>'
+            '<h1>Fewer ideas.<br>Stronger arguments.</h1>'
+            '<div class="meta">Last completed US market session: '+esc(r['date'])+
+            ' · 3–6-month research horizon · No real-money trades</div><p class="intro">'+
+            esc(r['summary'])+'</p><div class="summary"><strong>Decision:</strong> '+
+            esc(r['conclusion'])+'</div>'+nav+''.join(sections)+
+            '<footer><p><strong>Research status:</strong> '+esc(status)+'</p>'
+            '<p><strong>Method:</strong> '+esc(r['method'])+'</p>'
+            '<p>Headlines are not verified events. Historical screens are not forward '
+            'return predictions. No claim of assured outperformance is made.</p>'
+            '</footer></main></body></html>')
 
 def publish(root=Path('research'),site=Path('site')):
     dossier=json.loads((root/'focused_dossier.json').read_text())
