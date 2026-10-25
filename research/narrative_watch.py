@@ -24,7 +24,7 @@ except ImportError:
 
 SEARCH_ROOT = "https://news.google.com/rss/search?q="
 NARRATIVE_RULES = (
-    ("demand", ("demand", "sales", "orders", "customer", "contract", "revenue", "growth", "shipment"),
+    ("demand", ("demand", "sales", "orders", "customer", "contract", "revenue", "growth", "shipment", "outlook", "guidance"),
      "If this reflects real changes in customer spending, it could change future sales and cash generation.",
      "A strong headline may describe an already expected development, or orders that are not yet profitable.",
      "Compare the next reported sales and customer guidance with the previous filing and market expectations."),
@@ -32,7 +32,7 @@ NARRATIVE_RULES = (
      "Changes in selling prices or operating costs affect the fraction of sales that becomes profit and cash.",
      "A temporary price or cost improvement may disappear when conditions normalize.",
      "Check reported operating margins, cash conversion and the reasons for changes."),
-    ("competition", ("competitor", "competition", "market share", "rival", "product", "launch"),
+    ("competition", ("competitor", "competition", "market share", "rival", "product", "launch", "partnership", "ecosystem"),
      "A lasting competitive change could alter future demand or the prices the company can charge.",
      "A competitor announcement does not itself prove customers will switch.",
      "Look for customer wins, product economics and margin changes in company filings."),
@@ -44,7 +44,7 @@ NARRATIVE_RULES = (
      "Borrowing costs or capital allocation can affect how much future cash ultimately belongs to shareholders.",
      "Higher dividends or buybacks can be funded by debt and are not automatically value creation.",
      "Check the balance sheet, debt maturities and cash available after capital spending."),
-    ("commodity", ("gold", "silver", "oil", "crude", "commodity", "inflation", "dollar", "yield", "supply"),
+    ("commodity", ("gold", "silver", "oil", "crude", "commodity", "inflation", "dollar", "yield"),
      "Changes in commodity supply, demand, currency or interest rates can alter what investors will pay for the exposure.",
      "Even a convincing macro narrative may already be priced in and an ETF may not track spot prices exactly.",
      "Compare actual commodity moves, real yields, currency shifts and the fund's tracking costs."),
@@ -72,10 +72,28 @@ def fetch_rss(url):
 def normalize_words(value):
     return re.sub(r"\s+"," ",unescape(re.sub(r"<[^>]*>","",value or ""))).strip()
 
-def identify_topic(title):
+LOW_SIGNAL = (
+    r"\bstock forecasts?\b",
+    r"\bcorporation estimates\b",
+    r"\bshares? bought by\b",
+    r"\bstock sold by\b",
+    r"\bholdings? lessened by\b",
+    r"\bwhat is going on with\b",
+)
+
+def low_information(title):
+    """Exclude generic forecasts, ownership notices, and empty market chatter."""
+    return any(re.search(rule,title,re.I) for rule in LOW_SIGNAL)
+
+def identify_topic(title,asset=None):
+    """Identify what a headline discusses; never call it investor sentiment.
+
+    Use word boundaries to prevent 'gold' matching 'holders' and 'rate' matching
+    unrelated word fragments. The publisher is stripped before calling this.
+    """
     low=title.lower()
     for topic,words,*rest in NARRATIVE_RULES:
-        if any(w in low for w in words):
+        if any(re.search(r"(?<![a-z0-9])"+re.escape(w)+r"[a-z]*\b",low) for w in words):
             return topic
     return "other"
 
@@ -94,7 +112,7 @@ def has_entity(title,asset):
     # formal suffix. Avoid ambiguous first names such as Marathon or United.
     first=stem.split()[0] if stem else ""
     if len(first)>=7 and first not in ("marathon","united","general","american","national","global") and bool(
-            re.search(r"\\b"+re.escape(first)+r"\\b",lower)):
+            re.search(r"\b"+re.escape(first)+r"\b",lower)):
         return True
     # Avoid treating an unrelated article with a three-letter common acronym
     # as evidence that the company is under discussion.
@@ -109,18 +127,23 @@ def parse_news(xml,asset,now=None,max_items=6):
         link=normalize_words(item.findtext("link"))
         stamp=item.findtext("pubDate") or ""
         outlet=normalize_words(item.findtext("source"))
+        # RSS suffixes such as ' - Yahoo Finance' are PUBLISHERS, not news.
+        suffix=" - "+outlet
+        if outlet and title.lower().endswith(suffix.lower()):
+            title=title[:-len(suffix)].rstrip()
         if not title or not link.startswith("https://news.google.com/"):continue
         if not has_entity(title,asset) or CRYPTO.search(title):continue
+        if low_information(title):continue
         try:
             when=parsedate_to_datetime(stamp).astimezone(timezone.utc)
         except (ValueError,TypeError,IndexError):continue
-        if when>now+timedelta(minutes=15) or now-when>timedelta(days=8):continue
+        if when>now+timedelta(minutes=15) or now-when>timedelta(days=7):continue
         norm=re.sub(r"[^a-z0-9]","",title.lower())
         if norm in seen:continue
         seen.add(norm)
         articles.append({"title":title[:210],"published_utc":when.isoformat(),
                          "publisher":outlet[:70] or "publisher not supplied",
-                         "url":link,"topic":identify_topic(title)})
+                         "url":link,"topic":identify_topic(title,asset)})
     articles.sort(key=lambda x:x["published_utc"],reverse=True)
     return articles[:max_items]
 

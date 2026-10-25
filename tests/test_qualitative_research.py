@@ -42,6 +42,25 @@ class QualitativeResearchTests(unittest.TestCase):
         self.assertTrue(all(x["evidence_level"]=="headline_coverage_not_confirmed_event"
                             for x in discussions))
 
+    def test_publisher_not_a_financing_catalyst_and_low_signal_is_filtered(self):
+        rows=[
+          ("Marvell Technology stock forecasts - Yahoo Finance",
+           "Sat, 24 Oct 2026 14:00:00 GMT","Yahoo Finance",NEWS_LINK),
+          ("Marvell Technology Faces New Product Competition - Source A",
+           "Sat, 24 Oct 2026 12:00:00 GMT","Source A",NEWS_LINK+"2"),
+          ("Marathon Petroleum Shares Bought by Asset Management LLC - MarketBeat",
+           "Sat, 24 Oct 2026 11:00:00 GMT","MarketBeat",NEWS_LINK+"3")]
+        parsed=n.parse_news(fixture_rss(rows),self.stock(),NOW)
+        self.assertEqual(len(parsed),1)
+        self.assertEqual(parsed[0]["topic"],"competition")
+        self.assertNotIn("Source A",parsed[0]["title"])
+
+    def test_word_boundaries_remove_fake_topics(self):
+        self.assertEqual(n.identify_topic("Marvell holders"),"other")
+        self.assertEqual(n.identify_topic("Marvell announces chip supply outlook"),"demand")
+        self.assertEqual(n.identify_topic("Oil futures move with crude supply"),"commodity")
+        self.assertTrue(n.has_entity("Marvell launches another product",self.stock()))
+
     def test_stale_future_unrelated_and_invalid_links_excluded(self):
         items=[
           ("Marvell Technology growing sales","Thu, 15 Oct 2026 14:00:00 GMT","Source A",NEWS_LINK),
