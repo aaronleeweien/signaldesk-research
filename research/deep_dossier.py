@@ -12,6 +12,7 @@ from urllib.request import Request, urlopen
 import xml.etree.ElementTree as ET
 from html.parser import HTMLParser
 
+CRYPTO_TICKERS={'COIN','MSTR','MARA','RIOT','CLSK','HUT','HIVE','BITF','BTDR','IBIT','FBTC','GBTC','BITO','ETHA','ETHE','BTC','ETH','SOL','DOGE'}
 CRYPTO = re.compile(r'\b(crypto(?:currency)?|bitcoin|ethereum|blockchain|digital.asset|web3|dogecoin|stablecoin|tokeni[sz]ation)\b',re.I)
 PROXIES = {
     'GLD': ('Physical gold', 'https://www.spdrgoldshares.com/usa/'),
@@ -37,7 +38,7 @@ def select_companies(company_rows, market_rows, limit=2):
     for item in company_rows:
         sym=item.get('ticker','').upper()
         row=info.get(sym,{})
-        if not sym or CRYPTO.search(' '.join([sym,str(item.get('company_sec_name','')),str(row.get('name',''))])):
+        if not sym or sym in CRYPTO_TICKERS or CRYPTO.search(' '.join([sym,str(item.get('company_sec_name','')),str(row.get('name',''))])):
             continue
         if item.get('status')!='independent_annual_fundamentals_verified':continue
         if num(item.get('revenue_usd')) is None or num(item.get('free_cash_flow_usd')) is None:continue
@@ -47,8 +48,8 @@ def select_companies(company_rows, market_rows, limit=2):
     broad=sorted(pool,key=lambda v:(len(v[0].get('annual_history_latest_three',[])),
                   num(v[1].get('market_cap_usd')) or 0),reverse=True)
     # Choose a faster growth business if we have it, then a less expensive one.
-    growth=sorted(broad,key=lambda v:(num(v[1].get('forward_pe')) or 0,
-              num(v[0].get('revenue_growth_yoy_pct')) or 0),reverse=True)
+    growth=sorted(broad,key=lambda v:(num(v[0].get('revenue_growth_yoy_pct')) or 0,
+              num(v[1].get('market_cap_usd')) or 0),reverse=True)
     chosen=[growth[0]]
     value=sorted(broad,key=lambda v:(num(v[1].get('forward_pe')) is None,
                  num(v[1].get('forward_pe')) or 1e12))
@@ -192,7 +193,7 @@ def assemble(root=Path('research'),quote_fn=commodity_snapshot,filing_fn=get_fil
                 if filing.get('annual_excerpt'):
                     sources.append({'id':f'S{len(sources)+1}','kind':'Selected annual filing passages',
                                     'url':next((x['url'] for x in filing['recent_filings'] if x['form'] in ('10-K','20-F')),filing['submissions_url']),
-                                    'summary':' '.join(z['section']+': '+z['text'] for z in filing['annual_excerpt'])[:5500]})
+                                    'summary':' '.join(z['section']+': '+z['text'][:500] for z in filing['annual_excerpt'])[:1650]})
             except Exception as exc:diagnostics.append(sym+': SEC submissions '+type(exc).__name__)
         dossiers.append({'kind':'equity','ticker':sym,'name':metrics['name'],
                          'metrics':metrics,'sources':sources,'filings':filing,
@@ -205,7 +206,7 @@ def assemble(root=Path('research'),quote_fn=commodity_snapshot,filing_fn=get_fil
     ranked=[]
     for ticker,(label,url) in PROXIES.items():
         row=commodity_prices.get(ticker)
-        if row and (not voo or row['asof']==voo['asof']):
+        if row and row['asof']==close and (not voo or row['asof']==voo['asof']):
             ranked.append((ticker,label,url,row))
     # Diversification research rotation: gold first if priced; otherwise a priced proxy.
     # Transparent and reproducible; never promote performance-chasing as fair value.
