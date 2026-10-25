@@ -80,6 +80,24 @@ def verified_commodity(asset):
         'next_check':("Compare the fund's issuer documentation, charges and tracking against VOO, "
             "then test a modest allocation across different inflation and equity-market regimes.")}
 
+def qualitative_coverage(asset):
+    """Preserve a traceable causal chain rather than guessing a sentiment score."""
+    q=asset.get('qualitative_context') or {}
+    sample=q.get('headline_sample') or []
+    narratives=q.get('narratives') or []
+    return {'asof_utc':q.get('asof_utc'),
+        'headlines':sample[:6],
+        'narratives':narratives[:3],
+        'search_url':q.get('search_url'),
+        'coverage_limit':q.get('coverage_limit') or
+            'Headline coverage is not proof of an investor belief or a company event.',
+        'source_status':('recent_index_headlines' if sample else 'primary_filings_only'),
+        'filing_observations':[
+            {'form':r.get('form'),'filed':r.get('filed'),'url':r.get('url'),
+             'excerpt':(r.get('text') or '')[:420]}
+            for r in ((asset.get('filings') or {}).get('read_passages') or [])
+            if r.get('text') and r.get('url')][:2]}
+
 def joined_critical(ai):
     analyst=ai.get('research') or {}
     reviewer=ai.get('adversarial_review') or {}
@@ -94,6 +112,36 @@ def joined_critical(ai):
         'revision':reviewer['revised_conclusion'],'next':reviewer['decision_condition'],
         'sources':list(dict.fromkeys(analyst['evidence_ids']+reviewer['evidence_ids']))}
 
+def manual_research_prompt(asset):
+    """Evidence-first ChatGPT handoff, no API calls or account information."""
+    source_lines='\\n'.join(
+        f"- {src['id']} ({src['label']}): {src['url']}"
+        for src in asset['sources'][:14])
+    q=asset.get('qualitative') or {}
+    headline_lines='\\n'.join(
+        f"- {h['published_utc'][:10]} | {h['publisher']}: {h['title']}"
+        for h in q.get('headlines',[])[:6])
+    return ("Research "+asset['name']+" ("+asset['ticker']+") for someone whose default "
+        "alternative is regular VOO investing. The market close is "+asset['research_date']+
+        ". Investigate, do not place an order.\\n\\n"
+        "OPEN AND VERIFY the dated primary filings and sources, rather than trusting "
+        "a headline to mean an event happened. Examine the business, competitors, "
+        "earnings drivers, cash flows, balance sheet, management guidance and risks. "
+        "Clearly separate filed facts, claims, media interpretations, consensus "
+        "expectations and your own assumptions.\\n\\n"
+        "Explain in connected simple English, defining each financial term at first use: "
+        "(1) what happened; (2) why it affects future revenue, profits, cash flow or risk; "
+        "(3) what expectations the current market price may already reflect; "
+        "(4) how reasonable investors could disagree; (5) bull/base/bear scenarios with "
+        "explicit sourced assumptions; (6) major upcoming catalysts; (7) strongest opposing "
+        "evidence; (8) measurable falsification tests; (9) costs and risk versus VOO; and "
+        "(10) an actionable WATCH / INVESTIGATE / NO-TRADE conclusion. "
+        "Do not skip causal steps or invent consensus forecasts, sentiment surveys, "
+        "price targets or missing financial numbers. Clearly label inferences and proxy "
+        "estimates, and explain how to test them. No cryptocurrency or crypto exposure. "
+        "Cite the evidence beside each material claim.\\n\\nSources:\\n"+source_lines+
+        ("\\n\\nNews leads to confirm (not established facts):\\n"+headline_lines if headline_lines else ""))
+
 def briefing(dossier,investigation):
     if dossier['market_date']!=investigation['market_date']:
         raise ValueError('AI and quantitative source dates do not match')
@@ -102,7 +150,10 @@ def briefing(dossier,investigation):
         verified=verified_equity(asset) if asset['kind']=='equity' else verified_commodity(asset)
         ai=joined_critical(investigation['investigations'].get(asset['ticker'],{}))
         assets.append({'ticker':asset['ticker'],'name':asset['name'],'kind':asset['kind'],
-                       'facts':verified,'ai':ai,'sources':source_list(asset)})
+                       'facts':verified,'ai':ai,'sources':source_list(asset),
+                       'qualitative':qualitative_coverage(asset),'research_date':dossier['market_date']})
+    for item in assets:
+        item['manual_research_prompt']=manual_research_prompt(item)
     if not assets:raise ValueError('No independently measured asset for focused research')
     return {'date':dossier['market_date'],'fresh':True,
             'title':'SignalDesk | Investment Research Desk',
@@ -116,8 +167,11 @@ def briefing(dossier,investigation):
             'research_failures_count':len(investigation.get('errors') or {}),
             'selected_from':dossier.get('screened_total'),
             'research_version':dossier['version'],
+            'qualitative_asof_utc':dossier.get('qualitative_asof_utc'),
             'conclusion':'Maintain the VOO baseline; place new ideas on a documented research watchlist rather than trade on a screener ranking.',
-            'method':'SEC filing facts + dated market data; quantitative valuations are scenario stress tests; source-bounded analyst and skeptical review only when configured.',
+            'method':('SEC filings, dated market prices and independently attributed news headlines. '
+                'Headline themes are hypotheses, NOT votes, crowd sentiment measurements, or forecasts. '
+                'Financial calculations use Python; optional AI analysis is separately labelled.'),
             'crypto_excluded':True}
 
 def render_markdown(r):
@@ -129,6 +183,26 @@ def render_markdown(r):
            '**Why it is on the desk:** '+f['observation'],
            '**Financial context:** '+f['financial_health'],
            '**What today’s price appears to demand:** '+f['valuation']]
+        q=a.get('qualitative') or {}
+        lines += ['**What the financial press is covering (as of '+str(q.get('asof_utc') or 'the report')+'):**']
+        if q.get('narratives'):
+            lines += ['The headlines below are reports of *coverage*, not verified company events '
+                      'or a survey of investor opinion. Some may have appeared after the market close shown above.']
+            for n in q['narratives']:
+                lines += [f"**Headline ({n['published_utc'][:10]}, {n['publisher']}):** {n['headline']}",
+                    '**Why it could affect value, if substantiated:** '+n['mechanism'],
+                    '**Why the stock might not move as expected:** '+n['competing_reading'],
+                    '**What would confirm or refute that interpretation:** '+n['test'],
+                    '**Check the original news coverage:** '+n['source_url']]
+        else:
+            lines += ['**Decision now:** use the filed business results as the evidence base. '
+                      'Do not infer bullish or bearish investor sentiment from an empty or incomplete '
+                      'news sample; check the next filing and guidance against earlier company figures.']
+        if q.get('filing_observations'):
+            for r in q['filing_observations']:
+                lines += [f"**Primary document to cross-check ({r['form']}, filed {r['filed']}):** {r['url']}"]
+        lines += ['**Important distinction:** A well-supported business story can still be a poor '
+                  'investment if the stock price already reflects that story.']
         if a['ai']:
             c=a['ai'];lines += [
                 '**Investigative thesis:** '+c['explanation'],
@@ -146,6 +220,8 @@ def render_markdown(r):
                 '**Decision checkpoint:** '+c['next']]
         else:
             lines += ['**The opposing case:** '+f['counter_case']]
+        lines += ['**Copy-ready guided ChatGPT investigation:**',
+                  '```text',a['manual_research_prompt'],'```']
         lines += ['**Research decision:** '+f['decision'],
                   '**The next real investigation:** '+f['next_check'],
                   '**Primary evidence:**']
@@ -169,6 +245,32 @@ def render_html(r):
     for i,a in enumerate(r['assets'],1):
         f=a['facts'];body=p('Why it deserves investigation',f['observation'])
         body+=p('Financial reality',f['financial_health'])+p('Valuation or economic pricing',f['valuation'])
+        q=a.get('qualitative') or {}
+        body+='<h3>Market narratives: what is being discussed, and why it matters</h3>'
+        if q.get('narratives'):
+            asof=q.get('asof_utc') or 'unknown'
+            body+=p('How to read this', 'These are dated news-index headlines as of '+asof+
+                    '. A headline identifies a possible change in expectations, not a confirmed event, '
+                    'an investor-sentiment poll, or proof that the share price will rise. Some headlines '
+                    'may postdate the last completed US market session.')
+            for n in q['narratives']:
+                body+='<div class="narrative">'
+                body+=p('What appeared ('+n['published_utc'][:10]+'; '+n['publisher']+')',
+                       n['headline'])
+                body+=p('Why it could matter IF true',n['mechanism'])
+                body+=p('Why that does not prove a profitable trade',n['competing_reading'])
+                body+=p('The decisive follow-up check',n['test'])
+                body+=f'<p><a href="{esc(n["source_url"],quote=True)}" rel="noopener noreferrer">Read cited news coverage</a></p>'
+                body+='</div>'
+        else:
+            body+=p('Reasoned conclusion',
+                    'Use the business filings and valuation cases for the current decision. '
+                    'Without a representative set of recent attributed stories, do not invent a '
+                    'market-mood label. Check actual company guidance and the next financial release.')
+        body+=p('The essential link',
+                'A story changes investment value only if it changes expected future cash flows, '
+                'the risk of receiving them, or the price investors will pay—and only if that '
+                'change was not already fully reflected in the current share price.')
         if a['ai']:
             c=a['ai']
             for title,key in [('The investment thesis','explanation'),('Business drivers','business'),
@@ -179,15 +281,18 @@ def render_html(r):
                  ('Ongoing watchpoints','monitor'),('Decision checkpoint','next')]:
                 body+=p(title,c[key])
         else:body+=p('The strongest competing interpretation',f['counter_case'])
+        body+='<details class="ai-prompt"><summary>Investigate with ChatGPT: copy the source-linked research brief</summary>'
+        body+='<p>This uses your current ChatGPT access and does not require an API subscription. Verify the sources and ask ChatGPT to challenge its own case.</p>'
+        body+='<pre>'+esc(a['manual_research_prompt'])+'</pre></details>'
         body+=f'<p class="decision">{esc(f["decision"])}</p>'+p('Next research action',f['next_check'])
         links=' · '.join(f'<a href="{esc(s["url"],quote=True)}" rel="noopener noreferrer">{esc(s["id"])}: {esc(s["label"])}</a>' for s in a['sources'])
         sections.append(f'<section class="asset"><div class="eyebrow">DOSSIER {i:02d} · {"COMPANY" if a["kind"]=="equity" else "COMMODITY EXPOSURE"}</div><h2>{esc(a["ticker"])} <small>{esc(a["name"])}</small></h2>{body}<p class="evidence"><strong>Open the underlying evidence:</strong> {links}</p></section>')
     mode=(f"Two-pass AI analyst and skeptical reviewer completed for {r['ai_analysed_count']} of {len(r['assets'])} cases."
           if r['ai_analysed_count'] else "This edition uses filed financial evidence and deterministic research; model-based investigation activates after an AI API key is configured.")
     return f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>SignalDesk — Focused Investment Research</title>
-<style>body{{margin:0;background:#f7f9fa;color:#142536;font:17px/1.75 Georgia,serif}}main{{max-width:900px;margin:auto;padding:30px 22px 70px}}h1,h2,.decision,.eyebrow,.nav,.meta,.evidence,.summary,footer{{font-family:system-ui,-apple-system,Arial,sans-serif}}h1{{font-size:clamp(30px,6vw,51px);letter-spacing:-.04em;line-height:1.12}}h2{{font-size:28px;line-height:1.25;margin:8px 0 20px}}h2 small{{display:block;font-size:15px;font-weight:400;color:#5c6c7b;margin-top:4px}}.eyebrow{{font-size:11px;letter-spacing:.14em;font-weight:800;color:#50697b}}.meta{{font-size:13px;color:#607082}}.intro{{font-size:20px;line-height:1.55}}.summary{{font-size:17px;background:#eef3f7;border-left:4px solid #345879;padding:18px;margin:20px 0}}.asset{{background:white;border:1px solid #d6e0e8;border-radius:14px;margin:32px 0;padding:28px}}.asset p{{margin:13px 0}}.asset strong{{font-family:system-ui,-apple-system,Arial,sans-serif;font-size:15px}}.decision{{background:#eff4f0;border-left:4px solid #437b68;padding:16px;font-size:15px;font-weight:700}}a{{color:#195d83;text-underline-offset:3px}}.evidence{{border-top:1px solid #e2e7eb;font-size:13px;padding-top:15px;word-break:break-word}}footer{{font-size:13px;color:#627180;padding-top:20px;border-top:1px solid #d6dce1}}.nav{{display:flex;flex-wrap:wrap;gap:18px;font-size:13px;margin:16px 0}}@media(max-width:650px){{.asset{{padding:19px}}main{{padding:22px 14px}}body{{font-size:16px}}}}</style>
+<style>body{{margin:0;background:#f7f9fa;color:#142536;font:17px/1.75 Georgia,serif}}main{{max-width:900px;margin:auto;padding:30px 22px 70px}}h1,h2,.decision,.eyebrow,.nav,.meta,.evidence,.summary,footer{{font-family:system-ui,-apple-system,Arial,sans-serif}}h1{{font-size:clamp(30px,6vw,51px);letter-spacing:-.04em;line-height:1.12}}h2{{font-size:28px;line-height:1.25;margin:8px 0 20px}}h2 small{{display:block;font-size:15px;font-weight:400;color:#5c6c7b;margin-top:4px}}.eyebrow{{font-size:11px;letter-spacing:.14em;font-weight:800;color:#50697b}}.meta{{font-size:13px;color:#607082}}.intro{{font-size:20px;line-height:1.55}}.summary{{font-size:17px;background:#eef3f7;border-left:4px solid #345879;padding:18px;margin:20px 0}}.asset{{background:white;border:1px solid #d6e0e8;border-radius:14px;margin:32px 0;padding:28px}}.asset p{{margin:13px 0}}.asset h3{{font:700 18px/1.4 system-ui,-apple-system,Arial,sans-serif;margin:25px 0 10px}}.narrative{{border-left:3px solid #9ab4c6;background:#f2f6fa;padding:12px 16px;margin:14px 0}}.ai-prompt{{margin:18px 0;border:1px solid #b9cbd8;border-radius:8px;padding:12px}}.ai-prompt summary{{font:700 14px/1.5 system-ui;cursor:pointer}}.ai-prompt pre{{white-space:pre-wrap;overflow-wrap:anywhere;font:13px/1.55 system-ui;padding:10px;background:#f5f8fa;border-radius:6px}}.asset strong{{font-family:system-ui,-apple-system,Arial,sans-serif;font-size:15px}}.decision{{background:#eff4f0;border-left:4px solid #437b68;padding:16px;font-size:15px;font-weight:700}}a{{color:#195d83;text-underline-offset:3px}}.evidence{{border-top:1px solid #e2e7eb;font-size:13px;padding-top:15px;word-break:break-word}}footer{{font-size:13px;color:#627180;padding-top:20px;border-top:1px solid #d6dce1}}.nav{{display:flex;flex-wrap:wrap;gap:18px;font-size:13px;margin:16px 0}}@media(max-width:650px){{.asset{{padding:19px}}main{{padding:22px 14px}}body{{font-size:16px}}}}</style>
 </head><body><main><div class="eyebrow">SIGNALDESK · INDEPENDENT RESEARCH DESK · NO CRYPTO</div><h1>Fewer ideas.<br>Stronger arguments.</h1><div class="meta">Completed US trading session: <b>{esc(r['date'])}</b> · Research only · No auto-trading</div>
-<p class="intro">{esc(r['summary'])}</p><div class="summary"><b>Bottom line:</b> {esc(r['conclusion'])}</div>
+<p class="intro">{esc(r['summary'])}</p><p class="meta">Market narrative monitoring updated at: {esc(r.get('qualitative_asof_utc') or 'not recorded')}. This timestamp can be later than the market-pricing date.</p><div class="summary"><b>Bottom line:</b> {esc(r['conclusion'])}</div>
 <nav class="nav"><a href="decisions.html">Quantitative research</a><a href="validation.html">Historical validation</a><a href="market.html">Full screening evidence</a><a href="established.html">ETF comparisons</a></nav>
 {''.join(sections)}<footer><p><strong>Method.</strong> {esc(r['method'])}</p><p><strong>Review status.</strong> {esc(mode)}</p><p>Primary-company disclosures and historical price data carry uncertainty. An investment hypothesis is only as strong as its evidence, assumptions, and future checks. No order is placed and no claim of reliably outperforming VOO is made.</p></footer></main></body></html>'''
 

@@ -34,6 +34,11 @@ Do not invent financial numbers, earnings estimates, analyst consensus, quotes,
 real-time prices, company strategy, expected returns, or trade timing.
 No crypto assets, cryptocurrency-linked businesses or token exposures.
 The input contains both independently filed historical amounts and Yahoo quote fields.
+Google News RSS headlines are unverified coverage, NOT full article text, investor consensus,
+verified company announcements, a broad market sentiment poll, or automatic stock-price catalysts.
+Do not assume a news story changes future cash flow until a primary source confirms the mechanism.
+Explain EACH causal bridge in order: observed evidence, company economics, plausible market expectations,
+competing explanation, what would change your conclusion. No logical leaps or circular arguments.
 Separate the two. Fixed reverse-DCF parameters are stress assumptions, not research forecasts.
 Commodities cannot be valued like ordinary companies; distinguish ETF price from
 spot commodity price and rolling-futures structure if relevant.
