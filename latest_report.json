@@ -1,12 +1,12 @@
 {
-  "generated_at_utc": "2026-10-25 08:41 UTC",
-  "last_market_session": "2026-10-23",
+  "generated_at_utc": "2026-10-27 02:14 UTC",
+  "last_market_session": "2026-10-26",
   "research_only": true,
   "approved_for_live_trading": false,
   "selected_strategy": "200-day trend",
   "historical_hurdle_passed": false,
   "current_model_position": "VOO",
-  "interpretation": "The chosen model ended USD 1,422.01 below regular VOO investing on the later test period. Its worst percentage fall was 20.3%, versus 24.6% for DCA. The historical hurdle failed; do NOT use this model to replace DCA.",
+  "interpretation": "The chosen model ended USD 1,431.85 below regular VOO investing on the later test period. Its worst percentage fall was 20.3%, versus 24.6% for DCA. The historical hurdle failed; do NOT use this model to replace DCA.",
   "assumptions": {
     "initial_usd": 2000.0,
     "monthly_contribution_usd": 100.0,
@@ -26,7 +26,7 @@
       "cost": 12.69
     },
     "200-day trend": {
-      "end": 23510.82,
+      "end": 23510.84,
       "deposited": 12700.0,
       "annual": 11.42,
       "drawdown": -19.81,
@@ -44,7 +44,7 @@
       "cost": 135.16
     },
     "6-month momentum": {
-      "end": 19114.04,
+      "end": 19114.05,
       "deposited": 12700.0,
       "annual": 7.82,
       "drawdown": -23.4,
@@ -53,56 +53,56 @@
       "cost": 239.51
     },
     "20-day breakout": {
-      "end": 16275.26,
+      "end": 16275.29,
       "deposited": 12700.0,
       "annual": 3.66,
       "drawdown": -14.59,
       "sharpe": 0.532,
       "orders": 175,
-      "cost": 971.99
+      "cost": 972.0
     }
   },
   "holdout": {
     "DCA": {
-      "end": 12170.09,
+      "end": 12254.24,
       "deposited": 7700.0,
-      "annual": 11.69,
+      "annual": 11.83,
       "drawdown": -24.56,
-      "sharpe": 0.737,
+      "sharpe": 0.745,
       "orders": 58,
       "cost": 7.69
     },
     "200-day trend": {
-      "end": 10748.08,
+      "end": 10822.39,
       "deposited": 7700.0,
-      "annual": 8.05,
+      "annual": 8.19,
       "drawdown": -20.26,
-      "sharpe": 0.745,
+      "sharpe": 0.758,
       "orders": 74,
       "cost": 112.24
     },
     "10-month trend": {
-      "end": 9486.16,
+      "end": 9551.74,
       "deposited": 7700.0,
-      "annual": 3.72,
+      "annual": 3.86,
       "drawdown": -26.71,
-      "sharpe": 0.365,
+      "sharpe": 0.377,
       "orders": 57,
       "cost": 58.57
     },
     "6-month momentum": {
-      "end": 10348.21,
+      "end": 10419.77,
       "deposited": 7700.0,
-      "annual": 7.04,
+      "annual": 7.18,
       "drawdown": -17.68,
-      "sharpe": 0.668,
+      "sharpe": 0.681,
       "orders": 60,
       "cost": 83.71
     },
     "20-day breakout": {
       "end": 9370.35,
       "deposited": 7700.0,
-      "annual": 5.47,
+      "annual": 5.46,
       "drawdown": -10.99,
       "sharpe": 0.726,
       "orders": 84,
@@ -112,21 +112,21 @@
   "cost_sensitivity": [
     {
       "cost_bps": 0,
-      "model_annual_return_pct": 8.77,
-      "dca_annual_return_pct": 11.74,
-      "model_minus_dca_final_usd": -1266.550000000001
+      "model_annual_return_pct": 8.91,
+      "dca_annual_return_pct": 11.88,
+      "model_minus_dca_final_usd": -1275.2999999999993
     },
     {
       "cost_bps": 10,
-      "model_annual_return_pct": 8.05,
-      "dca_annual_return_pct": 11.69,
-      "model_minus_dca_final_usd": -1422.0100000000002
+      "model_annual_return_pct": 8.19,
+      "dca_annual_return_pct": 11.83,
+      "model_minus_dca_final_usd": -1431.8500000000004
     },
     {
       "cost_bps": 30,
-      "model_annual_return_pct": 6.63,
-      "dca_annual_return_pct": 11.58,
-      "model_minus_dca_final_usd": -1721.3899999999994
+      "model_annual_return_pct": 6.77,
+      "dca_annual_return_pct": 11.72,
+      "model_minus_dca_final_usd": -1733.2799999999988
     }
   ]
 }

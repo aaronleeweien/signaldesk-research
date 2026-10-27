@@ -1,5 +1,11 @@
 {
-  "notify": false,
-  "latest_close": "2026-10-23",
-  "events": []
+  "notify": true,
+  "latest_close": "2026-10-26",
+  "events": [
+    {
+      "score_pct": 9.59,
+      "ticker": "TXN",
+      "type": "STOCK_WATCH_ONLY"
+    }
+  ]
 }
