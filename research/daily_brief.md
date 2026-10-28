@@ -1,6 +1,6 @@
 # SignalDesk | Investment Research Desk
 
-US market close: 2026-10-26
+US market close: 2026-10-27
 
 **VOO remains the default; investigate only a few clearly defined alternatives.**
 
@@ -22,19 +22,19 @@ No independently verified 3–6-month excess-return advantage is established for
 
 - The last fiscal-year revenue changed +42.1%; annual free cash flow changed -0.0% versus the previous SEC-observed year. These are historical outcomes, not forecasts. [S1]
 
-- Annual free cash flow: 1.40 billion USD; market capitalisation from the screen: 210.10 billion USD; historical FCF yield: +0.7%. [S1][S2]
+- Annual free cash flow: 1.40 billion USD; market capitalisation from the screen: 218.90 billion USD; historical FCF yield: +0.6%. [S1][S2]
 
-- Screened forward price/earnings multiple: 31.9 times. The denominator is an unaudited forecast, not an independently checked earnings consensus. [S2]
+- Screened forward price/earnings multiple: 33.2 times. The denominator is an unaudited forecast, not an independently checked earnings consensus. [S2]
 
 - Cash: 3.93 billion USD; reported long-term-debt tag: 4.96 billion USD. The debt tag excludes some obligations and must not be mistaken for full net debt. [S1]
 
-- The stock's preceding one-year price return exceeded VOO by +167.7 percentage points as of 2026-10-26. This historical period is not a 3–6-month forecast. [S2]
+- The stock's preceding one-year price return exceeded VOO by +175.1 percentage points as of 2026-10-27. This historical period is not a 3–6-month forecast. [S2]
 
 ### Economic and price mechanism
 
 Revenue at MRVL has grown much faster than cash remaining after capital spending. New sales only create lasting shareholder value if they eventually generate cash; strong headlines about demand cannot establish that conversion.
 
-**Valuation and implied assumptions:** The fixed-parameter reverse cash-flow exercise implies 79.2% annual free-cash-flow growth for five years, under 11% required return, 2% terminal growth and no net borrowing adjustment. This is a stress-test assumption, not a company-specific fair value or near-term target. [S1][S2]
+**Valuation and implied assumptions:** The fixed-parameter reverse cash-flow exercise implies 80.7% annual free-cash-flow growth for five years, under 11% required return, 2% terminal growth and no net borrowing adjustment. This is a stress-test assumption, not a company-specific fair value or near-term target. [S1][S2]
 
 **Strongest opposing interpretation:** Revenue growth might continue without corresponding cash-flow improvement. In that case an expensive valuation could compress even if sales rise.
 
@@ -52,9 +52,27 @@ Revenue at MRVL has grown much faster than cash remaining after capital spending
 
 ### Dated headline leads — not verified company events
 
-News monitoring timestamp: 2026-10-27T02:17:07.818418+00:00
+News monitoring timestamp: 2026-10-28T02:24:27.478937+00:00
 
-No representative verified narrative sample was available; no sentiment score was invented.
+**2026-10-27 · www.tokenpost.com:** Marvell Sets Thursday, Oct. 29, Quarterly Dividend at $0.06 per Share
+
+Conditional economic path: Borrowing costs or capital allocation can affect how much future cash ultimately belongs to shareholders.
+
+Alternative reading: Higher dividends or buybacks can be funded by debt and are not automatically value creation.
+
+Evidence needed before treating this as fact: Check the balance sheet, debt maturities and cash available after capital spending.
+
+Coverage URL: https://news.google.com/rss/articles/CBMiWEFVX3lxTE1HUXp0b3dMTGF0UDN4WlB0NFJ4TXdqWnRJQlZocG9VOGpNYy04ZlowNHc4OWJKZTI0ZFhWeHV5TmVkemFwMGttNnZzOXZqaWd3VkdtaDlVeXc?oc=5
+
+**2026-10-27 · Simply Wall Street:** Is Marvell Technology (MRVL) Too Expensive For Its Earnings Story?
+
+Conditional economic path: Changes in selling prices or operating costs affect the fraction of sales that becomes profit and cash.
+
+Alternative reading: A temporary price or cost improvement may disappear when conditions normalize.
+
+Evidence needed before treating this as fact: Check reported operating margins, cash conversion and the reasons for changes.
+
+Coverage URL: https://news.google.com/rss/articles/CBMi2wFBVV95cUxPU09LckNfRFVwZ0Z4SThlM0I0WTRxVlF3LXRweGFTLTJWTkVHMUFZTlZydjFtQ25NRm9aUTJ3eENhT0F5bm44eS1GNFhlR1pGamhjWktzdkRPUG4xaGxsZzVwaHJqNDlWa0l0YWJrUzMtRUNtMEtiekVEeFEwa05JZGtzbW1aYTZFcXRDWmtEZ3NtOGV6OHlLSWxyRnREQlNuVVo5U1FpaWxuNUZScnhxSnM0TW5PN01qRDVzaVpzV0NsTHI1Skl4cmlWbUxmT01yUVlCa2xEU3hqbkHSAeABQVVfeXFMT2EzOUU1bm5TUENDcVR1VHNERXJoeHIyZWlkVVVCeWx0TWFialZhYlpSUTdVRnRseGp0a1RKNXhGdlh5WEZzdTFWVXRyTnVtT2lfSWVSbW5jT1oyU0hXMkZvYnkwX09iRDY2Smc5akdKLXJWajFud1Bsa050SFd3cUMyS0NLMnM3NnZrQ0pwTHo3NkUtUm5hSTN0eEhVY1JfLVloaTZkdVBOMXBFNVQ2RlJlUlJBQzZmTTh5SC1kTmlFZjZIY0hUNjhQakVkQXBCdmhmM0tvR3FDdk54OUZsbHE?oc=5
 
 ### Evidence audit and research gaps
 
@@ -92,17 +110,17 @@ No representative verified narrative sample was available; no sentiment score wa
 
 - [S11] 8-K read passages, filed 2026-10-23: https://www.sec.gov/Archives/edgar/data/1835632/000119312526430424/d147430d8k.htm
 
-- [S12] News-index headline · Traders Union · 2026-10-26: https://news.google.com/rss/articles/CBMimAFBVV95cUxOZF9xR3pwYkFPXzlHeXVQTTl6ZDhoajR4UWgzY3RwVVozakNvT3BWNy1kSU0tbHhUTkJ4WU13YkxlV1NVNHg0bHRRMW85c0dnVXp6b2VXSEZITnM2YzYxdjlndmVKVGJvUGJPT19VSkg4MTVHUFdlMFZOZzlOZUtFVUxreVdGUkRiNFZ6aHp4MEZEcGlyUHh6VA?oc=5
+- [S12] News-index headline · Yahoo Finance · 2026-10-27: https://news.google.com/rss/articles/CBMirwFBVV95cUxNek9QZ2xQX0NHcDN5MU80Q2dIclpid2ZlZDlta1ZheF9qMXNHRTFsTmZBTS1rSVpldUdrNjRaV2xuSlNoRDc1OTN5RmhuSnA4WFRxN1FLYnJhREx4YkxDNWNaQ1BUUTlJa2ZqVERyTWRlazJIeUNiQkwtT1hPc0pWMzU2VDhwb3BBaWJXRWVmTzBhZTh1bUdVbFdGdlJmNG1obXdlNENVaGN5WTV0R0k0?oc=5
 
-- [S13] News-index headline · TradingKey · 2026-10-26: https://news.google.com/rss/articles/CBMiiwFBVV95cUxNQW9qQ01SX1ZkUEJlMTZkY3dBS1YzajJudWFjUDVwel81MWduT3lfUFoxeXMzYklFaGptMmEzWjBiZGlOMV84dWkySUl5QUJUYlR2RE1yaDBub1lfOTVIVTNyd3JGaHpyY01fN0FwN0hRbUJEdnRoRkRuVWgxamh6THpPTEY1UWlLaFdJ?oc=5
+- [S13] News-index headline · GuruFocus · 2026-10-27: https://news.google.com/rss/articles/CBMivAFBVV95cUxOdmF5d2ZmcGM5cTBIV3FwaGxjTDV4blRWb3YxMnBwZ0prRG9mSEZ4NlVEQzJJYnVUSFdrWTQwLWFpNXNFUkUxWHgzVmxQNEFpSjRwS2lGQnI2SjQ3Vk1sdnVpMmF5U3BNdElERTVvODFZTjZFUHI0OWZkN2E3QWlHRWlpMWtqS1dhNWFHWVZIUkdfVzdXT1VHbmwzaldIN0E1THZNUXcyUHkxa20xcmFSQnVxdzN1NXFTai02QQ?oc=5
 
-- [S14] News-index headline · Yahoo Finance · 2026-10-26: https://news.google.com/rss/articles/CBMingFBVV95cUxQd0ZWajVsVGV0eUE5a19GejFqVFc3U2R5Ny14UmtCT3VUeGtZd1ZYM1dkbVExLWczTjRIUlRsbXBocXNNMWh6Y0pqTFhwVkRPRDFscFZmTWt4eDRfelFfbm1tMGFaaENnLWYxM1diZ041Y1ZjcnoxV1E5M0RlV25GSTlqMVdYdU52alJFcnRUWEhyNW5wWXd0TWtrQ3Vhdw?oc=5
+- [S14] News-index headline · www.tokenpost.com · 2026-10-27: https://news.google.com/rss/articles/CBMiWEFVX3lxTE1HUXp0b3dMTGF0UDN4WlB0NFJ4TXdqWnRJQlZocG9VOGpNYy04ZlowNHc4OWJKZTI0ZFhWeHV5TmVkemFwMGttNnZzOXZqaWd3VkdtaDlVeXc?oc=5
 
-- [S15] News-index headline · ad-hoc-news.de · 2026-10-26: https://news.google.com/rss/articles/CBMi1AFBVV95cUxOZTMyTnFDUUJaUVg1TjlDRzVHNnVLdElBOWdPSXEwSEtOR3Z6bzhjUUFxQWRxRDZ0S01YOEVwdWZaV1lpek8xUU9XU2IyMWZmaWEtOEFtcnZXTDJFTFRaYk5jSk5UbTNjYVlyek1Kb0pQelBxNDluWno5WG9kR3FxQ1BCWi1YTDlIb21iRUFvWmV1SnRBSWtmdXlrMzRwUGxucFRGUV82VzdRU0cyLVY3NkdhcEF4NnF4Ym1rRy1IaDF3b1otWnNUVWJiaC1sakExaHV6VA?oc=5
+- [S15] News-index headline · Benzinga · 2026-10-27: https://news.google.com/rss/articles/CBMixAFBVV95cUxOSWlYQzFOelJpTl9rc3dZelpfWDZwTGJFODBvUm1BaV9LazEtZGYwX1E5TjBfQlhKeF9nQkdFT1RTRFRKdzRUVVNRNTFpazNSOUY2eS1GbnZoUV8xVW8xY1RSMGpuR1B6RE1HcGhGUXQ0QUJrZUlmT1dVeXRUUHVzWXdMSEhuMk1GTFJ5eVJ4a2htQVliN1Q2SmJ4UVZqVTBvOTNMNFRGN1RzVk12azFJc3pheVdraGVna2hnc1h5Unl4ZEFr?oc=5
 
-- [S16] News-index headline · The Motley Fool · 2026-10-26: https://news.google.com/rss/articles/CBMikwFBVV95cUxQSUlOdFp3Y2NRLXhramhUYW00bFJleG9kX2R2bW85aV81ZUxJSnRFMUZ0TV9aZTlacGFQSHFqSFBsYjlZZU5ZUGo3bzJXXzhyMWQ2MnVjSWJ1UlY2dGgyUW04SnNrZjUtYUx2ajRxYUFrTVBESUJRYjFuNUt0WjlxV2FWTk9vZmMtd21GNGVYcU1sU00?oc=5
+- [S16] News-index headline · Simply Wall Street · 2026-10-27: https://news.google.com/rss/articles/CBMi2wFBVV95cUxPU09LckNfRFVwZ0Z4SThlM0I0WTRxVlF3LXRweGFTLTJWTkVHMUFZTlZydjFtQ25NRm9aUTJ3eENhT0F5bm44eS1GNFhlR1pGamhjWktzdkRPUG4xaGxsZzVwaHJqNDlWa0l0YWJrUzMtRUNtMEtiekVEeFEwa05JZGtzbW1aYTZFcXRDWmtEZ3NtOGV6OHlLSWxyRnREQlNuVVo5U1FpaWxuNUZScnhxSnM0TW5PN01qRDVzaVpzV0NsTHI1Skl4cmlWbUxmT01yUVlCa2xEU3hqbkHSAeABQVVfeXFMT2EzOUU1bm5TUENDcVR1VHNERXJoeHIyZWlkVVVCeWx0TWFialZhYlpSUTdVRnRseGp0a1RKNXhGdlh5WEZzdTFWVXRyTnVtT2lfSWVSbW5jT1oyU0hXMkZvYnkwX09iRDY2Smc5akdKLXJWajFud1Bsa050SFd3cUMyS0NLMnM3NnZrQ0pwTHo3NkUtUm5hSTN0eEhVY1JfLVloaTZkdVBOMXBFNVQ2RlJlUlJBQzZmTTh5SC1kTmlFZjZIY0hUNjhQakVkQXBCdmhmM0tvR3FDdk54OUZsbHE?oc=5
 
-- [S17] News-index headline · SiliconANGLE · 2026-10-26: https://news.google.com/rss/articles/CBMipwFBVV95cUxQLU5GVkVETGNlZ21sSmVLVGQ2M0xKYVBHM1NVUnhucEs2X1h3bGlTRDlrbm1UQnNRamlYTHl5T0Ryc1luWXdza0hGZjl2dkFXaVJrSVNNYmRMQ3hzaUc2b1dhZk52Zk1JQlhJTGJtRGVTT2lIV0R0UEFOUUgyNldIWFdtMUozWU95SDYwR0xXeXVaRTdEUm1TanRxanRnUi1WS3hhZ2pPbw?oc=5
+- [S17] News-index headline · 24/7 Wall St. · 2026-10-27: https://news.google.com/rss/articles/CBMiuAFBVV95cUxNVkMzb1YxNnRDQWdTUjlXVkpwN0NIYzluTzRub0RfU3c2S1pfck9kRU9sU0NKWi1YOW8tZFYtLVRYeEx6MjJJeEp2aENzS1I5cnNKT0Z4MHUtbDNVOVB1aTQyTjZfN0RVdFV0Qmswd3FSM3RJMno1dUV6dGVSUW02VVhHMlAxeTMyVVVCUHVrb3JjR05lTDVnMkVTb2pKYk9POFRvTWRmc195a2JXNGpkX19NNlJPLWxZ?oc=5
 
 ## 2. VSXY — VICTORIA'S SECRET & CO.
 
@@ -114,19 +132,19 @@ No representative verified narrative sample was available; no sentiment score wa
 
 - The last fiscal-year revenue changed +5.2%; annual free cash flow changed +26.3% versus the previous SEC-observed year. These are historical outcomes, not forecasts. [S1]
 
-- Annual free cash flow: 312.0 million USD; market capitalisation from the screen: 7.57 billion USD; historical FCF yield: +4.1%. [S1][S2]
+- Annual free cash flow: 312.0 million USD; market capitalisation from the screen: 7.36 billion USD; historical FCF yield: +4.2%. [S1][S2]
 
-- Screened forward price/earnings multiple: 16.8 times. The denominator is an unaudited forecast, not an independently checked earnings consensus. [S2]
+- Screened forward price/earnings multiple: 16.3 times. The denominator is an unaudited forecast, not an independently checked earnings consensus. [S2]
 
 - Cash: 522.0 million USD; reported long-term-debt tag: 971.0 million USD. The debt tag excludes some obligations and must not be mistaken for full net debt. [S1]
 
-- The stock's preceding one-year price return exceeded VOO by +174.8 percentage points as of 2026-10-26. This historical period is not a 3–6-month forecast. [S2]
+- The stock's preceding one-year price return exceeded VOO by +163.2 percentage points as of 2026-10-27. This historical period is not a 3–6-month forecast. [S2]
 
 ### Economic and price mechanism
 
 VSXY has reported business fundamentals, but an investable 3–6-month edge requires an earnings surprise beyond what investors currently expect. The retrieved evidence does not establish that surprise.
 
-**Valuation and implied assumptions:** The fixed-parameter reverse cash-flow exercise implies 21.3% annual free-cash-flow growth for five years, under 11% required return, 2% terminal growth and no net borrowing adjustment. This is a stress-test assumption, not a company-specific fair value or near-term target. [S1][S2]
+**Valuation and implied assumptions:** The fixed-parameter reverse cash-flow exercise implies 20.6% annual free-cash-flow growth for five years, under 11% required return, 2% terminal growth and no net borrowing adjustment. This is a stress-test assumption, not a company-specific fair value or near-term target. [S1][S2]
 
 **Strongest opposing interpretation:** Investors can already have priced in the reported business improvement; market returns depend on changes in expectations, not only growing revenue.
 
@@ -144,17 +162,9 @@ VSXY has reported business fundamentals, but an investable 3–6-month edge requ
 
 ### Dated headline leads — not verified company events
 
-News monitoring timestamp: 2026-10-27T02:17:07.818418+00:00
+News monitoring timestamp: 2026-10-28T02:24:27.478937+00:00
 
-**2026-10-20 · TradingView:** Basic earnings per share (basic EPS) of Victoria's Secret & Company – XETR:8FR
-
-Conditional economic path: Changes in selling prices or operating costs affect the fraction of sales that becomes profit and cash.
-
-Alternative reading: A temporary price or cost improvement may disappear when conditions normalize.
-
-Evidence needed before treating this as fact: Check reported operating margins, cash conversion and the reasons for changes.
-
-Coverage URL: https://news.google.com/rss/articles/CBMinwFBVV95cUxPdEU1QVZKWFdjaG9MZW5nV3R2OWtIQzhlb2lSRENzZ1FkREVQTzhieFVfWlJfSVY2Z1hhVFVyalhPV21vYllsdjdyamFicGRwQUlNbEEzZkExb3dFYnVCOHpGWE1WdHJ0OGpRdHBkaVBBUzVfNU95Um44a2lLOFphTDNHNGw2bnNYRldzbjQ0aWtnRnJFaEJzTDkzb1JTMzA?oc=5
+No representative verified narrative sample was available; no sentiment score was invented.
 
 ### Evidence audit and research gaps
 
@@ -166,7 +176,7 @@ Coverage URL: https://news.google.com/rss/articles/CBMinwFBVV95cUxPdEU1QVZKWFdja
 
 - Verified forward earnings consensus and dated catalyst: unavailable
 
-- Recent news-index headlines: 6; article text and investor-sentiment distribution NOT independently verified
+- Recent news-index headlines: 4; article text and investor-sentiment distribution NOT independently verified
 
 ### Sources used or identified
 
@@ -192,17 +202,13 @@ Coverage URL: https://news.google.com/rss/articles/CBMinwFBVV95cUxPdEU1QVZKWFdja
 
 - [S11] 8-K read passages, filed 2026-10-09: https://www.sec.gov/Archives/edgar/data/1856437/000185643726000023/vsco-20261007.htm
 
-- [S12] News-index headline · Yahoo Finance Australia · 2026-10-23: https://news.google.com/rss/articles/CBMiUkFVX3lxTE84T1lNb2JCUGNiSTZsQmNoRWVyRzJuOWFnQzM2bi1JUVdFamJvZ0dRWWRoT1U5bDNPbTdpbnFHMTNiNVJwck5sWG9SUWhvc2RuM1E?oc=5
+- [S12] News-index headline · Kalkine Media · 2026-10-27: https://news.google.com/rss/articles/CBMizgFBVV95cUxPVUFjb1VMSnpjaDk0MHRaYTBPdFVTMnlxdTBGRU9yTjhkV2w4TlJ5VFRobVhnZFJiRzZuQWt5ZEFCOU00X25DV1IzeV8wSkdfcTBGZHJIYnA3YUpUWmtFMTNjbjVMVG5od21DSUZDNmpINnN2NlhseFpkajRleUU5Y19WU1dmejdjdzlFb0dzVlBQVG5Ic0JBVlVOLXJBWVVZRGppZTNnYkZ5QS1YUWVBd3ZxdmVyRHZUWDVXWWZINVQtbHNOMWpjc0VsVUd3UQ?oc=5
 
-- [S13] News-index headline · Kalkine Media · 2026-10-22: https://news.google.com/rss/articles/CBMisgFBVV95cUxNdS1aTWxnMFJXWVlRZml4XzRzOTh6YmlYckU3T0h1WklFVGVrbXdaR1E3TElSdFpXTnhjNzRRYWRuVFFCVEc3VUxLbW9MeWlGRWpsaGJ2WlUzcXg1ZjdvWlBBRTQ4OXpCMml1VFNKVndwWEpvbzFqZ3FBVFp5TmZycTY4SWZxcVVzSXdjZHhXTm5wWUM4RWc5U25HY0tCaF9fM3IzR1dOLXhFNDdhX0pjeEZB?oc=5
+- [S13] News-index headline · Stock Titan · 2026-10-27: https://news.google.com/rss/articles/CBMitAFBVV95cUxNLUQ1RVNYN1ZPbTJPRHVVa2t0Yi04REI2NDVPcjNwWDJGaXpNblRPUWZVb0l3al9jUVhRa3UzaTlDbldwMHYyOXRNaEZCMW1KaFYtdW5sMDNIdlNmZUMzbF9kcm9YUzVmYTlNOFJGU0NCbTRDZG00R2p1Wml1RjJjclkxR2FMeHNrRUtYVzczUWdQV181WGl5OTAyZlRVbTlrSjNyY2M5UmxralJOVDRuTEVKc0E?oc=5
 
-- [S14] News-index headline · Law360 · 2026-10-20: https://news.google.com/rss/articles/CBMingFBVV95cUxQT2N5cTUzbGg0Y0prZ2oxR29hYi1WYi1TRTdRbjJPRzVZLWxZaURqU2plVzhsUWZVSjFUS2lHNEdtLUlZTFdVVjIxeUN1TmNBb1c2TXpzSk1waDR3ZkQ3ODhybm1YUFhQM3dXWFdGUDFDclowMDgySi14dmMzQk9YR2xKUkhSa1YzZktNQnFXS0hURFdXd3pYczVfazVaZ9IBVkFVX3lxTE1FTnJab1R3ck5SOFpIR3JJZ0JUY1hhUG0yaHdESURoNy1fa1VFOFpfckZjaUZxUHdkZDFrV0dHQXF0T0JwZThIWGZOX2hlXzI2TFJQRzFB?oc=5
+- [S14] News-index headline · Yahoo Finance UK · 2026-10-27: https://news.google.com/rss/articles/CBMiUkFVX3lxTE4yOE5xY1c2SWx1LWs2d0VFRVFWX1VkZGlIVzZXZTlPRjg3aWdwd3cxMldjY0JjejM5TzR1blYtZWtiTmxsQUhqVzNWMjNyZXBhd1E?oc=5
 
-- [S15] News-index headline · TradingView · 2026-10-20: https://news.google.com/rss/articles/CBMinwFBVV95cUxPdEU1QVZKWFdjaG9MZW5nV3R2OWtIQzhlb2lSRENzZ1FkREVQTzhieFVfWlJfSVY2Z1hhVFVyalhPV21vYllsdjdyamFicGRwQUlNbEEzZkExb3dFYnVCOHpGWE1WdHJ0OGpRdHBkaVBBUzVfNU95Um44a2lLOFphTDNHNGw2bnNYRldzbjQ0aWtnRnJFaEJzTDkzb1JTMzA?oc=5
-
-- [S16] News-index headline · MaltaToday · 2026-10-20: https://news.google.com/rss/articles/CBMiwwFBVV95cUxNM3J2c2JpRXJaeGpVeEZtVnhwd29LOHNyT2xYRlMwbXVkcUd6N0hnWmhnMXI0ekp1aWpudEkwR2s2bjVINmVGejVpdDU5LVR0cUV5RnVEZUVORHh4a19RREI2MUQtbjFkQjJSakZnQ1JoME5KTVZ3WmF4WUpIVFZFNm11Nk1RQms0RFI2SlNCZWhTMEFpaXNMQzF0VERaUi1KQXI3enl0RVhYNVZ0MEk0aVhnTThiZ2JBbDZ1QTZ6UjRGeFE?oc=5
-
-- [S17] News-index headline · Benzinga · 2026-10-20: https://news.google.com/rss/articles/CBMi6gFBVV95cUxPVmstM1hpaURuZ1AtNFphRlViT3JqbHRVa0x1Wmk0YXhOYzd4aFZKa2YtYi1RSmoxMXlYNWM4OThvcWVLbFBaZnFmeURDcWdYMXplYTdVMUU1czZhWFNpbnY2NmRSR0MyMEc3QVN5RkRxa2FzZURlb1VIdnZiVHFVZ0d0bVViWDJ1Wm1KV2h3WkZlM0pZR3FEUnl4U1ltajBjdms0MjVvV0JwaDFYWXowSjNtUXNYQmx2a0NfQ29HanhxUWY3RVFuRENRckptTWZrNkx2SWlUY1d5T2N5WEhOTTloZjIyU2lwNGc?oc=5
+- [S15] News-index headline · Kalkine Media · 2026-10-22: https://news.google.com/rss/articles/CBMisgFBVV95cUxNdS1aTWxnMFJXWVlRZml4XzRzOTh6YmlYckU3T0h1WklFVGVrbXdaR1E3TElSdFpXTnhjNzRRYWRuVFFCVEc3VUxLbW9MeWlGRWpsaGJ2WlUzcXg1ZjdvWlBBRTQ4OXpCMml1VFNKVndwWEpvbzFqZ3FBVFp5TmZycTY4SWZxcVVzSXdjZHhXTm5wWUM4RWc5U25HY0tCaF9fM3IzR1dOLXhFNDdhX0pjeEZB?oc=5
 
 ## 3. GLD — Physical gold
 
@@ -212,9 +218,9 @@ Coverage URL: https://news.google.com/rss/articles/CBMinwFBVV95cUxPdEU1QVZKWFdja
 
 ### What the recorded data actually establish
 
-- Adjusted ETF-price return through 2026-10-26: three months -0.4%, six months -14.4%. [S2]
+- Adjusted ETF-price return through 2026-10-27: three months +0.3%, six months -11.8%. [S2]
 
-- Six-month adjusted ETF-price return relative to VOO: -22.0 percentage points. Backward-looking price returns are not a future return forecast. [S2]
+- Six-month adjusted ETF-price return relative to VOO: -20.5 percentage points. Backward-looking price returns are not a future return forecast. [S2]
 
 ### Economic and price mechanism
 
@@ -238,7 +244,7 @@ Commodity ETFs may react to real yields, the currency, underlying supply and dem
 
 ### Dated headline leads — not verified company events
 
-News monitoring timestamp: 2026-10-27T02:17:07.818418+00:00
+News monitoring timestamp: 2026-10-28T02:24:27.478937+00:00
 
 No representative verified narrative sample was available; no sentiment score was invented.
 
