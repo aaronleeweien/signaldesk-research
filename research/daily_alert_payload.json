@@ -1,16 +1,5 @@
 {
-  "notify": true,
-  "latest_close": "2026-10-27",
-  "events": [
-    {
-      "score_pct": 0.96,
-      "ticker": "XLB",
-      "type": "ETF_MOMENTUM_WATCH"
-    },
-    {
-      "score_pct": 8.72,
-      "ticker": "JNJ",
-      "type": "STOCK_WATCH_ONLY"
-    }
-  ]
+  "notify": false,
+  "latest_close": "2026-10-28",
+  "events": []
 }

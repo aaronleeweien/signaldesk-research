@@ -1,5 +1,5 @@
 {
-  "last_complete_session": "2026-10-27",
+  "last_complete_session": "2026-10-28",
   "description": "3/6/12-month momentum, 200-day trend filter, monthly next-open rebalancing, one/two/diversified ETFs",
   "warning": "2022 onward has already been seen in VOO research; retrospective only, NOT independently unseen evidence.",
   "research_only": true,
@@ -7,7 +7,7 @@
   "2013_2021": {
     "VOO DCA": {
       "annual_twr_pct": 16.22,
-      "end_usd": 31190.19,
+      "end_usd": 31190.18,
       "worst_decline_pct": -34.0,
       "orders": 108,
       "fees_usd": 12.69,
@@ -18,7 +18,7 @@
     },
     "Top 1": {
       "annual_twr_pct": 13.49,
-      "end_usd": 27050.31,
+      "end_usd": 27050.28,
       "worst_decline_pct": -21.41,
       "orders": 140,
       "fees_usd": 650.29,
@@ -29,7 +29,7 @@
     },
     "Top 2": {
       "annual_twr_pct": 13.13,
-      "end_usd": 25939.73,
+      "end_usd": 25939.74,
       "worst_decline_pct": -22.88,
       "orders": 258,
       "fees_usd": 510.82,
@@ -41,7 +41,7 @@
     },
     "Diversified": {
       "annual_twr_pct": 8.18,
-      "end_usd": 20023.41,
+      "end_usd": 20023.39,
       "worst_decline_pct": -18.26,
       "orders": 269,
       "fees_usd": 566.34,
@@ -54,8 +54,8 @@
   },
   "2022_onward": {
     "VOO DCA": {
-      "annual_twr_pct": 11.95,
-      "end_usd": 12325.84,
+      "annual_twr_pct": 12.03,
+      "end_usd": 12367.3,
       "worst_decline_pct": -24.56,
       "orders": 58,
       "fees_usd": 7.69,
@@ -65,8 +65,8 @@
       }
     },
     "Top 1": {
-      "annual_twr_pct": 10.2,
-      "end_usd": 11330.07,
+      "annual_twr_pct": 10.33,
+      "end_usd": 11398.56,
       "worst_decline_pct": -26.5,
       "orders": 76,
       "fees_usd": 244.04,
@@ -76,8 +76,8 @@
       }
     },
     "Top 2": {
-      "annual_twr_pct": 9.06,
-      "end_usd": 11527.13,
+      "annual_twr_pct": 9.16,
+      "end_usd": 11581.1,
       "worst_decline_pct": -20.96,
       "orders": 139,
       "fees_usd": 159.42,
@@ -88,8 +88,8 @@
       }
     },
     "Diversified": {
-      "annual_twr_pct": 7.56,
-      "end_usd": 10486.42,
+      "annual_twr_pct": 7.62,
+      "end_usd": 10518.84,
       "worst_decline_pct": -18.58,
       "orders": 138,
       "fees_usd": 163.02,

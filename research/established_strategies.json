@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-10-28 02:23 UTC",
-  "latest_completed_us_market_day": "2026-10-27",
+  "generated_utc": "2026-10-29 02:28 UTC",
+  "latest_completed_us_market_day": "2026-10-28",
   "objective": "Search among actual operated investment funds for implemented selection strategies beating S&P 500 after common-sample execution costs.",
   "hard_gate": "No fund or copied trading rule is approved as an automatic real-money BUY/SELL signal.",
   "ticker_metadata": {
@@ -76,16 +76,16 @@
     "common_2016": {
       "label": "Common 2016\u2013latest (XMMO mixes earlier index history)",
       "start": "2016-10-03",
-      "end": "2026-10-27",
+      "end": "2026-10-28",
       "returns": {
         "VOO": {
           "start": "2016-10-03",
-          "end": "2026-10-27",
-          "annual_twr_pct": 15.28,
+          "end": "2026-10-28",
+          "annual_twr_pct": 15.31,
           "max_drawdown_pct": -34.0,
           "volatility_pct": 17.96,
-          "sharpe_zero_rf": 0.88,
-          "ending_usd": 35728.07,
+          "sharpe_zero_rf": 0.89,
+          "ending_usd": 35848.25,
           "total_deposits_usd": 14000.0,
           "orders": 121,
           "trading_fees_usd": 13.99,
@@ -100,17 +100,17 @@
             "2023": 26.31,
             "2024": 24.96,
             "2025": 17.83,
-            "2026": 13.79
+            "2026": 14.18
           }
         },
         "SPMO": {
           "start": "2016-10-03",
-          "end": "2026-10-27",
-          "annual_twr_pct": 19.19,
+          "end": "2026-10-28",
+          "annual_twr_pct": 19.37,
           "max_drawdown_pct": -30.96,
           "volatility_pct": 21.07,
-          "sharpe_zero_rf": 0.94,
-          "ending_usd": 47479.34,
+          "sharpe_zero_rf": 0.95,
+          "ending_usd": 48251.9,
           "total_deposits_usd": 14000.0,
           "orders": 121,
           "trading_fees_usd": 13.99,
@@ -125,17 +125,17 @@
             "2023": 17.53,
             "2024": 45.79,
             "2025": 26.59,
-            "2026": 20.22
+            "2026": 22.18
           }
         },
         "XMMO": {
           "start": "2016-10-03",
-          "end": "2026-10-27",
-          "annual_twr_pct": 16.48,
+          "end": "2026-10-28",
+          "annual_twr_pct": 16.53,
           "max_drawdown_pct": -36.74,
-          "volatility_pct": 22.54,
+          "volatility_pct": 22.53,
           "sharpe_zero_rf": 0.79,
-          "ending_usd": 34891.19,
+          "ending_usd": 35072.7,
           "total_deposits_usd": 14000.0,
           "orders": 121,
           "trading_fees_usd": 13.99,
@@ -150,17 +150,17 @@
             "2023": 20.38,
             "2024": 38.02,
             "2025": 13.06,
-            "2026": 0.45
+            "2026": 0.97
           }
         },
         "QQQ": {
           "start": "2016-10-03",
-          "end": "2026-10-27",
-          "annual_twr_pct": 20.4,
+          "end": "2026-10-28",
+          "annual_twr_pct": 20.47,
           "max_drawdown_pct": -35.13,
           "volatility_pct": 22.53,
           "sharpe_zero_rf": 0.94,
-          "ending_usd": 47684.36,
+          "ending_usd": 47972.61,
           "total_deposits_usd": 14000.0,
           "orders": 121,
           "trading_fees_usd": 13.99,
@@ -175,17 +175,17 @@
             "2023": 54.84,
             "2024": 25.57,
             "2025": 20.78,
-            "2026": 17.81
+            "2026": 18.52
           }
         },
         "SMH": {
           "start": "2016-10-03",
-          "end": "2026-10-27",
-          "annual_twr_pct": 32.94,
+          "end": "2026-10-28",
+          "annual_twr_pct": 33.15,
           "max_drawdown_pct": -45.3,
           "volatility_pct": 33.56,
           "sharpe_zero_rf": 1.02,
-          "ending_usd": 115074.35,
+          "ending_usd": 117072.76,
           "total_deposits_usd": 14000.0,
           "orders": 121,
           "trading_fees_usd": 13.99,
@@ -200,17 +200,17 @@
             "2023": 73.34,
             "2024": 39.1,
             "2025": 49.18,
-            "2026": 54.95
+            "2026": 57.64
           }
         },
         "MTUM": {
           "start": "2016-10-03",
-          "end": "2026-10-27",
-          "annual_twr_pct": 15.68,
+          "end": "2026-10-28",
+          "annual_twr_pct": 15.82,
           "max_drawdown_pct": -34.08,
           "volatility_pct": 21.86,
           "sharpe_zero_rf": 0.78,
-          "ending_usd": 35892.41,
+          "ending_usd": 36368.13,
           "total_deposits_usd": 14000.0,
           "orders": 121,
           "trading_fees_usd": 13.99,
@@ -225,17 +225,17 @@
             "2023": 9.14,
             "2024": 32.87,
             "2025": 22.16,
-            "2026": 20.16
+            "2026": 21.75
           }
         },
         "MDY": {
           "start": "2016-10-03",
-          "end": "2026-10-27",
-          "annual_twr_pct": 10.26,
+          "end": "2026-10-28",
+          "annual_twr_pct": 10.27,
           "max_drawdown_pct": -42.23,
           "volatility_pct": 21.07,
           "sharpe_zero_rf": 0.57,
-          "ending_usd": 25731.59,
+          "ending_usd": 25772.04,
           "total_deposits_usd": 14000.0,
           "orders": 121,
           "trading_fees_usd": 13.99,
@@ -250,7 +250,7 @@
             "2023": 16.07,
             "2024": 13.63,
             "2025": 7.21,
-            "2026": 11.53
+            "2026": 11.7
           }
         }
       },
@@ -261,163 +261,163 @@
           "beta_to_voo": 1.0,
           "paired_active_uncertainty": null,
           "returns_30bps": {
-            "annual_twr_pct": 15.22,
-            "ending_usd": 35656.83,
+            "annual_twr_pct": 15.26,
+            "ending_usd": 35776.77,
             "trading_fees_usd": 41.87
           },
           "returns_0bps": {
-            "annual_twr_pct": 15.31,
-            "ending_usd": 35763.8,
+            "annual_twr_pct": 15.34,
+            "ending_usd": 35884.1,
             "trading_fees_usd": 0.0
           }
         },
         "SPMO": {
-          "annual_advantage_over_voo_pp": 3.91,
+          "annual_advantage_over_voo_pp": 4.06,
           "historically_exceeds_voo_after_10bps": true,
           "beta_to_voo": 1.02,
           "paired_active_uncertainty": {
             "enough_months": true,
             "months": 121,
-            "observed_average_active_pp_ann": 3.8,
-            "ci90_lower": -1.3,
-            "ci90_upper": 9.21,
+            "observed_average_active_pp_ann": 3.92,
+            "ci90_lower": -1.12,
+            "ci90_upper": 9.3,
             "fraction_months_ahead_pct": 55.4,
             "zero_in_ci90": true,
             "limitations": "Retrospective, selected fund universe; no adjustment for searching multiple alternatives"
           },
           "returns_30bps": {
-            "annual_twr_pct": 19.13,
-            "ending_usd": 47384.66,
+            "annual_twr_pct": 19.32,
+            "ending_usd": 48155.68,
             "trading_fees_usd": 41.87
           },
           "returns_0bps": {
-            "annual_twr_pct": 19.21,
-            "ending_usd": 47526.82,
+            "annual_twr_pct": 19.4,
+            "ending_usd": 48300.15,
             "trading_fees_usd": 0.0
           }
         },
         "XMMO": {
-          "annual_advantage_over_voo_pp": 1.2,
+          "annual_advantage_over_voo_pp": 1.22,
           "historically_exceeds_voo_after_10bps": true,
           "beta_to_voo": 1.07,
           "paired_active_uncertainty": {
             "enough_months": true,
             "months": 121,
-            "observed_average_active_pp_ann": 1.75,
+            "observed_average_active_pp_ann": 1.77,
             "ci90_lower": -4.26,
-            "ci90_upper": 7.71,
+            "ci90_upper": 7.73,
             "fraction_months_ahead_pct": 47.9,
             "zero_in_ci90": true,
             "limitations": "Retrospective, selected fund universe; no adjustment for searching multiple alternatives"
           },
           "returns_30bps": {
-            "annual_twr_pct": 16.43,
-            "ending_usd": 34821.61,
+            "annual_twr_pct": 16.48,
+            "ending_usd": 35002.77,
             "trading_fees_usd": 41.87
           },
           "returns_0bps": {
-            "annual_twr_pct": 16.51,
-            "ending_usd": 34926.08,
+            "annual_twr_pct": 16.56,
+            "ending_usd": 35107.78,
             "trading_fees_usd": 0.0
           }
         },
         "QQQ": {
-          "annual_advantage_over_voo_pp": 5.12,
+          "annual_advantage_over_voo_pp": 5.16,
           "historically_exceeds_voo_after_10bps": true,
           "beta_to_voo": 1.17,
           "paired_active_uncertainty": {
             "enough_months": true,
             "months": 121,
-            "observed_average_active_pp_ann": 5.01,
-            "ci90_lower": 0.79,
+            "observed_average_active_pp_ann": 5.04,
+            "ci90_lower": 0.82,
             "ci90_upper": 9.41,
             "fraction_months_ahead_pct": 59.5,
             "zero_in_ci90": false,
             "limitations": "Retrospective, selected fund universe; no adjustment for searching multiple alternatives"
           },
           "returns_30bps": {
-            "annual_twr_pct": 20.35,
-            "ending_usd": 47589.28,
+            "annual_twr_pct": 20.42,
+            "ending_usd": 47876.96,
             "trading_fees_usd": 41.87
           },
           "returns_0bps": {
-            "annual_twr_pct": 20.43,
-            "ending_usd": 47732.04,
+            "annual_twr_pct": 20.5,
+            "ending_usd": 48020.59,
             "trading_fees_usd": 0.0
           }
         },
         "SMH": {
-          "annual_advantage_over_voo_pp": 17.66,
+          "annual_advantage_over_voo_pp": 17.84,
           "historically_exceeds_voo_after_10bps": true,
           "beta_to_voo": 1.5,
           "paired_active_uncertainty": {
             "enough_months": true,
             "months": 121,
-            "observed_average_active_pp_ann": 17.39,
-            "ci90_lower": 7.8,
-            "ci90_upper": 27.19,
+            "observed_average_active_pp_ann": 17.52,
+            "ci90_lower": 7.92,
+            "ci90_upper": 27.24,
             "fraction_months_ahead_pct": 57.9,
             "zero_in_ci90": false,
             "limitations": "Retrospective, selected fund universe; no adjustment for searching multiple alternatives"
           },
           "returns_30bps": {
-            "annual_twr_pct": 32.88,
-            "ending_usd": 114844.89,
+            "annual_twr_pct": 33.1,
+            "ending_usd": 116839.32,
             "trading_fees_usd": 41.87
           },
           "returns_0bps": {
-            "annual_twr_pct": 32.97,
-            "ending_usd": 115189.42,
+            "annual_twr_pct": 33.18,
+            "ending_usd": 117189.83,
             "trading_fees_usd": 0.0
           }
         },
         "MTUM": {
-          "annual_advantage_over_voo_pp": 0.4,
+          "annual_advantage_over_voo_pp": 0.51,
           "historically_exceeds_voo_after_10bps": true,
           "beta_to_voo": 1.06,
           "paired_active_uncertainty": {
             "enough_months": true,
             "months": 121,
-            "observed_average_active_pp_ann": 0.82,
-            "ci90_lower": -4.21,
-            "ci90_upper": 5.92,
+            "observed_average_active_pp_ann": 0.91,
+            "ci90_lower": -4.11,
+            "ci90_upper": 6.01,
             "fraction_months_ahead_pct": 52.9,
             "zero_in_ci90": true,
             "limitations": "Retrospective, selected fund universe; no adjustment for searching multiple alternatives"
           },
           "returns_30bps": {
-            "annual_twr_pct": 15.62,
-            "ending_usd": 35820.84,
+            "annual_twr_pct": 15.77,
+            "ending_usd": 36295.61,
             "trading_fees_usd": 41.87
           },
           "returns_0bps": {
-            "annual_twr_pct": 15.7,
-            "ending_usd": 35928.31,
+            "annual_twr_pct": 15.85,
+            "ending_usd": 36404.5,
             "trading_fees_usd": 0.0
           }
         },
         "MDY": {
-          "annual_advantage_over_voo_pp": -5.02,
+          "annual_advantage_over_voo_pp": -5.04,
           "historically_exceeds_voo_after_10bps": false,
           "beta_to_voo": 1.06,
           "paired_active_uncertainty": {
             "enough_months": true,
             "months": 121,
-            "observed_average_active_pp_ann": -3.92,
-            "ci90_lower": -8.03,
-            "ci90_upper": 0.26,
+            "observed_average_active_pp_ann": -3.94,
+            "ci90_lower": -8.04,
+            "ci90_upper": 0.24,
             "fraction_months_ahead_pct": 41.3,
             "zero_in_ci90": true,
             "limitations": "Retrospective, selected fund universe; no adjustment for searching multiple alternatives"
           },
           "returns_30bps": {
-            "annual_twr_pct": 10.2,
-            "ending_usd": 25680.28,
+            "annual_twr_pct": 10.22,
+            "ending_usd": 25720.65,
             "trading_fees_usd": 41.87
           },
           "returns_0bps": {
-            "annual_twr_pct": 10.29,
-            "ending_usd": 25757.32,
+            "annual_twr_pct": 10.3,
+            "ending_usd": 25797.81,
             "trading_fees_usd": 0.0
           }
         }
@@ -426,16 +426,16 @@
     "current_xmmo": {
       "label": "Since current XMMO index adoption (2019\u2013latest)",
       "start": "2019-06-24",
-      "end": "2026-10-27",
+      "end": "2026-10-28",
       "returns": {
         "VOO": {
           "start": "2019-06-24",
-          "end": "2026-10-27",
-          "annual_twr_pct": 15.64,
+          "end": "2026-10-28",
+          "annual_twr_pct": 15.69,
           "max_drawdown_pct": -34.01,
           "volatility_pct": 19.59,
           "sharpe_zero_rf": 0.84,
-          "ending_usd": 22187.07,
+          "ending_usd": 22261.71,
           "total_deposits_usd": 10800.0,
           "orders": 89,
           "trading_fees_usd": 10.79,
@@ -447,17 +447,17 @@
             "2023": 26.31,
             "2024": 24.96,
             "2025": 17.84,
-            "2026": 13.79
+            "2026": 14.18
           }
         },
         "SPMO": {
           "start": "2019-06-24",
-          "end": "2026-10-27",
-          "annual_twr_pct": 19.76,
+          "end": "2026-10-28",
+          "annual_twr_pct": 20.01,
           "max_drawdown_pct": -30.97,
           "volatility_pct": 22.7,
-          "sharpe_zero_rf": 0.91,
-          "ending_usd": 28184.51,
+          "sharpe_zero_rf": 0.92,
+          "ending_usd": 28643.12,
           "total_deposits_usd": 10800.0,
           "orders": 89,
           "trading_fees_usd": 10.79,
@@ -469,17 +469,17 @@
             "2023": 17.51,
             "2024": 45.78,
             "2025": 26.6,
-            "2026": 20.23
+            "2026": 22.18
           }
         },
         "XMMO": {
           "start": "2019-06-24",
-          "end": "2026-10-27",
-          "annual_twr_pct": 13.01,
+          "end": "2026-10-28",
+          "annual_twr_pct": 13.08,
           "max_drawdown_pct": -36.75,
-          "volatility_pct": 24.08,
+          "volatility_pct": 24.07,
           "sharpe_zero_rf": 0.63,
-          "ending_usd": 19340.49,
+          "ending_usd": 19441.11,
           "total_deposits_usd": 10800.0,
           "orders": 89,
           "trading_fees_usd": 10.79,
@@ -491,17 +491,17 @@
             "2023": 20.37,
             "2024": 38.01,
             "2025": 13.07,
-            "2026": 0.45
+            "2026": 0.97
           }
         },
         "QQQ": {
           "start": "2019-06-24",
-          "end": "2026-10-27",
-          "annual_twr_pct": 20.68,
+          "end": "2026-10-28",
+          "annual_twr_pct": 20.78,
           "max_drawdown_pct": -35.15,
-          "volatility_pct": 24.21,
+          "volatility_pct": 24.2,
           "sharpe_zero_rf": 0.9,
-          "ending_usd": 26696.62,
+          "ending_usd": 26858.01,
           "total_deposits_usd": 10800.0,
           "orders": 89,
           "trading_fees_usd": 10.79,
@@ -513,17 +513,17 @@
             "2023": 54.83,
             "2024": 25.56,
             "2025": 20.78,
-            "2026": 17.81
+            "2026": 18.52
           }
         },
         "SMH": {
           "start": "2019-06-24",
-          "end": "2026-10-27",
-          "annual_twr_pct": 38.42,
+          "end": "2026-10-28",
+          "annual_twr_pct": 38.72,
           "max_drawdown_pct": -45.29,
-          "volatility_pct": 36.56,
-          "sharpe_zero_rf": 1.07,
-          "ending_usd": 59913.13,
+          "volatility_pct": 36.55,
+          "sharpe_zero_rf": 1.08,
+          "ending_usd": 60953.6,
           "total_deposits_usd": 10800.0,
           "orders": 89,
           "trading_fees_usd": 10.79,
@@ -535,17 +535,17 @@
             "2023": 73.29,
             "2024": 39.1,
             "2025": 49.19,
-            "2026": 54.95
+            "2026": 57.64
           }
         },
         "MTUM": {
           "start": "2019-06-24",
-          "end": "2026-10-27",
-          "annual_twr_pct": 14.44,
+          "end": "2026-10-28",
+          "annual_twr_pct": 14.64,
           "max_drawdown_pct": -34.09,
           "volatility_pct": 23.86,
           "sharpe_zero_rf": 0.69,
-          "ending_usd": 21822.2,
+          "ending_usd": 22111.43,
           "total_deposits_usd": 10800.0,
           "orders": 89,
           "trading_fees_usd": 10.79,
@@ -557,17 +557,17 @@
             "2023": 9.13,
             "2024": 32.86,
             "2025": 22.17,
-            "2026": 20.17
+            "2026": 21.76
           }
         },
         "MDY": {
           "start": "2019-06-24",
-          "end": "2026-10-27",
-          "annual_twr_pct": 10.4,
+          "end": "2026-10-28",
+          "annual_twr_pct": 10.42,
           "max_drawdown_pct": -42.24,
           "volatility_pct": 23.27,
           "sharpe_zero_rf": 0.54,
-          "ending_usd": 17331.46,
+          "ending_usd": 17358.71,
           "total_deposits_usd": 10800.0,
           "orders": 89,
           "trading_fees_usd": 10.79,
@@ -579,7 +579,7 @@
             "2023": 16.06,
             "2024": 13.62,
             "2025": 7.22,
-            "2026": 11.53
+            "2026": 11.7
           }
         }
       },
@@ -590,163 +590,163 @@
           "beta_to_voo": 1.0,
           "paired_active_uncertainty": null,
           "returns_30bps": {
-            "annual_twr_pct": 15.57,
-            "ending_usd": 22142.83,
+            "annual_twr_pct": 15.61,
+            "ending_usd": 22217.32,
             "trading_fees_usd": 32.3
           },
           "returns_0bps": {
-            "annual_twr_pct": 15.68,
-            "ending_usd": 22209.26,
+            "annual_twr_pct": 15.72,
+            "ending_usd": 22283.97,
             "trading_fees_usd": 0.0
           }
         },
         "SPMO": {
-          "annual_advantage_over_voo_pp": 4.12,
+          "annual_advantage_over_voo_pp": 4.32,
           "historically_exceeds_voo_after_10bps": true,
           "beta_to_voo": 1.02,
           "paired_active_uncertainty": {
             "enough_months": true,
             "months": 89,
-            "observed_average_active_pp_ann": 4.04,
-            "ci90_lower": -2.53,
-            "ci90_upper": 10.89,
+            "observed_average_active_pp_ann": 4.2,
+            "ci90_lower": -2.31,
+            "ci90_upper": 10.98,
             "fraction_months_ahead_pct": 53.9,
             "zero_in_ci90": true,
             "limitations": "Retrospective, selected fund universe; no adjustment for searching multiple alternatives"
           },
           "returns_30bps": {
-            "annual_twr_pct": 19.68,
-            "ending_usd": 28128.31,
+            "annual_twr_pct": 19.94,
+            "ending_usd": 28586.0,
             "trading_fees_usd": 32.3
           },
           "returns_0bps": {
-            "annual_twr_pct": 19.79,
-            "ending_usd": 28212.7,
+            "annual_twr_pct": 20.05,
+            "ending_usd": 28671.76,
             "trading_fees_usd": 0.0
           }
         },
         "XMMO": {
-          "annual_advantage_over_voo_pp": -2.63,
+          "annual_advantage_over_voo_pp": -2.61,
           "historically_exceeds_voo_after_10bps": false,
           "beta_to_voo": 1.05,
           "paired_active_uncertainty": {
             "enough_months": true,
             "months": 89,
-            "observed_average_active_pp_ann": -1.65,
-            "ci90_lower": -8.64,
-            "ci90_upper": 5.65,
+            "observed_average_active_pp_ann": -1.63,
+            "ci90_lower": -8.6,
+            "ci90_upper": 5.67,
             "fraction_months_ahead_pct": 40.4,
             "zero_in_ci90": true,
             "limitations": "Retrospective, selected fund universe; no adjustment for searching multiple alternatives"
           },
           "returns_30bps": {
-            "annual_twr_pct": 12.93,
-            "ending_usd": 19301.93,
+            "annual_twr_pct": 13.01,
+            "ending_usd": 19402.34,
             "trading_fees_usd": 32.3
           },
           "returns_0bps": {
-            "annual_twr_pct": 13.04,
-            "ending_usd": 19359.84,
+            "annual_twr_pct": 13.12,
+            "ending_usd": 19460.55,
             "trading_fees_usd": 0.0
           }
         },
         "QQQ": {
-          "annual_advantage_over_voo_pp": 5.04,
+          "annual_advantage_over_voo_pp": 5.09,
           "historically_exceeds_voo_after_10bps": true,
           "beta_to_voo": 1.15,
           "paired_active_uncertainty": {
             "enough_months": true,
             "months": 89,
-            "observed_average_active_pp_ann": 4.98,
-            "ci90_lower": -0.73,
-            "ci90_upper": 10.44,
+            "observed_average_active_pp_ann": 5.01,
+            "ci90_lower": -0.69,
+            "ci90_upper": 10.45,
             "fraction_months_ahead_pct": 58.4,
             "zero_in_ci90": true,
             "limitations": "Retrospective, selected fund universe; no adjustment for searching multiple alternatives"
           },
           "returns_30bps": {
-            "annual_twr_pct": 20.61,
-            "ending_usd": 26643.39,
+            "annual_twr_pct": 20.7,
+            "ending_usd": 26804.45,
             "trading_fees_usd": 32.3
           },
           "returns_0bps": {
-            "annual_twr_pct": 20.72,
-            "ending_usd": 26723.32,
+            "annual_twr_pct": 20.81,
+            "ending_usd": 26884.86,
             "trading_fees_usd": 0.0
           }
         },
         "SMH": {
-          "annual_advantage_over_voo_pp": 22.78,
+          "annual_advantage_over_voo_pp": 23.03,
           "historically_exceeds_voo_after_10bps": true,
           "beta_to_voo": 1.51,
           "paired_active_uncertainty": {
             "enough_months": true,
             "months": 89,
-            "observed_average_active_pp_ann": 21.45,
-            "ci90_lower": 9.37,
-            "ci90_upper": 33.61,
+            "observed_average_active_pp_ann": 21.62,
+            "ci90_lower": 9.58,
+            "ci90_upper": 33.78,
             "fraction_months_ahead_pct": 58.4,
             "zero_in_ci90": false,
             "limitations": "Retrospective, selected fund universe; no adjustment for searching multiple alternatives"
           },
           "returns_30bps": {
-            "annual_twr_pct": 38.34,
-            "ending_usd": 59793.66,
+            "annual_twr_pct": 38.65,
+            "ending_usd": 60832.05,
             "trading_fees_usd": 32.3
           },
           "returns_0bps": {
-            "annual_twr_pct": 38.45,
-            "ending_usd": 59973.05,
+            "annual_twr_pct": 38.76,
+            "ending_usd": 61014.55,
             "trading_fees_usd": 0.0
           }
         },
         "MTUM": {
-          "annual_advantage_over_voo_pp": -1.2,
+          "annual_advantage_over_voo_pp": -1.05,
           "historically_exceeds_voo_after_10bps": false,
           "beta_to_voo": 1.05,
           "paired_active_uncertainty": {
             "enough_months": true,
             "months": 89,
-            "observed_average_active_pp_ann": -0.41,
-            "ci90_lower": -6.63,
-            "ci90_upper": 6.31,
+            "observed_average_active_pp_ann": -0.29,
+            "ci90_lower": -6.51,
+            "ci90_upper": 6.36,
             "fraction_months_ahead_pct": 51.7,
             "zero_in_ci90": true,
             "limitations": "Retrospective, selected fund universe; no adjustment for searching multiple alternatives"
           },
           "returns_30bps": {
-            "annual_twr_pct": 14.36,
-            "ending_usd": 21778.68,
+            "annual_twr_pct": 14.56,
+            "ending_usd": 22067.34,
             "trading_fees_usd": 32.3
           },
           "returns_0bps": {
-            "annual_twr_pct": 14.48,
-            "ending_usd": 21844.02,
+            "annual_twr_pct": 14.68,
+            "ending_usd": 22133.54,
             "trading_fees_usd": 0.0
           }
         },
         "MDY": {
-          "annual_advantage_over_voo_pp": -5.24,
+          "annual_advantage_over_voo_pp": -5.27,
           "historically_exceeds_voo_after_10bps": false,
           "beta_to_voo": 1.07,
           "paired_active_uncertainty": {
             "enough_months": true,
             "months": 89,
-            "observed_average_active_pp_ann": -4.03,
-            "ci90_lower": -9.33,
-            "ci90_upper": 1.25,
+            "observed_average_active_pp_ann": -4.05,
+            "ci90_lower": -9.36,
+            "ci90_upper": 1.22,
             "fraction_months_ahead_pct": 44.9,
             "zero_in_ci90": true,
             "limitations": "Retrospective, selected fund universe; no adjustment for searching multiple alternatives"
           },
           "returns_30bps": {
-            "annual_twr_pct": 10.33,
-            "ending_usd": 17296.9,
+            "annual_twr_pct": 10.35,
+            "ending_usd": 17324.1,
             "trading_fees_usd": 32.3
           },
           "returns_0bps": {
-            "annual_twr_pct": 10.43,
-            "ending_usd": 17348.79,
+            "annual_twr_pct": 10.45,
+            "ending_usd": 17376.07,
             "trading_fees_usd": 0.0
           }
         }
@@ -755,16 +755,16 @@
     "recent_2022": {
       "label": "Recent 2022\u2013latest",
       "start": "2022-01-03",
-      "end": "2026-10-27",
+      "end": "2026-10-28",
       "returns": {
         "VOO": {
           "start": "2022-01-03",
-          "end": "2026-10-27",
-          "annual_twr_pct": 11.95,
+          "end": "2026-10-28",
+          "annual_twr_pct": 12.03,
           "max_drawdown_pct": -24.56,
-          "volatility_pct": 16.99,
-          "sharpe_zero_rf": 0.75,
-          "ending_usd": 12325.84,
+          "volatility_pct": 16.98,
+          "sharpe_zero_rf": 0.76,
+          "ending_usd": 12367.3,
           "total_deposits_usd": 7700.0,
           "orders": 58,
           "trading_fees_usd": 7.69,
@@ -773,17 +773,17 @@
             "2023": 26.28,
             "2024": 24.94,
             "2025": 17.85,
-            "2026": 13.79
+            "2026": 14.17
           }
         },
         "SPMO": {
           "start": "2022-01-03",
-          "end": "2026-10-27",
-          "annual_twr_pct": 19.15,
+          "end": "2026-10-28",
+          "annual_twr_pct": 19.54,
           "max_drawdown_pct": -22.77,
-          "volatility_pct": 21.02,
-          "sharpe_zero_rf": 0.94,
-          "ending_usd": 15517.26,
+          "volatility_pct": 21.03,
+          "sharpe_zero_rf": 0.96,
+          "ending_usd": 15769.75,
           "total_deposits_usd": 7700.0,
           "orders": 58,
           "trading_fees_usd": 7.69,
@@ -792,17 +792,17 @@
             "2023": 17.45,
             "2024": 45.73,
             "2025": 26.62,
-            "2026": 20.24
+            "2026": 22.2
           }
         },
         "XMMO": {
           "start": "2022-01-03",
-          "end": "2026-10-27",
-          "annual_twr_pct": 9.9,
+          "end": "2026-10-28",
+          "annual_twr_pct": 10.01,
           "max_drawdown_pct": -24.92,
-          "volatility_pct": 22.04,
+          "volatility_pct": 22.03,
           "sharpe_zero_rf": 0.54,
-          "ending_usd": 11051.57,
+          "ending_usd": 11109.06,
           "total_deposits_usd": 7700.0,
           "orders": 58,
           "trading_fees_usd": 7.69,
@@ -811,17 +811,17 @@
             "2023": 20.35,
             "2024": 37.99,
             "2025": 13.09,
-            "2026": 0.45
+            "2026": 0.98
           }
         },
         "QQQ": {
           "start": "2022-01-03",
-          "end": "2026-10-27",
-          "annual_twr_pct": 13.7,
+          "end": "2026-10-28",
+          "annual_twr_pct": 13.84,
           "max_drawdown_pct": -34.88,
-          "volatility_pct": 23.16,
-          "sharpe_zero_rf": 0.67,
-          "ending_usd": 13601.56,
+          "volatility_pct": 23.15,
+          "sharpe_zero_rf": 0.68,
+          "ending_usd": 13683.79,
           "total_deposits_usd": 7700.0,
           "orders": 58,
           "trading_fees_usd": 7.69,
@@ -830,17 +830,17 @@
             "2023": 54.78,
             "2024": 25.54,
             "2025": 20.79,
-            "2026": 17.82
+            "2026": 18.53
           }
         },
         "SMH": {
           "start": "2022-01-03",
-          "end": "2026-10-27",
-          "annual_twr_pct": 30.98,
+          "end": "2026-10-28",
+          "annual_twr_pct": 31.43,
           "max_drawdown_pct": -45.08,
-          "volatility_pct": 37.21,
-          "sharpe_zero_rf": 0.91,
-          "ending_usd": 24581.34,
+          "volatility_pct": 37.2,
+          "sharpe_zero_rf": 0.92,
+          "ending_usd": 25008.22,
           "total_deposits_usd": 7700.0,
           "orders": 58,
           "trading_fees_usd": 7.69,
@@ -849,17 +849,17 @@
             "2023": 73.1,
             "2024": 39.1,
             "2025": 49.22,
-            "2026": 54.97
+            "2026": 57.66
           }
         },
         "MTUM": {
           "start": "2022-01-03",
-          "end": "2026-10-27",
-          "annual_twr_pct": 11.96,
+          "end": "2026-10-28",
+          "annual_twr_pct": 12.26,
           "max_drawdown_pct": -28.68,
           "volatility_pct": 22.22,
-          "sharpe_zero_rf": 0.62,
-          "ending_usd": 12980.62,
+          "sharpe_zero_rf": 0.63,
+          "ending_usd": 13152.67,
           "total_deposits_usd": 7700.0,
           "orders": 58,
           "trading_fees_usd": 7.69,
@@ -868,17 +868,17 @@
             "2023": 9.11,
             "2024": 32.84,
             "2025": 22.18,
-            "2026": 20.18
+            "2026": 21.77
           }
         },
         "MDY": {
           "start": "2022-01-03",
-          "end": "2026-10-27",
-          "annual_twr_pct": 6.61,
+          "end": "2026-10-28",
+          "annual_twr_pct": 6.64,
           "max_drawdown_pct": -24.03,
-          "volatility_pct": 19.63,
+          "volatility_pct": 19.62,
           "sharpe_zero_rf": 0.43,
-          "ending_usd": 10186.16,
+          "ending_usd": 10202.17,
           "total_deposits_usd": 7700.0,
           "orders": 58,
           "trading_fees_usd": 7.69,
@@ -887,7 +887,7 @@
             "2023": 16.04,
             "2024": 13.6,
             "2025": 7.25,
-            "2026": 11.53
+            "2026": 11.7
           }
         }
       },
@@ -898,163 +898,163 @@
           "beta_to_voo": 1.0,
           "paired_active_uncertainty": null,
           "returns_30bps": {
-            "annual_twr_pct": 11.85,
-            "ending_usd": 12301.26,
+            "annual_twr_pct": 11.92,
+            "ending_usd": 12342.64,
             "trading_fees_usd": 23.03
           },
           "returns_0bps": {
-            "annual_twr_pct": 12.01,
-            "ending_usd": 12338.17,
+            "annual_twr_pct": 12.08,
+            "ending_usd": 12379.67,
             "trading_fees_usd": 0.0
           }
         },
         "SPMO": {
-          "annual_advantage_over_voo_pp": 7.2,
+          "annual_advantage_over_voo_pp": 7.51,
           "historically_exceeds_voo_after_10bps": true,
           "beta_to_voo": 1.05,
           "paired_active_uncertainty": {
             "enough_months": true,
             "months": 58,
-            "observed_average_active_pp_ann": 7.18,
-            "ci90_lower": -1.73,
-            "ci90_upper": 16.63,
+            "observed_average_active_pp_ann": 7.43,
+            "ci90_lower": -1.31,
+            "ci90_upper": 16.79,
             "fraction_months_ahead_pct": 60.3,
             "zero_in_ci90": true,
             "limitations": "Retrospective, selected fund universe; no adjustment for searching multiple alternatives"
           },
           "returns_30bps": {
-            "annual_twr_pct": 19.04,
-            "ending_usd": 15486.32,
+            "annual_twr_pct": 19.43,
+            "ending_usd": 15738.31,
             "trading_fees_usd": 23.03
           },
           "returns_0bps": {
-            "annual_twr_pct": 19.2,
-            "ending_usd": 15532.78,
+            "annual_twr_pct": 19.59,
+            "ending_usd": 15785.52,
             "trading_fees_usd": 0.0
           }
         },
         "XMMO": {
-          "annual_advantage_over_voo_pp": -2.05,
+          "annual_advantage_over_voo_pp": -2.02,
           "historically_exceeds_voo_after_10bps": false,
           "beta_to_voo": 1.07,
           "paired_active_uncertainty": {
             "enough_months": true,
             "months": 58,
-            "observed_average_active_pp_ann": -0.88,
-            "ci90_lower": -10.45,
-            "ci90_upper": 8.9,
+            "observed_average_active_pp_ann": -0.85,
+            "ci90_lower": -10.34,
+            "ci90_upper": 8.93,
             "fraction_months_ahead_pct": 44.8,
             "zero_in_ci90": true,
             "limitations": "Retrospective, selected fund universe; no adjustment for searching multiple alternatives"
           },
           "returns_30bps": {
-            "annual_twr_pct": 9.8,
-            "ending_usd": 11029.53,
+            "annual_twr_pct": 9.91,
+            "ending_usd": 11086.91,
             "trading_fees_usd": 23.03
           },
           "returns_0bps": {
-            "annual_twr_pct": 9.95,
-            "ending_usd": 11062.62,
+            "annual_twr_pct": 10.06,
+            "ending_usd": 11120.17,
             "trading_fees_usd": 0.0
           }
         },
         "QQQ": {
-          "annual_advantage_over_voo_pp": 1.75,
+          "annual_advantage_over_voo_pp": 1.81,
           "historically_exceeds_voo_after_10bps": true,
           "beta_to_voo": 1.3,
           "paired_active_uncertainty": {
             "enough_months": true,
             "months": 58,
-            "observed_average_active_pp_ann": 2.54,
-            "ci90_lower": -4.26,
-            "ci90_upper": 9.54,
+            "observed_average_active_pp_ann": 2.59,
+            "ci90_lower": -4.15,
+            "ci90_upper": 9.59,
             "fraction_months_ahead_pct": 53.4,
             "zero_in_ci90": true,
             "limitations": "Retrospective, selected fund universe; no adjustment for searching multiple alternatives"
           },
           "returns_30bps": {
-            "annual_twr_pct": 13.59,
-            "ending_usd": 13574.44,
+            "annual_twr_pct": 13.73,
+            "ending_usd": 13656.5,
             "trading_fees_usd": 23.03
           },
           "returns_0bps": {
-            "annual_twr_pct": 13.76,
-            "ending_usd": 13615.17,
+            "annual_twr_pct": 13.89,
+            "ending_usd": 13697.47,
             "trading_fees_usd": 0.0
           }
         },
         "SMH": {
-          "annual_advantage_over_voo_pp": 19.03,
+          "annual_advantage_over_voo_pp": 19.4,
           "historically_exceeds_voo_after_10bps": true,
           "beta_to_voo": 1.78,
           "paired_active_uncertainty": {
             "enough_months": true,
             "months": 58,
-            "observed_average_active_pp_ann": 20.69,
-            "ci90_lower": 3.11,
-            "ci90_upper": 38.43,
+            "observed_average_active_pp_ann": 20.95,
+            "ci90_lower": 3.36,
+            "ci90_upper": 38.64,
             "fraction_months_ahead_pct": 53.4,
             "zero_in_ci90": false,
             "limitations": "Retrospective, selected fund universe; no adjustment for searching multiple alternatives"
           },
           "returns_30bps": {
-            "annual_twr_pct": 30.87,
-            "ending_usd": 24532.32,
+            "annual_twr_pct": 31.31,
+            "ending_usd": 24958.35,
             "trading_fees_usd": 23.03
           },
           "returns_0bps": {
-            "annual_twr_pct": 31.04,
-            "ending_usd": 24605.92,
+            "annual_twr_pct": 31.49,
+            "ending_usd": 25033.23,
             "trading_fees_usd": 0.0
           }
         },
         "MTUM": {
-          "annual_advantage_over_voo_pp": 0.01,
+          "annual_advantage_over_voo_pp": 0.23,
           "historically_exceeds_voo_after_10bps": true,
           "beta_to_voo": 1.09,
           "paired_active_uncertainty": {
             "enough_months": true,
             "months": 58,
-            "observed_average_active_pp_ann": 0.95,
-            "ci90_lower": -7.38,
-            "ci90_upper": 9.99,
+            "observed_average_active_pp_ann": 1.14,
+            "ci90_lower": -7.04,
+            "ci90_upper": 10.19,
             "fraction_months_ahead_pct": 55.2,
             "zero_in_ci90": true,
             "limitations": "Retrospective, selected fund universe; no adjustment for searching multiple alternatives"
           },
           "returns_30bps": {
-            "annual_twr_pct": 11.85,
-            "ending_usd": 12954.74,
+            "annual_twr_pct": 12.15,
+            "ending_usd": 13126.44,
             "trading_fees_usd": 23.03
           },
           "returns_0bps": {
-            "annual_twr_pct": 12.01,
-            "ending_usd": 12993.6,
+            "annual_twr_pct": 12.31,
+            "ending_usd": 13165.82,
             "trading_fees_usd": 0.0
           }
         },
         "MDY": {
-          "annual_advantage_over_voo_pp": -5.34,
+          "annual_advantage_over_voo_pp": -5.39,
           "historically_exceeds_voo_after_10bps": false,
           "beta_to_voo": 1.02,
           "paired_active_uncertainty": {
             "enough_months": true,
             "months": 58,
-            "observed_average_active_pp_ann": -4.49,
-            "ci90_lower": -10.47,
+            "observed_average_active_pp_ann": -4.53,
+            "ci90_lower": -10.52,
             "ci90_upper": 1.07,
             "fraction_months_ahead_pct": 46.6,
             "zero_in_ci90": true,
             "limitations": "Retrospective, selected fund universe; no adjustment for searching multiple alternatives"
           },
           "returns_30bps": {
-            "annual_twr_pct": 6.51,
-            "ending_usd": 10165.85,
+            "annual_twr_pct": 6.54,
+            "ending_usd": 10181.83,
             "trading_fees_usd": 23.03
           },
           "returns_0bps": {
-            "annual_twr_pct": 6.66,
-            "ending_usd": 10196.35,
+            "annual_twr_pct": 6.69,
+            "ending_usd": 10212.38,
             "trading_fees_usd": 0.0
           }
         }
@@ -1063,125 +1063,125 @@
     "recent_2024": {
       "label": "Recent 2024\u2013latest",
       "start": "2024-01-02",
-      "end": "2026-10-27",
+      "end": "2026-10-28",
       "returns": {
         "VOO": {
           "start": "2024-01-02",
-          "end": "2026-10-27",
-          "annual_twr_pct": 20.32,
+          "end": "2026-10-28",
+          "annual_twr_pct": 20.44,
           "max_drawdown_pct": -18.69,
-          "volatility_pct": 15.0,
-          "sharpe_zero_rf": 1.31,
-          "ending_usd": 7589.44,
+          "volatility_pct": 14.99,
+          "sharpe_zero_rf": 1.32,
+          "ending_usd": 7614.97,
           "total_deposits_usd": 5300.0,
           "orders": 34,
           "trading_fees_usd": 5.29,
           "annual_by_calendar_year_pct": {
             "2024": 25.56,
             "2025": 17.86,
-            "2026": 13.79
+            "2026": 14.17
           }
         },
         "SPMO": {
           "start": "2024-01-02",
-          "end": "2026-10-27",
-          "annual_twr_pct": 32.91,
+          "end": "2026-10-28",
+          "annual_twr_pct": 33.64,
           "max_drawdown_pct": -20.13,
           "volatility_pct": 22.57,
-          "sharpe_zero_rf": 1.38,
-          "ending_usd": 9062.93,
+          "sharpe_zero_rf": 1.4,
+          "ending_usd": 9210.4,
           "total_deposits_usd": 5300.0,
           "orders": 34,
           "trading_fees_usd": 5.29,
           "annual_by_calendar_year_pct": {
-            "2024": 46.36,
+            "2024": 46.35,
             "2025": 26.65,
-            "2026": 20.26
+            "2026": 22.22
           }
         },
         "XMMO": {
           "start": "2024-01-02",
-          "end": "2026-10-27",
-          "annual_twr_pct": 17.7,
+          "end": "2026-10-28",
+          "annual_twr_pct": 17.9,
           "max_drawdown_pct": -24.91,
-          "volatility_pct": 21.9,
+          "volatility_pct": 21.89,
           "sharpe_zero_rf": 0.86,
-          "ending_usd": 6753.41,
+          "ending_usd": 6788.54,
           "total_deposits_usd": 5300.0,
           "orders": 34,
           "trading_fees_usd": 5.29,
           "annual_by_calendar_year_pct": {
             "2024": 39.27,
             "2025": 13.13,
-            "2026": 0.45
+            "2026": 0.98
           }
         },
         "QQQ": {
           "start": "2024-01-02",
-          "end": "2026-10-27",
-          "annual_twr_pct": 23.2,
+          "end": "2026-10-28",
+          "annual_twr_pct": 23.44,
           "max_drawdown_pct": -22.78,
-          "volatility_pct": 20.8,
-          "sharpe_zero_rf": 1.11,
-          "ending_usd": 8043.32,
+          "volatility_pct": 20.79,
+          "sharpe_zero_rf": 1.12,
+          "ending_usd": 8091.95,
           "total_deposits_usd": 5300.0,
           "orders": 34,
           "trading_fees_usd": 5.29,
           "annual_by_calendar_year_pct": {
             "2024": 26.47,
             "2025": 20.81,
-            "2026": 17.82
+            "2026": 18.53
           }
         },
         "SMH": {
           "start": "2024-01-02",
-          "end": "2026-10-27",
-          "annual_twr_pct": 52.12,
+          "end": "2026-10-28",
+          "annual_twr_pct": 52.99,
           "max_drawdown_pct": -35.7,
-          "volatility_pct": 38.06,
-          "sharpe_zero_rf": 1.3,
-          "ending_usd": 12903.72,
+          "volatility_pct": 38.05,
+          "sharpe_zero_rf": 1.31,
+          "ending_usd": 13127.8,
           "total_deposits_usd": 5300.0,
           "orders": 34,
           "trading_fees_usd": 5.29,
           "annual_by_calendar_year_pct": {
             "2024": 40.9,
             "2025": 49.28,
-            "2026": 55.0
+            "2026": 57.7
           }
         },
         "MTUM": {
           "start": "2024-01-02",
-          "end": "2026-10-27",
-          "annual_twr_pct": 27.12,
+          "end": "2026-10-28",
+          "annual_twr_pct": 27.69,
           "max_drawdown_pct": -21.0,
           "volatility_pct": 23.54,
-          "sharpe_zero_rf": 1.14,
-          "ending_usd": 8346.18,
+          "sharpe_zero_rf": 1.16,
+          "ending_usd": 8456.8,
           "total_deposits_usd": 5300.0,
           "orders": 34,
           "trading_fees_usd": 5.29,
           "annual_by_calendar_year_pct": {
             "2024": 33.86,
             "2025": 22.2,
-            "2026": 20.2
+            "2026": 21.79
           }
         },
         "MDY": {
           "start": "2024-01-02",
-          "end": "2026-10-27",
-          "annual_twr_pct": 11.73,
+          "end": "2026-10-28",
+          "annual_twr_pct": 11.78,
           "max_drawdown_pct": -24.02,
-          "volatility_pct": 17.65,
+          "volatility_pct": 17.63,
           "sharpe_zero_rf": 0.72,
-          "ending_usd": 6555.89,
+          "ending_usd": 6566.19,
           "total_deposits_usd": 5300.0,
           "orders": 34,
           "trading_fees_usd": 5.29,
           "annual_by_calendar_year_pct": {
             "2024": 14.22,
             "2025": 7.29,
-            "2026": 11.53
+            "2026": 11.7
           }
         }
       },
@@ -1192,163 +1192,163 @@
           "beta_to_voo": 1.0,
           "paired_active_uncertainty": null,
           "returns_30bps": {
-            "annual_twr_pct": 20.17,
-            "ending_usd": 7574.3,
+            "annual_twr_pct": 20.29,
+            "ending_usd": 7599.78,
             "trading_fees_usd": 15.85
           },
           "returns_0bps": {
-            "annual_twr_pct": 20.4,
-            "ending_usd": 7597.03,
+            "annual_twr_pct": 20.52,
+            "ending_usd": 7622.58,
             "trading_fees_usd": 0.0
           }
         },
         "SPMO": {
-          "annual_advantage_over_voo_pp": 12.59,
+          "annual_advantage_over_voo_pp": 13.2,
           "historically_exceeds_voo_after_10bps": true,
           "beta_to_voo": 1.31,
           "paired_active_uncertainty": {
             "enough_months": true,
             "months": 34,
-            "observed_average_active_pp_ann": 11.58,
-            "ci90_lower": 0.13,
-            "ci90_upper": 24.15,
+            "observed_average_active_pp_ann": 12.0,
+            "ci90_lower": 0.6,
+            "ci90_upper": 24.4,
             "fraction_months_ahead_pct": 61.8,
             "zero_in_ci90": false,
             "limitations": "Retrospective, selected fund universe; no adjustment for searching multiple alternatives"
           },
           "returns_30bps": {
-            "annual_twr_pct": 32.75,
-            "ending_usd": 9044.86,
+            "annual_twr_pct": 33.48,
+            "ending_usd": 9192.03,
             "trading_fees_usd": 15.85
           },
           "returns_0bps": {
-            "annual_twr_pct": 32.99,
-            "ending_usd": 9072.0,
+            "annual_twr_pct": 33.72,
+            "ending_usd": 9219.61,
             "trading_fees_usd": 0.0
           }
         },
         "XMMO": {
-          "annual_advantage_over_voo_pp": -2.62,
+          "annual_advantage_over_voo_pp": -2.54,
           "historically_exceeds_voo_after_10bps": false,
           "beta_to_voo": 1.18,
           "paired_active_uncertainty": {
             "enough_months": true,
             "months": 34,
-            "observed_average_active_pp_ann": -1.04,
-            "ci90_lower": -14.04,
-            "ci90_upper": 12.78,
+            "observed_average_active_pp_ann": -0.98,
+            "ci90_lower": -14.03,
+            "ci90_upper": 12.8,
             "fraction_months_ahead_pct": 44.1,
             "zero_in_ci90": true,
             "limitations": "Retrospective, selected fund universe; no adjustment for searching multiple alternatives"
           },
           "returns_30bps": {
-            "annual_twr_pct": 17.56,
-            "ending_usd": 6739.94,
+            "annual_twr_pct": 17.75,
+            "ending_usd": 6775.01,
             "trading_fees_usd": 15.85
           },
           "returns_0bps": {
-            "annual_twr_pct": 17.77,
-            "ending_usd": 6760.16,
+            "annual_twr_pct": 17.97,
+            "ending_usd": 6795.33,
             "trading_fees_usd": 0.0
           }
         },
         "QQQ": {
-          "annual_advantage_over_voo_pp": 2.88,
+          "annual_advantage_over_voo_pp": 3.0,
           "historically_exceeds_voo_after_10bps": true,
           "beta_to_voo": 1.32,
           "paired_active_uncertainty": {
             "enough_months": true,
             "months": 34,
-            "observed_average_active_pp_ann": 3.08,
-            "ci90_lower": -3.53,
-            "ci90_upper": 10.51,
+            "observed_average_active_pp_ann": 3.17,
+            "ci90_lower": -3.45,
+            "ci90_upper": 10.64,
             "fraction_months_ahead_pct": 55.9,
             "zero_in_ci90": true,
             "limitations": "Retrospective, selected fund universe; no adjustment for searching multiple alternatives"
           },
           "returns_30bps": {
-            "annual_twr_pct": 23.05,
-            "ending_usd": 8027.29,
+            "annual_twr_pct": 23.28,
+            "ending_usd": 8075.81,
             "trading_fees_usd": 15.85
           },
           "returns_0bps": {
-            "annual_twr_pct": 23.28,
-            "ending_usd": 8051.37,
+            "annual_twr_pct": 23.52,
+            "ending_usd": 8100.04,
             "trading_fees_usd": 0.0
           }
         },
         "SMH": {
-          "annual_advantage_over_voo_pp": 31.8,
+          "annual_advantage_over_voo_pp": 32.55,
           "historically_exceeds_voo_after_10bps": true,
           "beta_to_voo": 2.03,
           "paired_active_uncertainty": {
             "enough_months": true,
             "months": 34,
-            "observed_average_active_pp_ann": 28.29,
-            "ci90_lower": 5.59,
-            "ci90_upper": 53.74,
+            "observed_average_active_pp_ann": 28.73,
+            "ci90_lower": 6.14,
+            "ci90_upper": 54.15,
             "fraction_months_ahead_pct": 58.8,
             "zero_in_ci90": false,
             "limitations": "Retrospective, selected fund universe; no adjustment for searching multiple alternatives"
           },
           "returns_30bps": {
-            "annual_twr_pct": 51.94,
-            "ending_usd": 12877.99,
+            "annual_twr_pct": 52.81,
+            "ending_usd": 13101.63,
             "trading_fees_usd": 15.85
           },
           "returns_0bps": {
-            "annual_twr_pct": 52.21,
-            "ending_usd": 12916.62,
+            "annual_twr_pct": 53.08,
+            "ending_usd": 13140.93,
             "trading_fees_usd": 0.0
           }
         },
         "MTUM": {
-          "annual_advantage_over_voo_pp": 6.8,
+          "annual_advantage_over_voo_pp": 7.25,
           "historically_exceeds_voo_after_10bps": true,
           "beta_to_voo": 1.32,
           "paired_active_uncertainty": {
             "enough_months": true,
             "months": 34,
-            "observed_average_active_pp_ann": 7.01,
-            "ci90_lower": -3.62,
-            "ci90_upper": 19.5,
+            "observed_average_active_pp_ann": 7.33,
+            "ci90_lower": -3.42,
+            "ci90_upper": 19.81,
             "fraction_months_ahead_pct": 55.9,
             "zero_in_ci90": true,
             "limitations": "Retrospective, selected fund universe; no adjustment for searching multiple alternatives"
           },
           "returns_30bps": {
-            "annual_twr_pct": 26.97,
-            "ending_usd": 8329.54,
+            "annual_twr_pct": 27.53,
+            "ending_usd": 8439.94,
             "trading_fees_usd": 15.85
           },
           "returns_0bps": {
-            "annual_twr_pct": 27.2,
-            "ending_usd": 8354.53,
+            "annual_twr_pct": 27.77,
+            "ending_usd": 8465.26,
             "trading_fees_usd": 0.0
           }
         },
         "MDY": {
-          "annual_advantage_over_voo_pp": -8.59,
+          "annual_advantage_over_voo_pp": -8.66,
           "historically_exceeds_voo_after_10bps": false,
           "beta_to_voo": 1.0,
           "paired_active_uncertainty": {
             "enough_months": true,
             "months": 34,
-            "observed_average_active_pp_ann": -7.14,
-            "ci90_lower": -14.03,
-            "ci90_upper": 0.19,
+            "observed_average_active_pp_ann": -7.2,
+            "ci90_lower": -14.1,
+            "ci90_upper": 0.13,
             "fraction_months_ahead_pct": 38.2,
             "zero_in_ci90": true,
             "limitations": "Retrospective, selected fund universe; no adjustment for searching multiple alternatives"
           },
           "returns_30bps": {
-            "annual_twr_pct": 11.58,
-            "ending_usd": 6542.81,
+            "annual_twr_pct": 11.63,
+            "ending_usd": 6553.1,
             "trading_fees_usd": 15.85
           },
           "returns_0bps": {
-            "annual_twr_pct": 11.8,
-            "ending_usd": 6562.44,
+            "annual_twr_pct": 11.85,
+            "ending_usd": 6572.76,
             "trading_fees_usd": 0.0
           }
         }
@@ -1370,9 +1370,9 @@
         "ticker": "SMH",
         "beats_voo_2019_onwards": true,
         "beats_voo_2022_onwards": true,
-        "extra_vs_voo_2019_pp": 22.78,
-        "extra_vs_voo_2022_pp": 19.03,
-        "annual_2022_pct": 30.98,
+        "extra_vs_voo_2019_pp": 23.03,
+        "extra_vs_voo_2022_pp": 19.4,
+        "annual_2022_pct": 31.43,
         "max_dd_2022_pct": -45.08,
         "status": "CONCENTRATED EXPOSURE / NOT ENTRY SIGNAL"
       },
@@ -1380,9 +1380,9 @@
         "ticker": "QQQ",
         "beats_voo_2019_onwards": true,
         "beats_voo_2022_onwards": true,
-        "extra_vs_voo_2019_pp": 5.04,
-        "extra_vs_voo_2022_pp": 1.75,
-        "annual_2022_pct": 13.7,
+        "extra_vs_voo_2019_pp": 5.09,
+        "extra_vs_voo_2022_pp": 1.81,
+        "annual_2022_pct": 13.84,
         "max_dd_2022_pct": -34.88,
         "status": "CONCENTRATED EXPOSURE / NOT ENTRY SIGNAL"
       },
@@ -1390,9 +1390,9 @@
         "ticker": "SPMO",
         "beats_voo_2019_onwards": true,
         "beats_voo_2022_onwards": true,
-        "extra_vs_voo_2019_pp": 4.12,
-        "extra_vs_voo_2022_pp": 7.2,
-        "annual_2022_pct": 19.15,
+        "extra_vs_voo_2019_pp": 4.32,
+        "extra_vs_voo_2022_pp": 7.51,
+        "annual_2022_pct": 19.54,
         "max_dd_2022_pct": -22.77,
         "status": "HISTORICAL FACTOR CANDIDATE / NOT PREDICTIVE TRADING APPROVAL"
       },
@@ -1400,9 +1400,9 @@
         "ticker": "MTUM",
         "beats_voo_2019_onwards": false,
         "beats_voo_2022_onwards": true,
-        "extra_vs_voo_2019_pp": -1.2,
-        "extra_vs_voo_2022_pp": 0.01,
-        "annual_2022_pct": 11.96,
+        "extra_vs_voo_2019_pp": -1.05,
+        "extra_vs_voo_2022_pp": 0.23,
+        "annual_2022_pct": 12.26,
         "max_dd_2022_pct": -28.68,
         "status": "HISTORICAL FACTOR CANDIDATE / NOT PREDICTIVE TRADING APPROVAL"
       },
@@ -1410,9 +1410,9 @@
         "ticker": "XMMO",
         "beats_voo_2019_onwards": false,
         "beats_voo_2022_onwards": false,
-        "extra_vs_voo_2019_pp": -2.63,
-        "extra_vs_voo_2022_pp": -2.05,
-        "annual_2022_pct": 9.9,
+        "extra_vs_voo_2019_pp": -2.61,
+        "extra_vs_voo_2022_pp": -2.02,
+        "annual_2022_pct": 10.01,
         "max_dd_2022_pct": -24.92,
         "status": "HISTORICAL FACTOR CANDIDATE / NOT PREDICTIVE TRADING APPROVAL"
       },
@@ -1420,9 +1420,9 @@
         "ticker": "MDY",
         "beats_voo_2019_onwards": false,
         "beats_voo_2022_onwards": false,
-        "extra_vs_voo_2019_pp": -5.24,
-        "extra_vs_voo_2022_pp": -5.34,
-        "annual_2022_pct": 6.61,
+        "extra_vs_voo_2019_pp": -5.27,
+        "extra_vs_voo_2022_pp": -5.39,
+        "annual_2022_pct": 6.64,
         "max_dd_2022_pct": -24.03,
         "status": "CONCENTRATED EXPOSURE / NOT ENTRY SIGNAL"
       }

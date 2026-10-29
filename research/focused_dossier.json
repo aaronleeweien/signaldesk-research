@@ -1,7 +1,7 @@
 {
   "version": "focused_dossier_v1",
-  "market_date": "2026-10-27",
-  "generated_utc": "2026-10-28T02:24:27.308907+00:00",
+  "market_date": "2026-10-28",
+  "generated_utc": "2026-10-29T02:29:18.160245+00:00",
   "screened_total": 748,
   "selected_equities": 2,
   "asset_count": 3,
@@ -14,37 +14,37 @@
         "ticker": "MRVL",
         "name": "MARVELL TECHNOLOGY, INC",
         "fiscal_year_end": "2026-01-31",
-        "market_cap_usd": 218897498112.0,
-        "forward_pe": 33.233547,
+        "market_cap_usd": 226159017984.0,
+        "forward_pe": 34.33601,
         "revenue_usd": 8194600000.0,
         "revenue_growth_yoy_pct": 42.09,
         "net_income_usd": 2670100000.0,
         "operating_cash_usd": 1750500000.0,
         "capital_spending_usd": 354100000.0,
         "fcf_usd": 1396400000.0,
-        "fcf_yield_pct": 0.64,
+        "fcf_yield_pct": 0.62,
         "fcf_positive_years": 3,
         "fcf_years_available": 3,
         "cash_usd": 3932800000.0,
         "debt_usd": 4962900000.0,
-        "price_implied_fcf_growth_pct": 80.73,
+        "price_implied_fcf_growth_pct": 81.96,
         "reverse_model_required_return_pct": 11.0,
         "reverse_model_terminal_growth_pct": 2.0,
         "scenario_sensitivity": {
           "no_growth": {
             "annual_fcf_growth_assumed_pct": 0.0,
             "illustrative_equity_value_usd": 14552832186.46,
-            "value_as_pct_of_current_market_cap": 6.65
+            "value_as_pct_of_current_market_cap": 6.43
           },
           "moderate_growth": {
             "annual_fcf_growth_assumed_pct": 5.0,
             "illustrative_equity_value_usd": 17914832992.11,
-            "value_as_pct_of_current_market_cap": 8.18
+            "value_as_pct_of_current_market_cap": 7.92
           },
           "fast_growth": {
             "annual_fcf_growth_assumed_pct": 10.0,
             "illustrative_equity_value_usd": 21921267957.14,
-            "value_as_pct_of_current_market_cap": 10.01
+            "value_as_pct_of_current_market_cap": 9.69
           }
         },
         "annual_history": [
@@ -66,13 +66,13 @@
         ]
       },
       "price_context": {
-        "last_price_date": "2026-10-27",
-        "last_close_usd": 243.57,
-        "return_last_year_pct": 190.0,
-        "voo_same_year_pct": 14.96,
-        "relative_to_voo_year_pp": 175.05,
-        "momentum_3m_pct": 49.1,
-        "momentum_6m_pct": 59.03,
+        "last_price_date": "2026-10-28",
+        "last_close_usd": 251.65,
+        "return_last_year_pct": 184.16,
+        "voo_same_year_pct": 13.98,
+        "relative_to_voo_year_pp": 170.17,
+        "momentum_3m_pct": 37.32,
+        "momentum_6m_pct": 60.8,
         "above_200d_average": true
       },
       "sources": [
@@ -144,39 +144,39 @@
         },
         {
           "id": "S12",
-          "kind": "News-index headline · Yahoo Finance · 2026-10-27",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNek9QZ2xQX0NHcDN5MU80Q2dIclpid2ZlZDlta1ZheF9qMXNHRTFsTmZBTS1rSVpldUdrNjRaV2xuSlNoRDc1OTN5RmhuSnA4WFRxN1FLYnJhREx4YkxDNWNaQ1BUUTlJa2ZqVERyTWRlazJIeUNiQkwtT1hPc0pWMzU2VDhwb3BBaWJXRWVmTzBhZTh1bUdVbFdGdlJmNG1obXdlNENVaGN5WTV0R0k0?oc=5",
-          "summary": "Headline only, not checked article text: Intel, Microchip Technology, Marvell Technology, onsemi, and Seagate stocks trade up, what you need to know"
+          "kind": "News-index headline · GuruFocus · 2026-10-29",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQekkzNnJ2TVVkYXlhSjdqeXlyeWduRVVWcjZPdzhuQ3lvUWJFNjdUYVpOQVFqYjdDbkNGOEFKQWJXaEh3VFhLS09LZDFVZTloMUZTUmRReFZqMmhieHRONy15S1JWZHVWMlhkeWcwc2N1TFZOZjNwbWN1aEVQRmt4ckRZdkhfdnowajRCLUZaRDZTMjJQSm1FYmMzVExueldwVmc?oc=5",
+          "summary": "Headline only, not checked article text: Marvell Technology (MRVL) in Talks to Acquire Lumentum Holdings"
         },
         {
           "id": "S13",
-          "kind": "News-index headline · GuruFocus · 2026-10-27",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOdmF5d2ZmcGM5cTBIV3FwaGxjTDV4blRWb3YxMnBwZ0prRG9mSEZ4NlVEQzJJYnVUSFdrWTQwLWFpNXNFUkUxWHgzVmxQNEFpSjRwS2lGQnI2SjQ3Vk1sdnVpMmF5U3BNdElERTVvODFZTjZFUHI0OWZkN2E3QWlHRWlpMWtqS1dhNWFHWVZIUkdfVzdXT1VHbmwzaldIN0E1THZNUXcyUHkxa20xcmFSQnVxdzN1NXFTai02QQ?oc=5",
-          "summary": "Headline only, not checked article text: A Look at Marvell Technology Inc (MRVL) After 4.2% Gain -- GF Value $125.84 vs Price $243.57"
+          "kind": "News-index headline · MarketWatch · 2026-10-29",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxORVROZ19hYjgyRW5UWnB2dkFPb2FQbWRiZlJYOEQzRURxNTE3WUdqOU9seFZHaDh4YVVBRW9ONlFsaGYxUG5WUFBCVjYyQ2dMcDdrOWVSVXdvTXIyQ0c1UEtuam9LM3NnUTBuMXZqbUdFZG5NQlliZXd6OTZZV3pwM1RWSTRWWVpSSWd0MkJ0VEFCX0pfTGtNc3BNU21nbTA2WFJGaFFRWEVDaks5dEE?oc=5",
+          "summary": "Headline only, not checked article text: Lumentum’s stock pops as investors cheer a possible sale to Marvell"
         },
         {
           "id": "S14",
-          "kind": "News-index headline · www.tokenpost.com · 2026-10-27",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1HUXp0b3dMTGF0UDN4WlB0NFJ4TXdqWnRJQlZocG9VOGpNYy04ZlowNHc4OWJKZTI0ZFhWeHV5TmVkemFwMGttNnZzOXZqaWd3VkdtaDlVeXc?oc=5",
-          "summary": "Headline only, not checked article text: Marvell Sets Thursday, Oct. 29, Quarterly Dividend at $0.06 per Share"
+          "kind": "News-index headline · Yahoo Finance · 2026-10-29",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOLTZ5VzVmcVR6LUZFQzZrRHY2cHhBTzFsUnN0UHR3cWZDeVdMNTBYRHRoR0VxeGFfNGhZSE00dVo2bXBCVWxfOFZBWi01dFhsTUpXWnRpWk1SMGl4YXVyN3pvTExjVnM4QnE4RF9OS3gyckMzQl9wU21YcVl5aExfb1AxZ1o0SDNqbFlhZXRSOURvbThCRkdVV21yZlZZemNwZjdJRWVPTnhPTHhS?oc=5",
+          "summary": "Headline only, not checked article text: Marvell Technology (MRVL) Is Reportedly In Advanced Talks For An Optics Acquisition"
         },
         {
           "id": "S15",
-          "kind": "News-index headline · Benzinga · 2026-10-27",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOSWlYQzFOelJpTl9rc3dZelpfWDZwTGJFODBvUm1BaV9LazEtZGYwX1E5TjBfQlhKeF9nQkdFT1RTRFRKdzRUVVNRNTFpazNSOUY2eS1GbnZoUV8xVW8xY1RSMGpuR1B6RE1HcGhGUXQ0QUJrZUlmT1dVeXRUUHVzWXdMSEhuMk1GTFJ5eVJ4a2htQVliN1Q2SmJ4UVZqVTBvOTNMNFRGN1RzVk12azFJc3pheVdraGVna2hnc1h5Unl4ZEFr?oc=5",
-          "summary": "Headline only, not checked article text: Here's How Much $1000 Invested In Marvell Technology 5 Years Ago Would Be Worth Today"
+          "kind": "News-index headline · Investor's Business Daily · 2026-10-29",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPbDdON20wRHQtb0VybWNKWWJqZFQ3aEFYYXlYQzFONUVjdTNfcHR5QnNGckFWMzlrRW5PVEhwSUJ1TWRHMFFiTzI3RWtJbWYyZ0JoSU5LSGNOYU16NkFINEJlU0pBZHRwYV9WbU9FN2dQMjh2WU1pVVQxanBHbkhaeld3d2Y?oc=5",
+          "summary": "Headline only, not checked article text: Lumentum Jumps On Marvell Buyout Report"
         },
         {
           "id": "S16",
-          "kind": "News-index headline · Simply Wall Street · 2026-10-27",
-          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPU09LckNfRFVwZ0Z4SThlM0I0WTRxVlF3LXRweGFTLTJWTkVHMUFZTlZydjFtQ25NRm9aUTJ3eENhT0F5bm44eS1GNFhlR1pGamhjWktzdkRPUG4xaGxsZzVwaHJqNDlWa0l0YWJrUzMtRUNtMEtiekVEeFEwa05JZGtzbW1aYTZFcXRDWmtEZ3NtOGV6OHlLSWxyRnREQlNuVVo5U1FpaWxuNUZScnhxSnM0TW5PN01qRDVzaVpzV0NsTHI1Skl4cmlWbUxmT01yUVlCa2xEU3hqbkHSAeABQVVfeXFMT2EzOUU1bm5TUENDcVR1VHNERXJoeHIyZWlkVVVCeWx0TWFialZhYlpSUTdVRnRseGp0a1RKNXhGdlh5WEZzdTFWVXRyTnVtT2lfSWVSbW5jT1oyU0hXMkZvYnkwX09iRDY2Smc5akdKLXJWajFud1Bsa050SFd3cUMyS0NLMnM3NnZrQ0pwTHo3NkUtUm5hSTN0eEhVY1JfLVloaTZkdVBOMXBFNVQ2RlJlUlJBQzZmTTh5SC1kTmlFZjZIY0hUNjhQakVkQXBCdmhmM0tvR3FDdk54OUZsbHE?oc=5",
-          "summary": "Headline only, not checked article text: Is Marvell Technology (MRVL) Too Expensive For Its Earnings Story?"
+          "kind": "News-index headline · 24/7 Wall St. · 2026-10-29",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQRXUxeTZna1Y4N2lnNUd2UGxCaXdfMFI3Nk5CS2Y1ZVFubjdNS1h6NGxvY1gxd3BEYzg3V1h4M0Q3a3dGbFJDY29OR0lWdnAxYkRBTlJlN1c5ZmhqUlNkWXJPOVA5U25KWG16cWltY3JBQmF1bEZDVG9peWRTc1N5LWhvLU1PWVJ5QzNUeDVvdF8xQmZrbkY0eXByYw?oc=5",
+          "summary": "Headline only, not checked article text: Marvell Wants Lumentum. Here’s Why Coherent Could Win."
         },
         {
           "id": "S17",
-          "kind": "News-index headline · 24/7 Wall St. · 2026-10-27",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNVkMzb1YxNnRDQWdTUjlXVkpwN0NIYzluTzRub0RfU3c2S1pfck9kRU9sU0NKWi1YOW8tZFYtLVRYeEx6MjJJeEp2aENzS1I5cnNKT0Z4MHUtbDNVOVB1aTQyTjZfN0RVdFV0Qmswd3FSM3RJMno1dUV6dGVSUW02VVhHMlAxeTMyVVVCUHVrb3JjR05lTDVnMkVTb2pKYk9POFRvTWRmc195a2JXNGpkX19NNlJPLWxZ?oc=5",
-          "summary": "Headline only, not checked article text: Prediction: Marvell Stock Could Have Much More Upside Than Investors Think"
+          "kind": "News-index headline · BigGo Finance · 2026-10-29",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE44MnJoNzhrWS1nSnc5cDJPeUNMY2xWU1E3SDA2VVRkSEdlQWVjc1Z2bFptOVRtMXlodEhvR1E2cThxa2tHRk1mWnltRnhDNE5ieU9DQklvZ3BnUzg2NldPTVRqbnNZdmkya3BDR3dhUXpxSDctaHc?oc=5",
+          "summary": "Headline only, not checked article text: Marvell Said to Weigh Blockbuster Lumentum Deal That Could Rank Among Biggest Tech-Telecom M&A Ever"
         }
       ],
       "filings": {
@@ -257,77 +257,54 @@
       },
       "investment_role": "Candidate for multi-year valuation research, not an approved trade.",
       "qualitative_context": {
-        "asof_utc": "2026-10-28T02:24:27.478937+00:00",
+        "asof_utc": "2026-10-29T02:29:18.314058+00:00",
         "search_url": "https://news.google.com/rss/search?q=%22MARVELL%20TECHNOLOGY%22%20when%3A7d&hl=en-US&gl=US&ceid=US:en",
         "news_window_days": 7,
         "headline_sample": [
           {
-            "title": "Intel, Microchip Technology, Marvell Technology, onsemi, and Seagate stocks trade up, what you need to know",
-            "published_utc": "2026-10-27T23:10:47+00:00",
-            "publisher": "Yahoo Finance",
-            "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNek9QZ2xQX0NHcDN5MU80Q2dIclpid2ZlZDlta1ZheF9qMXNHRTFsTmZBTS1rSVpldUdrNjRaV2xuSlNoRDc1OTN5RmhuSnA4WFRxN1FLYnJhREx4YkxDNWNaQ1BUUTlJa2ZqVERyTWRlazJIeUNiQkwtT1hPc0pWMzU2VDhwb3BBaWJXRWVmTzBhZTh1bUdVbFdGdlJmNG1obXdlNENVaGN5WTV0R0k0?oc=5",
-            "topic": "other"
-          },
-          {
-            "title": "A Look at Marvell Technology Inc (MRVL) After 4.2% Gain -- GF Value $125.84 vs Price $243.57",
-            "published_utc": "2026-10-27T22:30:00+00:00",
+            "title": "Marvell Technology (MRVL) in Talks to Acquire Lumentum Holdings",
+            "published_utc": "2026-10-29T01:30:00+00:00",
             "publisher": "GuruFocus",
-            "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOdmF5d2ZmcGM5cTBIV3FwaGxjTDV4blRWb3YxMnBwZ0prRG9mSEZ4NlVEQzJJYnVUSFdrWTQwLWFpNXNFUkUxWHgzVmxQNEFpSjRwS2lGQnI2SjQ3Vk1sdnVpMmF5U3BNdElERTVvODFZTjZFUHI0OWZkN2E3QWlHRWlpMWtqS1dhNWFHWVZIUkdfVzdXT1VHbmwzaldIN0E1THZNUXcyUHkxa20xcmFSQnVxdzN1NXFTai02QQ?oc=5",
+            "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQekkzNnJ2TVVkYXlhSjdqeXlyeWduRVVWcjZPdzhuQ3lvUWJFNjdUYVpOQVFqYjdDbkNGOEFKQWJXaEh3VFhLS09LZDFVZTloMUZTUmRReFZqMmhieHRONy15S1JWZHVWMlhkeWcwc2N1TFZOZjNwbWN1aEVQRmt4ckRZdkhfdnowajRCLUZaRDZTMjJQSm1FYmMzVExueldwVmc?oc=5",
             "topic": "other"
           },
           {
-            "title": "Marvell Sets Thursday, Oct. 29, Quarterly Dividend at $0.06 per Share",
-            "published_utc": "2026-10-27T22:13:21+00:00",
-            "publisher": "www.tokenpost.com",
-            "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1HUXp0b3dMTGF0UDN4WlB0NFJ4TXdqWnRJQlZocG9VOGpNYy04ZlowNHc4OWJKZTI0ZFhWeHV5TmVkemFwMGttNnZzOXZqaWd3VkdtaDlVeXc?oc=5",
-            "topic": "financing"
-          },
-          {
-            "title": "Here's How Much $1000 Invested In Marvell Technology 5 Years Ago Would Be Worth Today",
-            "published_utc": "2026-10-27T22:00:19+00:00",
-            "publisher": "Benzinga",
-            "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOSWlYQzFOelJpTl9rc3dZelpfWDZwTGJFODBvUm1BaV9LazEtZGYwX1E5TjBfQlhKeF9nQkdFT1RTRFRKdzRUVVNRNTFpazNSOUY2eS1GbnZoUV8xVW8xY1RSMGpuR1B6RE1HcGhGUXQ0QUJrZUlmT1dVeXRUUHVzWXdMSEhuMk1GTFJ5eVJ4a2htQVliN1Q2SmJ4UVZqVTBvOTNMNFRGN1RzVk12azFJc3pheVdraGVna2hnc1h5Unl4ZEFr?oc=5",
+            "title": "Lumentum’s stock pops as investors cheer a possible sale to Marvell",
+            "published_utc": "2026-10-29T01:20:00+00:00",
+            "publisher": "MarketWatch",
+            "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxORVROZ19hYjgyRW5UWnB2dkFPb2FQbWRiZlJYOEQzRURxNTE3WUdqOU9seFZHaDh4YVVBRW9ONlFsaGYxUG5WUFBCVjYyQ2dMcDdrOWVSVXdvTXIyQ0c1UEtuam9LM3NnUTBuMXZqbUdFZG5NQlliZXd6OTZZV3pwM1RWSTRWWVpSSWd0MkJ0VEFCX0pfTGtNc3BNU21nbTA2WFJGaFFRWEVDaks5dEE?oc=5",
             "topic": "other"
           },
           {
-            "title": "Is Marvell Technology (MRVL) Too Expensive For Its Earnings Story?",
-            "published_utc": "2026-10-27T20:29:38+00:00",
-            "publisher": "Simply Wall Street",
-            "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPU09LckNfRFVwZ0Z4SThlM0I0WTRxVlF3LXRweGFTLTJWTkVHMUFZTlZydjFtQ25NRm9aUTJ3eENhT0F5bm44eS1GNFhlR1pGamhjWktzdkRPUG4xaGxsZzVwaHJqNDlWa0l0YWJrUzMtRUNtMEtiekVEeFEwa05JZGtzbW1aYTZFcXRDWmtEZ3NtOGV6OHlLSWxyRnREQlNuVVo5U1FpaWxuNUZScnhxSnM0TW5PN01qRDVzaVpzV0NsTHI1Skl4cmlWbUxmT01yUVlCa2xEU3hqbkHSAeABQVVfeXFMT2EzOUU1bm5TUENDcVR1VHNERXJoeHIyZWlkVVVCeWx0TWFialZhYlpSUTdVRnRseGp0a1RKNXhGdlh5WEZzdTFWVXRyTnVtT2lfSWVSbW5jT1oyU0hXMkZvYnkwX09iRDY2Smc5akdKLXJWajFud1Bsa050SFd3cUMyS0NLMnM3NnZrQ0pwTHo3NkUtUm5hSTN0eEhVY1JfLVloaTZkdVBOMXBFNVQ2RlJlUlJBQzZmTTh5SC1kTmlFZjZIY0hUNjhQakVkQXBCdmhmM0tvR3FDdk54OUZsbHE?oc=5",
-            "topic": "profitability"
+            "title": "Marvell Technology (MRVL) Is Reportedly In Advanced Talks For An Optics Acquisition",
+            "published_utc": "2026-10-29T01:10:00+00:00",
+            "publisher": "Yahoo Finance",
+            "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOLTZ5VzVmcVR6LUZFQzZrRHY2cHhBTzFsUnN0UHR3cWZDeVdMNTBYRHRoR0VxeGFfNGhZSE00dVo2bXBCVWxfOFZBWi01dFhsTUpXWnRpWk1SMGl4YXVyN3pvTExjVnM4QnE4RF9OS3gyckMzQl9wU21YcVl5aExfb1AxZ1o0SDNqbFlhZXRSOURvbThCRkdVV21yZlZZemNwZjdJRWVPTnhPTHhS?oc=5",
+            "topic": "other"
           },
           {
-            "title": "Prediction: Marvell Stock Could Have Much More Upside Than Investors Think",
-            "published_utc": "2026-10-27T18:33:00+00:00",
+            "title": "Lumentum Jumps On Marvell Buyout Report",
+            "published_utc": "2026-10-29T01:09:00+00:00",
+            "publisher": "Investor's Business Daily",
+            "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPbDdON20wRHQtb0VybWNKWWJqZFQ3aEFYYXlYQzFONUVjdTNfcHR5QnNGckFWMzlrRW5PVEhwSUJ1TWRHMFFiTzI3RWtJbWYyZ0JoSU5LSGNOYU16NkFINEJlU0pBZHRwYV9WbU9FN2dQMjh2WU1pVVQxanBHbkhaeld3d2Y?oc=5",
+            "topic": "other"
+          },
+          {
+            "title": "Marvell Wants Lumentum. Here’s Why Coherent Could Win.",
+            "published_utc": "2026-10-29T00:44:00+00:00",
             "publisher": "24/7 Wall St.",
-            "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNVkMzb1YxNnRDQWdTUjlXVkpwN0NIYzluTzRub0RfU3c2S1pfck9kRU9sU0NKWi1YOW8tZFYtLVRYeEx6MjJJeEp2aENzS1I5cnNKT0Z4MHUtbDNVOVB1aTQyTjZfN0RVdFV0Qmswd3FSM3RJMno1dUV6dGVSUW02VVhHMlAxeTMyVVVCUHVrb3JjR05lTDVnMkVTb2pKYk9POFRvTWRmc195a2JXNGpkX19NNlJPLWxZ?oc=5",
+            "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQRXUxeTZna1Y4N2lnNUd2UGxCaXdfMFI3Nk5CS2Y1ZVFubjdNS1h6NGxvY1gxd3BEYzg3V1h4M0Q3a3dGbFJDY29OR0lWdnAxYkRBTlJlN1c5ZmhqUlNkWXJPOVA5U25KWG16cWltY3JBQmF1bEZDVG9peWRTc1N5LWhvLU1PWVJ5QzNUeDVvdF8xQmZrbkY0eXByYw?oc=5",
+            "topic": "other"
+          },
+          {
+            "title": "Marvell Said to Weigh Blockbuster Lumentum Deal That Could Rank Among Biggest Tech-Telecom M&A Ever",
+            "published_utc": "2026-10-29T00:35:00+00:00",
+            "publisher": "BigGo Finance",
+            "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE44MnJoNzhrWS1nSnc5cDJPeUNMY2xWU1E3SDA2VVRkSEdlQWVjc1Z2bFptOVRtMXlodEhvR1E2cThxa2tHRk1mWnltRnhDNE5ieU9DQklvZ3BnUzg2NldPTVRqbnNZdmkya3BDR3dhUXpxSDctaHc?oc=5",
             "topic": "other"
           }
         ],
-        "narratives": [
-          {
-            "topic": "financing",
-            "headline": "Marvell Sets Thursday, Oct. 29, Quarterly Dividend at $0.06 per Share",
-            "published_utc": "2026-10-27T22:13:21+00:00",
-            "publisher": "www.tokenpost.com",
-            "source_url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1HUXp0b3dMTGF0UDN4WlB0NFJ4TXdqWnRJQlZocG9VOGpNYy04ZlowNHc4OWJKZTI0ZFhWeHV5TmVkemFwMGttNnZzOXZqaWd3VkdtaDlVeXc?oc=5",
-            "mechanism": "Borrowing costs or capital allocation can affect how much future cash ultimately belongs to shareholders.",
-            "competing_reading": "Higher dividends or buybacks can be funded by debt and are not automatically value creation.",
-            "test": "Check the balance sheet, debt maturities and cash available after capital spending.",
-            "evidence_level": "headline_coverage_not_confirmed_event"
-          },
-          {
-            "topic": "profitability",
-            "headline": "Is Marvell Technology (MRVL) Too Expensive For Its Earnings Story?",
-            "published_utc": "2026-10-27T20:29:38+00:00",
-            "publisher": "Simply Wall Street",
-            "source_url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPU09LckNfRFVwZ0Z4SThlM0I0WTRxVlF3LXRweGFTLTJWTkVHMUFZTlZydjFtQ25NRm9aUTJ3eENhT0F5bm44eS1GNFhlR1pGamhjWktzdkRPUG4xaGxsZzVwaHJqNDlWa0l0YWJrUzMtRUNtMEtiekVEeFEwa05JZGtzbW1aYTZFcXRDWmtEZ3NtOGV6OHlLSWxyRnREQlNuVVo5U1FpaWxuNUZScnhxSnM0TW5PN01qRDVzaVpzV0NsTHI1Skl4cmlWbUxmT01yUVlCa2xEU3hqbkHSAeABQVVfeXFMT2EzOUU1bm5TUENDcVR1VHNERXJoeHIyZWlkVVVCeWx0TWFialZhYlpSUTdVRnRseGp0a1RKNXhGdlh5WEZzdTFWVXRyTnVtT2lfSWVSbW5jT1oyU0hXMkZvYnkwX09iRDY2Smc5akdKLXJWajFud1Bsa050SFd3cUMyS0NLMnM3NnZrQ0pwTHo3NkUtUm5hSTN0eEhVY1JfLVloaTZkdVBOMXBFNVQ2RlJlUlJBQzZmTTh5SC1kTmlFZjZIY0hUNjhQakVkQXBCdmhmM0tvR3FDdk54OUZsbHE?oc=5",
-            "mechanism": "Changes in selling prices or operating costs affect the fraction of sales that becomes profit and cash.",
-            "competing_reading": "A temporary price or cost improvement may disappear when conditions normalize.",
-            "test": "Check reported operating margins, cash conversion and the reasons for changes.",
-            "evidence_level": "headline_coverage_not_confirmed_event"
-          }
-        ],
+        "narratives": [],
         "coverage_limit": "An indexed RSS headline sample, not a full-text article review, verified event, consensus forecast, or investor sentiment poll.",
         "fetch_issues": []
       }
@@ -340,37 +317,37 @@
         "ticker": "VSXY",
         "name": "VICTORIA'S SECRET & CO.",
         "fiscal_year_end": "2026-01-31",
-        "market_cap_usd": 7359827456.0,
-        "forward_pe": 16.33531,
+        "market_cap_usd": 7609489408.0,
+        "forward_pe": 16.88944,
         "revenue_usd": 6553000000.0,
         "revenue_growth_yoy_pct": 5.18,
         "net_income_usd": 161000000.0,
         "operating_cash_usd": 499000000.0,
         "capital_spending_usd": 187000000.0,
         "fcf_usd": 312000000.0,
-        "fcf_yield_pct": 4.24,
+        "fcf_yield_pct": 4.1,
         "fcf_positive_years": 3,
         "fcf_years_available": 3,
         "cash_usd": 522000000.0,
         "debt_usd": 971000000.0,
-        "price_implied_fcf_growth_pct": 20.57,
+        "price_implied_fcf_growth_pct": 21.47,
         "reverse_model_required_return_pct": 11.0,
         "reverse_model_terminal_growth_pct": 2.0,
         "scenario_sensitivity": {
           "no_growth": {
             "annual_fcf_growth_assumed_pct": 0.0,
             "illustrative_equity_value_usd": 3251563765.52,
-            "value_as_pct_of_current_market_cap": 44.18
+            "value_as_pct_of_current_market_cap": 42.73
           },
           "moderate_growth": {
             "annual_fcf_growth_assumed_pct": 5.0,
             "illustrative_equity_value_usd": 4002741258.62,
-            "value_as_pct_of_current_market_cap": 54.39
+            "value_as_pct_of_current_market_cap": 52.6
           },
           "fast_growth": {
             "annual_fcf_growth_assumed_pct": 10.0,
             "illustrative_equity_value_usd": 4897905759.54,
-            "value_as_pct_of_current_market_cap": 66.55
+            "value_as_pct_of_current_market_cap": 64.37
           }
         },
         "annual_history": [
@@ -392,13 +369,13 @@
         ]
       },
       "price_context": {
-        "last_price_date": "2026-10-27",
-        "last_close_usd": 92.27,
-        "return_last_year_pct": 178.17,
-        "voo_same_year_pct": 14.96,
-        "relative_to_voo_year_pp": 163.22,
-        "momentum_3m_pct": 3.52,
-        "momentum_6m_pct": 78.37,
+        "last_price_date": "2026-10-28",
+        "last_close_usd": 95.4,
+        "return_last_year_pct": 173.59,
+        "voo_same_year_pct": 13.98,
+        "relative_to_voo_year_pp": 159.61,
+        "momentum_3m_pct": 8.11,
+        "momentum_6m_pct": 87.5,
         "above_200d_average": true
       },
       "sources": [
@@ -470,27 +447,39 @@
         },
         {
           "id": "S12",
+          "kind": "News-index headline · Kalkine India · 2026-10-28",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPZjJVNXNuckdoV0hNcTI3M1dJVFBtSkwwNm5DREl1MDVkLU5Lcjd2NjY2X1d2UDJrbzJUUGdzVGVuNUtncF9HZFVnVVNFTDJQNzRzanBJckVFUHZqWXlCYWxwQVZzbWs3TVAtRHM2MElOaWFTQmY5RnpKOXNQcHZrckhNSUtqVl9BUTBaZmMxcHNPYWpBdkhBRUFKc0ViaWhlMHAyRm1ZNjdPVjJqazcxQVpIR2ZyQnJkNFVTREM5RFlyU3dSdzA4bVh5XzlYSVM5T0tqb0h3?oc=5",
+          "summary": "Headline only, not checked article text: Victoria's Secret & Co. (NYSE: VSXY) Dips 2.83% as CCI(20) at 180.25 Signals Deep Overbought-Type"
+        },
+        {
+          "id": "S13",
           "kind": "News-index headline · Kalkine Media · 2026-10-27",
           "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPVUFjb1VMSnpjaDk0MHRaYTBPdFVTMnlxdTBGRU9yTjhkV2w4TlJ5VFRobVhnZFJiRzZuQWt5ZEFCOU00X25DV1IzeV8wSkdfcTBGZHJIYnA3YUpUWmtFMTNjbjVMVG5od21DSUZDNmpINnN2NlhseFpkajRleUU5Y19WU1dmejdjdzlFb0dzVlBQVG5Ic0JBVlVOLXJBWVVZRGppZTNnYkZ5QS1YUWVBd3ZxdmVyRHZUWDVXWWZINVQtbHNOMWpjc0VsVUd3UQ?oc=5",
           "summary": "Headline only, not checked article text: Melinda R. McAfee Executes Sale of 2,500 Victoria's Secret Shares at $95 Under 10b5-1 Plan"
         },
         {
-          "id": "S13",
+          "id": "S14",
           "kind": "News-index headline · Stock Titan · 2026-10-27",
           "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNLUQ1RVNYN1ZPbTJPRHVVa2t0Yi04REI2NDVPcjNwWDJGaXpNblRPUWZVb0l3al9jUVhRa3UzaTlDbldwMHYyOXRNaEZCMW1KaFYtdW5sMDNIdlNmZUMzbF9kcm9YUzVmYTlNOFJGU0NCbTRDZG00R2p1Wml1RjJjclkxR2FMeHNrRUtYVzczUWdQV181WGl5OTAyZlRVbTlrSjNyY2M5UmxralJOVDRuTEVKc0E?oc=5",
           "summary": "Headline only, not checked article text: Victoria's Secret (VSXY) legal chief sells shares at $95 under an automatic trading plan."
         },
         {
-          "id": "S14",
+          "id": "S15",
           "kind": "News-index headline · Yahoo Finance UK · 2026-10-27",
           "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE4yOE5xY1c2SWx1LWs2d0VFRVFWX1VkZGlIVzZXZTlPRjg3aWdwd3cxMldjY0JjejM5TzR1blYtZWtiTmxsQUhqVzNWMjNyZXBhd1E?oc=5",
           "summary": "Headline only, not checked article text: Victorias Secret & Co. (VSXY) stock price, news, quote and history"
         },
         {
-          "id": "S15",
-          "kind": "News-index headline · Kalkine Media · 2026-10-22",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNdS1aTWxnMFJXWVlRZml4XzRzOTh6YmlYckU3T0h1WklFVGVrbXdaR1E3TElSdFpXTnhjNzRRYWRuVFFCVEc3VUxLbW9MeWlGRWpsaGJ2WlUzcXg1ZjdvWlBBRTQ4OXpCMml1VFNKVndwWEpvbzFqZ3FBVFp5TmZycTY4SWZxcVVzSXdjZHhXTm5wWUM4RWc5U25HY0tCaF9fM3IzR1dOLXhFNDdhX0pjeEZB?oc=5",
-          "summary": "Headline only, not checked article text: What is lifting Victoria's Secret (NYSE:VSCO) as its revamp gathers pace?"
+          "id": "S16",
+          "kind": "News-index headline · Yahoo! Finance Canada · 2026-10-27",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9FRzNISDdqcUwwU3plSENPZ09xQzRSTE94T3VhTHN1QXplZnlPUEdYbHMydkJ1eG9BSUZwZ2dRQVNyZnJGTU0xVmliUVVESkZyQ0E?oc=5",
+          "summary": "Headline only, not checked article text: Victorias Secret & Co. (VSXY) Stock Price, News, Quote & History"
+        },
+        {
+          "id": "S17",
+          "kind": "News-index headline · GuruFocus · 2026-10-27",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQX2NUSHZsN0VPMVdNUmY0ekJEczVpTUJ3XzFfNzUyaHRhR2FaZHcwd05NS2s2aEtGRFVxSFRrODJQWEZoZTF0RXNDOFdNSGpxV1BqNE1nOXE0X201d2xSbFptVmNEaGc0U2RYNlF5bGdVZnNENHZFc3N2UWFaWHZ6OE9SdDE2dFlIcDBxay01b1lxYTlzaWFlS1l2ZXRlelRSOF80UVRwQ2ZsZ2U4T3hRMVBTQ3l3Zw?oc=5",
+          "summary": "Headline only, not checked article text: A Look at Victoria's Secret & Co (VSXY) After 4.6% Gain -- GF Va"
         }
       ],
       "filings": {
@@ -571,10 +560,17 @@
       },
       "investment_role": "Candidate for multi-year valuation research, not an approved trade.",
       "qualitative_context": {
-        "asof_utc": "2026-10-28T02:24:27.478937+00:00",
+        "asof_utc": "2026-10-29T02:29:18.314058+00:00",
         "search_url": "https://news.google.com/rss/search?q=%22VICTORIA%27S%20SECRET%20%26%22%20when%3A7d&hl=en-US&gl=US&ceid=US:en",
         "news_window_days": 7,
         "headline_sample": [
+          {
+            "title": "Victoria's Secret & Co. (NYSE: VSXY) Dips 2.83% as CCI(20) at 180.25 Signals Deep Overbought-Type",
+            "published_utc": "2026-10-28T17:26:00+00:00",
+            "publisher": "Kalkine India",
+            "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPZjJVNXNuckdoV0hNcTI3M1dJVFBtSkwwNm5DREl1MDVkLU5Lcjd2NjY2X1d2UDJrbzJUUGdzVGVuNUtncF9HZFVnVVNFTDJQNzRzanBJckVFUHZqWXlCYWxwQVZzbWs3TVAtRHM2MElOaWFTQmY5RnpKOXNQcHZrckhNSUtqVl9BUTBaZmMxcHNPYWpBdkhBRUFKc0ViaWhlMHAyRm1ZNjdPVjJqazcxQVpIR2ZyQnJkNFVTREM5RFlyU3dSdzA4bVh5XzlYSVM5T0tqb0h3?oc=5",
+            "topic": "other"
+          },
           {
             "title": "Melinda R. McAfee Executes Sale of 2,500 Victoria's Secret Shares at $95 Under 10b5-1 Plan",
             "published_utc": "2026-10-27T21:54:53+00:00",
@@ -591,16 +587,23 @@
           },
           {
             "title": "Victorias Secret & Co. (VSXY) stock price, news, quote and history",
-            "published_utc": "2026-10-27T01:43:17+00:00",
+            "published_utc": "2026-10-27T17:26:22+00:00",
             "publisher": "Yahoo Finance UK",
             "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE4yOE5xY1c2SWx1LWs2d0VFRVFWX1VkZGlIVzZXZTlPRjg3aWdwd3cxMldjY0JjejM5TzR1blYtZWtiTmxsQUhqVzNWMjNyZXBhd1E?oc=5",
             "topic": "other"
           },
           {
-            "title": "What is lifting Victoria's Secret (NYSE:VSCO) as its revamp gathers pace?",
-            "published_utc": "2026-10-22T21:30:00+00:00",
-            "publisher": "Kalkine Media",
-            "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNdS1aTWxnMFJXWVlRZml4XzRzOTh6YmlYckU3T0h1WklFVGVrbXdaR1E3TElSdFpXTnhjNzRRYWRuVFFCVEc3VUxLbW9MeWlGRWpsaGJ2WlUzcXg1ZjdvWlBBRTQ4OXpCMml1VFNKVndwWEpvbzFqZ3FBVFp5TmZycTY4SWZxcVVzSXdjZHhXTm5wWUM4RWc5U25HY0tCaF9fM3IzR1dOLXhFNDdhX0pjeEZB?oc=5",
+            "title": "Victorias Secret & Co. (VSXY) Stock Price, News, Quote & History",
+            "published_utc": "2026-10-27T11:53:40+00:00",
+            "publisher": "Yahoo! Finance Canada",
+            "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9FRzNISDdqcUwwU3plSENPZ09xQzRSTE94T3VhTHN1QXplZnlPUEdYbHMydkJ1eG9BSUZwZ2dRQVNyZnJGTU0xVmliUVVESkZyQ0E?oc=5",
+            "topic": "other"
+          },
+          {
+            "title": "A Look at Victoria's Secret & Co (VSXY) After 4.6% Gain -- GF Va",
+            "published_utc": "2026-10-27T00:39:10+00:00",
+            "publisher": "GuruFocus",
+            "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQX2NUSHZsN0VPMVdNUmY0ekJEczVpTUJ3XzFfNzUyaHRhR2FaZHcwd05NS2s2aEtGRFVxSFRrODJQWEZoZTF0RXNDOFdNSGpxV1BqNE1nOXE0X201d2xSbFptVmNEaGc0U2RYNlF5bGdVZnNENHZFc3N2UWFaWHZ6OE9SdDE2dFlIcDBxay01b1lxYTlzaWFlS1l2ZXRlelRSOF80UVRwQ2ZsZ2U4T3hRMVBTQ3l3Zw?oc=5",
             "topic": "other"
           }
         ],
@@ -614,14 +617,14 @@
       "ticker": "GLD",
       "name": "Physical gold",
       "metrics": {
-        "price_usd": 372.28,
-        "return_3m_pct": 0.32,
-        "return_6m_pct": -11.76,
-        "asof": "2026-10-27",
+        "price_usd": 373.51,
+        "return_3m_pct": -0.97,
+        "return_6m_pct": -10.52,
+        "asof": "2026-10-28",
         "source": "https://finance.yahoo.com/quote/GLD/history/",
-        "relative_6m_to_voo_pp": -20.49,
+        "relative_6m_to_voo_pp": -19.62,
         "proxy_kind": "Physical gold",
-        "voo_return_6m_pct": 8.73
+        "voo_return_6m_pct": 9.1
       },
       "sources": [
         {
@@ -639,7 +642,7 @@
       ],
       "investment_role": "Portfolio-diversification research, not a commodity spot-price prediction.",
       "qualitative_context": {
-        "asof_utc": "2026-10-28T02:24:27.478937+00:00",
+        "asof_utc": "2026-10-29T02:29:18.314058+00:00",
         "search_url": "https://news.google.com/rss/search?q=%22gold%20prices%20ETF%22%20when%3A7d&hl=en-US&gl=US&ceid=US:en",
         "news_window_days": 7,
         "headline_sample": [],
@@ -652,6 +655,6 @@
   "excluded": "All cryptocurrency, tokens and crypto-exposed businesses; no crypto recommendations.",
   "benchmark": "VOO after costs where comparable",
   "diagnostics": [],
-  "qualitative_asof_utc": "2026-10-28T02:24:27.478937+00:00",
+  "qualitative_asof_utc": "2026-10-29T02:29:18.314058+00:00",
   "qualitative_method": "Dated headline watch + SEC filings; causal implications are conditional, not sentiment forecasts."
 }
