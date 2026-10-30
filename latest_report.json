@@ -1,12 +1,12 @@
 {
-  "generated_at_utc": "2026-10-29 02:26 UTC",
-  "last_market_session": "2026-10-28",
+  "generated_at_utc": "2026-10-30 02:23 UTC",
+  "last_market_session": "2026-10-29",
   "research_only": true,
   "approved_for_live_trading": false,
   "selected_strategy": "200-day trend",
   "historical_hurdle_passed": false,
   "current_model_position": "VOO",
-  "interpretation": "The chosen model ended USD 1,445.06 below regular VOO investing on the later test period. Its worst percentage fall was 20.3%, versus 24.6% for DCA. The historical hurdle failed; do NOT use this model to replace DCA.",
+  "interpretation": "The chosen model ended USD 1,439.81 below regular VOO investing on the later test period. Its worst percentage fall was 20.3%, versus 24.6% for DCA. The historical hurdle failed; do NOT use this model to replace DCA.",
   "assumptions": {
     "initial_usd": 2000.0,
     "monthly_contribution_usd": 100.0,
@@ -17,7 +17,7 @@
   },
   "development": {
     "DCA": {
-      "end": 31190.19,
+      "end": 31190.18,
       "deposited": 12700.0,
       "annual": 16.22,
       "drawdown": -34.0,
@@ -26,7 +26,7 @@
       "cost": 12.69
     },
     "200-day trend": {
-      "end": 23510.85,
+      "end": 23510.8,
       "deposited": 12700.0,
       "annual": 11.42,
       "drawdown": -19.81,
@@ -44,7 +44,7 @@
       "cost": 135.16
     },
     "6-month momentum": {
-      "end": 19114.06,
+      "end": 19114.04,
       "deposited": 12700.0,
       "annual": 7.82,
       "drawdown": -23.4,
@@ -53,56 +53,56 @@
       "cost": 239.51
     },
     "20-day breakout": {
-      "end": 16275.27,
+      "end": 16275.28,
       "deposited": 12700.0,
       "annual": 3.66,
       "drawdown": -14.59,
       "sharpe": 0.532,
       "orders": 175,
-      "cost": 971.99
+      "cost": 972.0
     }
   },
   "holdout": {
     "DCA": {
-      "end": 12367.3,
+      "end": 12322.36,
       "deposited": 7700.0,
-      "annual": 12.03,
+      "annual": 11.93,
       "drawdown": -24.56,
-      "sharpe": 0.756,
+      "sharpe": 0.751,
       "orders": 58,
       "cost": 7.69
     },
     "200-day trend": {
-      "end": 10922.24,
+      "end": 10882.55,
       "deposited": 7700.0,
-      "annual": 8.39,
+      "annual": 8.3,
       "drawdown": -20.26,
-      "sharpe": 0.774,
+      "sharpe": 0.767,
       "orders": 74,
       "cost": 112.24
     },
     "10-month trend": {
-      "end": 9639.87,
+      "end": 9604.84,
       "deposited": 7700.0,
-      "annual": 4.05,
+      "annual": 3.97,
       "drawdown": -26.71,
-      "sharpe": 0.392,
+      "sharpe": 0.386,
       "orders": 57,
       "cost": 58.57
     },
     "6-month momentum": {
-      "end": 10515.91,
+      "end": 10477.68,
       "deposited": 7700.0,
-      "annual": 7.37,
+      "annual": 7.29,
       "drawdown": -17.68,
-      "sharpe": 0.697,
+      "sharpe": 0.69,
       "orders": 60,
       "cost": 83.71
     },
     "20-day breakout": {
-      "end": 9370.35,
+      "end": 9370.34,
       "deposited": 7700.0,
-      "annual": 5.46,
+      "annual": 5.45,
       "drawdown": -10.99,
       "sharpe": 0.725,
       "orders": 84,
@@ -112,21 +112,21 @@
   "cost_sensitivity": [
     {
       "cost_bps": 0,
-      "model_annual_return_pct": 9.11,
-      "dca_annual_return_pct": 12.08,
-      "model_minus_dca_final_usd": -1287.0699999999997
+      "model_annual_return_pct": 9.02,
+      "dca_annual_return_pct": 11.99,
+      "model_minus_dca_final_usd": -1282.3999999999996
     },
     {
       "cost_bps": 10,
-      "model_annual_return_pct": 8.39,
-      "dca_annual_return_pct": 12.03,
-      "model_minus_dca_final_usd": -1445.0599999999995
+      "model_annual_return_pct": 8.3,
+      "dca_annual_return_pct": 11.93,
+      "model_minus_dca_final_usd": -1439.8100000000013
     },
     {
       "cost_bps": 30,
-      "model_annual_return_pct": 6.97,
-      "dca_annual_return_pct": 11.92,
-      "model_minus_dca_final_usd": -1749.2799999999988
+      "model_annual_return_pct": 6.88,
+      "dca_annual_return_pct": 11.83,
+      "model_minus_dca_final_usd": -1742.92
     }
   ]
 }

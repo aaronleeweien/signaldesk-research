@@ -1,6 +1,6 @@
 # SignalDesk | Investment Research Desk
 
-US market close: 2026-10-28
+US market close: 2026-10-29
 
 **VOO remains the default; investigate only a few clearly defined alternatives.**
 
@@ -12,7 +12,7 @@ No independently verified 3–6-month excess-return advantage is established for
 
 **Research status:** 0 of 3 candidates had a complete two-pass AI investigation. All candidates receive automated source-bounded financial assessment. An absence of AI review or verified forward expectations is not concealed.
 
-## 1. MRVL — MARVELL TECHNOLOGY, INC
+## 1. DELL — Dell Technologies Inc.
 
 **3–6-month decision:** NO SWITCH FROM VOO: keep on research watchlist until an independently verified, priced catalyst and forward-earnings evidence exist.
 
@@ -20,117 +20,25 @@ No independently verified 3–6-month excess-return advantage is established for
 
 ### What the recorded data actually establish
 
-- The last fiscal-year revenue changed +42.1%; annual free cash flow changed -0.0% versus the previous SEC-observed year. These are historical outcomes, not forecasts. [S1]
+- The last fiscal-year revenue changed +18.8%; annual free cash flow changed +357.6% versus the previous SEC-observed year. These are historical outcomes, not forecasts. [S1]
 
-- Annual free cash flow: 1.40 billion USD; market capitalisation from the screen: 226.16 billion USD; historical FCF yield: +0.6%. [S1][S2]
+- Annual free cash flow: 8.55 billion USD; market capitalisation from the screen: 302.34 billion USD; historical FCF yield: +2.8%. [S1][S2]
 
-- Screened forward price/earnings multiple: 34.3 times. The denominator is an unaudited forecast, not an independently checked earnings consensus. [S2]
+- Screened forward price/earnings multiple: 15.7 times. The denominator is an unaudited forecast, not an independently checked earnings consensus. [S2]
 
-- Cash: 3.93 billion USD; reported long-term-debt tag: 4.96 billion USD. The debt tag excludes some obligations and must not be mistaken for full net debt. [S1]
+- Cash: 11.57 billion USD; reported long-term-debt tag: 34.47 billion USD. The debt tag excludes some obligations and must not be mistaken for full net debt. [S1]
 
-- The stock's preceding one-year price return exceeded VOO by +170.2 percentage points as of 2026-10-28. This historical period is not a 3–6-month forecast. [S2]
-
-### Economic and price mechanism
-
-Revenue at MRVL has grown much faster than cash remaining after capital spending. New sales only create lasting shareholder value if they eventually generate cash; strong headlines about demand cannot establish that conversion.
-
-**Valuation and implied assumptions:** The fixed-parameter reverse cash-flow exercise implies 82.0% annual free-cash-flow growth for five years, under 11% required return, 2% terminal growth and no net borrowing adjustment. This is a stress-test assumption, not a company-specific fair value or near-term target. [S1][S2]
-
-**Strongest opposing interpretation:** Revenue growth might continue without corresponding cash-flow improvement. In that case an expensive valuation could compress even if sales rise.
-
-**Catalyst and time evidence:** The next SEC quarterly earnings disclosure could change expectations; the last identified 10-Q was filed 2026-08-28. An exact future earnings date and pre-release consensus are not verified.
-
-**VOO comparison:** To justify a switch, evidence must show a better prospective 3–6-month risk-adjusted payoff than VOO after fees; the present materials do not establish this.
-
-### Bull, base and bear outcomes (conditional, not price forecasts)
-
-- Bull (conditional): the next filed results show better sustainable cash generation than the market anticipated, causing upward earnings revisions and possible outperformance versus VOO.
-
-- Base (unverified): results roughly match expectations and the market does not re-rate the shares; the historical numbers alone provide no edge over VOO.
-
-- Bear (conditional): cash conversion deteriorates or the earnings multiple falls; a concentrated stock can lose substantially more than VOO.
-
-### Dated headline leads — not verified company events
-
-News monitoring timestamp: 2026-10-29T02:29:18.314058+00:00
-
-No representative verified narrative sample was available; no sentiment score was invented.
-
-### Evidence audit and research gaps
-
-- Annual SEC financial periods available: 3
-
-- Recent official filings identified: 10-K (2026-03-11), 10-Q (2026-08-28), 8-K (2026-10-23)
-
-- Short filing excerpts retrieved: 3; these are not comprehensive readings of all risk factors, guidance or management discussion
-
-- Verified forward earnings consensus and dated catalyst: unavailable
-
-- Recent news-index headlines: 6; article text and investor-sentiment distribution NOT independently verified
-
-### Sources used or identified
-
-- [S1] SEC company financial facts: https://data.sec.gov/api/xbrl/companyfacts/CIK0001835632.json
-
-- [S2] Market screener snapshot: https://finance.yahoo.com/quote/MRVL/financials/
-
-- [S3] SEC submissions: https://data.sec.gov/submissions/CIK0001835632.json
-
-- [S4] 8-K filed 2026-10-23: https://www.sec.gov/Archives/edgar/data/1835632/000119312526430424/d147430d8k.htm
-
-- [S5] 8-K filed 2026-09-25: https://www.sec.gov/Archives/edgar/data/1835632/000162828026063592/mrvl-20260925.htm
-
-- [S6] 10-Q filed 2026-08-28: https://www.sec.gov/Archives/edgar/data/1835632/000183563226000025/mrvl-20260801.htm
-
-- [S7] 8-K filed 2026-08-27: https://www.sec.gov/Archives/edgar/data/1835632/000183563226000022/mrvl-20260827.htm
-
-- [S8] 10-K primary filing, 2026-03-11: https://www.sec.gov/Archives/edgar/data/1835632/000183563226000011/mrvl-20260131.htm
-
-- [S9] 10-K read passages, filed 2026-03-11: https://www.sec.gov/Archives/edgar/data/1835632/000183563226000011/mrvl-20260131.htm
-
-- [S10] 10-Q read passages, filed 2026-08-28: https://www.sec.gov/Archives/edgar/data/1835632/000183563226000025/mrvl-20260801.htm
-
-- [S11] 8-K read passages, filed 2026-10-23: https://www.sec.gov/Archives/edgar/data/1835632/000119312526430424/d147430d8k.htm
-
-- [S12] News-index headline · GuruFocus · 2026-10-29: https://news.google.com/rss/articles/CBMiogFBVV95cUxQekkzNnJ2TVVkYXlhSjdqeXlyeWduRVVWcjZPdzhuQ3lvUWJFNjdUYVpOQVFqYjdDbkNGOEFKQWJXaEh3VFhLS09LZDFVZTloMUZTUmRReFZqMmhieHRONy15S1JWZHVWMlhkeWcwc2N1TFZOZjNwbWN1aEVQRmt4ckRZdkhfdnowajRCLUZaRDZTMjJQSm1FYmMzVExueldwVmc?oc=5
-
-- [S13] News-index headline · MarketWatch · 2026-10-29: https://news.google.com/rss/articles/CBMirgFBVV95cUxORVROZ19hYjgyRW5UWnB2dkFPb2FQbWRiZlJYOEQzRURxNTE3WUdqOU9seFZHaDh4YVVBRW9ONlFsaGYxUG5WUFBCVjYyQ2dMcDdrOWVSVXdvTXIyQ0c1UEtuam9LM3NnUTBuMXZqbUdFZG5NQlliZXd6OTZZV3pwM1RWSTRWWVpSSWd0MkJ0VEFCX0pfTGtNc3BNU21nbTA2WFJGaFFRWEVDaks5dEE?oc=5
-
-- [S14] News-index headline · Yahoo Finance · 2026-10-29: https://news.google.com/rss/articles/CBMirAFBVV95cUxOLTZ5VzVmcVR6LUZFQzZrRHY2cHhBTzFsUnN0UHR3cWZDeVdMNTBYRHRoR0VxeGFfNGhZSE00dVo2bXBCVWxfOFZBWi01dFhsTUpXWnRpWk1SMGl4YXVyN3pvTExjVnM4QnE4RF9OS3gyckMzQl9wU21YcVl5aExfb1AxZ1o0SDNqbFlhZXRSOURvbThCRkdVV21yZlZZemNwZjdJRWVPTnhPTHhS?oc=5
-
-- [S15] News-index headline · Investor's Business Daily · 2026-10-29: https://news.google.com/rss/articles/CBMihAFBVV95cUxPbDdON20wRHQtb0VybWNKWWJqZFQ3aEFYYXlYQzFONUVjdTNfcHR5QnNGckFWMzlrRW5PVEhwSUJ1TWRHMFFiTzI3RWtJbWYyZ0JoSU5LSGNOYU16NkFINEJlU0pBZHRwYV9WbU9FN2dQMjh2WU1pVVQxanBHbkhaeld3d2Y?oc=5
-
-- [S16] News-index headline · 24/7 Wall St. · 2026-10-29: https://news.google.com/rss/articles/CBMimwFBVV95cUxQRXUxeTZna1Y4N2lnNUd2UGxCaXdfMFI3Nk5CS2Y1ZVFubjdNS1h6NGxvY1gxd3BEYzg3V1h4M0Q3a3dGbFJDY29OR0lWdnAxYkRBTlJlN1c5ZmhqUlNkWXJPOVA5U25KWG16cWltY3JBQmF1bEZDVG9peWRTc1N5LWhvLU1PWVJ5QzNUeDVvdF8xQmZrbkY0eXByYw?oc=5
-
-- [S17] News-index headline · BigGo Finance · 2026-10-29: https://news.google.com/rss/articles/CBMidkFVX3lxTE44MnJoNzhrWS1nSnc5cDJPeUNMY2xWU1E3SDA2VVRkSEdlQWVjc1Z2bFptOVRtMXlodEhvR1E2cThxa2tHRk1mWnltRnhDNE5ieU9DQklvZ3BnUzg2NldPTVRqbnNZdmkya3BDR3dhUXpxSDctaHc?oc=5
-
-## 2. VSXY — VICTORIA'S SECRET & CO.
-
-**3–6-month decision:** NO SWITCH FROM VOO: keep on research watchlist until an independently verified, priced catalyst and forward-earnings evidence exist.
-
-**Evidence completeness:** PARTIAL — filed historical numbers quantified; future expectations and precise catalysts unverified
-
-### What the recorded data actually establish
-
-- The last fiscal-year revenue changed +5.2%; annual free cash flow changed +26.3% versus the previous SEC-observed year. These are historical outcomes, not forecasts. [S1]
-
-- Annual free cash flow: 312.0 million USD; market capitalisation from the screen: 7.61 billion USD; historical FCF yield: +4.1%. [S1][S2]
-
-- Screened forward price/earnings multiple: 16.9 times. The denominator is an unaudited forecast, not an independently checked earnings consensus. [S2]
-
-- Cash: 522.0 million USD; reported long-term-debt tag: 971.0 million USD. The debt tag excludes some obligations and must not be mistaken for full net debt. [S1]
-
-- The stock's preceding one-year price return exceeded VOO by +159.6 percentage points as of 2026-10-28. This historical period is not a 3–6-month forecast. [S2]
+- The stock's preceding one-year price return exceeded VOO by +178.2 percentage points as of 2026-10-29. This historical period is not a 3–6-month forecast. [S2]
 
 ### Economic and price mechanism
 
-VSXY has reported business fundamentals, but an investable 3–6-month edge requires an earnings surprise beyond what investors currently expect. The retrieved evidence does not establish that surprise.
+DELL has reported business fundamentals, but an investable 3–6-month edge requires an earnings surprise beyond what investors currently expect. The retrieved evidence does not establish that surprise.
 
-**Valuation and implied assumptions:** The fixed-parameter reverse cash-flow exercise implies 21.5% annual free-cash-flow growth for five years, under 11% required return, 2% terminal growth and no net borrowing adjustment. This is a stress-test assumption, not a company-specific fair value or near-term target. [S1][S2]
+**Valuation and implied assumptions:** The fixed-parameter reverse cash-flow exercise implies 31.8% annual free-cash-flow growth for five years, under 11% required return, 2% terminal growth and no net borrowing adjustment. This is a stress-test assumption, not a company-specific fair value or near-term target. [S1][S2]
 
 **Strongest opposing interpretation:** Investors can already have priced in the reported business improvement; market returns depend on changes in expectations, not only growing revenue.
 
-**Catalyst and time evidence:** The next SEC quarterly earnings disclosure could change expectations; the last identified 10-Q was filed 2026-09-04. An exact future earnings date and pre-release consensus are not verified.
+**Catalyst and time evidence:** The next SEC quarterly earnings disclosure could change expectations; the last identified 10-Q was filed 2026-09-08. An exact future earnings date and pre-release consensus are not verified.
 
 **VOO comparison:** To justify a switch, evidence must show a better prospective 3–6-month risk-adjusted payoff than VOO after fees; the present materials do not establish this.
 
@@ -144,7 +52,7 @@ VSXY has reported business fundamentals, but an investable 3–6-month edge requ
 
 ### Dated headline leads — not verified company events
 
-News monitoring timestamp: 2026-10-29T02:29:18.314058+00:00
+News monitoring timestamp: 2026-10-30T02:25:34.264716+00:00
 
 No representative verified narrative sample was available; no sentiment score was invented.
 
@@ -152,7 +60,7 @@ No representative verified narrative sample was available; no sentiment score wa
 
 - Annual SEC financial periods available: 3
 
-- Recent official filings identified: 10-K (2026-03-20), 10-Q (2026-09-04), 8-K (2026-10-09)
+- Recent official filings identified: 10-K (2026-03-16), 10-Q (2026-09-08), 8-K (2026-10-21)
 
 - Short filing excerpts retrieved: 3; these are not comprehensive readings of all risk factors, guidance or management discussion
 
@@ -162,39 +70,149 @@ No representative verified narrative sample was available; no sentiment score wa
 
 ### Sources used or identified
 
-- [S1] SEC company financial facts: https://data.sec.gov/api/xbrl/companyfacts/CIK0001856437.json
+- [S1] SEC company financial facts: https://data.sec.gov/api/xbrl/companyfacts/CIK0001571996.json
 
-- [S2] Market screener snapshot: https://finance.yahoo.com/quote/VSXY/financials/
+- [S2] Market screener snapshot: https://finance.yahoo.com/quote/DELL/financials/
 
-- [S3] SEC submissions: https://data.sec.gov/submissions/CIK0001856437.json
+- [S3] SEC submissions: https://data.sec.gov/submissions/CIK0001571996.json
 
-- [S4] 8-K filed 2026-10-09: https://www.sec.gov/Archives/edgar/data/1856437/000185643726000023/vsco-20261007.htm
+- [S4] 8-K filed 2026-10-21: https://www.sec.gov/Archives/edgar/data/1571996/000119312526427920/d163575d8k.htm
 
-- [S5] 10-Q filed 2026-09-04: https://www.sec.gov/Archives/edgar/data/1856437/000185643726000021/vsco-20260801.htm
+- [S5] 8-K filed 2026-09-15: https://www.sec.gov/Archives/edgar/data/1571996/000119312526391976/d172674d8k.htm
 
-- [S6] 8-K filed 2026-09-03: https://www.sec.gov/Archives/edgar/data/1856437/000185643726000019/vsco-20260903.htm
+- [S6] 8-K filed 2026-09-10: https://www.sec.gov/Archives/edgar/data/1571996/000119312526387958/d150030d8k.htm
 
-- [S7] 8-K filed 2026-08-20: https://www.sec.gov/Archives/edgar/data/1856437/000185643726000017/vsco-20260818.htm
+- [S7] 10-Q filed 2026-09-08: https://www.sec.gov/Archives/edgar/data/1571996/000157199626000046/dell-20260731.htm
 
-- [S8] 10-K primary filing, 2026-03-20: https://www.sec.gov/Archives/edgar/data/1856437/000185643726000004/vsco-20260131.htm
+- [S8] 10-K primary filing, 2026-03-16: https://www.sec.gov/Archives/edgar/data/1571996/000157199626000008/dell-20260130.htm
 
-- [S9] 10-K read passages, filed 2026-03-20: https://www.sec.gov/Archives/edgar/data/1856437/000185643726000004/vsco-20260131.htm
+- [S9] 10-K read passages, filed 2026-03-16: https://www.sec.gov/Archives/edgar/data/1571996/000157199626000008/dell-20260130.htm
 
-- [S10] 10-Q read passages, filed 2026-09-04: https://www.sec.gov/Archives/edgar/data/1856437/000185643726000021/vsco-20260801.htm
+- [S10] 10-Q read passages, filed 2026-09-08: https://www.sec.gov/Archives/edgar/data/1571996/000157199626000046/dell-20260731.htm
 
-- [S11] 8-K read passages, filed 2026-10-09: https://www.sec.gov/Archives/edgar/data/1856437/000185643726000023/vsco-20261007.htm
+- [S11] 8-K read passages, filed 2026-10-21: https://www.sec.gov/Archives/edgar/data/1571996/000119312526427920/d163575d8k.htm
 
-- [S12] News-index headline · Kalkine India · 2026-10-28: https://news.google.com/rss/articles/CBMi1gFBVV95cUxPZjJVNXNuckdoV0hNcTI3M1dJVFBtSkwwNm5DREl1MDVkLU5Lcjd2NjY2X1d2UDJrbzJUUGdzVGVuNUtncF9HZFVnVVNFTDJQNzRzanBJckVFUHZqWXlCYWxwQVZzbWs3TVAtRHM2MElOaWFTQmY5RnpKOXNQcHZrckhNSUtqVl9BUTBaZmMxcHNPYWpBdkhBRUFKc0ViaWhlMHAyRm1ZNjdPVjJqazcxQVpIR2ZyQnJkNFVTREM5RFlyU3dSdzA4bVh5XzlYSVM5T0tqb0h3?oc=5
+- [S12] News-index headline · TradingView · 2026-10-30: https://news.google.com/rss/articles/CBMiygFBVV95cUxNOTE0SFpFOFJ3MHdGNFNPejZiNE0wMjBQTXF2M3Z2bmNlU0YxbVZMcXllNnRFZ0tvRi10RG40c1dZUEM4aHduUF9tbXh1SUFlTDh5b0ZxMW1xaGNrdm0tZV9BdGxmVzZSdnVsOEQwMU05TXhrRzlUY01hVlFmUV9oWTg5ZjNCeW83aG1kZEliQU5DcjRrQWhEaGliUXA2cEtRSHktQVpZdkNFTmMwQVNtaXkwT3pxS0o2UzBDV1RQTlZBQXd4Q19KSDZR?oc=5
 
-- [S13] News-index headline · Kalkine Media · 2026-10-27: https://news.google.com/rss/articles/CBMizgFBVV95cUxPVUFjb1VMSnpjaDk0MHRaYTBPdFVTMnlxdTBGRU9yTjhkV2w4TlJ5VFRobVhnZFJiRzZuQWt5ZEFCOU00X25DV1IzeV8wSkdfcTBGZHJIYnA3YUpUWmtFMTNjbjVMVG5od21DSUZDNmpINnN2NlhseFpkajRleUU5Y19WU1dmejdjdzlFb0dzVlBQVG5Ic0JBVlVOLXJBWVVZRGppZTNnYkZ5QS1YUWVBd3ZxdmVyRHZUWDVXWWZINVQtbHNOMWpjc0VsVUd3UQ?oc=5
+- [S13] News-index headline · Lead Stories · 2026-10-29: https://news.google.com/rss/articles/CBMirAFBVV95cUxNN3RzdVRFanZXcEFhTS1JUTBfQjkxZUt0OWNfbXBrOWdoQWhscGIzWk1iQWJhNmpING1zb1VFS3lzZlI4X09hdHc1bHVQZ0dpZHh4Qkl2VHN5a0h3elZkT3I3RnJBVVJyNE03VHlnTTdhaG41SHY1UkV3c185NGh1RG0xVkFpLVFvWjN4VUFsTW85VG9QbzcyeF9aS2s0SFl1REZadjNyczdDSDE2?oc=5
 
-- [S14] News-index headline · Stock Titan · 2026-10-27: https://news.google.com/rss/articles/CBMitAFBVV95cUxNLUQ1RVNYN1ZPbTJPRHVVa2t0Yi04REI2NDVPcjNwWDJGaXpNblRPUWZVb0l3al9jUVhRa3UzaTlDbldwMHYyOXRNaEZCMW1KaFYtdW5sMDNIdlNmZUMzbF9kcm9YUzVmYTlNOFJGU0NCbTRDZG00R2p1Wml1RjJjclkxR2FMeHNrRUtYVzczUWdQV181WGl5OTAyZlRVbTlrSjNyY2M5UmxralJOVDRuTEVKc0E?oc=5
+- [S14] News-index headline · Yahoo Finance Singapore · 2026-10-29: https://news.google.com/rss/articles/CBMiYkFVX3lxTE15UWgtRVV2TlR0b3IwUzc4RkR1c21EUUtqa3NyQ0t3cUh0OWdoTXJKYVdFUVdIal80Smw4R2ZPX3ZPblFuOEhzVFJneEYxQzJxeWlFWjZjRXpKWjRkZEdLRGRB?oc=5
 
-- [S15] News-index headline · Yahoo Finance UK · 2026-10-27: https://news.google.com/rss/articles/CBMiUkFVX3lxTE4yOE5xY1c2SWx1LWs2d0VFRVFWX1VkZGlIVzZXZTlPRjg3aWdwd3cxMldjY0JjejM5TzR1blYtZWtiTmxsQUhqVzNWMjNyZXBhd1E?oc=5
+- [S15] News-index headline · MarketBeat · 2026-10-29: https://news.google.com/rss/articles/CBMitgFBVV95cUxPOVJuSmhVMHlvMTZHdWxhczBoaWluQkZzYlFicVNYeTl4U2lUQ3g0NjVTNVpVbkJ6MG51XzJEUFZkTVFWSVg4ZTk3d2o3TS1OZ2FURkdOUjdoQjgzN1FuWTRjSnB1UGtVRzFfRWpSZzJaY0YybjZ2d0E5Z3JYSE5xdkRCZ2pmWG0yb3k3aVRHZG5zdVRrRU9Nd042RlFPdVdEX3BFeW9icnp6Ry1lX3A1RVFJZjJ0QQ?oc=5
 
-- [S16] News-index headline · Yahoo! Finance Canada · 2026-10-27: https://news.google.com/rss/articles/CBMiUkFVX3lxTE9FRzNISDdqcUwwU3plSENPZ09xQzRSTE94T3VhTHN1QXplZnlPUEdYbHMydkJ1eG9BSUZwZ2dRQVNyZnJGTU0xVmliUVVESkZyQ0E?oc=5
+- [S16] News-index headline · Investing.com UK · 2026-10-29: https://news.google.com/rss/articles/CBMipwFBVV95cUxQUkZIb3RSaGVuZ0xDMnozSWF3dThwckRrckhMM0gyNUxYcjNnaVZWUW44bFZoMGlRczFUODhFR0o5SUVmWDktRWhlM3lqNVp6cW5oRVotWTJfbHFoYXNLVWtkVll2M3BNS0h3cTFyQUhLd0RfMUVlOXl6Rjg5UVVwMHk4aVhHT3NUZm5WNkdwcTRCaS1mNDVRak1uM1diR2JCdDFBV04wbw?oc=5
 
-- [S17] News-index headline · GuruFocus · 2026-10-27: https://news.google.com/rss/articles/CBMitgFBVV95cUxQX2NUSHZsN0VPMVdNUmY0ekJEczVpTUJ3XzFfNzUyaHRhR2FaZHcwd05NS2s2aEtGRFVxSFRrODJQWEZoZTF0RXNDOFdNSGpxV1BqNE1nOXE0X201d2xSbFptVmNEaGc0U2RYNlF5bGdVZnNENHZFc3N2UWFaWHZ6OE9SdDE2dFlIcDBxay01b1lxYTlzaWFlS1l2ZXRlelRSOF80UVRwQ2ZsZ2U4T3hRMVBTQ3l3Zw?oc=5
+- [S17] News-index headline · Quiver Quantitative · 2026-10-29: https://news.google.com/rss/articles/CBMijgFBVV95cUxOc09BMVNJaDExRkh6M1pxekRKRTJUMFV5VkJ3bjhIMVpsbE5FblJBQVV0Tks1RE1BMzRuc25GMHZxMUs3ME1QVWhnNmZiZ3pWdmxCNkNPZWpUejRBcG1zWHY0UWRnSXFMbk1oUklGYXFjeTEzazQ2ckpmMVI0Z3NRNENSajBfVnpsTVBfaTVB?oc=5
+
+## 2. MPC — Marathon Petroleum Corporation
+
+**3–6-month decision:** NO SWITCH FROM VOO: keep on research watchlist until an independently verified, priced catalyst and forward-earnings evidence exist.
+
+**Evidence completeness:** PARTIAL — filed historical numbers quantified; future expectations and precise catalysts unverified
+
+### What the recorded data actually establish
+
+- The last fiscal-year revenue changed -4.4%; annual free cash flow changed -22.3% versus the previous SEC-observed year. These are historical outcomes, not forecasts. [S1]
+
+- Annual free cash flow: 4.77 billion USD; market capitalisation from the screen: 121.46 billion USD; historical FCF yield: +3.9%. [S1][S2]
+
+- Screened forward price/earnings multiple: 7.2 times. The denominator is an unaudited forecast, not an independently checked earnings consensus. [S2]
+
+- Cash: 7.77 billion USD; reported long-term-debt tag: 3.31 billion USD. The debt tag excludes some obligations and must not be mistaken for full net debt. [S1]
+
+- The stock's preceding one-year price return exceeded VOO by +115.5 percentage points as of 2026-10-29. This historical period is not a 3–6-month forecast. [S2]
+
+### Economic and price mechanism
+
+MPC is a potential earnings-recovery candidate, not an established growth winner: reported sales declined. A recovery could surprise investors, but the reported annual cash flow cannot prove when it will occur.
+
+**Valuation and implied assumptions:** The fixed-parameter reverse cash-flow exercise implies 22.6% annual free-cash-flow growth for five years, under 11% required return, 2% terminal growth and no net borrowing adjustment. This is a stress-test assumption, not a company-specific fair value or near-term target. [S1][S2]
+
+**Strongest opposing interpretation:** A cyclical high in margins or cash flow could reverse before the market's expected recovery. Historical profitability may therefore overstate value.
+
+**Catalyst and time evidence:** The next SEC quarterly earnings disclosure could change expectations; the last identified 10-Q was filed 2026-08-04. An exact future earnings date and pre-release consensus are not verified.
+
+**VOO comparison:** To justify a switch, evidence must show a better prospective 3–6-month risk-adjusted payoff than VOO after fees; the present materials do not establish this.
+
+### Bull, base and bear outcomes (conditional, not price forecasts)
+
+- Bull (conditional): the next filed results show better sustainable cash generation than the market anticipated, causing upward earnings revisions and possible outperformance versus VOO.
+
+- Base (unverified): results roughly match expectations and the market does not re-rate the shares; the historical numbers alone provide no edge over VOO.
+
+- Bear (conditional): cash conversion deteriorates or the earnings multiple falls; a concentrated stock can lose substantially more than VOO.
+
+### Dated headline leads — not verified company events
+
+News monitoring timestamp: 2026-10-30T02:25:34.264716+00:00
+
+**2026-10-29 · Yahoo! Finance Canada:** Marathon Petroleum Corporation (MPC) Seasonal Returns Chart - Yahoo Finance
+
+Conditional economic path: Borrowing costs or capital allocation can affect how much future cash ultimately belongs to shareholders.
+
+Alternative reading: Higher dividends or buybacks can be funded by debt and are not automatically value creation.
+
+Evidence needed before treating this as fact: Check the balance sheet, debt maturities and cash available after capital spending.
+
+Coverage URL: https://news.google.com/rss/articles/CBMiYEFVX3lxTFBGYnE2cV9teVVVVWhwNGRjWDBLcW5aNGRiYm9nbFJ4bnNZdHk2aWN6ZEpMTHkySE9ySnJiOTBocEo4QkdQV3JqUTBNS3NxSkxfSERUS01CdFJ4NVNPR2xjag?oc=5
+
+**2026-10-29 · Kalkine Media:** Can Marathon Petroleum (NYSE:MPC) Sustain Strong Refining Performance?
+
+Conditional economic path: Changes in selling prices or operating costs affect the fraction of sales that becomes profit and cash.
+
+Alternative reading: A temporary price or cost improvement may disappear when conditions normalize.
+
+Evidence needed before treating this as fact: Check reported operating margins, cash conversion and the reasons for changes.
+
+Coverage URL: https://news.google.com/rss/articles/CBMirgFBVV95cUxPSllGbFBwVm16WERKTVBaVnFyOElfeVBIM291UmsyUm9QVDRzZnQtQXB4YXI2VVpQZFl6enR0aExCNUtIRlhkTGJsbGxFa3JBVERVdFVTMWk2eTZaWFFsT25TMjdhOVV2VkhQb3ZYMHZjTXF3dTlwTzE5d01EV0dGenhmaWV5TXF6UHdzQlp6X3RGR0lhLWZHRzVsbTI4aUI3eXhxU0VPY2wxdGxzTlE?oc=5
+
+### Evidence audit and research gaps
+
+- Annual SEC financial periods available: 3
+
+- Recent official filings identified: 10-K (2026-02-26), 10-Q (2026-08-04), 8-K (2026-10-29)
+
+- Short filing excerpts retrieved: 3; these are not comprehensive readings of all risk factors, guidance or management discussion
+
+- Verified forward earnings consensus and dated catalyst: unavailable
+
+- Recent news-index headlines: 6; article text and investor-sentiment distribution NOT independently verified
+
+### Sources used or identified
+
+- [S1] SEC company financial facts: https://data.sec.gov/api/xbrl/companyfacts/CIK0001510295.json
+
+- [S2] Market screener snapshot: https://finance.yahoo.com/quote/MPC/financials/
+
+- [S3] SEC submissions: https://data.sec.gov/submissions/CIK0001510295.json
+
+- [S4] 8-K filed 2026-10-29: https://www.sec.gov/Archives/edgar/data/1510295/000151029526000063/mpc-20261028.htm
+
+- [S5] 10-Q filed 2026-08-04: https://www.sec.gov/Archives/edgar/data/1510295/000151029526000061/mpc-20260630.htm
+
+- [S6] 8-K filed 2026-08-04: https://www.sec.gov/Archives/edgar/data/1510295/000151029526000060/mpc-20260804.htm
+
+- [S7] 8-K filed 2026-06-29: https://www.sec.gov/Archives/edgar/data/1510295/000151029526000055/mpc-20260626.htm
+
+- [S8] 10-K primary filing, 2026-02-26: https://www.sec.gov/Archives/edgar/data/1510295/000151029526000009/mpc-20251231.htm
+
+- [S9] 10-K read passages, filed 2026-02-26: https://www.sec.gov/Archives/edgar/data/1510295/000151029526000009/mpc-20251231.htm
+
+- [S10] 10-Q read passages, filed 2026-08-04: https://www.sec.gov/Archives/edgar/data/1510295/000151029526000061/mpc-20260630.htm
+
+- [S11] 8-K read passages, filed 2026-10-29: https://www.sec.gov/Archives/edgar/data/1510295/000151029526000063/mpc-20261028.htm
+
+- [S12] News-index headline · GuruFocus · 2026-10-29: https://news.google.com/rss/articles/CBMiygFBVV95cUxQUjJCdHZibU1pUVRuUmFxYlQ0VVRhdVdERlc1UHdRQUhXcm1JaHFGQXlERnFnWXZ4N01FSUN1WVlMRVdvUDdCWG1NQ1NRbXYwdWttUWk3MGV1dmRCbnBjZVM2N05WRzdFcS1BM25ZMzNlYXJ1VUVzcUR4SHE4TlBLdVJ5UnRYTkQyVlEyREFzMVQtNFp0M3A2eHMySjlSQ251TWVWNEtYenF4aWUyMEJYbXkzNkhNZEtfanhYZnNFaFRjQUNUUWhoQkx3?oc=5
+
+- [S13] News-index headline · Yahoo Finance Singapore · 2026-10-29: https://news.google.com/rss/articles/CBMiYEFVX3lxTFBTeXB2TFpOaWphTmRHajFXNkRjQ2ttd0pkcjNUNlRkanRWWUtMdy1hT3lCcG8xM0ZfQkNOTVB1X0U1QUJxWFhrTThOYk55RWJTckRlVVEwVjNQSV9kUzhMZQ?oc=5
+
+- [S14] News-index headline · Yahoo! Finance Canada · 2026-10-29: https://news.google.com/rss/articles/CBMiYEFVX3lxTFBGYnE2cV9teVVVVWhwNGRjWDBLcW5aNGRiYm9nbFJ4bnNZdHk2aWN6ZEpMTHkySE9ySnJiOTBocEo4QkdQV3JqUTBNS3NxSkxfSERUS01CdFJ4NVNPR2xjag?oc=5
+
+- [S15] News-index headline · MarketBeat · 2026-10-29: https://news.google.com/rss/articles/CBMixgFBVV95cUxOMldNZnpNcTdyNTh4NTVNOW16M2xxVWltd1RKakszTkVkNEYwbTlNS3AxMDNuY3lWM0EzQlQ4b0xTc3p5QU9PTWc0UmRzX1c1aTZwVzBHSEQySFZtcDdwNDlBaU9Xdmc0dkZIb1BOaFl1ZnRVcG9hcFZobEtrRmlQYTNzRlZSOHZtNzFuOVJIUlA2ZlVDZDhROVdVVkN3M3hIekNfblk3RVJiSHRWVUhCYm5wb3hqVmVCZmVsVzBXdElhSXctaEE?oc=5
+
+- [S16] News-index headline · Kalkine Media · 2026-10-29: https://news.google.com/rss/articles/CBMirgFBVV95cUxPSllGbFBwVm16WERKTVBaVnFyOElfeVBIM291UmsyUm9QVDRzZnQtQXB4YXI2VVpQZFl6enR0aExCNUtIRlhkTGJsbGxFa3JBVERVdFVTMWk2eTZaWFFsT25TMjdhOVV2VkhQb3ZYMHZjTXF3dTlwTzE5d01EV0dGenhmaWV5TXF6UHdzQlp6X3RGR0lhLWZHRzVsbTI4aUI3eXhxU0VPY2wxdGxzTlE?oc=5
+
+- [S17] News-index headline · Investing.com UK · 2026-10-29: https://news.google.com/rss/articles/CBMiqwFBVV95cUxQWXN0NUhxWGlFSTZXUTFsNTZyTUdsVTNNT3hPd1VRU0lVRTJkNkk2OTgtazhfRHpLQmQyS2xYdDBULXNHaldIcFhGeDBSTVpBeFlfNkRQRjZzeGNhSXNqMjl1Tnc2S0xzZG1GMHNWbUV4WkdVa1dYV3JUbnZkSXFmTjRKNDRvNnJrUTloRmZEYy1XMFo5OGtRRnFUYWkyODlBMUhpTXpHVnB3Yms?oc=5
 
 ## 3. GLD — Physical gold
 
@@ -204,9 +222,9 @@ No representative verified narrative sample was available; no sentiment score wa
 
 ### What the recorded data actually establish
 
-- Adjusted ETF-price return through 2026-10-28: three months -1.0%, six months -10.5%. [S2]
+- Adjusted ETF-price return through 2026-10-29: three months -0.8%, six months -13.0%. [S2]
 
-- Six-month adjusted ETF-price return relative to VOO: -19.6 percentage points. Backward-looking price returns are not a future return forecast. [S2]
+- Six-month adjusted ETF-price return relative to VOO: -20.7 percentage points. Backward-looking price returns are not a future return forecast. [S2]
 
 ### Economic and price mechanism
 
@@ -230,7 +248,7 @@ Commodity ETFs may react to real yields, the currency, underlying supply and dem
 
 ### Dated headline leads — not verified company events
 
-News monitoring timestamp: 2026-10-29T02:29:18.314058+00:00
+News monitoring timestamp: 2026-10-30T02:25:34.264716+00:00
 
 No representative verified narrative sample was available; no sentiment score was invented.
 

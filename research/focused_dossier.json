@@ -1,306 +1,306 @@
 {
   "version": "focused_dossier_v1",
-  "market_date": "2026-10-28",
-  "generated_utc": "2026-10-29T02:29:18.160245+00:00",
-  "screened_total": 748,
+  "market_date": "2026-10-29",
+  "generated_utc": "2026-10-30T02:25:34.126354+00:00",
+  "screened_total": 751,
   "selected_equities": 2,
   "asset_count": 3,
   "assets": [
     {
       "kind": "equity",
-      "ticker": "MRVL",
-      "name": "MARVELL TECHNOLOGY, INC",
+      "ticker": "DELL",
+      "name": "Dell Technologies Inc.",
       "metrics": {
-        "ticker": "MRVL",
-        "name": "MARVELL TECHNOLOGY, INC",
-        "fiscal_year_end": "2026-01-31",
-        "market_cap_usd": 226159017984.0,
-        "forward_pe": 34.33601,
-        "revenue_usd": 8194600000.0,
-        "revenue_growth_yoy_pct": 42.09,
-        "net_income_usd": 2670100000.0,
-        "operating_cash_usd": 1750500000.0,
-        "capital_spending_usd": 354100000.0,
-        "fcf_usd": 1396400000.0,
-        "fcf_yield_pct": 0.62,
+        "ticker": "DELL",
+        "name": "Dell Technologies Inc.",
+        "fiscal_year_end": "2026-01-30",
+        "market_cap_usd": 302335328256.0,
+        "forward_pe": 15.712478,
+        "revenue_usd": 113538000000.0,
+        "revenue_growth_yoy_pct": 18.8,
+        "net_income_usd": 5936000000.0,
+        "operating_cash_usd": 11185000000.0,
+        "capital_spending_usd": 2633000000.0,
+        "fcf_usd": 8552000000.0,
+        "fcf_yield_pct": 2.83,
         "fcf_positive_years": 3,
         "fcf_years_available": 3,
-        "cash_usd": 3932800000.0,
-        "debt_usd": 4962900000.0,
-        "price_implied_fcf_growth_pct": 81.96,
+        "cash_usd": 11569000000.0,
+        "debt_usd": 34466000000.0,
+        "price_implied_fcf_growth_pct": 31.79,
         "reverse_model_required_return_pct": 11.0,
         "reverse_model_terminal_growth_pct": 2.0,
         "scenario_sensitivity": {
           "no_growth": {
             "annual_fcf_growth_assumed_pct": 0.0,
-            "illustrative_equity_value_usd": 14552832186.46,
-            "value_as_pct_of_current_market_cap": 6.43
+            "illustrative_equity_value_usd": 89126196547.25,
+            "value_as_pct_of_current_market_cap": 29.48
           },
           "moderate_growth": {
             "annual_fcf_growth_assumed_pct": 5.0,
-            "illustrative_equity_value_usd": 17914832992.11,
-            "value_as_pct_of_current_market_cap": 7.92
+            "illustrative_equity_value_usd": 109716164242.74,
+            "value_as_pct_of_current_market_cap": 36.29
           },
           "fast_growth": {
             "annual_fcf_growth_assumed_pct": 10.0,
-            "illustrative_equity_value_usd": 21921267957.14,
-            "value_as_pct_of_current_market_cap": 9.69
+            "illustrative_equity_value_usd": 134252852742.39,
+            "value_as_pct_of_current_market_cap": 44.41
           }
         },
         "annual_history": [
           {
-            "fiscal_year_ended": "2026-01-31",
-            "revenue_usd": 8194600000.0,
-            "free_cash_flow_usd": 1396400000.0
+            "fiscal_year_ended": "2026-01-30",
+            "revenue_usd": 113538000000.0,
+            "free_cash_flow_usd": 8552000000.0
           },
           {
-            "fiscal_year_ended": "2025-02-01",
-            "revenue_usd": 5767300000.0,
-            "free_cash_flow_usd": 1396600000.0
+            "fiscal_year_ended": "2025-01-31",
+            "revenue_usd": 95567000000.0,
+            "free_cash_flow_usd": 1869000000.0
           },
           {
-            "fiscal_year_ended": "2024-02-03",
-            "revenue_usd": 5507700000.0,
-            "free_cash_flow_usd": 1034200000.0
+            "fiscal_year_ended": "2024-02-02",
+            "revenue_usd": 88425000000.0,
+            "free_cash_flow_usd": 5920000000.0
           }
         ]
       },
       "price_context": {
-        "last_price_date": "2026-10-28",
-        "last_close_usd": 251.65,
-        "return_last_year_pct": 184.16,
-        "voo_same_year_pct": 13.98,
-        "relative_to_voo_year_pp": 170.17,
-        "momentum_3m_pct": 37.32,
-        "momentum_6m_pct": 60.8,
+        "last_price_date": "2026-10-29",
+        "last_close_usd": 475.51,
+        "return_last_year_pct": 191.44,
+        "voo_same_year_pct": 13.26,
+        "relative_to_voo_year_pp": 178.18,
+        "momentum_3m_pct": 17.47,
+        "momentum_6m_pct": 128.26,
         "above_200d_average": true
       },
       "sources": [
         {
           "id": "S1",
           "kind": "SEC company financial facts",
-          "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001835632.json",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001571996.json",
           "summary": "SEC filed annual statements; values computed in verified_metrics, including fiscal year and filing dates."
         },
         {
           "id": "S2",
           "kind": "Market screener snapshot",
-          "url": "https://finance.yahoo.com/quote/MRVL/financials/",
+          "url": "https://finance.yahoo.com/quote/DELL/financials/",
           "summary": "Yahoo screen-forward P/E and as-of market capitalization are non-audited and change daily."
         },
         {
           "id": "S3",
           "kind": "SEC submissions",
-          "url": "https://data.sec.gov/submissions/CIK0001835632.json",
+          "url": "https://data.sec.gov/submissions/CIK0001571996.json",
           "summary": "Dated SEC filing history, including recent 10-Q and 8-K documents."
         },
         {
           "id": "S4",
-          "kind": "8-K filed 2026-10-23",
-          "url": "https://www.sec.gov/Archives/edgar/data/1835632/000119312526430424/d147430d8k.htm",
+          "kind": "8-K filed 2026-10-21",
+          "url": "https://www.sec.gov/Archives/edgar/data/1571996/000119312526427920/d163575d8k.htm",
           "summary": "8-K primary filing document; examine before relying on management claims."
         },
         {
           "id": "S5",
-          "kind": "8-K filed 2026-09-25",
-          "url": "https://www.sec.gov/Archives/edgar/data/1835632/000162828026063592/mrvl-20260925.htm",
+          "kind": "8-K filed 2026-09-15",
+          "url": "https://www.sec.gov/Archives/edgar/data/1571996/000119312526391976/d172674d8k.htm",
           "summary": "8-K primary filing document; examine before relying on management claims."
         },
         {
           "id": "S6",
-          "kind": "10-Q filed 2026-08-28",
-          "url": "https://www.sec.gov/Archives/edgar/data/1835632/000183563226000025/mrvl-20260801.htm",
-          "summary": "10-Q primary filing document; examine before relying on management claims."
-        },
-        {
-          "id": "S7",
-          "kind": "8-K filed 2026-08-27",
-          "url": "https://www.sec.gov/Archives/edgar/data/1835632/000183563226000022/mrvl-20260827.htm",
+          "kind": "8-K filed 2026-09-10",
+          "url": "https://www.sec.gov/Archives/edgar/data/1571996/000119312526387958/d150030d8k.htm",
           "summary": "8-K primary filing document; examine before relying on management claims."
         },
         {
+          "id": "S7",
+          "kind": "10-Q filed 2026-09-08",
+          "url": "https://www.sec.gov/Archives/edgar/data/1571996/000157199626000046/dell-20260731.htm",
+          "summary": "10-Q primary filing document; examine before relying on management claims."
+        },
+        {
           "id": "S8",
-          "kind": "10-K primary filing, 2026-03-11",
-          "url": "https://www.sec.gov/Archives/edgar/data/1835632/000183563226000011/mrvl-20260131.htm",
+          "kind": "10-K primary filing, 2026-03-16",
+          "url": "https://www.sec.gov/Archives/edgar/data/1571996/000157199626000008/dell-20260130.htm",
           "summary": "Official company filing. The cited report is a research lead, not an independently verified claim."
         },
         {
           "id": "S9",
-          "kind": "10-K read passages, filed 2026-03-11",
-          "url": "https://www.sec.gov/Archives/edgar/data/1835632/000183563226000011/mrvl-20260131.htm",
-          "summary": "Management discussion: Management’s Discussion and Analysis of Financial Condition and Results of Operations” of this Annual Report on Form 10-K for further information. 9 Table of Contents Manufacturing Integrated Circuit Fabrication The vast majority of our integrated circuits are fabricated using available CMOS processes, which is intended to provide greater flexibility to engage independent foundries to manufacture integrated circuits at lower costs. By outsourcing Risk factors: Risk Factors.” These forward-looking statements speak only as of the date hereof. Unless required by law, we undertake no obligation to update publicly any forward-looking statements. 2 Table of Contents PART I Item 1. Business Our Company Marvell Technology, Inc., together with its consolidated subsidiaries (“Marvell,” “MTI,” the “Company,” “we,” or “us”) is a leading supplier of data infrastructure semiconductor solutions, spanning the data cen Business overview: Item 1. Business Our Company Marvell Technology, Inc., together with its consolidated subsidiaries (“Marvell,” “MTI,” the “Company,” “we,” or “us”) is a leading supplier of data infrastructure semiconductor solutions, spanning the data center core to network edge. We are a fabless supplier o"
+          "kind": "10-K read passages, filed 2026-03-16",
+          "url": "https://www.sec.gov/Archives/edgar/data/1571996/000157199626000008/dell-20260130.htm",
+          "summary": "Management discussion: Management’s Discussion and Analysis of Financial Condition and Results of Operations — Results of Operations — Business Unit Results” and Note 18 of the Notes to the Consolidated Financial Statements included in this report. Dell Payment Solutions Our customers seek choice in how they acquire our solutions and look to remove cost and complexity, align offerings with their business needs, and provide consistent, high-quality operations throughout Risk factors: Risk Factors 16 Item 1B. Unresolved Staff Comments 31 Item 1C. Cybersecurity 31 Item 2. Properties 33 Item 3. Legal Proceedings 33 Item 4. Mine Safety Disclosures 33 PART II Item 5. Market for Registrant’s Common Equity, Related Stockholder Matters and Issuer Purchases of Equity Securities 34 Item 6. [Reserved] 36 Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations 37 Item 7A. Quantitative and Qualitative Business overview: Item 1. Business 5 Item 1A. Risk Factors 16 Item 1B. Unresolved Staff Comments 31 Item 1C. Cybersecurity 31 Item 2. Properties 33 Item 3. Legal Proceedings 33 Item 4. Mine Safety Disclosures 33 PART II Item 5. Market for Registrant’s Common Equity, Related Stockholder Matters and Issuer Purc"
         },
         {
           "id": "S10",
-          "kind": "10-Q read passages, filed 2026-08-28",
-          "url": "https://www.sec.gov/Archives/edgar/data/1835632/000183563226000025/mrvl-20260801.htm",
-          "summary": "Management discussion: Management’s Discussion and Analysis of Financial Condition and Results of Operations This Quarterly Report on Form 10-Q contains forward-looking statements within the meaning of Section 27A of the Securities Act of 1933, as amended (the “Securities Act”), and Section 21E of the Securities Exchange Act of 1934, as amended (the “Exchange Act”), which are subject to the “safe harbor” created by those sections. These statements involve known and unk Risk factors: Risk Factors,” and other sections of this Quarterly Report on Form 10-Q. These forward-looking statements speak only as of the date hereof. Unless required by law, we undertake no obligation to update any forward-looking statements. Overview We are a leading supplier of data infrastructure semiconductor solutions, spanning the data center core to network edge. We are a fabless supplier of high-performance semiconductor products with core strength"
+          "kind": "10-Q read passages, filed 2026-09-08",
+          "url": "https://www.sec.gov/Archives/edgar/data/1571996/000157199626000046/dell-20260731.htm",
+          "summary": "Management discussion: MANAGEMENT’S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS This management’s discussion and analysis should be read in conjunction with the audited Consolidated Financial Statements and accompanying Notes included in the Company’s Annual Report on Form 10-K for the fiscal year ended January 30, 2026 and the unaudited Condensed Consolidated Financial Statements included in this report. In addition to historical financial Risk factors: Risk Factors 69 Item 2. Unregistered Sales of Equity Securities and Use of Proceeds 69 Item 5. Other Information 70 Item 6. Exhibits 71 Signatures 73 3 Table of Contents PART I — FINANCIAL INFORMATION ITEM 1 — FINANCIAL STATEMENTS (UNAUDITED) Index Page Condensed Consolidated Statements of Financial Position as of July 31, 2026 and January 30, 2026 5 Condensed Consolidated Statements of Income for the three and six months ended July 31, 2026 and "
         },
         {
           "id": "S11",
-          "kind": "8-K read passages, filed 2026-10-23",
-          "url": "https://www.sec.gov/Archives/edgar/data/1835632/000119312526430424/d147430d8k.htm",
-          "summary": "Filing excerpt: UNITED STATES SECURITIES AND EXCHANGE COMMISSION Washington, D.C. 20549 FORM 8-K CURRENT REPORT Pursuant to Section 13 or 15(d) of the Securities Exchange Act of 1934 Date of Report: October 22, 2026 (Date of earliest event reported) MARVELL TECHNOLOGY, INC. (Exact name of registrant as specified in its charter) Delaware 001-40357 85-3971597 (State or other jurisdiction of incorporation) (Commission File Number) (IRS Employer Identification No.) "
+          "kind": "8-K read passages, filed 2026-10-21",
+          "url": "https://www.sec.gov/Archives/edgar/data/1571996/000119312526427920/d163575d8k.htm",
+          "summary": "Filing excerpt: UNITED STATES SECURITIES AND EXCHANGE COMMISSION Washington, D.C. 20549 FORM 8-K CURRENT REPORT Pursuant to Section 13 or 15(d) of the Securities Exchange Act of 1934 Date of Report (Date of earliest event reported): October 19, 2026 Dell Technologies Inc. (Exact name of registrant as specified in its charter) Texas 001-37867 80-0890963 (State or other jurisdiction of incorporation) (Commission File Number) (IRS Employer Identification No.) One D"
         },
         {
           "id": "S12",
-          "kind": "News-index headline · GuruFocus · 2026-10-29",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQekkzNnJ2TVVkYXlhSjdqeXlyeWduRVVWcjZPdzhuQ3lvUWJFNjdUYVpOQVFqYjdDbkNGOEFKQWJXaEh3VFhLS09LZDFVZTloMUZTUmRReFZqMmhieHRONy15S1JWZHVWMlhkeWcwc2N1TFZOZjNwbWN1aEVQRmt4ckRZdkhfdnowajRCLUZaRDZTMjJQSm1FYmMzVExueldwVmc?oc=5",
-          "summary": "Headline only, not checked article text: Marvell Technology (MRVL) in Talks to Acquire Lumentum Holdings"
+          "kind": "News-index headline · TradingView · 2026-10-30",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNOTE0SFpFOFJ3MHdGNFNPejZiNE0wMjBQTXF2M3Z2bmNlU0YxbVZMcXllNnRFZ0tvRi10RG40c1dZUEM4aHduUF9tbXh1SUFlTDh5b0ZxMW1xaGNrdm0tZV9BdGxmVzZSdnVsOEQwMU05TXhrRzlUY01hVlFmUV9oWTg5ZjNCeW83aG1kZEliQU5DcjRrQWhEaGliUXA2cEtRSHktQVpZdkNFTmMwQVNtaXkwT3pxS0o2UzBDV1RQTlZBQXd4Q19KSDZR?oc=5",
+          "summary": "Headline only, not checked article text: HPQ, DELL Stocks Plunge After Intel Flags Prolonged PC Market Weakness"
         },
         {
           "id": "S13",
-          "kind": "News-index headline · MarketWatch · 2026-10-29",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxORVROZ19hYjgyRW5UWnB2dkFPb2FQbWRiZlJYOEQzRURxNTE3WUdqOU9seFZHaDh4YVVBRW9ONlFsaGYxUG5WUFBCVjYyQ2dMcDdrOWVSVXdvTXIyQ0c1UEtuam9LM3NnUTBuMXZqbUdFZG5NQlliZXd6OTZZV3pwM1RWSTRWWVpSSWd0MkJ0VEFCX0pfTGtNc3BNU21nbTA2WFJGaFFRWEVDaks5dEE?oc=5",
-          "summary": "Headline only, not checked article text: Lumentum’s stock pops as investors cheer a possible sale to Marvell"
+          "kind": "News-index headline · Lead Stories · 2026-10-29",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNN3RzdVRFanZXcEFhTS1JUTBfQjkxZUt0OWNfbXBrOWdoQWhscGIzWk1iQWJhNmpING1zb1VFS3lzZlI4X09hdHc1bHVQZ0dpZHh4Qkl2VHN5a0h3elZkT3I3RnJBVVJyNE03VHlnTTdhaG41SHY1UkV3c185NGh1RG0xVkFpLVFvWjN4VUFsTW85VG9QbzcyeF9aS2s0SFl1REZadjNyczdDSDE2?oc=5",
+          "summary": "Headline only, not checked article text: Fact Check: FAKE Video of Susan Dell Dancing Was AI-Generated"
         },
         {
           "id": "S14",
-          "kind": "News-index headline · Yahoo Finance · 2026-10-29",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOLTZ5VzVmcVR6LUZFQzZrRHY2cHhBTzFsUnN0UHR3cWZDeVdMNTBYRHRoR0VxeGFfNGhZSE00dVo2bXBCVWxfOFZBWi01dFhsTUpXWnRpWk1SMGl4YXVyN3pvTExjVnM4QnE4RF9OS3gyckMzQl9wU21YcVl5aExfb1AxZ1o0SDNqbFlhZXRSOURvbThCRkdVV21yZlZZemNwZjdJRWVPTnhPTHhS?oc=5",
-          "summary": "Headline only, not checked article text: Marvell Technology (MRVL) Is Reportedly In Advanced Talks For An Optics Acquisition"
+          "kind": "News-index headline · Yahoo Finance Singapore · 2026-10-29",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE15UWgtRVV2TlR0b3IwUzc4RkR1c21EUUtqa3NyQ0t3cUh0OWdoTXJKYVdFUVdIal80Smw4R2ZPX3ZPblFuOEhzVFJneEYxQzJxeWlFWjZjRXpKWjRkZEdLRGRB?oc=5",
+          "summary": "Headline only, not checked article text: Dell Technologies Inc. (DELL) Seasonal returns chart"
         },
         {
           "id": "S15",
-          "kind": "News-index headline · Investor's Business Daily · 2026-10-29",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPbDdON20wRHQtb0VybWNKWWJqZFQ3aEFYYXlYQzFONUVjdTNfcHR5QnNGckFWMzlrRW5PVEhwSUJ1TWRHMFFiTzI3RWtJbWYyZ0JoSU5LSGNOYU16NkFINEJlU0pBZHRwYV9WbU9FN2dQMjh2WU1pVVQxanBHbkhaeld3d2Y?oc=5",
-          "summary": "Headline only, not checked article text: Lumentum Jumps On Marvell Buyout Report"
+          "kind": "News-index headline · MarketBeat · 2026-10-29",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPOVJuSmhVMHlvMTZHdWxhczBoaWluQkZzYlFicVNYeTl4U2lUQ3g0NjVTNVpVbkJ6MG51XzJEUFZkTVFWSVg4ZTk3d2o3TS1OZ2FURkdOUjdoQjgzN1FuWTRjSnB1UGtVRzFfRWpSZzJaY0YybjZ2d0E5Z3JYSE5xdkRCZ2pmWG0yb3k3aVRHZG5zdVRrRU9Nd042RlFPdVdEX3BFeW9icnp6Ry1lX3A1RVFJZjJ0QQ?oc=5",
+          "summary": "Headline only, not checked article text: Dell Technologies (NYSE:DELL) Shares Down 3.6% - Time to Sell?"
         },
         {
           "id": "S16",
-          "kind": "News-index headline · 24/7 Wall St. · 2026-10-29",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQRXUxeTZna1Y4N2lnNUd2UGxCaXdfMFI3Nk5CS2Y1ZVFubjdNS1h6NGxvY1gxd3BEYzg3V1h4M0Q3a3dGbFJDY29OR0lWdnAxYkRBTlJlN1c5ZmhqUlNkWXJPOVA5U25KWG16cWltY3JBQmF1bEZDVG9peWRTc1N5LWhvLU1PWVJ5QzNUeDVvdF8xQmZrbkY0eXByYw?oc=5",
-          "summary": "Headline only, not checked article text: Marvell Wants Lumentum. Here’s Why Coherent Could Win."
+          "kind": "News-index headline · Investing.com UK · 2026-10-29",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQUkZIb3RSaGVuZ0xDMnozSWF3dThwckRrckhMM0gyNUxYcjNnaVZWUW44bFZoMGlRczFUODhFR0o5SUVmWDktRWhlM3lqNVp6cW5oRVotWTJfbHFoYXNLVWtkVll2M3BNS0h3cTFyQUhLd0RfMUVlOXl6Rjg5UVVwMHk4aVhHT3NUZm5WNkdwcTRCaS1mNDVRak1uM1diR2JCdDFBV04wbw?oc=5",
+          "summary": "Headline only, not checked article text: Form 4 Dell Technologies Inc For: 29 October By Investing.com"
         },
         {
           "id": "S17",
-          "kind": "News-index headline · BigGo Finance · 2026-10-29",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE44MnJoNzhrWS1nSnc5cDJPeUNMY2xWU1E3SDA2VVRkSEdlQWVjc1Z2bFptOVRtMXlodEhvR1E2cThxa2tHRk1mWnltRnhDNE5ieU9DQklvZ3BnUzg2NldPTVRqbnNZdmkya3BDR3dhUXpxSDctaHc?oc=5",
-          "summary": "Headline only, not checked article text: Marvell Said to Weigh Blockbuster Lumentum Deal That Could Rank Among Biggest Tech-Telecom M&A Ever"
+          "kind": "News-index headline · Quiver Quantitative · 2026-10-29",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOc09BMVNJaDExRkh6M1pxekRKRTJUMFV5VkJ3bjhIMVpsbE5FblJBQVV0Tks1RE1BMzRuc25GMHZxMUs3ME1QVWhnNmZiZ3pWdmxCNkNPZWpUejRBcG1zWHY0UWRnSXFMbk1oUklGYXFjeTEzazQ2ckpmMVI0Z3NRNENSajBfVnpsTVBfaTVB?oc=5",
+          "summary": "Headline only, not checked article text: Why Dell Technologies (DELL) Stock Is Down Today"
         }
       ],
       "filings": {
-        "submissions_url": "https://data.sec.gov/submissions/CIK0001835632.json",
+        "submissions_url": "https://data.sec.gov/submissions/CIK0001571996.json",
         "recent_filings": [
           {
             "form": "8-K",
-            "filed": "2026-10-23",
-            "url": "https://www.sec.gov/Archives/edgar/data/1835632/000119312526430424/d147430d8k.htm",
-            "accession": "0001193125-26-430424"
+            "filed": "2026-10-21",
+            "url": "https://www.sec.gov/Archives/edgar/data/1571996/000119312526427920/d163575d8k.htm",
+            "accession": "0001193125-26-427920"
           },
           {
             "form": "8-K",
-            "filed": "2026-09-25",
-            "url": "https://www.sec.gov/Archives/edgar/data/1835632/000162828026063592/mrvl-20260925.htm",
-            "accession": "0001628280-26-063592"
+            "filed": "2026-09-15",
+            "url": "https://www.sec.gov/Archives/edgar/data/1571996/000119312526391976/d172674d8k.htm",
+            "accession": "0001193125-26-391976"
+          },
+          {
+            "form": "8-K",
+            "filed": "2026-09-10",
+            "url": "https://www.sec.gov/Archives/edgar/data/1571996/000119312526387958/d150030d8k.htm",
+            "accession": "0001193125-26-387958"
           },
           {
             "form": "10-Q",
-            "filed": "2026-08-28",
-            "url": "https://www.sec.gov/Archives/edgar/data/1835632/000183563226000025/mrvl-20260801.htm",
-            "accession": "0001835632-26-000025"
+            "filed": "2026-09-08",
+            "url": "https://www.sec.gov/Archives/edgar/data/1571996/000157199626000046/dell-20260731.htm",
+            "accession": "0001571996-26-000046"
           },
           {
             "form": "8-K",
-            "filed": "2026-08-27",
-            "url": "https://www.sec.gov/Archives/edgar/data/1835632/000183563226000022/mrvl-20260827.htm",
-            "accession": "0001835632-26-000022"
-          },
-          {
-            "form": "8-K",
-            "filed": "2026-08-19",
-            "url": "https://www.sec.gov/Archives/edgar/data/1835632/000119312526356217/d412696d8k.htm",
-            "accession": "0001193125-26-356217"
+            "filed": "2026-09-01",
+            "url": "https://www.sec.gov/Archives/edgar/data/1571996/000157199626000039/dell-20260901.htm",
+            "accession": "0001571996-26-000039"
           }
         ],
         "priority_filings": [
           {
             "form": "10-K",
-            "filed": "2026-03-11",
-            "url": "https://www.sec.gov/Archives/edgar/data/1835632/000183563226000011/mrvl-20260131.htm",
-            "accession": "0001835632-26-000011"
+            "filed": "2026-03-16",
+            "url": "https://www.sec.gov/Archives/edgar/data/1571996/000157199626000008/dell-20260130.htm",
+            "accession": "0001571996-26-000008"
           },
           {
             "form": "10-Q",
-            "filed": "2026-08-28",
-            "url": "https://www.sec.gov/Archives/edgar/data/1835632/000183563226000025/mrvl-20260801.htm",
-            "accession": "0001835632-26-000025"
+            "filed": "2026-09-08",
+            "url": "https://www.sec.gov/Archives/edgar/data/1571996/000157199626000046/dell-20260731.htm",
+            "accession": "0001571996-26-000046"
           },
           {
             "form": "8-K",
-            "filed": "2026-10-23",
-            "url": "https://www.sec.gov/Archives/edgar/data/1835632/000119312526430424/d147430d8k.htm",
-            "accession": "0001193125-26-430424"
+            "filed": "2026-10-21",
+            "url": "https://www.sec.gov/Archives/edgar/data/1571996/000119312526427920/d163575d8k.htm",
+            "accession": "0001193125-26-427920"
           }
         ],
         "read_passages": [
           {
             "form": "10-K",
-            "filed": "2026-03-11",
-            "url": "https://www.sec.gov/Archives/edgar/data/1835632/000183563226000011/mrvl-20260131.htm",
-            "text": "Management discussion: Management’s Discussion and Analysis of Financial Condition and Results of Operations” of this Annual Report on Form 10-K for further information. 9 Table of Contents Manufacturing Integrated Circuit Fabrication The vast majority of our integrated circuits are fabricated using available CMOS processes, which is intended to provide greater flexibility to engage independent foundries to manufacture integrated circuits at lower costs. By outsourcing Risk factors: Risk Factors.” These forward-looking statements speak only as of the date hereof. Unless required by law, we undertake no obligation to update publicly any forward-looking statements. 2 Table of Contents PART I Item 1. Business Our Company Marvell Technology, Inc., together with its consolidated subsidiaries (“Marvell,” “MTI,” the “Company,” “we,” or “us”) is a leading supplier of data infrastructure semiconductor solutions, spanning the data cen Business overview: Item 1. Business Our Company Marvell Technology, Inc., together with its consolidated subsidiaries (“Marvell,” “MTI,” the “Company,” “we,” or “us”) is a leading supplier of data infrastructure semiconductor solutions, spanning the data center core to network edge. We are a fabless supplier o"
+            "filed": "2026-03-16",
+            "url": "https://www.sec.gov/Archives/edgar/data/1571996/000157199626000008/dell-20260130.htm",
+            "text": "Management discussion: Management’s Discussion and Analysis of Financial Condition and Results of Operations — Results of Operations — Business Unit Results” and Note 18 of the Notes to the Consolidated Financial Statements included in this report. Dell Payment Solutions Our customers seek choice in how they acquire our solutions and look to remove cost and complexity, align offerings with their business needs, and provide consistent, high-quality operations throughout Risk factors: Risk Factors 16 Item 1B. Unresolved Staff Comments 31 Item 1C. Cybersecurity 31 Item 2. Properties 33 Item 3. Legal Proceedings 33 Item 4. Mine Safety Disclosures 33 PART II Item 5. Market for Registrant’s Common Equity, Related Stockholder Matters and Issuer Purchases of Equity Securities 34 Item 6. [Reserved] 36 Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations 37 Item 7A. Quantitative and Qualitative Business overview: Item 1. Business 5 Item 1A. Risk Factors 16 Item 1B. Unresolved Staff Comments 31 Item 1C. Cybersecurity 31 Item 2. Properties 33 Item 3. Legal Proceedings 33 Item 4. Mine Safety Disclosures 33 PART II Item 5. Market for Registrant’s Common Equity, Related Stockholder Matters and Issuer Purc"
           },
           {
             "form": "10-Q",
-            "filed": "2026-08-28",
-            "url": "https://www.sec.gov/Archives/edgar/data/1835632/000183563226000025/mrvl-20260801.htm",
-            "text": "Management discussion: Management’s Discussion and Analysis of Financial Condition and Results of Operations This Quarterly Report on Form 10-Q contains forward-looking statements within the meaning of Section 27A of the Securities Act of 1933, as amended (the “Securities Act”), and Section 21E of the Securities Exchange Act of 1934, as amended (the “Exchange Act”), which are subject to the “safe harbor” created by those sections. These statements involve known and unk Risk factors: Risk Factors,” and other sections of this Quarterly Report on Form 10-Q. These forward-looking statements speak only as of the date hereof. Unless required by law, we undertake no obligation to update any forward-looking statements. Overview We are a leading supplier of data infrastructure semiconductor solutions, spanning the data center core to network edge. We are a fabless supplier of high-performance semiconductor products with core strength"
+            "filed": "2026-09-08",
+            "url": "https://www.sec.gov/Archives/edgar/data/1571996/000157199626000046/dell-20260731.htm",
+            "text": "Management discussion: MANAGEMENT’S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS This management’s discussion and analysis should be read in conjunction with the audited Consolidated Financial Statements and accompanying Notes included in the Company’s Annual Report on Form 10-K for the fiscal year ended January 30, 2026 and the unaudited Condensed Consolidated Financial Statements included in this report. In addition to historical financial Risk factors: Risk Factors 69 Item 2. Unregistered Sales of Equity Securities and Use of Proceeds 69 Item 5. Other Information 70 Item 6. Exhibits 71 Signatures 73 3 Table of Contents PART I — FINANCIAL INFORMATION ITEM 1 — FINANCIAL STATEMENTS (UNAUDITED) Index Page Condensed Consolidated Statements of Financial Position as of July 31, 2026 and January 30, 2026 5 Condensed Consolidated Statements of Income for the three and six months ended July 31, 2026 and "
           },
           {
             "form": "8-K",
-            "filed": "2026-10-23",
-            "url": "https://www.sec.gov/Archives/edgar/data/1835632/000119312526430424/d147430d8k.htm",
-            "text": "Filing excerpt: UNITED STATES SECURITIES AND EXCHANGE COMMISSION Washington, D.C. 20549 FORM 8-K CURRENT REPORT Pursuant to Section 13 or 15(d) of the Securities Exchange Act of 1934 Date of Report: October 22, 2026 (Date of earliest event reported) MARVELL TECHNOLOGY, INC. (Exact name of registrant as specified in its charter) Delaware 001-40357 85-3971597 (State or other jurisdiction of incorporation) (Commission File Number) (IRS Employer Identification No.) "
+            "filed": "2026-10-21",
+            "url": "https://www.sec.gov/Archives/edgar/data/1571996/000119312526427920/d163575d8k.htm",
+            "text": "Filing excerpt: UNITED STATES SECURITIES AND EXCHANGE COMMISSION Washington, D.C. 20549 FORM 8-K CURRENT REPORT Pursuant to Section 13 or 15(d) of the Securities Exchange Act of 1934 Date of Report (Date of earliest event reported): October 19, 2026 Dell Technologies Inc. (Exact name of registrant as specified in its charter) Texas 001-37867 80-0890963 (State or other jurisdiction of incorporation) (Commission File Number) (IRS Employer Identification No.) One D"
           }
         ],
         "fetch_issues": []
       },
       "investment_role": "Candidate for multi-year valuation research, not an approved trade.",
       "qualitative_context": {
-        "asof_utc": "2026-10-29T02:29:18.314058+00:00",
-        "search_url": "https://news.google.com/rss/search?q=%22MARVELL%20TECHNOLOGY%22%20when%3A7d&hl=en-US&gl=US&ceid=US:en",
+        "asof_utc": "2026-10-30T02:25:34.264716+00:00",
+        "search_url": "https://news.google.com/rss/search?q=%22Dell%20Technologies%22%20when%3A7d&hl=en-US&gl=US&ceid=US:en",
         "news_window_days": 7,
         "headline_sample": [
           {
-            "title": "Marvell Technology (MRVL) in Talks to Acquire Lumentum Holdings",
-            "published_utc": "2026-10-29T01:30:00+00:00",
-            "publisher": "GuruFocus",
-            "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQekkzNnJ2TVVkYXlhSjdqeXlyeWduRVVWcjZPdzhuQ3lvUWJFNjdUYVpOQVFqYjdDbkNGOEFKQWJXaEh3VFhLS09LZDFVZTloMUZTUmRReFZqMmhieHRONy15S1JWZHVWMlhkeWcwc2N1TFZOZjNwbWN1aEVQRmt4ckRZdkhfdnowajRCLUZaRDZTMjJQSm1FYmMzVExueldwVmc?oc=5",
+            "title": "HPQ, DELL Stocks Plunge After Intel Flags Prolonged PC Market Weakness",
+            "published_utc": "2026-10-30T01:40:00+00:00",
+            "publisher": "TradingView",
+            "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNOTE0SFpFOFJ3MHdGNFNPejZiNE0wMjBQTXF2M3Z2bmNlU0YxbVZMcXllNnRFZ0tvRi10RG40c1dZUEM4aHduUF9tbXh1SUFlTDh5b0ZxMW1xaGNrdm0tZV9BdGxmVzZSdnVsOEQwMU05TXhrRzlUY01hVlFmUV9oWTg5ZjNCeW83aG1kZEliQU5DcjRrQWhEaGliUXA2cEtRSHktQVpZdkNFTmMwQVNtaXkwT3pxS0o2UzBDV1RQTlZBQXd4Q19KSDZR?oc=5",
             "topic": "other"
           },
           {
-            "title": "Lumentum’s stock pops as investors cheer a possible sale to Marvell",
-            "published_utc": "2026-10-29T01:20:00+00:00",
-            "publisher": "MarketWatch",
-            "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxORVROZ19hYjgyRW5UWnB2dkFPb2FQbWRiZlJYOEQzRURxNTE3WUdqOU9seFZHaDh4YVVBRW9ONlFsaGYxUG5WUFBCVjYyQ2dMcDdrOWVSVXdvTXIyQ0c1UEtuam9LM3NnUTBuMXZqbUdFZG5NQlliZXd6OTZZV3pwM1RWSTRWWVpSSWd0MkJ0VEFCX0pfTGtNc3BNU21nbTA2WFJGaFFRWEVDaks5dEE?oc=5",
+            "title": "Fact Check: FAKE Video of Susan Dell Dancing Was AI-Generated",
+            "published_utc": "2026-10-29T22:11:04+00:00",
+            "publisher": "Lead Stories",
+            "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNN3RzdVRFanZXcEFhTS1JUTBfQjkxZUt0OWNfbXBrOWdoQWhscGIzWk1iQWJhNmpING1zb1VFS3lzZlI4X09hdHc1bHVQZ0dpZHh4Qkl2VHN5a0h3elZkT3I3RnJBVVJyNE03VHlnTTdhaG41SHY1UkV3c185NGh1RG0xVkFpLVFvWjN4VUFsTW85VG9QbzcyeF9aS2s0SFl1REZadjNyczdDSDE2?oc=5",
             "topic": "other"
           },
           {
-            "title": "Marvell Technology (MRVL) Is Reportedly In Advanced Talks For An Optics Acquisition",
-            "published_utc": "2026-10-29T01:10:00+00:00",
-            "publisher": "Yahoo Finance",
-            "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOLTZ5VzVmcVR6LUZFQzZrRHY2cHhBTzFsUnN0UHR3cWZDeVdMNTBYRHRoR0VxeGFfNGhZSE00dVo2bXBCVWxfOFZBWi01dFhsTUpXWnRpWk1SMGl4YXVyN3pvTExjVnM4QnE4RF9OS3gyckMzQl9wU21YcVl5aExfb1AxZ1o0SDNqbFlhZXRSOURvbThCRkdVV21yZlZZemNwZjdJRWVPTnhPTHhS?oc=5",
+            "title": "Dell Technologies Inc. (DELL) Seasonal returns chart",
+            "published_utc": "2026-10-29T21:54:09+00:00",
+            "publisher": "Yahoo Finance Singapore",
+            "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE15UWgtRVV2TlR0b3IwUzc4RkR1c21EUUtqa3NyQ0t3cUh0OWdoTXJKYVdFUVdIal80Smw4R2ZPX3ZPblFuOEhzVFJneEYxQzJxeWlFWjZjRXpKWjRkZEdLRGRB?oc=5",
             "topic": "other"
           },
           {
-            "title": "Lumentum Jumps On Marvell Buyout Report",
-            "published_utc": "2026-10-29T01:09:00+00:00",
-            "publisher": "Investor's Business Daily",
-            "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPbDdON20wRHQtb0VybWNKWWJqZFQ3aEFYYXlYQzFONUVjdTNfcHR5QnNGckFWMzlrRW5PVEhwSUJ1TWRHMFFiTzI3RWtJbWYyZ0JoSU5LSGNOYU16NkFINEJlU0pBZHRwYV9WbU9FN2dQMjh2WU1pVVQxanBHbkhaeld3d2Y?oc=5",
+            "title": "Dell Technologies (NYSE:DELL) Shares Down 3.6% - Time to Sell?",
+            "published_utc": "2026-10-29T21:31:14+00:00",
+            "publisher": "MarketBeat",
+            "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPOVJuSmhVMHlvMTZHdWxhczBoaWluQkZzYlFicVNYeTl4U2lUQ3g0NjVTNVpVbkJ6MG51XzJEUFZkTVFWSVg4ZTk3d2o3TS1OZ2FURkdOUjdoQjgzN1FuWTRjSnB1UGtVRzFfRWpSZzJaY0YybjZ2d0E5Z3JYSE5xdkRCZ2pmWG0yb3k3aVRHZG5zdVRrRU9Nd042RlFPdVdEX3BFeW9icnp6Ry1lX3A1RVFJZjJ0QQ?oc=5",
             "topic": "other"
           },
           {
-            "title": "Marvell Wants Lumentum. Here’s Why Coherent Could Win.",
-            "published_utc": "2026-10-29T00:44:00+00:00",
-            "publisher": "24/7 Wall St.",
-            "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQRXUxeTZna1Y4N2lnNUd2UGxCaXdfMFI3Nk5CS2Y1ZVFubjdNS1h6NGxvY1gxd3BEYzg3V1h4M0Q3a3dGbFJDY29OR0lWdnAxYkRBTlJlN1c5ZmhqUlNkWXJPOVA5U25KWG16cWltY3JBQmF1bEZDVG9peWRTc1N5LWhvLU1PWVJ5QzNUeDVvdF8xQmZrbkY0eXByYw?oc=5",
+            "title": "Form 4 Dell Technologies Inc For: 29 October By Investing.com",
+            "published_utc": "2026-10-29T19:02:00+00:00",
+            "publisher": "Investing.com UK",
+            "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQUkZIb3RSaGVuZ0xDMnozSWF3dThwckRrckhMM0gyNUxYcjNnaVZWUW44bFZoMGlRczFUODhFR0o5SUVmWDktRWhlM3lqNVp6cW5oRVotWTJfbHFoYXNLVWtkVll2M3BNS0h3cTFyQUhLd0RfMUVlOXl6Rjg5UVVwMHk4aVhHT3NUZm5WNkdwcTRCaS1mNDVRak1uM1diR2JCdDFBV04wbw?oc=5",
             "topic": "other"
           },
           {
-            "title": "Marvell Said to Weigh Blockbuster Lumentum Deal That Could Rank Among Biggest Tech-Telecom M&A Ever",
-            "published_utc": "2026-10-29T00:35:00+00:00",
-            "publisher": "BigGo Finance",
-            "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE44MnJoNzhrWS1nSnc5cDJPeUNMY2xWU1E3SDA2VVRkSEdlQWVjc1Z2bFptOVRtMXlodEhvR1E2cThxa2tHRk1mWnltRnhDNE5ieU9DQklvZ3BnUzg2NldPTVRqbnNZdmkya3BDR3dhUXpxSDctaHc?oc=5",
+            "title": "Why Dell Technologies (DELL) Stock Is Down Today",
+            "published_utc": "2026-10-29T18:33:00+00:00",
+            "publisher": "Quiver Quantitative",
+            "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOc09BMVNJaDExRkh6M1pxekRKRTJUMFV5VkJ3bjhIMVpsbE5FblJBQVV0Tks1RE1BMzRuc25GMHZxMUs3ME1QVWhnNmZiZ3pWdmxCNkNPZWpUejRBcG1zWHY0UWRnSXFMbk1oUklGYXFjeTEzazQ2ckpmMVI0Z3NRNENSajBfVnpsTVBfaTVB?oc=5",
             "topic": "other"
           }
         ],
@@ -311,303 +311,326 @@
     },
     {
       "kind": "equity",
-      "ticker": "VSXY",
-      "name": "VICTORIA'S SECRET & CO.",
+      "ticker": "MPC",
+      "name": "Marathon Petroleum Corporation",
       "metrics": {
-        "ticker": "VSXY",
-        "name": "VICTORIA'S SECRET & CO.",
-        "fiscal_year_end": "2026-01-31",
-        "market_cap_usd": 7609489408.0,
-        "forward_pe": 16.88944,
-        "revenue_usd": 6553000000.0,
-        "revenue_growth_yoy_pct": 5.18,
-        "net_income_usd": 161000000.0,
-        "operating_cash_usd": 499000000.0,
-        "capital_spending_usd": 187000000.0,
-        "fcf_usd": 312000000.0,
-        "fcf_yield_pct": 4.1,
+        "ticker": "MPC",
+        "name": "Marathon Petroleum Corporation",
+        "fiscal_year_end": "2025-12-31",
+        "market_cap_usd": 121459523584.0,
+        "forward_pe": 7.1717143,
+        "revenue_usd": 132699000000.0,
+        "revenue_growth_yoy_pct": -4.44,
+        "net_income_usd": 4047000000.0,
+        "operating_cash_usd": 8253000000.0,
+        "capital_spending_usd": 3486000000.0,
+        "fcf_usd": 4767000000.0,
+        "fcf_yield_pct": 3.92,
         "fcf_positive_years": 3,
         "fcf_years_available": 3,
-        "cash_usd": 522000000.0,
-        "debt_usd": 971000000.0,
-        "price_implied_fcf_growth_pct": 21.47,
+        "cash_usd": 7768000000.0,
+        "debt_usd": 3311000000.0,
+        "price_implied_fcf_growth_pct": 22.65,
         "reverse_model_required_return_pct": 11.0,
         "reverse_model_terminal_growth_pct": 2.0,
         "scenario_sensitivity": {
           "no_growth": {
             "annual_fcf_growth_assumed_pct": 0.0,
-            "illustrative_equity_value_usd": 3251563765.52,
-            "value_as_pct_of_current_market_cap": 42.73
+            "illustrative_equity_value_usd": 49680142532.83,
+            "value_as_pct_of_current_market_cap": 40.9
           },
           "moderate_growth": {
             "annual_fcf_growth_assumed_pct": 5.0,
-            "illustrative_equity_value_usd": 4002741258.62,
-            "value_as_pct_of_current_market_cap": 52.6
+            "illustrative_equity_value_usd": 61157267884.14,
+            "value_as_pct_of_current_market_cap": 50.35
           },
           "fast_growth": {
             "annual_fcf_growth_assumed_pct": 10.0,
-            "illustrative_equity_value_usd": 4897905759.54,
-            "value_as_pct_of_current_market_cap": 64.37
+            "illustrative_equity_value_usd": 74834348576.12,
+            "value_as_pct_of_current_market_cap": 61.61
           }
         },
         "annual_history": [
           {
-            "fiscal_year_ended": "2026-01-31",
-            "revenue_usd": 6553000000.0,
-            "free_cash_flow_usd": 312000000.0
+            "fiscal_year_ended": "2025-12-31",
+            "revenue_usd": 132699000000.0,
+            "free_cash_flow_usd": 4767000000.0
           },
           {
-            "fiscal_year_ended": "2025-02-01",
-            "revenue_usd": 6230000000.0,
-            "free_cash_flow_usd": 247000000.0
+            "fiscal_year_ended": "2024-12-31",
+            "revenue_usd": 138864000000.0,
+            "free_cash_flow_usd": 6132000000.0
           },
           {
-            "fiscal_year_ended": "2024-02-03",
-            "revenue_usd": 6182000000.0,
-            "free_cash_flow_usd": 133000000.0
+            "fiscal_year_ended": "2023-12-31",
+            "revenue_usd": 148379000000.0,
+            "free_cash_flow_usd": 12227000000.0
           }
         ]
       },
       "price_context": {
-        "last_price_date": "2026-10-28",
-        "last_close_usd": 95.4,
-        "return_last_year_pct": 173.59,
-        "voo_same_year_pct": 13.98,
-        "relative_to_voo_year_pp": 159.61,
-        "momentum_3m_pct": 8.11,
-        "momentum_6m_pct": 87.5,
+        "last_price_date": "2026-10-29",
+        "last_close_usd": 432.51,
+        "return_last_year_pct": 128.78,
+        "voo_same_year_pct": 13.26,
+        "relative_to_voo_year_pp": 115.52,
+        "momentum_3m_pct": 37.04,
+        "momentum_6m_pct": 75.34,
         "above_200d_average": true
       },
       "sources": [
         {
           "id": "S1",
           "kind": "SEC company financial facts",
-          "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001856437.json",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001510295.json",
           "summary": "SEC filed annual statements; values computed in verified_metrics, including fiscal year and filing dates."
         },
         {
           "id": "S2",
           "kind": "Market screener snapshot",
-          "url": "https://finance.yahoo.com/quote/VSXY/financials/",
+          "url": "https://finance.yahoo.com/quote/MPC/financials/",
           "summary": "Yahoo screen-forward P/E and as-of market capitalization are non-audited and change daily."
         },
         {
           "id": "S3",
           "kind": "SEC submissions",
-          "url": "https://data.sec.gov/submissions/CIK0001856437.json",
+          "url": "https://data.sec.gov/submissions/CIK0001510295.json",
           "summary": "Dated SEC filing history, including recent 10-Q and 8-K documents."
         },
         {
           "id": "S4",
-          "kind": "8-K filed 2026-10-09",
-          "url": "https://www.sec.gov/Archives/edgar/data/1856437/000185643726000023/vsco-20261007.htm",
+          "kind": "8-K filed 2026-10-29",
+          "url": "https://www.sec.gov/Archives/edgar/data/1510295/000151029526000063/mpc-20261028.htm",
           "summary": "8-K primary filing document; examine before relying on management claims."
         },
         {
           "id": "S5",
-          "kind": "10-Q filed 2026-09-04",
-          "url": "https://www.sec.gov/Archives/edgar/data/1856437/000185643726000021/vsco-20260801.htm",
+          "kind": "10-Q filed 2026-08-04",
+          "url": "https://www.sec.gov/Archives/edgar/data/1510295/000151029526000061/mpc-20260630.htm",
           "summary": "10-Q primary filing document; examine before relying on management claims."
         },
         {
           "id": "S6",
-          "kind": "8-K filed 2026-09-03",
-          "url": "https://www.sec.gov/Archives/edgar/data/1856437/000185643726000019/vsco-20260903.htm",
+          "kind": "8-K filed 2026-08-04",
+          "url": "https://www.sec.gov/Archives/edgar/data/1510295/000151029526000060/mpc-20260804.htm",
           "summary": "8-K primary filing document; examine before relying on management claims."
         },
         {
           "id": "S7",
-          "kind": "8-K filed 2026-08-20",
-          "url": "https://www.sec.gov/Archives/edgar/data/1856437/000185643726000017/vsco-20260818.htm",
+          "kind": "8-K filed 2026-06-29",
+          "url": "https://www.sec.gov/Archives/edgar/data/1510295/000151029526000055/mpc-20260626.htm",
           "summary": "8-K primary filing document; examine before relying on management claims."
         },
         {
           "id": "S8",
-          "kind": "10-K primary filing, 2026-03-20",
-          "url": "https://www.sec.gov/Archives/edgar/data/1856437/000185643726000004/vsco-20260131.htm",
+          "kind": "10-K primary filing, 2026-02-26",
+          "url": "https://www.sec.gov/Archives/edgar/data/1510295/000151029526000009/mpc-20251231.htm",
           "summary": "Official company filing. The cited report is a research lead, not an independently verified claim."
         },
         {
           "id": "S9",
-          "kind": "10-K read passages, filed 2026-03-20",
-          "url": "https://www.sec.gov/Archives/edgar/data/1856437/000185643726000004/vsco-20260131.htm",
-          "summary": "Management discussion: Management’s Discussion and Analysis of Financial Condition and Results of Operations. Competition The women’s intimates, apparel and beauty industry is highly competitive. We differentiate ourselves from our competitors by leveraging our powerful brand equity, unmatched scale and commitment to high-quality, innovative products. Our competition includes specialty retailers, department stores, mass merchandisers, online retailers, discount retaile Risk factors: RISK FACTORS. RISK FACTORS Investing in our common stock or other securities involves risk. You should carefully consider each of the following risks and all of the other information contained in this Annual Report on Form 10-K when evaluating our business. Our business, prospects, results of operations, financial condition or cash flows could be materially and adversely affected by any of these risks, as well as additional risks and uncertaintie Business overview: ITEM 1. BUSINESS. General Victoria’s Secret & Co. (together with its subsidiaries unless the context otherwise requires, “we”, “us”, “our” or the “Company”) is a specialty retailer of women’s intimates and other apparel and beauty products marketed under the Victoria’s Secret, PINK and Adore"
+          "kind": "10-K read passages, filed 2026-02-26",
+          "url": "https://www.sec.gov/Archives/edgar/data/1510295/000151029526000009/mpc-20251231.htm",
+          "summary": "Management discussion: Management’s Discussion and Analysis of Financial Condition and Results of Operations and Item 7A. Quantitative and Qualitative Disclosures about Market Risk includes forward-looking statements that are subject to risks, contingencies or uncertainties. You can identify forward-looking statements by words such as “advance,” “anticipate,” “believe,” “commitment,” “continue,” “could,” “design,” “drive,” “endeavor,” “estimate,” “expect,” “focus,” “fo Risk factors: Risk Factors, Item 3. Legal Proceedings, Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations and Item 7A. Quantitative and Qualitative Disclosures about Market Risk includes forward-looking statements that are subject to risks, contingencies or uncertainties. You can identify forward-looking statements by words such as “advance,” “anticipate,” “believe,” “commitment,” “continue,” “could,” “design,” “drive Business overview: Item 1. Business, Item 1A. Risk Factors, Item 3. Legal Proceedings, Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations and Item 7A. Quantitative and Qualitative Disclosures about Market Risk includes forward-looking statements that are subject to ri"
         },
         {
           "id": "S10",
-          "kind": "10-Q read passages, filed 2026-09-04",
-          "url": "https://www.sec.gov/Archives/edgar/data/1856437/000185643726000021/vsco-20260801.htm",
-          "summary": "Management discussion: MANAGEMENT'S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS The following discussion and analysis of financial condition and results of operations are based upon our Consolidated Financial Statements, which have been prepared in accordance with GAAP. The following information should be read in conjunction with our financial statements and the related notes included in Item 1. Financial Statements. References to “we,” “us Risk factors: Risk Factors” in our 2025 Annual Report on Form 10-K filed with the SEC on March 20, 2026. Item 2. MANAGEMENT'S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS The following discussion and analysis of financial condition and results of operations are based upon our Consolidated Financial Statements, which have been prepared in accordance with GAAP. The following information should be read in conjunction with our financial"
+          "kind": "10-Q read passages, filed 2026-08-04",
+          "url": "https://www.sec.gov/Archives/edgar/data/1510295/000151029526000061/mpc-20260630.htm",
+          "summary": "Management discussion: Management’s Discussion and Analysis of Financial Condition and Results of Operations This section should also be read in conjunction with the unaudited consolidated financial statements and accompanying footnotes included under Item 1. Financial Statements and in conjunction with our Annual Report on Form 10-K for the year ended December 31, 2025. DISCLOSURES REGARDING FORWARD-LOOKING STATEMENTS This Quarterly Report on Form 10-Q, particularly I Risk factors: risk factors affecting our business, see the risk factors described in our Annual Report on Form 10-K for the year ended December 31, 2025. We undertake no obligation to update any forward-looking statements except to the extent required by applicable law. EXECUTIVE SUMMARY Business and Economic Environment Update Our Refining & Marketing segment results for the second quarter of 2026 versus the second quarter of 2025 reflect higher realized refi"
         },
         {
           "id": "S11",
-          "kind": "8-K read passages, filed 2026-10-09",
-          "url": "https://www.sec.gov/Archives/edgar/data/1856437/000185643726000023/vsco-20261007.htm",
-          "summary": "Filing excerpt: UNITED STATES SECURITIES AND EXCHANGE COMMISSION WASHINGTON, D.C. 20549 FORM 8-K CURRENT REPORT Pursuant to Section 13 or 15(d) of the Securities Exchange Act of 1934 Date of report (Date of earliest event reported): October 9, 2026 ( October 7, 2026 ) Victoria's Secret & Co. (Exact Name of Registrant as Specified in Its Charter) Delaware (State or other jurisdiction of incorporation) 001-40515 86-3167653 (Commission File Number) (I.R.S. Employer"
+          "kind": "8-K read passages, filed 2026-10-29",
+          "url": "https://www.sec.gov/Archives/edgar/data/1510295/000151029526000063/mpc-20261028.htm",
+          "summary": "Filing excerpt: UNITED STATES SECURITIES AND EXCHANGE COMMISSION Washington, D.C. 20549 _____________________________________________ FORM 8-K _____________________________________________ CURRENT REPORT Pursuant to Section 13 or 15(d) of the Securities Exchange Act of 1934 Date of Report (Date of earliest event reported) October 28, 2026 _____________________________________________ Marathon Petroleum Corporation (Exact name of registrant as specified in its ch"
         },
         {
           "id": "S12",
-          "kind": "News-index headline · Kalkine India · 2026-10-28",
-          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPZjJVNXNuckdoV0hNcTI3M1dJVFBtSkwwNm5DREl1MDVkLU5Lcjd2NjY2X1d2UDJrbzJUUGdzVGVuNUtncF9HZFVnVVNFTDJQNzRzanBJckVFUHZqWXlCYWxwQVZzbWs3TVAtRHM2MElOaWFTQmY5RnpKOXNQcHZrckhNSUtqVl9BUTBaZmMxcHNPYWpBdkhBRUFKc0ViaWhlMHAyRm1ZNjdPVjJqazcxQVpIR2ZyQnJkNFVTREM5RFlyU3dSdzA4bVh5XzlYSVM5T0tqb0h3?oc=5",
-          "summary": "Headline only, not checked article text: Victoria's Secret & Co. (NYSE: VSXY) Dips 2.83% as CCI(20) at 180.25 Signals Deep Overbought-Type"
+          "kind": "News-index headline · GuruFocus · 2026-10-29",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQUjJCdHZibU1pUVRuUmFxYlQ0VVRhdVdERlc1UHdRQUhXcm1JaHFGQXlERnFnWXZ4N01FSUN1WVlMRVdvUDdCWG1NQ1NRbXYwdWttUWk3MGV1dmRCbnBjZVM2N05WRzdFcS1BM25ZMzNlYXJ1VUVzcUR4SHE4TlBLdVJ5UnRYTkQyVlEyREFzMVQtNFp0M3A2eHMySjlSQ251TWVWNEtYenF4aWUyMEJYbXkzNkhNZEtfanhYZnNFaFRjQUNUUWhoQkx3?oc=5",
+          "summary": "Headline only, not checked article text: Marathon Petroleum (MPC) Expands Board to 11 Members, Elects Dav"
         },
         {
           "id": "S13",
-          "kind": "News-index headline · Kalkine Media · 2026-10-27",
-          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPVUFjb1VMSnpjaDk0MHRaYTBPdFVTMnlxdTBGRU9yTjhkV2w4TlJ5VFRobVhnZFJiRzZuQWt5ZEFCOU00X25DV1IzeV8wSkdfcTBGZHJIYnA3YUpUWmtFMTNjbjVMVG5od21DSUZDNmpINnN2NlhseFpkajRleUU5Y19WU1dmejdjdzlFb0dzVlBQVG5Ic0JBVlVOLXJBWVVZRGppZTNnYkZ5QS1YUWVBd3ZxdmVyRHZUWDVXWWZINVQtbHNOMWpjc0VsVUd3UQ?oc=5",
-          "summary": "Headline only, not checked article text: Melinda R. McAfee Executes Sale of 2,500 Victoria's Secret Shares at $95 Under 10b5-1 Plan"
+          "kind": "News-index headline · Yahoo Finance Singapore · 2026-10-29",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBTeXB2TFpOaWphTmRHajFXNkRjQ2ttd0pkcjNUNlRkanRWWUtMdy1hT3lCcG8xM0ZfQkNOTVB1X0U1QUJxWFhrTThOYk55RWJTckRlVVEwVjNQSV9kUzhMZQ?oc=5",
+          "summary": "Headline only, not checked article text: Marathon Petroleum Corporation (MPC) Seasonal returns chart"
         },
         {
           "id": "S14",
-          "kind": "News-index headline · Stock Titan · 2026-10-27",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNLUQ1RVNYN1ZPbTJPRHVVa2t0Yi04REI2NDVPcjNwWDJGaXpNblRPUWZVb0l3al9jUVhRa3UzaTlDbldwMHYyOXRNaEZCMW1KaFYtdW5sMDNIdlNmZUMzbF9kcm9YUzVmYTlNOFJGU0NCbTRDZG00R2p1Wml1RjJjclkxR2FMeHNrRUtYVzczUWdQV181WGl5OTAyZlRVbTlrSjNyY2M5UmxralJOVDRuTEVKc0E?oc=5",
-          "summary": "Headline only, not checked article text: Victoria's Secret (VSXY) legal chief sells shares at $95 under an automatic trading plan."
+          "kind": "News-index headline · Yahoo! Finance Canada · 2026-10-29",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBGYnE2cV9teVVVVWhwNGRjWDBLcW5aNGRiYm9nbFJ4bnNZdHk2aWN6ZEpMTHkySE9ySnJiOTBocEo4QkdQV3JqUTBNS3NxSkxfSERUS01CdFJ4NVNPR2xjag?oc=5",
+          "summary": "Headline only, not checked article text: Marathon Petroleum Corporation (MPC) Seasonal Returns Chart - Yahoo Finance"
         },
         {
           "id": "S15",
-          "kind": "News-index headline · Yahoo Finance UK · 2026-10-27",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE4yOE5xY1c2SWx1LWs2d0VFRVFWX1VkZGlIVzZXZTlPRjg3aWdwd3cxMldjY0JjejM5TzR1blYtZWtiTmxsQUhqVzNWMjNyZXBhd1E?oc=5",
-          "summary": "Headline only, not checked article text: Victorias Secret & Co. (VSXY) stock price, news, quote and history"
+          "kind": "News-index headline · MarketBeat · 2026-10-29",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOMldNZnpNcTdyNTh4NTVNOW16M2xxVWltd1RKakszTkVkNEYwbTlNS3AxMDNuY3lWM0EzQlQ4b0xTc3p5QU9PTWc0UmRzX1c1aTZwVzBHSEQySFZtcDdwNDlBaU9Xdmc0dkZIb1BOaFl1ZnRVcG9hcFZobEtrRmlQYTNzRlZSOHZtNzFuOVJIUlA2ZlVDZDhROVdVVkN3M3hIekNfblk3RVJiSHRWVUhCYm5wb3hqVmVCZmVsVzBXdElhSXctaEE?oc=5",
+          "summary": "Headline only, not checked article text: Marathon Petroleum (NYSE:MPC) Stock Price Down 1.7% - Here's What Happened"
         },
         {
           "id": "S16",
-          "kind": "News-index headline · Yahoo! Finance Canada · 2026-10-27",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9FRzNISDdqcUwwU3plSENPZ09xQzRSTE94T3VhTHN1QXplZnlPUEdYbHMydkJ1eG9BSUZwZ2dRQVNyZnJGTU0xVmliUVVESkZyQ0E?oc=5",
-          "summary": "Headline only, not checked article text: Victorias Secret & Co. (VSXY) Stock Price, News, Quote & History"
+          "kind": "News-index headline · Kalkine Media · 2026-10-29",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPSllGbFBwVm16WERKTVBaVnFyOElfeVBIM291UmsyUm9QVDRzZnQtQXB4YXI2VVpQZFl6enR0aExCNUtIRlhkTGJsbGxFa3JBVERVdFVTMWk2eTZaWFFsT25TMjdhOVV2VkhQb3ZYMHZjTXF3dTlwTzE5d01EV0dGenhmaWV5TXF6UHdzQlp6X3RGR0lhLWZHRzVsbTI4aUI3eXhxU0VPY2wxdGxzTlE?oc=5",
+          "summary": "Headline only, not checked article text: Can Marathon Petroleum (NYSE:MPC) Sustain Strong Refining Performance?"
         },
         {
           "id": "S17",
-          "kind": "News-index headline · GuruFocus · 2026-10-27",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQX2NUSHZsN0VPMVdNUmY0ekJEczVpTUJ3XzFfNzUyaHRhR2FaZHcwd05NS2s2aEtGRFVxSFRrODJQWEZoZTF0RXNDOFdNSGpxV1BqNE1nOXE0X201d2xSbFptVmNEaGc0U2RYNlF5bGdVZnNENHZFc3N2UWFaWHZ6OE9SdDE2dFlIcDBxay01b1lxYTlzaWFlS1l2ZXRlelRSOF80UVRwQ2ZsZ2U4T3hRMVBTQ3l3Zw?oc=5",
-          "summary": "Headline only, not checked article text: A Look at Victoria's Secret & Co (VSXY) After 4.6% Gain -- GF Va"
+          "kind": "News-index headline · Investing.com UK · 2026-10-29",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQWXN0NUhxWGlFSTZXUTFsNTZyTUdsVTNNT3hPd1VRU0lVRTJkNkk2OTgtazhfRHpLQmQyS2xYdDBULXNHaldIcFhGeDBSTVpBeFlfNkRQRjZzeGNhSXNqMjl1Tnc2S0xzZG1GMHNWbUV4WkdVa1dYV3JUbnZkSXFmTjRKNDRvNnJrUTloRmZEYy1XMFo5OGtRRnFUYWkyODlBMUhpTXpHVnB3Yms?oc=5",
+          "summary": "Headline only, not checked article text: Form 8K Marathon Petroleum Corp For: 29 October By Investing.com"
         }
       ],
       "filings": {
-        "submissions_url": "https://data.sec.gov/submissions/CIK0001856437.json",
+        "submissions_url": "https://data.sec.gov/submissions/CIK0001510295.json",
         "recent_filings": [
           {
             "form": "8-K",
-            "filed": "2026-10-09",
-            "url": "https://www.sec.gov/Archives/edgar/data/1856437/000185643726000023/vsco-20261007.htm",
-            "accession": "0001856437-26-000023"
+            "filed": "2026-10-29",
+            "url": "https://www.sec.gov/Archives/edgar/data/1510295/000151029526000063/mpc-20261028.htm",
+            "accession": "0001510295-26-000063"
           },
           {
             "form": "10-Q",
-            "filed": "2026-09-04",
-            "url": "https://www.sec.gov/Archives/edgar/data/1856437/000185643726000021/vsco-20260801.htm",
-            "accession": "0001856437-26-000021"
+            "filed": "2026-08-04",
+            "url": "https://www.sec.gov/Archives/edgar/data/1510295/000151029526000061/mpc-20260630.htm",
+            "accession": "0001510295-26-000061"
           },
           {
             "form": "8-K",
-            "filed": "2026-09-03",
-            "url": "https://www.sec.gov/Archives/edgar/data/1856437/000185643726000019/vsco-20260903.htm",
-            "accession": "0001856437-26-000019"
+            "filed": "2026-08-04",
+            "url": "https://www.sec.gov/Archives/edgar/data/1510295/000151029526000060/mpc-20260804.htm",
+            "accession": "0001510295-26-000060"
           },
           {
             "form": "8-K",
-            "filed": "2026-08-20",
-            "url": "https://www.sec.gov/Archives/edgar/data/1856437/000185643726000017/vsco-20260818.htm",
-            "accession": "0001856437-26-000017"
+            "filed": "2026-06-29",
+            "url": "https://www.sec.gov/Archives/edgar/data/1510295/000151029526000055/mpc-20260626.htm",
+            "accession": "0001510295-26-000055"
           },
           {
-            "form": "8-K",
-            "filed": "2026-06-15",
-            "url": "https://www.sec.gov/Archives/edgar/data/1856437/000185643726000015/vsco-20260611.htm",
-            "accession": "0001856437-26-000015"
+            "form": "10-Q",
+            "filed": "2026-05-05",
+            "url": "https://www.sec.gov/Archives/edgar/data/1510295/000151029526000042/mpc-20260331.htm",
+            "accession": "0001510295-26-000042"
           }
         ],
         "priority_filings": [
           {
             "form": "10-K",
-            "filed": "2026-03-20",
-            "url": "https://www.sec.gov/Archives/edgar/data/1856437/000185643726000004/vsco-20260131.htm",
-            "accession": "0001856437-26-000004"
+            "filed": "2026-02-26",
+            "url": "https://www.sec.gov/Archives/edgar/data/1510295/000151029526000009/mpc-20251231.htm",
+            "accession": "0001510295-26-000009"
           },
           {
             "form": "10-Q",
-            "filed": "2026-09-04",
-            "url": "https://www.sec.gov/Archives/edgar/data/1856437/000185643726000021/vsco-20260801.htm",
-            "accession": "0001856437-26-000021"
+            "filed": "2026-08-04",
+            "url": "https://www.sec.gov/Archives/edgar/data/1510295/000151029526000061/mpc-20260630.htm",
+            "accession": "0001510295-26-000061"
           },
           {
             "form": "8-K",
-            "filed": "2026-10-09",
-            "url": "https://www.sec.gov/Archives/edgar/data/1856437/000185643726000023/vsco-20261007.htm",
-            "accession": "0001856437-26-000023"
+            "filed": "2026-10-29",
+            "url": "https://www.sec.gov/Archives/edgar/data/1510295/000151029526000063/mpc-20261028.htm",
+            "accession": "0001510295-26-000063"
           }
         ],
         "read_passages": [
           {
             "form": "10-K",
-            "filed": "2026-03-20",
-            "url": "https://www.sec.gov/Archives/edgar/data/1856437/000185643726000004/vsco-20260131.htm",
-            "text": "Management discussion: Management’s Discussion and Analysis of Financial Condition and Results of Operations. Competition The women’s intimates, apparel and beauty industry is highly competitive. We differentiate ourselves from our competitors by leveraging our powerful brand equity, unmatched scale and commitment to high-quality, innovative products. Our competition includes specialty retailers, department stores, mass merchandisers, online retailers, discount retaile Risk factors: RISK FACTORS. RISK FACTORS Investing in our common stock or other securities involves risk. You should carefully consider each of the following risks and all of the other information contained in this Annual Report on Form 10-K when evaluating our business. Our business, prospects, results of operations, financial condition or cash flows could be materially and adversely affected by any of these risks, as well as additional risks and uncertaintie Business overview: ITEM 1. BUSINESS. General Victoria’s Secret & Co. (together with its subsidiaries unless the context otherwise requires, “we”, “us”, “our” or the “Company”) is a specialty retailer of women’s intimates and other apparel and beauty products marketed under the Victoria’s Secret, PINK and Adore"
+            "filed": "2026-02-26",
+            "url": "https://www.sec.gov/Archives/edgar/data/1510295/000151029526000009/mpc-20251231.htm",
+            "text": "Management discussion: Management’s Discussion and Analysis of Financial Condition and Results of Operations and Item 7A. Quantitative and Qualitative Disclosures about Market Risk includes forward-looking statements that are subject to risks, contingencies or uncertainties. You can identify forward-looking statements by words such as “advance,” “anticipate,” “believe,” “commitment,” “continue,” “could,” “design,” “drive,” “endeavor,” “estimate,” “expect,” “focus,” “fo Risk factors: Risk Factors, Item 3. Legal Proceedings, Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations and Item 7A. Quantitative and Qualitative Disclosures about Market Risk includes forward-looking statements that are subject to risks, contingencies or uncertainties. You can identify forward-looking statements by words such as “advance,” “anticipate,” “believe,” “commitment,” “continue,” “could,” “design,” “drive Business overview: Item 1. Business, Item 1A. Risk Factors, Item 3. Legal Proceedings, Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations and Item 7A. Quantitative and Qualitative Disclosures about Market Risk includes forward-looking statements that are subject to ri"
           },
           {
             "form": "10-Q",
-            "filed": "2026-09-04",
-            "url": "https://www.sec.gov/Archives/edgar/data/1856437/000185643726000021/vsco-20260801.htm",
-            "text": "Management discussion: MANAGEMENT'S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS The following discussion and analysis of financial condition and results of operations are based upon our Consolidated Financial Statements, which have been prepared in accordance with GAAP. The following information should be read in conjunction with our financial statements and the related notes included in Item 1. Financial Statements. References to “we,” “us Risk factors: Risk Factors” in our 2025 Annual Report on Form 10-K filed with the SEC on March 20, 2026. Item 2. MANAGEMENT'S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS The following discussion and analysis of financial condition and results of operations are based upon our Consolidated Financial Statements, which have been prepared in accordance with GAAP. The following information should be read in conjunction with our financial"
+            "filed": "2026-08-04",
+            "url": "https://www.sec.gov/Archives/edgar/data/1510295/000151029526000061/mpc-20260630.htm",
+            "text": "Management discussion: Management’s Discussion and Analysis of Financial Condition and Results of Operations This section should also be read in conjunction with the unaudited consolidated financial statements and accompanying footnotes included under Item 1. Financial Statements and in conjunction with our Annual Report on Form 10-K for the year ended December 31, 2025. DISCLOSURES REGARDING FORWARD-LOOKING STATEMENTS This Quarterly Report on Form 10-Q, particularly I Risk factors: risk factors affecting our business, see the risk factors described in our Annual Report on Form 10-K for the year ended December 31, 2025. We undertake no obligation to update any forward-looking statements except to the extent required by applicable law. EXECUTIVE SUMMARY Business and Economic Environment Update Our Refining & Marketing segment results for the second quarter of 2026 versus the second quarter of 2025 reflect higher realized refi"
           },
           {
             "form": "8-K",
-            "filed": "2026-10-09",
-            "url": "https://www.sec.gov/Archives/edgar/data/1856437/000185643726000023/vsco-20261007.htm",
-            "text": "Filing excerpt: UNITED STATES SECURITIES AND EXCHANGE COMMISSION WASHINGTON, D.C. 20549 FORM 8-K CURRENT REPORT Pursuant to Section 13 or 15(d) of the Securities Exchange Act of 1934 Date of report (Date of earliest event reported): October 9, 2026 ( October 7, 2026 ) Victoria's Secret & Co. (Exact Name of Registrant as Specified in Its Charter) Delaware (State or other jurisdiction of incorporation) 001-40515 86-3167653 (Commission File Number) (I.R.S. Employer"
+            "filed": "2026-10-29",
+            "url": "https://www.sec.gov/Archives/edgar/data/1510295/000151029526000063/mpc-20261028.htm",
+            "text": "Filing excerpt: UNITED STATES SECURITIES AND EXCHANGE COMMISSION Washington, D.C. 20549 _____________________________________________ FORM 8-K _____________________________________________ CURRENT REPORT Pursuant to Section 13 or 15(d) of the Securities Exchange Act of 1934 Date of Report (Date of earliest event reported) October 28, 2026 _____________________________________________ Marathon Petroleum Corporation (Exact name of registrant as specified in its ch"
           }
         ],
         "fetch_issues": []
       },
       "investment_role": "Candidate for multi-year valuation research, not an approved trade.",
       "qualitative_context": {
-        "asof_utc": "2026-10-29T02:29:18.314058+00:00",
-        "search_url": "https://news.google.com/rss/search?q=%22VICTORIA%27S%20SECRET%20%26%22%20when%3A7d&hl=en-US&gl=US&ceid=US:en",
+        "asof_utc": "2026-10-30T02:25:34.264716+00:00",
+        "search_url": "https://news.google.com/rss/search?q=%22Marathon%20Petroleum%22%20when%3A7d&hl=en-US&gl=US&ceid=US:en",
         "news_window_days": 7,
         "headline_sample": [
           {
-            "title": "Victoria's Secret & Co. (NYSE: VSXY) Dips 2.83% as CCI(20) at 180.25 Signals Deep Overbought-Type",
-            "published_utc": "2026-10-28T17:26:00+00:00",
-            "publisher": "Kalkine India",
-            "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPZjJVNXNuckdoV0hNcTI3M1dJVFBtSkwwNm5DREl1MDVkLU5Lcjd2NjY2X1d2UDJrbzJUUGdzVGVuNUtncF9HZFVnVVNFTDJQNzRzanBJckVFUHZqWXlCYWxwQVZzbWs3TVAtRHM2MElOaWFTQmY5RnpKOXNQcHZrckhNSUtqVl9BUTBaZmMxcHNPYWpBdkhBRUFKc0ViaWhlMHAyRm1ZNjdPVjJqazcxQVpIR2ZyQnJkNFVTREM5RFlyU3dSdzA4bVh5XzlYSVM5T0tqb0h3?oc=5",
-            "topic": "other"
-          },
-          {
-            "title": "Melinda R. McAfee Executes Sale of 2,500 Victoria's Secret Shares at $95 Under 10b5-1 Plan",
-            "published_utc": "2026-10-27T21:54:53+00:00",
-            "publisher": "Kalkine Media",
-            "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPVUFjb1VMSnpjaDk0MHRaYTBPdFVTMnlxdTBGRU9yTjhkV2w4TlJ5VFRobVhnZFJiRzZuQWt5ZEFCOU00X25DV1IzeV8wSkdfcTBGZHJIYnA3YUpUWmtFMTNjbjVMVG5od21DSUZDNmpINnN2NlhseFpkajRleUU5Y19WU1dmejdjdzlFb0dzVlBQVG5Ic0JBVlVOLXJBWVVZRGppZTNnYkZ5QS1YUWVBd3ZxdmVyRHZUWDVXWWZINVQtbHNOMWpjc0VsVUd3UQ?oc=5",
-            "topic": "other"
-          },
-          {
-            "title": "Victoria's Secret (VSXY) legal chief sells shares at $95 under an automatic trading plan.",
-            "published_utc": "2026-10-27T20:18:28+00:00",
-            "publisher": "Stock Titan",
-            "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNLUQ1RVNYN1ZPbTJPRHVVa2t0Yi04REI2NDVPcjNwWDJGaXpNblRPUWZVb0l3al9jUVhRa3UzaTlDbldwMHYyOXRNaEZCMW1KaFYtdW5sMDNIdlNmZUMzbF9kcm9YUzVmYTlNOFJGU0NCbTRDZG00R2p1Wml1RjJjclkxR2FMeHNrRUtYVzczUWdQV181WGl5OTAyZlRVbTlrSjNyY2M5UmxralJOVDRuTEVKc0E?oc=5",
-            "topic": "other"
-          },
-          {
-            "title": "Victorias Secret & Co. (VSXY) stock price, news, quote and history",
-            "published_utc": "2026-10-27T17:26:22+00:00",
-            "publisher": "Yahoo Finance UK",
-            "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE4yOE5xY1c2SWx1LWs2d0VFRVFWX1VkZGlIVzZXZTlPRjg3aWdwd3cxMldjY0JjejM5TzR1blYtZWtiTmxsQUhqVzNWMjNyZXBhd1E?oc=5",
-            "topic": "other"
-          },
-          {
-            "title": "Victorias Secret & Co. (VSXY) Stock Price, News, Quote & History",
-            "published_utc": "2026-10-27T11:53:40+00:00",
-            "publisher": "Yahoo! Finance Canada",
-            "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9FRzNISDdqcUwwU3plSENPZ09xQzRSTE94T3VhTHN1QXplZnlPUEdYbHMydkJ1eG9BSUZwZ2dRQVNyZnJGTU0xVmliUVVESkZyQ0E?oc=5",
-            "topic": "other"
-          },
-          {
-            "title": "A Look at Victoria's Secret & Co (VSXY) After 4.6% Gain -- GF Va",
-            "published_utc": "2026-10-27T00:39:10+00:00",
+            "title": "Marathon Petroleum (MPC) Expands Board to 11 Members, Elects Dav",
+            "published_utc": "2026-10-29T23:47:17+00:00",
             "publisher": "GuruFocus",
-            "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQX2NUSHZsN0VPMVdNUmY0ekJEczVpTUJ3XzFfNzUyaHRhR2FaZHcwd05NS2s2aEtGRFVxSFRrODJQWEZoZTF0RXNDOFdNSGpxV1BqNE1nOXE0X201d2xSbFptVmNEaGc0U2RYNlF5bGdVZnNENHZFc3N2UWFaWHZ6OE9SdDE2dFlIcDBxay01b1lxYTlzaWFlS1l2ZXRlelRSOF80UVRwQ2ZsZ2U4T3hRMVBTQ3l3Zw?oc=5",
+            "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQUjJCdHZibU1pUVRuUmFxYlQ0VVRhdVdERlc1UHdRQUhXcm1JaHFGQXlERnFnWXZ4N01FSUN1WVlMRVdvUDdCWG1NQ1NRbXYwdWttUWk3MGV1dmRCbnBjZVM2N05WRzdFcS1BM25ZMzNlYXJ1VUVzcUR4SHE4TlBLdVJ5UnRYTkQyVlEyREFzMVQtNFp0M3A2eHMySjlSQ251TWVWNEtYenF4aWUyMEJYbXkzNkhNZEtfanhYZnNFaFRjQUNUUWhoQkx3?oc=5",
+            "topic": "other"
+          },
+          {
+            "title": "Marathon Petroleum Corporation (MPC) Seasonal returns chart",
+            "published_utc": "2026-10-29T22:46:39+00:00",
+            "publisher": "Yahoo Finance Singapore",
+            "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBTeXB2TFpOaWphTmRHajFXNkRjQ2ttd0pkcjNUNlRkanRWWUtMdy1hT3lCcG8xM0ZfQkNOTVB1X0U1QUJxWFhrTThOYk55RWJTckRlVVEwVjNQSV9kUzhMZQ?oc=5",
+            "topic": "other"
+          },
+          {
+            "title": "Marathon Petroleum Corporation (MPC) Seasonal Returns Chart - Yahoo Finance",
+            "published_utc": "2026-10-29T22:42:39+00:00",
+            "publisher": "Yahoo! Finance Canada",
+            "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBGYnE2cV9teVVVVWhwNGRjWDBLcW5aNGRiYm9nbFJ4bnNZdHk2aWN6ZEpMTHkySE9ySnJiOTBocEo4QkdQV3JqUTBNS3NxSkxfSERUS01CdFJ4NVNPR2xjag?oc=5",
+            "topic": "financing"
+          },
+          {
+            "title": "Marathon Petroleum (NYSE:MPC) Stock Price Down 1.7% - Here's What Happened",
+            "published_utc": "2026-10-29T21:53:36+00:00",
+            "publisher": "MarketBeat",
+            "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOMldNZnpNcTdyNTh4NTVNOW16M2xxVWltd1RKakszTkVkNEYwbTlNS3AxMDNuY3lWM0EzQlQ4b0xTc3p5QU9PTWc0UmRzX1c1aTZwVzBHSEQySFZtcDdwNDlBaU9Xdmc0dkZIb1BOaFl1ZnRVcG9hcFZobEtrRmlQYTNzRlZSOHZtNzFuOVJIUlA2ZlVDZDhROVdVVkN3M3hIekNfblk3RVJiSHRWVUhCYm5wb3hqVmVCZmVsVzBXdElhSXctaEE?oc=5",
+            "topic": "other"
+          },
+          {
+            "title": "Can Marathon Petroleum (NYSE:MPC) Sustain Strong Refining Performance?",
+            "published_utc": "2026-10-29T21:33:00+00:00",
+            "publisher": "Kalkine Media",
+            "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPSllGbFBwVm16WERKTVBaVnFyOElfeVBIM291UmsyUm9QVDRzZnQtQXB4YXI2VVpQZFl6enR0aExCNUtIRlhkTGJsbGxFa3JBVERVdFVTMWk2eTZaWFFsT25TMjdhOVV2VkhQb3ZYMHZjTXF3dTlwTzE5d01EV0dGenhmaWV5TXF6UHdzQlp6X3RGR0lhLWZHRzVsbTI4aUI3eXhxU0VPY2wxdGxzTlE?oc=5",
+            "topic": "profitability"
+          },
+          {
+            "title": "Form 8K Marathon Petroleum Corp For: 29 October By Investing.com",
+            "published_utc": "2026-10-29T21:02:00+00:00",
+            "publisher": "Investing.com UK",
+            "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQWXN0NUhxWGlFSTZXUTFsNTZyTUdsVTNNT3hPd1VRU0lVRTJkNkk2OTgtazhfRHpLQmQyS2xYdDBULXNHaldIcFhGeDBSTVpBeFlfNkRQRjZzeGNhSXNqMjl1Tnc2S0xzZG1GMHNWbUV4WkdVa1dYV3JUbnZkSXFmTjRKNDRvNnJrUTloRmZEYy1XMFo5OGtRRnFUYWkyODlBMUhpTXpHVnB3Yms?oc=5",
             "topic": "other"
           }
         ],
-        "narratives": [],
+        "narratives": [
+          {
+            "topic": "financing",
+            "headline": "Marathon Petroleum Corporation (MPC) Seasonal Returns Chart - Yahoo Finance",
+            "published_utc": "2026-10-29T22:42:39+00:00",
+            "publisher": "Yahoo! Finance Canada",
+            "source_url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBGYnE2cV9teVVVVWhwNGRjWDBLcW5aNGRiYm9nbFJ4bnNZdHk2aWN6ZEpMTHkySE9ySnJiOTBocEo4QkdQV3JqUTBNS3NxSkxfSERUS01CdFJ4NVNPR2xjag?oc=5",
+            "mechanism": "Borrowing costs or capital allocation can affect how much future cash ultimately belongs to shareholders.",
+            "competing_reading": "Higher dividends or buybacks can be funded by debt and are not automatically value creation.",
+            "test": "Check the balance sheet, debt maturities and cash available after capital spending.",
+            "evidence_level": "headline_coverage_not_confirmed_event"
+          },
+          {
+            "topic": "profitability",
+            "headline": "Can Marathon Petroleum (NYSE:MPC) Sustain Strong Refining Performance?",
+            "published_utc": "2026-10-29T21:33:00+00:00",
+            "publisher": "Kalkine Media",
+            "source_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPSllGbFBwVm16WERKTVBaVnFyOElfeVBIM291UmsyUm9QVDRzZnQtQXB4YXI2VVpQZFl6enR0aExCNUtIRlhkTGJsbGxFa3JBVERVdFVTMWk2eTZaWFFsT25TMjdhOVV2VkhQb3ZYMHZjTXF3dTlwTzE5d01EV0dGenhmaWV5TXF6UHdzQlp6X3RGR0lhLWZHRzVsbTI4aUI3eXhxU0VPY2wxdGxzTlE?oc=5",
+            "mechanism": "Changes in selling prices or operating costs affect the fraction of sales that becomes profit and cash.",
+            "competing_reading": "A temporary price or cost improvement may disappear when conditions normalize.",
+            "test": "Check reported operating margins, cash conversion and the reasons for changes.",
+            "evidence_level": "headline_coverage_not_confirmed_event"
+          }
+        ],
         "coverage_limit": "An indexed RSS headline sample, not a full-text article review, verified event, consensus forecast, or investor sentiment poll.",
         "fetch_issues": []
       }
@@ -617,14 +640,14 @@
       "ticker": "GLD",
       "name": "Physical gold",
       "metrics": {
-        "price_usd": 373.51,
-        "return_3m_pct": -0.97,
-        "return_6m_pct": -10.52,
-        "asof": "2026-10-28",
+        "price_usd": 368.57,
+        "return_3m_pct": -0.8,
+        "return_6m_pct": -13.0,
+        "asof": "2026-10-29",
         "source": "https://finance.yahoo.com/quote/GLD/history/",
-        "relative_6m_to_voo_pp": -19.62,
+        "relative_6m_to_voo_pp": -20.66,
         "proxy_kind": "Physical gold",
-        "voo_return_6m_pct": 9.1
+        "voo_return_6m_pct": 7.66
       },
       "sources": [
         {
@@ -642,7 +665,7 @@
       ],
       "investment_role": "Portfolio-diversification research, not a commodity spot-price prediction.",
       "qualitative_context": {
-        "asof_utc": "2026-10-29T02:29:18.314058+00:00",
+        "asof_utc": "2026-10-30T02:25:34.264716+00:00",
         "search_url": "https://news.google.com/rss/search?q=%22gold%20prices%20ETF%22%20when%3A7d&hl=en-US&gl=US&ceid=US:en",
         "news_window_days": 7,
         "headline_sample": [],
@@ -655,6 +678,6 @@
   "excluded": "All cryptocurrency, tokens and crypto-exposed businesses; no crypto recommendations.",
   "benchmark": "VOO after costs where comparable",
   "diagnostics": [],
-  "qualitative_asof_utc": "2026-10-29T02:29:18.314058+00:00",
+  "qualitative_asof_utc": "2026-10-30T02:25:34.264716+00:00",
   "qualitative_method": "Dated headline watch + SEC filings; causal implications are conditional, not sentiment forecasts."
 }
