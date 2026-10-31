@@ -1,306 +1,306 @@
 {
   "version": "focused_dossier_v1",
-  "market_date": "2026-10-29",
-  "generated_utc": "2026-10-30T02:25:34.126354+00:00",
-  "screened_total": 751,
+  "market_date": "2026-10-30",
+  "generated_utc": "2026-10-31T02:28:22.141674+00:00",
+  "screened_total": 767,
   "selected_equities": 2,
   "asset_count": 3,
   "assets": [
     {
       "kind": "equity",
-      "ticker": "DELL",
-      "name": "Dell Technologies Inc.",
+      "ticker": "KNSA",
+      "name": "Kiniksa Pharmaceuticals International, plc",
       "metrics": {
-        "ticker": "DELL",
-        "name": "Dell Technologies Inc.",
-        "fiscal_year_end": "2026-01-30",
-        "market_cap_usd": 302335328256.0,
-        "forward_pe": 15.712478,
-        "revenue_usd": 113538000000.0,
-        "revenue_growth_yoy_pct": 18.8,
-        "net_income_usd": 5936000000.0,
-        "operating_cash_usd": 11185000000.0,
-        "capital_spending_usd": 2633000000.0,
-        "fcf_usd": 8552000000.0,
-        "fcf_yield_pct": 2.83,
+        "ticker": "KNSA",
+        "name": "Kiniksa Pharmaceuticals International, plc",
+        "fiscal_year_end": "2025-12-31",
+        "market_cap_usd": 7247453696.0,
+        "forward_pe": 42.802784,
+        "revenue_usd": 677564000.0,
+        "revenue_growth_yoy_pct": 60.09,
+        "net_income_usd": 59005000.0,
+        "operating_cash_usd": 137985000.0,
+        "capital_spending_usd": 1568000.0,
+        "fcf_usd": 136417000.0,
+        "fcf_yield_pct": 1.88,
         "fcf_positive_years": 3,
         "fcf_years_available": 3,
-        "cash_usd": 11569000000.0,
-        "debt_usd": 34466000000.0,
-        "price_implied_fcf_growth_pct": 31.79,
+        "cash_usd": 81660000.0,
+        "debt_usd": null,
+        "price_implied_fcf_growth_pct": 43.89,
         "reverse_model_required_return_pct": 11.0,
         "reverse_model_terminal_growth_pct": 2.0,
         "scenario_sensitivity": {
           "no_growth": {
             "annual_fcf_growth_assumed_pct": 0.0,
-            "illustrative_equity_value_usd": 89126196547.25,
-            "value_as_pct_of_current_market_cap": 29.48
+            "illustrative_equity_value_usd": 1421694148.08,
+            "value_as_pct_of_current_market_cap": 19.62
           },
           "moderate_growth": {
             "annual_fcf_growth_assumed_pct": 5.0,
-            "illustrative_equity_value_usd": 109716164242.74,
-            "value_as_pct_of_current_market_cap": 36.29
+            "illustrative_equity_value_usd": 1750134468.84,
+            "value_as_pct_of_current_market_cap": 24.15
           },
           "fast_growth": {
             "annual_fcf_growth_assumed_pct": 10.0,
-            "illustrative_equity_value_usd": 134252852742.39,
-            "value_as_pct_of_current_market_cap": 44.41
+            "illustrative_equity_value_usd": 2141530801.28,
+            "value_as_pct_of_current_market_cap": 29.55
           }
         },
         "annual_history": [
           {
-            "fiscal_year_ended": "2026-01-30",
-            "revenue_usd": 113538000000.0,
-            "free_cash_flow_usd": 8552000000.0
+            "fiscal_year_ended": "2025-12-31",
+            "revenue_usd": 677564000.0,
+            "free_cash_flow_usd": 136417000.0
           },
           {
-            "fiscal_year_ended": "2025-01-31",
-            "revenue_usd": 95567000000.0,
-            "free_cash_flow_usd": 1869000000.0
+            "fiscal_year_ended": "2024-12-31",
+            "revenue_usd": 423239000.0,
+            "free_cash_flow_usd": 25412000.0
           },
           {
-            "fiscal_year_ended": "2024-02-02",
-            "revenue_usd": 88425000000.0,
-            "free_cash_flow_usd": 5920000000.0
+            "fiscal_year_ended": "2023-12-31",
+            "revenue_usd": 270259000.0,
+            "free_cash_flow_usd": 13171000.0
           }
         ]
       },
       "price_context": {
-        "last_price_date": "2026-10-29",
-        "last_close_usd": 475.51,
-        "return_last_year_pct": 191.44,
-        "voo_same_year_pct": 13.26,
-        "relative_to_voo_year_pp": 178.18,
-        "momentum_3m_pct": 17.47,
-        "momentum_6m_pct": 128.26,
+        "last_price_date": "2026-10-30",
+        "last_close_usd": 92.24,
+        "return_last_year_pct": 146.76,
+        "voo_same_year_pct": 11.21,
+        "relative_to_voo_year_pp": 135.55,
+        "momentum_3m_pct": 25.65,
+        "momentum_6m_pct": 66.89,
         "above_200d_average": true
       },
       "sources": [
         {
           "id": "S1",
           "kind": "SEC company financial facts",
-          "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001571996.json",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001730430.json",
           "summary": "SEC filed annual statements; values computed in verified_metrics, including fiscal year and filing dates."
         },
         {
           "id": "S2",
           "kind": "Market screener snapshot",
-          "url": "https://finance.yahoo.com/quote/DELL/financials/",
+          "url": "https://finance.yahoo.com/quote/KNSA/financials/",
           "summary": "Yahoo screen-forward P/E and as-of market capitalization are non-audited and change daily."
         },
         {
           "id": "S3",
           "kind": "SEC submissions",
-          "url": "https://data.sec.gov/submissions/CIK0001571996.json",
+          "url": "https://data.sec.gov/submissions/CIK0001730430.json",
           "summary": "Dated SEC filing history, including recent 10-Q and 8-K documents."
         },
         {
           "id": "S4",
-          "kind": "8-K filed 2026-10-21",
-          "url": "https://www.sec.gov/Archives/edgar/data/1571996/000119312526427920/d163575d8k.htm",
-          "summary": "8-K primary filing document; examine before relying on management claims."
+          "kind": "10-Q filed 2026-10-27",
+          "url": "https://www.sec.gov/Archives/edgar/data/1730430/000110465926119186/knsa-20260930x10q.htm",
+          "summary": "10-Q primary filing document; examine before relying on management claims."
         },
         {
           "id": "S5",
-          "kind": "8-K filed 2026-09-15",
-          "url": "https://www.sec.gov/Archives/edgar/data/1571996/000119312526391976/d172674d8k.htm",
+          "kind": "8-K filed 2026-10-27",
+          "url": "https://www.sec.gov/Archives/edgar/data/1730430/000173043026000037/knsa-20261027x8k.htm",
           "summary": "8-K primary filing document; examine before relying on management claims."
         },
         {
           "id": "S6",
-          "kind": "8-K filed 2026-09-10",
-          "url": "https://www.sec.gov/Archives/edgar/data/1571996/000119312526387958/d150030d8k.htm",
+          "kind": "8-K filed 2026-10-22",
+          "url": "https://www.sec.gov/Archives/edgar/data/1730430/000173043026000034/knsa-20261017x8k.htm",
           "summary": "8-K primary filing document; examine before relying on management claims."
         },
         {
           "id": "S7",
-          "kind": "10-Q filed 2026-09-08",
-          "url": "https://www.sec.gov/Archives/edgar/data/1571996/000157199626000046/dell-20260731.htm",
+          "kind": "10-Q filed 2026-07-28",
+          "url": "https://www.sec.gov/Archives/edgar/data/1730430/000110465926087545/knsa-20260630x10q.htm",
           "summary": "10-Q primary filing document; examine before relying on management claims."
         },
         {
           "id": "S8",
-          "kind": "10-K primary filing, 2026-03-16",
-          "url": "https://www.sec.gov/Archives/edgar/data/1571996/000157199626000008/dell-20260130.htm",
+          "kind": "10-K primary filing, 2026-02-24",
+          "url": "https://www.sec.gov/Archives/edgar/data/1730430/000110465926019168/knsa-20251231x10k.htm",
           "summary": "Official company filing. The cited report is a research lead, not an independently verified claim."
         },
         {
           "id": "S9",
-          "kind": "10-K read passages, filed 2026-03-16",
-          "url": "https://www.sec.gov/Archives/edgar/data/1571996/000157199626000008/dell-20260130.htm",
-          "summary": "Management discussion: Management’s Discussion and Analysis of Financial Condition and Results of Operations — Results of Operations — Business Unit Results” and Note 18 of the Notes to the Consolidated Financial Statements included in this report. Dell Payment Solutions Our customers seek choice in how they acquire our solutions and look to remove cost and complexity, align offerings with their business needs, and provide consistent, high-quality operations throughout Risk factors: Risk Factors 16 Item 1B. Unresolved Staff Comments 31 Item 1C. Cybersecurity 31 Item 2. Properties 33 Item 3. Legal Proceedings 33 Item 4. Mine Safety Disclosures 33 PART II Item 5. Market for Registrant’s Common Equity, Related Stockholder Matters and Issuer Purchases of Equity Securities 34 Item 6. [Reserved] 36 Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations 37 Item 7A. Quantitative and Qualitative Business overview: Item 1. Business 5 Item 1A. Risk Factors 16 Item 1B. Unresolved Staff Comments 31 Item 1C. Cybersecurity 31 Item 2. Properties 33 Item 3. Legal Proceedings 33 Item 4. Mine Safety Disclosures 33 PART II Item 5. Market for Registrant’s Common Equity, Related Stockholder Matters and Issuer Purc"
+          "kind": "10-K read passages, filed 2026-02-24",
+          "url": "https://www.sec.gov/Archives/edgar/data/1730430/000110465926019168/knsa-20251231x10k.htm",
+          "summary": "Management discussion: Management’s Discussion and Analysis of Financial Condition and Results of Operations ” and elsewhere in this Annual Report. Because forward-looking statements are inherently subject to risks and uncertainties, some of which cannot be predicted or quantified and some of which are beyond our control, you should not place undue reliance on our forward-looking statements. Except as required by applicable law, we do not assume and specifically discla Risk factors: Risk Factors ”, “ Risk Factors ” and “ Management’s Discussion and Analysis of Financial Condition and Results of Operations ” and elsewhere in this Annual Report. Because forward-looking statements are inherently subject to risks and uncertainties, some of which cannot be predicted or quantified and some of which are beyond our control, you should not place undue reliance on our forward-looking statements. Except as required by applicable law, w Business overview: ITEM 1. BUSINESS. Overview We are a biopharmaceutical company developing and commercializing novel therapies for diseases with unmet need, with a focus on cardiovascular indications. Our portfolio of assets is based on strong biologic rationale or validated mechanisms and offers the potentia"
         },
         {
           "id": "S10",
-          "kind": "10-Q read passages, filed 2026-09-08",
-          "url": "https://www.sec.gov/Archives/edgar/data/1571996/000157199626000046/dell-20260731.htm",
-          "summary": "Management discussion: MANAGEMENT’S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS This management’s discussion and analysis should be read in conjunction with the audited Consolidated Financial Statements and accompanying Notes included in the Company’s Annual Report on Form 10-K for the fiscal year ended January 30, 2026 and the unaudited Condensed Consolidated Financial Statements included in this report. In addition to historical financial Risk factors: Risk Factors 69 Item 2. Unregistered Sales of Equity Securities and Use of Proceeds 69 Item 5. Other Information 70 Item 6. Exhibits 71 Signatures 73 3 Table of Contents PART I — FINANCIAL INFORMATION ITEM 1 — FINANCIAL STATEMENTS (UNAUDITED) Index Page Condensed Consolidated Statements of Financial Position as of July 31, 2026 and January 30, 2026 5 Condensed Consolidated Statements of Income for the three and six months ended July 31, 2026 and "
+          "kind": "10-Q read passages, filed 2026-10-27",
+          "url": "https://www.sec.gov/Archives/edgar/data/1730430/000110465926119186/knsa-20260930x10q.htm",
+          "summary": "Management discussion: Management’s Discussion and Analysis of Financial Condition and Results of Operations. The following discussion and analysis of our financial condition and results of operations should be read in conjunction with our unaudited condensed consolidated financial statements and related notes included elsewhere in this Quarterly Report, and our audited consolidated financial statements and related notes for the year ended December 31, 2025 included in Risk factors: Risk Factors. ​ In addition to the information discussed elsewhere in this Quarterly Report, you should carefully review and consider the risk factors disclosed in Part I, Item 1A of the Annual Report, as updated by any information appearing in Part II, Item 1A of any of our subsequent Quarterly Reports on Form 10-Q. These risks could materially and adversely affect our business, results of operations, financial condition and prospects. The risks"
         },
         {
           "id": "S11",
-          "kind": "8-K read passages, filed 2026-10-21",
-          "url": "https://www.sec.gov/Archives/edgar/data/1571996/000119312526427920/d163575d8k.htm",
-          "summary": "Filing excerpt: UNITED STATES SECURITIES AND EXCHANGE COMMISSION Washington, D.C. 20549 FORM 8-K CURRENT REPORT Pursuant to Section 13 or 15(d) of the Securities Exchange Act of 1934 Date of Report (Date of earliest event reported): October 19, 2026 Dell Technologies Inc. (Exact name of registrant as specified in its charter) Texas 001-37867 80-0890963 (State or other jurisdiction of incorporation) (Commission File Number) (IRS Employer Identification No.) One D"
+          "kind": "8-K read passages, filed 2026-10-27",
+          "url": "https://www.sec.gov/Archives/edgar/data/1730430/000173043026000037/knsa-20261027x8k.htm",
+          "summary": "Filing excerpt: ​ ​ UNITED STATES SECURITIES AND EXCHANGE COMMISSION WASHINGTON, D.C. 20549 ​ FORM 8-K ​ CURRENT REPORT Pursuant to Section 13 or 15(d) of the Securities Exchange Act of 1934 ​ Date of Report (Date of earliest event reported): October 27, 2026 ​ Kiniksa Pharmaceuticals International, plc (Exact name of Registrant as Specified in Its Charter) ​ ​ ​ ​ ​ ​ England and Wales ​ ​ ​ 001-730430 ​ ​ ​ 98-1795578 (State or other jurisdiction of incorporat"
         },
         {
           "id": "S12",
-          "kind": "News-index headline · TradingView · 2026-10-30",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNOTE0SFpFOFJ3MHdGNFNPejZiNE0wMjBQTXF2M3Z2bmNlU0YxbVZMcXllNnRFZ0tvRi10RG40c1dZUEM4aHduUF9tbXh1SUFlTDh5b0ZxMW1xaGNrdm0tZV9BdGxmVzZSdnVsOEQwMU05TXhrRzlUY01hVlFmUV9oWTg5ZjNCeW83aG1kZEliQU5DcjRrQWhEaGliUXA2cEtRSHktQVpZdkNFTmMwQVNtaXkwT3pxS0o2UzBDV1RQTlZBQXd4Q19KSDZR?oc=5",
-          "summary": "Headline only, not checked article text: HPQ, DELL Stocks Plunge After Intel Flags Prolonged PC Market Weakness"
+          "kind": "News-index headline · MarketBeat · 2026-10-30",
+          "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOOEIzMl9zZlNVMFExdlNTZmpxR1h3Y1JfbndWcUg5OERKUF9OUHlidXk1aDVRQnBJYk1FX3J0ZDNQc1ppdHRsdUpRWS1qSU45R2JOME5MSHZjU2lqd2MwTGNIckpPM191NXFYWDVpNmtaN3lobENFSTZmbmlmMS1uV1BNUmFPcXBfR01BeVpQaW9BVng5WmprY2hxUVMxQW5GVThuOUNYQldPQW9aUU1XRjJwcDFacUFFdWFjcUd0cEZsVkQtalJnMWJzdjk2U0FjS0lZOC1JRS14Mk9zLXVDUUlzMDBIaE5hRGhvQ3ZDcF9qQWJhVzhvTHFveVpIM2c?oc=5",
+          "summary": "Headline only, not checked article text: JPMorgan Chase & Co. Issues Positive Forecast for Kiniksa Pharmaceuticals International (NASDAQ:KNSA) Stock Price"
         },
         {
           "id": "S13",
-          "kind": "News-index headline · Lead Stories · 2026-10-29",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNN3RzdVRFanZXcEFhTS1JUTBfQjkxZUt0OWNfbXBrOWdoQWhscGIzWk1iQWJhNmpING1zb1VFS3lzZlI4X09hdHc1bHVQZ0dpZHh4Qkl2VHN5a0h3elZkT3I3RnJBVVJyNE03VHlnTTdhaG41SHY1UkV3c185NGh1RG0xVkFpLVFvWjN4VUFsTW85VG9QbzcyeF9aS2s0SFl1REZadjNyczdDSDE2?oc=5",
-          "summary": "Headline only, not checked article text: Fact Check: FAKE Video of Susan Dell Dancing Was AI-Generated"
+          "kind": "News-index headline · Investing.com India · 2026-10-30",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPTC15QnVobjR3bHpfY0ExVjZEWm43RzBPLUFNeVpUOHAwd1QxNlAySGZoU0huMFNjUFlqQ2hfYjAtSXRPQjNmdEFVaElCb0R6NXBEdl9JaUxfU2lZZUQtUF9jTFd1ZXk3LWhKd2pPUzRWcFBTMk5QX2RLSEJmT0hnWEozLW0yaU12cVc4OUdrZ3Y2WjF6aU5LbFh4WlhrUkdvbzZjek04emdneHBNdUgtd2JSeGEtN2pzcllPWEdMMA?oc=5",
+          "summary": "Headline only, not checked article text: Form 144 Kiniksa Pharmaceuticals International For: 30 October By Investing.com"
         },
         {
           "id": "S14",
-          "kind": "News-index headline · Yahoo Finance Singapore · 2026-10-29",
-          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE15UWgtRVV2TlR0b3IwUzc4RkR1c21EUUtqa3NyQ0t3cUh0OWdoTXJKYVdFUVdIal80Smw4R2ZPX3ZPblFuOEhzVFJneEYxQzJxeWlFWjZjRXpKWjRkZEdLRGRB?oc=5",
-          "summary": "Headline only, not checked article text: Dell Technologies Inc. (DELL) Seasonal returns chart"
+          "kind": "News-index headline · Stock Titan · 2026-10-30",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPYjJOdmFvTFhRc3ZacGVCU0E4MEtYcWhkLUR3QndaM00wdHBicUhVaFFkNWZsNHhDdXItNWNmcXdGU1NEdU1LMEZiMlB0dGxoQXh1ay1KVUNvMDFLMTh3cHhnM3Q0c1lGSGlaX2VvSkY2TFVzZTZqQktwaUhXZld5RXlwZWVXMFlaOHI0bFFtTFcyQkVxT25mMmctR2xHRUliN0ZuQy1kUEpxX0E4MTd4bHBaSWwtMzFuZnc?oc=5",
+          "summary": "Headline only, not checked article text: An officer proposes selling 96,000 Kiniksa (KNSA) shares tied to an option exercise."
         },
         {
           "id": "S15",
-          "kind": "News-index headline · MarketBeat · 2026-10-29",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPOVJuSmhVMHlvMTZHdWxhczBoaWluQkZzYlFicVNYeTl4U2lUQ3g0NjVTNVpVbkJ6MG51XzJEUFZkTVFWSVg4ZTk3d2o3TS1OZ2FURkdOUjdoQjgzN1FuWTRjSnB1UGtVRzFfRWpSZzJaY0YybjZ2d0E5Z3JYSE5xdkRCZ2pmWG0yb3k3aVRHZG5zdVRrRU9Nd042RlFPdVdEX3BFeW9icnp6Ry1lX3A1RVFJZjJ0QQ?oc=5",
-          "summary": "Headline only, not checked article text: Dell Technologies (NYSE:DELL) Shares Down 3.6% - Time to Sell?"
+          "kind": "News-index headline · Stock Titan · 2026-10-30",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQMHA5TldpX1JMbk5yc2l4RVV1cHBoeVpna21qQWZJWk9ZQ0xtSXpJTzdtaEN6SEljd2U1d2xaMnVORlJSU193SzlsY09CdDNQWndyTFQ4aERESzIzUVZZSXhLcVJjUnhLRklIT0xqTWU4QWQ0eXp3aHZFbmhaZ3l5UVJJTUNTbG5zalVtSF85TFRqNDd6Ykh3WFRNRHdLQ1JqckJ4R3k2R2dqUlh1eUwyVHhzMWhtOUpaa1E?oc=5",
+          "summary": "Headline only, not checked article text: A proposed sale of 553,794 Kiniksa (KNSA) shares includes 377,000 from an option exercise."
         },
         {
           "id": "S16",
-          "kind": "News-index headline · Investing.com UK · 2026-10-29",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQUkZIb3RSaGVuZ0xDMnozSWF3dThwckRrckhMM0gyNUxYcjNnaVZWUW44bFZoMGlRczFUODhFR0o5SUVmWDktRWhlM3lqNVp6cW5oRVotWTJfbHFoYXNLVWtkVll2M3BNS0h3cTFyQUhLd0RfMUVlOXl6Rjg5UVVwMHk4aVhHT3NUZm5WNkdwcTRCaS1mNDVRak1uM1diR2JCdDFBV04wbw?oc=5",
-          "summary": "Headline only, not checked article text: Form 4 Dell Technologies Inc For: 29 October By Investing.com"
+          "kind": "News-index headline · Stock Titan · 2026-10-30",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQOFROU05TRjdqZVd0T0M0REZiUjNDekpaX2k1bThTRXFzbEVyVjJGRVpqMEpFZ08xQUtJTmtfT0lrWi1DUVdyWTFaUEhOWkxwVjBmeklqUFlwSVVPWFUxRzlFaDVad1duSnM4cGFockNfNXgyQVJxclB3Z1lVWWJnOXpmM3VzQlc0Vl9HSkFPNHQ3NklqQ1UweHlVNFBiX3BPa1lkbzVEZDFpZU92VUxoMkNzYnZ5dUpoZ0E?oc=5",
+          "summary": "Headline only, not checked article text: An officer proposes selling Kiniksa (KNSA) shares, including 97,572 from an option exercise."
         },
         {
           "id": "S17",
-          "kind": "News-index headline · Quiver Quantitative · 2026-10-29",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOc09BMVNJaDExRkh6M1pxekRKRTJUMFV5VkJ3bjhIMVpsbE5FblJBQVV0Tks1RE1BMzRuc25GMHZxMUs3ME1QVWhnNmZiZ3pWdmxCNkNPZWpUejRBcG1zWHY0UWRnSXFMbk1oUklGYXFjeTEzazQ2ckpmMVI0Z3NRNENSajBfVnpsTVBfaTVB?oc=5",
-          "summary": "Headline only, not checked article text: Why Dell Technologies (DELL) Stock Is Down Today"
+          "kind": "News-index headline · Stock Titan · 2026-10-30",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOMTgtLVN1cUlqVC1IVGU2VVdxY21yaERzTDEzb3JYclRCSW4xdk5RdTR1WUpBV1JlTEFmVk1JOWowR25KTmpZRzRlbGg3cGxOeGJiNmVtQWlkUlJJLXF5RklyRmlFbEFCWUZOVkxKMDZBNVRROE41ODJ2YVJCQTFUdkl2cFlqdGZCYmVnNFg3bVVtcUZJRDBtZm43bjhjRlI3MU9BcmR5VGdPTHlvckFQVHlRVzB5Z2tvVmc?oc=5",
+          "summary": "Headline only, not checked article text: After selling 4,600 shares, Kiniksa (KNSA) officer Michael R. Megna proposes another sale."
         }
       ],
       "filings": {
-        "submissions_url": "https://data.sec.gov/submissions/CIK0001571996.json",
+        "submissions_url": "https://data.sec.gov/submissions/CIK0001730430.json",
         "recent_filings": [
           {
-            "form": "8-K",
-            "filed": "2026-10-21",
-            "url": "https://www.sec.gov/Archives/edgar/data/1571996/000119312526427920/d163575d8k.htm",
-            "accession": "0001193125-26-427920"
+            "form": "10-Q",
+            "filed": "2026-10-27",
+            "url": "https://www.sec.gov/Archives/edgar/data/1730430/000110465926119186/knsa-20260930x10q.htm",
+            "accession": "0001104659-26-119186"
           },
           {
             "form": "8-K",
-            "filed": "2026-09-15",
-            "url": "https://www.sec.gov/Archives/edgar/data/1571996/000119312526391976/d172674d8k.htm",
-            "accession": "0001193125-26-391976"
+            "filed": "2026-10-27",
+            "url": "https://www.sec.gov/Archives/edgar/data/1730430/000173043026000037/knsa-20261027x8k.htm",
+            "accession": "0001730430-26-000037"
           },
           {
             "form": "8-K",
-            "filed": "2026-09-10",
-            "url": "https://www.sec.gov/Archives/edgar/data/1571996/000119312526387958/d150030d8k.htm",
-            "accession": "0001193125-26-387958"
+            "filed": "2026-10-22",
+            "url": "https://www.sec.gov/Archives/edgar/data/1730430/000173043026000034/knsa-20261017x8k.htm",
+            "accession": "0001730430-26-000034"
           },
           {
             "form": "10-Q",
-            "filed": "2026-09-08",
-            "url": "https://www.sec.gov/Archives/edgar/data/1571996/000157199626000046/dell-20260731.htm",
-            "accession": "0001571996-26-000046"
+            "filed": "2026-07-28",
+            "url": "https://www.sec.gov/Archives/edgar/data/1730430/000110465926087545/knsa-20260630x10q.htm",
+            "accession": "0001104659-26-087545"
           },
           {
             "form": "8-K",
-            "filed": "2026-09-01",
-            "url": "https://www.sec.gov/Archives/edgar/data/1571996/000157199626000039/dell-20260901.htm",
-            "accession": "0001571996-26-000039"
+            "filed": "2026-07-28",
+            "url": "https://www.sec.gov/Archives/edgar/data/1730430/000173043026000031/knsa-20260728x8k.htm",
+            "accession": "0001730430-26-000031"
           }
         ],
         "priority_filings": [
           {
             "form": "10-K",
-            "filed": "2026-03-16",
-            "url": "https://www.sec.gov/Archives/edgar/data/1571996/000157199626000008/dell-20260130.htm",
-            "accession": "0001571996-26-000008"
+            "filed": "2026-02-24",
+            "url": "https://www.sec.gov/Archives/edgar/data/1730430/000110465926019168/knsa-20251231x10k.htm",
+            "accession": "0001104659-26-019168"
           },
           {
             "form": "10-Q",
-            "filed": "2026-09-08",
-            "url": "https://www.sec.gov/Archives/edgar/data/1571996/000157199626000046/dell-20260731.htm",
-            "accession": "0001571996-26-000046"
+            "filed": "2026-10-27",
+            "url": "https://www.sec.gov/Archives/edgar/data/1730430/000110465926119186/knsa-20260930x10q.htm",
+            "accession": "0001104659-26-119186"
           },
           {
             "form": "8-K",
-            "filed": "2026-10-21",
-            "url": "https://www.sec.gov/Archives/edgar/data/1571996/000119312526427920/d163575d8k.htm",
-            "accession": "0001193125-26-427920"
+            "filed": "2026-10-27",
+            "url": "https://www.sec.gov/Archives/edgar/data/1730430/000173043026000037/knsa-20261027x8k.htm",
+            "accession": "0001730430-26-000037"
           }
         ],
         "read_passages": [
           {
             "form": "10-K",
-            "filed": "2026-03-16",
-            "url": "https://www.sec.gov/Archives/edgar/data/1571996/000157199626000008/dell-20260130.htm",
-            "text": "Management discussion: Management’s Discussion and Analysis of Financial Condition and Results of Operations — Results of Operations — Business Unit Results” and Note 18 of the Notes to the Consolidated Financial Statements included in this report. Dell Payment Solutions Our customers seek choice in how they acquire our solutions and look to remove cost and complexity, align offerings with their business needs, and provide consistent, high-quality operations throughout Risk factors: Risk Factors 16 Item 1B. Unresolved Staff Comments 31 Item 1C. Cybersecurity 31 Item 2. Properties 33 Item 3. Legal Proceedings 33 Item 4. Mine Safety Disclosures 33 PART II Item 5. Market for Registrant’s Common Equity, Related Stockholder Matters and Issuer Purchases of Equity Securities 34 Item 6. [Reserved] 36 Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations 37 Item 7A. Quantitative and Qualitative Business overview: Item 1. Business 5 Item 1A. Risk Factors 16 Item 1B. Unresolved Staff Comments 31 Item 1C. Cybersecurity 31 Item 2. Properties 33 Item 3. Legal Proceedings 33 Item 4. Mine Safety Disclosures 33 PART II Item 5. Market for Registrant’s Common Equity, Related Stockholder Matters and Issuer Purc"
+            "filed": "2026-02-24",
+            "url": "https://www.sec.gov/Archives/edgar/data/1730430/000110465926019168/knsa-20251231x10k.htm",
+            "text": "Management discussion: Management’s Discussion and Analysis of Financial Condition and Results of Operations ” and elsewhere in this Annual Report. Because forward-looking statements are inherently subject to risks and uncertainties, some of which cannot be predicted or quantified and some of which are beyond our control, you should not place undue reliance on our forward-looking statements. Except as required by applicable law, we do not assume and specifically discla Risk factors: Risk Factors ”, “ Risk Factors ” and “ Management’s Discussion and Analysis of Financial Condition and Results of Operations ” and elsewhere in this Annual Report. Because forward-looking statements are inherently subject to risks and uncertainties, some of which cannot be predicted or quantified and some of which are beyond our control, you should not place undue reliance on our forward-looking statements. Except as required by applicable law, w Business overview: ITEM 1. BUSINESS. Overview We are a biopharmaceutical company developing and commercializing novel therapies for diseases with unmet need, with a focus on cardiovascular indications. Our portfolio of assets is based on strong biologic rationale or validated mechanisms and offers the potentia"
           },
           {
             "form": "10-Q",
-            "filed": "2026-09-08",
-            "url": "https://www.sec.gov/Archives/edgar/data/1571996/000157199626000046/dell-20260731.htm",
-            "text": "Management discussion: MANAGEMENT’S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS This management’s discussion and analysis should be read in conjunction with the audited Consolidated Financial Statements and accompanying Notes included in the Company’s Annual Report on Form 10-K for the fiscal year ended January 30, 2026 and the unaudited Condensed Consolidated Financial Statements included in this report. In addition to historical financial Risk factors: Risk Factors 69 Item 2. Unregistered Sales of Equity Securities and Use of Proceeds 69 Item 5. Other Information 70 Item 6. Exhibits 71 Signatures 73 3 Table of Contents PART I — FINANCIAL INFORMATION ITEM 1 — FINANCIAL STATEMENTS (UNAUDITED) Index Page Condensed Consolidated Statements of Financial Position as of July 31, 2026 and January 30, 2026 5 Condensed Consolidated Statements of Income for the three and six months ended July 31, 2026 and "
+            "filed": "2026-10-27",
+            "url": "https://www.sec.gov/Archives/edgar/data/1730430/000110465926119186/knsa-20260930x10q.htm",
+            "text": "Management discussion: Management’s Discussion and Analysis of Financial Condition and Results of Operations. The following discussion and analysis of our financial condition and results of operations should be read in conjunction with our unaudited condensed consolidated financial statements and related notes included elsewhere in this Quarterly Report, and our audited consolidated financial statements and related notes for the year ended December 31, 2025 included in Risk factors: Risk Factors. ​ In addition to the information discussed elsewhere in this Quarterly Report, you should carefully review and consider the risk factors disclosed in Part I, Item 1A of the Annual Report, as updated by any information appearing in Part II, Item 1A of any of our subsequent Quarterly Reports on Form 10-Q. These risks could materially and adversely affect our business, results of operations, financial condition and prospects. The risks"
           },
           {
             "form": "8-K",
-            "filed": "2026-10-21",
-            "url": "https://www.sec.gov/Archives/edgar/data/1571996/000119312526427920/d163575d8k.htm",
-            "text": "Filing excerpt: UNITED STATES SECURITIES AND EXCHANGE COMMISSION Washington, D.C. 20549 FORM 8-K CURRENT REPORT Pursuant to Section 13 or 15(d) of the Securities Exchange Act of 1934 Date of Report (Date of earliest event reported): October 19, 2026 Dell Technologies Inc. (Exact name of registrant as specified in its charter) Texas 001-37867 80-0890963 (State or other jurisdiction of incorporation) (Commission File Number) (IRS Employer Identification No.) One D"
+            "filed": "2026-10-27",
+            "url": "https://www.sec.gov/Archives/edgar/data/1730430/000173043026000037/knsa-20261027x8k.htm",
+            "text": "Filing excerpt: ​ ​ UNITED STATES SECURITIES AND EXCHANGE COMMISSION WASHINGTON, D.C. 20549 ​ FORM 8-K ​ CURRENT REPORT Pursuant to Section 13 or 15(d) of the Securities Exchange Act of 1934 ​ Date of Report (Date of earliest event reported): October 27, 2026 ​ Kiniksa Pharmaceuticals International, plc (Exact name of Registrant as Specified in Its Charter) ​ ​ ​ ​ ​ ​ England and Wales ​ ​ ​ 001-730430 ​ ​ ​ 98-1795578 (State or other jurisdiction of incorporat"
           }
         ],
         "fetch_issues": []
       },
       "investment_role": "Candidate for multi-year valuation research, not an approved trade.",
       "qualitative_context": {
-        "asof_utc": "2026-10-30T02:25:34.264716+00:00",
-        "search_url": "https://news.google.com/rss/search?q=%22Dell%20Technologies%22%20when%3A7d&hl=en-US&gl=US&ceid=US:en",
+        "asof_utc": "2026-10-31T02:28:22.250434+00:00",
+        "search_url": "https://news.google.com/rss/search?q=%22Kiniksa%20Pharmaceuticals%20International%22%20when%3A7d&hl=en-US&gl=US&ceid=US:en",
         "news_window_days": 7,
         "headline_sample": [
           {
-            "title": "HPQ, DELL Stocks Plunge After Intel Flags Prolonged PC Market Weakness",
-            "published_utc": "2026-10-30T01:40:00+00:00",
-            "publisher": "TradingView",
-            "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNOTE0SFpFOFJ3MHdGNFNPejZiNE0wMjBQTXF2M3Z2bmNlU0YxbVZMcXllNnRFZ0tvRi10RG40c1dZUEM4aHduUF9tbXh1SUFlTDh5b0ZxMW1xaGNrdm0tZV9BdGxmVzZSdnVsOEQwMU05TXhrRzlUY01hVlFmUV9oWTg5ZjNCeW83aG1kZEliQU5DcjRrQWhEaGliUXA2cEtRSHktQVpZdkNFTmMwQVNtaXkwT3pxS0o2UzBDV1RQTlZBQXd4Q19KSDZR?oc=5",
-            "topic": "other"
-          },
-          {
-            "title": "Fact Check: FAKE Video of Susan Dell Dancing Was AI-Generated",
-            "published_utc": "2026-10-29T22:11:04+00:00",
-            "publisher": "Lead Stories",
-            "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNN3RzdVRFanZXcEFhTS1JUTBfQjkxZUt0OWNfbXBrOWdoQWhscGIzWk1iQWJhNmpING1zb1VFS3lzZlI4X09hdHc1bHVQZ0dpZHh4Qkl2VHN5a0h3elZkT3I3RnJBVVJyNE03VHlnTTdhaG41SHY1UkV3c185NGh1RG0xVkFpLVFvWjN4VUFsTW85VG9QbzcyeF9aS2s0SFl1REZadjNyczdDSDE2?oc=5",
-            "topic": "other"
-          },
-          {
-            "title": "Dell Technologies Inc. (DELL) Seasonal returns chart",
-            "published_utc": "2026-10-29T21:54:09+00:00",
-            "publisher": "Yahoo Finance Singapore",
-            "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE15UWgtRVV2TlR0b3IwUzc4RkR1c21EUUtqa3NyQ0t3cUh0OWdoTXJKYVdFUVdIal80Smw4R2ZPX3ZPblFuOEhzVFJneEYxQzJxeWlFWjZjRXpKWjRkZEdLRGRB?oc=5",
-            "topic": "other"
-          },
-          {
-            "title": "Dell Technologies (NYSE:DELL) Shares Down 3.6% - Time to Sell?",
-            "published_utc": "2026-10-29T21:31:14+00:00",
+            "title": "JPMorgan Chase & Co. Issues Positive Forecast for Kiniksa Pharmaceuticals International (NASDAQ:KNSA) Stock Price",
+            "published_utc": "2026-10-30T23:29:11+00:00",
             "publisher": "MarketBeat",
-            "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPOVJuSmhVMHlvMTZHdWxhczBoaWluQkZzYlFicVNYeTl4U2lUQ3g0NjVTNVpVbkJ6MG51XzJEUFZkTVFWSVg4ZTk3d2o3TS1OZ2FURkdOUjdoQjgzN1FuWTRjSnB1UGtVRzFfRWpSZzJaY0YybjZ2d0E5Z3JYSE5xdkRCZ2pmWG0yb3k3aVRHZG5zdVRrRU9Nd042RlFPdVdEX3BFeW9icnp6Ry1lX3A1RVFJZjJ0QQ?oc=5",
+            "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOOEIzMl9zZlNVMFExdlNTZmpxR1h3Y1JfbndWcUg5OERKUF9OUHlidXk1aDVRQnBJYk1FX3J0ZDNQc1ppdHRsdUpRWS1qSU45R2JOME5MSHZjU2lqd2MwTGNIckpPM191NXFYWDVpNmtaN3lobENFSTZmbmlmMS1uV1BNUmFPcXBfR01BeVpQaW9BVng5WmprY2hxUVMxQW5GVThuOUNYQldPQW9aUU1XRjJwcDFacUFFdWFjcUd0cEZsVkQtalJnMWJzdjk2U0FjS0lZOC1JRS14Mk9zLXVDUUlzMDBIaE5hRGhvQ3ZDcF9qQWJhVzhvTHFveVpIM2c?oc=5",
             "topic": "other"
           },
           {
-            "title": "Form 4 Dell Technologies Inc For: 29 October By Investing.com",
-            "published_utc": "2026-10-29T19:02:00+00:00",
-            "publisher": "Investing.com UK",
-            "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQUkZIb3RSaGVuZ0xDMnozSWF3dThwckRrckhMM0gyNUxYcjNnaVZWUW44bFZoMGlRczFUODhFR0o5SUVmWDktRWhlM3lqNVp6cW5oRVotWTJfbHFoYXNLVWtkVll2M3BNS0h3cTFyQUhLd0RfMUVlOXl6Rjg5UVVwMHk4aVhHT3NUZm5WNkdwcTRCaS1mNDVRak1uM1diR2JCdDFBV04wbw?oc=5",
+            "title": "Form 144 Kiniksa Pharmaceuticals International For: 30 October By Investing.com",
+            "published_utc": "2026-10-30T22:54:14+00:00",
+            "publisher": "Investing.com India",
+            "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPTC15QnVobjR3bHpfY0ExVjZEWm43RzBPLUFNeVpUOHAwd1QxNlAySGZoU0huMFNjUFlqQ2hfYjAtSXRPQjNmdEFVaElCb0R6NXBEdl9JaUxfU2lZZUQtUF9jTFd1ZXk3LWhKd2pPUzRWcFBTMk5QX2RLSEJmT0hnWEozLW0yaU12cVc4OUdrZ3Y2WjF6aU5LbFh4WlhrUkdvbzZjek04emdneHBNdUgtd2JSeGEtN2pzcllPWEdMMA?oc=5",
             "topic": "other"
           },
           {
-            "title": "Why Dell Technologies (DELL) Stock Is Down Today",
-            "published_utc": "2026-10-29T18:33:00+00:00",
-            "publisher": "Quiver Quantitative",
-            "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOc09BMVNJaDExRkh6M1pxekRKRTJUMFV5VkJ3bjhIMVpsbE5FblJBQVV0Tks1RE1BMzRuc25GMHZxMUs3ME1QVWhnNmZiZ3pWdmxCNkNPZWpUejRBcG1zWHY0UWRnSXFMbk1oUklGYXFjeTEzazQ2ckpmMVI0Z3NRNENSajBfVnpsTVBfaTVB?oc=5",
+            "title": "An officer proposes selling 96,000 Kiniksa (KNSA) shares tied to an option exercise.",
+            "published_utc": "2026-10-30T22:31:08+00:00",
+            "publisher": "Stock Titan",
+            "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPYjJOdmFvTFhRc3ZacGVCU0E4MEtYcWhkLUR3QndaM00wdHBicUhVaFFkNWZsNHhDdXItNWNmcXdGU1NEdU1LMEZiMlB0dGxoQXh1ay1KVUNvMDFLMTh3cHhnM3Q0c1lGSGlaX2VvSkY2TFVzZTZqQktwaUhXZld5RXlwZWVXMFlaOHI0bFFtTFcyQkVxT25mMmctR2xHRUliN0ZuQy1kUEpxX0E4MTd4bHBaSWwtMzFuZnc?oc=5",
+            "topic": "other"
+          },
+          {
+            "title": "A proposed sale of 553,794 Kiniksa (KNSA) shares includes 377,000 from an option exercise.",
+            "published_utc": "2026-10-30T22:20:58+00:00",
+            "publisher": "Stock Titan",
+            "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQMHA5TldpX1JMbk5yc2l4RVV1cHBoeVpna21qQWZJWk9ZQ0xtSXpJTzdtaEN6SEljd2U1d2xaMnVORlJSU193SzlsY09CdDNQWndyTFQ4aERESzIzUVZZSXhLcVJjUnhLRklIT0xqTWU4QWQ0eXp3aHZFbmhaZ3l5UVJJTUNTbG5zalVtSF85TFRqNDd6Ykh3WFRNRHdLQ1JqckJ4R3k2R2dqUlh1eUwyVHhzMWhtOUpaa1E?oc=5",
+            "topic": "other"
+          },
+          {
+            "title": "An officer proposes selling Kiniksa (KNSA) shares, including 97,572 from an option exercise.",
+            "published_utc": "2026-10-30T22:15:59+00:00",
+            "publisher": "Stock Titan",
+            "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQOFROU05TRjdqZVd0T0M0REZiUjNDekpaX2k1bThTRXFzbEVyVjJGRVpqMEpFZ08xQUtJTmtfT0lrWi1DUVdyWTFaUEhOWkxwVjBmeklqUFlwSVVPWFUxRzlFaDVad1duSnM4cGFockNfNXgyQVJxclB3Z1lVWWJnOXpmM3VzQlc0Vl9HSkFPNHQ3NklqQ1UweHlVNFBiX3BPa1lkbzVEZDFpZU92VUxoMkNzYnZ5dUpoZ0E?oc=5",
+            "topic": "other"
+          },
+          {
+            "title": "After selling 4,600 shares, Kiniksa (KNSA) officer Michael R. Megna proposes another sale.",
+            "published_utc": "2026-10-30T22:15:00+00:00",
+            "publisher": "Stock Titan",
+            "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOMTgtLVN1cUlqVC1IVGU2VVdxY21yaERzTDEzb3JYclRCSW4xdk5RdTR1WUpBV1JlTEFmVk1JOWowR25KTmpZRzRlbGg3cGxOeGJiNmVtQWlkUlJJLXF5RklyRmlFbEFCWUZOVkxKMDZBNVRROE41ODJ2YVJCQTFUdkl2cFlqdGZCYmVnNFg3bVVtcUZJRDBtZm43bjhjRlI3MU9BcmR5VGdPTHlvckFQVHlRVzB5Z2tvVmc?oc=5",
             "topic": "other"
           }
         ],
@@ -317,37 +317,37 @@
         "ticker": "MPC",
         "name": "Marathon Petroleum Corporation",
         "fiscal_year_end": "2025-12-31",
-        "market_cap_usd": 121459523584.0,
-        "forward_pe": 7.1717143,
+        "market_cap_usd": 129832984576.0,
+        "forward_pe": 7.3743415,
         "revenue_usd": 132699000000.0,
         "revenue_growth_yoy_pct": -4.44,
         "net_income_usd": 4047000000.0,
         "operating_cash_usd": 8253000000.0,
         "capital_spending_usd": 3486000000.0,
         "fcf_usd": 4767000000.0,
-        "fcf_yield_pct": 3.92,
+        "fcf_yield_pct": 3.67,
         "fcf_positive_years": 3,
         "fcf_years_available": 3,
         "cash_usd": 7768000000.0,
         "debt_usd": 3311000000.0,
-        "price_implied_fcf_growth_pct": 22.65,
+        "price_implied_fcf_growth_pct": 24.47,
         "reverse_model_required_return_pct": 11.0,
         "reverse_model_terminal_growth_pct": 2.0,
         "scenario_sensitivity": {
           "no_growth": {
             "annual_fcf_growth_assumed_pct": 0.0,
             "illustrative_equity_value_usd": 49680142532.83,
-            "value_as_pct_of_current_market_cap": 40.9
+            "value_as_pct_of_current_market_cap": 38.26
           },
           "moderate_growth": {
             "annual_fcf_growth_assumed_pct": 5.0,
             "illustrative_equity_value_usd": 61157267884.14,
-            "value_as_pct_of_current_market_cap": 50.35
+            "value_as_pct_of_current_market_cap": 47.1
           },
           "fast_growth": {
             "annual_fcf_growth_assumed_pct": 10.0,
             "illustrative_equity_value_usd": 74834348576.12,
-            "value_as_pct_of_current_market_cap": 61.61
+            "value_as_pct_of_current_market_cap": 57.64
           }
         },
         "annual_history": [
@@ -369,13 +369,13 @@
         ]
       },
       "price_context": {
-        "last_price_date": "2026-10-29",
-        "last_close_usd": 432.51,
-        "return_last_year_pct": 128.78,
-        "voo_same_year_pct": 13.26,
-        "relative_to_voo_year_pp": 115.52,
-        "momentum_3m_pct": 37.04,
-        "momentum_6m_pct": 75.34,
+        "last_price_date": "2026-10-30",
+        "last_close_usd": 444.73,
+        "return_last_year_pct": 130.99,
+        "voo_same_year_pct": 11.21,
+        "relative_to_voo_year_pp": 119.77,
+        "momentum_3m_pct": 45.25,
+        "momentum_6m_pct": 81.86,
         "above_200d_average": true
       },
       "sources": [
@@ -447,39 +447,39 @@
         },
         {
           "id": "S12",
-          "kind": "News-index headline · GuruFocus · 2026-10-29",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQUjJCdHZibU1pUVRuUmFxYlQ0VVRhdVdERlc1UHdRQUhXcm1JaHFGQXlERnFnWXZ4N01FSUN1WVlMRVdvUDdCWG1NQ1NRbXYwdWttUWk3MGV1dmRCbnBjZVM2N05WRzdFcS1BM25ZMzNlYXJ1VUVzcUR4SHE4TlBLdVJ5UnRYTkQyVlEyREFzMVQtNFp0M3A2eHMySjlSQ251TWVWNEtYenF4aWUyMEJYbXkzNkhNZEtfanhYZnNFaFRjQUNUUWhoQkx3?oc=5",
-          "summary": "Headline only, not checked article text: Marathon Petroleum (MPC) Expands Board to 11 Members, Elects Dav"
+          "kind": "News-index headline · MarketBeat · 2026-10-30",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxONGdNVmRSVjM0dlNOclNteTRwY0JOTHNUUnJXYk81SVI4aW0wdG5lX0htS3JWbDRMbnRERTdheVIydzFWVXhpWEZTLU1tcXZJbjlXaXZPVGtHcFdKTmZpQmZtRjR0YjVXSHU1ZlZsd2c1dTEwajdzdEVCaDQ5amlVdkxMY3JudnBGTGtqR1dYcEdlVmY0b3Rwb0x3dXhsTlFybDZROGJ1VzFvdVVvVS1mb3NGT0FQWlRqMkkyZEhmcWdlSlk?oc=5",
+          "summary": "Headline only, not checked article text: Marathon Petroleum (NYSE:MPC) Stock Price Up 2.9% - Here's What Happened"
         },
         {
           "id": "S13",
-          "kind": "News-index headline · Yahoo Finance Singapore · 2026-10-29",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBTeXB2TFpOaWphTmRHajFXNkRjQ2ttd0pkcjNUNlRkanRWWUtMdy1hT3lCcG8xM0ZfQkNOTVB1X0U1QUJxWFhrTThOYk55RWJTckRlVVEwVjNQSV9kUzhMZQ?oc=5",
-          "summary": "Headline only, not checked article text: Marathon Petroleum Corporation (MPC) Seasonal returns chart"
+          "kind": "News-index headline · Traders Union · 2026-10-30",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOWUxaLXJtNUR1NDB2NEo1bEszWmNEdEFhWW9zUFU0OGFnd1c5Z2NMVnZINTB5c0FjcklMNnh2dHk5bzJySVlSVkViRElReDlPekpIaU43ZW5WLTJRRU9LV1pmWUV2WEo3SmJsckRLR1ZHZ3ZyQ2NudmVUcXI4d2N6LWRjNHZxVnZQT2xiY3NIMXVuR0F4eURWUnRjSQ?oc=5",
+          "summary": "Headline only, not checked article text: Marathon Petroleum holds groundbreaking for new training center as stock rises 2.3%"
         },
         {
           "id": "S14",
-          "kind": "News-index headline · Yahoo! Finance Canada · 2026-10-29",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBGYnE2cV9teVVVVWhwNGRjWDBLcW5aNGRiYm9nbFJ4bnNZdHk2aWN6ZEpMTHkySE9ySnJiOTBocEo4QkdQV3JqUTBNS3NxSkxfSERUS01CdFJ4NVNPR2xjag?oc=5",
-          "summary": "Headline only, not checked article text: Marathon Petroleum Corporation (MPC) Seasonal Returns Chart - Yahoo Finance"
+          "kind": "News-index headline · ad-hoc-news.de · 2026-10-30",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQZ3RBd3RRbFA1aklySkxGVWJnS2x2QjdESmpVZUdhN3VJTTBoQUNISjM2OXpKRElySV84YkZlU1dXLVhQQUg0OWUxN1llbHBRV0hiT3NpQmRSUzd2WWlyR2FkdENPenRqUjdaNFEzZWE1M1RSU2p1VDd0aVVXTnYxaXhBOHRiSTNVVkxLOTJySDJJVWFyYm1lM3VNaGNUT0J4QUp0SC1EZW5yOW1FeEtCZ2NoVXNsTElVQVQtWkFaaw?oc=5",
+          "summary": "Headline only, not checked article text: Marathon Petroleum stock: Dividend rises 10% ahead of results"
         },
         {
           "id": "S15",
-          "kind": "News-index headline · MarketBeat · 2026-10-29",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOMldNZnpNcTdyNTh4NTVNOW16M2xxVWltd1RKakszTkVkNEYwbTlNS3AxMDNuY3lWM0EzQlQ4b0xTc3p5QU9PTWc0UmRzX1c1aTZwVzBHSEQySFZtcDdwNDlBaU9Xdmc0dkZIb1BOaFl1ZnRVcG9hcFZobEtrRmlQYTNzRlZSOHZtNzFuOVJIUlA2ZlVDZDhROVdVVkN3M3hIekNfblk3RVJiSHRWVUhCYm5wb3hqVmVCZmVsVzBXdElhSXctaEE?oc=5",
-          "summary": "Headline only, not checked article text: Marathon Petroleum (NYSE:MPC) Stock Price Down 1.7% - Here's What Happened"
+          "kind": "News-index headline · ad-hoc-news.de · 2026-10-30",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNeFI2SS05Ui0xdXdnek13YUpSbVlSelNtWi1UTEQxb3JCWDhkZDkxN1VWcVhYeE1sQjRKSGtZRlVrU3pjMEpvVm5xeFlkeTZsMXZaaFRPdVU0Q3BDMFlYSFo0UVV3MF9PR1ExdXNZV0pnTHVoQjlQQlpQS0lhY0VyM1M5RXM0blQ0WkFyOG1ob3VwVjJEZWpaWXNxazBldExtLW9QTjM1bkNJenhIR2Y4RTdvYTd0TWNPR2dJTFRMOWU?oc=5",
+          "summary": "Headline only, not checked article text: Marathon Petroleum stock gets 10% quarterly dividend increase"
         },
         {
           "id": "S16",
-          "kind": "News-index headline · Kalkine Media · 2026-10-29",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPSllGbFBwVm16WERKTVBaVnFyOElfeVBIM291UmsyUm9QVDRzZnQtQXB4YXI2VVpQZFl6enR0aExCNUtIRlhkTGJsbGxFa3JBVERVdFVTMWk2eTZaWFFsT25TMjdhOVV2VkhQb3ZYMHZjTXF3dTlwTzE5d01EV0dGenhmaWV5TXF6UHdzQlp6X3RGR0lhLWZHRzVsbTI4aUI3eXhxU0VPY2wxdGxzTlE?oc=5",
-          "summary": "Headline only, not checked article text: Can Marathon Petroleum (NYSE:MPC) Sustain Strong Refining Performance?"
+          "kind": "News-index headline · Yahoo Finance · 2026-10-30",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPeTlzUXp1akdvc2ZtQkVRdldMUzNlQ0oxREs2R3RmRHBLcWNBcU4xMXM4SUFIekZWR3FmblJEX29uTW1CZU5rQVZ5NmdmbzlfdGxCSGZXRTF5YUNXaWRDaHZ3aXZ4TVF0alA1elVfSXFPU3NOY0NMZVdzMEwzeThFLU1GN2gwZkRQNUppcGN5NkxfVGpDaEpBSWktMDRDaUVXVUpZ?oc=5",
+          "summary": "Headline only, not checked article text: Zacks.com featured highlights include Suzano, Marathon Petroleum, Micron Technology and Itron"
         },
         {
           "id": "S17",
-          "kind": "News-index headline · Investing.com UK · 2026-10-29",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQWXN0NUhxWGlFSTZXUTFsNTZyTUdsVTNNT3hPd1VRU0lVRTJkNkk2OTgtazhfRHpLQmQyS2xYdDBULXNHaldIcFhGeDBSTVpBeFlfNkRQRjZzeGNhSXNqMjl1Tnc2S0xzZG1GMHNWbUV4WkdVa1dYV3JUbnZkSXFmTjRKNDRvNnJrUTloRmZEYy1XMFo5OGtRRnFUYWkyODlBMUhpTXpHVnB3Yms?oc=5",
-          "summary": "Headline only, not checked article text: Form 8K Marathon Petroleum Corp For: 29 October By Investing.com"
+          "kind": "News-index headline · Yahoo Finance · 2026-10-30",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOQ2dOaVlIbDFjakVzLW51WEZjWGtWZk14UWFxUENtenNwaXB2U2xJVVcyTmwtSFlDeWJsVGRic1h6NjdHcUZEN1FoSHo3TzJMa3pzTzFYRExiT3FnV2VEUHpweWloY3I5SUZEaF9ibUR1eEpWZ2FDYVNuUnBzMGlfRW5VWjVkUGZEVTI0MkVZOWVUc2hT?oc=5",
+          "summary": "Headline only, not checked article text: What Could Marathon Petroleum (MPC) Gain From Adding David E. Constable?"
         }
       ],
       "filings": {
@@ -560,74 +560,63 @@
       },
       "investment_role": "Candidate for multi-year valuation research, not an approved trade.",
       "qualitative_context": {
-        "asof_utc": "2026-10-30T02:25:34.264716+00:00",
+        "asof_utc": "2026-10-31T02:28:22.250434+00:00",
         "search_url": "https://news.google.com/rss/search?q=%22Marathon%20Petroleum%22%20when%3A7d&hl=en-US&gl=US&ceid=US:en",
         "news_window_days": 7,
         "headline_sample": [
           {
-            "title": "Marathon Petroleum (MPC) Expands Board to 11 Members, Elects Dav",
-            "published_utc": "2026-10-29T23:47:17+00:00",
-            "publisher": "GuruFocus",
-            "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQUjJCdHZibU1pUVRuUmFxYlQ0VVRhdVdERlc1UHdRQUhXcm1JaHFGQXlERnFnWXZ4N01FSUN1WVlMRVdvUDdCWG1NQ1NRbXYwdWttUWk3MGV1dmRCbnBjZVM2N05WRzdFcS1BM25ZMzNlYXJ1VUVzcUR4SHE4TlBLdVJ5UnRYTkQyVlEyREFzMVQtNFp0M3A2eHMySjlSQ251TWVWNEtYenF4aWUyMEJYbXkzNkhNZEtfanhYZnNFaFRjQUNUUWhoQkx3?oc=5",
+            "title": "Marathon Petroleum (NYSE:MPC) Stock Price Up 2.9% - Here's What Happened",
+            "published_utc": "2026-10-30T21:25:47+00:00",
+            "publisher": "MarketBeat",
+            "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxONGdNVmRSVjM0dlNOclNteTRwY0JOTHNUUnJXYk81SVI4aW0wdG5lX0htS3JWbDRMbnRERTdheVIydzFWVXhpWEZTLU1tcXZJbjlXaXZPVGtHcFdKTmZpQmZtRjR0YjVXSHU1ZlZsd2c1dTEwajdzdEVCaDQ5amlVdkxMY3JudnBGTGtqR1dYcEdlVmY0b3Rwb0x3dXhsTlFybDZROGJ1VzFvdVVvVS1mb3NGT0FQWlRqMkkyZEhmcWdlSlk?oc=5",
             "topic": "other"
           },
           {
-            "title": "Marathon Petroleum Corporation (MPC) Seasonal returns chart",
-            "published_utc": "2026-10-29T22:46:39+00:00",
-            "publisher": "Yahoo Finance Singapore",
-            "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBTeXB2TFpOaWphTmRHajFXNkRjQ2ttd0pkcjNUNlRkanRWWUtMdy1hT3lCcG8xM0ZfQkNOTVB1X0U1QUJxWFhrTThOYk55RWJTckRlVVEwVjNQSV9kUzhMZQ?oc=5",
+            "title": "Marathon Petroleum holds groundbreaking for new training center as stock rises 2.3%",
+            "published_utc": "2026-10-30T18:45:39+00:00",
+            "publisher": "Traders Union",
+            "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOWUxaLXJtNUR1NDB2NEo1bEszWmNEdEFhWW9zUFU0OGFnd1c5Z2NMVnZINTB5c0FjcklMNnh2dHk5bzJySVlSVkViRElReDlPekpIaU43ZW5WLTJRRU9LV1pmWUV2WEo3SmJsckRLR1ZHZ3ZyQ2NudmVUcXI4d2N6LWRjNHZxVnZQT2xiY3NIMXVuR0F4eURWUnRjSQ?oc=5",
             "topic": "other"
           },
           {
-            "title": "Marathon Petroleum Corporation (MPC) Seasonal Returns Chart - Yahoo Finance",
-            "published_utc": "2026-10-29T22:42:39+00:00",
-            "publisher": "Yahoo! Finance Canada",
-            "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBGYnE2cV9teVVVVWhwNGRjWDBLcW5aNGRiYm9nbFJ4bnNZdHk2aWN6ZEpMTHkySE9ySnJiOTBocEo4QkdQV3JqUTBNS3NxSkxfSERUS01CdFJ4NVNPR2xjag?oc=5",
+            "title": "Marathon Petroleum stock: Dividend rises 10% ahead of results",
+            "published_utc": "2026-10-30T16:31:07+00:00",
+            "publisher": "ad-hoc-news.de",
+            "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQZ3RBd3RRbFA1aklySkxGVWJnS2x2QjdESmpVZUdhN3VJTTBoQUNISjM2OXpKRElySV84YkZlU1dXLVhQQUg0OWUxN1llbHBRV0hiT3NpQmRSUzd2WWlyR2FkdENPenRqUjdaNFEzZWE1M1RSU2p1VDd0aVVXTnYxaXhBOHRiSTNVVkxLOTJySDJJVWFyYm1lM3VNaGNUT0J4QUp0SC1EZW5yOW1FeEtCZ2NoVXNsTElVQVQtWkFaaw?oc=5",
             "topic": "financing"
           },
           {
-            "title": "Marathon Petroleum (NYSE:MPC) Stock Price Down 1.7% - Here's What Happened",
-            "published_utc": "2026-10-29T21:53:36+00:00",
-            "publisher": "MarketBeat",
-            "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOMldNZnpNcTdyNTh4NTVNOW16M2xxVWltd1RKakszTkVkNEYwbTlNS3AxMDNuY3lWM0EzQlQ4b0xTc3p5QU9PTWc0UmRzX1c1aTZwVzBHSEQySFZtcDdwNDlBaU9Xdmc0dkZIb1BOaFl1ZnRVcG9hcFZobEtrRmlQYTNzRlZSOHZtNzFuOVJIUlA2ZlVDZDhROVdVVkN3M3hIekNfblk3RVJiSHRWVUhCYm5wb3hqVmVCZmVsVzBXdElhSXctaEE?oc=5",
+            "title": "Marathon Petroleum stock gets 10% quarterly dividend increase",
+            "published_utc": "2026-10-30T10:57:34+00:00",
+            "publisher": "ad-hoc-news.de",
+            "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNeFI2SS05Ui0xdXdnek13YUpSbVlSelNtWi1UTEQxb3JCWDhkZDkxN1VWcVhYeE1sQjRKSGtZRlVrU3pjMEpvVm5xeFlkeTZsMXZaaFRPdVU0Q3BDMFlYSFo0UVV3MF9PR1ExdXNZV0pnTHVoQjlQQlpQS0lhY0VyM1M5RXM0blQ0WkFyOG1ob3VwVjJEZWpaWXNxazBldExtLW9QTjM1bkNJenhIR2Y4RTdvYTd0TWNPR2dJTFRMOWU?oc=5",
+            "topic": "financing"
+          },
+          {
+            "title": "Zacks.com featured highlights include Suzano, Marathon Petroleum, Micron Technology and Itron",
+            "published_utc": "2026-10-30T09:52:00+00:00",
+            "publisher": "Yahoo Finance",
+            "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPeTlzUXp1akdvc2ZtQkVRdldMUzNlQ0oxREs2R3RmRHBLcWNBcU4xMXM4SUFIekZWR3FmblJEX29uTW1CZU5rQVZ5NmdmbzlfdGxCSGZXRTF5YUNXaWRDaHZ3aXZ4TVF0alA1elVfSXFPU3NOY0NMZVdzMEwzeThFLU1GN2gwZkRQNUppcGN5NkxfVGpDaEpBSWktMDRDaUVXVUpZ?oc=5",
             "topic": "other"
           },
           {
-            "title": "Can Marathon Petroleum (NYSE:MPC) Sustain Strong Refining Performance?",
-            "published_utc": "2026-10-29T21:33:00+00:00",
-            "publisher": "Kalkine Media",
-            "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPSllGbFBwVm16WERKTVBaVnFyOElfeVBIM291UmsyUm9QVDRzZnQtQXB4YXI2VVpQZFl6enR0aExCNUtIRlhkTGJsbGxFa3JBVERVdFVTMWk2eTZaWFFsT25TMjdhOVV2VkhQb3ZYMHZjTXF3dTlwTzE5d01EV0dGenhmaWV5TXF6UHdzQlp6X3RGR0lhLWZHRzVsbTI4aUI3eXhxU0VPY2wxdGxzTlE?oc=5",
-            "topic": "profitability"
-          },
-          {
-            "title": "Form 8K Marathon Petroleum Corp For: 29 October By Investing.com",
-            "published_utc": "2026-10-29T21:02:00+00:00",
-            "publisher": "Investing.com UK",
-            "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQWXN0NUhxWGlFSTZXUTFsNTZyTUdsVTNNT3hPd1VRU0lVRTJkNkk2OTgtazhfRHpLQmQyS2xYdDBULXNHaldIcFhGeDBSTVpBeFlfNkRQRjZzeGNhSXNqMjl1Tnc2S0xzZG1GMHNWbUV4WkdVa1dYV3JUbnZkSXFmTjRKNDRvNnJrUTloRmZEYy1XMFo5OGtRRnFUYWkyODlBMUhpTXpHVnB3Yms?oc=5",
+            "title": "What Could Marathon Petroleum (MPC) Gain From Adding David E. Constable?",
+            "published_utc": "2026-10-30T04:29:00+00:00",
+            "publisher": "Yahoo Finance",
+            "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOQ2dOaVlIbDFjakVzLW51WEZjWGtWZk14UWFxUENtenNwaXB2U2xJVVcyTmwtSFlDeWJsVGRic1h6NjdHcUZEN1FoSHo3TzJMa3pzTzFYRExiT3FnV2VEUHpweWloY3I5SUZEaF9ibUR1eEpWZ2FDYVNuUnBzMGlfRW5VWjVkUGZEVTI0MkVZOWVUc2hT?oc=5",
             "topic": "other"
           }
         ],
         "narratives": [
           {
             "topic": "financing",
-            "headline": "Marathon Petroleum Corporation (MPC) Seasonal Returns Chart - Yahoo Finance",
-            "published_utc": "2026-10-29T22:42:39+00:00",
-            "publisher": "Yahoo! Finance Canada",
-            "source_url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBGYnE2cV9teVVVVWhwNGRjWDBLcW5aNGRiYm9nbFJ4bnNZdHk2aWN6ZEpMTHkySE9ySnJiOTBocEo4QkdQV3JqUTBNS3NxSkxfSERUS01CdFJ4NVNPR2xjag?oc=5",
+            "headline": "Marathon Petroleum stock: Dividend rises 10% ahead of results",
+            "published_utc": "2026-10-30T16:31:07+00:00",
+            "publisher": "ad-hoc-news.de",
+            "source_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQZ3RBd3RRbFA1aklySkxGVWJnS2x2QjdESmpVZUdhN3VJTTBoQUNISjM2OXpKRElySV84YkZlU1dXLVhQQUg0OWUxN1llbHBRV0hiT3NpQmRSUzd2WWlyR2FkdENPenRqUjdaNFEzZWE1M1RSU2p1VDd0aVVXTnYxaXhBOHRiSTNVVkxLOTJySDJJVWFyYm1lM3VNaGNUT0J4QUp0SC1EZW5yOW1FeEtCZ2NoVXNsTElVQVQtWkFaaw?oc=5",
             "mechanism": "Borrowing costs or capital allocation can affect how much future cash ultimately belongs to shareholders.",
             "competing_reading": "Higher dividends or buybacks can be funded by debt and are not automatically value creation.",
             "test": "Check the balance sheet, debt maturities and cash available after capital spending.",
-            "evidence_level": "headline_coverage_not_confirmed_event"
-          },
-          {
-            "topic": "profitability",
-            "headline": "Can Marathon Petroleum (NYSE:MPC) Sustain Strong Refining Performance?",
-            "published_utc": "2026-10-29T21:33:00+00:00",
-            "publisher": "Kalkine Media",
-            "source_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPSllGbFBwVm16WERKTVBaVnFyOElfeVBIM291UmsyUm9QVDRzZnQtQXB4YXI2VVpQZFl6enR0aExCNUtIRlhkTGJsbGxFa3JBVERVdFVTMWk2eTZaWFFsT25TMjdhOVV2VkhQb3ZYMHZjTXF3dTlwTzE5d01EV0dGenhmaWV5TXF6UHdzQlp6X3RGR0lhLWZHRzVsbTI4aUI3eXhxU0VPY2wxdGxzTlE?oc=5",
-            "mechanism": "Changes in selling prices or operating costs affect the fraction of sales that becomes profit and cash.",
-            "competing_reading": "A temporary price or cost improvement may disappear when conditions normalize.",
-            "test": "Check reported operating margins, cash conversion and the reasons for changes.",
             "evidence_level": "headline_coverage_not_confirmed_event"
           }
         ],
@@ -640,14 +629,14 @@
       "ticker": "GLD",
       "name": "Physical gold",
       "metrics": {
-        "price_usd": 368.57,
-        "return_3m_pct": -0.8,
-        "return_6m_pct": -13.0,
-        "asof": "2026-10-29",
+        "price_usd": 355.78,
+        "return_3m_pct": -4.29,
+        "return_6m_pct": -15.93,
+        "asof": "2026-10-30",
         "source": "https://finance.yahoo.com/quote/GLD/history/",
-        "relative_6m_to_voo_pp": -20.66,
+        "relative_6m_to_voo_pp": -21.38,
         "proxy_kind": "Physical gold",
-        "voo_return_6m_pct": 7.66
+        "voo_return_6m_pct": 5.45
       },
       "sources": [
         {
@@ -665,7 +654,7 @@
       ],
       "investment_role": "Portfolio-diversification research, not a commodity spot-price prediction.",
       "qualitative_context": {
-        "asof_utc": "2026-10-30T02:25:34.264716+00:00",
+        "asof_utc": "2026-10-31T02:28:22.250434+00:00",
         "search_url": "https://news.google.com/rss/search?q=%22gold%20prices%20ETF%22%20when%3A7d&hl=en-US&gl=US&ceid=US:en",
         "news_window_days": 7,
         "headline_sample": [],
@@ -678,6 +667,6 @@
   "excluded": "All cryptocurrency, tokens and crypto-exposed businesses; no crypto recommendations.",
   "benchmark": "VOO after costs where comparable",
   "diagnostics": [],
-  "qualitative_asof_utc": "2026-10-30T02:25:34.264716+00:00",
+  "qualitative_asof_utc": "2026-10-31T02:28:22.250434+00:00",
   "qualitative_method": "Dated headline watch + SEC filings; causal implications are conditional, not sentiment forecasts."
 }

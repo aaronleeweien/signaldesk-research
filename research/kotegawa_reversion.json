@@ -1,6 +1,6 @@
 {
   "protocol": "bnf_inspired_mean_reversion_v1_20261024",
-  "market_date": "2026-10-29",
+  "market_date": "2026-10-30",
   "approach": "BNF-inspired short-term contrarian research, NOT his exact discretionary method",
   "source_interviews": [
     "https://kabushiki-blog.com/article/18401857.html",
@@ -18,280 +18,553 @@
   },
   "screened_prices_for_assets": 88,
   "passing_retrospective_tests": 2,
-  "new_paper_entry_setups": 0,
+  "new_paper_entry_setups": 17,
   "historical_screen_summary": [
     {
       "ticker": "FRO",
       "trades": 24,
-      "strategy_annual_pct": 20.64,
-      "voo_annual_pct": 15.59,
-      "annual_excess_pp": 5.05,
-      "recent_excess_pp": -0.97,
+      "strategy_annual_pct": 20.63,
+      "voo_annual_pct": 15.3,
+      "annual_excess_pp": 5.33,
+      "recent_excess_pp": -0.56,
       "historical_only_pass": false
     },
     {
       "ticker": "PLTR",
       "trades": 27,
-      "strategy_annual_pct": 19.08,
-      "voo_annual_pct": 14.87,
-      "annual_excess_pp": 4.21,
-      "recent_excess_pp": 9.04,
+      "strategy_annual_pct": 19.07,
+      "voo_annual_pct": 14.51,
+      "annual_excess_pp": 4.56,
+      "recent_excess_pp": 9.45,
       "historical_only_pass": true
     },
     {
       "ticker": "FROG",
       "trades": 25,
-      "strategy_annual_pct": 18.09,
-      "voo_annual_pct": 15.0,
-      "annual_excess_pp": 3.09,
-      "recent_excess_pp": 5.31,
+      "strategy_annual_pct": 18.08,
+      "voo_annual_pct": 14.64,
+      "annual_excess_pp": 3.44,
+      "recent_excess_pp": 5.72,
       "historical_only_pass": true
     },
     {
-      "ticker": "RBRK",
-      "trades": 7,
-      "strategy_annual_pct": 14.04,
-      "voo_annual_pct": 16.8,
-      "annual_excess_pp": -2.76,
-      "recent_excess_pp": -2.76,
-      "historical_only_pass": false
-    },
-    {
-      "ticker": "PANW",
-      "trades": 19,
-      "strategy_annual_pct": 9.31,
-      "voo_annual_pct": 15.59,
-      "annual_excess_pp": -6.28,
-      "recent_excess_pp": 4.12,
+      "ticker": "INSW",
+      "trades": 18,
+      "strategy_annual_pct": 16.07,
+      "voo_annual_pct": 15.3,
+      "annual_excess_pp": 0.77,
+      "recent_excess_pp": -2.17,
       "historical_only_pass": false
     },
     {
       "ticker": "VSAT",
       "trades": 26,
       "strategy_annual_pct": 8.76,
-      "voo_annual_pct": 15.59,
-      "annual_excess_pp": -6.83,
-      "recent_excess_pp": -0.11,
+      "voo_annual_pct": 15.3,
+      "annual_excess_pp": -6.54,
+      "recent_excess_pp": 0.31,
+      "historical_only_pass": false
+    },
+    {
+      "ticker": "AXGN",
+      "trades": 30,
+      "strategy_annual_pct": 8.28,
+      "voo_annual_pct": 15.3,
+      "annual_excess_pp": -7.02,
+      "recent_excess_pp": -3.39,
       "historical_only_pass": false
     },
     {
       "ticker": "AMD",
       "trades": 40,
       "strategy_annual_pct": 8.03,
-      "voo_annual_pct": 15.59,
-      "annual_excess_pp": -7.56,
-      "recent_excess_pp": -3.73,
-      "historical_only_pass": false
-    },
-    {
-      "ticker": "LITE",
-      "trades": 32,
-      "strategy_annual_pct": 7.93,
-      "voo_annual_pct": 15.59,
-      "annual_excess_pp": -7.66,
-      "recent_excess_pp": -4.22,
+      "voo_annual_pct": 15.3,
+      "annual_excess_pp": -7.27,
+      "recent_excess_pp": -3.31,
       "historical_only_pass": false
     },
     {
       "ticker": "BWIN",
       "trades": 20,
       "strategy_annual_pct": 6.61,
-      "voo_annual_pct": 14.79,
-      "annual_excess_pp": -8.18,
-      "recent_excess_pp": -4.54,
-      "historical_only_pass": false
-    },
-    {
-      "ticker": "GEV",
-      "trades": 3,
-      "strategy_annual_pct": 8.89,
-      "voo_annual_pct": 17.11,
-      "annual_excess_pp": -8.22,
-      "recent_excess_pp": -8.22,
+      "voo_annual_pct": 14.48,
+      "annual_excess_pp": -7.87,
+      "recent_excess_pp": -4.12,
       "historical_only_pass": false
     },
     {
       "ticker": "DELL",
       "trades": 24,
       "strategy_annual_pct": 5.99,
-      "voo_annual_pct": 15.59,
-      "annual_excess_pp": -9.6,
-      "recent_excess_pp": -4.53,
+      "voo_annual_pct": 15.3,
+      "annual_excess_pp": -9.31,
+      "recent_excess_pp": -4.11,
       "historical_only_pass": false
     },
     {
       "ticker": "NET",
       "trades": 26,
-      "strategy_annual_pct": 5.81,
-      "voo_annual_pct": 15.51,
-      "annual_excess_pp": -9.7,
-      "recent_excess_pp": -8.01,
+      "strategy_annual_pct": 5.8,
+      "voo_annual_pct": 15.21,
+      "annual_excess_pp": -9.41,
+      "recent_excess_pp": -7.59,
       "historical_only_pass": false
     },
     {
-      "ticker": "GRAL",
+      "ticker": "GEV",
       "trades": 4,
-      "strategy_annual_pct": 9.08,
-      "voo_annual_pct": 18.92,
-      "annual_excess_pp": -9.84,
-      "recent_excess_pp": -9.84,
+      "strategy_annual_pct": 6.78,
+      "voo_annual_pct": 16.2,
+      "annual_excess_pp": -9.42,
+      "recent_excess_pp": -9.42,
       "historical_only_pass": false
     },
     {
       "ticker": "HPE",
       "trades": 16,
       "strategy_annual_pct": 5.15,
-      "voo_annual_pct": 15.59,
-      "annual_excess_pp": -10.44,
-      "recent_excess_pp": -5.29,
+      "voo_annual_pct": 15.3,
+      "annual_excess_pp": -10.15,
+      "recent_excess_pp": -4.88,
       "historical_only_pass": false
     },
     {
       "ticker": "XMTR",
       "trades": 25,
       "strategy_annual_pct": 2.27,
-      "voo_annual_pct": 12.94,
-      "annual_excess_pp": -10.67,
-      "recent_excess_pp": -9.19,
-      "historical_only_pass": false
-    },
-    {
-      "ticker": "INTC",
-      "trades": 22,
-      "strategy_annual_pct": 4.34,
-      "voo_annual_pct": 15.59,
-      "annual_excess_pp": -11.25,
-      "recent_excess_pp": -7.0,
+      "voo_annual_pct": 12.53,
+      "annual_excess_pp": -10.26,
+      "recent_excess_pp": -8.77,
       "historical_only_pass": false
     },
     {
       "ticker": "EQNR",
       "trades": 11,
       "strategy_annual_pct": 4.13,
-      "voo_annual_pct": 15.59,
-      "annual_excess_pp": -11.46,
-      "recent_excess_pp": -5.84,
-      "historical_only_pass": false
-    },
-    {
-      "ticker": "MXL",
-      "trades": 38,
-      "strategy_annual_pct": 3.95,
-      "voo_annual_pct": 15.59,
-      "annual_excess_pp": -11.64,
-      "recent_excess_pp": -13.47,
-      "historical_only_pass": false
-    },
-    {
-      "ticker": "MRNA",
-      "trades": 27,
-      "strategy_annual_pct": 3.79,
-      "voo_annual_pct": 15.59,
-      "annual_excess_pp": -11.8,
-      "recent_excess_pp": -6.2,
+      "voo_annual_pct": 15.3,
+      "annual_excess_pp": -11.17,
+      "recent_excess_pp": -5.42,
       "historical_only_pass": false
     },
     {
       "ticker": "VAL",
       "trades": 11,
       "strategy_annual_pct": 0.87,
-      "voo_annual_pct": 12.68,
-      "annual_excess_pp": -11.81,
-      "recent_excess_pp": -12.11,
+      "voo_annual_pct": 12.29,
+      "annual_excess_pp": -11.42,
+      "recent_excess_pp": -11.69,
+      "historical_only_pass": false
+    },
+    {
+      "ticker": "MRNA",
+      "trades": 27,
+      "strategy_annual_pct": 3.78,
+      "voo_annual_pct": 15.3,
+      "annual_excess_pp": -11.52,
+      "recent_excess_pp": -5.78,
       "historical_only_pass": false
     },
     {
       "ticker": "AVAV",
       "trades": 32,
       "strategy_annual_pct": 3.59,
-      "voo_annual_pct": 15.59,
-      "annual_excess_pp": -12.0,
-      "recent_excess_pp": 7.1,
+      "voo_annual_pct": 15.3,
+      "annual_excess_pp": -11.71,
+      "recent_excess_pp": 7.51,
       "historical_only_pass": false
     },
     {
       "ticker": "AMZN",
       "trades": 17,
       "strategy_annual_pct": 3.56,
-      "voo_annual_pct": 15.59,
-      "annual_excess_pp": -12.03,
-      "recent_excess_pp": -6.85,
+      "voo_annual_pct": 15.3,
+      "annual_excess_pp": -11.74,
+      "recent_excess_pp": -6.44,
       "historical_only_pass": false
     },
     {
       "ticker": "CVE",
       "trades": 23,
       "strategy_annual_pct": 3.45,
-      "voo_annual_pct": 15.59,
-      "annual_excess_pp": -12.14,
-      "recent_excess_pp": -8.16,
+      "voo_annual_pct": 15.3,
+      "annual_excess_pp": -11.85,
+      "recent_excess_pp": -7.74,
       "historical_only_pass": false
     },
     {
       "ticker": "TSM",
       "trades": 17,
       "strategy_annual_pct": 3.29,
-      "voo_annual_pct": 15.59,
-      "annual_excess_pp": -12.3,
-      "recent_excess_pp": -4.69,
+      "voo_annual_pct": 15.3,
+      "annual_excess_pp": -12.01,
+      "recent_excess_pp": -4.27,
       "historical_only_pass": false
     },
     {
-      "ticker": "TWLO",
-      "trades": 29,
-      "strategy_annual_pct": 3.01,
-      "voo_annual_pct": 15.59,
-      "annual_excess_pp": -12.58,
-      "recent_excess_pp": -10.35,
+      "ticker": "COP",
+      "trades": 10,
+      "strategy_annual_pct": 3.03,
+      "voo_annual_pct": 15.3,
+      "annual_excess_pp": -12.27,
+      "recent_excess_pp": -7.94,
+      "historical_only_pass": false
+    },
+    {
+      "ticker": "META",
+      "trades": 25,
+      "strategy_annual_pct": 2.92,
+      "voo_annual_pct": 15.3,
+      "annual_excess_pp": -12.38,
+      "recent_excess_pp": -4.59,
       "historical_only_pass": false
     },
     {
       "ticker": "NVDA",
       "trades": 30,
       "strategy_annual_pct": 2.9,
-      "voo_annual_pct": 15.59,
-      "annual_excess_pp": -12.69,
-      "recent_excess_pp": -4.37,
+      "voo_annual_pct": 15.3,
+      "annual_excess_pp": -12.4,
+      "recent_excess_pp": -3.96,
+      "historical_only_pass": false
+    },
+    {
+      "ticker": "KYMR",
+      "trades": 24,
+      "strategy_annual_pct": 2.3,
+      "voo_annual_pct": 14.7,
+      "annual_excess_pp": -12.4,
+      "recent_excess_pp": -15.17,
+      "historical_only_pass": false
+    },
+    {
+      "ticker": "TSLA",
+      "trades": 31,
+      "strategy_annual_pct": 2.9,
+      "voo_annual_pct": 15.3,
+      "annual_excess_pp": -12.4,
+      "recent_excess_pp": -6.95,
       "historical_only_pass": false
     },
     {
       "ticker": "AVGO",
       "trades": 17,
       "strategy_annual_pct": 2.35,
-      "voo_annual_pct": 15.59,
-      "annual_excess_pp": -13.24,
-      "recent_excess_pp": -6.05,
+      "voo_annual_pct": 15.3,
+      "annual_excess_pp": -12.95,
+      "recent_excess_pp": -5.64,
       "historical_only_pass": false
     },
     {
-      "ticker": "IOVA",
-      "trades": 43,
-      "strategy_annual_pct": 2.27,
-      "voo_annual_pct": 15.59,
-      "annual_excess_pp": -13.32,
-      "recent_excess_pp": -8.4,
+      "ticker": "MXL",
+      "trades": 38,
+      "strategy_annual_pct": 2.33,
+      "voo_annual_pct": 15.3,
+      "annual_excess_pp": -12.97,
+      "recent_excess_pp": -15.38,
       "historical_only_pass": false
     },
     {
       "ticker": "PBR",
       "trades": 17,
       "strategy_annual_pct": 2.23,
-      "voo_annual_pct": 15.59,
-      "annual_excess_pp": -13.36,
-      "recent_excess_pp": -7.08,
+      "voo_annual_pct": 15.3,
+      "annual_excess_pp": -13.07,
+      "recent_excess_pp": -6.67,
       "historical_only_pass": false
     },
     {
       "ticker": "STX",
       "trades": 20,
       "strategy_annual_pct": 2.06,
-      "voo_annual_pct": 15.59,
-      "annual_excess_pp": -13.53,
-      "recent_excess_pp": -6.55,
+      "voo_annual_pct": 15.3,
+      "annual_excess_pp": -13.24,
+      "recent_excess_pp": -6.14,
+      "historical_only_pass": false
+    },
+    {
+      "ticker": "GOOGL",
+      "trades": 10,
+      "strategy_annual_pct": 2.06,
+      "voo_annual_pct": 15.3,
+      "annual_excess_pp": -13.24,
+      "recent_excess_pp": -6.69,
       "historical_only_pass": false
     }
   ],
-  "paper_candidates": [],
+  "paper_candidates": [
+    {
+      "ticker": "AMD",
+      "data": {
+        "last_complete_date": "2026-10-30",
+        "eligible_now": true,
+        "price_deviation_pct": -12.88,
+        "last_close_usd": 504.8,
+        "sma25_usd": 579.426,
+        "last_open_usd": 508.53,
+        "data_rows": 2471,
+        "has_unfinished_position": false
+      },
+      "trade_count": 40,
+      "historical_only_pass": false,
+      "description": "Only a paper BUY next US open; sell on rule or within five sessions."
+    },
+    {
+      "ticker": "DELL",
+      "data": {
+        "last_complete_date": "2026-10-30",
+        "eligible_now": true,
+        "price_deviation_pct": -17.36,
+        "last_close_usd": 424.3,
+        "sma25_usd": 513.453,
+        "last_open_usd": 419.03,
+        "data_rows": 2471,
+        "has_unfinished_position": false
+      },
+      "trade_count": 24,
+      "historical_only_pass": false,
+      "description": "Only a paper BUY next US open; sell on rule or within five sessions."
+    },
+    {
+      "ticker": "STX",
+      "data": {
+        "last_complete_date": "2026-10-30",
+        "eligible_now": true,
+        "price_deviation_pct": -14.35,
+        "last_close_usd": 644.58,
+        "sma25_usd": 752.573,
+        "last_open_usd": 652.0,
+        "data_rows": 2471,
+        "has_unfinished_position": false
+      },
+      "trade_count": 20,
+      "historical_only_pass": false,
+      "description": "Only a paper BUY next US open; sell on rule or within five sessions."
+    },
+    {
+      "ticker": "NET",
+      "data": {
+        "last_complete_date": "2026-10-30",
+        "eligible_now": true,
+        "price_deviation_pct": -14.88,
+        "last_close_usd": 280.7,
+        "sma25_usd": 329.785,
+        "last_open_usd": 299.69,
+        "data_rows": 1793,
+        "has_unfinished_position": false
+      },
+      "trade_count": 26,
+      "historical_only_pass": false,
+      "description": "Only a paper BUY next US open; sell on rule or within five sessions."
+    },
+    {
+      "ticker": "HPE",
+      "data": {
+        "last_complete_date": "2026-10-30",
+        "eligible_now": true,
+        "price_deviation_pct": -12.25,
+        "last_close_usd": 55.09,
+        "sma25_usd": 62.778,
+        "last_open_usd": 55.2,
+        "data_rows": 2471,
+        "has_unfinished_position": false
+      },
+      "trade_count": 16,
+      "historical_only_pass": false,
+      "description": "Only a paper BUY next US open; sell on rule or within five sessions."
+    },
+    {
+      "ticker": "TXG",
+      "data": {
+        "last_complete_date": "2026-10-30",
+        "eligible_now": true,
+        "price_deviation_pct": -11.05,
+        "last_close_usd": 70.11,
+        "sma25_usd": 78.817,
+        "last_open_usd": 73.65,
+        "data_rows": 1794,
+        "has_unfinished_position": false
+      },
+      "trade_count": 27,
+      "historical_only_pass": false,
+      "description": "Only a paper BUY next US open; sell on rule or within five sessions."
+    },
+    {
+      "ticker": "MRVL",
+      "data": {
+        "last_complete_date": "2026-10-30",
+        "eligible_now": true,
+        "price_deviation_pct": -21.8,
+        "last_close_usd": 196.4,
+        "sma25_usd": 251.161,
+        "last_open_usd": 205.78,
+        "data_rows": 2471,
+        "has_unfinished_position": false
+      },
+      "trade_count": 30,
+      "historical_only_pass": false,
+      "description": "Only a paper BUY next US open; sell on rule or within five sessions."
+    },
+    {
+      "ticker": "SNDK",
+      "data": {
+        "last_complete_date": "2026-10-30",
+        "eligible_now": true,
+        "price_deviation_pct": -22.37,
+        "last_close_usd": 1150.89,
+        "sma25_usd": 1482.619,
+        "last_open_usd": 1215.095,
+        "data_rows": 431,
+        "has_unfinished_position": false
+      },
+      "trade_count": 5,
+      "historical_only_pass": false,
+      "description": "Only a paper BUY next US open; sell on rule or within five sessions."
+    },
+    {
+      "ticker": "KEYS",
+      "data": {
+        "last_complete_date": "2026-10-30",
+        "eligible_now": true,
+        "price_deviation_pct": -12.78,
+        "last_close_usd": 307.2,
+        "sma25_usd": 352.206,
+        "last_open_usd": 315.53,
+        "data_rows": 2471,
+        "has_unfinished_position": false
+      },
+      "trade_count": 11,
+      "historical_only_pass": false,
+      "description": "Only a paper BUY next US open; sell on rule or within five sessions."
+    },
+    {
+      "ticker": "CIEN",
+      "data": {
+        "last_complete_date": "2026-10-30",
+        "eligible_now": true,
+        "price_deviation_pct": -13.24,
+        "last_close_usd": 320.72,
+        "sma25_usd": 369.68,
+        "last_open_usd": 326.0,
+        "data_rows": 2471,
+        "has_unfinished_position": false
+      },
+      "trade_count": 15,
+      "historical_only_pass": false,
+      "description": "Only a paper BUY next US open; sell on rule or within five sessions."
+    },
+    {
+      "ticker": "VIAV",
+      "data": {
+        "last_complete_date": "2026-10-30",
+        "eligible_now": true,
+        "price_deviation_pct": -22.72,
+        "last_close_usd": 29.92,
+        "sma25_usd": 38.715,
+        "last_open_usd": 30.98,
+        "data_rows": 2471,
+        "has_unfinished_position": false
+      },
+      "trade_count": 13,
+      "historical_only_pass": false,
+      "description": "Only a paper BUY next US open; sell on rule or within five sessions."
+    },
+    {
+      "ticker": "SMTC",
+      "data": {
+        "last_complete_date": "2026-10-30",
+        "eligible_now": true,
+        "price_deviation_pct": -20.96,
+        "last_close_usd": 127.38,
+        "sma25_usd": 161.16,
+        "last_open_usd": 127.98,
+        "data_rows": 2471,
+        "has_unfinished_position": false
+      },
+      "trade_count": 30,
+      "historical_only_pass": false,
+      "description": "Only a paper BUY next US open; sell on rule or within five sessions."
+    },
+    {
+      "ticker": "MXL",
+      "data": {
+        "last_complete_date": "2026-10-30",
+        "eligible_now": true,
+        "price_deviation_pct": -19.66,
+        "last_close_usd": 67.47,
+        "sma25_usd": 83.982,
+        "last_open_usd": 63.94,
+        "data_rows": 2471,
+        "has_unfinished_position": false
+      },
+      "trade_count": 38,
+      "historical_only_pass": false,
+      "description": "Only a paper BUY next US open; sell on rule or within five sessions."
+    },
+    {
+      "ticker": "AAOI",
+      "data": {
+        "last_complete_date": "2026-10-30",
+        "eligible_now": true,
+        "price_deviation_pct": -24.97,
+        "last_close_usd": 69.05,
+        "sma25_usd": 92.026,
+        "last_open_usd": 71.86,
+        "data_rows": 2471,
+        "has_unfinished_position": false
+      },
+      "trade_count": 48,
+      "historical_only_pass": false,
+      "description": "Only a paper BUY next US open; sell on rule or within five sessions."
+    },
+    {
+      "ticker": "GOOGL",
+      "data": {
+        "last_complete_date": "2026-10-30",
+        "eligible_now": true,
+        "price_deviation_pct": -16.59,
+        "last_close_usd": 279.84,
+        "sma25_usd": 335.505,
+        "last_open_usd": 281.12,
+        "data_rows": 2471,
+        "has_unfinished_position": false
+      },
+      "trade_count": 10,
+      "historical_only_pass": false,
+      "description": "Only a paper BUY next US open; sell on rule or within five sessions."
+    },
+    {
+      "ticker": "GOOG",
+      "data": {
+        "last_complete_date": "2026-10-30",
+        "eligible_now": true,
+        "price_deviation_pct": -16.24,
+        "last_close_usd": 278.22,
+        "sma25_usd": 332.159,
+        "last_open_usd": 279.69,
+        "data_rows": 2471,
+        "has_unfinished_position": false
+      },
+      "trade_count": 9,
+      "historical_only_pass": false,
+      "description": "Only a paper BUY next US open; sell on rule or within five sessions."
+    },
+    {
+      "ticker": "META",
+      "data": {
+        "last_complete_date": "2026-10-30",
+        "eligible_now": true,
+        "price_deviation_pct": -11.92,
+        "last_close_usd": 614.99,
+        "sma25_usd": 698.229,
+        "last_open_usd": 614.51,
+        "data_rows": 2471,
+        "has_unfinished_position": false
+      },
+      "trade_count": 25,
+      "historical_only_pass": false,
+      "description": "Only a paper BUY next US open; sell on rule or within five sessions."
+    }
+  ],
   "status": "UNVALIDATED RESEARCH, NO REAL MONEY",
   "no_live_approval": true,
   "errors": [],
