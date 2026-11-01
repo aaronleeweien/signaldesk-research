@@ -34,7 +34,7 @@ class CohortFreezeTests(unittest.TestCase):
     def test_refuses_late_or_missing_or_mismatched_universe(self):
         now = datetime(2026, 11, 3, 16, 0, tzinfo=timezone.utc)
         with self.assertRaisesRegex(ValueError, "Late"):
-            freeze(example(), now)
+            freeze(example(), now, minimum_size=2)
         bad = example()
         bad["screened_tickers"] = ["AMD", "AMD", "FROG"]
         with self.assertRaises(ValueError):
@@ -42,11 +42,11 @@ class CohortFreezeTests(unittest.TestCase):
         bad = example()
         bad["screened_prices_for_assets"] = 88
         with self.assertRaisesRegex(ValueError, "count"):
-            freeze(bad, datetime(2026, 11, 3, 2, tzinfo=timezone.utc))
+            freeze(bad, datetime(2026, 11, 3, 2, tzinfo=timezone.utc), minimum_size=2)
         bad = example()
         bad["paper_entry_executable"] = True
         with self.assertRaisesRegex(ValueError, "Unjournaled"):
-            freeze(bad, datetime(2026, 11, 3, 2, tzinfo=timezone.utc))
+            freeze(bad, datetime(2026, 11, 3, 2, tzinfo=timezone.utc), minimum_size=2)
 
     def test_production_refuses_tiny_partial_cohort(self):
         with self.assertRaisesRegex(ValueError, "partial"):
