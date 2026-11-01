@@ -17,7 +17,7 @@ PUBLIC = Path("site/bnf_frozen_cohort_v1.json")
 VERSION = "bnf_forward_cohort_v1_20261101"
 
 
-def freeze(report, now, existing=None):
+def freeze(report, now, existing=None, minimum_size=80):
     """Return (registered cohort, newly_created); fail closed on invalid input."""
     if existing is not None:
         if existing.get("version") != VERSION:
@@ -32,8 +32,10 @@ def freeze(report, now, existing=None):
     if report.get("paper_entry_executable") is not False:
         raise ValueError("Unjournaled screen cannot be executable")
     symbols = report.get("screened_tickers")
-    if not isinstance(symbols, list) or len(symbols) < 2:
-        raise ValueError("Complete priced BNF cohort unavailable")
+    if not isinstance(symbols, list) or len(symbols) < minimum_size:
+        raise ValueError("Complete priced BNF cohort unavailable or partial")
+    if report.get("errors"):
+        raise ValueError("BNF price analysis reported errors; refuse partial cohort")
     if (len(set(symbols)) != len(symbols) or
             any(not isinstance(t, str) or not t or t == "VOO" for t in symbols)):
         raise ValueError("Duplicate, invalid or benchmark ticker in cohort")
@@ -56,6 +58,8 @@ def freeze(report, now, existing=None):
         "frozen_tickers": tickers,
         "ticker_count": len(tickers),
         "source_close": str(close),
+        "first_countable_signal_close": "strictly after source_close; requires separate immutable pre-open journal",
+        "same_close_signals_counted": False,
         "recorded_utc": now.astimezone(timezone.utc).isoformat(),
         "next_estimated_open": next_open.isoformat(),
         "selection": "2026 contemporary liquid US screener; survivor/selection bias remains",
