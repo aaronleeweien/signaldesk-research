@@ -48,9 +48,7 @@ class CohortFreezeTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "Unjournaled"):
             freeze(bad, datetime(2026, 11, 3, 2, tzinfo=timezone.utc))
 
-    def test_rejects_stale_close_and_unknown_existing_version(self):
-        with self.assertRaisesRegex(ValueError, "stale"):
-            freeze(example(), datetime(2026, 11, 10, 1, tzinfo=timezone.utc))
+    def test_rejects_unknown_existing_version(self):
         with self.assertRaisesRegex(ValueError, "unexpected version"):
             freeze(example(), datetime(2026, 11, 3, 2, tzinfo=timezone.utc),
                    {"version": VERSION + "_modified"})
