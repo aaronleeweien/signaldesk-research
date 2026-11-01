@@ -18,7 +18,7 @@ def example():
 class CohortFreezeTests(unittest.TestCase):
     def test_registration_is_preopen_and_immutable(self):
         now = datetime(2026, 11, 3, 2, 0, tzinfo=timezone.utc)
-        registered, created = freeze(example(), now)
+        registered, created = freeze(example(), now, minimum_size=2)
         self.assertTrue(created)
         self.assertEqual(registered["frozen_tickers"], ["AMD", "FROG", "PLTR"])
         self.assertFalse(registered["paper_execution_enabled"])
@@ -27,7 +27,7 @@ class CohortFreezeTests(unittest.TestCase):
         changed = example()
         changed["screened_tickers"] = ["XYZ", "ABC"]
         changed["screened_prices_for_assets"] = 2
-        again, created = freeze(changed, now, registered)
+        again, created = freeze(changed, now, registered, minimum_size=2)
         self.assertFalse(created)
         self.assertEqual(again, registered)
 
@@ -38,7 +38,7 @@ class CohortFreezeTests(unittest.TestCase):
         bad = example()
         bad["screened_tickers"] = ["AMD", "AMD", "FROG"]
         with self.assertRaises(ValueError):
-            freeze(bad, datetime(2026, 11, 3, 2, tzinfo=timezone.utc))
+            freeze(bad, datetime(2026, 11, 3, 2, tzinfo=timezone.utc), minimum_size=2)
         bad = example()
         bad["screened_prices_for_assets"] = 88
         with self.assertRaisesRegex(ValueError, "count"):
@@ -48,10 +48,14 @@ class CohortFreezeTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "Unjournaled"):
             freeze(bad, datetime(2026, 11, 3, 2, tzinfo=timezone.utc))
 
+    def test_production_refuses_tiny_partial_cohort(self):
+        with self.assertRaisesRegex(ValueError, "partial"):
+            freeze(example(), datetime(2026, 11, 3, 2, tzinfo=timezone.utc))
+
     def test_rejects_unknown_existing_version(self):
         with self.assertRaisesRegex(ValueError, "unexpected version"):
             freeze(example(), datetime(2026, 11, 3, 2, tzinfo=timezone.utc),
-                   {"version": VERSION + "_modified"})
+                   {"version": VERSION + "_modified"}, minimum_size=2)
 
 
 if __name__ == "__main__":
