@@ -17,8 +17,99 @@
     "dataset_bias": "2026 survivor-only US market; never blindly extrapolate backtest"
   },
   "screened_prices_for_assets": 88,
+  "screened_tickers": [
+    "AAOI",
+    "AAPL",
+    "ABBV",
+    "ADI",
+    "AMD",
+    "AMRX",
+    "AMZN",
+    "AVAV",
+    "AXGN",
+    "BP",
+    "BTSG",
+    "BWIN",
+    "CHRD",
+    "CIEN",
+    "CLMT",
+    "CNQ",
+    "COF",
+    "COP",
+    "CRL",
+    "CROX",
+    "CRWD",
+    "CVE",
+    "DAR",
+    "DELL",
+    "DINO",
+    "DNTH",
+    "E",
+    "EQNR",
+    "EWTX",
+    "FRO",
+    "FROG",
+    "GEV",
+    "GH",
+    "GILD",
+    "GKOS",
+    "GOOG",
+    "GOOGL",
+    "GTLB",
+    "HP",
+    "HPE",
+    "HTFL",
+    "INSW",
+    "INTC",
+    "KNSA",
+    "KOD",
+    "KYMR",
+    "MPC",
+    "MRK",
+    "MRNA",
+    "MRVL",
+    "MSFT",
+    "MU",
+    "MXL",
+    "NET",
+    "NTRA",
+    "NVDA",
+    "ORKA",
+    "OUT",
+    "PBR",
+    "PLTR",
+    "PSX",
+    "PTEN",
+    "RNG",
+    "ROIV",
+    "RVMD",
+    "SMTC",
+    "SNDK",
+    "SNOW",
+    "STX",
+    "SU",
+    "SYRE",
+    "TBBB",
+    "TGTX",
+    "TSLA",
+    "TSM",
+    "TWST",
+    "TXG",
+    "TXN",
+    "VAL",
+    "VG",
+    "VIAV",
+    "VLO",
+    "VSAT",
+    "VSXY",
+    "VTRS",
+    "WDC",
+    "XMTR",
+    "ZETA"
+  ],
+  "universe_selection": "Dynamic present-day liquid-stock screener; frozen cohort is a separate prospective artifact.",
   "passing_retrospective_tests": 2,
-  "new_paper_entry_setups": 17,
+  "new_paper_entry_setups": 16,
   "historical_screen_summary": [
     {
       "ticker": "FRO",
@@ -46,6 +137,15 @@
       "annual_excess_pp": 3.44,
       "recent_excess_pp": 5.72,
       "historical_only_pass": true
+    },
+    {
+      "ticker": "HTFL",
+      "trades": 5,
+      "strategy_annual_pct": 14.45,
+      "voo_annual_pct": 12.99,
+      "annual_excess_pp": 1.46,
+      "recent_excess_pp": 1.46,
+      "historical_only_pass": false
     },
     {
       "ticker": "INSW",
@@ -210,15 +310,6 @@
       "historical_only_pass": false
     },
     {
-      "ticker": "META",
-      "trades": 25,
-      "strategy_annual_pct": 2.92,
-      "voo_annual_pct": 15.3,
-      "annual_excess_pp": -12.38,
-      "recent_excess_pp": -4.59,
-      "historical_only_pass": false
-    },
-    {
       "ticker": "NVDA",
       "trades": 30,
       "strategy_annual_pct": 2.9,
@@ -243,15 +334,6 @@
       "voo_annual_pct": 15.3,
       "annual_excess_pp": -12.4,
       "recent_excess_pp": -6.95,
-      "historical_only_pass": false
-    },
-    {
-      "ticker": "AVGO",
-      "trades": 17,
-      "strategy_annual_pct": 2.35,
-      "voo_annual_pct": 15.3,
-      "annual_excess_pp": -12.95,
-      "recent_excess_pp": -5.64,
       "historical_only_pass": false
     },
     {
@@ -289,25 +371,18 @@
       "annual_excess_pp": -13.24,
       "recent_excess_pp": -6.69,
       "historical_only_pass": false
+    },
+    {
+      "ticker": "AAPL",
+      "trades": 13,
+      "strategy_annual_pct": 1.75,
+      "voo_annual_pct": 15.3,
+      "annual_excess_pp": -13.55,
+      "recent_excess_pp": -8.93,
+      "historical_only_pass": false
     }
   ],
   "paper_candidates": [
-    {
-      "ticker": "AMD",
-      "data": {
-        "last_complete_date": "2026-10-30",
-        "eligible_now": true,
-        "price_deviation_pct": -12.88,
-        "last_close_usd": 504.8,
-        "sma25_usd": 579.426,
-        "last_open_usd": 508.53,
-        "data_rows": 2471,
-        "has_unfinished_position": false
-      },
-      "trade_count": 40,
-      "historical_only_pass": false,
-      "description": "Only a paper BUY next US open; sell on rule or within five sessions."
-    },
     {
       "ticker": "DELL",
       "data": {
@@ -322,7 +397,7 @@
       },
       "trade_count": 24,
       "historical_only_pass": false,
-      "description": "Only a paper BUY next US open; sell on rule or within five sessions."
+      "description": "UNRECORDED research setup only. No simulated next-open fill without a separately committed pre-open BNF journal."
     },
     {
       "ticker": "STX",
@@ -338,7 +413,23 @@
       },
       "trade_count": 20,
       "historical_only_pass": false,
-      "description": "Only a paper BUY next US open; sell on rule or within five sessions."
+      "description": "UNRECORDED research setup only. No simulated next-open fill without a separately committed pre-open BNF journal."
+    },
+    {
+      "ticker": "INTC",
+      "data": {
+        "last_complete_date": "2026-10-30",
+        "eligible_now": true,
+        "price_deviation_pct": -34.74,
+        "last_close_usd": 65.76,
+        "sma25_usd": 100.772,
+        "last_open_usd": 68.36,
+        "data_rows": 2471,
+        "has_unfinished_position": false
+      },
+      "trade_count": 22,
+      "historical_only_pass": false,
+      "description": "UNRECORDED research setup only. No simulated next-open fill without a separately committed pre-open BNF journal."
     },
     {
       "ticker": "NET",
@@ -354,39 +445,23 @@
       },
       "trade_count": 26,
       "historical_only_pass": false,
-      "description": "Only a paper BUY next US open; sell on rule or within five sessions."
+      "description": "UNRECORDED research setup only. No simulated next-open fill without a separately committed pre-open BNF journal."
     },
     {
-      "ticker": "HPE",
+      "ticker": "AMD",
       "data": {
         "last_complete_date": "2026-10-30",
         "eligible_now": true,
-        "price_deviation_pct": -12.25,
-        "last_close_usd": 55.09,
-        "sma25_usd": 62.778,
-        "last_open_usd": 55.2,
+        "price_deviation_pct": -12.88,
+        "last_close_usd": 504.8,
+        "sma25_usd": 579.426,
+        "last_open_usd": 508.53,
         "data_rows": 2471,
         "has_unfinished_position": false
       },
-      "trade_count": 16,
+      "trade_count": 40,
       "historical_only_pass": false,
-      "description": "Only a paper BUY next US open; sell on rule or within five sessions."
-    },
-    {
-      "ticker": "TXG",
-      "data": {
-        "last_complete_date": "2026-10-30",
-        "eligible_now": true,
-        "price_deviation_pct": -11.05,
-        "last_close_usd": 70.11,
-        "sma25_usd": 78.817,
-        "last_open_usd": 73.65,
-        "data_rows": 1794,
-        "has_unfinished_position": false
-      },
-      "trade_count": 27,
-      "historical_only_pass": false,
-      "description": "Only a paper BUY next US open; sell on rule or within five sessions."
+      "description": "UNRECORDED research setup only. No simulated next-open fill without a separately committed pre-open BNF journal."
     },
     {
       "ticker": "MRVL",
@@ -402,7 +477,23 @@
       },
       "trade_count": 30,
       "historical_only_pass": false,
-      "description": "Only a paper BUY next US open; sell on rule or within five sessions."
+      "description": "UNRECORDED research setup only. No simulated next-open fill without a separately committed pre-open BNF journal."
+    },
+    {
+      "ticker": "HPE",
+      "data": {
+        "last_complete_date": "2026-10-30",
+        "eligible_now": true,
+        "price_deviation_pct": -12.25,
+        "last_close_usd": 55.09,
+        "sma25_usd": 62.778,
+        "last_open_usd": 55.2,
+        "data_rows": 2471,
+        "has_unfinished_position": false
+      },
+      "trade_count": 16,
+      "historical_only_pass": false,
+      "description": "UNRECORDED research setup only. No simulated next-open fill without a separately committed pre-open BNF journal."
     },
     {
       "ticker": "SNDK",
@@ -418,23 +509,7 @@
       },
       "trade_count": 5,
       "historical_only_pass": false,
-      "description": "Only a paper BUY next US open; sell on rule or within five sessions."
-    },
-    {
-      "ticker": "KEYS",
-      "data": {
-        "last_complete_date": "2026-10-30",
-        "eligible_now": true,
-        "price_deviation_pct": -12.78,
-        "last_close_usd": 307.2,
-        "sma25_usd": 352.206,
-        "last_open_usd": 315.53,
-        "data_rows": 2471,
-        "has_unfinished_position": false
-      },
-      "trade_count": 11,
-      "historical_only_pass": false,
-      "description": "Only a paper BUY next US open; sell on rule or within five sessions."
+      "description": "UNRECORDED research setup only. No simulated next-open fill without a separately committed pre-open BNF journal."
     },
     {
       "ticker": "CIEN",
@@ -450,7 +525,23 @@
       },
       "trade_count": 15,
       "historical_only_pass": false,
-      "description": "Only a paper BUY next US open; sell on rule or within five sessions."
+      "description": "UNRECORDED research setup only. No simulated next-open fill without a separately committed pre-open BNF journal."
+    },
+    {
+      "ticker": "TXG",
+      "data": {
+        "last_complete_date": "2026-10-30",
+        "eligible_now": true,
+        "price_deviation_pct": -11.05,
+        "last_close_usd": 70.11,
+        "sma25_usd": 78.817,
+        "last_open_usd": 73.65,
+        "data_rows": 1794,
+        "has_unfinished_position": false
+      },
+      "trade_count": 27,
+      "historical_only_pass": false,
+      "description": "UNRECORDED research setup only. No simulated next-open fill without a separately committed pre-open BNF journal."
     },
     {
       "ticker": "VIAV",
@@ -466,7 +557,7 @@
       },
       "trade_count": 13,
       "historical_only_pass": false,
-      "description": "Only a paper BUY next US open; sell on rule or within five sessions."
+      "description": "UNRECORDED research setup only. No simulated next-open fill without a separately committed pre-open BNF journal."
     },
     {
       "ticker": "SMTC",
@@ -482,7 +573,7 @@
       },
       "trade_count": 30,
       "historical_only_pass": false,
-      "description": "Only a paper BUY next US open; sell on rule or within five sessions."
+      "description": "UNRECORDED research setup only. No simulated next-open fill without a separately committed pre-open BNF journal."
     },
     {
       "ticker": "MXL",
@@ -498,7 +589,7 @@
       },
       "trade_count": 38,
       "historical_only_pass": false,
-      "description": "Only a paper BUY next US open; sell on rule or within five sessions."
+      "description": "UNRECORDED research setup only. No simulated next-open fill without a separately committed pre-open BNF journal."
     },
     {
       "ticker": "AAOI",
@@ -514,7 +605,7 @@
       },
       "trade_count": 48,
       "historical_only_pass": false,
-      "description": "Only a paper BUY next US open; sell on rule or within five sessions."
+      "description": "UNRECORDED research setup only. No simulated next-open fill without a separately committed pre-open BNF journal."
     },
     {
       "ticker": "GOOGL",
@@ -530,7 +621,7 @@
       },
       "trade_count": 10,
       "historical_only_pass": false,
-      "description": "Only a paper BUY next US open; sell on rule or within five sessions."
+      "description": "UNRECORDED research setup only. No simulated next-open fill without a separately committed pre-open BNF journal."
     },
     {
       "ticker": "GOOG",
@@ -546,26 +637,15 @@
       },
       "trade_count": 9,
       "historical_only_pass": false,
-      "description": "Only a paper BUY next US open; sell on rule or within five sessions."
-    },
-    {
-      "ticker": "META",
-      "data": {
-        "last_complete_date": "2026-10-30",
-        "eligible_now": true,
-        "price_deviation_pct": -11.92,
-        "last_close_usd": 614.99,
-        "sma25_usd": 698.229,
-        "last_open_usd": 614.51,
-        "data_rows": 2471,
-        "has_unfinished_position": false
-      },
-      "trade_count": 25,
-      "historical_only_pass": false,
-      "description": "Only a paper BUY next US open; sell on rule or within five sessions."
+      "description": "UNRECORDED research setup only. No simulated next-open fill without a separately committed pre-open BNF journal."
     }
   ],
   "status": "UNVALIDATED RESEARCH, NO REAL MONEY",
+  "forward_valid_sessions": 0,
+  "paper_fills_recorded": 0,
+  "paper_entry_executable": false,
+  "real_money_approved": false,
+  "validation_blocker": "No immutable BNF-specific pre-open signal/fill journal. Screener candidates are not prospective paper trades.",
   "no_live_approval": true,
   "errors": [],
   "interpretation": "Historically famous trader methods are not a publicly validated exact rule set. Results on 2026 survivors are biased. A historical screen pass is NOT permission to trade."

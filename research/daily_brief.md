@@ -52,9 +52,17 @@ KNSA has reported business fundamentals, but an investable 3–6-month edge requ
 
 ### Dated headline leads — not verified company events
 
-News monitoring timestamp: 2026-10-31T02:28:22.250434+00:00
+News monitoring timestamp: 2026-11-01T01:23:50.328283+00:00
 
-No representative verified narrative sample was available; no sentiment score was invented.
+**2026-10-31 · MarketBeat:** Kiniksa Pharmaceuticals International, plc $KNSA Shares Newly Purchased by Sowell Financial Services LLC
+
+Conditional economic path: Borrowing costs or capital allocation can affect how much future cash ultimately belongs to shareholders.
+
+Alternative reading: Higher dividends or buybacks can be funded by debt and are not automatically value creation.
+
+Evidence needed before treating this as fact: Check the balance sheet, debt maturities and cash available after capital spending.
+
+Coverage URL: https://news.google.com/rss/articles/CBMi9gFBVV95cUxPWnZ1RXVva2lkZmZxeEpDVFpFQXNoVDVWOTRfV25RaHlDZkQxZ0l3eFF5UzdpRmJGdFNDbHpHbVpTTHFkRzFjWEZKVkFEeWJyTlFJOEVVY29qZGlPRUg0eWQzaUlQZ0x3TEdVNlpEWlk3M1pVWVNPMU5HS2p6Z3RTbGxhYkhwRFlFSEJsOEZzY2ptQ2RoR1FEdUx0M0lQdDlVb3JPWHFlaHhOUUlLcnYyMWNIVXVkTS12emh1T1J1ZkN2ZHVsYV9wN3RvbUtYUmxMM0ZsQXgzM1ZFRmQ3Wk5UUzJEVGJSWmNQcHZ1TTRheXpHN0ZQNnc?oc=5
 
 ### Evidence audit and research gaps
 
@@ -92,17 +100,17 @@ No representative verified narrative sample was available; no sentiment score wa
 
 - [S11] 8-K read passages, filed 2026-10-27: https://www.sec.gov/Archives/edgar/data/1730430/000173043026000037/knsa-20261027x8k.htm
 
-- [S12] News-index headline · MarketBeat · 2026-10-30: https://news.google.com/rss/articles/CBMi_wFBVV95cUxOOEIzMl9zZlNVMFExdlNTZmpxR1h3Y1JfbndWcUg5OERKUF9OUHlidXk1aDVRQnBJYk1FX3J0ZDNQc1ppdHRsdUpRWS1qSU45R2JOME5MSHZjU2lqd2MwTGNIckpPM191NXFYWDVpNmtaN3lobENFSTZmbmlmMS1uV1BNUmFPcXBfR01BeVpQaW9BVng5WmprY2hxUVMxQW5GVThuOUNYQldPQW9aUU1XRjJwcDFacUFFdWFjcUd0cEZsVkQtalJnMWJzdjk2U0FjS0lZOC1JRS14Mk9zLXVDUUlzMDBIaE5hRGhvQ3ZDcF9qQWJhVzhvTHFveVpIM2c?oc=5
+- [S12] News-index headline · MarketBeat · 2026-10-31: https://news.google.com/rss/articles/CBMi9gFBVV95cUxPWnZ1RXVva2lkZmZxeEpDVFpFQXNoVDVWOTRfV25RaHlDZkQxZ0l3eFF5UzdpRmJGdFNDbHpHbVpTTHFkRzFjWEZKVkFEeWJyTlFJOEVVY29qZGlPRUg0eWQzaUlQZ0x3TEdVNlpEWlk3M1pVWVNPMU5HS2p6Z3RTbGxhYkhwRFlFSEJsOEZzY2ptQ2RoR1FEdUx0M0lQdDlVb3JPWHFlaHhOUUlLcnYyMWNIVXVkTS12emh1T1J1ZkN2ZHVsYV9wN3RvbUtYUmxMM0ZsQXgzM1ZFRmQ3Wk5UUzJEVGJSWmNQcHZ1TTRheXpHN0ZQNnc?oc=5
 
-- [S13] News-index headline · Investing.com India · 2026-10-30: https://news.google.com/rss/articles/CBMivwFBVV95cUxPTC15QnVobjR3bHpfY0ExVjZEWm43RzBPLUFNeVpUOHAwd1QxNlAySGZoU0huMFNjUFlqQ2hfYjAtSXRPQjNmdEFVaElCb0R6NXBEdl9JaUxfU2lZZUQtUF9jTFd1ZXk3LWhKd2pPUzRWcFBTMk5QX2RLSEJmT0hnWEozLW0yaU12cVc4OUdrZ3Y2WjF6aU5LbFh4WlhrUkdvbzZjek04emdneHBNdUgtd2JSeGEtN2pzcllPWEdMMA?oc=5
+- [S13] News-index headline · Investing.com Nigeria · 2026-10-31: https://news.google.com/rss/articles/CBMivwFBVV95cUxOb2pLVklEZmRqakhvMzU0QkxYTVVTcjlubUUyTC1yZTA1UlRhVVNKejQ1dWpDbl9zSWlxcXB3dWJHWnRkVUFsOFVTaEhnZ0JIOU5kVzVZZXZEYlBNcTlMU2lTN2dobFBJV25xa041OGlXb3I0SGtVbUI1TGtBam0xMlQtbGwySFliUkJWSzhSN3lMWjNWN0pxMmNXaHluRm5pYTZBdGV4NWNCck5tazlZb2I2TEV2S0lyOVNqMVUwNA?oc=5
 
-- [S14] News-index headline · Stock Titan · 2026-10-30: https://news.google.com/rss/articles/CBMiugFBVV95cUxPYjJOdmFvTFhRc3ZacGVCU0E4MEtYcWhkLUR3QndaM00wdHBicUhVaFFkNWZsNHhDdXItNWNmcXdGU1NEdU1LMEZiMlB0dGxoQXh1ay1KVUNvMDFLMTh3cHhnM3Q0c1lGSGlaX2VvSkY2TFVzZTZqQktwaUhXZld5RXlwZWVXMFlaOHI0bFFtTFcyQkVxT25mMmctR2xHRUliN0ZuQy1kUEpxX0E4MTd4bHBaSWwtMzFuZnc?oc=5
+- [S14] News-index headline · MarketBeat · 2026-10-30: https://news.google.com/rss/articles/CBMi_wFBVV95cUxOOEIzMl9zZlNVMFExdlNTZmpxR1h3Y1JfbndWcUg5OERKUF9OUHlidXk1aDVRQnBJYk1FX3J0ZDNQc1ppdHRsdUpRWS1qSU45R2JOME5MSHZjU2lqd2MwTGNIckpPM191NXFYWDVpNmtaN3lobENFSTZmbmlmMS1uV1BNUmFPcXBfR01BeVpQaW9BVng5WmprY2hxUVMxQW5GVThuOUNYQldPQW9aUU1XRjJwcDFacUFFdWFjcUd0cEZsVkQtalJnMWJzdjk2U0FjS0lZOC1JRS14Mk9zLXVDUUlzMDBIaE5hRGhvQ3ZDcF9qQWJhVzhvTHFveVpIM2c?oc=5
 
-- [S15] News-index headline · Stock Titan · 2026-10-30: https://news.google.com/rss/articles/CBMiugFBVV95cUxQMHA5TldpX1JMbk5yc2l4RVV1cHBoeVpna21qQWZJWk9ZQ0xtSXpJTzdtaEN6SEljd2U1d2xaMnVORlJSU193SzlsY09CdDNQWndyTFQ4aERESzIzUVZZSXhLcVJjUnhLRklIT0xqTWU4QWQ0eXp3aHZFbmhaZ3l5UVJJTUNTbG5zalVtSF85TFRqNDd6Ykh3WFRNRHdLQ1JqckJ4R3k2R2dqUlh1eUwyVHhzMWhtOUpaa1E?oc=5
+- [S15] News-index headline · Stock Titan · 2026-10-30: https://news.google.com/rss/articles/CBMiugFBVV95cUxPYjJOdmFvTFhRc3ZacGVCU0E4MEtYcWhkLUR3QndaM00wdHBicUhVaFFkNWZsNHhDdXItNWNmcXdGU1NEdU1LMEZiMlB0dGxoQXh1ay1KVUNvMDFLMTh3cHhnM3Q0c1lGSGlaX2VvSkY2TFVzZTZqQktwaUhXZld5RXlwZWVXMFlaOHI0bFFtTFcyQkVxT25mMmctR2xHRUliN0ZuQy1kUEpxX0E4MTd4bHBaSWwtMzFuZnc?oc=5
 
-- [S16] News-index headline · Stock Titan · 2026-10-30: https://news.google.com/rss/articles/CBMiugFBVV95cUxQOFROU05TRjdqZVd0T0M0REZiUjNDekpaX2k1bThTRXFzbEVyVjJGRVpqMEpFZ08xQUtJTmtfT0lrWi1DUVdyWTFaUEhOWkxwVjBmeklqUFlwSVVPWFUxRzlFaDVad1duSnM4cGFockNfNXgyQVJxclB3Z1lVWWJnOXpmM3VzQlc0Vl9HSkFPNHQ3NklqQ1UweHlVNFBiX3BPa1lkbzVEZDFpZU92VUxoMkNzYnZ5dUpoZ0E?oc=5
+- [S16] News-index headline · Stock Titan · 2026-10-30: https://news.google.com/rss/articles/CBMiugFBVV95cUxQMHA5TldpX1JMbk5yc2l4RVV1cHBoeVpna21qQWZJWk9ZQ0xtSXpJTzdtaEN6SEljd2U1d2xaMnVORlJSU193SzlsY09CdDNQWndyTFQ4aERESzIzUVZZSXhLcVJjUnhLRklIT0xqTWU4QWQ0eXp3aHZFbmhaZ3l5UVJJTUNTbG5zalVtSF85TFRqNDd6Ykh3WFRNRHdLQ1JqckJ4R3k2R2dqUlh1eUwyVHhzMWhtOUpaa1E?oc=5
 
-- [S17] News-index headline · Stock Titan · 2026-10-30: https://news.google.com/rss/articles/CBMiugFBVV95cUxOMTgtLVN1cUlqVC1IVGU2VVdxY21yaERzTDEzb3JYclRCSW4xdk5RdTR1WUpBV1JlTEFmVk1JOWowR25KTmpZRzRlbGg3cGxOeGJiNmVtQWlkUlJJLXF5RklyRmlFbEFCWUZOVkxKMDZBNVRROE41ODJ2YVJCQTFUdkl2cFlqdGZCYmVnNFg3bVVtcUZJRDBtZm43bjhjRlI3MU9BcmR5VGdPTHlvckFQVHlRVzB5Z2tvVmc?oc=5
+- [S17] News-index headline · Stock Titan · 2026-10-30: https://news.google.com/rss/articles/CBMiugFBVV95cUxQOFROU05TRjdqZVd0T0M0REZiUjNDekpaX2k1bThTRXFzbEVyVjJGRVpqMEpFZ08xQUtJTmtfT0lrWi1DUVdyWTFaUEhOWkxwVjBmeklqUFlwSVVPWFUxRzlFaDVad1duSnM4cGFockNfNXgyQVJxclB3Z1lVWWJnOXpmM3VzQlc0Vl9HSkFPNHQ3NklqQ1UweHlVNFBiX3BPa1lkbzVEZDFpZU92VUxoMkNzYnZ5dUpoZ0E?oc=5
 
 ## 2. MPC — Marathon Petroleum Corporation
 
@@ -114,7 +122,7 @@ No representative verified narrative sample was available; no sentiment score wa
 
 - The last fiscal-year revenue changed -4.4%; annual free cash flow changed -22.3% versus the previous SEC-observed year. These are historical outcomes, not forecasts. [S1]
 
-- Annual free cash flow: 4.77 billion USD; market capitalisation from the screen: 129.83 billion USD; historical FCF yield: +3.7%. [S1][S2]
+- Annual free cash flow: 4.77 billion USD; market capitalisation from the screen: 124.89 billion USD; historical FCF yield: +3.8%. [S1][S2]
 
 - Screened forward price/earnings multiple: 7.4 times. The denominator is an unaudited forecast, not an independently checked earnings consensus. [S2]
 
@@ -126,7 +134,7 @@ No representative verified narrative sample was available; no sentiment score wa
 
 MPC is a potential earnings-recovery candidate, not an established growth winner: reported sales declined. A recovery could surprise investors, but the reported annual cash flow cannot prove when it will occur.
 
-**Valuation and implied assumptions:** The fixed-parameter reverse cash-flow exercise implies 24.5% annual free-cash-flow growth for five years, under 11% required return, 2% terminal growth and no net borrowing adjustment. This is a stress-test assumption, not a company-specific fair value or near-term target. [S1][S2]
+**Valuation and implied assumptions:** The fixed-parameter reverse cash-flow exercise implies 23.4% annual free-cash-flow growth for five years, under 11% required return, 2% terminal growth and no net borrowing adjustment. This is a stress-test assumption, not a company-specific fair value or near-term target. [S1][S2]
 
 **Strongest opposing interpretation:** A cyclical high in margins or cash flow could reverse before the market's expected recovery. Historical profitability may therefore overstate value.
 
@@ -144,9 +152,9 @@ MPC is a potential earnings-recovery candidate, not an established growth winner
 
 ### Dated headline leads — not verified company events
 
-News monitoring timestamp: 2026-10-31T02:28:22.250434+00:00
+News monitoring timestamp: 2026-11-01T01:23:50.328283+00:00
 
-**2026-10-30 · ad-hoc-news.de:** Marathon Petroleum stock: Dividend rises 10% ahead of results
+**2026-10-31 · Yahoo! Finance Canada:** Marathon Petroleum Corporation (1MPC.MI) Seasonal Returns Chart - Yahoo Finance
 
 Conditional economic path: Borrowing costs or capital allocation can affect how much future cash ultimately belongs to shareholders.
 
@@ -154,7 +162,7 @@ Alternative reading: Higher dividends or buybacks can be funded by debt and are 
 
 Evidence needed before treating this as fact: Check the balance sheet, debt maturities and cash available after capital spending.
 
-Coverage URL: https://news.google.com/rss/articles/CBMivwFBVV95cUxQZ3RBd3RRbFA1aklySkxGVWJnS2x2QjdESmpVZUdhN3VJTTBoQUNISjM2OXpKRElySV84YkZlU1dXLVhQQUg0OWUxN1llbHBRV0hiT3NpQmRSUzd2WWlyR2FkdENPenRqUjdaNFEzZWE1M1RSU2p1VDd0aVVXTnYxaXhBOHRiSTNVVkxLOTJySDJJVWFyYm1lM3VNaGNUT0J4QUp0SC1EZW5yOW1FeEtCZ2NoVXNsTElVQVQtWkFaaw?oc=5
+Coverage URL: https://news.google.com/rss/articles/CBMiZkFVX3lxTE4wR0VxUUhITzcxMjBZbjhkSktuVEp3YV94UVZKOWJ4TEJwWDBBSDh1azcwdktBYjMxS244eVpkT01yNU5yeFlndGlWYnVqVjZuTEg4cmlvbmFoeHlFRU1QNHB2MzU2dw?oc=5
 
 ### Evidence audit and research gaps
 
@@ -192,17 +200,17 @@ Coverage URL: https://news.google.com/rss/articles/CBMivwFBVV95cUxQZ3RBd3RRbFA1a
 
 - [S11] 8-K read passages, filed 2026-10-29: https://www.sec.gov/Archives/edgar/data/1510295/000151029526000063/mpc-20261028.htm
 
-- [S12] News-index headline · MarketBeat · 2026-10-30: https://news.google.com/rss/articles/CBMiwwFBVV95cUxONGdNVmRSVjM0dlNOclNteTRwY0JOTHNUUnJXYk81SVI4aW0wdG5lX0htS3JWbDRMbnRERTdheVIydzFWVXhpWEZTLU1tcXZJbjlXaXZPVGtHcFdKTmZpQmZtRjR0YjVXSHU1ZlZsd2c1dTEwajdzdEVCaDQ5amlVdkxMY3JudnBGTGtqR1dYcEdlVmY0b3Rwb0x3dXhsTlFybDZROGJ1VzFvdVVvVS1mb3NGT0FQWlRqMkkyZEhmcWdlSlk?oc=5
+- [S12] News-index headline · Yahoo! Finance Canada · 2026-10-31: https://news.google.com/rss/articles/CBMiZkFVX3lxTE4wR0VxUUhITzcxMjBZbjhkSktuVEp3YV94UVZKOWJ4TEJwWDBBSDh1azcwdktBYjMxS244eVpkT01yNU5yeFlndGlWYnVqVjZuTEg4cmlvbmFoeHlFRU1QNHB2MzU2dw?oc=5
 
-- [S13] News-index headline · Traders Union · 2026-10-30: https://news.google.com/rss/articles/CBMimwFBVV95cUxOWUxaLXJtNUR1NDB2NEo1bEszWmNEdEFhWW9zUFU0OGFnd1c5Z2NMVnZINTB5c0FjcklMNnh2dHk5bzJySVlSVkViRElReDlPekpIaU43ZW5WLTJRRU9LV1pmWUV2WEo3SmJsckRLR1ZHZ3ZyQ2NudmVUcXI4d2N6LWRjNHZxVnZQT2xiY3NIMXVuR0F4eURWUnRjSQ?oc=5
+- [S13] News-index headline · Yahoo Finance Australia · 2026-10-31: https://news.google.com/rss/articles/CBMiZkFVX3lxTFBWMzdFU19FYm5MZmZ3azg4VlMwNjFOTGpXUnlFOWRlS2lzcUIxZVdpTTBISXRPMkxsREhVZHFZa1RhSk9YNjZoRVZPc0NkY0RGNkNEVnExSlJFblVoaUlZcGR4QTkxdw?oc=5
 
-- [S14] News-index headline · ad-hoc-news.de · 2026-10-30: https://news.google.com/rss/articles/CBMivwFBVV95cUxQZ3RBd3RRbFA1aklySkxGVWJnS2x2QjdESmpVZUdhN3VJTTBoQUNISjM2OXpKRElySV84YkZlU1dXLVhQQUg0OWUxN1llbHBRV0hiT3NpQmRSUzd2WWlyR2FkdENPenRqUjdaNFEzZWE1M1RSU2p1VDd0aVVXTnYxaXhBOHRiSTNVVkxLOTJySDJJVWFyYm1lM3VNaGNUT0J4QUp0SC1EZW5yOW1FeEtCZ2NoVXNsTElVQVQtWkFaaw?oc=5
+- [S14] News-index headline · ad-hoc-news.de · 2026-10-31: https://news.google.com/rss/articles/CBMiywFBVV95cUxOU2JDZGk5TUJGQkU5cHVTSGx6R3lJVU5VX1I0U3F4N0I3OHJ3TTRxV0QyMFZHczN1TzhYdTM5UzZiTmd6MEtuRzJza213bjk5eC1zX05zZXYwTFQtektFZzZ3Y241cm5fMnNlRjduSzl1akV0RFVpUEdQLXJPWld4NEdIM1ZhaXQtelRxcTM4cVkzOWp5dENDdWFFb1p1NTVqR2hEb2ZzdjVUVVoya3VMajZSdjlCeTU3RHhaZUozdktkdVY5N05iVHNBNA?oc=5
 
-- [S15] News-index headline · ad-hoc-news.de · 2026-10-30: https://news.google.com/rss/articles/CBMiwAFBVV95cUxNeFI2SS05Ui0xdXdnek13YUpSbVlSelNtWi1UTEQxb3JCWDhkZDkxN1VWcVhYeE1sQjRKSGtZRlVrU3pjMEpvVm5xeFlkeTZsMXZaaFRPdVU0Q3BDMFlYSFo0UVV3MF9PR1ExdXNZV0pnTHVoQjlQQlpQS0lhY0VyM1M5RXM0blQ0WkFyOG1ob3VwVjJEZWpaWXNxazBldExtLW9QTjM1bkNJenhIR2Y4RTdvYTd0TWNPR2dJTFRMOWU?oc=5
+- [S15] News-index headline · MarketBeat · 2026-10-31: https://news.google.com/rss/articles/CBMiygFBVV95cUxPQXlKVGR5Q1JGdFN0QW9teEFYZXpFOHFnS3dtb3FhdkR6YjBpVlJ1Ylc0R3VxMF92RTIyRTM3VFlaM1dPWWRxRk04X1hmNUtyRUZFRV9fcmtOeDdOTUM5cWUyWnpEbWpsc21aeVdPeGxIbUNxbExCdGliQkFvY2VQelg1S1hDaG9Bc2tycFg2WHQtb2tXZ2ZWc2FqYnhycXNXdlBGNzk3cjk2SU52Nlo3cU1TWUxyMDlDWGU1bW8zRk5UeVZacUtDRW53?oc=5
 
-- [S16] News-index headline · Yahoo Finance · 2026-10-30: https://news.google.com/rss/articles/CBMiowFBVV95cUxPeTlzUXp1akdvc2ZtQkVRdldMUzNlQ0oxREs2R3RmRHBLcWNBcU4xMXM4SUFIekZWR3FmblJEX29uTW1CZU5rQVZ5NmdmbzlfdGxCSGZXRTF5YUNXaWRDaHZ3aXZ4TVF0alA1elVfSXFPU3NOY0NMZVdzMEwzeThFLU1GN2gwZkRQNUppcGN5NkxfVGpDaEpBSWktMDRDaUVXVUpZ?oc=5
+- [S16] News-index headline · MarketBeat · 2026-10-30: https://news.google.com/rss/articles/CBMiwwFBVV95cUxONGdNVmRSVjM0dlNOclNteTRwY0JOTHNUUnJXYk81SVI4aW0wdG5lX0htS3JWbDRMbnRERTdheVIydzFWVXhpWEZTLU1tcXZJbjlXaXZPVGtHcFdKTmZpQmZtRjR0YjVXSHU1ZlZsd2c1dTEwajdzdEVCaDQ5amlVdkxMY3JudnBGTGtqR1dYcEdlVmY0b3Rwb0x3dXhsTlFybDZROGJ1VzFvdVVvVS1mb3NGT0FQWlRqMkkyZEhmcWdlSlk?oc=5
 
-- [S17] News-index headline · Yahoo Finance · 2026-10-30: https://news.google.com/rss/articles/CBMilAFBVV95cUxOQ2dOaVlIbDFjakVzLW51WEZjWGtWZk14UWFxUENtenNwaXB2U2xJVVcyTmwtSFlDeWJsVGRic1h6NjdHcUZEN1FoSHo3TzJMa3pzTzFYRExiT3FnV2VEUHpweWloY3I5SUZEaF9ibUR1eEpWZ2FDYVNuUnBzMGlfRW5VWjVkUGZEVTI0MkVZOWVUc2hT?oc=5
+- [S17] News-index headline · ad-hoc-news.de · 2026-10-30: https://news.google.com/rss/articles/CBMivwFBVV95cUxQZ3RBd3RRbFA1aklySkxGVWJnS2x2QjdESmpVZUdhN3VJTTBoQUNISjM2OXpKRElySV84YkZlU1dXLVhQQUg0OWUxN1llbHBRV0hiT3NpQmRSUzd2WWlyR2FkdENPenRqUjdaNFEzZWE1M1RSU2p1VDd0aVVXTnYxaXhBOHRiSTNVVkxLOTJySDJJVWFyYm1lM3VNaGNUT0J4QUp0SC1EZW5yOW1FeEtCZ2NoVXNsTElVQVQtWkFaaw?oc=5
 
 ## 3. GLD — Physical gold
 
@@ -238,7 +246,7 @@ Commodity ETFs may react to real yields, the currency, underlying supply and dem
 
 ### Dated headline leads — not verified company events
 
-News monitoring timestamp: 2026-10-31T02:28:22.250434+00:00
+News monitoring timestamp: 2026-11-01T01:23:50.328283+00:00
 
 No representative verified narrative sample was available; no sentiment score was invented.
 

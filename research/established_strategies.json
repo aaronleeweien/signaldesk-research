@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-31 02:27 UTC",
+  "generated_utc": "2026-11-01 01:23 UTC",
   "latest_completed_us_market_day": "2026-10-30",
   "objective": "Search among actual operated investment funds for implemented selection strategies beating S&P 500 after common-sample execution costs.",
   "hard_gate": "No fund or copied trading rule is approved as an automatic real-money BUY/SELL signal.",
@@ -135,7 +135,7 @@
           "max_drawdown_pct": -36.74,
           "volatility_pct": 22.54,
           "sharpe_zero_rf": 0.78,
-          "ending_usd": 34318.92,
+          "ending_usd": 34318.91,
           "total_deposits_usd": 14000.0,
           "orders": 121,
           "trading_fees_usd": 13.99,
@@ -167,7 +167,7 @@
           "annual_by_calendar_year_pct": {
             "2016": 0.1,
             "2017": 32.45,
-            "2018": -0.17,
+            "2018": -0.16,
             "2019": 38.92,
             "2020": 48.38,
             "2021": 27.35,
@@ -185,7 +185,7 @@
           "max_drawdown_pct": -45.3,
           "volatility_pct": 33.62,
           "sharpe_zero_rf": 1.0,
-          "ending_usd": 107755.12,
+          "ending_usd": 107755.11,
           "total_deposits_usd": 14000.0,
           "orders": 121,
           "trading_fees_usd": 13.99,
@@ -287,7 +287,7 @@
           },
           "returns_30bps": {
             "annual_twr_pct": 18.58,
-            "ending_usd": 45287.62,
+            "ending_usd": 45287.61,
             "trading_fees_usd": 41.87
           },
           "returns_0bps": {
@@ -392,7 +392,7 @@
           },
           "returns_0bps": {
             "annual_twr_pct": 15.08,
-            "ending_usd": 34077.49,
+            "ending_usd": 34077.5,
             "trading_fees_usd": 0.0
           }
         },
@@ -641,7 +641,7 @@
           },
           "returns_30bps": {
             "annual_twr_pct": 12.66,
-            "ending_usd": 18985.34,
+            "ending_usd": 18985.35,
             "trading_fees_usd": 32.3
           },
           "returns_0bps": {
@@ -721,7 +721,7 @@
           },
           "returns_0bps": {
             "annual_twr_pct": 13.64,
-            "ending_usd": 20718.74,
+            "ending_usd": 20718.75,
             "trading_fees_usd": 0.0
           }
         },
