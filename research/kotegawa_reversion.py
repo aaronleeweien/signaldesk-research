@@ -210,6 +210,8 @@ def compare_market(frame,universe,market_date):
           "benchmark":"VOO DCA same dates and trading costs",
           "dataset_bias":"2026 survivor-only US market; never blindly extrapolate backtest"},
         "screened_prices_for_assets":len(output),
+        "screened_tickers":sorted(x["ticker"] for x in output),
+        "universe_selection":"Dynamic present-day liquid-stock screener; frozen cohort is a separate prospective artifact.",
         "passing_retrospective_tests":len(winners),
         "new_paper_entry_setups":len(paper),
         "historical_screen_summary":sorted(
@@ -223,9 +225,14 @@ def compare_market(frame,universe,market_date):
         "paper_candidates":[{"ticker":x["ticker"],"data":x["latest"],
              "trade_count":x["all_trades_count"],
              "historical_only_pass":x["historical_only_pass"],
-             "description":"Only a paper BUY next US open; sell on rule or within five sessions."}
+             "description":"UNRECORDED research setup only. No simulated next-open fill without a separately committed pre-open BNF journal."}
              for x in paper[:20]],
         "status":"UNVALIDATED RESEARCH, NO REAL MONEY",
+        "forward_valid_sessions":0,
+        "paper_fills_recorded":0,
+        "paper_entry_executable":False,
+        "real_money_approved":False,
+        "validation_blocker":"No immutable BNF-specific pre-open signal/fill journal. Screener candidates are not prospective paper trades.",
         "no_live_approval":True,
         "errors":errors,
         "interpretation":"Historically famous trader methods are not a publicly validated exact rule set. Results on 2026 survivors are biased. A historical screen pass is NOT permission to trade."}

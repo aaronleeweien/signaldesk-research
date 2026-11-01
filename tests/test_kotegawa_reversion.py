@@ -63,6 +63,11 @@ class KotegawaResearchTests(unittest.TestCase):
         result=r.compare_market(f,["TEST"],str(f.index[-1].date()))
         self.assertEqual(result["screened_prices_for_assets"],1)
         self.assertTrue(result["no_live_approval"])
+        self.assertFalse(result["real_money_approved"])
+        self.assertFalse(result["paper_entry_executable"])
+        self.assertEqual(result["forward_valid_sessions"],0)
+        self.assertEqual(result["paper_fills_recorded"],0)
+        self.assertEqual(result["screened_tickers"],["TEST"])
         self.assertFalse(any(row.get("real_money_approved") for row in result["paper_candidates"]))
 
 if __name__=="__main__":unittest.main()

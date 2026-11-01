@@ -1,0 +1,86 @@
+{
+  "type": "non_executable_bnf_research_observation_v1",
+  "source_close": "2026-10-30",
+  "previous_close": "2026-10-29",
+  "previous_screen_setups": 0,
+  "screen_setups": 17,
+  "source_report_commit": "2a7b3c7dda14f139983a75a943f5bb6065787b8e",
+  "source_report_blob_sha": "4512f6c426eb7dfe88d827e25bb2ee65bc2a4124",
+  "source_report_generated_utc": "2026-10-31 02:28 UTC",
+  "observation_saved_on": "2026-11-01",
+  "cohort_frozen_at_observation": false,
+  "valid_prospective_paper_fills": 0,
+  "approved_real_trades": 0,
+  "reason": "These 17 first-crossing screens are genuine newly published completed-close observations, but the dynamic 88-stock cohort was not frozen and no BNF-specific durable pre-open signal/next-open fill ledger exists. Do not reconstruct fills later.",
+  "screened_names": [
+    {
+      "ticker": "AMD",
+      "price_deviation_pct": -12.88
+    },
+    {
+      "ticker": "DELL",
+      "price_deviation_pct": -17.36
+    },
+    {
+      "ticker": "STX",
+      "price_deviation_pct": -14.35
+    },
+    {
+      "ticker": "NET",
+      "price_deviation_pct": -14.88
+    },
+    {
+      "ticker": "HPE",
+      "price_deviation_pct": -12.25
+    },
+    {
+      "ticker": "TXG",
+      "price_deviation_pct": -11.05
+    },
+    {
+      "ticker": "MRVL",
+      "price_deviation_pct": -21.8
+    },
+    {
+      "ticker": "SNDK",
+      "price_deviation_pct": -22.37
+    },
+    {
+      "ticker": "KEYS",
+      "price_deviation_pct": -12.78
+    },
+    {
+      "ticker": "CIEN",
+      "price_deviation_pct": -13.24
+    },
+    {
+      "ticker": "VIAV",
+      "price_deviation_pct": -22.72
+    },
+    {
+      "ticker": "SMTC",
+      "price_deviation_pct": -20.96
+    },
+    {
+      "ticker": "MXL",
+      "price_deviation_pct": -19.66
+    },
+    {
+      "ticker": "AAOI",
+      "price_deviation_pct": -24.97
+    },
+    {
+      "ticker": "GOOGL",
+      "price_deviation_pct": -16.59
+    },
+    {
+      "ticker": "GOOG",
+      "price_deviation_pct": -16.24
+    },
+    {
+      "ticker": "META",
+      "price_deviation_pct": -11.92
+    }
+  ],
+  "note": "Do not conflate this observed signal file with a prospective paper-trading journal; no trade or P&L may be inferred."
+}
