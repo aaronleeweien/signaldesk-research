@@ -21,3 +21,6 @@ completed_close,ticker,event_type,details,recorded_utc,timing
 2026-10-30,CVX,STOCK_WATCH_ONLY,"{""score_pct"": 24.1, ""ticker"": ""CVX"", ""type"": ""STOCK_WATCH_ONLY""}",2026-10-31 02:28 UTC,BEFORE_NEXT_ESTIMATED_OPEN
 2026-10-30,XOM,STOCK_WATCH_ONLY,"{""score_pct"": 22.61, ""ticker"": ""XOM"", ""type"": ""STOCK_WATCH_ONLY""}",2026-10-31 02:28 UTC,BEFORE_NEXT_ESTIMATED_OPEN
 2026-10-30,PFE,STOCK_WATCH_ONLY,"{""score_pct"": 21.12, ""ticker"": ""PFE"", ""type"": ""STOCK_WATCH_ONLY""}",2026-10-31 02:28 UTC,BEFORE_NEXT_ESTIMATED_OPEN
+2026-11-02,XLP,ETF_MOMENTUM_WATCH,"{""score_pct"": 8.34, ""ticker"": ""XLP"", ""type"": ""ETF_MOMENTUM_WATCH""}",2026-11-03 02:29 UTC,BEFORE_NEXT_ESTIMATED_OPEN
+2026-11-02,XLY,ETF_MOMENTUM_WATCH,"{""score_pct"": 0.38, ""ticker"": ""XLY"", ""type"": ""ETF_MOMENTUM_WATCH""}",2026-11-03 02:29 UTC,BEFORE_NEXT_ESTIMATED_OPEN
+2026-11-02,KO,STOCK_WATCH_ONLY,"{""score_pct"": 16.46, ""ticker"": ""KO"", ""type"": ""STOCK_WATCH_ONLY""}",2026-11-03 02:29 UTC,BEFORE_NEXT_ESTIMATED_OPEN

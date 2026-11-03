@@ -1,6 +1,6 @@
 {
   "protocol": "bnf_inspired_mean_reversion_v1_20261024",
-  "market_date": "2026-10-30",
+  "market_date": "2026-11-02",
   "approach": "BNF-inspired short-term contrarian research, NOT his exact discretionary method",
   "source_interviews": [
     "https://kabushiki-blog.com/article/18401857.html",
@@ -109,322 +109,322 @@
   ],
   "universe_selection": "Dynamic present-day liquid-stock screener; frozen cohort is a separate prospective artifact.",
   "passing_retrospective_tests": 2,
-  "new_paper_entry_setups": 16,
+  "new_paper_entry_setups": 7,
   "historical_screen_summary": [
     {
       "ticker": "FRO",
       "trades": 24,
-      "strategy_annual_pct": 20.63,
-      "voo_annual_pct": 15.3,
-      "annual_excess_pp": 5.33,
-      "recent_excess_pp": -0.56,
+      "strategy_annual_pct": 20.61,
+      "voo_annual_pct": 15.2,
+      "annual_excess_pp": 5.41,
+      "recent_excess_pp": -0.44,
       "historical_only_pass": false
     },
     {
       "ticker": "PLTR",
       "trades": 27,
-      "strategy_annual_pct": 19.07,
-      "voo_annual_pct": 14.51,
-      "annual_excess_pp": 4.56,
-      "recent_excess_pp": 9.45,
+      "strategy_annual_pct": 19.04,
+      "voo_annual_pct": 14.39,
+      "annual_excess_pp": 4.65,
+      "recent_excess_pp": 9.55,
       "historical_only_pass": true
     },
     {
       "ticker": "FROG",
       "trades": 25,
-      "strategy_annual_pct": 18.08,
-      "voo_annual_pct": 14.64,
-      "annual_excess_pp": 3.44,
-      "recent_excess_pp": 5.72,
+      "strategy_annual_pct": 18.05,
+      "voo_annual_pct": 14.52,
+      "annual_excess_pp": 3.53,
+      "recent_excess_pp": 5.83,
       "historical_only_pass": true
     },
     {
       "ticker": "HTFL",
       "trades": 5,
-      "strategy_annual_pct": 14.45,
-      "voo_annual_pct": 12.99,
-      "annual_excess_pp": 1.46,
-      "recent_excess_pp": 1.46,
+      "strategy_annual_pct": 14.33,
+      "voo_annual_pct": 12.28,
+      "annual_excess_pp": 2.05,
+      "recent_excess_pp": 2.05,
       "historical_only_pass": false
     },
     {
       "ticker": "INSW",
       "trades": 18,
-      "strategy_annual_pct": 16.07,
-      "voo_annual_pct": 15.3,
-      "annual_excess_pp": 0.77,
-      "recent_excess_pp": -2.17,
+      "strategy_annual_pct": 16.05,
+      "voo_annual_pct": 15.2,
+      "annual_excess_pp": 0.85,
+      "recent_excess_pp": -2.04,
       "historical_only_pass": false
     },
     {
       "ticker": "VSAT",
       "trades": 26,
-      "strategy_annual_pct": 8.76,
-      "voo_annual_pct": 15.3,
-      "annual_excess_pp": -6.54,
-      "recent_excess_pp": 0.31,
+      "strategy_annual_pct": 8.75,
+      "voo_annual_pct": 15.2,
+      "annual_excess_pp": -6.45,
+      "recent_excess_pp": 0.42,
       "historical_only_pass": false
     },
     {
       "ticker": "AXGN",
       "trades": 30,
-      "strategy_annual_pct": 8.28,
-      "voo_annual_pct": 15.3,
-      "annual_excess_pp": -7.02,
-      "recent_excess_pp": -3.39,
-      "historical_only_pass": false
-    },
-    {
-      "ticker": "AMD",
-      "trades": 40,
-      "strategy_annual_pct": 8.03,
-      "voo_annual_pct": 15.3,
-      "annual_excess_pp": -7.27,
-      "recent_excess_pp": -3.31,
+      "strategy_annual_pct": 8.27,
+      "voo_annual_pct": 15.2,
+      "annual_excess_pp": -6.93,
+      "recent_excess_pp": -3.26,
       "historical_only_pass": false
     },
     {
       "ticker": "BWIN",
       "trades": 20,
-      "strategy_annual_pct": 6.61,
-      "voo_annual_pct": 14.48,
-      "annual_excess_pp": -7.87,
-      "recent_excess_pp": -4.12,
+      "strategy_annual_pct": 6.6,
+      "voo_annual_pct": 14.37,
+      "annual_excess_pp": -7.77,
+      "recent_excess_pp": -3.99,
       "historical_only_pass": false
     },
     {
-      "ticker": "DELL",
-      "trades": 24,
-      "strategy_annual_pct": 5.99,
-      "voo_annual_pct": 15.3,
-      "annual_excess_pp": -9.31,
-      "recent_excess_pp": -4.11,
-      "historical_only_pass": false
-    },
-    {
-      "ticker": "NET",
-      "trades": 26,
-      "strategy_annual_pct": 5.8,
-      "voo_annual_pct": 15.21,
-      "annual_excess_pp": -9.41,
-      "recent_excess_pp": -7.59,
+      "ticker": "AMD",
+      "trades": 40,
+      "strategy_annual_pct": 6.68,
+      "voo_annual_pct": 15.2,
+      "annual_excess_pp": -8.52,
+      "recent_excess_pp": -5.22,
       "historical_only_pass": false
     },
     {
       "ticker": "GEV",
       "trades": 4,
-      "strategy_annual_pct": 6.78,
-      "voo_annual_pct": 16.2,
-      "annual_excess_pp": -9.42,
-      "recent_excess_pp": -9.42,
-      "historical_only_pass": false
-    },
-    {
-      "ticker": "HPE",
-      "trades": 16,
-      "strategy_annual_pct": 5.15,
-      "voo_annual_pct": 15.3,
-      "annual_excess_pp": -10.15,
-      "recent_excess_pp": -4.88,
+      "strategy_annual_pct": 6.76,
+      "voo_annual_pct": 15.89,
+      "annual_excess_pp": -9.13,
+      "recent_excess_pp": -9.13,
       "historical_only_pass": false
     },
     {
       "ticker": "XMTR",
       "trades": 25,
       "strategy_annual_pct": 2.27,
-      "voo_annual_pct": 12.53,
-      "annual_excess_pp": -10.26,
-      "recent_excess_pp": -8.77,
+      "voo_annual_pct": 12.4,
+      "annual_excess_pp": -10.13,
+      "recent_excess_pp": -8.64,
+      "historical_only_pass": false
+    },
+    {
+      "ticker": "NET",
+      "trades": 26,
+      "strategy_annual_pct": 4.81,
+      "voo_annual_pct": 15.1,
+      "annual_excess_pp": -10.29,
+      "recent_excess_pp": -8.84,
+      "historical_only_pass": false
+    },
+    {
+      "ticker": "DELL",
+      "trades": 24,
+      "strategy_annual_pct": 4.89,
+      "voo_annual_pct": 15.2,
+      "annual_excess_pp": -10.31,
+      "recent_excess_pp": -5.66,
       "historical_only_pass": false
     },
     {
       "ticker": "EQNR",
       "trades": 11,
       "strategy_annual_pct": 4.13,
-      "voo_annual_pct": 15.3,
-      "annual_excess_pp": -11.17,
-      "recent_excess_pp": -5.42,
+      "voo_annual_pct": 15.2,
+      "annual_excess_pp": -11.07,
+      "recent_excess_pp": -5.29,
+      "historical_only_pass": false
+    },
+    {
+      "ticker": "HPE",
+      "trades": 16,
+      "strategy_annual_pct": 3.97,
+      "voo_annual_pct": 15.2,
+      "annual_excess_pp": -11.23,
+      "recent_excess_pp": -6.56,
       "historical_only_pass": false
     },
     {
       "ticker": "VAL",
       "trades": 11,
-      "strategy_annual_pct": 0.87,
-      "voo_annual_pct": 12.29,
-      "annual_excess_pp": -11.42,
-      "recent_excess_pp": -11.69,
+      "strategy_annual_pct": 0.86,
+      "voo_annual_pct": 12.16,
+      "annual_excess_pp": -11.3,
+      "recent_excess_pp": -11.55,
       "historical_only_pass": false
     },
     {
       "ticker": "MRNA",
       "trades": 27,
       "strategy_annual_pct": 3.78,
-      "voo_annual_pct": 15.3,
-      "annual_excess_pp": -11.52,
-      "recent_excess_pp": -5.78,
+      "voo_annual_pct": 15.2,
+      "annual_excess_pp": -11.42,
+      "recent_excess_pp": -5.65,
       "historical_only_pass": false
     },
     {
       "ticker": "AVAV",
       "trades": 32,
       "strategy_annual_pct": 3.59,
-      "voo_annual_pct": 15.3,
-      "annual_excess_pp": -11.71,
-      "recent_excess_pp": 7.51,
+      "voo_annual_pct": 15.2,
+      "annual_excess_pp": -11.61,
+      "recent_excess_pp": 7.62,
       "historical_only_pass": false
     },
     {
       "ticker": "AMZN",
       "trades": 17,
       "strategy_annual_pct": 3.56,
-      "voo_annual_pct": 15.3,
-      "annual_excess_pp": -11.74,
-      "recent_excess_pp": -6.44,
+      "voo_annual_pct": 15.2,
+      "annual_excess_pp": -11.64,
+      "recent_excess_pp": -6.3,
       "historical_only_pass": false
     },
     {
       "ticker": "CVE",
       "trades": 23,
       "strategy_annual_pct": 3.45,
-      "voo_annual_pct": 15.3,
-      "annual_excess_pp": -11.85,
-      "recent_excess_pp": -7.74,
+      "voo_annual_pct": 15.2,
+      "annual_excess_pp": -11.75,
+      "recent_excess_pp": -7.61,
       "historical_only_pass": false
     },
     {
       "ticker": "TSM",
       "trades": 17,
-      "strategy_annual_pct": 3.29,
-      "voo_annual_pct": 15.3,
-      "annual_excess_pp": -12.01,
-      "recent_excess_pp": -4.27,
+      "strategy_annual_pct": 3.28,
+      "voo_annual_pct": 15.2,
+      "annual_excess_pp": -11.92,
+      "recent_excess_pp": -4.14,
       "historical_only_pass": false
     },
     {
       "ticker": "COP",
       "trades": 10,
       "strategy_annual_pct": 3.03,
-      "voo_annual_pct": 15.3,
-      "annual_excess_pp": -12.27,
-      "recent_excess_pp": -7.94,
-      "historical_only_pass": false
-    },
-    {
-      "ticker": "NVDA",
-      "trades": 30,
-      "strategy_annual_pct": 2.9,
-      "voo_annual_pct": 15.3,
-      "annual_excess_pp": -12.4,
-      "recent_excess_pp": -3.96,
+      "voo_annual_pct": 15.2,
+      "annual_excess_pp": -12.17,
+      "recent_excess_pp": -7.8,
       "historical_only_pass": false
     },
     {
       "ticker": "KYMR",
       "trades": 24,
       "strategy_annual_pct": 2.3,
-      "voo_annual_pct": 14.7,
-      "annual_excess_pp": -12.4,
-      "recent_excess_pp": -15.17,
+      "voo_annual_pct": 14.58,
+      "annual_excess_pp": -12.28,
+      "recent_excess_pp": -15.02,
+      "historical_only_pass": false
+    },
+    {
+      "ticker": "NVDA",
+      "trades": 30,
+      "strategy_annual_pct": 2.89,
+      "voo_annual_pct": 15.2,
+      "annual_excess_pp": -12.31,
+      "recent_excess_pp": -3.83,
       "historical_only_pass": false
     },
     {
       "ticker": "TSLA",
       "trades": 31,
-      "strategy_annual_pct": 2.9,
-      "voo_annual_pct": 15.3,
-      "annual_excess_pp": -12.4,
-      "recent_excess_pp": -6.95,
-      "historical_only_pass": false
-    },
-    {
-      "ticker": "MXL",
-      "trades": 38,
-      "strategy_annual_pct": 2.33,
-      "voo_annual_pct": 15.3,
-      "annual_excess_pp": -12.97,
-      "recent_excess_pp": -15.38,
+      "strategy_annual_pct": 2.89,
+      "voo_annual_pct": 15.2,
+      "annual_excess_pp": -12.31,
+      "recent_excess_pp": -6.81,
       "historical_only_pass": false
     },
     {
       "ticker": "PBR",
       "trades": 17,
       "strategy_annual_pct": 2.23,
-      "voo_annual_pct": 15.3,
-      "annual_excess_pp": -13.07,
-      "recent_excess_pp": -6.67,
-      "historical_only_pass": false
-    },
-    {
-      "ticker": "STX",
-      "trades": 20,
-      "strategy_annual_pct": 2.06,
-      "voo_annual_pct": 15.3,
-      "annual_excess_pp": -13.24,
-      "recent_excess_pp": -6.14,
+      "voo_annual_pct": 15.2,
+      "annual_excess_pp": -12.97,
+      "recent_excess_pp": -6.54,
       "historical_only_pass": false
     },
     {
       "ticker": "GOOGL",
       "trades": 10,
-      "strategy_annual_pct": 2.06,
-      "voo_annual_pct": 15.3,
-      "annual_excess_pp": -13.24,
-      "recent_excess_pp": -6.69,
+      "strategy_annual_pct": 1.85,
+      "voo_annual_pct": 15.2,
+      "annual_excess_pp": -13.35,
+      "recent_excess_pp": -6.87,
       "historical_only_pass": false
     },
     {
       "ticker": "AAPL",
       "trades": 13,
       "strategy_annual_pct": 1.75,
-      "voo_annual_pct": 15.3,
-      "annual_excess_pp": -13.55,
-      "recent_excess_pp": -8.93,
+      "voo_annual_pct": 15.2,
+      "annual_excess_pp": -13.45,
+      "recent_excess_pp": -8.79,
+      "historical_only_pass": false
+    },
+    {
+      "ticker": "PSX",
+      "trades": 12,
+      "strategy_annual_pct": 1.61,
+      "voo_annual_pct": 15.2,
+      "annual_excess_pp": -13.59,
+      "recent_excess_pp": -11.44,
+      "historical_only_pass": false
+    },
+    {
+      "ticker": "TGTX",
+      "trades": 31,
+      "strategy_annual_pct": 1.58,
+      "voo_annual_pct": 15.2,
+      "annual_excess_pp": -13.62,
+      "recent_excess_pp": -17.6,
       "historical_only_pass": false
     }
   ],
   "paper_candidates": [
     {
-      "ticker": "DELL",
+      "ticker": "MU",
       "data": {
-        "last_complete_date": "2026-10-30",
+        "last_complete_date": "2026-11-02",
         "eligible_now": true,
-        "price_deviation_pct": -17.36,
-        "last_close_usd": 424.3,
-        "sma25_usd": 513.453,
-        "last_open_usd": 419.03,
-        "data_rows": 2471,
+        "price_deviation_pct": -13.69,
+        "last_close_usd": 833.59,
+        "sma25_usd": 965.857,
+        "last_open_usd": 890.54,
+        "data_rows": 2472,
         "has_unfinished_position": false
       },
-      "trade_count": 24,
+      "trade_count": 25,
       "historical_only_pass": false,
       "description": "UNRECORDED research setup only. No simulated next-open fill without a separately committed pre-open BNF journal."
     },
     {
-      "ticker": "STX",
+      "ticker": "WDC",
       "data": {
-        "last_complete_date": "2026-10-30",
+        "last_complete_date": "2026-11-02",
         "eligible_now": true,
-        "price_deviation_pct": -14.35,
-        "last_close_usd": 644.58,
-        "sma25_usd": 752.573,
-        "last_open_usd": 652.0,
-        "data_rows": 2471,
+        "price_deviation_pct": -12.56,
+        "last_close_usd": 338.59,
+        "sma25_usd": 387.245,
+        "last_open_usd": 367.51,
+        "data_rows": 2472,
         "has_unfinished_position": false
       },
-      "trade_count": 20,
+      "trade_count": 29,
       "historical_only_pass": false,
       "description": "UNRECORDED research setup only. No simulated next-open fill without a separately committed pre-open BNF journal."
     },
     {
-      "ticker": "INTC",
+      "ticker": "SNOW",
       "data": {
-        "last_complete_date": "2026-10-30",
+        "last_complete_date": "2026-11-02",
         "eligible_now": true,
-        "price_deviation_pct": -34.74,
-        "last_close_usd": 65.76,
-        "sma25_usd": 100.772,
-        "last_open_usd": 68.36,
-        "data_rows": 2471,
+        "price_deviation_pct": -12.49,
+        "last_close_usd": 290.68,
+        "sma25_usd": 332.18,
+        "last_open_usd": 306.0,
+        "data_rows": 1540,
         "has_unfinished_position": false
       },
       "trade_count": 22,
@@ -432,210 +432,66 @@
       "description": "UNRECORDED research setup only. No simulated next-open fill without a separately committed pre-open BNF journal."
     },
     {
-      "ticker": "NET",
+      "ticker": "FROG",
       "data": {
-        "last_complete_date": "2026-10-30",
+        "last_complete_date": "2026-11-02",
         "eligible_now": true,
-        "price_deviation_pct": -14.88,
-        "last_close_usd": 280.7,
-        "sma25_usd": 329.785,
-        "last_open_usd": 299.69,
-        "data_rows": 1793,
+        "price_deviation_pct": -11.22,
+        "last_close_usd": 85.11,
+        "sma25_usd": 95.866,
+        "last_open_usd": 94.39,
+        "data_rows": 1540,
         "has_unfinished_position": false
       },
-      "trade_count": 26,
+      "trade_count": 25,
+      "historical_only_pass": true,
+      "description": "UNRECORDED research setup only. No simulated next-open fill without a separately committed pre-open BNF journal."
+    },
+    {
+      "ticker": "PBR",
+      "data": {
+        "last_complete_date": "2026-11-02",
+        "eligible_now": true,
+        "price_deviation_pct": -11.07,
+        "last_close_usd": 21.16,
+        "sma25_usd": 23.795,
+        "last_open_usd": 21.6,
+        "data_rows": 2472,
+        "has_unfinished_position": false
+      },
+      "trade_count": 17,
       "historical_only_pass": false,
       "description": "UNRECORDED research setup only. No simulated next-open fill without a separately committed pre-open BNF journal."
     },
     {
-      "ticker": "AMD",
+      "ticker": "TWST",
       "data": {
-        "last_complete_date": "2026-10-30",
+        "last_complete_date": "2026-11-02",
         "eligible_now": true,
-        "price_deviation_pct": -12.88,
-        "last_close_usd": 504.8,
-        "sma25_usd": 579.426,
-        "last_open_usd": 508.53,
-        "data_rows": 2471,
+        "price_deviation_pct": -18.64,
+        "last_close_usd": 129.04,
+        "sma25_usd": 158.598,
+        "last_open_usd": 153.17,
+        "data_rows": 2011,
         "has_unfinished_position": false
       },
-      "trade_count": 40,
+      "trade_count": 35,
       "historical_only_pass": false,
       "description": "UNRECORDED research setup only. No simulated next-open fill without a separately committed pre-open BNF journal."
     },
     {
-      "ticker": "MRVL",
+      "ticker": "CLMT",
       "data": {
-        "last_complete_date": "2026-10-30",
+        "last_complete_date": "2026-11-02",
         "eligible_now": true,
-        "price_deviation_pct": -21.8,
-        "last_close_usd": 196.4,
-        "sma25_usd": 251.161,
-        "last_open_usd": 205.78,
-        "data_rows": 2471,
+        "price_deviation_pct": -13.22,
+        "last_close_usd": 46.73,
+        "sma25_usd": 53.85,
+        "last_open_usd": 49.02,
+        "data_rows": 2472,
         "has_unfinished_position": false
       },
-      "trade_count": 30,
-      "historical_only_pass": false,
-      "description": "UNRECORDED research setup only. No simulated next-open fill without a separately committed pre-open BNF journal."
-    },
-    {
-      "ticker": "HPE",
-      "data": {
-        "last_complete_date": "2026-10-30",
-        "eligible_now": true,
-        "price_deviation_pct": -12.25,
-        "last_close_usd": 55.09,
-        "sma25_usd": 62.778,
-        "last_open_usd": 55.2,
-        "data_rows": 2471,
-        "has_unfinished_position": false
-      },
-      "trade_count": 16,
-      "historical_only_pass": false,
-      "description": "UNRECORDED research setup only. No simulated next-open fill without a separately committed pre-open BNF journal."
-    },
-    {
-      "ticker": "SNDK",
-      "data": {
-        "last_complete_date": "2026-10-30",
-        "eligible_now": true,
-        "price_deviation_pct": -22.37,
-        "last_close_usd": 1150.89,
-        "sma25_usd": 1482.619,
-        "last_open_usd": 1215.095,
-        "data_rows": 431,
-        "has_unfinished_position": false
-      },
-      "trade_count": 5,
-      "historical_only_pass": false,
-      "description": "UNRECORDED research setup only. No simulated next-open fill without a separately committed pre-open BNF journal."
-    },
-    {
-      "ticker": "CIEN",
-      "data": {
-        "last_complete_date": "2026-10-30",
-        "eligible_now": true,
-        "price_deviation_pct": -13.24,
-        "last_close_usd": 320.72,
-        "sma25_usd": 369.68,
-        "last_open_usd": 326.0,
-        "data_rows": 2471,
-        "has_unfinished_position": false
-      },
-      "trade_count": 15,
-      "historical_only_pass": false,
-      "description": "UNRECORDED research setup only. No simulated next-open fill without a separately committed pre-open BNF journal."
-    },
-    {
-      "ticker": "TXG",
-      "data": {
-        "last_complete_date": "2026-10-30",
-        "eligible_now": true,
-        "price_deviation_pct": -11.05,
-        "last_close_usd": 70.11,
-        "sma25_usd": 78.817,
-        "last_open_usd": 73.65,
-        "data_rows": 1794,
-        "has_unfinished_position": false
-      },
-      "trade_count": 27,
-      "historical_only_pass": false,
-      "description": "UNRECORDED research setup only. No simulated next-open fill without a separately committed pre-open BNF journal."
-    },
-    {
-      "ticker": "VIAV",
-      "data": {
-        "last_complete_date": "2026-10-30",
-        "eligible_now": true,
-        "price_deviation_pct": -22.72,
-        "last_close_usd": 29.92,
-        "sma25_usd": 38.715,
-        "last_open_usd": 30.98,
-        "data_rows": 2471,
-        "has_unfinished_position": false
-      },
-      "trade_count": 13,
-      "historical_only_pass": false,
-      "description": "UNRECORDED research setup only. No simulated next-open fill without a separately committed pre-open BNF journal."
-    },
-    {
-      "ticker": "SMTC",
-      "data": {
-        "last_complete_date": "2026-10-30",
-        "eligible_now": true,
-        "price_deviation_pct": -20.96,
-        "last_close_usd": 127.38,
-        "sma25_usd": 161.16,
-        "last_open_usd": 127.98,
-        "data_rows": 2471,
-        "has_unfinished_position": false
-      },
-      "trade_count": 30,
-      "historical_only_pass": false,
-      "description": "UNRECORDED research setup only. No simulated next-open fill without a separately committed pre-open BNF journal."
-    },
-    {
-      "ticker": "MXL",
-      "data": {
-        "last_complete_date": "2026-10-30",
-        "eligible_now": true,
-        "price_deviation_pct": -19.66,
-        "last_close_usd": 67.47,
-        "sma25_usd": 83.982,
-        "last_open_usd": 63.94,
-        "data_rows": 2471,
-        "has_unfinished_position": false
-      },
-      "trade_count": 38,
-      "historical_only_pass": false,
-      "description": "UNRECORDED research setup only. No simulated next-open fill without a separately committed pre-open BNF journal."
-    },
-    {
-      "ticker": "AAOI",
-      "data": {
-        "last_complete_date": "2026-10-30",
-        "eligible_now": true,
-        "price_deviation_pct": -24.97,
-        "last_close_usd": 69.05,
-        "sma25_usd": 92.026,
-        "last_open_usd": 71.86,
-        "data_rows": 2471,
-        "has_unfinished_position": false
-      },
-      "trade_count": 48,
-      "historical_only_pass": false,
-      "description": "UNRECORDED research setup only. No simulated next-open fill without a separately committed pre-open BNF journal."
-    },
-    {
-      "ticker": "GOOGL",
-      "data": {
-        "last_complete_date": "2026-10-30",
-        "eligible_now": true,
-        "price_deviation_pct": -16.59,
-        "last_close_usd": 279.84,
-        "sma25_usd": 335.505,
-        "last_open_usd": 281.12,
-        "data_rows": 2471,
-        "has_unfinished_position": false
-      },
-      "trade_count": 10,
-      "historical_only_pass": false,
-      "description": "UNRECORDED research setup only. No simulated next-open fill without a separately committed pre-open BNF journal."
-    },
-    {
-      "ticker": "GOOG",
-      "data": {
-        "last_complete_date": "2026-10-30",
-        "eligible_now": true,
-        "price_deviation_pct": -16.24,
-        "last_close_usd": 278.22,
-        "sma25_usd": 332.159,
-        "last_open_usd": 279.69,
-        "data_rows": 2471,
-        "has_unfinished_position": false
-      },
-      "trade_count": 9,
+      "trade_count": 25,
       "historical_only_pass": false,
       "description": "UNRECORDED research setup only. No simulated next-open fill without a separately committed pre-open BNF journal."
     }

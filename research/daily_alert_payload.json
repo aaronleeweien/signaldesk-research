@@ -1,5 +1,21 @@
 {
-  "notify": false,
-  "latest_close": "2026-10-30",
-  "events": []
+  "notify": true,
+  "latest_close": "2026-11-02",
+  "events": [
+    {
+      "score_pct": 8.34,
+      "ticker": "XLP",
+      "type": "ETF_MOMENTUM_WATCH"
+    },
+    {
+      "score_pct": 0.38,
+      "ticker": "XLY",
+      "type": "ETF_MOMENTUM_WATCH"
+    },
+    {
+      "score_pct": 16.46,
+      "ticker": "KO",
+      "type": "STOCK_WATCH_ONLY"
+    }
+  ]
 }

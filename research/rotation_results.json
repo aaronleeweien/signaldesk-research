@@ -1,5 +1,5 @@
 {
-  "last_complete_session": "2026-10-30",
+  "last_complete_session": "2026-11-02",
   "description": "3/6/12-month momentum, 200-day trend filter, monthly next-open rebalancing, one/two/diversified ETFs",
   "warning": "2022 onward has already been seen in VOO research; retrospective only, NOT independently unseen evidence.",
   "research_only": true,
@@ -18,7 +18,7 @@
     },
     "Top 1": {
       "annual_twr_pct": 13.49,
-      "end_usd": 27050.32,
+      "end_usd": 27050.31,
       "worst_decline_pct": -21.41,
       "orders": 140,
       "fees_usd": 650.29,
@@ -29,7 +29,7 @@
     },
     "Top 2": {
       "annual_twr_pct": 13.13,
-      "end_usd": 25939.74,
+      "end_usd": 25939.73,
       "worst_decline_pct": -22.88,
       "orders": 258,
       "fees_usd": 510.82,
@@ -54,48 +54,48 @@
   },
   "2022_onward": {
     "VOO DCA": {
-      "annual_twr_pct": 11.51,
-      "end_usd": 12104.42,
+      "annual_twr_pct": 11.38,
+      "end_usd": 12142.55,
       "worst_decline_pct": -24.56,
-      "orders": 58,
-      "fees_usd": 7.69,
-      "contributed_usd": 7700.0,
+      "orders": 59,
+      "fees_usd": 7.79,
+      "contributed_usd": 7800.0,
       "research_weights": {
         "VOO": 1.0
       }
     },
     "Top 1": {
-      "annual_twr_pct": 9.19,
-      "end_usd": 10846.86,
-      "worst_decline_pct": -27.95,
-      "orders": 76,
-      "fees_usd": 244.04,
-      "contributed_usd": 7700.0,
+      "annual_twr_pct": 9.06,
+      "end_usd": 10893.97,
+      "worst_decline_pct": -28.3,
+      "orders": 78,
+      "fees_usd": 265.96,
+      "contributed_usd": 7800.0,
       "research_weights": {
-        "QQQ": 1.0
+        "VOO": 1.0
       }
     },
     "Top 2": {
-      "annual_twr_pct": 8.35,
-      "end_usd": 11180.21,
+      "annual_twr_pct": 8.12,
+      "end_usd": 11173.91,
       "worst_decline_pct": -20.96,
-      "orders": 139,
-      "fees_usd": 159.42,
-      "contributed_usd": 7700.0,
+      "orders": 141,
+      "fees_usd": 159.74,
+      "contributed_usd": 7800.0,
       "research_weights": {
-        "QQQ": 0.5,
-        "VOO": 0.5
+        "VOO": 0.5,
+        "QQQ": 0.5
       }
     },
     "Diversified": {
-      "annual_twr_pct": 7.11,
-      "end_usd": 10283.33,
+      "annual_twr_pct": 7.01,
+      "end_usd": 10341.34,
       "worst_decline_pct": -18.58,
-      "orders": 138,
-      "fees_usd": 163.02,
-      "contributed_usd": 7700.0,
+      "orders": 141,
+      "fees_usd": 173.31,
+      "contributed_usd": 7800.0,
       "research_weights": {
-        "QQQ": 0.5,
+        "VOO": 0.5,
         "SHY": 0.5
       }
     }
