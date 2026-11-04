@@ -1,8 +1,8 @@
 {
   "version": "focused_dossier_v1",
-  "market_date": "2026-11-02",
-  "generated_utc": "2026-11-03T02:29:24.026397+00:00",
-  "screened_total": 764,
+  "market_date": "2026-11-03",
+  "generated_utc": "2026-11-04T02:28:27.820766+00:00",
+  "screened_total": 762,
   "selected_equities": 2,
   "asset_count": 3,
   "assets": [
@@ -14,37 +14,37 @@
         "ticker": "KNSA",
         "name": "Kiniksa Pharmaceuticals International, plc",
         "fiscal_year_end": "2025-12-31",
-        "market_cap_usd": 7134310912.0,
-        "forward_pe": 41.60367,
+        "market_cap_usd": 7329954304.0,
+        "forward_pe": 42.74456,
         "revenue_usd": 677564000.0,
         "revenue_growth_yoy_pct": 60.09,
         "net_income_usd": 59005000.0,
         "operating_cash_usd": 137985000.0,
         "capital_spending_usd": 1568000.0,
         "fcf_usd": 136417000.0,
-        "fcf_yield_pct": 1.91,
+        "fcf_yield_pct": 1.86,
         "fcf_positive_years": 3,
         "fcf_years_available": 3,
         "cash_usd": 81660000.0,
         "debt_usd": null,
-        "price_implied_fcf_growth_pct": 43.41,
+        "price_implied_fcf_growth_pct": 44.24,
         "reverse_model_required_return_pct": 11.0,
         "reverse_model_terminal_growth_pct": 2.0,
         "scenario_sensitivity": {
           "no_growth": {
             "annual_fcf_growth_assumed_pct": 0.0,
             "illustrative_equity_value_usd": 1421694148.08,
-            "value_as_pct_of_current_market_cap": 19.93
+            "value_as_pct_of_current_market_cap": 19.4
           },
           "moderate_growth": {
             "annual_fcf_growth_assumed_pct": 5.0,
             "illustrative_equity_value_usd": 1750134468.84,
-            "value_as_pct_of_current_market_cap": 24.53
+            "value_as_pct_of_current_market_cap": 23.88
           },
           "fast_growth": {
             "annual_fcf_growth_assumed_pct": 10.0,
             "illustrative_equity_value_usd": 2141530801.28,
-            "value_as_pct_of_current_market_cap": 30.02
+            "value_as_pct_of_current_market_cap": 29.22
           }
         },
         "annual_history": [
@@ -66,13 +66,13 @@
         ]
       },
       "price_context": {
-        "last_price_date": "2026-11-02",
-        "last_close_usd": 90.8,
-        "return_last_year_pct": 143.5,
-        "voo_same_year_pct": 11.84,
-        "relative_to_voo_year_pp": 131.65,
-        "momentum_3m_pct": 19.49,
-        "momentum_6m_pct": 57.58,
+        "last_price_date": "2026-11-03",
+        "last_close_usd": 93.29,
+        "return_last_year_pct": 152.07,
+        "voo_same_year_pct": 11.88,
+        "relative_to_voo_year_pp": 140.19,
+        "momentum_3m_pct": 19.48,
+        "momentum_6m_pct": 64.42,
         "above_200d_average": true
       },
       "sources": [
@@ -144,39 +144,39 @@
         },
         {
           "id": "S12",
+          "kind": "News-index headline · MarketBeat · 2026-11-04",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNRTZJMFI1VFZpWG4wRVhZejR0bm00ckI3ME5UNzBoTWtueHJIeUc4WUFHdlFtbmxkeEFHcFJjZUJMdm14TWg5WHVEMEdKTTF0cF9IYUhGaTZmcV9zejBXeWZUR1FuN3FYR0VNdmppZUljQ244eXpPcVFMZzZGcE0yNTdPU2pSaTk3d3R0eTc5RmlVZnNWcG5YVXNiWU1kXzhDby1oMEY4dEtKVHM4UDJOWVBjV1NLVTNEZVFRcXlCcWlWMU9TM29OTnhSQWJfWHlGQy1KcERpTQ?oc=5",
+          "summary": "Headline only, not checked article text: Kiniksa Pharmaceuticals International (NASDAQ:KNSA) CEO Sells $8,215,315.38 in Stock"
+        },
+        {
+          "id": "S13",
+          "kind": "News-index headline · Investing.com UK · 2026-11-04",
+          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNbUlTMlNYclE3Z3JYZkdkY3pQTkthUlZGQlFCQUVLcTJjUmN0VWFTWWx3ZnRoQkhXeFNGZFlYWDBWcWFGV1J5Vi1iaVoxWC1zU0czcF8wRHBiODlUSTZFWS1xSGNoV3gzODVSNWFGbTd1UEFJMTIyUUowTkRuQm9IblN3bjBsdzNMc2EyNHBlcUltZmdxUlZSM3VrRDVuM0tFSk5PSDFzcDU0eGlVaG9xcFV3MlkwNUQtdFZadmdGb0kydEFNNHdCSnZ1NDE5c0xJLUx1TGhrd0JUZVpDTHY1cFYwZmh4VVF5em5JUg?oc=5",
+          "summary": "Headline only, not checked article text: Form 4 Kiniksa Pharmaceuticals International: Sanj K. Patel (Director, CHAIRMAN & CEO) For: 30 October"
+        },
+        {
+          "id": "S14",
+          "kind": "News-index headline · MarketBeat · 2026-11-04",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOcXVZeFZpTEdwMTZkRXl2Ukw0ZGEyZnM0NDM3b3daSUEwckNiRFV6dk90SllROXktNEFxb21zemhIUmpWbjIzUnlma3NodE1Oc0Zvd3NGd2lVNHdIM2xiMEU0VHVHWVZSaVhubXNPbjNlWnJYRTVrSDJJT2tuRmJFUUJ5cVZGUzRoaG5GUXlMR1poQzRwQ2dhQlpzTTRLVjBPWkgxSUdtQmtGQjd5SUdTMkR1emJNeWRxcXdmWWRUM01tNmlBQXkwODNoXzJRN1pEVWVieFhMYw?oc=5",
+          "summary": "Headline only, not checked article text: Kiniksa Pharmaceuticals International (NASDAQ:KNSA) CAO Sells $3,424,031.80 in Stock"
+        },
+        {
+          "id": "S15",
+          "kind": "News-index headline · Stock Titan · 2026-11-03",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPODYyMFZ1bEpHTGFHRV9jMWRqQVdOdExKMEJTY21udlY0Q1JGWTBGdjIyTWZVZEdJOGZBdjM1U3NDc2l2WVVRWWhkQmg5OExXUUwwTEh4OVh5MkloTWhFZWEtZlg4el94ZHRGNE1PLW9GMlhHSDBtOUhUUWgyRS04bHFZNkk4Tko2VDdsWlJsWnd6VEtGTnpBQi1nLTYyd1pFbmhUcWZ5Z3V4SnBsbDNmei10UlJndjNkckFZZE4wSVMySVhPcnRFT0phaw?oc=5",
+          "summary": "Headline only, not checked article text: CFO Mark Ragosa exercises options and sells 36,783 Kiniksa (KNSA) shares under a trading plan."
+        },
+        {
+          "id": "S16",
           "kind": "News-index headline · Stock Titan · 2026-11-02",
           "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOQnFjdW41bUZvVlo3Q0RQTXVLamJVSkllYnlpeDhBdHJSTXNPTEV4SlY0UGVrTkhmVGxzbWloUE5Sa0tlUzNMRXVveTdLTGhDU1FWaDh0WUpFcm1lSUI3TC0zeUNuclIyb2hqTEF3OUVNRzRTLVdMZXZadl9XNld5SzFIX1RGOWZ2ZFE5MGV2VkU4cHRFRjJzT2Z1TFdUb0FvMlVZUno3bnRwT3BsalhvOVVDQUxyVXlLNEE?oc=5",
           "summary": "Headline only, not checked article text: An officer proposes selling Kiniksa (NASDAQ: KNSA) shares acquired through a cashless option exercise."
         },
         {
-          "id": "S13",
+          "id": "S17",
           "kind": "News-index headline · Simply Wall St · 2026-11-02",
           "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNTHZqMk9hMVpfc3k4SWJQUGwxVFVJSVFBV0djU0dVMXFYS3Q1ZGhGeGg3NElvNXQ1RldPNU0zTEVad2c5MXRUV3A0SnJueVdpS1hSb3FwYlMyMUp1R21pUWZSOEVpeXRUOVNXNzk4RS1Zc0V3bzM4bXVFNXFfWG1ob0x3dmluU1pBbFFUVzRjN0h6RklmTktSaks1azV3SWwzNHZuZGNLTFMxWHlQYVpIWHFTZTBZLWtjLU1BYVkzTVlwclhkZ29ubkQ2VWxpdGdhX1NINTBmUXVkWlBCemtoQkxoNTVPVUNPSUhFZVJB0gHuAUFVX3lxTE1MdmoyT2ExWl9zeThJYlBQbDFUVUlJUUFXR2NTR1UxcVhLdDVkaEZ4aDc0SW81dDVGV081TTNMRVp3ZzkxdFRXcDRKcm55V2lLWFJvcXBiUzIxSnVHbWlRZlI4RWl5dFQ5U1c3OThFLVlzRXdvMzhtdUU1cV9YbWhvTHd2aW5TWkFsUVRXNGM3SHpGSWZOS1JqSzVrNXdJbDM0dm5kY0tMUzFYeVBhWkhYcVNlMFkta2MtTUFhWTNNWXByWGRnb25uRDZVbGl0Z2FfU0g1MGZRdWRaUEJ6a2hCTGg1NU9VQ09JSEVlUkE?oc=5",
           "summary": "Headline only, not checked article text: Kiniksa Stock In Focus After Earnings Beat"
-        },
-        {
-          "id": "S14",
-          "kind": "News-index headline · Simply Wall St · 2026-11-01",
-          "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQYU1zOHg1WWdXM3dDN0Nib1VLZk9sNXdORGwwNkM5bl91bVlhTjdmOFBLYkFHZXdyZzctTE8yekdsYXhmRlZfcjYwQlJocXJWVE0zYnNzeWtLVXJFcnFCUllHc3R4Y1NFaS1FUjFCdHhXcWp1d1QzandrN2RMOXJJRmdsdG5kYWVteDUya2ZydFBpMURpeUJWXzlXeWRSUUlkSnVkaTRPdmZqTXphT2d6M2oydW5XdFR5bGlKNXRnRGhIRFZvMUQ1RUhJYll1VWh5eC1XeUFkOVFuZnYzWTZtaXdvcHhrOHIwLVFCd3h0WS1WcWxpSXlJTXRpNXoxUdIBgwJBVV95cUxNYlg2c2lKdkZhYmZfQUJIVXphTkpLMkhiWi1lYnpiQjQxbm5XcG15N0lsNVI4LWdVNlMtYWZGd1dUYTZJdXhrY1VOTGlZSEpaWXVFRk9UUjVkSDFEcUFibVBNWWNJbTY0SWV6UzZWdDExc3VfSGhycGZ6elBHSE1GZDhmUm0tWFVjSU9kYWp6Sk93QlVGMU9CWjNtUUliWEZqVXBlQWgtMzU0aW9OWlpZM1U2QWd5cUxZdlRKWFdLOUMwenJlQ0VoVEVZMGlSYnlXTWswSGpJbGR4ck1vM2tQZEtWU0RRRGROdUJ4VGhsd0hOdExfN0xqMG85cWdFcG9LU1Zz?oc=5",
-          "summary": "Headline only, not checked article text: Why Kiniksa Pharmaceuticals International (KNSA) Moved Today"
-        },
-        {
-          "id": "S15",
-          "kind": "News-index headline · MarketBeat · 2026-10-31",
-          "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPWnZ1RXVva2lkZmZxeEpDVFpFQXNoVDVWOTRfV25RaHlDZkQxZ0l3eFF5UzdpRmJGdFNDbHpHbVpTTHFkRzFjWEZKVkFEeWJyTlFJOEVVY29qZGlPRUg0eWQzaUlQZ0x3TEdVNlpEWlk3M1pVWVNPMU5HS2p6Z3RTbGxhYkhwRFlFSEJsOEZzY2ptQ2RoR1FEdUx0M0lQdDlVb3JPWHFlaHhOUUlLcnYyMWNIVXVkTS12emh1T1J1ZkN2ZHVsYV9wN3RvbUtYUmxMM0ZsQXgzM1ZFRmQ3Wk5UUzJEVGJSWmNQcHZ1TTRheXpHN0ZQNnc?oc=5",
-          "summary": "Headline only, not checked article text: Kiniksa Pharmaceuticals International, plc $KNSA Shares Newly Purchased by Sowell Financial Services LLC"
-        },
-        {
-          "id": "S16",
-          "kind": "News-index headline · Investing.com Nigeria · 2026-10-31",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOb2pLVklEZmRqakhvMzU0QkxYTVVTcjlubUUyTC1yZTA1UlRhVVNKejQ1dWpDbl9zSWlxcXB3dWJHWnRkVUFsOFVTaEhnZ0JIOU5kVzVZZXZEYlBNcTlMU2lTN2dobFBJV25xa041OGlXb3I0SGtVbUI1TGtBam0xMlQtbGwySFliUkJWSzhSN3lMWjNWN0pxMmNXaHluRm5pYTZBdGV4NWNCck5tazlZb2I2TEV2S0lyOVNqMVUwNA?oc=5",
-          "summary": "Headline only, not checked article text: Form 144 Kiniksa Pharmaceuticals International For: 30 October By Investing.com"
-        },
-        {
-          "id": "S17",
-          "kind": "News-index headline · MarketBeat · 2026-10-30",
-          "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOOEIzMl9zZlNVMFExdlNTZmpxR1h3Y1JfbndWcUg5OERKUF9OUHlidXk1aDVRQnBJYk1FX3J0ZDNQc1ppdHRsdUpRWS1qSU45R2JOME5MSHZjU2lqd2MwTGNIckpPM191NXFYWDVpNmtaN3lobENFSTZmbmlmMS1uV1BNUmFPcXBfR01BeVpQaW9BVng5WmprY2hxUVMxQW5GVThuOUNYQldPQW9aUU1XRjJwcDFacUFFdWFjcUd0cEZsVkQtalJnMWJzdjk2U0FjS0lZOC1JRS14Mk9zLXVDUUlzMDBIaE5hRGhvQ3ZDcF9qQWJhVzhvTHFveVpIM2c?oc=5",
-          "summary": "Headline only, not checked article text: JPMorgan Chase & Co. Issues Positive Forecast for Kiniksa Pharmaceuticals International (NASDAQ:KNSA) Stock Price"
         }
       ],
       "filings": {
@@ -257,10 +257,38 @@
       },
       "investment_role": "Candidate for multi-year valuation research, not an approved trade.",
       "qualitative_context": {
-        "asof_utc": "2026-11-03T02:29:24.169367+00:00",
+        "asof_utc": "2026-11-04T02:28:27.978078+00:00",
         "search_url": "https://news.google.com/rss/search?q=%22Kiniksa%20Pharmaceuticals%20International%22%20when%3A7d&hl=en-US&gl=US&ceid=US:en",
         "news_window_days": 7,
         "headline_sample": [
+          {
+            "title": "Kiniksa Pharmaceuticals International (NASDAQ:KNSA) CEO Sells $8,215,315.38 in Stock",
+            "published_utc": "2026-11-04T02:16:38+00:00",
+            "publisher": "MarketBeat",
+            "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNRTZJMFI1VFZpWG4wRVhZejR0bm00ckI3ME5UNzBoTWtueHJIeUc4WUFHdlFtbmxkeEFHcFJjZUJMdm14TWg5WHVEMEdKTTF0cF9IYUhGaTZmcV9zejBXeWZUR1FuN3FYR0VNdmppZUljQ244eXpPcVFMZzZGcE0yNTdPU2pSaTk3d3R0eTc5RmlVZnNWcG5YVXNiWU1kXzhDby1oMEY4dEtKVHM4UDJOWVBjV1NLVTNEZVFRcXlCcWlWMU9TM29OTnhSQWJfWHlGQy1KcERpTQ?oc=5",
+            "topic": "other"
+          },
+          {
+            "title": "Form 4 Kiniksa Pharmaceuticals International: Sanj K. Patel (Director, CHAIRMAN & CEO) For: 30 October",
+            "published_utc": "2026-11-04T01:15:54+00:00",
+            "publisher": "Investing.com UK",
+            "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNbUlTMlNYclE3Z3JYZkdkY3pQTkthUlZGQlFCQUVLcTJjUmN0VWFTWWx3ZnRoQkhXeFNGZFlYWDBWcWFGV1J5Vi1iaVoxWC1zU0czcF8wRHBiODlUSTZFWS1xSGNoV3gzODVSNWFGbTd1UEFJMTIyUUowTkRuQm9IblN3bjBsdzNMc2EyNHBlcUltZmdxUlZSM3VrRDVuM0tFSk5PSDFzcDU0eGlVaG9xcFV3MlkwNUQtdFZadmdGb0kydEFNNHdCSnZ1NDE5c0xJLUx1TGhrd0JUZVpDTHY1cFYwZmh4VVF5em5JUg?oc=5",
+            "topic": "other"
+          },
+          {
+            "title": "Kiniksa Pharmaceuticals International (NASDAQ:KNSA) CAO Sells $3,424,031.80 in Stock",
+            "published_utc": "2026-11-04T00:19:31+00:00",
+            "publisher": "MarketBeat",
+            "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOcXVZeFZpTEdwMTZkRXl2Ukw0ZGEyZnM0NDM3b3daSUEwckNiRFV6dk90SllROXktNEFxb21zemhIUmpWbjIzUnlma3NodE1Oc0Zvd3NGd2lVNHdIM2xiMEU0VHVHWVZSaVhubXNPbjNlWnJYRTVrSDJJT2tuRmJFUUJ5cVZGUzRoaG5GUXlMR1poQzRwQ2dhQlpzTTRLVjBPWkgxSUdtQmtGQjd5SUdTMkR1emJNeWRxcXdmWWRUM01tNmlBQXkwODNoXzJRN1pEVWVieFhMYw?oc=5",
+            "topic": "other"
+          },
+          {
+            "title": "CFO Mark Ragosa exercises options and sells 36,783 Kiniksa (KNSA) shares under a trading plan.",
+            "published_utc": "2026-11-03T23:33:12+00:00",
+            "publisher": "Stock Titan",
+            "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPODYyMFZ1bEpHTGFHRV9jMWRqQVdOdExKMEJTY21udlY0Q1JGWTBGdjIyTWZVZEdJOGZBdjM1U3NDc2l2WVVRWWhkQmg5OExXUUwwTEh4OVh5MkloTWhFZWEtZlg4el94ZHRGNE1PLW9GMlhHSDBtOUhUUWgyRS04bHFZNkk4Tko2VDdsWlJsWnd6VEtGTnpBQi1nLTYyd1pFbmhUcWZ5Z3V4SnBsbDNmei10UlJndjNkckFZZE4wSVMySVhPcnRFT0phaw?oc=5",
+            "topic": "other"
+          },
           {
             "title": "An officer proposes selling Kiniksa (NASDAQ: KNSA) shares acquired through a cashless option exercise.",
             "published_utc": "2026-11-02T22:14:11+00:00",
@@ -274,34 +302,6 @@
             "publisher": "Simply Wall St",
             "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNTHZqMk9hMVpfc3k4SWJQUGwxVFVJSVFBV0djU0dVMXFYS3Q1ZGhGeGg3NElvNXQ1RldPNU0zTEVad2c5MXRUV3A0SnJueVdpS1hSb3FwYlMyMUp1R21pUWZSOEVpeXRUOVNXNzk4RS1Zc0V3bzM4bXVFNXFfWG1ob0x3dmluU1pBbFFUVzRjN0h6RklmTktSaks1azV3SWwzNHZuZGNLTFMxWHlQYVpIWHFTZTBZLWtjLU1BYVkzTVlwclhkZ29ubkQ2VWxpdGdhX1NINTBmUXVkWlBCemtoQkxoNTVPVUNPSUhFZVJB0gHuAUFVX3lxTE1MdmoyT2ExWl9zeThJYlBQbDFUVUlJUUFXR2NTR1UxcVhLdDVkaEZ4aDc0SW81dDVGV081TTNMRVp3ZzkxdFRXcDRKcm55V2lLWFJvcXBiUzIxSnVHbWlRZlI4RWl5dFQ5U1c3OThFLVlzRXdvMzhtdUU1cV9YbWhvTHd2aW5TWkFsUVRXNGM3SHpGSWZOS1JqSzVrNXdJbDM0dm5kY0tMUzFYeVBhWkhYcVNlMFkta2MtTUFhWTNNWXByWGRnb25uRDZVbGl0Z2FfU0g1MGZRdWRaUEJ6a2hCTGg1NU9VQ09JSEVlUkE?oc=5",
             "topic": "profitability"
-          },
-          {
-            "title": "Why Kiniksa Pharmaceuticals International (KNSA) Moved Today",
-            "published_utc": "2026-11-01T11:41:42+00:00",
-            "publisher": "Simply Wall St",
-            "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQYU1zOHg1WWdXM3dDN0Nib1VLZk9sNXdORGwwNkM5bl91bVlhTjdmOFBLYkFHZXdyZzctTE8yekdsYXhmRlZfcjYwQlJocXJWVE0zYnNzeWtLVXJFcnFCUllHc3R4Y1NFaS1FUjFCdHhXcWp1d1QzandrN2RMOXJJRmdsdG5kYWVteDUya2ZydFBpMURpeUJWXzlXeWRSUUlkSnVkaTRPdmZqTXphT2d6M2oydW5XdFR5bGlKNXRnRGhIRFZvMUQ1RUhJYll1VWh5eC1XeUFkOVFuZnYzWTZtaXdvcHhrOHIwLVFCd3h0WS1WcWxpSXlJTXRpNXoxUdIBgwJBVV95cUxNYlg2c2lKdkZhYmZfQUJIVXphTkpLMkhiWi1lYnpiQjQxbm5XcG15N0lsNVI4LWdVNlMtYWZGd1dUYTZJdXhrY1VOTGlZSEpaWXVFRk9UUjVkSDFEcUFibVBNWWNJbTY0SWV6UzZWdDExc3VfSGhycGZ6elBHSE1GZDhmUm0tWFVjSU9kYWp6Sk93QlVGMU9CWjNtUUliWEZqVXBlQWgtMzU0aW9OWlpZM1U2QWd5cUxZdlRKWFdLOUMwenJlQ0VoVEVZMGlSYnlXTWswSGpJbGR4ck1vM2tQZEtWU0RRRGROdUJ4VGhsd0hOdExfN0xqMG85cWdFcG9LU1Zz?oc=5",
-            "topic": "other"
-          },
-          {
-            "title": "Kiniksa Pharmaceuticals International, plc $KNSA Shares Newly Purchased by Sowell Financial Services LLC",
-            "published_utc": "2026-10-31T09:21:39+00:00",
-            "publisher": "MarketBeat",
-            "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPWnZ1RXVva2lkZmZxeEpDVFpFQXNoVDVWOTRfV25RaHlDZkQxZ0l3eFF5UzdpRmJGdFNDbHpHbVpTTHFkRzFjWEZKVkFEeWJyTlFJOEVVY29qZGlPRUg0eWQzaUlQZ0x3TEdVNlpEWlk3M1pVWVNPMU5HS2p6Z3RTbGxhYkhwRFlFSEJsOEZzY2ptQ2RoR1FEdUx0M0lQdDlVb3JPWHFlaHhOUUlLcnYyMWNIVXVkTS12emh1T1J1ZkN2ZHVsYV9wN3RvbUtYUmxMM0ZsQXgzM1ZFRmQ3Wk5UUzJEVGJSWmNQcHZ1TTRheXpHN0ZQNnc?oc=5",
-            "topic": "financing"
-          },
-          {
-            "title": "Form 144 Kiniksa Pharmaceuticals International For: 30 October By Investing.com",
-            "published_utc": "2026-10-31T00:06:53+00:00",
-            "publisher": "Investing.com Nigeria",
-            "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOb2pLVklEZmRqakhvMzU0QkxYTVVTcjlubUUyTC1yZTA1UlRhVVNKejQ1dWpDbl9zSWlxcXB3dWJHWnRkVUFsOFVTaEhnZ0JIOU5kVzVZZXZEYlBNcTlMU2lTN2dobFBJV25xa041OGlXb3I0SGtVbUI1TGtBam0xMlQtbGwySFliUkJWSzhSN3lMWjNWN0pxMmNXaHluRm5pYTZBdGV4NWNCck5tazlZb2I2TEV2S0lyOVNqMVUwNA?oc=5",
-            "topic": "other"
-          },
-          {
-            "title": "JPMorgan Chase & Co. Issues Positive Forecast for Kiniksa Pharmaceuticals International (NASDAQ:KNSA) Stock Price",
-            "published_utc": "2026-10-30T23:29:11+00:00",
-            "publisher": "MarketBeat",
-            "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOOEIzMl9zZlNVMFExdlNTZmpxR1h3Y1JfbndWcUg5OERKUF9OUHlidXk1aDVRQnBJYk1FX3J0ZDNQc1ppdHRsdUpRWS1qSU45R2JOME5MSHZjU2lqd2MwTGNIckpPM191NXFYWDVpNmtaN3lobENFSTZmbmlmMS1uV1BNUmFPcXBfR01BeVpQaW9BVng5WmprY2hxUVMxQW5GVThuOUNYQldPQW9aUU1XRjJwcDFacUFFdWFjcUd0cEZsVkQtalJnMWJzdjk2U0FjS0lZOC1JRS14Mk9zLXVDUUlzMDBIaE5hRGhvQ3ZDcF9qQWJhVzhvTHFveVpIM2c?oc=5",
-            "topic": "other"
           }
         ],
         "narratives": [
@@ -314,17 +314,6 @@
             "mechanism": "Changes in selling prices or operating costs affect the fraction of sales that becomes profit and cash.",
             "competing_reading": "A temporary price or cost improvement may disappear when conditions normalize.",
             "test": "Check reported operating margins, cash conversion and the reasons for changes.",
-            "evidence_level": "headline_coverage_not_confirmed_event"
-          },
-          {
-            "topic": "financing",
-            "headline": "Kiniksa Pharmaceuticals International, plc $KNSA Shares Newly Purchased by Sowell Financial Services LLC",
-            "published_utc": "2026-10-31T09:21:39+00:00",
-            "publisher": "MarketBeat",
-            "source_url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPWnZ1RXVva2lkZmZxeEpDVFpFQXNoVDVWOTRfV25RaHlDZkQxZ0l3eFF5UzdpRmJGdFNDbHpHbVpTTHFkRzFjWEZKVkFEeWJyTlFJOEVVY29qZGlPRUg0eWQzaUlQZ0x3TEdVNlpEWlk3M1pVWVNPMU5HS2p6Z3RTbGxhYkhwRFlFSEJsOEZzY2ptQ2RoR1FEdUx0M0lQdDlVb3JPWHFlaHhOUUlLcnYyMWNIVXVkTS12emh1T1J1ZkN2ZHVsYV9wN3RvbUtYUmxMM0ZsQXgzM1ZFRmQ3Wk5UUzJEVGJSWmNQcHZ1TTRheXpHN0ZQNnc?oc=5",
-            "mechanism": "Borrowing costs or capital allocation can affect how much future cash ultimately belongs to shareholders.",
-            "competing_reading": "Higher dividends or buybacks can be funded by debt and are not automatically value creation.",
-            "test": "Check the balance sheet, debt maturities and cash available after capital spending.",
             "evidence_level": "headline_coverage_not_confirmed_event"
           }
         ],
@@ -340,37 +329,37 @@
         "ticker": "MPC",
         "name": "Marathon Petroleum Corporation",
         "fiscal_year_end": "2025-12-31",
-        "market_cap_usd": 120864178176.0,
-        "forward_pe": 7.1365614,
+        "market_cap_usd": 120007655424.0,
+        "forward_pe": 6.908214,
         "revenue_usd": 132699000000.0,
         "revenue_growth_yoy_pct": -4.44,
         "net_income_usd": 4047000000.0,
         "operating_cash_usd": 8253000000.0,
         "capital_spending_usd": 3486000000.0,
         "fcf_usd": 4767000000.0,
-        "fcf_yield_pct": 3.94,
+        "fcf_yield_pct": 3.97,
         "fcf_positive_years": 3,
         "fcf_years_available": 3,
-        "cash_usd": 7768000000.0,
+        "cash_usd": 12805000000.0,
         "debt_usd": 3311000000.0,
-        "price_implied_fcf_growth_pct": 22.52,
+        "price_implied_fcf_growth_pct": 22.32,
         "reverse_model_required_return_pct": 11.0,
         "reverse_model_terminal_growth_pct": 2.0,
         "scenario_sensitivity": {
           "no_growth": {
             "annual_fcf_growth_assumed_pct": 0.0,
             "illustrative_equity_value_usd": 49680142532.83,
-            "value_as_pct_of_current_market_cap": 41.1
+            "value_as_pct_of_current_market_cap": 41.4
           },
           "moderate_growth": {
             "annual_fcf_growth_assumed_pct": 5.0,
             "illustrative_equity_value_usd": 61157267884.14,
-            "value_as_pct_of_current_market_cap": 50.6
+            "value_as_pct_of_current_market_cap": 50.96
           },
           "fast_growth": {
             "annual_fcf_growth_assumed_pct": 10.0,
             "illustrative_equity_value_usd": 74834348576.12,
-            "value_as_pct_of_current_market_cap": 61.92
+            "value_as_pct_of_current_market_cap": 62.36
           }
         },
         "annual_history": [
@@ -392,13 +381,13 @@
         ]
       },
       "price_context": {
-        "last_price_date": "2026-11-02",
-        "last_close_usd": 430.39,
-        "return_last_year_pct": 123.68,
-        "voo_same_year_pct": 11.84,
-        "relative_to_voo_year_pp": 111.83,
-        "momentum_3m_pct": 38.05,
-        "momentum_6m_pct": 71.54,
+        "last_price_date": "2026-11-03",
+        "last_close_usd": 427.34,
+        "return_last_year_pct": 122.91,
+        "voo_same_year_pct": 11.88,
+        "relative_to_voo_year_pp": 111.03,
+        "momentum_3m_pct": 43.92,
+        "momentum_6m_pct": 65.12,
         "above_200d_average": true
       },
       "sources": [
@@ -422,27 +411,27 @@
         },
         {
           "id": "S4",
+          "kind": "10-Q filed 2026-11-03",
+          "url": "https://www.sec.gov/Archives/edgar/data/1510295/000151029526000071/mpc-20260930.htm",
+          "summary": "10-Q primary filing document; examine before relying on management claims."
+        },
+        {
+          "id": "S5",
+          "kind": "8-K filed 2026-11-03",
+          "url": "https://www.sec.gov/Archives/edgar/data/1510295/000151029526000069/mpc-20261103.htm",
+          "summary": "8-K primary filing document; examine before relying on management claims."
+        },
+        {
+          "id": "S6",
           "kind": "8-K filed 2026-10-29",
           "url": "https://www.sec.gov/Archives/edgar/data/1510295/000151029526000063/mpc-20261028.htm",
           "summary": "8-K primary filing document; examine before relying on management claims."
         },
         {
-          "id": "S5",
+          "id": "S7",
           "kind": "10-Q filed 2026-08-04",
           "url": "https://www.sec.gov/Archives/edgar/data/1510295/000151029526000061/mpc-20260630.htm",
           "summary": "10-Q primary filing document; examine before relying on management claims."
-        },
-        {
-          "id": "S6",
-          "kind": "8-K filed 2026-08-04",
-          "url": "https://www.sec.gov/Archives/edgar/data/1510295/000151029526000060/mpc-20260804.htm",
-          "summary": "8-K primary filing document; examine before relying on management claims."
-        },
-        {
-          "id": "S7",
-          "kind": "8-K filed 2026-06-29",
-          "url": "https://www.sec.gov/Archives/edgar/data/1510295/000151029526000055/mpc-20260626.htm",
-          "summary": "8-K primary filing document; examine before relying on management claims."
         },
         {
           "id": "S8",
@@ -458,56 +447,68 @@
         },
         {
           "id": "S10",
-          "kind": "10-Q read passages, filed 2026-08-04",
-          "url": "https://www.sec.gov/Archives/edgar/data/1510295/000151029526000061/mpc-20260630.htm",
-          "summary": "Management discussion: Management’s Discussion and Analysis of Financial Condition and Results of Operations This section should also be read in conjunction with the unaudited consolidated financial statements and accompanying footnotes included under Item 1. Financial Statements and in conjunction with our Annual Report on Form 10-K for the year ended December 31, 2025. DISCLOSURES REGARDING FORWARD-LOOKING STATEMENTS This Quarterly Report on Form 10-Q, particularly I Risk factors: risk factors affecting our business, see the risk factors described in our Annual Report on Form 10-K for the year ended December 31, 2025. We undertake no obligation to update any forward-looking statements except to the extent required by applicable law. EXECUTIVE SUMMARY Business and Economic Environment Update Our Refining & Marketing segment results for the second quarter of 2026 versus the second quarter of 2025 reflect higher realized refi"
+          "kind": "10-Q read passages, filed 2026-11-03",
+          "url": "https://www.sec.gov/Archives/edgar/data/1510295/000151029526000071/mpc-20260930.htm",
+          "summary": "Management discussion: Management’s Discussion and Analysis of Financial Condition and Results of Operations This section should also be read in conjunction with the unaudited consolidated financial statements and accompanying footnotes included under Item 1. Financial Statements and in conjunction with our Annual Report on Form 10-K for the year ended December 31, 2025. DISCLOSURES REGARDING FORWARD-LOOKING STATEMENTS This Quarterly Report on Form 10-Q, particularly I Risk factors: risk factors affecting our business, see the risk factors described in our Annual Report on Form 10-K for the year ended December 31, 2025. We undertake no obligation to update any forward-looking statements except to the extent required by applicable law. EXECUTIVE SUMMARY Business and Economic Environment Update Our Refining & Marketing segment results for the third quarter of 2026 versus the third quarter of 2025 reflect higher realized refini"
         },
         {
           "id": "S11",
-          "kind": "8-K read passages, filed 2026-10-29",
-          "url": "https://www.sec.gov/Archives/edgar/data/1510295/000151029526000063/mpc-20261028.htm",
-          "summary": "Filing excerpt: UNITED STATES SECURITIES AND EXCHANGE COMMISSION Washington, D.C. 20549 _____________________________________________ FORM 8-K _____________________________________________ CURRENT REPORT Pursuant to Section 13 or 15(d) of the Securities Exchange Act of 1934 Date of Report (Date of earliest event reported) October 28, 2026 _____________________________________________ Marathon Petroleum Corporation (Exact name of registrant as specified in its ch"
+          "kind": "8-K read passages, filed 2026-11-03",
+          "url": "https://www.sec.gov/Archives/edgar/data/1510295/000151029526000069/mpc-20261103.htm",
+          "summary": "Filing excerpt: UNITED STATES SECURITIES AND EXCHANGE COMMISSION Washington, D.C. 20549 _____________________________________________ FORM 8-K _____________________________________________ CURRENT REPORT Pursuant to Section 13 or 15(d) of the Securities Exchange Act of 1934 Date of Report (Date of earliest event reported) November 3, 2026 _____________________________________________ Marathon Petroleum Corporation (Exact name of registrant as specified in its ch"
         },
         {
           "id": "S12",
-          "kind": "News-index headline · MarketBeat · 2026-11-02",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQNXoxc0hRZldqMDY2eGhEREZWS0pFdzM3N0x4azN3T1otMll0c0NsaWRJMm4zWnY2QzI1S0pRMHBxdERBTEJUM1Zkd3VXNU8tQ2NjblhIUjRZb2ZjMnpQdS1uSFg2aGdRVTFHb0FMZXBqdHVRWV80M0Rtc2lsRWRVRzFtbVAzZW1MdlhZMkV1QmVSbXBGUDRpU3Yxd0lwNG9zTDEyZjhFUFJnVElJZVFoakF4SHN1TXNQM3c?oc=5",
-          "summary": "Headline only, not checked article text: Marathon Petroleum (NYSE:MPC) Shares Down 3.3% - Should You Sell?"
+          "kind": "News-index headline · GuruFocus · 2026-11-04",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNRXlLOHNuMmtnTzgtYl9ZakZQVWNHcXZoZTk4MmduX183T3E5cGVldl9NLXpITmJGOWQ1cmNJRzlNSnZoTENLdzBXTGE4NjIxcmhQZ3ZzdEszNnd2QzYxT0xkbGpjMWRXdnMwTWd0LVZwY3RLR21qTV9PWWNUT0hFT2FaRks3b3VibDV3RmdqbG5SUF9KUFhLOVZRamdmMVZZWXZhenpkQWRKS0JzdThLZEtjODY4YnVpRzJSR1dFT09BOXBWUmZfWDJtZw?oc=5",
+          "summary": "Headline only, not checked article text: Marathon Petroleum (MPC) Sells Refineries to CVR Energy in $4.2B Deal Amid Strong Q3 Performance"
         },
         {
           "id": "S13",
-          "kind": "News-index headline · Kalkine Media · 2026-11-02",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOSndoTE5HM1EyQVlreTVTWlRjdVNBSzQ2OWtsa3BTaDZQZUdjaVBtNUdjWnZNXzQyd2x6NTFoc2hVSnhFRmZvZ2RFbEUzS01HTXUtcE1XZzM5Zkt1dFFMXzNzNVNUZWY5YlBoRUJXTS02WnNtLUxqNktOdHI3UkhncDVCcW43MDlSdmJENnVncXFxbTFiTzhNN1BiSWxNdWdZdFc0LWZ3?oc=5",
-          "summary": "Headline only, not checked article text: What Has Marathon Petroleum (NYSE:MPC) Catching The Market's Eye?"
+          "kind": "News-index headline · AlphaStreet · 2026-11-04",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOcTNWWkgzdkhGTmVRdm11aFpUazlFUHVNVGVxRlFDUEs0TE0wd0RJZWNSX3UyVVVzQmtTNXZWOEZRSDJ1LWcxR1Y1ckZzMF9QX0g4Z0thdmRqS2dSYkh0a1pXODhjSVZ1eUMwa0x1RTRxQklTMS1yLXFBNzRybDNwbl94b2VMcFlMVlViWXFFZklEbFnSAZMBQVVfeXFMTnEzVlpIM3ZIRk5lUXZtdWhaVGs5RVB1TVRlcUZRQ1BLNExNMHdESWVjUl91MlVVc0JrUzV2VjhGUUgydS1nMUdWNXJGczBfUF9IOGdLYXZkaktnUmJIdGtaVzg4Y0lWdXlDMGtMdUU0cUJJUzEtci1xQTc0cmwzcG5feG9lTHBZTFZVYllxRWZJRGxZ?oc=5",
+          "summary": "Headline only, not checked article text: Marathon Petroleum Q3 2026: EPS Tops Estimates — Deep Dive"
         },
         {
           "id": "S14",
-          "kind": "News-index headline · GuruFocus · 2026-11-02",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPb3VmVWNzdWwyNXkxaWt2d3Q4MGtFRE9aZk5nb1B3YjQxLXJMXzNScF9ab3ZqM19nSkZBTTVlb0RKTUtvN3RUMk5iREQ1aml5U3lzUGlMREJvbk5jbmJIbHljcjVVdlNzdjMwV1Bva0NVamRRN2VwOFVEakZ1TXJuZ2hlUVB5M1BjeEZNdmtEeUVmdnRldy1DczZuOTlJcDZfazB4bDdBS2cwWTFXOW83dUJtX3A1OGlhVmdmSkkyWTQ?oc=5",
-          "summary": "Headline only, not checked article text: A Look at Marathon Petroleum Corp (MPC) After 3.2% Decline -- GF Value $231.14 vs Price $430.39"
+          "kind": "News-index headline · 24/7 Wall St. · 2026-11-04",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOYnVNdjdWUWFULWV0TDdqVExJeDdzWUJMRk12TzBmbmxESmhSc3VzSU5YRnhWRWtZSm5saUFwMElLTnNqbF9ic3ZHMVFuazZlTnN4TkMyUk4weFpKcUhEUl9hdkllUDhuaGJ4TnFNTnVsYU9Xc2hITlUtU1BRQjVBeEVfNTRGdlVQUmY1dGY1cWo?oc=5",
+          "summary": "Headline only, not checked article text: MPC Stock Price Prediction 2026-2027 | Marathon Petroleum Forecast"
         },
         {
           "id": "S15",
-          "kind": "News-index headline · Benzinga · 2026-11-02",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOejM3ZTh4bjZhUlBGYzhoOENKODFwSmo5bGFEb0JIckNvM0k1TE9BUlZwbkZFdWxhN0FCa3paZ1ZtNXFEX1hjQXBFTlBSaWNOSWNEaEp1SGZhRkowU2t2V1FYbUdxNndpM283MU1KQjRiUjJuRFlZV1RTSUVGZlVuX3BmZWhXQUVTMWpxQzdRNl9mMUlwRnpNS1ZBd2d6b0FIWUYzWmZNTGZObGJkeDRQMW5ITjNuUEU?oc=5",
-          "summary": "Headline only, not checked article text: Jeff Currie Takes Prompt Oil Profits, Keeps Regime Trade - Marathon Petroleum (NYSE:MPC), United States O"
+          "kind": "News-index headline · Yahoo Finance · 2026-11-03",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNMlR4a3NDM2JncVVBN1VrRHZGV1hacXljbUFKUkwyN0RGVEdXbDhpNEcwSWc3QVFWTkNnSWFfZTktenNDWkRBemo4WVMwTFdkc2RmUnJqa2tpZDVlQVluakFXNkJBNndoNW93NG9abm9NUGJ3eEpKU0dNZ21uZkFxR1VGcWZJc1c0UUhTWF9ab0tpSmx1NEd1b3F5aw?oc=5",
+          "summary": "Headline only, not checked article text: Marathon Petroleum Corporation Q3 2026 Earnings Call Summary"
         },
         {
           "id": "S16",
-          "kind": "News-index headline · Investing.com South Africa · 2026-11-02",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOZXlROWQ5TGN2RnhlOWdYWUVRVTM0SElPcVZHc1NaUjdwajI2SmkyTzZlZFJWR1daeGxObG1jdTV5ZWhjeUNhV1gtZExES1I2LU81eWdlT3Awcnp0STZSRTNkdU9vemZuMFhibWxvR2RIbk8ySkt4U2QtZGlNOUpKbzBmeGZlU0E0U3JVVWRjY3VaQkRJWG9HQ3VyX3lEWGpyNno2dkl4dFBzM2pER2l5YWlnREpxR1pJOTZpWl9aRVVjVlpL?oc=5",
-          "summary": "Headline only, not checked article text: Marathon Petroleum earnings on deck as refining margins face test By Investing.com"
+          "kind": "News-index headline · The Globe and Mail · 2026-11-03",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPVkhiMWxKczZxb0ppRUZVdDY2Vm9waFgxd1NvREdUS1NSVENVVW9xY1hsMlBiRHp1YnpLWEtTdnlnNHZ4Vy0taVNuUEdVUUNiNWZaaWE2blZTbFpvTEdNa3FFZndOd2FKTENLUUpqLVZVMUhTczdWOUpJWHpXRXNrbHJranFqWGZEbElaa1ZvcWloYmlIVVVhT0JNZTZPTGN6MFR4Z2RrUDE2ZDQ2bWZzb3F6T3kxNFdGSGJ5M3RXd2l1MTlEZFlSZFM2TXlvTlJSb0xkbVZR?oc=5",
+          "summary": "Headline only, not checked article text: Marathon Petroleum (MPC) Q3 2026 Earnings Call Transcript"
         },
         {
           "id": "S17",
-          "kind": "News-index headline · Investing.com India · 2026-11-02",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNY0V6SVVMd19ZWFNRRzVYVFlVZnFWSVNrb3dZZzc1NDFObGZmRHhmelBIOWJ6aGhQOUlLU0hPQmtiZzNJSVVIUVdoeDlPTmdaamkwMS1yeGdNbFVMRDZLY2d2MVZKNFRtb201QTc2UHVMR3ZOMVYxQkgzOHVjaVd1YVFvZnJFOFdya3lZVHJMaUI3Tk5ySUpTMnFZaVZwbUFiTS1kLXNDRjlzMmxOeDIxTFVtOA?oc=5",
-          "summary": "Headline only, not checked article text: David Taylor buys AT&T, sells Marathon Petroleum stock By Investing.com"
+          "kind": "News-index headline · AlphaStreet · 2026-11-03",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOUlNnaEhMR1hGSVA2UFZNRjN6Y0JjNDJiX0s5NjdwWW9ISVJ5ZHlNNkJ3Z0FiSkhHYWJ3WDFMUDZZaEF5TlNfTURjeGE1R3dPTS1jVkFoRkNiMUlnMk5lQkZLVkZWNC1qVFNLSWM1bjR3b0M3ZzVtdmlVOWN2UWVFZHlDTS1tSm1TOWtSU1NLRl85cjNFTlJhZzhR0gGaAUFVX3lxTE5SU2doSExHWEZJUDZQVk1GM3pjQmM0MmJfSzk2N3BZb0hJUnlkeU02QndnQWJKSEdhYndYMUxQNlloQXlOU19NRGN4YTVHd09NLWNWQWhGQ2IxSWcyTmVCRktWRlY0LWpUU0tJYzVuNHdvQzdnNW12aVU5Y3ZRZUVkeUNNLW1KbVM5a1JTU0tGXzlyM0VOUmFnOFE?oc=5",
+          "summary": "Headline only, not checked article text: Marathon Petroleum Posts 61% Revenue Jump in Q3 2026, Beats on EPS"
         }
       ],
       "filings": {
         "submissions_url": "https://data.sec.gov/submissions/CIK0001510295.json",
         "recent_filings": [
+          {
+            "form": "10-Q",
+            "filed": "2026-11-03",
+            "url": "https://www.sec.gov/Archives/edgar/data/1510295/000151029526000071/mpc-20260930.htm",
+            "accession": "0001510295-26-000071"
+          },
+          {
+            "form": "8-K",
+            "filed": "2026-11-03",
+            "url": "https://www.sec.gov/Archives/edgar/data/1510295/000151029526000069/mpc-20261103.htm",
+            "accession": "0001510295-26-000069"
+          },
           {
             "form": "8-K",
             "filed": "2026-10-29",
@@ -525,18 +526,6 @@
             "filed": "2026-08-04",
             "url": "https://www.sec.gov/Archives/edgar/data/1510295/000151029526000060/mpc-20260804.htm",
             "accession": "0001510295-26-000060"
-          },
-          {
-            "form": "8-K",
-            "filed": "2026-06-29",
-            "url": "https://www.sec.gov/Archives/edgar/data/1510295/000151029526000055/mpc-20260626.htm",
-            "accession": "0001510295-26-000055"
-          },
-          {
-            "form": "10-Q",
-            "filed": "2026-05-05",
-            "url": "https://www.sec.gov/Archives/edgar/data/1510295/000151029526000042/mpc-20260331.htm",
-            "accession": "0001510295-26-000042"
           }
         ],
         "priority_filings": [
@@ -548,15 +537,15 @@
           },
           {
             "form": "10-Q",
-            "filed": "2026-08-04",
-            "url": "https://www.sec.gov/Archives/edgar/data/1510295/000151029526000061/mpc-20260630.htm",
-            "accession": "0001510295-26-000061"
+            "filed": "2026-11-03",
+            "url": "https://www.sec.gov/Archives/edgar/data/1510295/000151029526000071/mpc-20260930.htm",
+            "accession": "0001510295-26-000071"
           },
           {
             "form": "8-K",
-            "filed": "2026-10-29",
-            "url": "https://www.sec.gov/Archives/edgar/data/1510295/000151029526000063/mpc-20261028.htm",
-            "accession": "0001510295-26-000063"
+            "filed": "2026-11-03",
+            "url": "https://www.sec.gov/Archives/edgar/data/1510295/000151029526000069/mpc-20261103.htm",
+            "accession": "0001510295-26-000069"
           }
         ],
         "read_passages": [
@@ -568,78 +557,89 @@
           },
           {
             "form": "10-Q",
-            "filed": "2026-08-04",
-            "url": "https://www.sec.gov/Archives/edgar/data/1510295/000151029526000061/mpc-20260630.htm",
-            "text": "Management discussion: Management’s Discussion and Analysis of Financial Condition and Results of Operations This section should also be read in conjunction with the unaudited consolidated financial statements and accompanying footnotes included under Item 1. Financial Statements and in conjunction with our Annual Report on Form 10-K for the year ended December 31, 2025. DISCLOSURES REGARDING FORWARD-LOOKING STATEMENTS This Quarterly Report on Form 10-Q, particularly I Risk factors: risk factors affecting our business, see the risk factors described in our Annual Report on Form 10-K for the year ended December 31, 2025. We undertake no obligation to update any forward-looking statements except to the extent required by applicable law. EXECUTIVE SUMMARY Business and Economic Environment Update Our Refining & Marketing segment results for the second quarter of 2026 versus the second quarter of 2025 reflect higher realized refi"
+            "filed": "2026-11-03",
+            "url": "https://www.sec.gov/Archives/edgar/data/1510295/000151029526000071/mpc-20260930.htm",
+            "text": "Management discussion: Management’s Discussion and Analysis of Financial Condition and Results of Operations This section should also be read in conjunction with the unaudited consolidated financial statements and accompanying footnotes included under Item 1. Financial Statements and in conjunction with our Annual Report on Form 10-K for the year ended December 31, 2025. DISCLOSURES REGARDING FORWARD-LOOKING STATEMENTS This Quarterly Report on Form 10-Q, particularly I Risk factors: risk factors affecting our business, see the risk factors described in our Annual Report on Form 10-K for the year ended December 31, 2025. We undertake no obligation to update any forward-looking statements except to the extent required by applicable law. EXECUTIVE SUMMARY Business and Economic Environment Update Our Refining & Marketing segment results for the third quarter of 2026 versus the third quarter of 2025 reflect higher realized refini"
           },
           {
             "form": "8-K",
-            "filed": "2026-10-29",
-            "url": "https://www.sec.gov/Archives/edgar/data/1510295/000151029526000063/mpc-20261028.htm",
-            "text": "Filing excerpt: UNITED STATES SECURITIES AND EXCHANGE COMMISSION Washington, D.C. 20549 _____________________________________________ FORM 8-K _____________________________________________ CURRENT REPORT Pursuant to Section 13 or 15(d) of the Securities Exchange Act of 1934 Date of Report (Date of earliest event reported) October 28, 2026 _____________________________________________ Marathon Petroleum Corporation (Exact name of registrant as specified in its ch"
+            "filed": "2026-11-03",
+            "url": "https://www.sec.gov/Archives/edgar/data/1510295/000151029526000069/mpc-20261103.htm",
+            "text": "Filing excerpt: UNITED STATES SECURITIES AND EXCHANGE COMMISSION Washington, D.C. 20549 _____________________________________________ FORM 8-K _____________________________________________ CURRENT REPORT Pursuant to Section 13 or 15(d) of the Securities Exchange Act of 1934 Date of Report (Date of earliest event reported) November 3, 2026 _____________________________________________ Marathon Petroleum Corporation (Exact name of registrant as specified in its ch"
           }
         ],
         "fetch_issues": []
       },
       "investment_role": "Candidate for multi-year valuation research, not an approved trade.",
       "qualitative_context": {
-        "asof_utc": "2026-11-03T02:29:24.169367+00:00",
+        "asof_utc": "2026-11-04T02:28:27.978078+00:00",
         "search_url": "https://news.google.com/rss/search?q=%22Marathon%20Petroleum%22%20when%3A7d&hl=en-US&gl=US&ceid=US:en",
         "news_window_days": 7,
         "headline_sample": [
           {
-            "title": "Marathon Petroleum (NYSE:MPC) Shares Down 3.3% - Should You Sell?",
-            "published_utc": "2026-11-02T23:06:40+00:00",
-            "publisher": "MarketBeat",
-            "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQNXoxc0hRZldqMDY2eGhEREZWS0pFdzM3N0x4azN3T1otMll0c0NsaWRJMm4zWnY2QzI1S0pRMHBxdERBTEJUM1Zkd3VXNU8tQ2NjblhIUjRZb2ZjMnpQdS1uSFg2aGdRVTFHb0FMZXBqdHVRWV80M0Rtc2lsRWRVRzFtbVAzZW1MdlhZMkV1QmVSbXBGUDRpU3Yxd0lwNG9zTDEyZjhFUFJnVElJZVFoakF4SHN1TXNQM3c?oc=5",
-            "topic": "other"
-          },
-          {
-            "title": "What Has Marathon Petroleum (NYSE:MPC) Catching The Market's Eye?",
-            "published_utc": "2026-11-02T22:56:00+00:00",
-            "publisher": "Kalkine Media",
-            "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOSndoTE5HM1EyQVlreTVTWlRjdVNBSzQ2OWtsa3BTaDZQZUdjaVBtNUdjWnZNXzQyd2x6NTFoc2hVSnhFRmZvZ2RFbEUzS01HTXUtcE1XZzM5Zkt1dFFMXzNzNVNUZWY5YlBoRUJXTS02WnNtLUxqNktOdHI3UkhncDVCcW43MDlSdmJENnVncXFxbTFiTzhNN1BiSWxNdWdZdFc0LWZ3?oc=5",
-            "topic": "other"
-          },
-          {
-            "title": "A Look at Marathon Petroleum Corp (MPC) After 3.2% Decline -- GF Value $231.14 vs Price $430.39",
-            "published_utc": "2026-11-02T22:34:22+00:00",
+            "title": "Marathon Petroleum (MPC) Sells Refineries to CVR Energy in $4.2B Deal Amid Strong Q3 Performance",
+            "published_utc": "2026-11-04T01:37:43+00:00",
             "publisher": "GuruFocus",
-            "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPb3VmVWNzdWwyNXkxaWt2d3Q4MGtFRE9aZk5nb1B3YjQxLXJMXzNScF9ab3ZqM19nSkZBTTVlb0RKTUtvN3RUMk5iREQ1aml5U3lzUGlMREJvbk5jbmJIbHljcjVVdlNzdjMwV1Bva0NVamRRN2VwOFVEakZ1TXJuZ2hlUVB5M1BjeEZNdmtEeUVmdnRldy1DczZuOTlJcDZfazB4bDdBS2cwWTFXOW83dUJtX3A1OGlhVmdmSkkyWTQ?oc=5",
+            "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNRXlLOHNuMmtnTzgtYl9ZakZQVWNHcXZoZTk4MmduX183T3E5cGVldl9NLXpITmJGOWQ1cmNJRzlNSnZoTENLdzBXTGE4NjIxcmhQZ3ZzdEszNnd2QzYxT0xkbGpjMWRXdnMwTWd0LVZwY3RLR21qTV9PWWNUT0hFT2FaRks3b3VibDV3RmdqbG5SUF9KUFhLOVZRamdmMVZZWXZhenpkQWRKS0JzdThLZEtjODY4YnVpRzJSR1dFT09BOXBWUmZfWDJtZw?oc=5",
             "topic": "other"
           },
           {
-            "title": "Jeff Currie Takes Prompt Oil Profits, Keeps Regime Trade - Marathon Petroleum (NYSE:MPC), United States O",
-            "published_utc": "2026-11-02T21:30:07+00:00",
-            "publisher": "Benzinga",
-            "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOejM3ZTh4bjZhUlBGYzhoOENKODFwSmo5bGFEb0JIckNvM0k1TE9BUlZwbkZFdWxhN0FCa3paZ1ZtNXFEX1hjQXBFTlBSaWNOSWNEaEp1SGZhRkowU2t2V1FYbUdxNndpM283MU1KQjRiUjJuRFlZV1RTSUVGZlVuX3BmZWhXQUVTMWpxQzdRNl9mMUlwRnpNS1ZBd2d6b0FIWUYzWmZNTGZObGJkeDRQMW5ITjNuUEU?oc=5",
-            "topic": "profitability"
-          },
-          {
-            "title": "Marathon Petroleum earnings on deck as refining margins face test By Investing.com",
-            "published_utc": "2026-11-02T16:43:53+00:00",
-            "publisher": "Investing.com South Africa",
-            "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOZXlROWQ5TGN2RnhlOWdYWUVRVTM0SElPcVZHc1NaUjdwajI2SmkyTzZlZFJWR1daeGxObG1jdTV5ZWhjeUNhV1gtZExES1I2LU81eWdlT3Awcnp0STZSRTNkdU9vemZuMFhibWxvR2RIbk8ySkt4U2QtZGlNOUpKbzBmeGZlU0E0U3JVVWRjY3VaQkRJWG9HQ3VyX3lEWGpyNno2dkl4dFBzM2pER2l5YWlnREpxR1pJOTZpWl9aRVVjVlpL?oc=5",
-            "topic": "profitability"
-          },
-          {
-            "title": "David Taylor buys AT&T, sells Marathon Petroleum stock By Investing.com",
-            "published_utc": "2026-11-02T16:13:50+00:00",
-            "publisher": "Investing.com India",
-            "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNY0V6SVVMd19ZWFNRRzVYVFlVZnFWSVNrb3dZZzc1NDFObGZmRHhmelBIOWJ6aGhQOUlLU0hPQmtiZzNJSVVIUVdoeDlPTmdaamkwMS1yeGdNbFVMRDZLY2d2MVZKNFRtb201QTc2UHVMR3ZOMVYxQkgzOHVjaVd1YVFvZnJFOFdya3lZVHJMaUI3Tk5ySUpTMnFZaVZwbUFiTS1kLXNDRjlzMmxOeDIxTFVtOA?oc=5",
+            "title": "Marathon Petroleum Q3 2026: EPS Tops Estimates — Deep Dive",
+            "published_utc": "2026-11-04T01:21:57+00:00",
+            "publisher": "AlphaStreet",
+            "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOcTNWWkgzdkhGTmVRdm11aFpUazlFUHVNVGVxRlFDUEs0TE0wd0RJZWNSX3UyVVVzQmtTNXZWOEZRSDJ1LWcxR1Y1ckZzMF9QX0g4Z0thdmRqS2dSYkh0a1pXODhjSVZ1eUMwa0x1RTRxQklTMS1yLXFBNzRybDNwbl94b2VMcFlMVlViWXFFZklEbFnSAZMBQVVfeXFMTnEzVlpIM3ZIRk5lUXZtdWhaVGs5RVB1TVRlcUZRQ1BLNExNMHdESWVjUl91MlVVc0JrUzV2VjhGUUgydS1nMUdWNXJGczBfUF9IOGdLYXZkaktnUmJIdGtaVzg4Y0lWdXlDMGtMdUU0cUJJUzEtci1xQTc0cmwzcG5feG9lTHBZTFZVYllxRWZJRGxZ?oc=5",
             "topic": "other"
+          },
+          {
+            "title": "MPC Stock Price Prediction 2026-2027 | Marathon Petroleum Forecast",
+            "published_utc": "2026-11-04T00:00:14+00:00",
+            "publisher": "24/7 Wall St.",
+            "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOYnVNdjdWUWFULWV0TDdqVExJeDdzWUJMRk12TzBmbmxESmhSc3VzSU5YRnhWRWtZSm5saUFwMElLTnNqbF9ic3ZHMVFuazZlTnN4TkMyUk4weFpKcUhEUl9hdkllUDhuaGJ4TnFNTnVsYU9Xc2hITlUtU1BRQjVBeEVfNTRGdlVQUmY1dGY1cWo?oc=5",
+            "topic": "other"
+          },
+          {
+            "title": "Marathon Petroleum Corporation Q3 2026 Earnings Call Summary",
+            "published_utc": "2026-11-03T22:29:54+00:00",
+            "publisher": "Yahoo Finance",
+            "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNMlR4a3NDM2JncVVBN1VrRHZGV1hacXljbUFKUkwyN0RGVEdXbDhpNEcwSWc3QVFWTkNnSWFfZTktenNDWkRBemo4WVMwTFdkc2RmUnJqa2tpZDVlQVluakFXNkJBNndoNW93NG9abm9NUGJ3eEpKU0dNZ21uZkFxR1VGcWZJc1c0UUhTWF9ab0tpSmx1NEd1b3F5aw?oc=5",
+            "topic": "profitability"
+          },
+          {
+            "title": "Marathon Petroleum (MPC) Q3 2026 Earnings Call Transcript",
+            "published_utc": "2026-11-03T21:37:06+00:00",
+            "publisher": "The Globe and Mail",
+            "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPVkhiMWxKczZxb0ppRUZVdDY2Vm9waFgxd1NvREdUS1NSVENVVW9xY1hsMlBiRHp1YnpLWEtTdnlnNHZ4Vy0taVNuUEdVUUNiNWZaaWE2blZTbFpvTEdNa3FFZndOd2FKTENLUUpqLVZVMUhTczdWOUpJWHpXRXNrbHJranFqWGZEbElaa1ZvcWloYmlIVVVhT0JNZTZPTGN6MFR4Z2RrUDE2ZDQ2bWZzb3F6T3kxNFdGSGJ5M3RXd2l1MTlEZFlSZFM2TXlvTlJSb0xkbVZR?oc=5",
+            "topic": "profitability"
+          },
+          {
+            "title": "Marathon Petroleum Posts 61% Revenue Jump in Q3 2026, Beats on EPS",
+            "published_utc": "2026-11-03T19:37:10+00:00",
+            "publisher": "AlphaStreet",
+            "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOUlNnaEhMR1hGSVA2UFZNRjN6Y0JjNDJiX0s5NjdwWW9ISVJ5ZHlNNkJ3Z0FiSkhHYWJ3WDFMUDZZaEF5TlNfTURjeGE1R3dPTS1jVkFoRkNiMUlnMk5lQkZLVkZWNC1qVFNLSWM1bjR3b0M3ZzVtdmlVOWN2UWVFZHlDTS1tSm1TOWtSU1NLRl85cjNFTlJhZzhR0gGaAUFVX3lxTE5SU2doSExHWEZJUDZQVk1GM3pjQmM0MmJfSzk2N3BZb0hJUnlkeU02QndnQWJKSEdhYndYMUxQNlloQXlOU19NRGN4YTVHd09NLWNWQWhGQ2IxSWcyTmVCRktWRlY0LWpUU0tJYzVuNHdvQzdnNW12aVU5Y3ZRZUVkeUNNLW1KbVM5a1JTU0tGXzlyM0VOUmFnOFE?oc=5",
+            "topic": "demand"
           }
         ],
         "narratives": [
           {
             "topic": "profitability",
-            "headline": "Jeff Currie Takes Prompt Oil Profits, Keeps Regime Trade - Marathon Petroleum (NYSE:MPC), United States O",
-            "published_utc": "2026-11-02T21:30:07+00:00",
-            "publisher": "Benzinga",
-            "source_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOejM3ZTh4bjZhUlBGYzhoOENKODFwSmo5bGFEb0JIckNvM0k1TE9BUlZwbkZFdWxhN0FCa3paZ1ZtNXFEX1hjQXBFTlBSaWNOSWNEaEp1SGZhRkowU2t2V1FYbUdxNndpM283MU1KQjRiUjJuRFlZV1RTSUVGZlVuX3BmZWhXQUVTMWpxQzdRNl9mMUlwRnpNS1ZBd2d6b0FIWUYzWmZNTGZObGJkeDRQMW5ITjNuUEU?oc=5",
+            "headline": "Marathon Petroleum Corporation Q3 2026 Earnings Call Summary",
+            "published_utc": "2026-11-03T22:29:54+00:00",
+            "publisher": "Yahoo Finance",
+            "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNMlR4a3NDM2JncVVBN1VrRHZGV1hacXljbUFKUkwyN0RGVEdXbDhpNEcwSWc3QVFWTkNnSWFfZTktenNDWkRBemo4WVMwTFdkc2RmUnJqa2tpZDVlQVluakFXNkJBNndoNW93NG9abm9NUGJ3eEpKU0dNZ21uZkFxR1VGcWZJc1c0UUhTWF9ab0tpSmx1NEd1b3F5aw?oc=5",
             "mechanism": "Changes in selling prices or operating costs affect the fraction of sales that becomes profit and cash.",
             "competing_reading": "A temporary price or cost improvement may disappear when conditions normalize.",
             "test": "Check reported operating margins, cash conversion and the reasons for changes.",
+            "evidence_level": "headline_coverage_not_confirmed_event"
+          },
+          {
+            "topic": "demand",
+            "headline": "Marathon Petroleum Posts 61% Revenue Jump in Q3 2026, Beats on EPS",
+            "published_utc": "2026-11-03T19:37:10+00:00",
+            "publisher": "AlphaStreet",
+            "source_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOUlNnaEhMR1hGSVA2UFZNRjN6Y0JjNDJiX0s5NjdwWW9ISVJ5ZHlNNkJ3Z0FiSkhHYWJ3WDFMUDZZaEF5TlNfTURjeGE1R3dPTS1jVkFoRkNiMUlnMk5lQkZLVkZWNC1qVFNLSWM1bjR3b0M3ZzVtdmlVOWN2UWVFZHlDTS1tSm1TOWtSU1NLRl85cjNFTlJhZzhR0gGaAUFVX3lxTE5SU2doSExHWEZJUDZQVk1GM3pjQmM0MmJfSzk2N3BZb0hJUnlkeU02QndnQWJKSEdhYndYMUxQNlloQXlOU19NRGN4YTVHd09NLWNWQWhGQ2IxSWcyTmVCRktWRlY0LWpUU0tJYzVuNHdvQzdnNW12aVU5Y3ZRZUVkeUNNLW1KbVM5a1JTU0tGXzlyM0VOUmFnOFE?oc=5",
+            "mechanism": "If this reflects real changes in customer spending, it could change future sales and cash generation.",
+            "competing_reading": "A strong headline may describe an already expected development, or orders that are not yet profitable.",
+            "test": "Compare the next reported sales and customer guidance with the previous filing and market expectations.",
             "evidence_level": "headline_coverage_not_confirmed_event"
           }
         ],
@@ -652,14 +652,14 @@
       "ticker": "GLD",
       "name": "Physical gold",
       "metrics": {
-        "price_usd": 361.65,
-        "return_3m_pct": -3.34,
-        "return_6m_pct": -12.79,
-        "asof": "2026-11-02",
+        "price_usd": 359.26,
+        "return_3m_pct": -7.8,
+        "return_6m_pct": -14.11,
+        "asof": "2026-11-03",
         "source": "https://finance.yahoo.com/quote/GLD/history/",
-        "relative_6m_to_voo_pp": -18.09,
+        "relative_6m_to_voo_pp": -18.93,
         "proxy_kind": "Physical gold",
-        "voo_return_6m_pct": 5.3
+        "voo_return_6m_pct": 4.82
       },
       "sources": [
         {
@@ -677,7 +677,7 @@
       ],
       "investment_role": "Portfolio-diversification research, not a commodity spot-price prediction.",
       "qualitative_context": {
-        "asof_utc": "2026-11-03T02:29:24.169367+00:00",
+        "asof_utc": "2026-11-04T02:28:27.978078+00:00",
         "search_url": "https://news.google.com/rss/search?q=%22gold%20prices%20ETF%22%20when%3A7d&hl=en-US&gl=US&ceid=US:en",
         "news_window_days": 7,
         "headline_sample": [],
@@ -690,6 +690,6 @@
   "excluded": "All cryptocurrency, tokens and crypto-exposed businesses; no crypto recommendations.",
   "benchmark": "VOO after costs where comparable",
   "diagnostics": [],
-  "qualitative_asof_utc": "2026-11-03T02:29:24.169367+00:00",
+  "qualitative_asof_utc": "2026-11-04T02:28:27.978078+00:00",
   "qualitative_method": "Dated headline watch + SEC filings; causal implications are conditional, not sentiment forecasts."
 }

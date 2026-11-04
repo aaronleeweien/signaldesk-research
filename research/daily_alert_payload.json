@@ -1,20 +1,15 @@
 {
   "notify": true,
-  "latest_close": "2026-11-02",
+  "latest_close": "2026-11-03",
   "events": [
     {
-      "score_pct": 8.34,
-      "ticker": "XLP",
-      "type": "ETF_MOMENTUM_WATCH"
+      "score_pct": 13.13,
+      "ticker": "DIS",
+      "type": "STOCK_WATCH_ONLY"
     },
     {
-      "score_pct": 0.38,
-      "ticker": "XLY",
-      "type": "ETF_MOMENTUM_WATCH"
-    },
-    {
-      "score_pct": 16.46,
-      "ticker": "KO",
+      "score_pct": 12.77,
+      "ticker": "TXN",
       "type": "STOCK_WATCH_ONLY"
     }
   ]
