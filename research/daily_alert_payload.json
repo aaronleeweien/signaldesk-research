@@ -1,15 +1,70 @@
 {
   "notify": true,
-  "latest_close": "2026-11-03",
+  "latest_close": "2026-11-04",
   "events": [
     {
-      "score_pct": 13.13,
-      "ticker": "DIS",
+      "score_pct": 7.66,
+      "ticker": "XLF",
+      "type": "ETF_MOMENTUM_WATCH"
+    },
+    {
+      "score_pct": 22.07,
+      "ticker": "XLV",
+      "type": "ETF_MOMENTUM_WATCH"
+    },
+    {
+      "score_pct": 9.49,
+      "ticker": "XLP",
+      "type": "ETF_MOMENTUM_WATCH"
+    },
+    {
+      "score_pct": 3.28,
+      "ticker": "XLY",
+      "type": "ETF_MOMENTUM_WATCH"
+    },
+    {
+      "score_pct": 3.76,
+      "ticker": "XLB",
+      "type": "ETF_MOMENTUM_WATCH"
+    },
+    {
+      "score_pct": 24.35,
+      "ticker": "MRK",
       "type": "STOCK_WATCH_ONLY"
     },
     {
-      "score_pct": 12.77,
-      "ticker": "TXN",
+      "score_pct": 20.76,
+      "ticker": "MSFT",
+      "type": "STOCK_WATCH_ONLY"
+    },
+    {
+      "score_pct": 18.53,
+      "ticker": "PFE",
+      "type": "STOCK_WATCH_ONLY"
+    },
+    {
+      "score_pct": 15.9,
+      "ticker": "AAPL",
+      "type": "STOCK_WATCH_ONLY"
+    },
+    {
+      "score_pct": 14.57,
+      "ticker": "JNJ",
+      "type": "STOCK_WATCH_ONLY"
+    },
+    {
+      "score_pct": 6.13,
+      "ticker": "HD",
+      "type": "STOCK_WATCH_ONLY"
+    },
+    {
+      "score_pct": 4.22,
+      "ticker": "WFC",
+      "type": "STOCK_WATCH_ONLY"
+    },
+    {
+      "score_pct": 1.3,
+      "ticker": "MCD",
       "type": "STOCK_WATCH_ONLY"
     }
   ]

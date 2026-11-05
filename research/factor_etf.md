@@ -1,38 +1,38 @@
 # SignalDesk — Institutional-Style Implemented Momentum ETF Report
 
 **Live-history systematic strategy:** SPMO buy-and-hold / monthly accumulation.
-Latest complete US market session: 2026-11-03
+Latest complete US market session: 2026-11-04
 **RESEARCH ONLY; NOT A GUARANTEED OR APPROVED LIVE TRADE.**
 
 ## Actual-ETF price backtest on matched market days, 2016–2026
 
 | Method | Annual return | Worst drawdown | Beta to VOO | Simulated orders | Fees USD |
 |---|---:|---:|---:|---:|---:|
-| VOO DCA | 15.02% | -34.00% | 1.00 | 122 | 14.09 |
-| SPMO DCA | 18.34% | -30.96% | 1.03 | 122 | 14.09 |
-| QQQ DCA | 19.75% | -35.13% | 1.17 | 122 | 14.09 |
-| MTUM DCA | 14.80% | -34.08% | 1.07 | 122 | 14.09 |
-| SPMO/VOO 50-50 | 16.79% | -32.48% | 1.01 | 244 | 28.40 |
-| SPMO-VOO 6M Rotation | 16.62% | -34.00% | 1.03 | 140 | 495.08 |
-| SPMO Trend + SHY | 14.01% | -20.97% | 0.48 | 137 | 517.33 |
+| VOO DCA | 15.20% | -34.00% | 1.00 | 122 | 14.09 |
+| SPMO DCA | 18.24% | -30.96% | 1.03 | 122 | 14.09 |
+| QQQ DCA | 19.86% | -35.13% | 1.17 | 122 | 14.09 |
+| MTUM DCA | 14.57% | -34.08% | 1.06 | 122 | 14.09 |
+| SPMO/VOO 50-50 | 16.84% | -32.48% | 1.01 | 244 | 28.40 |
+| SPMO-VOO 6M Rotation | 16.80% | -34.00% | 1.03 | 140 | 495.08 |
+| SPMO Trend + SHY | 14.02% | -20.97% | 0.48 | 137 | 517.33 |
 
 ## Distinct retrospective windows
 
 | Model | 2016–2020 annual % | 2021–2023 annual % | 2024–latest annual % |
 |---|---:|---:|---:|
-| VOO DCA | 16.0 | 9.75 | 19.32 |
-| SPMO DCA | 18.38 | 8.65 | 29.5 |
-| QQQ DCA | 26.68 | 9.7 | 20.83 |
-| MTUM DCA | 20.39 | 0.03 | 23.67 |
-| SPMO/VOO 50-50 | 17.25 | 9.3 | 24.57 |
-| SPMO-VOO 6M Rotation | 15.77 | 8.15 | 27.82 |
-| SPMO Trend + SHY | 15.34 | 5.52 | 21.65 |
+| VOO DCA | 16.0 | 9.75 | 19.98 |
+| SPMO DCA | 18.38 | 8.65 | 29.08 |
+| QQQ DCA | 26.68 | 9.7 | 21.22 |
+| MTUM DCA | 20.39 | 0.03 | 22.78 |
+| SPMO/VOO 50-50 | 17.25 | 9.3 | 24.71 |
+| SPMO-VOO 6M Rotation | 15.77 | 8.15 | 28.51 |
+| SPMO Trend + SHY | 15.34 | 5.52 | 21.68 |
 
 ## Monthly factor-aware risk diagnostics
 
-- SPMO DCA, vs VOO: estimated beta 1.0022, alpha 3.2968%/year, HAC statistic 1.126, bootstrap 90% annual active-return interval [-1.9618, 8.8764]%.
-- SPMO-VOO 6M Rotation, vs VOO: estimated beta 1.0264, alpha 1.406%/year, HAC statistic 0.5908, bootstrap 90% annual active-return interval [-2.2283, 6.0224]%.
-- SPMO Trend + SHY, vs VOO: estimated beta 0.5449, alpha 5.8788%/year, HAC statistic 1.8246, bootstrap 90% annual active-return interval [-6.5291, 4.7338]%.
+- SPMO DCA, vs VOO: estimated beta 1.0004, alpha 3.0834%/year, HAC statistic 1.0277, bootstrap 90% annual active-return interval [-2.3166, 8.7051]%.
+- SPMO-VOO 6M Rotation, vs VOO: estimated beta 1.026, alpha 1.4068%/year, HAC statistic 0.591, bootstrap 90% annual active-return interval [-2.2308, 6.0224]%.
+- SPMO Trend + SHY, vs VOO: estimated beta 0.5446, alpha 5.8092%/year, HAC statistic 1.7904, bootstrap 90% annual active-return interval [-6.7057, 4.6102]%.
 
 ## Model target exposures for estimated next session (PAPER ONLY)
 
