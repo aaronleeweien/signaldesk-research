@@ -1,20 +1,20 @@
 # SignalDesk Individual-Stock Opportunity Research
-Last completed market session: 2026-11-04
+Last completed market session: 2026-11-05
 **RESEARCH ONLY — NEVER A LIVE BUY/SELL INSTRUCTION.**
 
 **IMPORTANT**: Fixed surviving stock universe creates material survivorship bias; apparent outperformance is not validated.
 
 Chosen validation candidate: Top-5 Momentum
-Diagnostic annual return exceeds VOO: True
+Diagnostic annual return exceeds VOO: False
 
 | Model | 2019–22 return % | 2023+ return % | 2023+ drawdown % | 2023+ beta | 2023+ orders |
 |---|---:|---:|---:|---:|---:|
-| VOO DCA | 13.50 | 21.26 | -18.69 | 1.00 | 47 |
-| QQQ DCA | 15.90 | 28.65 | -22.77 | 1.31 | 47 |
-| Static Equal Weight | 16.45 | 23.22 | -18.20 | 0.88 | 1410 |
-| Top-5 Momentum | 21.80 | 21.51 | -25.78 | 1.31 | 286 |
-| Top-5 Trend Filter | 18.07 | 20.36 | -25.19 | 1.30 | 292 |
-| Top-5 Defensive | 8.58 | 10.94 | -17.38 | 0.80 | 339 |
+| VOO DCA | 13.50 | 19.84 | -18.69 | 1.00 | 47 |
+| QQQ DCA | 15.90 | 26.39 | -22.77 | 1.31 | 47 |
+| Static Equal Weight | 16.45 | 22.02 | -18.20 | 0.88 | 1410 |
+| Top-5 Momentum | 21.80 | 19.34 | -30.72 | 1.31 | 286 |
+| Top-5 Trend Filter | 18.07 | 18.77 | -27.64 | 1.29 | 292 |
+| Top-5 Defensive | 8.58 | 9.95 | -19.76 | 0.80 | 339 |
 
 ## Indicative paper positions for the next session
 

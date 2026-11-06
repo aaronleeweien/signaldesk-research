@@ -39,3 +39,4 @@ completed_close,ticker,event_type,details,recorded_utc,timing
 2026-11-04,HD,STOCK_WATCH_ONLY,"{""score_pct"": 6.13, ""ticker"": ""HD"", ""type"": ""STOCK_WATCH_ONLY""}",2026-11-05 02:36 UTC,BEFORE_NEXT_ESTIMATED_OPEN
 2026-11-04,WFC,STOCK_WATCH_ONLY,"{""score_pct"": 4.22, ""ticker"": ""WFC"", ""type"": ""STOCK_WATCH_ONLY""}",2026-11-05 02:36 UTC,BEFORE_NEXT_ESTIMATED_OPEN
 2026-11-04,MCD,STOCK_WATCH_ONLY,"{""score_pct"": 1.3, ""ticker"": ""MCD"", ""type"": ""STOCK_WATCH_ONLY""}",2026-11-05 02:36 UTC,BEFORE_NEXT_ESTIMATED_OPEN
+2026-11-05,XLE,ETF_PAPER_EXIT_REVIEW,"{""new_weight"": 0, ""old_weight"": 0.5, ""ticker"": ""XLE"", ""type"": ""ETF_PAPER_EXIT_REVIEW""}",2026-11-06 02:35 UTC,BEFORE_NEXT_ESTIMATED_OPEN
