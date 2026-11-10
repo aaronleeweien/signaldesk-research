@@ -1,6 +1,6 @@
 # SignalDesk | Investment Research Desk
 
-US market close: 2026-11-05
+US market close: 2026-11-06
 
 **VOO remains the default; investigate only a few clearly defined alternatives.**
 
@@ -22,19 +22,19 @@ No independently verified 3–6-month excess-return advantage is established for
 
 - The last fiscal-year revenue changed +60.1%; annual free cash flow changed +436.8% versus the previous SEC-observed year. These are historical outcomes, not forecasts. [S1]
 
-- Annual free cash flow: 136.4 million USD; market capitalisation from the screen: 6.94 billion USD; historical FCF yield: +2.0%. [S1][S2]
+- Annual free cash flow: 136.4 million USD; market capitalisation from the screen: 7.76 billion USD; historical FCF yield: +1.8%. [S1][S2]
 
-- Screened forward price/earnings multiple: 40.5 times. The denominator is an unaudited forecast, not an independently checked earnings consensus. [S2]
+- Screened forward price/earnings multiple: 45.3 times. The denominator is an unaudited forecast, not an independently checked earnings consensus. [S2]
 
 - Cash: 81.7 million USD; reported long-term-debt tag: unavailable. The debt tag excludes some obligations and must not be mistaken for full net debt. [S1]
 
-- The stock's preceding one-year price return exceeded VOO by +119.4 percentage points as of 2026-11-05. This historical period is not a 3–6-month forecast. [S2]
+- The stock's preceding one-year price return exceeded VOO by +130.0 percentage points as of 2026-11-06. This historical period is not a 3–6-month forecast. [S2]
 
 ### Economic and price mechanism
 
 KNSA has reported business fundamentals, but an investable 3–6-month edge requires an earnings surprise beyond what investors currently expect. The retrieved evidence does not establish that surprise.
 
-**Valuation and implied assumptions:** The fixed-parameter reverse cash-flow exercise implies 42.6% annual free-cash-flow growth for five years, under 11% required return, 2% terminal growth and no net borrowing adjustment. This is a stress-test assumption, not a company-specific fair value or near-term target. [S1][S2]
+**Valuation and implied assumptions:** The fixed-parameter reverse cash-flow exercise implies 46.0% annual free-cash-flow growth for five years, under 11% required return, 2% terminal growth and no net borrowing adjustment. This is a stress-test assumption, not a company-specific fair value or near-term target. [S1][S2]
 
 **Strongest opposing interpretation:** Investors can already have priced in the reported business improvement; market returns depend on changes in expectations, not only growing revenue.
 
@@ -52,9 +52,17 @@ KNSA has reported business fundamentals, but an investable 3–6-month edge requ
 
 ### Dated headline leads — not verified company events
 
-News monitoring timestamp: 2026-11-06T02:35:54.780217+00:00
+News monitoring timestamp: 2026-11-10T02:32:44.837770+00:00
 
-No representative verified narrative sample was available; no sentiment score was invented.
+**2026-11-09 · Simply Wall St:** Is Kiniksa Pharmaceuticals International (KNSA) Undervalued As Earnings Per Share Keeps Improving?
+
+Conditional economic path: Changes in selling prices or operating costs affect the fraction of sales that becomes profit and cash.
+
+Alternative reading: A temporary price or cost improvement may disappear when conditions normalize.
+
+Evidence needed before treating this as fact: Check reported operating margins, cash conversion and the reasons for changes.
+
+Coverage URL: https://news.google.com/rss/articles/CBMigAJBVV95cUxPdGtQT3p1R1c5NEpaazl0QXdaR0ZEb1FwMFNtR1RMWTZlYTJnZ09QN3pJQnBpWEdFSlNwNzdZX3pXNjVVa3c2UVBiU0N1MjlDNUV2MHFzaVZjSy1wZnB0R2RhMk14OUhSNlpkU293TE9yZklJU0hOeUpydjFvOWYwb3NvM21UVmF0NVlsTXNidzhuSHNLZDlPWmlQeUg1ZlRlQXVDNXRoMUdxWTlHZ1J3R3ZZa2ZONkxiUTBlQTFDTWg5bWVtTUNDSm15cXVwc0VOWDl5UkZtQXRGUjRLUm5VWnluVFFPTjhyeXpBRTlZUmVaTVl2aGpmSGk1Ump1V0xX0gGGAkFVX3lxTE0tblVRQXN5aVJlbmtIWmgwRThHTWJnNDBRUEdMSVhxR0tHajJMT1pCcFZBNnp0VWsxbUlZV2dtTEdTbDFKOEgwTzZmUmVHVWJIYjhpdE1MNmR1aHZWdG9oWnU4aHFpWUZ6dzVYXzkzbGx2ZFBHY3NSS2JESnFVNm5KMk1hVVVpcXl0dnBUcVI4aVlrbUJIYWtNUFhRbkpSeC1TTnRLVVJ6b0JsU0Vva1JGN3NEdTRQZHRHQndjQWI2YUF2RE5TS3Bsakk0VkNRaEM3alJYQjd1YU81ODZ5RHdBUWstOUYwTmNvQ1ByVUpybmVhNHItRDdjM1NBcnZlX3BuemNOeWc?oc=5
 
 ### Evidence audit and research gaps
 
@@ -92,17 +100,17 @@ No representative verified narrative sample was available; no sentiment score wa
 
 - [S11] 8-K read passages, filed 2026-10-27: https://www.sec.gov/Archives/edgar/data/1730430/000173043026000037/knsa-20261027x8k.htm
 
-- [S12] News-index headline · Yahoo Finance · 2026-11-04: https://news.google.com/rss/articles/CBMitgFBVV95cUxNWHFZQm82VlU5aVhSZUliaXl4MW8yTzJqa0Utd0tvdjM1QTV5RzFOMDB2ZjhiU2Rwc016ekRIVGRMTDZwUVMwZEM5VEQwbE5kLW00aG5OUGdxdUljLUNCQ0FJdTJ4dFhMMWlfY0c3SXV2eFpMTldlbm9UdFU5QW01ZURPWFV3MDdUUEcwcUt5MGdBMHl5WWRNVFFoVmE1UUJxZVB6OUFaX2NoZzBhYXIwZTk2Z3MtZw?oc=5
+- [S12] News-index headline · MarketBeat · 2026-11-09: https://news.google.com/rss/articles/CBMi2gFBVV95cUxObC03d21FNXMzN2dpRUhvRERwT0E4TjFnYmZjR1d1N21qYVE4eU5sbEpORHNsZ1c3UkFwYWJUMXBseDhBRVkwZEIyVThqSWRTbjdfSnN1dk4zQTJ6VlVvQ2J4b2lESWdjUUkxOVFGYVUxTlQxWEdHdFpzdkpiOUtpOTQ4b1lVY1JlVm1zWWd4WFMtNURicnhDVVNPN2ZyMUZaVVVvMUp1cjA2UUpGU3U0dEhNMEUxVmFqeU9oUXc0UjN6cFJZZl9heXF1MTNKelFYMFBPTmZobnRQUQ?oc=5
 
-- [S13] News-index headline · Investing.com UK · 2026-11-04: https://news.google.com/rss/articles/CBMizwFBVV95cUxPRWlFM2lMbkNUZ0Y0UFdackhJakk1d2padjlndXJCMFNmbUNQa3RSTG1id0NOclZaNDhUWFNpWHdRYkYweXJSNXdoRHhTY3JrNFdNa25WUkFSUVhvTkhuQ1d0U0duUDZQUFBXaFhJc1N3UE5paXQ5LVd5YmZPdmFxeEZLS2MwVWZNbFpoVGxVOXkzZWNqSjJvOFJvYzVMbDhQTHJ4el9XRnZmT0ZqS0NoYlNMTGtzY2pHVXJwckRfY19KQ2pJb3ktOWQwLXhlSzg?oc=5
+- [S13] News-index headline · Simply Wall St · 2026-11-09: https://news.google.com/rss/articles/CBMigAJBVV95cUxPdGtQT3p1R1c5NEpaazl0QXdaR0ZEb1FwMFNtR1RMWTZlYTJnZ09QN3pJQnBpWEdFSlNwNzdZX3pXNjVVa3c2UVBiU0N1MjlDNUV2MHFzaVZjSy1wZnB0R2RhMk14OUhSNlpkU293TE9yZklJU0hOeUpydjFvOWYwb3NvM21UVmF0NVlsTXNidzhuSHNLZDlPWmlQeUg1ZlRlQXVDNXRoMUdxWTlHZ1J3R3ZZa2ZONkxiUTBlQTFDTWg5bWVtTUNDSm15cXVwc0VOWDl5UkZtQXRGUjRLUm5VWnluVFFPTjhyeXpBRTlZUmVaTVl2aGpmSGk1Ump1V0xX0gGGAkFVX3lxTE0tblVRQXN5aVJlbmtIWmgwRThHTWJnNDBRUEdMSVhxR0tHajJMT1pCcFZBNnp0VWsxbUlZV2dtTEdTbDFKOEgwTzZmUmVHVWJIYjhpdE1MNmR1aHZWdG9oWnU4aHFpWUZ6dzVYXzkzbGx2ZFBHY3NSS2JESnFVNm5KMk1hVVVpcXl0dnBUcVI4aVlrbUJIYWtNUFhRbkpSeC1TTnRLVVJ6b0JsU0Vva1JGN3NEdTRQZHRHQndjQWI2YUF2RE5TS3Bsakk0VkNRaEM3alJYQjd1YU81ODZ5RHdBUWstOUYwTmNvQ1ByVUpybmVhNHItRDdjM1NBcnZlX3BuemNOeWc?oc=5
 
-- [S14] News-index headline · MarketBeat · 2026-11-04: https://news.google.com/rss/articles/CBMi1wFBVV95cUxNRTZJMFI1VFZpWG4wRVhZejR0bm00ckI3ME5UNzBoTWtueHJIeUc4WUFHdlFtbmxkeEFHcFJjZUJMdm14TWg5WHVEMEdKTTF0cF9IYUhGaTZmcV9zejBXeWZUR1FuN3FYR0VNdmppZUljQ244eXpPcVFMZzZGcE0yNTdPU2pSaTk3d3R0eTc5RmlVZnNWcG5YVXNiWU1kXzhDby1oMEY4dEtKVHM4UDJOWVBjV1NLVTNEZVFRcXlCcWlWMU9TM29OTnhSQWJfWHlGQy1KcERpTQ?oc=5
+- [S14] News-index headline · Simply Wall St · 2026-11-08: https://news.google.com/rss/articles/CBMi2gFBVV95cUxObWdMWnU4T0ROcThvdElsWjFuTTZTeE1jN0pXQXZPc1VOOTdrN25MekRhZE9ZSFotd1kyOXJGNkM5UEdGOTYwOGJzX3dYZmsxdkotRjdLMUhNdkxDTUx0U05sRjJKNXhPcTB2VTI5MDVUWUthOXZwQ0plOW94RXhPUHpKanhlZ2FBQ21nSWMwSmtzTWNQcUQ0Q1RFSlB1a1FaM3FPMGhaUWlwVVNjYmQ5WV9QNDRYNUNzcG5JNGJMNlVCQWNYam1DQjlzeC1GVlBYclZaWThRMTNZZ9IB3wFBVV95cUxNaHo0MVhPZXpmT2JNWG5ST1BqZDN2Zkt0MDg4eFBmNkZUbVZnamJYQ3JFVkdrVEdnUW5IVDJmakdHaFBMbFpQUFliT0Q4UlFxa0RzNkkwY2tLOEU3NTh4THB2emZ5WklmeXZIaF9uQUxmNnNpSE5OYmRTQ1R0MDJvXzI0Szg1enJHeWFrRW9XdVRESmRRd25aVXRXNXkyWmYzaUlpWVhmWktkQTlnaFE0M3NaNFNtY1R1Zjd5Ym9SS0NXWkVFQU8tRHVqLUJjcFFxUEllOWVma1FzdWd0UTJN?oc=5
 
-- [S15] News-index headline · Stock Titan · 2026-11-04: https://news.google.com/rss/articles/CBMiywFBVV95cUxOOC11S3ZtNklGcExNTFE3ckxHTm5VRkFISFZraXVyRExmRFNac2s4M0cyZVByZGpuRWlnWkQxZnFQREFkRkZYWnZWS204M0pYRXY0WWxIdDVrblRmR3hIb2kwV3owS1VzaC1xaE5KX0xIZFE1YW1vOEJCWWVnN082SVgzVTVHTE8zQzFNa3NrRGNtWi1JZEU4MEEtQUcwZ09TdUExOGE2RGtyQWx2WGVGd1J4ZkVoM1NhcXNLemxhcEtSSk40RnFSRkNMcw?oc=5
+- [S15] News-index headline · Investing.com UK · 2026-11-07: https://news.google.com/rss/articles/CBMi7AFBVV95cUxNRDZ5MzNMQW54QTRGREdvMThuVzktYWVjd0U5TW11SGFMRXYtV3dvS05sWUNxRS14UWNTYTFqYUwyMEdCRTBpRUozX3lVdXFfUGpvSkQtOVJ1WGpTR3Z1YUszbTZLc0tDc0pWbHBEQmk4dnNIbUZTMmJIdlRWdUxmTDhoV3M4ZkJRM241clRYdThTZG90ektvZmxaNnVBS3FiazBUTklVUWVCMGxJOG1xNHkxclVQUWFMQ3N6T2VhMnloM2syY1lLTjQ5SmNSQkJXdE5HZWRuNkNpcG9XQW93dGZwanZHNmg2Vk9qTg?oc=5
 
-- [S16] News-index headline · MarketBeat · 2026-11-04: https://news.google.com/rss/articles/CBMi1wFBVV95cUxOcXVZeFZpTEdwMTZkRXl2Ukw0ZGEyZnM0NDM3b3daSUEwckNiRFV6dk90SllROXktNEFxb21zemhIUmpWbjIzUnlma3NodE1Oc0Zvd3NGd2lVNHdIM2xiMEU0VHVHWVZSaVhubXNPbjNlWnJYRTVrSDJJT2tuRmJFUUJ5cVZGUzRoaG5GUXlMR1poQzRwQ2dhQlpzTTRLVjBPWkgxSUdtQmtGQjd5SUdTMkR1emJNeWRxcXdmWWRUM01tNmlBQXkwODNoXzJRN1pEVWVieFhMYw?oc=5
+- [S16] News-index headline · Moomoo · 2026-11-06: https://news.google.com/rss/articles/CBMiwAFBVV95cUxQSDdUT1pCdmtBZGZOdFFyT2NGNVZkY28xeVJKcmM1T0ptTEp1N1FtUV80Y1YzUS0xS3FucVZzMXFYMjJqbGlBT3FaMWpsUl9zSlE3ZHFmYVgyYWtUMU1JMzZ5NFlxcWhtN2E4Q3dtQzR2YUZKWUx2UWNnOUluTFZzVlBFSklSREtVZXJzU0pyR2V5blRpY2wxamlzNGdPdDVrdlN1TkhjQ0lFNlB6Mkw0Y2g1WEhOcDZVdHRZeFZwblI?oc=5
 
-- [S17] News-index headline · Moomoo · 2026-11-03: https://news.google.com/rss/articles/CBMiugFBVV95cUxPZ3JWelE4M2xHNjhqR3VOenoya3diYklpMVRNRzF2OTRhT1M0bThraVliSkRxTFpHT3FtTm84MGF0UjdxSVlubGZrWW9nbjZuVHUwb2FHMGRjU3pNOGpGNkJMTFdPVjF4Rk5qZ1cyYURBQkJiR21MM2xHZ3ZjN1pRaFowREFuSkVyQTJObzg2S0dTc0hVSlNkMGtXamVOQnh1Zl9rcGh1RWs2NzFfNkNGT0hqRnJGd0d4WlE?oc=5
+- [S17] News-index headline · Yahoo Finance · 2026-11-04: https://news.google.com/rss/articles/CBMitgFBVV95cUxNWHFZQm82VlU5aVhSZUliaXl4MW8yTzJqa0Utd0tvdjM1QTV5RzFOMDB2ZjhiU2Rwc016ekRIVGRMTDZwUVMwZEM5VEQwbE5kLW00aG5OUGdxdUljLUNCQ0FJdTJ4dFhMMWlfY0c3SXV2eFpMTldlbm9UdFU5QW01ZURPWFV3MDdUUEcwcUt5MGdBMHl5WWRNVFFoVmE1UUJxZVB6OUFaX2NoZzBhYXIwZTk2Z3MtZw?oc=5
 
 ## 2. MPC — Marathon Petroleum Corporation
 
@@ -114,19 +122,19 @@ No representative verified narrative sample was available; no sentiment score wa
 
 - The last fiscal-year revenue changed -4.4%; annual free cash flow changed -22.3% versus the previous SEC-observed year. These are historical outcomes, not forecasts. [S1]
 
-- Annual free cash flow: 4.77 billion USD; market capitalisation from the screen: 102.74 billion USD; historical FCF yield: +4.6%. [S1][S2]
+- Annual free cash flow: 4.77 billion USD; market capitalisation from the screen: 106.16 billion USD; historical FCF yield: +4.5%. [S1][S2]
 
-- Screened forward price/earnings multiple: 6.1 times. The denominator is an unaudited forecast, not an independently checked earnings consensus. [S2]
+- Screened forward price/earnings multiple: 6.3 times. The denominator is an unaudited forecast, not an independently checked earnings consensus. [S2]
 
 - Cash: 12.80 billion USD; reported long-term-debt tag: 3.31 billion USD. The debt tag excludes some obligations and must not be mistaken for full net debt. [S1]
 
-- The stock's preceding one-year price return exceeded VOO by +99.0 percentage points as of 2026-11-05. This historical period is not a 3–6-month forecast. [S2]
+- The stock's preceding one-year price return exceeded VOO by +93.8 percentage points as of 2026-11-06. This historical period is not a 3–6-month forecast. [S2]
 
 ### Economic and price mechanism
 
 MPC is a potential earnings-recovery candidate, not an established growth winner: reported sales declined. A recovery could surprise investors, but the reported annual cash flow cannot prove when it will occur.
 
-**Valuation and implied assumptions:** The fixed-parameter reverse cash-flow exercise implies 18.2% annual free-cash-flow growth for five years, under 11% required return, 2% terminal growth and no net borrowing adjustment. This is a stress-test assumption, not a company-specific fair value or near-term target. [S1][S2]
+**Valuation and implied assumptions:** The fixed-parameter reverse cash-flow exercise implies 19.0% annual free-cash-flow growth for five years, under 11% required return, 2% terminal growth and no net borrowing adjustment. This is a stress-test assumption, not a company-specific fair value or near-term target. [S1][S2]
 
 **Strongest opposing interpretation:** A cyclical high in margins or cash flow could reverse before the market's expected recovery. Historical profitability may therefore overstate value.
 
@@ -144,17 +152,17 @@ MPC is a potential earnings-recovery candidate, not an established growth winner
 
 ### Dated headline leads — not verified company events
 
-News monitoring timestamp: 2026-11-06T02:35:54.780217+00:00
+News monitoring timestamp: 2026-11-10T02:32:44.837770+00:00
 
-**2026-11-05 · marketscreener.com:** Goldman Sachs Adjusts Marathon Petroleum Price Target to $510 From $519
+**2026-11-09 · Simply Wall St:** Marathon Petroleum (MPC) Could Be 18% Undervalued After Strong Q3 Earnings And Dividend Hike
 
-Conditional economic path: Changes in commodity supply, demand, currency or interest rates can alter what investors will pay for the exposure.
+Conditional economic path: Changes in selling prices or operating costs affect the fraction of sales that becomes profit and cash.
 
-Alternative reading: Even a convincing macro narrative may already be priced in and an ETF may not track spot prices exactly.
+Alternative reading: A temporary price or cost improvement may disappear when conditions normalize.
 
-Evidence needed before treating this as fact: Compare actual commodity moves, real yields, currency shifts and the fund's tracking costs.
+Evidence needed before treating this as fact: Check reported operating margins, cash conversion and the reasons for changes.
 
-Coverage URL: https://news.google.com/rss/articles/CBMivwFBVV95cUxOaHVHaU5tTTZjU096NDhlOENNWHNlNlExSmFBRUNzb3BLclhlRE9xcV9qUHlGNGNtVnRZVzFTa2x6WnhYX181VEJTa3pFbE1XTU1zdmpGd3dodm54cnY1NWpDWDB5WXRKMkdOWVpfeWx4WkpEZWNLNGFnNFVhbVZLeXpRalNxaGJSQ1JJd0lYMVpybkN2emJSdjZHeDV1cWdCbXNseFh0WDA2R3BfQ3Y5V0k0ekVkaTlxc3N0U25BMA?oc=5
+Coverage URL: https://news.google.com/rss/articles/CBMiywFBVV95cUxOb0NLNlZQOWtIMDJfek5ueWVzWGVsRFNGRVpYaXVKWjlUaHlpbGZIWXhaVW11cnZvbEw0X25BT0s3cVRkZVlvbzR2WEkzVWtfakJ5b05hVjhKeHJMTW92WUlvcXJnRGVhTjcxX3ZlM2dCTnNKQXlEZlZyb1lacXZDWlpIdi02Tkg4OTFLekIyWU4yV2xUdktNNFI0T3J1X2tzYzF1bGxyd2hNdUt3SERGb2ZTN0lTbzN6VDlrUk5Lcnl3THpjOEgybXhIa9IB0AFBVV95cUxORFgtckwydWxDOG5hbXI2WWdXYVM5RTNNNXhmbkhGNlpsMkZobTRFUWRlUTBGRGJCZktaTDhBd1JLOXJxZTFHX2VjWkJwRlNtbk1hQlFfbGxxd1N1ZExlZ3BidW42dEdyVmllNU95VmlOUTkyOEt6aFBlamNZUlBRaHVfVHpDQkNmbTNnV0tDYTV0a3ByeXcwYk1WdXE2eDBBR1pKZmFCS082RGdMa0VreW9sR0lLTmR2WWd5RFFiY09JejQxTWpkYlQyV3FCdzhJ?oc=5
 
 ### Evidence audit and research gaps
 
@@ -192,17 +200,17 @@ Coverage URL: https://news.google.com/rss/articles/CBMivwFBVV95cUxOaHVHaU5tTTZjU
 
 - [S11] 8-K read passages, filed 2026-11-03: https://www.sec.gov/Archives/edgar/data/1510295/000151029526000069/mpc-20261103.htm
 
-- [S12] News-index headline · marketscreener.com · 2026-11-05: https://news.google.com/rss/articles/CBMivwFBVV95cUxOaHVHaU5tTTZjU096NDhlOENNWHNlNlExSmFBRUNzb3BLclhlRE9xcV9qUHlGNGNtVnRZVzFTa2x6WnhYX181VEJTa3pFbE1XTU1zdmpGd3dodm54cnY1NWpDWDB5WXRKMkdOWVpfeWx4WkpEZWNLNGFnNFVhbVZLeXpRalNxaGJSQ1JJd0lYMVpybkN2emJSdjZHeDV1cWdCbXNseFh0WDA2R3BfQ3Y5V0k0ekVkaTlxc3N0U25BMA?oc=5
+- [S12] News-index headline · America's Charities · 2026-11-09: https://news.google.com/rss/articles/CBMib0FVX3lxTFBBNzNFZWNvbHQtU3NYNEdVQzRmTUxfcDlaWURWa01Dd3c0WDNTT1pBWGZGYTJIczNUQnZUTnUyS0c5ODhqWUJUbllES1dxYS15b1ZOSXBJd0I3bnBLNnhEaDhfVWtITm9jaUEzczVIdw?oc=5
 
-- [S13] News-index headline · ChemEngOnline · 2026-11-05: https://news.google.com/rss/articles/CBMipAFBVV95cUxON1d6TkVhNTllR3JNUTRSMWctQlRSdm16THhwa0I2X1p0NmwxQXRrSmd2U29TS0ZoblQtTFRhWDI1YXcxMk5lZTlfaGhuckFOanpuOHpseWwyQ3UySVlHYUZCel9RazhneFJPU3JWTDhRd3c5ZndCc2pmcHlfUGYwd2E5cDZzT05vS1hqdEN2OHA4WjkwWXlaX0h1TlFSWV9IcUxsMg?oc=5
+- [S13] News-index headline · Simply Wall St · 2026-11-09: https://news.google.com/rss/articles/CBMiywFBVV95cUxOb0NLNlZQOWtIMDJfek5ueWVzWGVsRFNGRVpYaXVKWjlUaHlpbGZIWXhaVW11cnZvbEw0X25BT0s3cVRkZVlvbzR2WEkzVWtfakJ5b05hVjhKeHJMTW92WUlvcXJnRGVhTjcxX3ZlM2dCTnNKQXlEZlZyb1lacXZDWlpIdi02Tkg4OTFLekIyWU4yV2xUdktNNFI0T3J1X2tzYzF1bGxyd2hNdUt3SERGb2ZTN0lTbzN6VDlrUk5Lcnl3THpjOEgybXhIa9IB0AFBVV95cUxORFgtckwydWxDOG5hbXI2WWdXYVM5RTNNNXhmbkhGNlpsMkZobTRFUWRlUTBGRGJCZktaTDhBd1JLOXJxZTFHX2VjWkJwRlNtbk1hQlFfbGxxd1N1ZExlZ3BidW42dEdyVmllNU95VmlOUTkyOEt6aFBlamNZUlBRaHVfVHpDQkNmbTNnV0tDYTV0a3ByeXcwYk1WdXE2eDBBR1pKZmFCS082RGdMa0VreW9sR0lLTmR2WWd5RFFiY09JejQxTWpkYlQyV3FCdzhJ?oc=5
 
-- [S14] News-index headline · TradingView · 2026-11-05: https://news.google.com/rss/articles/CBMi6gFBVV95cUxOcU5tUlRGbHlwNzNwa2FkTWVzck1hdDVmSFhVS0pUQzFxMHVjV2RvTDdDLWN6ZlZlMXZJR0daUjJvdGY0cXdpcUdMYjVEYkR0QzFydEtuRXY3akh1bDdwMjI3dVZvbzFhZEVJWmlNdF9xVmtValVRRTdBT18xekJuWTQ3QnRjMnR4dDYtMG9Yb3hwaEphR1FkNDFDdVV0Y0dybkx6dEI3Wms5Tzc0WEtKMW1WRVVOeVJDQVRNN2kwcjg0dWc0VjBXSnFVdGlLV2JSN3VsYWwteVBPWEdDd0ZsUDBSQ3B6WEpqdlE?oc=5
+- [S14] News-index headline · GuruFocus · 2026-11-09: https://news.google.com/rss/articles/CBMiugFBVV95cUxOd0Z5aW02RlFCaVgyV3pMNk85Y3pqaE1KdEdvVlZkNmZEdEhSbVB2ajNXZVhRb1ZUaDM1czkyT25DTHJaU2NVSmdBWnptZ0p1bm5mZXFoaWlvMVg4R24zNC03YWNSVVpBblU2UGhPSVIwM0wzRVk0dkFpMXFOa2Y3SGIwUDB5UGpGbElhQ05EVWJlNklrRlRaYVJ4bVI0eEluVmVvSHdwLTlTcnFncGZQREZFRE1WMVlVcHc?oc=5
 
-- [S15] News-index headline · Yahoo Finance · 2026-11-05: https://news.google.com/rss/articles/CBMirwFBVV95cUxNQWRSLTRWOVROaG8xZUY0RFlhTUpkakZNTlZmUjgyZHJqUzlLTXo5c01WQ2F5Q3hyeVVNOEhXZEc2MG9pYWMxRV9UeWlPRnBRQ0prbk5sVUFoMEF6eEdQUWtEN2NqVmdpalpCU0tWU292N0ZyWER4aElMb2c4Q3BDVjFjY0lCLWhnT0hBb2VES2pia3JJcXlzSHN0cng3UlZKamtTZVoyNVQ3Vl94NV9V?oc=5
+- [S15] News-index headline · CryptoRank · 2026-11-08: https://news.google.com/rss/articles/CBMiY0FVX3lxTE9vY0dObGtuRXM0X0FPeUxnWkRrZVNfeGxoOVFlNlhyS0YteDlMXzNPbi1JXzhwSlhxWGJJdE15cU5BNFZuRUI4Sl9rTjdYV2g0eEUwSE1JOVh6U0owWkw1YjZMZw?oc=5
 
-- [S16] News-index headline · The Globe and Mail · 2026-11-05: https://news.google.com/rss/articles/CBMi_AFBVV95cUxPVmtzXzdWYm5IQ1pRaGdINWgtNUhwVWMyTXpSX3Q1eHdtM0hhNDdmUW9IUTh4WmVDLWVIUXY2U3NQeW9lYkFuRGV6cC11NEpnWkpwcEc3ZjJ6X0tEVXU4TUVBZHFLdUZNMDIyZVJ5R09Ga0dxTzUwQ1lhTUxuTW5PSXFKaTFjajhXeXlNUDIyMWtlSUZtalJ3TGNEbTRtX1N1RjB3Y2xfT1p2R1ZiaGx0NVM0bUtXZkZLdmxTRFBsdXVWdjROWXpLd2J4emVTWGxuSmhFcGVucU5WZ1JVOVotbEdzX1ZaNXhqVHNsUjhjcHZoeFhxYTBNSU93dXQ?oc=5
+- [S16] News-index headline · Trefis · 2026-11-07: https://news.google.com/rss/articles/CBMiugFBVV95cUxNNDJtVHJZOVB2ZkFjdTZfV2VfRTlaQW9FVUVQTzN4R29DLThNZ0k5ODIwMTNZMVFJQkpweTBqeHlIS1Fndm1CLVFpeUNpZ1FVbHlQUExZbGlFbXNpY29SRExWTFVXWjdKR1hJd2ZKM1RrQ0JWWENVdHk0ZUJpVE9BN2Z5bFN6bGtiUU1QcnRaSWxiTmFVSkl2UGVqZUlmMjRBN1V3bkhUN3VkQkFRbzVCWEVQZDFUTE95RGc?oc=5
 
-- [S17] News-index headline · Daily Energy Insider · 2026-11-05: https://news.google.com/rss/articles/CBMioAFBVV95cUxQWTZOMkNlVXIyT2NhNXp1c0ZpN2VjeTc5cEtmdm9VUy04T0IyM2g0UGFPd1VLMzJkUlc3YmI1TGlTc19iZ2U5d2Q1MmNUXzM5WmdCeGlkTGg3MUFIUTN6YVh0ci04SVFaRFN2dFRfQk53bXJPSFI3c3pLdnRfOEZOcUlHd0poTFRUelhhbzR0a0FMUHBCN3hJWjB6bGptVkdf?oc=5
+- [S17] News-index headline · MinneapoliMedia · 2026-11-07: https://news.google.com/rss/articles/CBMiygFBVV95cUxNWEVabVRlUG9xNVdmcXZEdjVnVm91OFpiMHpUSFEtSExNYlo5enB5UWktUlVPcFJ1R0I0OUthUU1VVnVudW85VHRaZzJXV1FGbGhESWdWNElRa0V1Y19DMV8tajlBZXNndVZjQndhUWhTREE0MU9majRRclZiOXp5enlQVHprWldBcUxGMWhBdEp6eHlHRUpiZmtoTklkeGtLTDB0T2Njb01oTWY0NVU3RUFUSkhlelM4ZFhoSEZ3b0xWc1ZlRDB6MWFB?oc=5
 
 ## 3. GLD — Physical gold
 
@@ -212,9 +220,9 @@ Coverage URL: https://news.google.com/rss/articles/CBMivwFBVV95cUxOaHVHaU5tTTZjU
 
 ### What the recorded data actually establish
 
-- Adjusted ETF-price return through 2026-11-05: three months -5.8%, six months -13.0%. [S2]
+- Adjusted ETF-price return through 2026-11-06: three months -7.5%, six months -14.1%. [S2]
 
-- Six-month adjusted ETF-price return relative to VOO: -13.8 percentage points. Backward-looking price returns are not a future return forecast. [S2]
+- Six-month adjusted ETF-price return relative to VOO: -14.4 percentage points. Backward-looking price returns are not a future return forecast. [S2]
 
 ### Economic and price mechanism
 
@@ -238,7 +246,7 @@ Commodity ETFs may react to real yields, the currency, underlying supply and dem
 
 ### Dated headline leads — not verified company events
 
-News monitoring timestamp: 2026-11-06T02:35:54.780217+00:00
+News monitoring timestamp: 2026-11-10T02:32:44.837770+00:00
 
 **2026-11-05 · The Hans India:** Gold’s dip becomes ETF investors’ gain
 

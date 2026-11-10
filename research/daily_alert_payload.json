@@ -1,12 +1,5 @@
 {
-  "notify": true,
-  "latest_close": "2026-11-05",
-  "events": [
-    {
-      "new_weight": 0,
-      "old_weight": 0.5,
-      "ticker": "XLE",
-      "type": "ETF_PAPER_EXIT_REVIEW"
-    }
-  ]
+  "notify": false,
+  "latest_close": "2026-11-06",
+  "events": []
 }
