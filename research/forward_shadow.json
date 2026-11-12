@@ -3,9 +3,9 @@
   "live_trades_authorized": false,
   "started_utc": "2026-10-24 02:28 UTC",
   "first_trading_session": "2026-10-26",
-  "last_completed_us_close": "2026-11-06",
+  "last_completed_us_close": "2026-11-10",
   "valid_forward_sessions": 10,
-  "missed_or_invalid_sessions": 0,
+  "missed_or_invalid_sessions": 1,
   "signal_history": [
     {
       "decision_close": "2026-10-23",
@@ -301,6 +301,35 @@
       "decision_close": "2026-11-06",
       "estimated_next_us_business_day": "2026-11-09",
       "recorded_utc": "2026-11-10 02:32:35 UTC",
+      "before_estimated_next_open": false,
+      "targets": {
+        "Daily Breakout Top2": {
+          "XLP": 0.5,
+          "SHY": 0.5
+        },
+        "SPMO SMA200": {
+          "SHY": 1.0
+        },
+        "VOO SMA200": {
+          "VOO": 1.0
+        },
+        "SPMO SMA200 Buffer": {
+          "SHY": 1.0
+        },
+        "VOO DCA": {
+          "VOO": 1.0
+        },
+        "SPMO DCA": {
+          "SPMO": 1.0
+        }
+      },
+      "trading_authorized": false,
+      "status": "LATE_NOT_PROSPECTIVE"
+    },
+    {
+      "decision_close": "2026-11-10",
+      "estimated_next_us_business_day": "2026-11-11",
+      "recorded_utc": "2026-11-12 02:32:30 UTC",
       "before_estimated_next_open": false,
       "targets": {
         "Daily Breakout Top2": {
@@ -1183,6 +1212,12 @@
           "orders": 2
         }
       }
+    },
+    {
+      "session": "2026-11-10",
+      "status": "SKIPPED: no valid preceding pre-open signal or market data gap",
+      "pending_signal_date": "2026-11-06",
+      "missing_sessions": 1
     }
   ],
   "order_history": [
