@@ -1,7 +1,7 @@
 {
   "version": "sec_primary_source_v1",
-  "generated_utc": "2026-11-12T02:32:30.760062+00:00",
-  "source_market_date": "2026-11-10",
+  "generated_utc": "2026-11-13T02:30:11.964397+00:00",
+  "source_market_date": "2026-11-11",
   "research_only": true,
   "source_catalogue": "https://www.sec.gov/files/company_tickers.json",
   "selected_screened_tickers": [
@@ -51,29 +51,29 @@
       "fcf_years_available": 3,
       "cash_conversion_operating_to_net_income": 2.34,
       "free_cash_flow_margin_pct": 20.13,
-      "market_cap_at_screen_usd": 7524026368.0,
-      "free_cash_flow_yield_pct": 1.81,
+      "market_cap_at_screen_usd": 7564883456.0,
+      "free_cash_flow_yield_pct": 1.8,
       "reverse_cash_flow_valuation": {
         "illustrative_only": true,
         "required_return_assumed_pct": 11,
         "terminal_perpetual_growth_assumed_pct": 2,
         "years_of_projected_cash_flow": 5,
-        "implied_growth_needed_by_stock_price_pct": 45.05,
+        "implied_growth_needed_by_stock_price_pct": 45.22,
         "fixed_assumption_scenarios": {
           "no_growth": {
             "annual_fcf_growth_assumed_pct": 0.0,
             "illustrative_equity_value_usd": 1421694148.08,
-            "value_as_pct_of_current_market_cap": 18.9
+            "value_as_pct_of_current_market_cap": 18.79
           },
           "moderate_growth": {
             "annual_fcf_growth_assumed_pct": 5.0,
             "illustrative_equity_value_usd": 1750134468.84,
-            "value_as_pct_of_current_market_cap": 23.26
+            "value_as_pct_of_current_market_cap": 23.13
           },
           "fast_growth": {
             "annual_fcf_growth_assumed_pct": 10.0,
             "illustrative_equity_value_usd": 2141530801.28,
-            "value_as_pct_of_current_market_cap": 28.46
+            "value_as_pct_of_current_market_cap": 28.31
           }
         },
         "methodology": "Discount annual equity-like operating cash flow minus capital spending with no net new borrowing. Simplified fixed assumptions are NOT forecasts, calibrated costs of capital or defensible price targets."
@@ -139,29 +139,29 @@
       "fcf_years_available": 3,
       "cash_conversion_operating_to_net_income": 2.57,
       "free_cash_flow_margin_pct": 3.06,
-      "market_cap_at_screen_usd": 14450263040.0,
-      "free_cash_flow_yield_pct": 2.73,
+      "market_cap_at_screen_usd": 14217449472.0,
+      "free_cash_flow_yield_pct": 2.78,
       "reverse_cash_flow_valuation": {
         "illustrative_only": true,
         "required_return_assumed_pct": 11,
         "terminal_perpetual_growth_assumed_pct": 2,
         "years_of_projected_cash_flow": 5,
-        "implied_growth_needed_by_stock_price_pct": 32.79,
+        "implied_growth_needed_by_stock_price_pct": 32.33,
         "fixed_assumption_scenarios": {
           "no_growth": {
             "annual_fcf_growth_assumed_pct": 0.0,
             "illustrative_equity_value_usd": 4113280271.78,
-            "value_as_pct_of_current_market_cap": 28.47
+            "value_as_pct_of_current_market_cap": 28.93
           },
           "moderate_growth": {
             "annual_fcf_growth_assumed_pct": 5.0,
             "illustrative_equity_value_usd": 5063531838.65,
-            "value_as_pct_of_current_market_cap": 35.04
+            "value_as_pct_of_current_market_cap": 35.61
           },
           "fast_growth": {
             "annual_fcf_growth_assumed_pct": 10.0,
             "illustrative_equity_value_usd": 6195929277.9,
-            "value_as_pct_of_current_market_cap": 42.88
+            "value_as_pct_of_current_market_cap": 43.58
           }
         },
         "methodology": "Discount annual equity-like operating cash flow minus capital spending with no net new borrowing. Simplified fixed assumptions are NOT forecasts, calibrated costs of capital or defensible price targets."
@@ -232,29 +232,29 @@
       "fcf_years_available": 3,
       "cash_conversion_operating_to_net_income": 2.04,
       "free_cash_flow_margin_pct": 3.59,
-      "market_cap_at_screen_usd": 109686185984.0,
-      "free_cash_flow_yield_pct": 4.35,
+      "market_cap_at_screen_usd": 112411738112.0,
+      "free_cash_flow_yield_pct": 4.24,
       "reverse_cash_flow_valuation": {
         "illustrative_only": true,
         "required_return_assumed_pct": 11,
         "terminal_perpetual_growth_assumed_pct": 2,
         "years_of_projected_cash_flow": 5,
-        "implied_growth_needed_by_stock_price_pct": 19.9,
+        "implied_growth_needed_by_stock_price_pct": 20.56,
         "fixed_assumption_scenarios": {
           "no_growth": {
             "annual_fcf_growth_assumed_pct": 0.0,
             "illustrative_equity_value_usd": 49680142532.83,
-            "value_as_pct_of_current_market_cap": 45.29
+            "value_as_pct_of_current_market_cap": 44.19
           },
           "moderate_growth": {
             "annual_fcf_growth_assumed_pct": 5.0,
             "illustrative_equity_value_usd": 61157267884.14,
-            "value_as_pct_of_current_market_cap": 55.76
+            "value_as_pct_of_current_market_cap": 54.4
           },
           "fast_growth": {
             "annual_fcf_growth_assumed_pct": 10.0,
             "illustrative_equity_value_usd": 74834348576.12,
-            "value_as_pct_of_current_market_cap": 68.23
+            "value_as_pct_of_current_market_cap": 66.57
           }
         },
         "methodology": "Discount annual equity-like operating cash flow minus capital spending with no net new borrowing. Simplified fixed assumptions are NOT forecasts, calibrated costs of capital or defensible price targets."
@@ -324,7 +324,7 @@
       "fcf_years_available": 0,
       "cash_conversion_operating_to_net_income": 2.48,
       "free_cash_flow_margin_pct": null,
-      "market_cap_at_screen_usd": 101433049088.0,
+      "market_cap_at_screen_usd": 104567717888.0,
       "free_cash_flow_yield_pct": null,
       "reverse_cash_flow_valuation": {
         "illustrative_only": true,

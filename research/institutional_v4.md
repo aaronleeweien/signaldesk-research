@@ -3,25 +3,25 @@
 ## Decision
 **EXPLORATORY / NOT APPROVED FOR REAL TRADING.**
 Strategy: Top-5 cross-sectional momentum, equal 20% weights, monthly ranking of a fixed survivor-stock list.
-Data through: 2026-11-10
+Data through: 2026-11-11
 
 ## Return and risk evidence: 2019 to latest
 
 | Model | Annual TWR % | Worst fall % | Daily volatility % | Beta to VOO | Simulated orders | Fees USD |
 |---|---:|---:|---:|---:|---:|---:|
-| VOO DCA | 16.94 | -34.01 | 19.31 | 1.00 | 95 | 11.39 |
-| QQQ DCA | 21.66 | -35.14 | 24.01 | 1.16 | 95 | 11.39 |
-| Top-5 Momentum | 21.09 | -30.67 | 27.43 | 1.12 | 577 | 620.80 |
-| Top-5 Trend Filter | 18.70 | -33.83 | 26.89 | 1.08 | 585 | 633.45 |
-| Top-5 Defensive | 9.44 | -19.72 | 16.12 | 0.56 | 677 | 391.11 |
-| Static Equal Weight | 19.46 | -33.17 | 19.24 | 0.96 | 2847 | 70.77 |
+| VOO DCA | 17.13 | -34.01 | 19.31 | 1.00 | 95 | 11.39 |
+| QQQ DCA | 22.01 | -35.14 | 24.01 | 1.16 | 95 | 11.39 |
+| Top-5 Momentum | 21.50 | -30.67 | 27.43 | 1.12 | 577 | 620.80 |
+| Top-5 Trend Filter | 18.88 | -33.83 | 26.88 | 1.08 | 585 | 633.45 |
+| Top-5 Defensive | 9.57 | -19.64 | 16.12 | 0.56 | 677 | 391.12 |
+| Static Equal Weight | 19.61 | -33.17 | 19.24 | 0.96 | 2847 | 70.77 |
 
 ## Statistical evidence: monthly factor-aware diagnostics
 
 | Test | Estimated annual alpha % | Monthly beta | HAC t-stat | Approx p | Bootstrap 90% annual active-return CI |
 |---|---:|---:|---:|---:|---|
-| vs VOO | 3.9298 | 1.0596 | 0.653 | 0.5138 | [-4.5153, 15.4299]% |
-| vs QQQ | 2.8739 | 0.8777 | 0.5135 | 0.6076 | [-9.1331, 10.0236]% |
+| vs VOO | 4.1485 | 1.0559 | 0.6972 | 0.4857 | [-4.2653, 15.5709]% |
+| vs QQQ | 3.0157 | 0.8747 | 0.5423 | 0.5876 | [-9.0908, 10.0236]% |
 
 HAC uses Newey-West 3-lag standard errors. Approximate p-values use a normal approximation,
 bootstrap is a three-month circular block bootstrap over the same retrospective data.
@@ -31,9 +31,9 @@ Neither method corrects survivorship, data-snooping or regime selection bias.
 
 | Fee per side | Momentum annual % | VOO annual % | QQQ annual % |
 |---|---:|---:|---:|
-| 0 bps | 21.78 | 16.98 | 21.69 |
-| 10 bps | 21.09 | 16.94 | 21.66 |
-| 30 bps | 19.72 | 16.88 | 21.6 |
+| 0 bps | 22.19 | 17.16 | 22.04 |
+| 10 bps | 21.5 | 17.13 | 22.01 |
+| 30 bps | 20.12 | 17.06 | 21.94 |
 
 ## Next paper targets, not brokerage instructions
 
