@@ -1,5 +1,11 @@
 {
-  "notify": false,
-  "latest_close": "2026-11-11",
-  "events": []
+  "notify": true,
+  "latest_close": "2026-11-16",
+  "events": [
+    {
+      "score_pct": 3.5,
+      "ticker": "PEP",
+      "type": "STOCK_WATCH_ONLY"
+    }
+  ]
 }
