@@ -1,5 +1,5 @@
 {
-  "last_complete_session": "2026-11-13",
+  "last_complete_session": "2026-11-17",
   "description": "3/6/12-month momentum, 200-day trend filter, monthly next-open rebalancing, one/two/diversified ETFs",
   "warning": "2022 onward has already been seen in VOO research; retrospective only, NOT independently unseen evidence.",
   "research_only": true,
@@ -18,7 +18,7 @@
     },
     "Top 1": {
       "annual_twr_pct": 13.49,
-      "end_usd": 27050.27,
+      "end_usd": 27050.31,
       "worst_decline_pct": -21.41,
       "orders": 140,
       "fees_usd": 650.29,
@@ -29,7 +29,7 @@
     },
     "Top 2": {
       "annual_twr_pct": 13.13,
-      "end_usd": 25939.71,
+      "end_usd": 25939.7,
       "worst_decline_pct": -22.88,
       "orders": 258,
       "fees_usd": 510.82,
@@ -54,8 +54,8 @@
   },
   "2022_onward": {
     "VOO DCA": {
-      "annual_twr_pct": 11.37,
-      "end_usd": 12178.73,
+      "annual_twr_pct": 10.67,
+      "end_usd": 11824.11,
       "worst_decline_pct": -24.56,
       "orders": 59,
       "fees_usd": 7.79,
@@ -65,9 +65,9 @@
       }
     },
     "Top 1": {
-      "annual_twr_pct": 9.07,
-      "end_usd": 10926.43,
-      "worst_decline_pct": -30.1,
+      "annual_twr_pct": 8.39,
+      "end_usd": 10608.27,
+      "worst_decline_pct": -30.18,
       "orders": 78,
       "fees_usd": 265.96,
       "contributed_usd": 7800.0,
@@ -76,8 +76,8 @@
       }
     },
     "Top 2": {
-      "annual_twr_pct": 8.09,
-      "end_usd": 11180.86,
+      "annual_twr_pct": 7.36,
+      "end_usd": 10829.66,
       "worst_decline_pct": -20.96,
       "orders": 141,
       "fees_usd": 159.74,
@@ -88,9 +88,9 @@
       }
     },
     "Diversified": {
-      "annual_twr_pct": 6.99,
-      "end_usd": 10354.69,
-      "worst_decline_pct": -18.58,
+      "annual_twr_pct": 6.67,
+      "end_usd": 10213.93,
+      "worst_decline_pct": -18.75,
       "orders": 141,
       "fees_usd": 173.32,
       "contributed_usd": 7800.0,

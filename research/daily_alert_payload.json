@@ -1,11 +1,12 @@
 {
   "notify": true,
-  "latest_close": "2026-11-16",
+  "latest_close": "2026-11-17",
   "events": [
     {
-      "score_pct": 3.5,
-      "ticker": "PEP",
-      "type": "STOCK_WATCH_ONLY"
+      "new_weight": 0,
+      "old_weight": 0.5,
+      "ticker": "XLU",
+      "type": "ETF_PAPER_EXIT_REVIEW"
     }
   ]
 }
