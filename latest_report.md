@@ -1,7 +1,7 @@
 # SignalDesk — Latest VOO Research
 
-Last market session: **2026-11-17**
-Updated UTC: **2026-11-18 02:36 UTC**
+Last market session: **2026-11-18**
+Updated UTC: **2026-11-19 02:34 UTC**
 
 **RESEARCH ONLY: No strategy has been approved for real-money trading.**
 
@@ -11,16 +11,16 @@ Passed historical hurdle: **No**
 
 ## What the numbers mean
 
-The chosen model ended USD 1,370.33 below regular VOO investing on the later test period. Its worst percentage fall was 20.3%, versus 24.6% for DCA. The historical hurdle failed; do NOT use this model to replace DCA.
+The chosen model ended USD 1,366.50 below regular VOO investing on the later test period. Its worst percentage fall was 20.3%, versus 24.6% for DCA. The historical hurdle failed; do NOT use this model to replace DCA.
 
 ## Strategy comparison
 
 | Strategy | Development annual % | Holdout annual % | Holdout worst fall % | Holdout orders | Trading cost USD |
 |---|---:|---:|---:|---:|---:|
-| DCA | 16.22 | 10.67 | -24.56 | 59 | 7.79 |
-| 200-day trend | 11.42 | 7.12 | -20.26 | 75 | 112.34 |
-| 10-month trend | 11.41 | 2.88 | -26.71 | 58 | 58.67 |
-| 6-month momentum | 7.82 | 6.12 | -17.68 | 61 | 83.81 |
+| DCA | 16.22 | 10.60 | -24.56 | 59 | 7.79 |
+| 200-day trend | 11.42 | 7.05 | -20.26 | 75 | 112.34 |
+| 10-month trend | 11.41 | 2.82 | -26.71 | 58 | 58.67 |
+| 6-month momentum | 7.82 | 6.06 | -17.68 | 61 | 83.81 |
 | 20-day breakout | 3.66 | 5.39 | -10.99 | 84 | 324.36 |
 
 ## Limits
