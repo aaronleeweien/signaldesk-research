@@ -1,14 +1,14 @@
 {
   "version": "sec_primary_source_v1",
-  "generated_utc": "2026-11-19T02:36:27.788281+00:00",
-  "source_market_date": "2026-11-18",
+  "generated_utc": "2026-11-21T02:33:14.179972+00:00",
+  "source_market_date": "2026-11-20",
   "research_only": true,
   "source_catalogue": "https://www.sec.gov/files/company_tickers.json",
   "selected_screened_tickers": [
     "VSXY",
     "KNSA",
     "MPC",
-    "VLO"
+    "CROX"
   ],
   "companies": [
     {
@@ -51,29 +51,29 @@
       "fcf_years_available": 3,
       "cash_conversion_operating_to_net_income": 3.1,
       "free_cash_flow_margin_pct": 4.76,
-      "market_cap_at_screen_usd": 8080097280.0,
-      "free_cash_flow_yield_pct": 3.86,
+      "market_cap_at_screen_usd": 7543285248.0,
+      "free_cash_flow_yield_pct": 4.14,
       "reverse_cash_flow_valuation": {
         "illustrative_only": true,
         "required_return_assumed_pct": 11,
         "terminal_perpetual_growth_assumed_pct": 2,
         "years_of_projected_cash_flow": 5,
-        "implied_growth_needed_by_stock_price_pct": 23.09,
+        "implied_growth_needed_by_stock_price_pct": 21.23,
         "fixed_assumption_scenarios": {
           "no_growth": {
             "annual_fcf_growth_assumed_pct": 0.0,
             "illustrative_equity_value_usd": 3251563765.52,
-            "value_as_pct_of_current_market_cap": 40.24
+            "value_as_pct_of_current_market_cap": 43.11
           },
           "moderate_growth": {
             "annual_fcf_growth_assumed_pct": 5.0,
             "illustrative_equity_value_usd": 4002741258.62,
-            "value_as_pct_of_current_market_cap": 49.54
+            "value_as_pct_of_current_market_cap": 53.06
           },
           "fast_growth": {
             "annual_fcf_growth_assumed_pct": 10.0,
             "illustrative_equity_value_usd": 4897905759.54,
-            "value_as_pct_of_current_market_cap": 60.62
+            "value_as_pct_of_current_market_cap": 64.93
           }
         },
         "methodology": "Discount annual equity-like operating cash flow minus capital spending with no net new borrowing. Simplified fixed assumptions are NOT forecasts, calibrated costs of capital or defensible price targets."
@@ -144,29 +144,29 @@
       "fcf_years_available": 3,
       "cash_conversion_operating_to_net_income": 2.34,
       "free_cash_flow_margin_pct": 20.13,
-      "market_cap_at_screen_usd": 7468240896.0,
-      "free_cash_flow_yield_pct": 1.83,
+      "market_cap_at_screen_usd": 7377489920.0,
+      "free_cash_flow_yield_pct": 1.85,
       "reverse_cash_flow_valuation": {
         "illustrative_only": true,
         "required_return_assumed_pct": 11,
         "terminal_perpetual_growth_assumed_pct": 2,
         "years_of_projected_cash_flow": 5,
-        "implied_growth_needed_by_stock_price_pct": 44.82,
+        "implied_growth_needed_by_stock_price_pct": 44.44,
         "fixed_assumption_scenarios": {
           "no_growth": {
             "annual_fcf_growth_assumed_pct": 0.0,
             "illustrative_equity_value_usd": 1421694148.08,
-            "value_as_pct_of_current_market_cap": 19.04
+            "value_as_pct_of_current_market_cap": 19.27
           },
           "moderate_growth": {
             "annual_fcf_growth_assumed_pct": 5.0,
             "illustrative_equity_value_usd": 1750134468.84,
-            "value_as_pct_of_current_market_cap": 23.43
+            "value_as_pct_of_current_market_cap": 23.72
           },
           "fast_growth": {
             "annual_fcf_growth_assumed_pct": 10.0,
             "illustrative_equity_value_usd": 2141530801.28,
-            "value_as_pct_of_current_market_cap": 28.68
+            "value_as_pct_of_current_market_cap": 29.03
           }
         },
         "methodology": "Discount annual equity-like operating cash flow minus capital spending with no net new borrowing. Simplified fixed assumptions are NOT forecasts, calibrated costs of capital or defensible price targets."
@@ -232,29 +232,29 @@
       "fcf_years_available": 3,
       "cash_conversion_operating_to_net_income": 2.04,
       "free_cash_flow_margin_pct": 3.59,
-      "market_cap_at_screen_usd": 101795446784.0,
-      "free_cash_flow_yield_pct": 4.68,
+      "market_cap_at_screen_usd": 99979329536.0,
+      "free_cash_flow_yield_pct": 4.77,
       "reverse_cash_flow_valuation": {
         "illustrative_only": true,
         "required_return_assumed_pct": 11,
         "terminal_perpetual_growth_assumed_pct": 2,
         "years_of_projected_cash_flow": 5,
-        "implied_growth_needed_by_stock_price_pct": 17.92,
+        "implied_growth_needed_by_stock_price_pct": 17.45,
         "fixed_assumption_scenarios": {
           "no_growth": {
             "annual_fcf_growth_assumed_pct": 0.0,
             "illustrative_equity_value_usd": 49680142532.83,
-            "value_as_pct_of_current_market_cap": 48.8
+            "value_as_pct_of_current_market_cap": 49.69
           },
           "moderate_growth": {
             "annual_fcf_growth_assumed_pct": 5.0,
             "illustrative_equity_value_usd": 61157267884.14,
-            "value_as_pct_of_current_market_cap": 60.08
+            "value_as_pct_of_current_market_cap": 61.17
           },
           "fast_growth": {
             "annual_fcf_growth_assumed_pct": 10.0,
             "illustrative_equity_value_usd": 74834348576.12,
-            "value_as_pct_of_current_market_cap": 73.51
+            "value_as_pct_of_current_market_cap": 74.85
           }
         },
         "methodology": "Discount annual equity-like operating cash flow minus capital spending with no net new borrowing. Simplified fixed assumptions are NOT forecasts, calibrated costs of capital or defensible price targets."
@@ -286,69 +286,86 @@
       ]
     },
     {
-      "ticker": "VLO",
-      "company_sec_name": "VALERO ENERGY CORP/TX",
-      "company_screen_name": "Valero Energy Corporation",
-      "cik": 1035002,
-      "status": "partial_filing_data",
+      "ticker": "CROX",
+      "company_sec_name": "CROCS,\u00a0INC.",
+      "company_screen_name": "Crocs, Inc.",
+      "cik": 1334036,
+      "status": "independent_annual_fundamentals_verified",
       "fiscal_year_ended": "2025-12-31",
       "filing_dates": {
-        "revenue": "2026-02-25",
-        "operating_cash": "2026-02-25",
-        "net_income": "2026-02-25"
+        "revenue": "2026-02-12",
+        "operating_cash": "2026-02-12",
+        "capital_spending": "2026-02-12",
+        "net_income": "2026-02-12"
       },
-      "revenue_usd": 122687000000.0,
-      "revenue_growth_yoy_pct": -5.54,
-      "net_income_usd": 2348000000.0,
-      "operating_cash_usd": 5826000000.0,
-      "capital_spending_usd": null,
-      "free_cash_flow_usd": null,
+      "revenue_usd": 4040647000.0,
+      "revenue_growth_yoy_pct": -1.5,
+      "net_income_usd": -81198000.0,
+      "operating_cash_usd": 710431000.0,
+      "capital_spending_usd": 51231000.0,
+      "free_cash_flow_usd": 659200000.0,
       "annual_history_latest_three": [
         {
           "fiscal_year_ended": "2025-12-31",
-          "revenue_usd": 122687000000.0,
-          "free_cash_flow_usd": null
+          "revenue_usd": 4040647000.0,
+          "free_cash_flow_usd": 659200000.0
         },
         {
           "fiscal_year_ended": "2024-12-31",
-          "revenue_usd": 129881000000.0,
-          "free_cash_flow_usd": null
+          "revenue_usd": 4102108000.0,
+          "free_cash_flow_usd": 923139000.0
         },
         {
           "fiscal_year_ended": "2023-12-31",
-          "revenue_usd": 144766000000.0,
-          "free_cash_flow_usd": null
+          "revenue_usd": 3962347000.0,
+          "free_cash_flow_usd": 814819000.0
         }
       ],
-      "positive_fcf_years": 0,
-      "fcf_years_available": 0,
-      "cash_conversion_operating_to_net_income": 2.48,
-      "free_cash_flow_margin_pct": null,
-      "market_cap_at_screen_usd": 95852576768.0,
-      "free_cash_flow_yield_pct": null,
+      "positive_fcf_years": 3,
+      "fcf_years_available": 3,
+      "cash_conversion_operating_to_net_income": null,
+      "free_cash_flow_margin_pct": 16.31,
+      "market_cap_at_screen_usd": 7072291840.0,
+      "free_cash_flow_yield_pct": 9.32,
       "reverse_cash_flow_valuation": {
         "illustrative_only": true,
         "required_return_assumed_pct": 11,
         "terminal_perpetual_growth_assumed_pct": 2,
         "years_of_projected_cash_flow": 5,
-        "implied_growth_needed_by_stock_price_pct": null,
-        "fixed_assumption_scenarios": {},
+        "implied_growth_needed_by_stock_price_pct": 0.69,
+        "fixed_assumption_scenarios": {
+          "no_growth": {
+            "annual_fcf_growth_assumed_pct": 0.0,
+            "illustrative_equity_value_usd": 6869970622.54,
+            "value_as_pct_of_current_market_cap": 97.14
+          },
+          "moderate_growth": {
+            "annual_fcf_growth_assumed_pct": 5.0,
+            "illustrative_equity_value_usd": 8457073838.73,
+            "value_as_pct_of_current_market_cap": 119.58
+          },
+          "fast_growth": {
+            "annual_fcf_growth_assumed_pct": 10.0,
+            "illustrative_equity_value_usd": 10348395758.63,
+            "value_as_pct_of_current_market_cap": 146.32
+          }
+        },
         "methodology": "Discount annual equity-like operating cash flow minus capital spending with no net new borrowing. Simplified fixed assumptions are NOT forecasts, calibrated costs of capital or defensible price targets."
       },
       "cash_balance": {
-        "value_usd": 9840000000.0,
+        "value_usd": 163457000.0,
         "period_end": "2026-09-30",
-        "filed": "2026-10-28",
+        "filed": "2026-10-29",
         "tag": "CashAndCashEquivalentsAtCarryingValue"
       },
       "long_term_debt_tag": {
-        "value_usd": 8261000000.0,
-        "period_end": "2025-12-31",
-        "filed": "2026-02-25",
-        "tag": "LongTermDebt"
+        "value_usd": 1289044000.0,
+        "period_end": "2026-09-30",
+        "filed": "2026-10-29",
+        "tag": "LongTermDebtNoncurrent"
       },
-      "primary_source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001035002.json",
-      "company_filings": "https://www.sec.gov/edgar/browse/?CIK=1035002",
+      "primary_source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001334036.json",
+      "company_filings": "https://www.sec.gov/edgar/browse/?CIK=1334036",
       "data_limitations": [
         "Annual 10-K figures may be several quarters old; balances can be from a newer 10-Q.",
         "Free cash flow = operating cash flow minus reported property/equipment purchases; it is not a forecast.",

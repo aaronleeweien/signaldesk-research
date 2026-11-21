@@ -1,11 +1,5 @@
 {
-  "notify": true,
-  "latest_close": "2026-11-18",
-  "events": [
-    {
-      "score_pct": 15.79,
-      "ticker": "DIS",
-      "type": "STOCK_WATCH_ONLY"
-    }
-  ]
+  "notify": false,
+  "latest_close": "2026-11-20",
+  "events": []
 }

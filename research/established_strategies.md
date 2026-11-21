@@ -1,18 +1,18 @@
 # SignalDesk — Implemented Strategies Comparison
 
 **Status: REAL ETF HISTORIES, NOT AN AUTOMATIC TRADING SIGNAL**
-Data through 2026-11-18.
+Data through 2026-11-20.
 Same US trading dates, starting US$2,000, monthly US$100, 10 bps per purchase, adjusted prices.
 
 | ETF | Fund strategy | From 2019 annual % | Since 2022 annual % | Worst 2022+ drawdown % | Beats VOO both periods? |
 |---|---|---:|---:|---:|---|
-| VOO | S&P 500 baseline | 14.69 | 10.6 | -24.56 | no |
-| SPMO | Systematic large-cap momentum | 17.69 | 16.04 | -24.11 | yes |
-| XMMO | Systematic mid-cap momentum | 12.06 | 8.53 | -27.29 | no |
-| QQQ | Concentrated Nasdaq-100 index | 19.05 | 11.46 | -34.88 | yes |
-| SMH | Concentrated semiconductor industry | 34.48 | 25.45 | -45.08 | yes |
-| MTUM | Alternate rules-based momentum | 12.2 | 8.67 | -28.68 | no |
-| MDY | S&P MidCap 400 benchmark | 10.05 | 6.14 | -24.03 | no |
+| VOO | S&P 500 baseline | 13.83 | 9.35 | -24.56 | no |
+| SPMO | Systematic large-cap momentum | 16.56 | 14.36 | -26.82 | yes |
+| XMMO | Systematic mid-cap momentum | 11.11 | 7.15 | -29.05 | no |
+| QQQ | Concentrated Nasdaq-100 index | 17.75 | 9.62 | -34.88 | yes |
+| SMH | Concentrated semiconductor industry | 31.96 | 21.9 | -45.08 | yes |
+| MTUM | Alternate rules-based momentum | 11.0 | 6.92 | -30.0 | no |
+| MDY | S&P MidCap 400 benchmark | 9.34 | 5.11 | -24.03 | no |
 
 **Do not read XMMO 2016–2019 as its present index methodology.** Current index applied from 2019-06-21.
 QQQ/SMH are concentrated exposures, not tactical rules. No guarantee that historical winners continue to lead.
