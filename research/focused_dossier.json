@@ -1,8 +1,8 @@
 {
   "version": "focused_dossier_v1",
-  "market_date": "2026-11-20",
-  "generated_utc": "2026-11-21T02:33:22.247593+00:00",
-  "screened_total": 752,
+  "market_date": "2026-11-23",
+  "generated_utc": "2026-11-24T02:41:29.774707+00:00",
+  "screened_total": 751,
   "selected_equities": 2,
   "asset_count": 3,
   "assets": [
@@ -14,37 +14,37 @@
         "ticker": "KNSA",
         "name": "Kiniksa Pharmaceuticals International, plc",
         "fiscal_year_end": "2025-12-31",
-        "market_cap_usd": 7377489920.0,
-        "forward_pe": 45.91442,
+        "market_cap_usd": 7754241536.0,
+        "forward_pe": 48.259167,
         "revenue_usd": 677564000.0,
         "revenue_growth_yoy_pct": 60.09,
         "net_income_usd": 59005000.0,
         "operating_cash_usd": 137985000.0,
         "capital_spending_usd": 1568000.0,
         "fcf_usd": 136417000.0,
-        "fcf_yield_pct": 1.85,
+        "fcf_yield_pct": 1.76,
         "fcf_positive_years": 3,
         "fcf_years_available": 3,
         "cash_usd": 81660000.0,
         "debt_usd": null,
-        "price_implied_fcf_growth_pct": 44.44,
+        "price_implied_fcf_growth_pct": 45.99,
         "reverse_model_required_return_pct": 11.0,
         "reverse_model_terminal_growth_pct": 2.0,
         "scenario_sensitivity": {
           "no_growth": {
             "annual_fcf_growth_assumed_pct": 0.0,
             "illustrative_equity_value_usd": 1421694148.08,
-            "value_as_pct_of_current_market_cap": 19.27
+            "value_as_pct_of_current_market_cap": 18.33
           },
           "moderate_growth": {
             "annual_fcf_growth_assumed_pct": 5.0,
             "illustrative_equity_value_usd": 1750134468.84,
-            "value_as_pct_of_current_market_cap": 23.72
+            "value_as_pct_of_current_market_cap": 22.57
           },
           "fast_growth": {
             "annual_fcf_growth_assumed_pct": 10.0,
             "illustrative_equity_value_usd": 2141530801.28,
-            "value_as_pct_of_current_market_cap": 29.03
+            "value_as_pct_of_current_market_cap": 27.62
           }
         },
         "annual_history": [
@@ -66,13 +66,13 @@
         ]
       },
       "price_context": {
-        "last_price_date": "2026-11-20",
-        "last_close_usd": 93.89,
-        "return_last_year_pct": 122.71,
-        "voo_same_year_pct": 5.53,
-        "relative_to_voo_year_pp": 117.19,
-        "momentum_3m_pct": 18.29,
-        "momentum_6m_pct": 76.36,
+        "last_price_date": "2026-11-23",
+        "last_close_usd": 98.69,
+        "return_last_year_pct": 137.86,
+        "voo_same_year_pct": 11.93,
+        "relative_to_voo_year_pp": 125.93,
+        "momentum_3m_pct": 23.05,
+        "momentum_6m_pct": 86.7,
         "above_200d_average": true
       },
       "sources": [
@@ -144,39 +144,39 @@
         },
         {
           "id": "S12",
-          "kind": "News-index headline · TradingView · 2026-11-20",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPVEk4ZXg2OUg5VzZ4QWN0eUxQX0RuUVZ4UzVpLXJFcWdjdDFSSlJRaWI2dzVzaWs0bHQtXzRtTkRFekVwV2Y4enpaRkUzMjRwOGFFVy10S1pCSlAzX2pmcko2SzZNSF9NZmtHT0VwZWVDc0RvTHpLWGlIa2ZqMm5fZm5PTEFDaW5SV0s1QmF4bm14ejhZam5nT3pnZUVvSDdtU0s4S2ViSDlLQjEzcUphTnNMTjBLa0trR0ItTlBXcGM0eG9iNHZuaEFR?oc=5",
-          "summary": "Headline only, not checked article text: Are Options Traders Betting on a Big Move in Kiniksa Pharmaceuticals Stock?"
+          "kind": "News-index headline · Investing.com Canada · 2026-11-23",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNb1UyRDVIYm5CZjFNNGYtbmQtd25PYUdQa1ZkLXVtbjF5Z0pRdW00ZlB6dWxIOGJrMnpwcl8tcGRXaC1GNGZ0SmRjdGNSS3JUX09UM2pBNm5FMXFVQ0xWeE5EUjM3Z0xwNmkxTWd4OTZ6ZkJvc3lTUEUxbk5xR0JVWUFHQ2cxRi0tQWJsYXlKbHV6NDZiZEp2TzR2dENOUE9ESzdOcmJPU3B4alV2bm5RNzFNQWlZVXNhOF9JVg?oc=5",
+          "summary": "Headline only, not checked article text: Kiniksa Pharmaceuticals stock hits all-time high of 99.37 USD By Investing.com"
         },
         {
           "id": "S13",
-          "kind": "News-index headline · Yahoo Finance UK · 2026-11-20",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE93eGduVFVyNV9uMUpzajc0ZVhLVzMyR1ZTNFlMcEZMSmdTX3Q2cGpnUVBMT19wS1pSX3Axb3IwbmxiU0Z6SE84TjZvM2E1cmJyZ3c?oc=5",
-          "summary": "Headline only, not checked article text: Kiniksa Pharmaceuticals, Ltd. (KNSA) stock price, news, quote and history"
+          "kind": "News-index headline · MarketBeat · 2026-11-23",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPeXh0ZU1wdlFIQ1phN21OamtLNWZCeGpSeW8taHh3QlB1amh2THBSQ1NFV04wdk5kLW9tcjJVcUUxRlpidVJOU0p4R0ZPUkhXZ0FILTdHdjBpcDRPNXRyLVNWbjJVaWlCc1NPWVhUZ2pmcjF6dzlKTzNFRXI1aEJxRVdIaTByMGczakFOVzNwUm4tNXZIckZoM05GNEM5Ry1nMmxSb29NTUdEM2ROdkY1VUxBeFRsdFJjSkhlYTVMWWQzcGJkMG5aQ1BrZF9uMk53YUpiYm9UenZuRkk?oc=5",
+          "summary": "Headline only, not checked article text: Kiniksa Pharmaceuticals International (NASDAQ:KNSA) Reaches New 1-Year High - Here's Why"
         },
         {
           "id": "S14",
-          "kind": "News-index headline · BigGo Finance · 2026-11-19",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5DSWJ4UjNNcXBkazdrX1RSZTdLR0ZXOFB0aTdHTjY3WXp4QUNkbXdibkpLYjNVSmNRZTYzNThsNDJoVWd5TVRaTzdOM1JiTWYtMExVX0RqNkUyeDJOR0RlS3U0d1V1eGR4RXNNczBQY3daazlCYnc?oc=5",
-          "summary": "Headline only, not checked article text: TD Cowen Lifts Kiniksa Target to $115, Touts Wholly Owned Drug as 2027 EPS Lever"
+          "kind": "News-index headline · Yahoo Finance Singapore · 2026-11-21",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1VN1ByX0d5WXBMN24xUDB3VnlvZkk5N3Q1dURtZk50RW5MN3dZLW1IQnZOa1k4YnRCQ0JqeGZ6MWxZVFd0UGl1TExOZXh4aHlGYmc?oc=5",
+          "summary": "Headline only, not checked article text: Kiniksa Pharmaceuticals International, plc (KNSA) stock price, news, quote and history"
         },
         {
           "id": "S15",
-          "kind": "News-index headline · Kalkine India · 2026-11-19",
-          "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNNlI0alNFaHNSWmIwREc2WkphM2luYWExRTl5VmVzQ0RKTWRSVkZkT3NERU1CeXJwTFJRdXpjRFhmcURQeXRyRjNlUndJS2lDOElNdGpXWW55LWVfc1FqRy1uemxYQy1RMVBiVXRzVVFVdXItV0pPQ25LZ2ZDN2R1RlBvM2Q1MVZSeUppODFXcVUxdS1CQ1dfQWxIMFY1WW1NSUNyQUVLbDh0YkFrMFcxLVNBTHZCUWNnMlNQSjhVeGczeWdzWHZEZEROWmNoX1gwSHJmM29DMHNwVmE1UzY2T1hBcFprOC1vcVNKZk9TYjZLTXFZVHJJandFQW1WSHVid20zRmV1VHFVdw?oc=5",
-          "summary": "Headline only, not checked article text: Kiniksa Pharmaceuticals Stock: Price Action, Valuation and Momentum"
+          "kind": "News-index headline · Yahoo! Finance Canada · 2026-11-21",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE41RFI5aF9vSTFuN0dudGpiZXRrZHVqZjlkWGZrak51OGR5SmgwX0NHaUlPaWtnWHVMVFR3YThRdTJKSHJtSjlEYU9sYTJhS0w5OEE?oc=5",
+          "summary": "Headline only, not checked article text: Kiniksa Pharmaceuticals International, plc (KNSA) Stock Price, News, Quote & History"
         },
         {
           "id": "S16",
-          "kind": "News-index headline · MarketBeat · 2026-11-17",
-          "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQZ3htOEEwWFBRc2R5YTJ2dERsTEllRnZQY0wxYmo1NGk0YzlveExGLXdnTmdjdkxJTVVDUDJQcHZkT0xmZGVTUXh4VnRsTHR5RzdsTGY5X0VkS3Z6ci00NkFBOHJDLVp6SU4zSkJyQWxKQWRoczdZTFV1OUpxV29rOG9xWFpXUHlzZjg2Rk5hWl8xbHd1WnZRdlQ4c1dGUk1IcUtLSEZTMkpMQnZfSkt0WlV5TnJlWGRVMWZXVmVFWTJGM3Vjc0t0c1NTRHBBcGp4cEdQTVA3Y1FxWkt4X1lpOHpKODdGUHRmUGREVWJiR1dIQk9YdWVLRzNn?oc=5",
-          "summary": "Headline only, not checked article text: TD Cowen Forecasts Strong Price Appreciation for Kiniksa Pharmaceuticals International (NASDAQ:KNSA) Stock"
+          "kind": "News-index headline · TradingView · 2026-11-20",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPcXhnX3psYlVqMEtrczUyV0xzcEZTWUNubzFsN2tyUUo1M1FjSjdkZUwtcVRrVl9ja3gxcjVvRVh5bFBfanhqTmN4Z2lONVdWX0c4RmZfMHEybElXVVBibjlXNFU5b3ZMc25fRXVGN243RWpzVl9iZEc1QnFGUEhtZUtoVHQ1SjlwS0diS1VqVWN2bkpidzl6TmwwMlpQYk1KYnZpRldjbVl2bEtOU3ludW15VTJUSUNOVWtsUHA0aGNmeWp6bmRZMg?oc=5",
+          "summary": "Headline only, not checked article text: Are Options Traders Betting on a Big Move in Kiniksa Pharmaceuticals Stock?"
         },
         {
           "id": "S17",
-          "kind": "News-index headline · Simply Wall St · 2026-11-15",
-          "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPejdXYk95akRZM241MVJGMFQ2eHhzektpdl9nLXdraGNTYUdwZDVKNGFkWjBoZWFLd1hhSUR3NWViUlpaMnBna2RPOFlpYk9KQmpIWlh0SGx2eEpxWGpqYWU0dEhvX3hrRGhDV2RDZjRxRmlRMXpHSi11dlhXX1ZLbTNiTWNZc3ZoOWJ2OUFBNnpua1NMNXh0MnczdS1xRHVlQ1JqUlA2ZTRRRnZ0OV9YZ3UwMTdkU2lSeFlOcm5HR1hlS2ZLMzJ1cC11X01wMFdoVS1uY056ZmRfMS1NSWRwaWxfOWx3OTdlVmM1UlB3aXNpT285Qk5LZ9IB_gFBVV95cUxPSzZUWkRSSU9Rcy1IOG1ZVlg3UFhRMUlsYk1vRHZRZ0RIUXdSYW82SUtad3k2N3RJd0xhZmE5a0ZIWEh4QkZHcVl4VkNtZUR0RV80ZWpxT1B0YndSUExwWTNTdkQwTVNtNUN6eHAtdGRSSGdvZnMtT3RMM2E0N1ZyOUVSX0V1OXgtYk9BVUw5LWtkUjV2eHgzQjVGS0FrVXNXS29wR2hBWXpkY1JXeVNSaXJyWjUwUThYMmZnLXkwaTlQQ290S2NrVlZvUDVrS0doMDBpRjF5ZW84RElSNnBrYWhWVXRsWXN3NVl5Q29ZWEE2TlE3U2RZTHNOTkg1Zw?oc=5",
-          "summary": "Headline only, not checked article text: What Kiniksa Buyers Were Betting On Before A 139% Rally"
+          "kind": "News-index headline · Kalkine India · 2026-11-19",
+          "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNNlI0alNFaHNSWmIwREc2WkphM2luYWExRTl5VmVzQ0RKTWRSVkZkT3NERU1CeXJwTFJRdXpjRFhmcURQeXRyRjNlUndJS2lDOElNdGpXWW55LWVfc1FqRy1uemxYQy1RMVBiVXRzVVFVdXItV0pPQ25LZ2ZDN2R1RlBvM2Q1MVZSeUppODFXcVUxdS1CQ1dfQWxIMFY1WW1NSUNyQUVLbDh0YkFrMFcxLVNBTHZCUWNnMlNQSjhVeGczeWdzWHZEZEROWmNoX1gwSHJmM29DMHNwVmE1UzY2T1hBcFprOC1vcVNKZk9TYjZLTXFZVHJJandFQW1WSHVid20zRmV1VHFVdw?oc=5",
+          "summary": "Headline only, not checked article text: Kiniksa Pharmaceuticals Stock: Price Action, Valuation and Momentum"
         }
       ],
       "filings": {
@@ -257,29 +257,43 @@
       },
       "investment_role": "Candidate for multi-year valuation research, not an approved trade.",
       "qualitative_context": {
-        "asof_utc": "2026-11-21T02:33:22.372362+00:00",
+        "asof_utc": "2026-11-24T02:41:29.924821+00:00",
         "search_url": "https://news.google.com/rss/search?q=%22Kiniksa%20Pharmaceuticals%20International%22%20when%3A7d&hl=en-US&gl=US&ceid=US:en",
         "news_window_days": 7,
         "headline_sample": [
           {
+            "title": "Kiniksa Pharmaceuticals stock hits all-time high of 99.37 USD By Investing.com",
+            "published_utc": "2026-11-23T20:24:04+00:00",
+            "publisher": "Investing.com Canada",
+            "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNb1UyRDVIYm5CZjFNNGYtbmQtd25PYUdQa1ZkLXVtbjF5Z0pRdW00ZlB6dWxIOGJrMnpwcl8tcGRXaC1GNGZ0SmRjdGNSS3JUX09UM2pBNm5FMXFVQ0xWeE5EUjM3Z0xwNmkxTWd4OTZ6ZkJvc3lTUEUxbk5xR0JVWUFHQ2cxRi0tQWJsYXlKbHV6NDZiZEp2TzR2dENOUE9ESzdOcmJPU3B4alV2bm5RNzFNQWlZVXNhOF9JVg?oc=5",
+            "topic": "other"
+          },
+          {
+            "title": "Kiniksa Pharmaceuticals International (NASDAQ:KNSA) Reaches New 1-Year High - Here's Why",
+            "published_utc": "2026-11-23T19:44:07+00:00",
+            "publisher": "MarketBeat",
+            "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPeXh0ZU1wdlFIQ1phN21OamtLNWZCeGpSeW8taHh3QlB1amh2THBSQ1NFV04wdk5kLW9tcjJVcUUxRlpidVJOU0p4R0ZPUkhXZ0FILTdHdjBpcDRPNXRyLVNWbjJVaWlCc1NPWVhUZ2pmcjF6dzlKTzNFRXI1aEJxRVdIaTByMGczakFOVzNwUm4tNXZIckZoM05GNEM5Ry1nMmxSb29NTUdEM2ROdkY1VUxBeFRsdFJjSkhlYTVMWWQzcGJkMG5aQ1BrZF9uMk53YUpiYm9UenZuRkk?oc=5",
+            "topic": "other"
+          },
+          {
+            "title": "Kiniksa Pharmaceuticals International, plc (KNSA) stock price, news, quote and history",
+            "published_utc": "2026-11-21T20:46:11+00:00",
+            "publisher": "Yahoo Finance Singapore",
+            "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1VN1ByX0d5WXBMN24xUDB3VnlvZkk5N3Q1dURtZk50RW5MN3dZLW1IQnZOa1k4YnRCQ0JqeGZ6MWxZVFd0UGl1TExOZXh4aHlGYmc?oc=5",
+            "topic": "other"
+          },
+          {
+            "title": "Kiniksa Pharmaceuticals International, plc (KNSA) Stock Price, News, Quote & History",
+            "published_utc": "2026-11-21T13:55:23+00:00",
+            "publisher": "Yahoo! Finance Canada",
+            "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE41RFI5aF9vSTFuN0dudGpiZXRrZHVqZjlkWGZrak51OGR5SmgwX0NHaUlPaWtnWHVMVFR3YThRdTJKSHJtSjlEYU9sYTJhS0w5OEE?oc=5",
+            "topic": "other"
+          },
+          {
             "title": "Are Options Traders Betting on a Big Move in Kiniksa Pharmaceuticals Stock?",
             "published_utc": "2026-11-20T13:13:00+00:00",
             "publisher": "TradingView",
-            "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPVEk4ZXg2OUg5VzZ4QWN0eUxQX0RuUVZ4UzVpLXJFcWdjdDFSSlJRaWI2dzVzaWs0bHQtXzRtTkRFekVwV2Y4enpaRkUzMjRwOGFFVy10S1pCSlAzX2pmcko2SzZNSF9NZmtHT0VwZWVDc0RvTHpLWGlIa2ZqMm5fZm5PTEFDaW5SV0s1QmF4bm14ejhZam5nT3pnZUVvSDdtU0s4S2ViSDlLQjEzcUphTnNMTjBLa0trR0ItTlBXcGM0eG9iNHZuaEFR?oc=5",
-            "topic": "other"
-          },
-          {
-            "title": "Kiniksa Pharmaceuticals, Ltd. (KNSA) stock price, news, quote and history",
-            "published_utc": "2026-11-20T04:29:57+00:00",
-            "publisher": "Yahoo Finance UK",
-            "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE93eGduVFVyNV9uMUpzajc0ZVhLVzMyR1ZTNFlMcEZMSmdTX3Q2cGpnUVBMT19wS1pSX3Axb3IwbmxiU0Z6SE84TjZvM2E1cmJyZ3c?oc=5",
-            "topic": "other"
-          },
-          {
-            "title": "TD Cowen Lifts Kiniksa Target to $115, Touts Wholly Owned Drug as 2027 EPS Lever",
-            "published_utc": "2026-11-19T22:05:00+00:00",
-            "publisher": "BigGo Finance",
-            "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5DSWJ4UjNNcXBkazdrX1RSZTdLR0ZXOFB0aTdHTjY3WXp4QUNkbXdibkpLYjNVSmNRZTYzNThsNDJoVWd5TVRaTzdOM1JiTWYtMExVX0RqNkUyeDJOR0RlS3U0d1V1eGR4RXNNczBQY3daazlCYnc?oc=5",
+            "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPcXhnX3psYlVqMEtrczUyV0xzcEZTWUNubzFsN2tyUUo1M1FjSjdkZUwtcVRrVl9ja3gxcjVvRVh5bFBfanhqTmN4Z2lONVdWX0c4RmZfMHEybElXVVBibjlXNFU5b3ZMc25fRXVGN243RWpzVl9iZEc1QnFGUEhtZUtoVHQ1SjlwS0diS1VqVWN2bkpidzl6TmwwMlpQYk1KYnZpRldjbVl2bEtOU3ludW15VTJUSUNOVWtsUHA0aGNmeWp6bmRZMg?oc=5",
             "topic": "other"
           },
           {
@@ -287,20 +301,6 @@
             "published_utc": "2026-11-19T10:20:00+00:00",
             "publisher": "Kalkine India",
             "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNNlI0alNFaHNSWmIwREc2WkphM2luYWExRTl5VmVzQ0RKTWRSVkZkT3NERU1CeXJwTFJRdXpjRFhmcURQeXRyRjNlUndJS2lDOElNdGpXWW55LWVfc1FqRy1uemxYQy1RMVBiVXRzVVFVdXItV0pPQ25LZ2ZDN2R1RlBvM2Q1MVZSeUppODFXcVUxdS1CQ1dfQWxIMFY1WW1NSUNyQUVLbDh0YkFrMFcxLVNBTHZCUWNnMlNQSjhVeGczeWdzWHZEZEROWmNoX1gwSHJmM29DMHNwVmE1UzY2T1hBcFprOC1vcVNKZk9TYjZLTXFZVHJJandFQW1WSHVid20zRmV1VHFVdw?oc=5",
-            "topic": "other"
-          },
-          {
-            "title": "TD Cowen Forecasts Strong Price Appreciation for Kiniksa Pharmaceuticals International (NASDAQ:KNSA) Stock",
-            "published_utc": "2026-11-17T15:04:09+00:00",
-            "publisher": "MarketBeat",
-            "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQZ3htOEEwWFBRc2R5YTJ2dERsTEllRnZQY0wxYmo1NGk0YzlveExGLXdnTmdjdkxJTVVDUDJQcHZkT0xmZGVTUXh4VnRsTHR5RzdsTGY5X0VkS3Z6ci00NkFBOHJDLVp6SU4zSkJyQWxKQWRoczdZTFV1OUpxV29rOG9xWFpXUHlzZjg2Rk5hWl8xbHd1WnZRdlQ4c1dGUk1IcUtLSEZTMkpMQnZfSkt0WlV5TnJlWGRVMWZXVmVFWTJGM3Vjc0t0c1NTRHBBcGp4cEdQTVA3Y1FxWkt4X1lpOHpKODdGUHRmUGREVWJiR1dIQk9YdWVLRzNn?oc=5",
-            "topic": "other"
-          },
-          {
-            "title": "What Kiniksa Buyers Were Betting On Before A 139% Rally",
-            "published_utc": "2026-11-15T09:24:41+00:00",
-            "publisher": "Simply Wall St",
-            "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPejdXYk95akRZM241MVJGMFQ2eHhzektpdl9nLXdraGNTYUdwZDVKNGFkWjBoZWFLd1hhSUR3NWViUlpaMnBna2RPOFlpYk9KQmpIWlh0SGx2eEpxWGpqYWU0dEhvX3hrRGhDV2RDZjRxRmlRMXpHSi11dlhXX1ZLbTNiTWNZc3ZoOWJ2OUFBNnpua1NMNXh0MnczdS1xRHVlQ1JqUlA2ZTRRRnZ0OV9YZ3UwMTdkU2lSeFlOcm5HR1hlS2ZLMzJ1cC11X01wMFdoVS1uY056ZmRfMS1NSWRwaWxfOWx3OTdlVmM1UlB3aXNpT285Qk5LZ9IB_gFBVV95cUxPSzZUWkRSSU9Rcy1IOG1ZVlg3UFhRMUlsYk1vRHZRZ0RIUXdSYW82SUtad3k2N3RJd0xhZmE5a0ZIWEh4QkZHcVl4VkNtZUR0RV80ZWpxT1B0YndSUExwWTNTdkQwTVNtNUN6eHAtdGRSSGdvZnMtT3RMM2E0N1ZyOUVSX0V1OXgtYk9BVUw5LWtkUjV2eHgzQjVGS0FrVXNXS29wR2hBWXpkY1JXeVNSaXJyWjUwUThYMmZnLXkwaTlQQ290S2NrVlZvUDVrS0doMDBpRjF5ZW84RElSNnBrYWhWVXRsWXN3NVl5Q29ZWEE2TlE3U2RZTHNOTkg1Zw?oc=5",
             "topic": "other"
           }
         ],
@@ -317,37 +317,37 @@
         "ticker": "MPC",
         "name": "Marathon Petroleum Corporation",
         "fiscal_year_end": "2025-12-31",
-        "market_cap_usd": 99979329536.0,
-        "forward_pe": 6.105221,
+        "market_cap_usd": 97392648192.0,
+        "forward_pe": 6.143686,
         "revenue_usd": 132699000000.0,
         "revenue_growth_yoy_pct": -4.44,
         "net_income_usd": 4047000000.0,
         "operating_cash_usd": 8253000000.0,
         "capital_spending_usd": 3486000000.0,
         "fcf_usd": 4767000000.0,
-        "fcf_yield_pct": 4.77,
+        "fcf_yield_pct": 4.89,
         "fcf_positive_years": 3,
         "fcf_years_available": 3,
         "cash_usd": 12805000000.0,
         "debt_usd": 3311000000.0,
-        "price_implied_fcf_growth_pct": 17.45,
+        "price_implied_fcf_growth_pct": 16.76,
         "reverse_model_required_return_pct": 11.0,
         "reverse_model_terminal_growth_pct": 2.0,
         "scenario_sensitivity": {
           "no_growth": {
             "annual_fcf_growth_assumed_pct": 0.0,
             "illustrative_equity_value_usd": 49680142532.83,
-            "value_as_pct_of_current_market_cap": 49.69
+            "value_as_pct_of_current_market_cap": 51.01
           },
           "moderate_growth": {
             "annual_fcf_growth_assumed_pct": 5.0,
             "illustrative_equity_value_usd": 61157267884.14,
-            "value_as_pct_of_current_market_cap": 61.17
+            "value_as_pct_of_current_market_cap": 62.79
           },
           "fast_growth": {
             "annual_fcf_growth_assumed_pct": 10.0,
             "illustrative_equity_value_usd": 74834348576.12,
-            "value_as_pct_of_current_market_cap": 74.85
+            "value_as_pct_of_current_market_cap": 76.84
           }
         },
         "annual_history": [
@@ -369,13 +369,13 @@
         ]
       },
       "price_context": {
-        "last_price_date": "2026-11-20",
-        "last_close_usd": 367.19,
-        "return_last_year_pct": 90.51,
-        "voo_same_year_pct": 5.53,
-        "relative_to_voo_year_pp": 84.99,
-        "momentum_3m_pct": 1.57,
-        "momentum_6m_pct": 44.99,
+        "last_price_date": "2026-11-23",
+        "last_close_usd": 357.69,
+        "return_last_year_pct": 93.14,
+        "voo_same_year_pct": 11.93,
+        "relative_to_voo_year_pp": 81.21,
+        "momentum_3m_pct": 1.07,
+        "momentum_6m_pct": 45.0,
         "above_200d_average": true
       },
       "sources": [
@@ -447,39 +447,39 @@
         },
         {
           "id": "S12",
-          "kind": "News-index headline · Yahoo Finance · 2026-11-20",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQc2tJSGZMektSb2VNcGlDQW1UU0JraVNZcGxBMzVPUElNUVRVTlV2VUZ4a01FZ2tqenN0VDJVT0Z4Q3A1ZVdvVFNJTkFhcjZtams3RW9vaDUtd1EwWHZZMGl6YkVnTTZQQmpCMWk2U21lZ19aM1llYUdwOGwyU2Q1T2xHNkx4S3Njc21LanJmZUlOQjQ?oc=5",
-          "summary": "Headline only, not checked article text: Six ENERGY STAR(R) Certifications Add to Marathon Petroleum's Legacy of Energy Efficiency"
+          "kind": "News-index headline · MarketBeat · 2026-11-23",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNTVpuU1FKY3kwR1lVTEJlbjYyQ0dxeFVOUkk2RU5ZT0xPc0I5ck82MElNME02Szk1b0NhRVpwWEhjNGwya0ctd2VVVmZJbGxZQ25aSnVNTThHYTAyWUctOTJvR2VuNUQyNXBmSHI1ZnNreWlQYjU5X25MZjNGRlBKVi0tWXhHT0NyX2k5UTZNdUxIX1E1aHdjeVBFRFVQdUlpNGpLdDhKdlZaT1dVZWxXYVNXNHV3VkM5YUljTUJVcVlveFhXMlF2SWJERQ?oc=5",
+          "summary": "Headline only, not checked article text: Marathon Petroleum (NYSE:MPC) Stock Price Down 2.4% After Analyst Downgrade"
         },
         {
           "id": "S13",
-          "kind": "News-index headline · Simply Wall St · 2026-11-20",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPaFdJYVNKWEl0aXZ4WU43c0k0QjF2YWp4LUtZQ21WRlhzQXBDbXN4SWdwSjNKZ0lZanJUbnZHNURrZEIzZlEwRnRsbWZlZVlHVHJvQ1NERU1HSXdIUWh5RFA2c1pnMXl4clBPNVJoTk56c2VRZ05wMUNvbXFqM1ZBMVYwUU5WTWRZYzIzYkdFQ1ZfRWprRkp5bTRRZngyMzk0TUxEX0xGNWJFdUVSVWFEV0VyUTRiXzZodnl3N0Y5dDJDck9yR3ZoazBPSknSAdIBQVVfeXFMUG5zMUtBSHd3alhGdTN2MjRLXy14MkNFVDd1MS1iaEc5NzdpS21OWjN0dTVGOG9oM3JrNWtUV3FqQUFrcHFWdzNEcXFualBEM3FDN3pHc1FkS1ZhZG80ZVBlX19yZkxRT3hqTTNuanMwMWpEQ19MNDJ3V0JoaEtsMGg3UFFvT3NiYWFaQTdoTnJlXzdBTnJkNXJaYm5xR3I0bFU2TkJfTl9TdFR6RkxvZFM1ZGs2bktXRk5tWFlobThGTGl0RnZQSlMzZEViOGFqZzZR?oc=5",
-          "summary": "Headline only, not checked article text: Marathon Petroleum (MPC) Stock May Be 49% Undervalued Despite Dividend Hike"
+          "kind": "News-index headline · MarketWatch · 2026-11-23",
+          "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPM1E4bDBnVjUwdnBMb2xLbVFlaEVDOGhmbGE0cVhJYXBRdW9yV05Jang1RGRJZ19jVDRPdjI1SXJvc1RZQnMwYWpYT3NHU1ZqN3Eya3dvcGU2Y2R0bHQ2QkNaaEwyRFJJRUhQaFE4cjlULVFhNVJOMEt6MF9ncWlHNXBqMXIwTkRYZThYbW1xWEMwZzlkTmJaMFlQeEdEVGRmalNHbVZzX194OGduRkpMaVJ5aU95c3NLcUtRdFpJVkhqQWxkWmFNNnNNU2xDS1dRTV9IcTd5V0dYVnpReVpPY3RweWVsOTllR3cybnhn?oc=5",
+          "summary": "Headline only, not checked article text: Marathon Petroleum Corp. stock underperforms Monday when compared to competitors"
         },
         {
           "id": "S14",
-          "kind": "News-index headline · MarketBeat · 2026-11-19",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOMVVtUzBVMFlTcmw3UE5GSmEzREU0c1JSMzdTMFpieDM2NlRET0hPSmUydU1YLS1wd0l2WWFLY2xsa3JtTVR2bHZ5VHBRSmdjVlRkZTU3d3ByejY0enlLRkpnRkVjak42ekxNOW5MMVZpeXctT2ZVQXMzZFg0SVllb3FvSVdCT09wSy1hOGNxcEM4OXdGbWtZdXd0VWpLTXFPYmNVTUt4WDNOV2lhcWNXNktfbw?oc=5",
-          "summary": "Headline only, not checked article text: Marathon Petroleum (NYSE:MPC) Shares Down 1.7% - What's Next?"
+          "kind": "News-index headline · TradingView · 2026-11-23",
+          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOQmZHNktOdEsxZVJaaVIzZUpraDVYNFRubnpTcmplZFhZSVphdU81ajRrZThnRHFfWEM1NENyd3FUQnctektnOERoSjd6LWZRV3I2SEpvRG4zT1JiZUtqUXRLLWZKVzhEUFMtWWhxVjU5M2F6NEtKb1NXLUFwZ21OOHIzNUFzVDNmeGRJalZkd3dIWEFjeXk4aExDLXZrOTVSVWxBLTZGa0M2SVhseDgzZE5HeFpwR0FFaDZ5Si1qcTRja3JmSGtqbXZ4b0xfZFpFMnFtX091azRuVzBGT1ZhcA?oc=5",
+          "summary": "Headline only, not checked article text: Citigroup maintains Marathon Petroleum at Neutral, lowers price target to $415 from $518"
         },
         {
           "id": "S15",
-          "kind": "News-index headline · MarketWatch · 2026-11-19",
-          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOaTc1bWNCNlJlenRmQjc1SHBxbXVXMVZqb3FMWWM5TG5KYm5teVRRMk1reUVmMkFGVHlDbmZLMGl5SW1PMkJtQ2gteGM0SXZ1UFFZbU5BY0hwRlRuM3h2TWJHczcwYkRGbEVUY3N5VHRuLU1zdkpQWnZHVmZNMTRNMFVxbndBYXhaSmpTb0t6Zk1WYzNOLWZ2blZGWjI0aUJxelVMQ3hMRmgzS0tyYnJBVnhnMmRKdjd6bTlOWkdOS3RpUmVIcnYtZS0zZ0JMN19ubTlmXzJZcjNMTmtiV19ob2l2ZnN0OS1KaURvODNHODY?oc=5",
-          "summary": "Headline only, not checked article text: Marathon Petroleum Corp. stock underperforms Thursday when compared to competitors"
+          "kind": "News-index headline · MarketBeat · 2026-11-23",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQX3BMcmd3bEVLMUh0ekNYYktVYjZCZ0gyanVIU244ZUtfNFZ3NnpoTGRMcDdYdnJMR2lxNExHdWJlREZrTWQ3X2dRVDA5WnlLaldpb09Gb0l3bjNoZGJsc2NXakhpV2I4MHhzd2NhTkUwNWliMDNEcTNCQTU0ZW5zUGlwS0VpeklmUGQ0T0JpOTAxMXV0RFE5TUxRMEJDYmkyR2ZETUloeHlkcFhNbHZSVkEzWXNtaFFqMDB5dlB2RTJ2Y1ZGVWV0aGp6SjRhY2hEbEo2dWZhaVQxSmM?oc=5",
+          "summary": "Headline only, not checked article text: Citigroup Issues Pessimistic Forecast for Marathon Petroleum (NYSE:MPC) Stock Price"
         },
         {
           "id": "S16",
-          "kind": "News-index headline · Peradaban.id · 2026-11-19",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9tbUp2ZzQ0SXJFUk5uYlZBanRaR0VDU3BoVHJDdmJSYmVtVXN6eDhaTTFRVGYteHFkbG5FZ1Q4TEpPVEl2VlNxbFdjeldvaXNQMmQ5RFNSaE5HeXB3SWxlOVNnT1pBS0Y5R2ZuRm5BMkYxblFM?oc=5",
-          "summary": "Headline only, not checked article text: Marathon Petroleum Shares Fall as Refining Sector Weakens"
+          "kind": "News-index headline · Seeking Alpha · 2026-11-23",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOcTB6NkExUnEtcmoyLURjRVh5a3dnSU9zZWNiUmNnRGVQMHNDMEpJbG5ybHVQZTFKaXp3TjBlRnJ5aVE1bHFqYXFlS3Z1Sm1kXy1LVjNKLWR1NXl4cnNEVTlkVGpaZU5selJKS2lRVjE2MTZ4M2p4dWJ1RkJLSzIycXd0Q3ZTR2hRUXJDMUJ0aHIzOW9YRTdFYg?oc=5",
+          "summary": "Headline only, not checked article text: Crack Spreads Made Marathon Petroleum A Cash Machine (NYSE:MPC)"
         },
         {
           "id": "S17",
-          "kind": "News-index headline · SuaraGarut.ID · 2026-11-19",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBzMXZ6T3NoWHpFUTVCWjYtSm9qdEgzWXVOem9vY0Q1RFZJRXhHZ2FCU0xyWDZyRmNfbDZIaGtWY196eVRraUhTVWk0Q015QnU5QTVPWE5NVVBLNlRNV2FkRVBGaTBGUnh3cXlzVzlvNlZkM1FSelE?oc=5",
-          "summary": "Headline only, not checked article text: Marathon Petroleum Shares Drop 5.2% as Refiners Retreat"
+          "kind": "News-index headline · ad-hoc-news.de · 2026-11-23",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQZlBLa05ZQ190Tk1lbGx0YnZUUGxUWENXVmkyMHZ4b2xJQnVIMnRVUm1FUkdUdmhFcmhZcDB3TTkwQnROOTgwSFpmdEluOThzdTZSQzI4Sk1PclZDdkpKbUNhWldxOElhWWkybjBOMVY1SHV6RmZ1bFdrNkhEOWtFV2ZpcnpEWXpoaEpqT2V0QUN2UlFtdEMzNlFVeVRzMmV4VUNHU0tLeDBjUjVWcENzZmRLT2FCandZb1lpSW5EWQ?oc=5",
+          "summary": "Headline only, not checked article text: Marathon Petroleum stock: Force majeure declared on pipeline"
         }
       ],
       "filings": {
@@ -560,71 +560,60 @@
       },
       "investment_role": "Candidate for multi-year valuation research, not an approved trade.",
       "qualitative_context": {
-        "asof_utc": "2026-11-21T02:33:22.372362+00:00",
+        "asof_utc": "2026-11-24T02:41:29.924821+00:00",
         "search_url": "https://news.google.com/rss/search?q=%22Marathon%20Petroleum%22%20when%3A7d&hl=en-US&gl=US&ceid=US:en",
         "news_window_days": 7,
         "headline_sample": [
           {
-            "title": "Six ENERGY STAR(R) Certifications Add to Marathon Petroleum's Legacy of Energy Efficiency",
-            "published_utc": "2026-11-20T21:20:00+00:00",
-            "publisher": "Yahoo Finance",
-            "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQc2tJSGZMektSb2VNcGlDQW1UU0JraVNZcGxBMzVPUElNUVRVTlV2VUZ4a01FZ2tqenN0VDJVT0Z4Q3A1ZVdvVFNJTkFhcjZtams3RW9vaDUtd1EwWHZZMGl6YkVnTTZQQmpCMWk2U21lZ19aM1llYUdwOGwyU2Q1T2xHNkx4S3Njc21LanJmZUlOQjQ?oc=5",
-            "topic": "other"
-          },
-          {
-            "title": "Marathon Petroleum (MPC) Stock May Be 49% Undervalued Despite Dividend Hike",
-            "published_utc": "2026-11-20T08:09:13+00:00",
-            "publisher": "Simply Wall St",
-            "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPaFdJYVNKWEl0aXZ4WU43c0k0QjF2YWp4LUtZQ21WRlhzQXBDbXN4SWdwSjNKZ0lZanJUbnZHNURrZEIzZlEwRnRsbWZlZVlHVHJvQ1NERU1HSXdIUWh5RFA2c1pnMXl4clBPNVJoTk56c2VRZ05wMUNvbXFqM1ZBMVYwUU5WTWRZYzIzYkdFQ1ZfRWprRkp5bTRRZngyMzk0TUxEX0xGNWJFdUVSVWFEV0VyUTRiXzZodnl3N0Y5dDJDck9yR3ZoazBPSknSAdIBQVVfeXFMUG5zMUtBSHd3alhGdTN2MjRLXy14MkNFVDd1MS1iaEc5NzdpS21OWjN0dTVGOG9oM3JrNWtUV3FqQUFrcHFWdzNEcXFualBEM3FDN3pHc1FkS1ZhZG80ZVBlX19yZkxRT3hqTTNuanMwMWpEQ19MNDJ3V0JoaEtsMGg3UFFvT3NiYWFaQTdoTnJlXzdBTnJkNXJaYm5xR3I0bFU2TkJfTl9TdFR6RkxvZFM1ZGs2bktXRk5tWFlobThGTGl0RnZQSlMzZEViOGFqZzZR?oc=5",
-            "topic": "financing"
-          },
-          {
-            "title": "Marathon Petroleum (NYSE:MPC) Shares Down 1.7% - What's Next?",
-            "published_utc": "2026-11-19T22:55:36+00:00",
+            "title": "Marathon Petroleum (NYSE:MPC) Stock Price Down 2.4% After Analyst Downgrade",
+            "published_utc": "2026-11-23T22:10:52+00:00",
             "publisher": "MarketBeat",
-            "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOMVVtUzBVMFlTcmw3UE5GSmEzREU0c1JSMzdTMFpieDM2NlRET0hPSmUydU1YLS1wd0l2WWFLY2xsa3JtTVR2bHZ5VHBRSmdjVlRkZTU3d3ByejY0enlLRkpnRkVjak42ekxNOW5MMVZpeXctT2ZVQXMzZFg0SVllb3FvSVdCT09wSy1hOGNxcEM4OXdGbWtZdXd0VWpLTXFPYmNVTUt4WDNOV2lhcWNXNktfbw?oc=5",
+            "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNTVpuU1FKY3kwR1lVTEJlbjYyQ0dxeFVOUkk2RU5ZT0xPc0I5ck82MElNME02Szk1b0NhRVpwWEhjNGwya0ctd2VVVmZJbGxZQ25aSnVNTThHYTAyWUctOTJvR2VuNUQyNXBmSHI1ZnNreWlQYjU5X25MZjNGRlBKVi0tWXhHT0NyX2k5UTZNdUxIX1E1aHdjeVBFRFVQdUlpNGpLdDhKdlZaT1dVZWxXYVNXNHV3VkM5YUljTUJVcVlveFhXMlF2SWJERQ?oc=5",
             "topic": "other"
           },
           {
-            "title": "Marathon Petroleum Corp. stock underperforms Thursday when compared to competitors",
-            "published_utc": "2026-11-19T21:38:00+00:00",
+            "title": "Marathon Petroleum Corp. stock underperforms Monday when compared to competitors",
+            "published_utc": "2026-11-23T21:38:00+00:00",
             "publisher": "MarketWatch",
-            "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOaTc1bWNCNlJlenRmQjc1SHBxbXVXMVZqb3FMWWM5TG5KYm5teVRRMk1reUVmMkFGVHlDbmZLMGl5SW1PMkJtQ2gteGM0SXZ1UFFZbU5BY0hwRlRuM3h2TWJHczcwYkRGbEVUY3N5VHRuLU1zdkpQWnZHVmZNMTRNMFVxbndBYXhaSmpTb0t6Zk1WYzNOLWZ2blZGWjI0aUJxelVMQ3hMRmgzS0tyYnJBVnhnMmRKdjd6bTlOWkdOS3RpUmVIcnYtZS0zZ0JMN19ubTlmXzJZcjNMTmtiV19ob2l2ZnN0OS1KaURvODNHODY?oc=5",
+            "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPM1E4bDBnVjUwdnBMb2xLbVFlaEVDOGhmbGE0cVhJYXBRdW9yV05Jang1RGRJZ19jVDRPdjI1SXJvc1RZQnMwYWpYT3NHU1ZqN3Eya3dvcGU2Y2R0bHQ2QkNaaEwyRFJJRUhQaFE4cjlULVFhNVJOMEt6MF9ncWlHNXBqMXIwTkRYZThYbW1xWEMwZzlkTmJaMFlQeEdEVGRmalNHbVZzX194OGduRkpMaVJ5aU95c3NLcUtRdFpJVkhqQWxkWmFNNnNNU2xDS1dRTV9IcTd5V0dYVnpReVpPY3RweWVsOTllR3cybnhn?oc=5",
             "topic": "competition"
           },
           {
-            "title": "Marathon Petroleum Shares Fall as Refining Sector Weakens",
-            "published_utc": "2026-11-19T16:51:54+00:00",
-            "publisher": "Peradaban.id",
-            "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9tbUp2ZzQ0SXJFUk5uYlZBanRaR0VDU3BoVHJDdmJSYmVtVXN6eDhaTTFRVGYteHFkbG5FZ1Q4TEpPVEl2VlNxbFdjeldvaXNQMmQ5RFNSaE5HeXB3SWxlOVNnT1pBS0Y5R2ZuRm5BMkYxblFM?oc=5",
+            "title": "Citigroup maintains Marathon Petroleum at Neutral, lowers price target to $415 from $518",
+            "published_utc": "2026-11-23T16:48:53+00:00",
+            "publisher": "TradingView",
+            "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOQmZHNktOdEsxZVJaaVIzZUpraDVYNFRubnpTcmplZFhZSVphdU81ajRrZThnRHFfWEM1NENyd3FUQnctektnOERoSjd6LWZRV3I2SEpvRG4zT1JiZUtqUXRLLWZKVzhEUFMtWWhxVjU5M2F6NEtKb1NXLUFwZ21OOHIzNUFzVDNmeGRJalZkd3dIWEFjeXk4aExDLXZrOTVSVWxBLTZGa0M2SVhseDgzZE5HeFpwR0FFaDZ5Si1qcTRja3JmSGtqbXZ4b0xfZFpFMnFtX091azRuVzBGT1ZhcA?oc=5",
+            "topic": "other"
+          },
+          {
+            "title": "Citigroup Issues Pessimistic Forecast for Marathon Petroleum (NYSE:MPC) Stock Price",
+            "published_utc": "2026-11-23T16:40:24+00:00",
+            "publisher": "MarketBeat",
+            "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQX3BMcmd3bEVLMUh0ekNYYktVYjZCZ0gyanVIU244ZUtfNFZ3NnpoTGRMcDdYdnJMR2lxNExHdWJlREZrTWQ3X2dRVDA5WnlLaldpb09Gb0l3bjNoZGJsc2NXakhpV2I4MHhzd2NhTkUwNWliMDNEcTNCQTU0ZW5zUGlwS0VpeklmUGQ0T0JpOTAxMXV0RFE5TUxRMEJDYmkyR2ZETUloeHlkcFhNbHZSVkEzWXNtaFFqMDB5dlB2RTJ2Y1ZGVWV0aGp6SjRhY2hEbEo2dWZhaVQxSmM?oc=5",
+            "topic": "other"
+          },
+          {
+            "title": "Crack Spreads Made Marathon Petroleum A Cash Machine (NYSE:MPC)",
+            "published_utc": "2026-11-23T15:33:51+00:00",
+            "publisher": "Seeking Alpha",
+            "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOcTB6NkExUnEtcmoyLURjRVh5a3dnSU9zZWNiUmNnRGVQMHNDMEpJbG5ybHVQZTFKaXp3TjBlRnJ5aVE1bHFqYXFlS3Z1Sm1kXy1LVjNKLWR1NXl4cnNEVTlkVGpaZU5selJKS2lRVjE2MTZ4M2p4dWJ1RkJLSzIycXd0Q3ZTR2hRUXJDMUJ0aHIzOW9YRTdFYg?oc=5",
             "topic": "profitability"
           },
           {
-            "title": "Marathon Petroleum Shares Drop 5.2% as Refiners Retreat",
-            "published_utc": "2026-11-19T16:51:12+00:00",
-            "publisher": "SuaraGarut.ID",
-            "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBzMXZ6T3NoWHpFUTVCWjYtSm9qdEgzWXVOem9vY0Q1RFZJRXhHZ2FCU0xyWDZyRmNfbDZIaGtWY196eVRraUhTVWk0Q015QnU5QTVPWE5NVVBLNlRNV2FkRVBGaTBGUnh3cXlzVzlvNlZkM1FSelE?oc=5",
+            "title": "Marathon Petroleum stock: Force majeure declared on pipeline",
+            "published_utc": "2026-11-23T15:16:04+00:00",
+            "publisher": "ad-hoc-news.de",
+            "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQZlBLa05ZQ190Tk1lbGx0YnZUUGxUWENXVmkyMHZ4b2xJQnVIMnRVUm1FUkdUdmhFcmhZcDB3TTkwQnROOTgwSFpmdEluOThzdTZSQzI4Sk1PclZDdkpKbUNhWldxOElhWWkybjBOMVY1SHV6RmZ1bFdrNkhEOWtFV2ZpcnpEWXpoaEpqT2V0QUN2UlFtdEMzNlFVeVRzMmV4VUNHU0tLeDBjUjVWcENzZmRLT2FCandZb1lpSW5EWQ?oc=5",
             "topic": "other"
           }
         ],
         "narratives": [
           {
-            "topic": "financing",
-            "headline": "Marathon Petroleum (MPC) Stock May Be 49% Undervalued Despite Dividend Hike",
-            "published_utc": "2026-11-20T08:09:13+00:00",
-            "publisher": "Simply Wall St",
-            "source_url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPaFdJYVNKWEl0aXZ4WU43c0k0QjF2YWp4LUtZQ21WRlhzQXBDbXN4SWdwSjNKZ0lZanJUbnZHNURrZEIzZlEwRnRsbWZlZVlHVHJvQ1NERU1HSXdIUWh5RFA2c1pnMXl4clBPNVJoTk56c2VRZ05wMUNvbXFqM1ZBMVYwUU5WTWRZYzIzYkdFQ1ZfRWprRkp5bTRRZngyMzk0TUxEX0xGNWJFdUVSVWFEV0VyUTRiXzZodnl3N0Y5dDJDck9yR3ZoazBPSknSAdIBQVVfeXFMUG5zMUtBSHd3alhGdTN2MjRLXy14MkNFVDd1MS1iaEc5NzdpS21OWjN0dTVGOG9oM3JrNWtUV3FqQUFrcHFWdzNEcXFualBEM3FDN3pHc1FkS1ZhZG80ZVBlX19yZkxRT3hqTTNuanMwMWpEQ19MNDJ3V0JoaEtsMGg3UFFvT3NiYWFaQTdoTnJlXzdBTnJkNXJaYm5xR3I0bFU2TkJfTl9TdFR6RkxvZFM1ZGs2bktXRk5tWFlobThGTGl0RnZQSlMzZEViOGFqZzZR?oc=5",
-            "mechanism": "Borrowing costs or capital allocation can affect how much future cash ultimately belongs to shareholders.",
-            "competing_reading": "Higher dividends or buybacks can be funded by debt and are not automatically value creation.",
-            "test": "Check the balance sheet, debt maturities and cash available after capital spending.",
-            "evidence_level": "headline_coverage_not_confirmed_event"
-          },
-          {
             "topic": "competition",
-            "headline": "Marathon Petroleum Corp. stock underperforms Thursday when compared to competitors",
-            "published_utc": "2026-11-19T21:38:00+00:00",
+            "headline": "Marathon Petroleum Corp. stock underperforms Monday when compared to competitors",
+            "published_utc": "2026-11-23T21:38:00+00:00",
             "publisher": "MarketWatch",
-            "source_url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOaTc1bWNCNlJlenRmQjc1SHBxbXVXMVZqb3FMWWM5TG5KYm5teVRRMk1reUVmMkFGVHlDbmZLMGl5SW1PMkJtQ2gteGM0SXZ1UFFZbU5BY0hwRlRuM3h2TWJHczcwYkRGbEVUY3N5VHRuLU1zdkpQWnZHVmZNMTRNMFVxbndBYXhaSmpTb0t6Zk1WYzNOLWZ2blZGWjI0aUJxelVMQ3hMRmgzS0tyYnJBVnhnMmRKdjd6bTlOWkdOS3RpUmVIcnYtZS0zZ0JMN19ubTlmXzJZcjNMTmtiV19ob2l2ZnN0OS1KaURvODNHODY?oc=5",
+            "source_url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPM1E4bDBnVjUwdnBMb2xLbVFlaEVDOGhmbGE0cVhJYXBRdW9yV05Jang1RGRJZ19jVDRPdjI1SXJvc1RZQnMwYWpYT3NHU1ZqN3Eya3dvcGU2Y2R0bHQ2QkNaaEwyRFJJRUhQaFE4cjlULVFhNVJOMEt6MF9ncWlHNXBqMXIwTkRYZThYbW1xWEMwZzlkTmJaMFlQeEdEVGRmalNHbVZzX194OGduRkpMaVJ5aU95c3NLcUtRdFpJVkhqQWxkWmFNNnNNU2xDS1dRTV9IcTd5V0dYVnpReVpPY3RweWVsOTllR3cybnhn?oc=5",
             "mechanism": "A lasting competitive change could alter future demand or the prices the company can charge.",
             "competing_reading": "A competitor announcement does not itself prove customers will switch.",
             "test": "Look for customer wins, product economics and margin changes in company filings.",
@@ -632,10 +621,10 @@
           },
           {
             "topic": "profitability",
-            "headline": "Marathon Petroleum Shares Fall as Refining Sector Weakens",
-            "published_utc": "2026-11-19T16:51:54+00:00",
-            "publisher": "Peradaban.id",
-            "source_url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9tbUp2ZzQ0SXJFUk5uYlZBanRaR0VDU3BoVHJDdmJSYmVtVXN6eDhaTTFRVGYteHFkbG5FZ1Q4TEpPVEl2VlNxbFdjeldvaXNQMmQ5RFNSaE5HeXB3SWxlOVNnT1pBS0Y5R2ZuRm5BMkYxblFM?oc=5",
+            "headline": "Crack Spreads Made Marathon Petroleum A Cash Machine (NYSE:MPC)",
+            "published_utc": "2026-11-23T15:33:51+00:00",
+            "publisher": "Seeking Alpha",
+            "source_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOcTB6NkExUnEtcmoyLURjRVh5a3dnSU9zZWNiUmNnRGVQMHNDMEpJbG5ybHVQZTFKaXp3TjBlRnJ5aVE1bHFqYXFlS3Z1Sm1kXy1LVjNKLWR1NXl4cnNEVTlkVGpaZU5selJKS2lRVjE2MTZ4M2p4dWJ1RkJLSzIycXd0Q3ZTR2hRUXJDMUJ0aHIzOW9YRTdFYg?oc=5",
             "mechanism": "Changes in selling prices or operating costs affect the fraction of sales that becomes profit and cash.",
             "competing_reading": "A temporary price or cost improvement may disappear when conditions normalize.",
             "test": "Check reported operating margins, cash conversion and the reasons for changes.",
@@ -651,14 +640,14 @@
       "ticker": "GLD",
       "name": "Physical gold",
       "metrics": {
-        "price_usd": 322.87,
-        "return_3m_pct": -24.33,
-        "return_6m_pct": -21.98,
-        "asof": "2026-11-20",
+        "price_usd": 333.02,
+        "return_3m_pct": -22.2,
+        "return_6m_pct": -19.56,
+        "asof": "2026-11-23",
         "source": "https://finance.yahoo.com/quote/GLD/history/",
-        "relative_6m_to_voo_pp": -15.19,
+        "relative_6m_to_voo_pp": -16.31,
         "proxy_kind": "Physical gold",
-        "voo_return_6m_pct": -6.79
+        "voo_return_6m_pct": -3.25
       },
       "sources": [
         {
@@ -676,7 +665,7 @@
       ],
       "investment_role": "Portfolio-diversification research, not a commodity spot-price prediction.",
       "qualitative_context": {
-        "asof_utc": "2026-11-21T02:33:22.372362+00:00",
+        "asof_utc": "2026-11-24T02:41:29.924821+00:00",
         "search_url": "https://news.google.com/rss/search?q=%22gold%20prices%20ETF%22%20when%3A7d&hl=en-US&gl=US&ceid=US:en",
         "news_window_days": 7,
         "headline_sample": [],
@@ -689,6 +678,6 @@
   "excluded": "All cryptocurrency, tokens and crypto-exposed businesses; no crypto recommendations.",
   "benchmark": "VOO after costs where comparable",
   "diagnostics": [],
-  "qualitative_asof_utc": "2026-11-21T02:33:22.372362+00:00",
+  "qualitative_asof_utc": "2026-11-24T02:41:29.924821+00:00",
   "qualitative_method": "Dated headline watch + SEC filings; causal implications are conditional, not sentiment forecasts."
 }

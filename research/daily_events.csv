@@ -43,3 +43,4 @@ completed_close,ticker,event_type,details,recorded_utc,timing
 2026-11-16,PEP,STOCK_WATCH_ONLY,"{""score_pct"": 3.5, ""ticker"": ""PEP"", ""type"": ""STOCK_WATCH_ONLY""}",2026-11-17 02:35 UTC,BEFORE_NEXT_ESTIMATED_OPEN
 2026-11-17,XLU,ETF_PAPER_EXIT_REVIEW,"{""new_weight"": 0, ""old_weight"": 0.5, ""ticker"": ""XLU"", ""type"": ""ETF_PAPER_EXIT_REVIEW""}",2026-11-18 02:37 UTC,BEFORE_NEXT_ESTIMATED_OPEN
 2026-11-18,DIS,STOCK_WATCH_ONLY,"{""score_pct"": 15.79, ""ticker"": ""DIS"", ""type"": ""STOCK_WATCH_ONLY""}",2026-11-19 02:36 UTC,BEFORE_NEXT_ESTIMATED_OPEN
+2026-11-23,WMT,STOCK_WATCH_ONLY,"{""score_pct"": 17.6, ""ticker"": ""WMT"", ""type"": ""STOCK_WATCH_ONLY""}",2026-11-24 02:41 UTC,BEFORE_NEXT_ESTIMATED_OPEN
