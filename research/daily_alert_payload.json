@@ -1,10 +1,10 @@
 {
   "notify": true,
-  "latest_close": "2026-11-23",
+  "latest_close": "2026-11-24",
   "events": [
     {
-      "score_pct": 17.6,
-      "ticker": "WMT",
+      "score_pct": 14.45,
+      "ticker": "DIS",
       "type": "STOCK_WATCH_ONLY"
     }
   ]

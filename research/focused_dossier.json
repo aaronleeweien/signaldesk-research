@@ -1,7 +1,7 @@
 {
   "version": "focused_dossier_v1",
-  "market_date": "2026-11-23",
-  "generated_utc": "2026-11-24T02:41:29.774707+00:00",
+  "market_date": "2026-11-24",
+  "generated_utc": "2026-11-25T10:30:17.087535+00:00",
   "screened_total": 751,
   "selected_equities": 2,
   "asset_count": 3,
@@ -14,37 +14,37 @@
         "ticker": "KNSA",
         "name": "Kiniksa Pharmaceuticals International, plc",
         "fiscal_year_end": "2025-12-31",
-        "market_cap_usd": 7754241536.0,
-        "forward_pe": 48.259167,
+        "market_cap_usd": 8070885376.0,
+        "forward_pe": 50.229828,
         "revenue_usd": 677564000.0,
         "revenue_growth_yoy_pct": 60.09,
         "net_income_usd": 59005000.0,
         "operating_cash_usd": 137985000.0,
         "capital_spending_usd": 1568000.0,
         "fcf_usd": 136417000.0,
-        "fcf_yield_pct": 1.76,
+        "fcf_yield_pct": 1.69,
         "fcf_positive_years": 3,
         "fcf_years_available": 3,
         "cash_usd": 81660000.0,
         "debt_usd": null,
-        "price_implied_fcf_growth_pct": 45.99,
+        "price_implied_fcf_growth_pct": 47.24,
         "reverse_model_required_return_pct": 11.0,
         "reverse_model_terminal_growth_pct": 2.0,
         "scenario_sensitivity": {
           "no_growth": {
             "annual_fcf_growth_assumed_pct": 0.0,
             "illustrative_equity_value_usd": 1421694148.08,
-            "value_as_pct_of_current_market_cap": 18.33
+            "value_as_pct_of_current_market_cap": 17.62
           },
           "moderate_growth": {
             "annual_fcf_growth_assumed_pct": 5.0,
             "illustrative_equity_value_usd": 1750134468.84,
-            "value_as_pct_of_current_market_cap": 22.57
+            "value_as_pct_of_current_market_cap": 21.68
           },
           "fast_growth": {
             "annual_fcf_growth_assumed_pct": 10.0,
             "illustrative_equity_value_usd": 2141530801.28,
-            "value_as_pct_of_current_market_cap": 27.62
+            "value_as_pct_of_current_market_cap": 26.53
           }
         },
         "annual_history": [
@@ -66,13 +66,13 @@
         ]
       },
       "price_context": {
-        "last_price_date": "2026-11-23",
-        "last_close_usd": 98.69,
-        "return_last_year_pct": 137.86,
-        "voo_same_year_pct": 11.93,
-        "relative_to_voo_year_pp": 125.93,
-        "momentum_3m_pct": 23.05,
-        "momentum_6m_pct": 86.7,
+        "last_price_date": "2026-11-24",
+        "last_close_usd": 102.72,
+        "return_last_year_pct": 147.04,
+        "voo_same_year_pct": 10.3,
+        "relative_to_voo_year_pp": 136.75,
+        "momentum_3m_pct": 30.55,
+        "momentum_6m_pct": 98.15,
         "above_200d_average": true
       },
       "sources": [
@@ -144,39 +144,39 @@
         },
         {
           "id": "S12",
+          "kind": "News-index headline · GuruFocus · 2026-11-25",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPZDU3Q2hRZlBmS2x0OHRuXzN1MEdlWHAzQVlRdFYwN3pJV2R3MzUwNXloNGZHYnhFMVFZYmRPR1BCemZhZmZSSHJrd1RlcmVHYlY2R0dYeXQ3YlpaNHc3QmVvUlVXN0pubU1RUVFkRlZkTWJlS1Z3LXRLSWNqbWZmQ1drdXFSYm8zUEJjQWd1ZFNYeGdRRUtrVXVNODlDNnlZazNJSTh1dDJ3cFN0SUwzN0RNNmhMcnlSZGNCTExJZkRKNlI0V3F4QTRIa2loV3dUc3BvSGNGd0o?oc=5",
+          "summary": "Headline only, not checked article text: Kiniksa Pharmaceuticals International PLC (KNSA) Stock Up 4.1% b"
+        },
+        {
+          "id": "S13",
+          "kind": "News-index headline · kalkine.com · 2026-11-24",
+          "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOUk1MRFpBZ3lFaGlaYnNRWDNnTjdRTnNKS2F5cUJBLTVCeVpBbmxrNmltY1ZpY1h1SWZxRWt5NVhQbWJ0SnBvbklZUndYdUpQTWsyUmhGSERnc2UyRWtZWXR0YzVwN0xPNHRlOUN0b29oV2I3MlJuaHZVQ1RXTS1hWjBQemdrdTNmdDZXeUhVdzdkTUNTbHFNajVKajlFbVI2SEpBbXd6RVp1UFpPcnVmakhqS011UXVQMmExczIwYk5BWEFVd0JMSGNXNTRGbUpHMG96LVN6SGFtMmtid1RUYzFzU3l1WnU5TEoyYlNoQmxUWTBDanV0Y3dnUGlGdDl5?oc=5",
+          "summary": "Headline only, not checked article text: Kiniksa Pharmaceuticals (NASDAQ:KNSA) Reports Third Quarter Results, Raised ARCALYST Guidance and Pipeline Update: Stock Sees Unusual Volume"
+        },
+        {
+          "id": "S14",
           "kind": "News-index headline · Investing.com Canada · 2026-11-23",
           "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNb1UyRDVIYm5CZjFNNGYtbmQtd25PYUdQa1ZkLXVtbjF5Z0pRdW00ZlB6dWxIOGJrMnpwcl8tcGRXaC1GNGZ0SmRjdGNSS3JUX09UM2pBNm5FMXFVQ0xWeE5EUjM3Z0xwNmkxTWd4OTZ6ZkJvc3lTUEUxbk5xR0JVWUFHQ2cxRi0tQWJsYXlKbHV6NDZiZEp2TzR2dENOUE9ESzdOcmJPU3B4alV2bm5RNzFNQWlZVXNhOF9JVg?oc=5",
           "summary": "Headline only, not checked article text: Kiniksa Pharmaceuticals stock hits all-time high of 99.37 USD By Investing.com"
         },
         {
-          "id": "S13",
+          "id": "S15",
           "kind": "News-index headline · MarketBeat · 2026-11-23",
           "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPeXh0ZU1wdlFIQ1phN21OamtLNWZCeGpSeW8taHh3QlB1amh2THBSQ1NFV04wdk5kLW9tcjJVcUUxRlpidVJOU0p4R0ZPUkhXZ0FILTdHdjBpcDRPNXRyLVNWbjJVaWlCc1NPWVhUZ2pmcjF6dzlKTzNFRXI1aEJxRVdIaTByMGczakFOVzNwUm4tNXZIckZoM05GNEM5Ry1nMmxSb29NTUdEM2ROdkY1VUxBeFRsdFJjSkhlYTVMWWQzcGJkMG5aQ1BrZF9uMk53YUpiYm9UenZuRkk?oc=5",
           "summary": "Headline only, not checked article text: Kiniksa Pharmaceuticals International (NASDAQ:KNSA) Reaches New 1-Year High - Here's Why"
         },
         {
-          "id": "S14",
+          "id": "S16",
           "kind": "News-index headline · Yahoo Finance Singapore · 2026-11-21",
           "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1VN1ByX0d5WXBMN24xUDB3VnlvZkk5N3Q1dURtZk50RW5MN3dZLW1IQnZOa1k4YnRCQ0JqeGZ6MWxZVFd0UGl1TExOZXh4aHlGYmc?oc=5",
           "summary": "Headline only, not checked article text: Kiniksa Pharmaceuticals International, plc (KNSA) stock price, news, quote and history"
         },
         {
-          "id": "S15",
+          "id": "S17",
           "kind": "News-index headline · Yahoo! Finance Canada · 2026-11-21",
           "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE41RFI5aF9vSTFuN0dudGpiZXRrZHVqZjlkWGZrak51OGR5SmgwX0NHaUlPaWtnWHVMVFR3YThRdTJKSHJtSjlEYU9sYTJhS0w5OEE?oc=5",
           "summary": "Headline only, not checked article text: Kiniksa Pharmaceuticals International, plc (KNSA) Stock Price, News, Quote & History"
-        },
-        {
-          "id": "S16",
-          "kind": "News-index headline · TradingView · 2026-11-20",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPcXhnX3psYlVqMEtrczUyV0xzcEZTWUNubzFsN2tyUUo1M1FjSjdkZUwtcVRrVl9ja3gxcjVvRVh5bFBfanhqTmN4Z2lONVdWX0c4RmZfMHEybElXVVBibjlXNFU5b3ZMc25fRXVGN243RWpzVl9iZEc1QnFGUEhtZUtoVHQ1SjlwS0diS1VqVWN2bkpidzl6TmwwMlpQYk1KYnZpRldjbVl2bEtOU3ludW15VTJUSUNOVWtsUHA0aGNmeWp6bmRZMg?oc=5",
-          "summary": "Headline only, not checked article text: Are Options Traders Betting on a Big Move in Kiniksa Pharmaceuticals Stock?"
-        },
-        {
-          "id": "S17",
-          "kind": "News-index headline · Kalkine India · 2026-11-19",
-          "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNNlI0alNFaHNSWmIwREc2WkphM2luYWExRTl5VmVzQ0RKTWRSVkZkT3NERU1CeXJwTFJRdXpjRFhmcURQeXRyRjNlUndJS2lDOElNdGpXWW55LWVfc1FqRy1uemxYQy1RMVBiVXRzVVFVdXItV0pPQ25LZ2ZDN2R1RlBvM2Q1MVZSeUppODFXcVUxdS1CQ1dfQWxIMFY1WW1NSUNyQUVLbDh0YkFrMFcxLVNBTHZCUWNnMlNQSjhVeGczeWdzWHZEZEROWmNoX1gwSHJmM29DMHNwVmE1UzY2T1hBcFprOC1vcVNKZk9TYjZLTXFZVHJJandFQW1WSHVid20zRmV1VHFVdw?oc=5",
-          "summary": "Headline only, not checked article text: Kiniksa Pharmaceuticals Stock: Price Action, Valuation and Momentum"
         }
       ],
       "filings": {
@@ -257,10 +257,24 @@
       },
       "investment_role": "Candidate for multi-year valuation research, not an approved trade.",
       "qualitative_context": {
-        "asof_utc": "2026-11-24T02:41:29.924821+00:00",
+        "asof_utc": "2026-11-25T10:30:17.266627+00:00",
         "search_url": "https://news.google.com/rss/search?q=%22Kiniksa%20Pharmaceuticals%20International%22%20when%3A7d&hl=en-US&gl=US&ceid=US:en",
         "news_window_days": 7,
         "headline_sample": [
+          {
+            "title": "Kiniksa Pharmaceuticals International PLC (KNSA) Stock Up 4.1% b",
+            "published_utc": "2026-11-25T00:57:08+00:00",
+            "publisher": "GuruFocus",
+            "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPZDU3Q2hRZlBmS2x0OHRuXzN1MEdlWHAzQVlRdFYwN3pJV2R3MzUwNXloNGZHYnhFMVFZYmRPR1BCemZhZmZSSHJrd1RlcmVHYlY2R0dYeXQ3YlpaNHc3QmVvUlVXN0pubU1RUVFkRlZkTWJlS1Z3LXRLSWNqbWZmQ1drdXFSYm8zUEJjQWd1ZFNYeGdRRUtrVXVNODlDNnlZazNJSTh1dDJ3cFN0SUwzN0RNNmhMcnlSZGNCTExJZkRKNlI0V3F4QTRIa2loV3dUc3BvSGNGd0o?oc=5",
+            "topic": "other"
+          },
+          {
+            "title": "Kiniksa Pharmaceuticals (NASDAQ:KNSA) Reports Third Quarter Results, Raised ARCALYST Guidance and Pipeline Update: Stock Sees Unusual Volume",
+            "published_utc": "2026-11-24T20:56:00+00:00",
+            "publisher": "kalkine.com",
+            "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOUk1MRFpBZ3lFaGlaYnNRWDNnTjdRTnNKS2F5cUJBLTVCeVpBbmxrNmltY1ZpY1h1SWZxRWt5NVhQbWJ0SnBvbklZUndYdUpQTWsyUmhGSERnc2UyRWtZWXR0YzVwN0xPNHRlOUN0b29oV2I3MlJuaHZVQ1RXTS1hWjBQemdrdTNmdDZXeUhVdzdkTUNTbHFNajVKajlFbVI2SEpBbXd6RVp1UFpPcnVmakhqS011UXVQMmExczIwYk5BWEFVd0JMSGNXNTRGbUpHMG96LVN6SGFtMmtid1RUYzFzU3l1WnU5TEoyYlNoQmxUWTBDanV0Y3dnUGlGdDl5?oc=5",
+            "topic": "demand"
+          },
           {
             "title": "Kiniksa Pharmaceuticals stock hits all-time high of 99.37 USD By Investing.com",
             "published_utc": "2026-11-23T20:24:04+00:00",
@@ -288,343 +302,330 @@
             "publisher": "Yahoo! Finance Canada",
             "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE41RFI5aF9vSTFuN0dudGpiZXRrZHVqZjlkWGZrak51OGR5SmgwX0NHaUlPaWtnWHVMVFR3YThRdTJKSHJtSjlEYU9sYTJhS0w5OEE?oc=5",
             "topic": "other"
-          },
-          {
-            "title": "Are Options Traders Betting on a Big Move in Kiniksa Pharmaceuticals Stock?",
-            "published_utc": "2026-11-20T13:13:00+00:00",
-            "publisher": "TradingView",
-            "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPcXhnX3psYlVqMEtrczUyV0xzcEZTWUNubzFsN2tyUUo1M1FjSjdkZUwtcVRrVl9ja3gxcjVvRVh5bFBfanhqTmN4Z2lONVdWX0c4RmZfMHEybElXVVBibjlXNFU5b3ZMc25fRXVGN243RWpzVl9iZEc1QnFGUEhtZUtoVHQ1SjlwS0diS1VqVWN2bkpidzl6TmwwMlpQYk1KYnZpRldjbVl2bEtOU3ludW15VTJUSUNOVWtsUHA0aGNmeWp6bmRZMg?oc=5",
-            "topic": "other"
-          },
-          {
-            "title": "Kiniksa Pharmaceuticals Stock: Price Action, Valuation and Momentum",
-            "published_utc": "2026-11-19T10:20:00+00:00",
-            "publisher": "Kalkine India",
-            "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNNlI0alNFaHNSWmIwREc2WkphM2luYWExRTl5VmVzQ0RKTWRSVkZkT3NERU1CeXJwTFJRdXpjRFhmcURQeXRyRjNlUndJS2lDOElNdGpXWW55LWVfc1FqRy1uemxYQy1RMVBiVXRzVVFVdXItV0pPQ25LZ2ZDN2R1RlBvM2Q1MVZSeUppODFXcVUxdS1CQ1dfQWxIMFY1WW1NSUNyQUVLbDh0YkFrMFcxLVNBTHZCUWNnMlNQSjhVeGczeWdzWHZEZEROWmNoX1gwSHJmM29DMHNwVmE1UzY2T1hBcFprOC1vcVNKZk9TYjZLTXFZVHJJandFQW1WSHVid20zRmV1VHFVdw?oc=5",
-            "topic": "other"
           }
         ],
-        "narratives": [],
+        "narratives": [
+          {
+            "topic": "demand",
+            "headline": "Kiniksa Pharmaceuticals (NASDAQ:KNSA) Reports Third Quarter Results, Raised ARCALYST Guidance and Pipeline Update: Stock Sees Unusual Volume",
+            "published_utc": "2026-11-24T20:56:00+00:00",
+            "publisher": "kalkine.com",
+            "source_url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOUk1MRFpBZ3lFaGlaYnNRWDNnTjdRTnNKS2F5cUJBLTVCeVpBbmxrNmltY1ZpY1h1SWZxRWt5NVhQbWJ0SnBvbklZUndYdUpQTWsyUmhGSERnc2UyRWtZWXR0YzVwN0xPNHRlOUN0b29oV2I3MlJuaHZVQ1RXTS1hWjBQemdrdTNmdDZXeUhVdzdkTUNTbHFNajVKajlFbVI2SEpBbXd6RVp1UFpPcnVmakhqS011UXVQMmExczIwYk5BWEFVd0JMSGNXNTRGbUpHMG96LVN6SGFtMmtid1RUYzFzU3l1WnU5TEoyYlNoQmxUWTBDanV0Y3dnUGlGdDl5?oc=5",
+            "mechanism": "If this reflects real changes in customer spending, it could change future sales and cash generation.",
+            "competing_reading": "A strong headline may describe an already expected development, or orders that are not yet profitable.",
+            "test": "Compare the next reported sales and customer guidance with the previous filing and market expectations.",
+            "evidence_level": "headline_coverage_not_confirmed_event"
+          }
+        ],
         "coverage_limit": "An indexed RSS headline sample, not a full-text article review, verified event, consensus forecast, or investor sentiment poll.",
         "fetch_issues": []
       }
     },
     {
       "kind": "equity",
-      "ticker": "MPC",
-      "name": "Marathon Petroleum Corporation",
+      "ticker": "CROX",
+      "name": "CROCS, INC.",
       "metrics": {
-        "ticker": "MPC",
-        "name": "Marathon Petroleum Corporation",
+        "ticker": "CROX",
+        "name": "CROCS, INC.",
         "fiscal_year_end": "2025-12-31",
-        "market_cap_usd": 97392648192.0,
-        "forward_pe": 6.143686,
-        "revenue_usd": 132699000000.0,
-        "revenue_growth_yoy_pct": -4.44,
-        "net_income_usd": 4047000000.0,
-        "operating_cash_usd": 8253000000.0,
-        "capital_spending_usd": 3486000000.0,
-        "fcf_usd": 4767000000.0,
-        "fcf_yield_pct": 4.89,
+        "market_cap_usd": 7281255424.0,
+        "forward_pe": 9.945682,
+        "revenue_usd": 4040647000.0,
+        "revenue_growth_yoy_pct": -1.5,
+        "net_income_usd": -81198000.0,
+        "operating_cash_usd": 710431000.0,
+        "capital_spending_usd": 51231000.0,
+        "fcf_usd": 659200000.0,
+        "fcf_yield_pct": 9.05,
         "fcf_positive_years": 3,
         "fcf_years_available": 3,
-        "cash_usd": 12805000000.0,
-        "debt_usd": 3311000000.0,
-        "price_implied_fcf_growth_pct": 16.76,
+        "cash_usd": 163457000.0,
+        "debt_usd": 1289044000.0,
+        "price_implied_fcf_growth_pct": 1.38,
         "reverse_model_required_return_pct": 11.0,
         "reverse_model_terminal_growth_pct": 2.0,
         "scenario_sensitivity": {
           "no_growth": {
             "annual_fcf_growth_assumed_pct": 0.0,
-            "illustrative_equity_value_usd": 49680142532.83,
-            "value_as_pct_of_current_market_cap": 51.01
+            "illustrative_equity_value_usd": 6869970622.54,
+            "value_as_pct_of_current_market_cap": 94.35
           },
           "moderate_growth": {
             "annual_fcf_growth_assumed_pct": 5.0,
-            "illustrative_equity_value_usd": 61157267884.14,
-            "value_as_pct_of_current_market_cap": 62.79
+            "illustrative_equity_value_usd": 8457073838.73,
+            "value_as_pct_of_current_market_cap": 116.15
           },
           "fast_growth": {
             "annual_fcf_growth_assumed_pct": 10.0,
-            "illustrative_equity_value_usd": 74834348576.12,
-            "value_as_pct_of_current_market_cap": 76.84
+            "illustrative_equity_value_usd": 10348395758.63,
+            "value_as_pct_of_current_market_cap": 142.12
           }
         },
         "annual_history": [
           {
             "fiscal_year_ended": "2025-12-31",
-            "revenue_usd": 132699000000.0,
-            "free_cash_flow_usd": 4767000000.0
+            "revenue_usd": 4040647000.0,
+            "free_cash_flow_usd": 659200000.0
           },
           {
             "fiscal_year_ended": "2024-12-31",
-            "revenue_usd": 138864000000.0,
-            "free_cash_flow_usd": 6132000000.0
+            "revenue_usd": 4102108000.0,
+            "free_cash_flow_usd": 923139000.0
           },
           {
             "fiscal_year_ended": "2023-12-31",
-            "revenue_usd": 148379000000.0,
-            "free_cash_flow_usd": 12227000000.0
+            "revenue_usd": 3962347000.0,
+            "free_cash_flow_usd": 814819000.0
           }
         ]
       },
       "price_context": {
-        "last_price_date": "2026-11-23",
-        "last_close_usd": 357.69,
-        "return_last_year_pct": 93.14,
-        "voo_same_year_pct": 11.93,
-        "relative_to_voo_year_pp": 81.21,
-        "momentum_3m_pct": 1.07,
-        "momentum_6m_pct": 45.0,
+        "last_price_date": "2026-11-24",
+        "last_close_usd": 159.24,
+        "return_last_year_pct": 95.53,
+        "voo_same_year_pct": 10.3,
+        "relative_to_voo_year_pp": 85.23,
+        "momentum_3m_pct": 28.79,
+        "momentum_6m_pct": 34.5,
         "above_200d_average": true
       },
       "sources": [
         {
           "id": "S1",
           "kind": "SEC company financial facts",
-          "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001510295.json",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001334036.json",
           "summary": "SEC filed annual statements; values computed in verified_metrics, including fiscal year and filing dates."
         },
         {
           "id": "S2",
           "kind": "Market screener snapshot",
-          "url": "https://finance.yahoo.com/quote/MPC/financials/",
+          "url": "https://finance.yahoo.com/quote/CROX/financials/",
           "summary": "Yahoo screen-forward P/E and as-of market capitalization are non-audited and change daily."
         },
         {
           "id": "S3",
           "kind": "SEC submissions",
-          "url": "https://data.sec.gov/submissions/CIK0001510295.json",
+          "url": "https://data.sec.gov/submissions/CIK0001334036.json",
           "summary": "Dated SEC filing history, including recent 10-Q and 8-K documents."
         },
         {
           "id": "S4",
-          "kind": "10-Q filed 2026-11-03",
-          "url": "https://www.sec.gov/Archives/edgar/data/1510295/000151029526000071/mpc-20260930.htm",
+          "kind": "10-Q filed 2026-10-29",
+          "url": "https://www.sec.gov/Archives/edgar/data/1334036/000133403626000060/crox-20260930.htm",
           "summary": "10-Q primary filing document; examine before relying on management claims."
         },
         {
           "id": "S5",
-          "kind": "8-K filed 2026-11-03",
-          "url": "https://www.sec.gov/Archives/edgar/data/1510295/000151029526000069/mpc-20261103.htm",
+          "kind": "8-K filed 2026-10-29",
+          "url": "https://www.sec.gov/Archives/edgar/data/1334036/000133403626000058/crox-20261029.htm",
           "summary": "8-K primary filing document; examine before relying on management claims."
         },
         {
           "id": "S6",
-          "kind": "8-K filed 2026-10-29",
-          "url": "https://www.sec.gov/Archives/edgar/data/1510295/000151029526000063/mpc-20261028.htm",
-          "summary": "8-K primary filing document; examine before relying on management claims."
-        },
-        {
-          "id": "S7",
-          "kind": "10-Q filed 2026-08-04",
-          "url": "https://www.sec.gov/Archives/edgar/data/1510295/000151029526000061/mpc-20260630.htm",
+          "kind": "10-Q filed 2026-07-30",
+          "url": "https://www.sec.gov/Archives/edgar/data/1334036/000133403626000052/crox-20260630.htm",
           "summary": "10-Q primary filing document; examine before relying on management claims."
         },
         {
+          "id": "S7",
+          "kind": "8-K filed 2026-07-30",
+          "url": "https://www.sec.gov/Archives/edgar/data/1334036/000133403626000050/crox-20260730.htm",
+          "summary": "8-K primary filing document; examine before relying on management claims."
+        },
+        {
           "id": "S8",
-          "kind": "10-K primary filing, 2026-02-26",
-          "url": "https://www.sec.gov/Archives/edgar/data/1510295/000151029526000009/mpc-20251231.htm",
+          "kind": "10-K primary filing, 2026-02-12",
+          "url": "https://www.sec.gov/Archives/edgar/data/1334036/000133403626000006/crox-20251231.htm",
           "summary": "Official company filing. The cited report is a research lead, not an independently verified claim."
         },
         {
           "id": "S9",
-          "kind": "10-K read passages, filed 2026-02-26",
-          "url": "https://www.sec.gov/Archives/edgar/data/1510295/000151029526000009/mpc-20251231.htm",
-          "summary": "Management discussion: Management’s Discussion and Analysis of Financial Condition and Results of Operations and Item 7A. Quantitative and Qualitative Disclosures about Market Risk includes forward-looking statements that are subject to risks, contingencies or uncertainties. You can identify forward-looking statements by words such as “advance,” “anticipate,” “believe,” “commitment,” “continue,” “could,” “design,” “drive,” “endeavor,” “estimate,” “expect,” “focus,” “fo Risk factors: Risk Factors, Item 3. Legal Proceedings, Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations and Item 7A. Quantitative and Qualitative Disclosures about Market Risk includes forward-looking statements that are subject to risks, contingencies or uncertainties. You can identify forward-looking statements by words such as “advance,” “anticipate,” “believe,” “commitment,” “continue,” “could,” “design,” “drive Business overview: Item 1. Business, Item 1A. Risk Factors, Item 3. Legal Proceedings, Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations and Item 7A. Quantitative and Qualitative Disclosures about Market Risk includes forward-looking statements that are subject to ri"
+          "kind": "10-K read passages, filed 2026-02-12",
+          "url": "https://www.sec.gov/Archives/edgar/data/1334036/000133403626000006/crox-20251231.htm",
+          "summary": "Management discussion: Management’s Discussion and Analysis of Financial Condition and Results of Operations and Note 16 — Operating Segments and Geographic Information in the accompanying notes to the consolidated financial statements included in Part II - Item 8. Financial Statements and Supplementary Data of this Annual Report on Form 10-K for financial information related to our reportable operating segments. Raw Materials Crocs Brand Croslite™, our proprietary clo Risk factors: Risk Factors of this Annual Report on Form 10-K. These risks include, but are not limited to, the following: • our substantial dependence on the value of our brands and our failure to strengthen and preserve this value; • the significant competition that we face; • introducing new products, which may be difficult and expensive; • our failure to adequately protect our trademarks and other intellectual property rights and counterfeiting of our bran Business overview: ITEM 1. Business The Company Crocs, Inc. and our consolidated subsidiaries (collectively, the “Company,” “we,” “us,” or “our”) are engaged in the design, development, worldwide marketing, distribution, and sale of casual lifestyle footwear and accessories for all. We strive to be the world l"
         },
         {
           "id": "S10",
-          "kind": "10-Q read passages, filed 2026-11-03",
-          "url": "https://www.sec.gov/Archives/edgar/data/1510295/000151029526000071/mpc-20260930.htm",
-          "summary": "Management discussion: Management’s Discussion and Analysis of Financial Condition and Results of Operations This section should also be read in conjunction with the unaudited consolidated financial statements and accompanying footnotes included under Item 1. Financial Statements and in conjunction with our Annual Report on Form 10-K for the year ended December 31, 2025. DISCLOSURES REGARDING FORWARD-LOOKING STATEMENTS This Quarterly Report on Form 10-Q, particularly I Risk factors: risk factors affecting our business, see the risk factors described in our Annual Report on Form 10-K for the year ended December 31, 2025. We undertake no obligation to update any forward-looking statements except to the extent required by applicable law. EXECUTIVE SUMMARY Business and Economic Environment Update Our Refining & Marketing segment results for the third quarter of 2026 versus the third quarter of 2025 reflect higher realized refini"
+          "kind": "10-Q read passages, filed 2026-10-29",
+          "url": "https://www.sec.gov/Archives/edgar/data/1334036/000133403626000060/crox-20260930.htm",
+          "summary": "Management discussion: Management’s Discussion and Analysis of Financial Condition and Results of Operations Business Overview Crocs, Inc. and our consolidated subsidiaries (collectively the “Company,” “we,” “us,” or “our”) are engaged in the design, development, worldwide marketing, distribution, and sale of casual lifestyle footwear and accessories for all. We strive to be the world leader in innovative casual footwear for all, combining comfort and style with a valu Risk factors: Risk Factors” under Item 1A in this report. Caution should be taken not to place undue reliance on any such forward-looking statements. Moreover, such forward-looking statements speak only as of the date of this report. We undertake no obligation to update any forward-looking statements to reflect events or circumstances after the date of such statements, except as required by applicable law. i Table of Contents Crocs, Inc. Table of Contents to t"
         },
         {
           "id": "S11",
-          "kind": "8-K read passages, filed 2026-11-03",
-          "url": "https://www.sec.gov/Archives/edgar/data/1510295/000151029526000069/mpc-20261103.htm",
-          "summary": "Filing excerpt: UNITED STATES SECURITIES AND EXCHANGE COMMISSION Washington, D.C. 20549 _____________________________________________ FORM 8-K _____________________________________________ CURRENT REPORT Pursuant to Section 13 or 15(d) of the Securities Exchange Act of 1934 Date of Report (Date of earliest event reported) November 3, 2026 _____________________________________________ Marathon Petroleum Corporation (Exact name of registrant as specified in its ch"
+          "kind": "8-K read passages, filed 2026-10-29",
+          "url": "https://www.sec.gov/Archives/edgar/data/1334036/000133403626000058/crox-20261029.htm",
+          "summary": "Filing excerpt: UNITED STATES SECURITIES AND EXCHANGE COMMISSION WASHINGTON, D.C. 20549 FORM 8-K CURRENT REPORT Pursuant to Section 13 or 15(d) of the Securities Exchange Act of 1934 Date of Report (date of earliest event reported): October 29, 2026 CROCS, INC. (Exact name of registrant as specified in its charter) Delaware 0-51754 20-2164234 (State or other jurisdiction (Commission File Number) (I.R.S. Employer of incorporation) Identification No.) 500 Eldorado"
         },
         {
           "id": "S12",
-          "kind": "News-index headline · MarketBeat · 2026-11-23",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNTVpuU1FKY3kwR1lVTEJlbjYyQ0dxeFVOUkk2RU5ZT0xPc0I5ck82MElNME02Szk1b0NhRVpwWEhjNGwya0ctd2VVVmZJbGxZQ25aSnVNTThHYTAyWUctOTJvR2VuNUQyNXBmSHI1ZnNreWlQYjU5X25MZjNGRlBKVi0tWXhHT0NyX2k5UTZNdUxIX1E1aHdjeVBFRFVQdUlpNGpLdDhKdlZaT1dVZWxXYVNXNHV3VkM5YUljTUJVcVlveFhXMlF2SWJERQ?oc=5",
-          "summary": "Headline only, not checked article text: Marathon Petroleum (NYSE:MPC) Stock Price Down 2.4% After Analyst Downgrade"
+          "kind": "News-index headline · Yahoo Finance · 2026-11-23",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQc1ZQbTlSYlZrTjR0b3NBWUpOQ29JOGc5WWRmWXA4NGV1eEV2VXA4eWdmb0tndEFNUWlHdHMyZU9uZnlYMDV3QXAzRm15MXdVVTNjXzNJMGRrRm5RZXc2M1R0SXRtSHg3N09sQmJmcEhJUndHMk8tdU9zLS1IV2liYmxMZVhFYndTQS02LWNlZm14bUlHQ3N3R3g3YktXeHN1SUN1TXcxQVcta1lT?oc=5",
+          "summary": "Headline only, not checked article text: Are Consumer Discretionary Stocks Lagging Crocs (CROX) This Year?"
         },
         {
           "id": "S13",
-          "kind": "News-index headline · MarketWatch · 2026-11-23",
-          "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPM1E4bDBnVjUwdnBMb2xLbVFlaEVDOGhmbGE0cVhJYXBRdW9yV05Jang1RGRJZ19jVDRPdjI1SXJvc1RZQnMwYWpYT3NHU1ZqN3Eya3dvcGU2Y2R0bHQ2QkNaaEwyRFJJRUhQaFE4cjlULVFhNVJOMEt6MF9ncWlHNXBqMXIwTkRYZThYbW1xWEMwZzlkTmJaMFlQeEdEVGRmalNHbVZzX194OGduRkpMaVJ5aU95c3NLcUtRdFpJVkhqQWxkWmFNNnNNU2xDS1dRTV9IcTd5V0dYVnpReVpPY3RweWVsOTllR3cybnhn?oc=5",
-          "summary": "Headline only, not checked article text: Marathon Petroleum Corp. stock underperforms Monday when compared to competitors"
+          "kind": "News-index headline · Simply Wall St · 2026-11-23",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQMmtScDVXcDktZTFpNG04ckM2YjNxeTNfdlVYSWJNblBlRkhYZXlBNEJ5LUNYcWo1QlZ6dm0yc29JZTN6LXFObk9IeTRESjJVX2xPdnRxNk5udzhkZm5PSUNnN3RnSV9obGR0aW16T2pCQnVmMGpMN2RXTjRjM0V4UnBqejg3RW5TU2RpUUd3T3pEbEJXWlZCTTNBalBuV3lQUGtZUktJTGUxajlJMkd3TzU4NktxblFmVGpoTTBlRER1SnlNN2g4X2JzU2Vod9IB0wFBVV95cUxOQm1ncEo5OFNSYU50cXoyNFBZNGdyTEFpZ1RNV2Ywal9lNGFXS2dDS0IycFFMaVpoSXJ5TTVGUkFlUkExMExUeDMxNmZtNGdadHo0Qi1fV1dfT1FwclFSc2hWMHgzd1BFbS1Ldm8tVkVMM1U4alRVNG92NGR1SXo2NVlvYVcxaS1wRVEzQjFYQ3NlODJrZFJnOGFMWF91R3V6N1Npdk1zZ1VaSV9ON19CWGhnbUdZTHRQem1yd3RyN0lJbGlWVVZORnNkY2xnemRjRGpn?oc=5",
+          "summary": "Headline only, not checked article text: Should Conference Update Require Action From Crocs (CROX) Investors?"
         },
         {
           "id": "S14",
-          "kind": "News-index headline · TradingView · 2026-11-23",
-          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOQmZHNktOdEsxZVJaaVIzZUpraDVYNFRubnpTcmplZFhZSVphdU81ajRrZThnRHFfWEM1NENyd3FUQnctektnOERoSjd6LWZRV3I2SEpvRG4zT1JiZUtqUXRLLWZKVzhEUFMtWWhxVjU5M2F6NEtKb1NXLUFwZ21OOHIzNUFzVDNmeGRJalZkd3dIWEFjeXk4aExDLXZrOTVSVWxBLTZGa0M2SVhseDgzZE5HeFpwR0FFaDZ5Si1qcTRja3JmSGtqbXZ4b0xfZFpFMnFtX091azRuVzBGT1ZhcA?oc=5",
-          "summary": "Headline only, not checked article text: Citigroup maintains Marathon Petroleum at Neutral, lowers price target to $415 from $518"
+          "kind": "News-index headline · Simply Wall St · 2026-11-22",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE0zb0xTbmZmYzNHVmlqVDc3TndfZmVzNUY2eGRoMnRNN3ZGVTdxLVRnMDBhcVR0a2FmMnBxa3Z1YmJhdEN6ZjJwdlRyVTktd2pScXE0bVNBOFBkbGJaa3E2M0gwY1ZQNUZHX0hOX3p2WHMwbkZGOFE?oc=5",
+          "summary": "Headline only, not checked article text: Crocs (Nasdaq:CROX) - Stock Analysis"
         },
         {
           "id": "S15",
-          "kind": "News-index headline · MarketBeat · 2026-11-23",
-          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQX3BMcmd3bEVLMUh0ekNYYktVYjZCZ0gyanVIU244ZUtfNFZ3NnpoTGRMcDdYdnJMR2lxNExHdWJlREZrTWQ3X2dRVDA5WnlLaldpb09Gb0l3bjNoZGJsc2NXakhpV2I4MHhzd2NhTkUwNWliMDNEcTNCQTU0ZW5zUGlwS0VpeklmUGQ0T0JpOTAxMXV0RFE5TUxRMEJDYmkyR2ZETUloeHlkcFhNbHZSVkEzWXNtaFFqMDB5dlB2RTJ2Y1ZGVWV0aGp6SjRhY2hEbEo2dWZhaVQxSmM?oc=5",
-          "summary": "Headline only, not checked article text: Citigroup Issues Pessimistic Forecast for Marathon Petroleum (NYSE:MPC) Stock Price"
+          "kind": "News-index headline · Yahoo Finance · 2026-11-21",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNNTV2UmtvRlBKb1FXUUxvWVAzRGU4aUZicDM1Z0RoUU82VnR4ZGt2WWgwUjRaNlBOUWNVLXFvWVV4dVl6UEF2LXFQdUg5ci1nQzR0Z1dvM0VWSTdGdVI0TUgwZ0Q0U3ZpLVhxTkFzYWtwVjlIOXNmRTl3TFJobm5yYUFDbktwdHN4eGU5UjJ0UmREQQ?oc=5",
+          "summary": "Headline only, not checked article text: Crocs (CROX) Stock May Be 39% Undervalued After Footwear Price News"
         },
         {
           "id": "S16",
-          "kind": "News-index headline · Seeking Alpha · 2026-11-23",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOcTB6NkExUnEtcmoyLURjRVh5a3dnSU9zZWNiUmNnRGVQMHNDMEpJbG5ybHVQZTFKaXp3TjBlRnJ5aVE1bHFqYXFlS3Z1Sm1kXy1LVjNKLWR1NXl4cnNEVTlkVGpaZU5selJKS2lRVjE2MTZ4M2p4dWJ1RkJLSzIycXd0Q3ZTR2hRUXJDMUJ0aHIzOW9YRTdFYg?oc=5",
-          "summary": "Headline only, not checked article text: Crack Spreads Made Marathon Petroleum A Cash Machine (NYSE:MPC)"
+          "kind": "News-index headline · Yahoo Finance · 2026-11-21",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQM1JOY2dheUZqWEFnWU5vNjU1eERmVEdTdlRQeTJVYzBsUUtUdDVwSWxGTmJpSzJjRHhMWUdxb3l1bmxEbi1wbG5rc29HaWZ6V0tsV2NZRi1lRHpmMHEtejJCaTAtaW1OMUdmR3Riczl1Um9WVWFpVFNfUlVwREZHOG82aHhkbTdCRDZFdmtKbkY1UEJLaFRrMkVVRFpWWUNKYm9R?oc=5",
+          "summary": "Headline only, not checked article text: What Crocs (CROX)'s Rising Earnings Estimates Mean For Shareholders"
         },
         {
           "id": "S17",
-          "kind": "News-index headline · ad-hoc-news.de · 2026-11-23",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQZlBLa05ZQ190Tk1lbGx0YnZUUGxUWENXVmkyMHZ4b2xJQnVIMnRVUm1FUkdUdmhFcmhZcDB3TTkwQnROOTgwSFpmdEluOThzdTZSQzI4Sk1PclZDdkpKbUNhWldxOElhWWkybjBOMVY1SHV6RmZ1bFdrNkhEOWtFV2ZpcnpEWXpoaEpqT2V0QUN2UlFtdEMzNlFVeVRzMmV4VUNHU0tLeDBjUjVWcENzZmRLT2FCandZb1lpSW5EWQ?oc=5",
-          "summary": "Headline only, not checked article text: Marathon Petroleum stock: Force majeure declared on pipeline"
+          "kind": "News-index headline · Yahoo Finance · 2026-11-21",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPcXYwWjhKSXFPR3VPSlJuQmptYVBZZVkzYjkxRTdtampjM2RBcEhvTDVpY3cxT0xVSG43TmhpZHpTYm4yd0RCa2FFVl9pTGNGQTJsMHIyRl9MN3FmSXd0c3ktb2ZSb09ueFRobGR6NjVacTJoNWN0aVFNT2h3WkdoRDllWDVPNmNuTmxwTl9rYUxVNnJ2TWc?oc=5",
+          "summary": "Headline only, not checked article text: Crocs (CROX) Could Be 100% Below Fair Value On Earnings Momentum"
         }
       ],
       "filings": {
-        "submissions_url": "https://data.sec.gov/submissions/CIK0001510295.json",
+        "submissions_url": "https://data.sec.gov/submissions/CIK0001334036.json",
         "recent_filings": [
           {
             "form": "10-Q",
-            "filed": "2026-11-03",
-            "url": "https://www.sec.gov/Archives/edgar/data/1510295/000151029526000071/mpc-20260930.htm",
-            "accession": "0001510295-26-000071"
-          },
-          {
-            "form": "8-K",
-            "filed": "2026-11-03",
-            "url": "https://www.sec.gov/Archives/edgar/data/1510295/000151029526000069/mpc-20261103.htm",
-            "accession": "0001510295-26-000069"
+            "filed": "2026-10-29",
+            "url": "https://www.sec.gov/Archives/edgar/data/1334036/000133403626000060/crox-20260930.htm",
+            "accession": "0001334036-26-000060"
           },
           {
             "form": "8-K",
             "filed": "2026-10-29",
-            "url": "https://www.sec.gov/Archives/edgar/data/1510295/000151029526000063/mpc-20261028.htm",
-            "accession": "0001510295-26-000063"
+            "url": "https://www.sec.gov/Archives/edgar/data/1334036/000133403626000058/crox-20261029.htm",
+            "accession": "0001334036-26-000058"
           },
           {
             "form": "10-Q",
-            "filed": "2026-08-04",
-            "url": "https://www.sec.gov/Archives/edgar/data/1510295/000151029526000061/mpc-20260630.htm",
-            "accession": "0001510295-26-000061"
+            "filed": "2026-07-30",
+            "url": "https://www.sec.gov/Archives/edgar/data/1334036/000133403626000052/crox-20260630.htm",
+            "accession": "0001334036-26-000052"
           },
           {
             "form": "8-K",
-            "filed": "2026-08-04",
-            "url": "https://www.sec.gov/Archives/edgar/data/1510295/000151029526000060/mpc-20260804.htm",
-            "accession": "0001510295-26-000060"
+            "filed": "2026-07-30",
+            "url": "https://www.sec.gov/Archives/edgar/data/1334036/000133403626000050/crox-20260730.htm",
+            "accession": "0001334036-26-000050"
+          },
+          {
+            "form": "8-K",
+            "filed": "2026-06-10",
+            "url": "https://www.sec.gov/Archives/edgar/data/1334036/000133403626000046/crox-20260609.htm",
+            "accession": "0001334036-26-000046"
           }
         ],
         "priority_filings": [
           {
             "form": "10-K",
-            "filed": "2026-02-26",
-            "url": "https://www.sec.gov/Archives/edgar/data/1510295/000151029526000009/mpc-20251231.htm",
-            "accession": "0001510295-26-000009"
+            "filed": "2026-02-12",
+            "url": "https://www.sec.gov/Archives/edgar/data/1334036/000133403626000006/crox-20251231.htm",
+            "accession": "0001334036-26-000006"
           },
           {
             "form": "10-Q",
-            "filed": "2026-11-03",
-            "url": "https://www.sec.gov/Archives/edgar/data/1510295/000151029526000071/mpc-20260930.htm",
-            "accession": "0001510295-26-000071"
+            "filed": "2026-10-29",
+            "url": "https://www.sec.gov/Archives/edgar/data/1334036/000133403626000060/crox-20260930.htm",
+            "accession": "0001334036-26-000060"
           },
           {
             "form": "8-K",
-            "filed": "2026-11-03",
-            "url": "https://www.sec.gov/Archives/edgar/data/1510295/000151029526000069/mpc-20261103.htm",
-            "accession": "0001510295-26-000069"
+            "filed": "2026-10-29",
+            "url": "https://www.sec.gov/Archives/edgar/data/1334036/000133403626000058/crox-20261029.htm",
+            "accession": "0001334036-26-000058"
           }
         ],
         "read_passages": [
           {
             "form": "10-K",
-            "filed": "2026-02-26",
-            "url": "https://www.sec.gov/Archives/edgar/data/1510295/000151029526000009/mpc-20251231.htm",
-            "text": "Management discussion: Management’s Discussion and Analysis of Financial Condition and Results of Operations and Item 7A. Quantitative and Qualitative Disclosures about Market Risk includes forward-looking statements that are subject to risks, contingencies or uncertainties. You can identify forward-looking statements by words such as “advance,” “anticipate,” “believe,” “commitment,” “continue,” “could,” “design,” “drive,” “endeavor,” “estimate,” “expect,” “focus,” “fo Risk factors: Risk Factors, Item 3. Legal Proceedings, Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations and Item 7A. Quantitative and Qualitative Disclosures about Market Risk includes forward-looking statements that are subject to risks, contingencies or uncertainties. You can identify forward-looking statements by words such as “advance,” “anticipate,” “believe,” “commitment,” “continue,” “could,” “design,” “drive Business overview: Item 1. Business, Item 1A. Risk Factors, Item 3. Legal Proceedings, Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations and Item 7A. Quantitative and Qualitative Disclosures about Market Risk includes forward-looking statements that are subject to ri"
+            "filed": "2026-02-12",
+            "url": "https://www.sec.gov/Archives/edgar/data/1334036/000133403626000006/crox-20251231.htm",
+            "text": "Management discussion: Management’s Discussion and Analysis of Financial Condition and Results of Operations and Note 16 — Operating Segments and Geographic Information in the accompanying notes to the consolidated financial statements included in Part II - Item 8. Financial Statements and Supplementary Data of this Annual Report on Form 10-K for financial information related to our reportable operating segments. Raw Materials Crocs Brand Croslite™, our proprietary clo Risk factors: Risk Factors of this Annual Report on Form 10-K. These risks include, but are not limited to, the following: • our substantial dependence on the value of our brands and our failure to strengthen and preserve this value; • the significant competition that we face; • introducing new products, which may be difficult and expensive; • our failure to adequately protect our trademarks and other intellectual property rights and counterfeiting of our bran Business overview: ITEM 1. Business The Company Crocs, Inc. and our consolidated subsidiaries (collectively, the “Company,” “we,” “us,” or “our”) are engaged in the design, development, worldwide marketing, distribution, and sale of casual lifestyle footwear and accessories for all. We strive to be the world l"
           },
           {
             "form": "10-Q",
-            "filed": "2026-11-03",
-            "url": "https://www.sec.gov/Archives/edgar/data/1510295/000151029526000071/mpc-20260930.htm",
-            "text": "Management discussion: Management’s Discussion and Analysis of Financial Condition and Results of Operations This section should also be read in conjunction with the unaudited consolidated financial statements and accompanying footnotes included under Item 1. Financial Statements and in conjunction with our Annual Report on Form 10-K for the year ended December 31, 2025. DISCLOSURES REGARDING FORWARD-LOOKING STATEMENTS This Quarterly Report on Form 10-Q, particularly I Risk factors: risk factors affecting our business, see the risk factors described in our Annual Report on Form 10-K for the year ended December 31, 2025. We undertake no obligation to update any forward-looking statements except to the extent required by applicable law. EXECUTIVE SUMMARY Business and Economic Environment Update Our Refining & Marketing segment results for the third quarter of 2026 versus the third quarter of 2025 reflect higher realized refini"
+            "filed": "2026-10-29",
+            "url": "https://www.sec.gov/Archives/edgar/data/1334036/000133403626000060/crox-20260930.htm",
+            "text": "Management discussion: Management’s Discussion and Analysis of Financial Condition and Results of Operations Business Overview Crocs, Inc. and our consolidated subsidiaries (collectively the “Company,” “we,” “us,” or “our”) are engaged in the design, development, worldwide marketing, distribution, and sale of casual lifestyle footwear and accessories for all. We strive to be the world leader in innovative casual footwear for all, combining comfort and style with a valu Risk factors: Risk Factors” under Item 1A in this report. Caution should be taken not to place undue reliance on any such forward-looking statements. Moreover, such forward-looking statements speak only as of the date of this report. We undertake no obligation to update any forward-looking statements to reflect events or circumstances after the date of such statements, except as required by applicable law. i Table of Contents Crocs, Inc. Table of Contents to t"
           },
           {
             "form": "8-K",
-            "filed": "2026-11-03",
-            "url": "https://www.sec.gov/Archives/edgar/data/1510295/000151029526000069/mpc-20261103.htm",
-            "text": "Filing excerpt: UNITED STATES SECURITIES AND EXCHANGE COMMISSION Washington, D.C. 20549 _____________________________________________ FORM 8-K _____________________________________________ CURRENT REPORT Pursuant to Section 13 or 15(d) of the Securities Exchange Act of 1934 Date of Report (Date of earliest event reported) November 3, 2026 _____________________________________________ Marathon Petroleum Corporation (Exact name of registrant as specified in its ch"
+            "filed": "2026-10-29",
+            "url": "https://www.sec.gov/Archives/edgar/data/1334036/000133403626000058/crox-20261029.htm",
+            "text": "Filing excerpt: UNITED STATES SECURITIES AND EXCHANGE COMMISSION WASHINGTON, D.C. 20549 FORM 8-K CURRENT REPORT Pursuant to Section 13 or 15(d) of the Securities Exchange Act of 1934 Date of Report (date of earliest event reported): October 29, 2026 CROCS, INC. (Exact name of registrant as specified in its charter) Delaware 0-51754 20-2164234 (State or other jurisdiction (Commission File Number) (I.R.S. Employer of incorporation) Identification No.) 500 Eldorado"
           }
         ],
         "fetch_issues": []
       },
       "investment_role": "Candidate for multi-year valuation research, not an approved trade.",
       "qualitative_context": {
-        "asof_utc": "2026-11-24T02:41:29.924821+00:00",
-        "search_url": "https://news.google.com/rss/search?q=%22Marathon%20Petroleum%22%20when%3A7d&hl=en-US&gl=US&ceid=US:en",
+        "asof_utc": "2026-11-25T10:30:17.266627+00:00",
+        "search_url": "https://news.google.com/rss/search?q=%22CROCS%2C%C2%A0%22%20when%3A7d&hl=en-US&gl=US&ceid=US:en",
         "news_window_days": 7,
         "headline_sample": [
           {
-            "title": "Marathon Petroleum (NYSE:MPC) Stock Price Down 2.4% After Analyst Downgrade",
-            "published_utc": "2026-11-23T22:10:52+00:00",
-            "publisher": "MarketBeat",
-            "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNTVpuU1FKY3kwR1lVTEJlbjYyQ0dxeFVOUkk2RU5ZT0xPc0I5ck82MElNME02Szk1b0NhRVpwWEhjNGwya0ctd2VVVmZJbGxZQ25aSnVNTThHYTAyWUctOTJvR2VuNUQyNXBmSHI1ZnNreWlQYjU5X25MZjNGRlBKVi0tWXhHT0NyX2k5UTZNdUxIX1E1aHdjeVBFRFVQdUlpNGpLdDhKdlZaT1dVZWxXYVNXNHV3VkM5YUljTUJVcVlveFhXMlF2SWJERQ?oc=5",
+            "title": "Are Consumer Discretionary Stocks Lagging Crocs (CROX) This Year?",
+            "published_utc": "2026-11-23T13:40:02+00:00",
+            "publisher": "Yahoo Finance",
+            "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQc1ZQbTlSYlZrTjR0b3NBWUpOQ29JOGc5WWRmWXA4NGV1eEV2VXA4eWdmb0tndEFNUWlHdHMyZU9uZnlYMDV3QXAzRm15MXdVVTNjXzNJMGRrRm5RZXc2M1R0SXRtSHg3N09sQmJmcEhJUndHMk8tdU9zLS1IV2liYmxMZVhFYndTQS02LWNlZm14bUlHQ3N3R3g3YktXeHN1SUN1TXcxQVcta1lT?oc=5",
             "topic": "other"
           },
           {
-            "title": "Marathon Petroleum Corp. stock underperforms Monday when compared to competitors",
-            "published_utc": "2026-11-23T21:38:00+00:00",
-            "publisher": "MarketWatch",
-            "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPM1E4bDBnVjUwdnBMb2xLbVFlaEVDOGhmbGE0cVhJYXBRdW9yV05Jang1RGRJZ19jVDRPdjI1SXJvc1RZQnMwYWpYT3NHU1ZqN3Eya3dvcGU2Y2R0bHQ2QkNaaEwyRFJJRUhQaFE4cjlULVFhNVJOMEt6MF9ncWlHNXBqMXIwTkRYZThYbW1xWEMwZzlkTmJaMFlQeEdEVGRmalNHbVZzX194OGduRkpMaVJ5aU95c3NLcUtRdFpJVkhqQWxkWmFNNnNNU2xDS1dRTV9IcTd5V0dYVnpReVpPY3RweWVsOTllR3cybnhn?oc=5",
-            "topic": "competition"
-          },
-          {
-            "title": "Citigroup maintains Marathon Petroleum at Neutral, lowers price target to $415 from $518",
-            "published_utc": "2026-11-23T16:48:53+00:00",
-            "publisher": "TradingView",
-            "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOQmZHNktOdEsxZVJaaVIzZUpraDVYNFRubnpTcmplZFhZSVphdU81ajRrZThnRHFfWEM1NENyd3FUQnctektnOERoSjd6LWZRV3I2SEpvRG4zT1JiZUtqUXRLLWZKVzhEUFMtWWhxVjU5M2F6NEtKb1NXLUFwZ21OOHIzNUFzVDNmeGRJalZkd3dIWEFjeXk4aExDLXZrOTVSVWxBLTZGa0M2SVhseDgzZE5HeFpwR0FFaDZ5Si1qcTRja3JmSGtqbXZ4b0xfZFpFMnFtX091azRuVzBGT1ZhcA?oc=5",
+            "title": "Should Conference Update Require Action From Crocs (CROX) Investors?",
+            "published_utc": "2026-11-23T08:08:33+00:00",
+            "publisher": "Simply Wall St",
+            "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQMmtScDVXcDktZTFpNG04ckM2YjNxeTNfdlVYSWJNblBlRkhYZXlBNEJ5LUNYcWo1QlZ6dm0yc29JZTN6LXFObk9IeTRESjJVX2xPdnRxNk5udzhkZm5PSUNnN3RnSV9obGR0aW16T2pCQnVmMGpMN2RXTjRjM0V4UnBqejg3RW5TU2RpUUd3T3pEbEJXWlZCTTNBalBuV3lQUGtZUktJTGUxajlJMkd3TzU4NktxblFmVGpoTTBlRER1SnlNN2g4X2JzU2Vod9IB0wFBVV95cUxOQm1ncEo5OFNSYU50cXoyNFBZNGdyTEFpZ1RNV2Ywal9lNGFXS2dDS0IycFFMaVpoSXJ5TTVGUkFlUkExMExUeDMxNmZtNGdadHo0Qi1fV1dfT1FwclFSc2hWMHgzd1BFbS1Ldm8tVkVMM1U4alRVNG92NGR1SXo2NVlvYVcxaS1wRVEzQjFYQ3NlODJrZFJnOGFMWF91R3V6N1Npdk1zZ1VaSV9ON19CWGhnbUdZTHRQem1yd3RyN0lJbGlWVVZORnNkY2xnemRjRGpn?oc=5",
             "topic": "other"
           },
           {
-            "title": "Citigroup Issues Pessimistic Forecast for Marathon Petroleum (NYSE:MPC) Stock Price",
-            "published_utc": "2026-11-23T16:40:24+00:00",
-            "publisher": "MarketBeat",
-            "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQX3BMcmd3bEVLMUh0ekNYYktVYjZCZ0gyanVIU244ZUtfNFZ3NnpoTGRMcDdYdnJMR2lxNExHdWJlREZrTWQ3X2dRVDA5WnlLaldpb09Gb0l3bjNoZGJsc2NXakhpV2I4MHhzd2NhTkUwNWliMDNEcTNCQTU0ZW5zUGlwS0VpeklmUGQ0T0JpOTAxMXV0RFE5TUxRMEJDYmkyR2ZETUloeHlkcFhNbHZSVkEzWXNtaFFqMDB5dlB2RTJ2Y1ZGVWV0aGp6SjRhY2hEbEo2dWZhaVQxSmM?oc=5",
+            "title": "Crocs (Nasdaq:CROX) - Stock Analysis",
+            "published_utc": "2026-11-22T08:00:00+00:00",
+            "publisher": "Simply Wall St",
+            "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE0zb0xTbmZmYzNHVmlqVDc3TndfZmVzNUY2eGRoMnRNN3ZGVTdxLVRnMDBhcVR0a2FmMnBxa3Z1YmJhdEN6ZjJwdlRyVTktd2pScXE0bVNBOFBkbGJaa3E2M0gwY1ZQNUZHX0hOX3p2WHMwbkZGOFE?oc=5",
             "topic": "other"
           },
           {
-            "title": "Crack Spreads Made Marathon Petroleum A Cash Machine (NYSE:MPC)",
-            "published_utc": "2026-11-23T15:33:51+00:00",
-            "publisher": "Seeking Alpha",
-            "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOcTB6NkExUnEtcmoyLURjRVh5a3dnSU9zZWNiUmNnRGVQMHNDMEpJbG5ybHVQZTFKaXp3TjBlRnJ5aVE1bHFqYXFlS3Z1Sm1kXy1LVjNKLWR1NXl4cnNEVTlkVGpaZU5selJKS2lRVjE2MTZ4M2p4dWJ1RkJLSzIycXd0Q3ZTR2hRUXJDMUJ0aHIzOW9YRTdFYg?oc=5",
+            "title": "Crocs (CROX) Stock May Be 39% Undervalued After Footwear Price News",
+            "published_utc": "2026-11-21T13:07:10+00:00",
+            "publisher": "Yahoo Finance",
+            "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNNTV2UmtvRlBKb1FXUUxvWVAzRGU4aUZicDM1Z0RoUU82VnR4ZGt2WWgwUjRaNlBOUWNVLXFvWVV4dVl6UEF2LXFQdUg5ci1nQzR0Z1dvM0VWSTdGdVI0TUgwZ0Q0U3ZpLVhxTkFzYWtwVjlIOXNmRTl3TFJobm5yYUFDbktwdHN4eGU5UjJ0UmREQQ?oc=5",
+            "topic": "other"
+          },
+          {
+            "title": "What Crocs (CROX)'s Rising Earnings Estimates Mean For Shareholders",
+            "published_utc": "2026-11-21T11:10:39+00:00",
+            "publisher": "Yahoo Finance",
+            "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQM1JOY2dheUZqWEFnWU5vNjU1eERmVEdTdlRQeTJVYzBsUUtUdDVwSWxGTmJpSzJjRHhMWUdxb3l1bmxEbi1wbG5rc29HaWZ6V0tsV2NZRi1lRHpmMHEtejJCaTAtaW1OMUdmR3Riczl1Um9WVWFpVFNfUlVwREZHOG82aHhkbTdCRDZFdmtKbkY1UEJLaFRrMkVVRFpWWUNKYm9R?oc=5",
             "topic": "profitability"
           },
           {
-            "title": "Marathon Petroleum stock: Force majeure declared on pipeline",
-            "published_utc": "2026-11-23T15:16:04+00:00",
-            "publisher": "ad-hoc-news.de",
-            "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQZlBLa05ZQ190Tk1lbGx0YnZUUGxUWENXVmkyMHZ4b2xJQnVIMnRVUm1FUkdUdmhFcmhZcDB3TTkwQnROOTgwSFpmdEluOThzdTZSQzI4Sk1PclZDdkpKbUNhWldxOElhWWkybjBOMVY1SHV6RmZ1bFdrNkhEOWtFV2ZpcnpEWXpoaEpqT2V0QUN2UlFtdEMzNlFVeVRzMmV4VUNHU0tLeDBjUjVWcENzZmRLT2FCandZb1lpSW5EWQ?oc=5",
-            "topic": "other"
+            "title": "Crocs (CROX) Could Be 100% Below Fair Value On Earnings Momentum",
+            "published_utc": "2026-11-21T10:08:16+00:00",
+            "publisher": "Yahoo Finance",
+            "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPcXYwWjhKSXFPR3VPSlJuQmptYVBZZVkzYjkxRTdtampjM2RBcEhvTDVpY3cxT0xVSG43TmhpZHpTYm4yd0RCa2FFVl9pTGNGQTJsMHIyRl9MN3FmSXd0c3ktb2ZSb09ueFRobGR6NjVacTJoNWN0aVFNT2h3WkdoRDllWDVPNmNuTmxwTl9rYUxVNnJ2TWc?oc=5",
+            "topic": "profitability"
           }
         ],
         "narratives": [
           {
-            "topic": "competition",
-            "headline": "Marathon Petroleum Corp. stock underperforms Monday when compared to competitors",
-            "published_utc": "2026-11-23T21:38:00+00:00",
-            "publisher": "MarketWatch",
-            "source_url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPM1E4bDBnVjUwdnBMb2xLbVFlaEVDOGhmbGE0cVhJYXBRdW9yV05Jang1RGRJZ19jVDRPdjI1SXJvc1RZQnMwYWpYT3NHU1ZqN3Eya3dvcGU2Y2R0bHQ2QkNaaEwyRFJJRUhQaFE4cjlULVFhNVJOMEt6MF9ncWlHNXBqMXIwTkRYZThYbW1xWEMwZzlkTmJaMFlQeEdEVGRmalNHbVZzX194OGduRkpMaVJ5aU95c3NLcUtRdFpJVkhqQWxkWmFNNnNNU2xDS1dRTV9IcTd5V0dYVnpReVpPY3RweWVsOTllR3cybnhn?oc=5",
-            "mechanism": "A lasting competitive change could alter future demand or the prices the company can charge.",
-            "competing_reading": "A competitor announcement does not itself prove customers will switch.",
-            "test": "Look for customer wins, product economics and margin changes in company filings.",
-            "evidence_level": "headline_coverage_not_confirmed_event"
-          },
-          {
             "topic": "profitability",
-            "headline": "Crack Spreads Made Marathon Petroleum A Cash Machine (NYSE:MPC)",
-            "published_utc": "2026-11-23T15:33:51+00:00",
-            "publisher": "Seeking Alpha",
-            "source_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOcTB6NkExUnEtcmoyLURjRVh5a3dnSU9zZWNiUmNnRGVQMHNDMEpJbG5ybHVQZTFKaXp3TjBlRnJ5aVE1bHFqYXFlS3Z1Sm1kXy1LVjNKLWR1NXl4cnNEVTlkVGpaZU5selJKS2lRVjE2MTZ4M2p4dWJ1RkJLSzIycXd0Q3ZTR2hRUXJDMUJ0aHIzOW9YRTdFYg?oc=5",
+            "headline": "What Crocs (CROX)'s Rising Earnings Estimates Mean For Shareholders",
+            "published_utc": "2026-11-21T11:10:39+00:00",
+            "publisher": "Yahoo Finance",
+            "source_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQM1JOY2dheUZqWEFnWU5vNjU1eERmVEdTdlRQeTJVYzBsUUtUdDVwSWxGTmJpSzJjRHhMWUdxb3l1bmxEbi1wbG5rc29HaWZ6V0tsV2NZRi1lRHpmMHEtejJCaTAtaW1OMUdmR3Riczl1Um9WVWFpVFNfUlVwREZHOG82aHhkbTdCRDZFdmtKbkY1UEJLaFRrMkVVRFpWWUNKYm9R?oc=5",
             "mechanism": "Changes in selling prices or operating costs affect the fraction of sales that becomes profit and cash.",
             "competing_reading": "A temporary price or cost improvement may disappear when conditions normalize.",
             "test": "Check reported operating margins, cash conversion and the reasons for changes.",
@@ -640,14 +641,14 @@
       "ticker": "GLD",
       "name": "Physical gold",
       "metrics": {
-        "price_usd": 333.02,
-        "return_3m_pct": -22.2,
-        "return_6m_pct": -19.56,
-        "asof": "2026-11-23",
+        "price_usd": 325.45,
+        "return_3m_pct": -22.75,
+        "return_6m_pct": -20.33,
+        "asof": "2026-11-24",
         "source": "https://finance.yahoo.com/quote/GLD/history/",
-        "relative_6m_to_voo_pp": -16.31,
+        "relative_6m_to_voo_pp": -16.62,
         "proxy_kind": "Physical gold",
-        "voo_return_6m_pct": -3.25
+        "voo_return_6m_pct": -3.71
       },
       "sources": [
         {
@@ -665,7 +666,7 @@
       ],
       "investment_role": "Portfolio-diversification research, not a commodity spot-price prediction.",
       "qualitative_context": {
-        "asof_utc": "2026-11-24T02:41:29.924821+00:00",
+        "asof_utc": "2026-11-25T10:30:17.266627+00:00",
         "search_url": "https://news.google.com/rss/search?q=%22gold%20prices%20ETF%22%20when%3A7d&hl=en-US&gl=US&ceid=US:en",
         "news_window_days": 7,
         "headline_sample": [],
@@ -678,6 +679,6 @@
   "excluded": "All cryptocurrency, tokens and crypto-exposed businesses; no crypto recommendations.",
   "benchmark": "VOO after costs where comparable",
   "diagnostics": [],
-  "qualitative_asof_utc": "2026-11-24T02:41:29.924821+00:00",
+  "qualitative_asof_utc": "2026-11-25T10:30:17.266627+00:00",
   "qualitative_method": "Dated headline watch + SEC filings; causal implications are conditional, not sentiment forecasts."
 }
