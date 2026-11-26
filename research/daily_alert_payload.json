@@ -1,10 +1,15 @@
 {
   "notify": true,
-  "latest_close": "2026-11-24",
+  "latest_close": "2026-11-25",
   "events": [
     {
-      "score_pct": 14.45,
-      "ticker": "DIS",
+      "score_pct": 12.11,
+      "ticker": "HD",
+      "type": "STOCK_WATCH_ONLY"
+    },
+    {
+      "score_pct": 7.24,
+      "ticker": "MCD",
       "type": "STOCK_WATCH_ONLY"
     }
   ]

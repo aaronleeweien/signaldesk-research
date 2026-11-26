@@ -1,6 +1,6 @@
 # SignalDesk | Investment Research Desk
 
-US market close: 2026-11-24
+US market close: 2026-11-25
 
 **VOO remains the default; investigate only a few clearly defined alternatives.**
 
@@ -22,19 +22,19 @@ No independently verified 3–6-month excess-return advantage is established for
 
 - The last fiscal-year revenue changed +60.1%; annual free cash flow changed +436.8% versus the previous SEC-observed year. These are historical outcomes, not forecasts. [S1]
 
-- Annual free cash flow: 136.4 million USD; market capitalisation from the screen: 8.07 billion USD; historical FCF yield: +1.7%. [S1][S2]
+- Annual free cash flow: 136.4 million USD; market capitalisation from the screen: 7.93 billion USD; historical FCF yield: +1.7%. [S1][S2]
 
-- Screened forward price/earnings multiple: 50.2 times. The denominator is an unaudited forecast, not an independently checked earnings consensus. [S2]
+- Screened forward price/earnings multiple: 49.4 times. The denominator is an unaudited forecast, not an independently checked earnings consensus. [S2]
 
 - Cash: 81.7 million USD; reported long-term-debt tag: unavailable. The debt tag excludes some obligations and must not be mistaken for full net debt. [S1]
 
-- The stock's preceding one-year price return exceeded VOO by +136.8 percentage points as of 2026-11-24. This historical period is not a 3–6-month forecast. [S2]
+- The stock's preceding one-year price return exceeded VOO by +132.2 percentage points as of 2026-11-25. This historical period is not a 3–6-month forecast. [S2]
 
 ### Economic and price mechanism
 
 KNSA has reported business fundamentals, but an investable 3–6-month edge requires an earnings surprise beyond what investors currently expect. The retrieved evidence does not establish that surprise.
 
-**Valuation and implied assumptions:** The fixed-parameter reverse cash-flow exercise implies 47.2% annual free-cash-flow growth for five years, under 11% required return, 2% terminal growth and no net borrowing adjustment. This is a stress-test assumption, not a company-specific fair value or near-term target. [S1][S2]
+**Valuation and implied assumptions:** The fixed-parameter reverse cash-flow exercise implies 46.7% annual free-cash-flow growth for five years, under 11% required return, 2% terminal growth and no net borrowing adjustment. This is a stress-test assumption, not a company-specific fair value or near-term target. [S1][S2]
 
 **Strongest opposing interpretation:** Investors can already have priced in the reported business improvement; market returns depend on changes in expectations, not only growing revenue.
 
@@ -52,17 +52,9 @@ KNSA has reported business fundamentals, but an investable 3–6-month edge requ
 
 ### Dated headline leads — not verified company events
 
-News monitoring timestamp: 2026-11-25T10:30:17.266627+00:00
+News monitoring timestamp: 2026-11-26T10:03:11.417979+00:00
 
-**2026-11-24 · kalkine.com:** Kiniksa Pharmaceuticals (NASDAQ:KNSA) Reports Third Quarter Results, Raised ARCALYST Guidance and Pipeline Update: Stock Sees Unusual Volume
-
-Conditional economic path: If this reflects real changes in customer spending, it could change future sales and cash generation.
-
-Alternative reading: A strong headline may describe an already expected development, or orders that are not yet profitable.
-
-Evidence needed before treating this as fact: Compare the next reported sales and customer guidance with the previous filing and market expectations.
-
-Coverage URL: https://news.google.com/rss/articles/CBMigAJBVV95cUxOUk1MRFpBZ3lFaGlaYnNRWDNnTjdRTnNKS2F5cUJBLTVCeVpBbmxrNmltY1ZpY1h1SWZxRWt5NVhQbWJ0SnBvbklZUndYdUpQTWsyUmhGSERnc2UyRWtZWXR0YzVwN0xPNHRlOUN0b29oV2I3MlJuaHZVQ1RXTS1hWjBQemdrdTNmdDZXeUhVdzdkTUNTbHFNajVKajlFbVI2SEpBbXd6RVp1UFpPcnVmakhqS011UXVQMmExczIwYk5BWEFVd0JMSGNXNTRGbUpHMG96LVN6SGFtMmtid1RUYzFzU3l1WnU5TEoyYlNoQmxUWTBDanV0Y3dnUGlGdDl5?oc=5
+No representative verified narrative sample was available; no sentiment score was invented.
 
 ### Evidence audit and research gaps
 
@@ -100,17 +92,17 @@ Coverage URL: https://news.google.com/rss/articles/CBMigAJBVV95cUxOUk1MRFpBZ3lFa
 
 - [S11] 8-K read passages, filed 2026-10-27: https://www.sec.gov/Archives/edgar/data/1730430/000173043026000037/knsa-20261027x8k.htm
 
-- [S12] News-index headline · GuruFocus · 2026-11-25: https://news.google.com/rss/articles/CBMi2AFBVV95cUxPZDU3Q2hRZlBmS2x0OHRuXzN1MEdlWHAzQVlRdFYwN3pJV2R3MzUwNXloNGZHYnhFMVFZYmRPR1BCemZhZmZSSHJrd1RlcmVHYlY2R0dYeXQ3YlpaNHc3QmVvUlVXN0pubU1RUVFkRlZkTWJlS1Z3LXRLSWNqbWZmQ1drdXFSYm8zUEJjQWd1ZFNYeGdRRUtrVXVNODlDNnlZazNJSTh1dDJ3cFN0SUwzN0RNNmhMcnlSZGNCTExJZkRKNlI0V3F4QTRIa2loV3dUc3BvSGNGd0o?oc=5
+- [S12] News-index headline · Seeking Alpha · 2026-11-25: https://news.google.com/rss/articles/CBMiogFBVV95cUxNTEF1UXV1ZTBFamVseVdLYXQtNUtXSlk2bnNEYXlORFR1NGVySkRaYl9RWlJlSTZNVC1ycnJYX2RrdEZZMXM3MXFrZ2lxWWEyNTd4M1NzaV9ZNElHeDN2SXljbnJ3MGtxR19TWmY5Ymo4MlpFRW5OTjRWQ3lMOXlkZEJlSlZHQzFMVHl0ZWM2UzFEVVoyekxtWDk1YnlyWVNHZFE?oc=5
 
-- [S13] News-index headline · kalkine.com · 2026-11-24: https://news.google.com/rss/articles/CBMigAJBVV95cUxOUk1MRFpBZ3lFaGlaYnNRWDNnTjdRTnNKS2F5cUJBLTVCeVpBbmxrNmltY1ZpY1h1SWZxRWt5NVhQbWJ0SnBvbklZUndYdUpQTWsyUmhGSERnc2UyRWtZWXR0YzVwN0xPNHRlOUN0b29oV2I3MlJuaHZVQ1RXTS1hWjBQemdrdTNmdDZXeUhVdzdkTUNTbHFNajVKajlFbVI2SEpBbXd6RVp1UFpPcnVmakhqS011UXVQMmExczIwYk5BWEFVd0JMSGNXNTRGbUpHMG96LVN6SGFtMmtid1RUYzFzU3l1WnU5TEoyYlNoQmxUWTBDanV0Y3dnUGlGdDl5?oc=5
+- [S13] News-index headline · GlobeNewswire · 2026-11-25: https://news.google.com/rss/articles/CBMi5AFBVV95cUxNenlIeDFnZ0VfNnh2VmVxYUdDbFkwdlFWbzc3azBZY1JUU1VXRFdQZkozU0JnYkt0c2pKWXlKemRvNl9IUnlGcTNHSTV5UzZsSFRFYmNlTWNfbFg0Qzg5MEtUaGo3RjJSMElwODMyeXUzaE9MZ0NabGpsVDFjSnFnS2NUTmJCRU5JdFdjSGEwZW1KZzVLNTRUQ2diVEJhVEVGam5Tb2NKbzJGU3BnRXlwY3MybWpNaVo4U1Npc2hFdlRhX1dydDhnSDBDTEgzcHJPOWp2bVdkNUR3TTZxTlVsMmltZ2U?oc=5
 
-- [S14] News-index headline · Investing.com Canada · 2026-11-23: https://news.google.com/rss/articles/CBMivAFBVV95cUxNb1UyRDVIYm5CZjFNNGYtbmQtd25PYUdQa1ZkLXVtbjF5Z0pRdW00ZlB6dWxIOGJrMnpwcl8tcGRXaC1GNGZ0SmRjdGNSS3JUX09UM2pBNm5FMXFVQ0xWeE5EUjM3Z0xwNmkxTWd4OTZ6ZkJvc3lTUEUxbk5xR0JVWUFHQ2cxRi0tQWJsYXlKbHV6NDZiZEp2TzR2dENOUE9ESzdOcmJPU3B4alV2bm5RNzFNQWlZVXNhOF9JVg?oc=5
+- [S14] News-index headline · GuruFocus · 2026-11-25: https://news.google.com/rss/articles/CBMi2AFBVV95cUxPZDU3Q2hRZlBmS2x0OHRuXzN1MEdlWHAzQVlRdFYwN3pJV2R3MzUwNXloNGZHYnhFMVFZYmRPR1BCemZhZmZSSHJrd1RlcmVHYlY2R0dYeXQ3YlpaNHc3QmVvUlVXN0pubU1RUVFkRlZkTWJlS1Z3LXRLSWNqbWZmQ1drdXFSYm8zUEJjQWd1ZFNYeGdRRUtrVXVNODlDNnlZazNJSTh1dDJ3cFN0SUwzN0RNNmhMcnlSZGNCTExJZkRKNlI0V3F4QTRIa2loV3dUc3BvSGNGd0o?oc=5
 
 - [S15] News-index headline · MarketBeat · 2026-11-23: https://news.google.com/rss/articles/CBMi2wFBVV95cUxPeXh0ZU1wdlFIQ1phN21OamtLNWZCeGpSeW8taHh3QlB1amh2THBSQ1NFV04wdk5kLW9tcjJVcUUxRlpidVJOU0p4R0ZPUkhXZ0FILTdHdjBpcDRPNXRyLVNWbjJVaWlCc1NPWVhUZ2pmcjF6dzlKTzNFRXI1aEJxRVdIaTByMGczakFOVzNwUm4tNXZIckZoM05GNEM5Ry1nMmxSb29NTUdEM2ROdkY1VUxBeFRsdFJjSkhlYTVMWWQzcGJkMG5aQ1BrZF9uMk53YUpiYm9UenZuRkk?oc=5
 
 - [S16] News-index headline · Yahoo Finance Singapore · 2026-11-21: https://news.google.com/rss/articles/CBMiUkFVX3lxTE1VN1ByX0d5WXBMN24xUDB3VnlvZkk5N3Q1dURtZk50RW5MN3dZLW1IQnZOa1k4YnRCQ0JqeGZ6MWxZVFd0UGl1TExOZXh4aHlGYmc?oc=5
 
-- [S17] News-index headline · Yahoo! Finance Canada · 2026-11-21: https://news.google.com/rss/articles/CBMiUkFVX3lxTE41RFI5aF9vSTFuN0dudGpiZXRrZHVqZjlkWGZrak51OGR5SmgwX0NHaUlPaWtnWHVMVFR3YThRdTJKSHJtSjlEYU9sYTJhS0w5OEE?oc=5
+- [S17] News-index headline · TradingView · 2026-11-20: https://news.google.com/rss/articles/CBMiyAFBVV95cUxPcXhnX3psYlVqMEtrczUyV0xzcEZTWUNubzFsN2tyUUo1M1FjSjdkZUwtcVRrVl9ja3gxcjVvRVh5bFBfanhqTmN4Z2lONVdWX0c4RmZfMHEybElXVVBibjlXNFU5b3ZMc25fRXVGN243RWpzVl9iZEc1QnFGUEhtZUtoVHQ1SjlwS0diS1VqVWN2bkpidzl6TmwwMlpQYk1KYnZpRldjbVl2bEtOU3ludW15VTJUSUNOVWtsUHA0aGNmeWp6bmRZMg?oc=5
 
 ## 2. CROX — CROCS, INC.
 
@@ -122,19 +114,19 @@ Coverage URL: https://news.google.com/rss/articles/CBMigAJBVV95cUxOUk1MRFpBZ3lFa
 
 - The last fiscal-year revenue changed -1.5%; annual free cash flow changed -28.6% versus the previous SEC-observed year. These are historical outcomes, not forecasts. [S1]
 
-- Annual free cash flow: 659.2 million USD; market capitalisation from the screen: 7.28 billion USD; historical FCF yield: +9.1%. [S1][S2]
+- Annual free cash flow: 659.2 million USD; market capitalisation from the screen: 7.31 billion USD; historical FCF yield: +9.0%. [S1][S2]
 
-- Screened forward price/earnings multiple: 9.9 times. The denominator is an unaudited forecast, not an independently checked earnings consensus. [S2]
+- Screened forward price/earnings multiple: 10.0 times. The denominator is an unaudited forecast, not an independently checked earnings consensus. [S2]
 
 - Cash: 163.5 million USD; reported long-term-debt tag: 1.29 billion USD. The debt tag excludes some obligations and must not be mistaken for full net debt. [S1]
 
-- The stock's preceding one-year price return exceeded VOO by +85.2 percentage points as of 2026-11-24. This historical period is not a 3–6-month forecast. [S2]
+- The stock's preceding one-year price return exceeded VOO by +90.7 percentage points as of 2026-11-25. This historical period is not a 3–6-month forecast. [S2]
 
 ### Economic and price mechanism
 
 CROX is a potential earnings-recovery candidate, not an established growth winner: reported sales declined. A recovery could surprise investors, but the reported annual cash flow cannot prove when it will occur.
 
-**Valuation and implied assumptions:** The fixed-parameter reverse cash-flow exercise implies 1.4% annual free-cash-flow growth for five years, under 11% required return, 2% terminal growth and no net borrowing adjustment. This is a stress-test assumption, not a company-specific fair value or near-term target. [S1][S2]
+**Valuation and implied assumptions:** The fixed-parameter reverse cash-flow exercise implies 1.5% annual free-cash-flow growth for five years, under 11% required return, 2% terminal growth and no net borrowing adjustment. This is a stress-test assumption, not a company-specific fair value or near-term target. [S1][S2]
 
 **Strongest opposing interpretation:** A cyclical high in margins or cash flow could reverse before the market's expected recovery. Historical profitability may therefore overstate value.
 
@@ -152,7 +144,7 @@ CROX is a potential earnings-recovery candidate, not an established growth winne
 
 ### Dated headline leads — not verified company events
 
-News monitoring timestamp: 2026-11-25T10:30:17.266627+00:00
+News monitoring timestamp: 2026-11-26T10:03:11.417979+00:00
 
 **2026-11-21 · Yahoo Finance:** What Crocs (CROX)'s Rising Earnings Estimates Mean For Shareholders
 
@@ -200,11 +192,11 @@ Coverage URL: https://news.google.com/rss/articles/CBMiowFBVV95cUxQM1JOY2dheUZqW
 
 - [S11] 8-K read passages, filed 2026-10-29: https://www.sec.gov/Archives/edgar/data/1334036/000133403626000058/crox-20261029.htm
 
-- [S12] News-index headline · Yahoo Finance · 2026-11-23: https://news.google.com/rss/articles/CBMirAFBVV95cUxQc1ZQbTlSYlZrTjR0b3NBWUpOQ29JOGc5WWRmWXA4NGV1eEV2VXA4eWdmb0tndEFNUWlHdHMyZU9uZnlYMDV3QXAzRm15MXdVVTNjXzNJMGRrRm5RZXc2M1R0SXRtSHg3N09sQmJmcEhJUndHMk8tdU9zLS1IV2liYmxMZVhFYndTQS02LWNlZm14bUlHQ3N3R3g3YktXeHN1SUN1TXcxQVcta1lT?oc=5
+- [S12] News-index headline · TipRanks · 2026-11-25: https://news.google.com/rss/articles/CBMigwFBVV95cUxNVGVzQWh5cmtIVTFNUF9VMlJCQzBBNU8wQVVwYlRyajk2cV82TmVELTZPT01FODNpT1NMWDRyVDRvMklyWGhrZENfNHpISU1sQVRMVlBFY01Jal9DaG83TFVrS29sUnNIdFhFd3drM1dlVFNabE9hcUpiaDVYbnpTcFpVSQ?oc=5
 
-- [S13] News-index headline · Simply Wall St · 2026-11-23: https://news.google.com/rss/articles/CBMizgFBVV95cUxQMmtScDVXcDktZTFpNG04ckM2YjNxeTNfdlVYSWJNblBlRkhYZXlBNEJ5LUNYcWo1QlZ6dm0yc29JZTN6LXFObk9IeTRESjJVX2xPdnRxNk5udzhkZm5PSUNnN3RnSV9obGR0aW16T2pCQnVmMGpMN2RXTjRjM0V4UnBqejg3RW5TU2RpUUd3T3pEbEJXWlZCTTNBalBuV3lQUGtZUktJTGUxajlJMkd3TzU4NktxblFmVGpoTTBlRER1SnlNN2g4X2JzU2Vod9IB0wFBVV95cUxOQm1ncEo5OFNSYU50cXoyNFBZNGdyTEFpZ1RNV2Ywal9lNGFXS2dDS0IycFFMaVpoSXJ5TTVGUkFlUkExMExUeDMxNmZtNGdadHo0Qi1fV1dfT1FwclFSc2hWMHgzd1BFbS1Ldm8tVkVMM1U4alRVNG92NGR1SXo2NVlvYVcxaS1wRVEzQjFYQ3NlODJrZFJnOGFMWF91R3V6N1Npdk1zZ1VaSV9ON19CWGhnbUdZTHRQem1yd3RyN0lJbGlWVVZORnNkY2xnemRjRGpn?oc=5
+- [S13] News-index headline · Yahoo Finance · 2026-11-23: https://news.google.com/rss/articles/CBMirAFBVV95cUxQc1ZQbTlSYlZrTjR0b3NBWUpOQ29JOGc5WWRmWXA4NGV1eEV2VXA4eWdmb0tndEFNUWlHdHMyZU9uZnlYMDV3QXAzRm15MXdVVTNjXzNJMGRrRm5RZXc2M1R0SXRtSHg3N09sQmJmcEhJUndHMk8tdU9zLS1IV2liYmxMZVhFYndTQS02LWNlZm14bUlHQ3N3R3g3YktXeHN1SUN1TXcxQVcta1lT?oc=5
 
-- [S14] News-index headline · Simply Wall St · 2026-11-22: https://news.google.com/rss/articles/CBMidkFVX3lxTE0zb0xTbmZmYzNHVmlqVDc3TndfZmVzNUY2eGRoMnRNN3ZGVTdxLVRnMDBhcVR0a2FmMnBxa3Z1YmJhdEN6ZjJwdlRyVTktd2pScXE0bVNBOFBkbGJaa3E2M0gwY1ZQNUZHX0hOX3p2WHMwbkZGOFE?oc=5
+- [S14] News-index headline · Simply Wall St · 2026-11-23: https://news.google.com/rss/articles/CBMizgFBVV95cUxQMmtScDVXcDktZTFpNG04ckM2YjNxeTNfdlVYSWJNblBlRkhYZXlBNEJ5LUNYcWo1QlZ6dm0yc29JZTN6LXFObk9IeTRESjJVX2xPdnRxNk5udzhkZm5PSUNnN3RnSV9obGR0aW16T2pCQnVmMGpMN2RXTjRjM0V4UnBqejg3RW5TU2RpUUd3T3pEbEJXWlZCTTNBalBuV3lQUGtZUktJTGUxajlJMkd3TzU4NktxblFmVGpoTTBlRER1SnlNN2g4X2JzU2Vod9IB0wFBVV95cUxOQm1ncEo5OFNSYU50cXoyNFBZNGdyTEFpZ1RNV2Ywal9lNGFXS2dDS0IycFFMaVpoSXJ5TTVGUkFlUkExMExUeDMxNmZtNGdadHo0Qi1fV1dfT1FwclFSc2hWMHgzd1BFbS1Ldm8tVkVMM1U4alRVNG92NGR1SXo2NVlvYVcxaS1wRVEzQjFYQ3NlODJrZFJnOGFMWF91R3V6N1Npdk1zZ1VaSV9ON19CWGhnbUdZTHRQem1yd3RyN0lJbGlWVVZORnNkY2xnemRjRGpn?oc=5
 
 - [S15] News-index headline · Yahoo Finance · 2026-11-21: https://news.google.com/rss/articles/CBMikgFBVV95cUxNNTV2UmtvRlBKb1FXUUxvWVAzRGU4aUZicDM1Z0RoUU82VnR4ZGt2WWgwUjRaNlBOUWNVLXFvWVV4dVl6UEF2LXFQdUg5ci1nQzR0Z1dvM0VWSTdGdVI0TUgwZ0Q0U3ZpLVhxTkFzYWtwVjlIOXNmRTl3TFJobm5yYUFDbktwdHN4eGU5UjJ0UmREQQ?oc=5
 
@@ -220,9 +212,9 @@ Coverage URL: https://news.google.com/rss/articles/CBMiowFBVV95cUxQM1JOY2dheUZqW
 
 ### What the recorded data actually establish
 
-- Adjusted ETF-price return through 2026-11-24: three months -22.8%, six months -20.3%. [S2]
+- Adjusted ETF-price return through 2026-11-25: three months -22.5%, six months -20.7%. [S2]
 
-- Six-month adjusted ETF-price return relative to VOO: -16.6 percentage points. Backward-looking price returns are not a future return forecast. [S2]
+- Six-month adjusted ETF-price return relative to VOO: -16.1 percentage points. Backward-looking price returns are not a future return forecast. [S2]
 
 ### Economic and price mechanism
 
@@ -246,7 +238,7 @@ Commodity ETFs may react to real yields, the currency, underlying supply and dem
 
 ### Dated headline leads — not verified company events
 
-News monitoring timestamp: 2026-11-25T10:30:17.266627+00:00
+News monitoring timestamp: 2026-11-26T10:03:11.417979+00:00
 
 No representative verified narrative sample was available; no sentiment score was invented.
 

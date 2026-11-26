@@ -45,3 +45,5 @@ completed_close,ticker,event_type,details,recorded_utc,timing
 2026-11-18,DIS,STOCK_WATCH_ONLY,"{""score_pct"": 15.79, ""ticker"": ""DIS"", ""type"": ""STOCK_WATCH_ONLY""}",2026-11-19 02:36 UTC,BEFORE_NEXT_ESTIMATED_OPEN
 2026-11-23,WMT,STOCK_WATCH_ONLY,"{""score_pct"": 17.6, ""ticker"": ""WMT"", ""type"": ""STOCK_WATCH_ONLY""}",2026-11-24 02:41 UTC,BEFORE_NEXT_ESTIMATED_OPEN
 2026-11-24,DIS,STOCK_WATCH_ONLY,"{""score_pct"": 14.45, ""ticker"": ""DIS"", ""type"": ""STOCK_WATCH_ONLY""}",2026-11-25 10:30 UTC,BEFORE_NEXT_ESTIMATED_OPEN
+2026-11-25,HD,STOCK_WATCH_ONLY,"{""score_pct"": 12.11, ""ticker"": ""HD"", ""type"": ""STOCK_WATCH_ONLY""}",2026-11-26 10:03 UTC,BEFORE_NEXT_ESTIMATED_OPEN
+2026-11-25,MCD,STOCK_WATCH_ONLY,"{""score_pct"": 7.24, ""ticker"": ""MCD"", ""type"": ""STOCK_WATCH_ONLY""}",2026-11-26 10:03 UTC,BEFORE_NEXT_ESTIMATED_OPEN

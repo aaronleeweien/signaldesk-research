@@ -2,7 +2,7 @@
 
 **This is NOT a validated or live-trading signal.**
 
-Last completed session: 2026-11-24
+Last completed session: 2026-11-25
 
 3/6/12-month momentum, 200-day trend filter, monthly next-open rebalancing, one/two/diversified ETFs
 
@@ -10,10 +10,10 @@ Last completed session: 2026-11-24
 
 | Model | 2013–21 annual return | 2022+ annual return | 2022+ worst decline | 2022+ end value | 2022+ trading costs |
 |---|---:|---:|---:|---:|---:|
-| VOO DCA | 16.22% | 10.2% | -24.56% | USD 11,605 | USD 8 |
-| Top 1 | 13.49% | 7.94% | -34.08% | USD 10,412 | USD 266 |
-| Top 2 | 13.13% | 6.81% | -20.96% | USD 10,574 | USD 160 |
-| Diversified | 8.18% | 6.48% | -20.84% | USD 10,137 | USD 173 |
+| VOO DCA | 16.22% | 10.13% | -24.56% | USD 11,573 | USD 8 |
+| Top 1 | 13.49% | 7.88% | -34.08% | USD 10,383 | USD 266 |
+| Top 2 | 13.13% | 6.7% | -20.96% | USD 10,525 | USD 160 |
+| Diversified | 8.18% | 6.46% | -20.84% | USD 10,128 | USD 173 |
 
 ## Model allocations (research only)
 
