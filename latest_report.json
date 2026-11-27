@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-26 10:01 UTC",
+  "generated_at_utc": "2026-11-27 10:07 UTC",
   "last_market_session": "2026-11-25",
   "research_only": true,
   "approved_for_live_trading": false,
@@ -26,7 +26,7 @@
       "cost": 12.69
     },
     "200-day trend": {
-      "end": 23510.84,
+      "end": 23510.82,
       "deposited": 12700.0,
       "annual": 11.42,
       "drawdown": -19.81,
@@ -53,7 +53,7 @@
       "cost": 239.51
     },
     "20-day breakout": {
-      "end": 16275.28,
+      "end": 16275.25,
       "deposited": 12700.0,
       "annual": 3.66,
       "drawdown": -14.59,

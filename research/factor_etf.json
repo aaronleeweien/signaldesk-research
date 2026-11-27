@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-26 10:02 UTC",
+  "generated_utc": "2026-11-27 10:08 UTC",
   "last_market_session": "2026-11-25",
   "next_estimated_business_day": "2026-11-26",
   "investment_hypothesis": "Invest in SPMO, a public index ETF that selects S&P 500 stocks with positive relative momentum and rebalances twice annually; compare against VOO/QQQ and optional tactical overlays.",
@@ -55,7 +55,7 @@
         "volatility_pct": 18.09,
         "beta_to_voo": 1.0,
         "sharpe_zero_rf": 0.83,
-        "account_value_usd": 33365.64,
+        "account_value_usd": 33365.65,
         "total_deposits_usd": 14100.0,
         "orders": 122,
         "trading_fees_usd": 14.09,
@@ -201,7 +201,7 @@
         "volatility_pct": 20.45,
         "beta_to_voo": 1.03,
         "sharpe_zero_rf": 0.83,
-        "account_value_usd": 38049.65,
+        "account_value_usd": 38049.67,
         "total_deposits_usd": 14100.0,
         "orders": 140,
         "trading_fees_usd": 495.08,
@@ -230,7 +230,7 @@
         "volatility_pct": 15.79,
         "beta_to_voo": 0.47,
         "sharpe_zero_rf": 0.91,
-        "account_value_usd": 32473.35,
+        "account_value_usd": 32473.36,
         "total_deposits_usd": 14100.0,
         "orders": 137,
         "trading_fees_usd": 517.33,
@@ -284,7 +284,7 @@
         "volatility_pct": 21.97,
         "beta_to_voo": 0.99,
         "sharpe_zero_rf": 0.88,
-        "account_value_usd": 11619.71,
+        "account_value_usd": 11619.7,
         "total_deposits_usd": 7000.0,
         "orders": 51,
         "trading_fees_usd": 6.99,
@@ -353,7 +353,7 @@
         "volatility_pct": 20.44,
         "beta_to_voo": 1.0,
         "sharpe_zero_rf": 0.88,
-        "account_value_usd": 11268.0,
+        "account_value_usd": 11267.99,
         "total_deposits_usd": 7000.0,
         "orders": 102,
         "trading_fees_usd": 7.21,
@@ -702,7 +702,7 @@
         "volatility_pct": 19.91,
         "beta_to_voo": 0.83,
         "sharpe_zero_rf": 1.07,
-        "account_value_usd": 7353.34,
+        "account_value_usd": 7353.33,
         "total_deposits_usd": 5400.0,
         "orders": 40,
         "trading_fees_usd": 63.33,
@@ -722,7 +722,7 @@
       "vs_VOO": {
         "months": 122,
         "alpha_annual_pct": 2.6356,
-        "monthly_beta": 1.0187,
+        "monthly_beta": 1.0186,
         "alpha_normal_approx_p": 0.41,
         "alpha_hac_tstat": 0.8239,
         "annual_tracking_error_pct": 10.1507,
@@ -737,14 +737,14 @@
         "months": 122,
         "alpha_annual_pct": 2.0817,
         "monthly_beta": 0.8102,
-        "alpha_normal_approx_p": 0.5118,
+        "alpha_normal_approx_p": 0.5117,
         "alpha_hac_tstat": 0.6561,
         "annual_tracking_error_pct": 10.8258,
         "information_ratio": -0.142,
         "monthly_win_rate_pct": 49.1803,
         "mean_monthly_active_return_pct": -0.1281,
         "median_monthly_active_return_pct": -0.0446,
-        "worst_active_month_pct": -13.3907,
+        "worst_active_month_pct": -13.3906,
         "best_active_month_pct": 9.566
       },
       "bootstrap_vs_VOO": {
@@ -851,7 +851,7 @@
         "bootstrap_method": "circular 3-month blocks, 2500 replicates",
         "annual_active_return_estimate_pct": -2.6384,
         "90pct_ci_low_pct": -8.08,
-        "90pct_ci_high_pct": 2.5563,
+        "90pct_ci_high_pct": 2.5564,
         "bootstrap_probability_active_gt_zero": 0.2036,
         "statistical_edge_90pct": false
       }
@@ -867,7 +867,7 @@
         "information_ratio": -0.0345,
         "monthly_win_rate_pct": 50.0,
         "mean_monthly_active_return_pct": -0.0399,
-        "median_monthly_active_return_pct": 0.0167,
+        "median_monthly_active_return_pct": 0.0166,
         "worst_active_month_pct": -12.5789,
         "best_active_month_pct": 14.2146
       },
@@ -889,7 +889,7 @@
         "bootstrap_method": "circular 3-month blocks, 2500 replicates",
         "annual_active_return_estimate_pct": -0.4794,
         "90pct_ci_low_pct": -5.9752,
-        "90pct_ci_high_pct": 5.1126,
+        "90pct_ci_high_pct": 5.1127,
         "bootstrap_probability_active_gt_zero": 0.4344,
         "statistical_edge_90pct": false
       },
@@ -937,7 +937,7 @@
         },
         {
           "month": "2017-03",
-          "ret_pct": 0.0976
+          "ret_pct": 0.0975
         },
         {
           "month": "2017-04",
@@ -945,7 +945,7 @@
         },
         {
           "month": "2017-05",
-          "ret_pct": 1.3922
+          "ret_pct": 1.3923
         },
         {
           "month": "2017-06",
@@ -1009,7 +1009,7 @@
         },
         {
           "month": "2018-09",
-          "ret_pct": 0.5769
+          "ret_pct": 0.5768
         },
         {
           "month": "2018-10",
@@ -1025,7 +1025,7 @@
         },
         {
           "month": "2019-01",
-          "ret_pct": 7.9511
+          "ret_pct": 7.9512
         },
         {
           "month": "2019-02",
@@ -1033,7 +1033,7 @@
         },
         {
           "month": "2019-03",
-          "ret_pct": 1.9123
+          "ret_pct": 1.9124
         },
         {
           "month": "2019-04",
@@ -1041,7 +1041,7 @@
         },
         {
           "month": "2019-05",
-          "ret_pct": -6.353
+          "ret_pct": -6.3529
         },
         {
           "month": "2019-06",
@@ -1113,7 +1113,7 @@
         },
         {
           "month": "2020-11",
-          "ret_pct": 10.9316
+          "ret_pct": 10.9315
         },
         {
           "month": "2020-12",
@@ -1121,7 +1121,7 @@
         },
         {
           "month": "2021-01",
-          "ret_pct": -1.0257
+          "ret_pct": -1.0256
         },
         {
           "month": "2021-02",
@@ -1145,7 +1145,7 @@
         },
         {
           "month": "2021-07",
-          "ret_pct": 2.4449
+          "ret_pct": 2.4448
         },
         {
           "month": "2021-08",
@@ -1157,11 +1157,11 @@
         },
         {
           "month": "2021-10",
-          "ret_pct": 7.0341
+          "ret_pct": 7.0342
         },
         {
           "month": "2021-11",
-          "ret_pct": -0.7366
+          "ret_pct": -0.7367
         },
         {
           "month": "2021-12",
@@ -1169,7 +1169,7 @@
         },
         {
           "month": "2022-01",
-          "ret_pct": -5.2434
+          "ret_pct": -5.2433
         },
         {
           "month": "2022-02",
@@ -1189,15 +1189,15 @@
         },
         {
           "month": "2022-06",
-          "ret_pct": -8.2684
+          "ret_pct": -8.2685
         },
         {
           "month": "2022-07",
-          "ret_pct": 9.2
+          "ret_pct": 9.2001
         },
         {
           "month": "2022-08",
-          "ret_pct": -4.1248
+          "ret_pct": -4.1249
         },
         {
           "month": "2022-09",
@@ -1209,11 +1209,11 @@
         },
         {
           "month": "2022-11",
-          "ret_pct": 5.4965
+          "ret_pct": 5.4966
         },
         {
           "month": "2022-12",
-          "ret_pct": -5.7355
+          "ret_pct": -5.7354
         },
         {
           "month": "2023-01",
@@ -1237,11 +1237,11 @@
         },
         {
           "month": "2023-06",
-          "ret_pct": 6.5087
+          "ret_pct": 6.5086
         },
         {
           "month": "2023-07",
-          "ret_pct": 3.29
+          "ret_pct": 3.2901
         },
         {
           "month": "2023-08",
@@ -1305,7 +1305,7 @@
         },
         {
           "month": "2024-11",
-          "ret_pct": 5.8865
+          "ret_pct": 5.8864
         },
         {
           "month": "2024-12",
@@ -1317,7 +1317,7 @@
         },
         {
           "month": "2025-02",
-          "ret_pct": -1.2596
+          "ret_pct": -1.2595
         },
         {
           "month": "2025-03",
@@ -1418,15 +1418,15 @@
       "monthly_series": [
         {
           "month": "2016-10",
-          "ret_pct": -1.9601
+          "ret_pct": -1.9602
         },
         {
           "month": "2016-11",
-          "ret_pct": -0.6298
+          "ret_pct": -0.6299
         },
         {
           "month": "2016-12",
-          "ret_pct": 3.3237
+          "ret_pct": 3.3238
         },
         {
           "month": "2017-01",
@@ -1450,7 +1450,7 @@
         },
         {
           "month": "2017-06",
-          "ret_pct": 1.5303
+          "ret_pct": 1.5302
         },
         {
           "month": "2017-07",
@@ -1482,11 +1482,11 @@
         },
         {
           "month": "2018-02",
-          "ret_pct": -0.5133
+          "ret_pct": -0.5134
         },
         {
           "month": "2018-03",
-          "ret_pct": -3.962
+          "ret_pct": -3.9619
         },
         {
           "month": "2018-04",
@@ -1506,11 +1506,11 @@
         },
         {
           "month": "2018-08",
-          "ret_pct": 4.4471
+          "ret_pct": 4.4472
         },
         {
           "month": "2018-09",
-          "ret_pct": 1.3715
+          "ret_pct": 1.3714
         },
         {
           "month": "2018-10",
@@ -1530,7 +1530,7 @@
         },
         {
           "month": "2019-02",
-          "ret_pct": 3.9322
+          "ret_pct": 3.9323
         },
         {
           "month": "2019-03",
@@ -1574,7 +1574,7 @@
         },
         {
           "month": "2020-01",
-          "ret_pct": 2.9987
+          "ret_pct": 2.9988
         },
         {
           "month": "2020-02",
@@ -1586,11 +1586,11 @@
         },
         {
           "month": "2020-04",
-          "ret_pct": 11.175
+          "ret_pct": 11.1751
         },
         {
           "month": "2020-05",
-          "ret_pct": 6.8133
+          "ret_pct": 6.8132
         },
         {
           "month": "2020-06",
@@ -1634,7 +1634,7 @@
         },
         {
           "month": "2021-04",
-          "ret_pct": 5.356
+          "ret_pct": 5.3559
         },
         {
           "month": "2021-05",
@@ -1650,7 +1650,7 @@
         },
         {
           "month": "2021-08",
-          "ret_pct": 4.5876
+          "ret_pct": 4.5875
         },
         {
           "month": "2021-09",
@@ -1694,7 +1694,7 @@
         },
         {
           "month": "2022-07",
-          "ret_pct": 7.9036
+          "ret_pct": 7.9037
         },
         {
           "month": "2022-08",
@@ -1706,7 +1706,7 @@
         },
         {
           "month": "2022-10",
-          "ret_pct": 13.5603
+          "ret_pct": 13.5602
         },
         {
           "month": "2022-11",
@@ -1718,7 +1718,7 @@
         },
         {
           "month": "2023-01",
-          "ret_pct": -0.4592
+          "ret_pct": -0.4593
         },
         {
           "month": "2023-02",
@@ -1742,7 +1742,7 @@
         },
         {
           "month": "2023-07",
-          "ret_pct": 1.7574
+          "ret_pct": 1.7575
         },
         {
           "month": "2023-08",
@@ -1846,7 +1846,7 @@
         },
         {
           "month": "2025-09",
-          "ret_pct": 4.0998
+          "ret_pct": 4.0999
         },
         {
           "month": "2025-10",
@@ -1907,10 +1907,10 @@
       ]
     },
     "QQQ DCA": {
-      "daily_var_95_pct": -2.2951,
+      "daily_var_95_pct": -2.295,
       "daily_expected_shortfall_95_pct": -3.4243,
       "sortino_zero_rf": 1.2302,
-      "worst_month_pct": -13.5965,
+      "worst_month_pct": -13.5966,
       "best_month_pct": 15.6875,
       "max_drawdown_peak_date": "2021-11-19",
       "max_drawdown_trough_date": "2022-11-03",
@@ -1931,7 +1931,7 @@
         },
         {
           "month": "2017-01",
-          "ret_pct": 5.1053
+          "ret_pct": 5.1054
         },
         {
           "month": "2017-02",
@@ -1947,7 +1947,7 @@
         },
         {
           "month": "2017-05",
-          "ret_pct": 3.8827
+          "ret_pct": 3.8828
         },
         {
           "month": "2017-06",
@@ -1971,7 +1971,7 @@
         },
         {
           "month": "2017-11",
-          "ret_pct": 1.9593
+          "ret_pct": 1.9592
         },
         {
           "month": "2017-12",
@@ -2015,19 +2015,19 @@
         },
         {
           "month": "2018-10",
-          "ret_pct": -8.6056
+          "ret_pct": -8.6057
         },
         {
           "month": "2018-11",
-          "ret_pct": -0.2693
+          "ret_pct": -0.2692
         },
         {
           "month": "2018-12",
-          "ret_pct": -8.6957
+          "ret_pct": -8.6958
         },
         {
           "month": "2019-01",
-          "ret_pct": 9.0518
+          "ret_pct": 9.0519
         },
         {
           "month": "2019-02",
@@ -2035,15 +2035,15 @@
         },
         {
           "month": "2019-03",
-          "ret_pct": 3.9113
+          "ret_pct": 3.9112
         },
         {
           "month": "2019-04",
-          "ret_pct": 5.4817
+          "ret_pct": 5.4816
         },
         {
           "month": "2019-05",
-          "ret_pct": -8.2348
+          "ret_pct": -8.2347
         },
         {
           "month": "2019-06",
@@ -2055,7 +2055,7 @@
         },
         {
           "month": "2019-08",
-          "ret_pct": -1.903
+          "ret_pct": -1.9031
         },
         {
           "month": "2019-09",
@@ -2083,7 +2083,7 @@
         },
         {
           "month": "2020-03",
-          "ret_pct": -7.3022
+          "ret_pct": -7.3023
         },
         {
           "month": "2020-04",
@@ -2103,7 +2103,7 @@
         },
         {
           "month": "2020-08",
-          "ret_pct": 10.9363
+          "ret_pct": 10.9362
         },
         {
           "month": "2020-09",
@@ -2139,7 +2139,7 @@
         },
         {
           "month": "2021-05",
-          "ret_pct": -1.2041
+          "ret_pct": -1.204
         },
         {
           "month": "2021-06",
@@ -2147,7 +2147,7 @@
         },
         {
           "month": "2021-07",
-          "ret_pct": 2.8609
+          "ret_pct": 2.861
         },
         {
           "month": "2021-08",
@@ -2183,7 +2183,7 @@
         },
         {
           "month": "2022-04",
-          "ret_pct": -13.5965
+          "ret_pct": -13.5966
         },
         {
           "month": "2022-05",
@@ -2251,7 +2251,7 @@
         },
         {
           "month": "2023-09",
-          "ret_pct": -5.083
+          "ret_pct": -5.0831
         },
         {
           "month": "2023-10",
@@ -2409,7 +2409,7 @@
     },
     "MTUM DCA": {
       "daily_var_95_pct": -2.203,
-      "daily_expected_shortfall_95_pct": -3.4659,
+      "daily_expected_shortfall_95_pct": -3.466,
       "sortino_zero_rf": 0.9395,
       "worst_month_pct": -13.3983,
       "best_month_pct": 18.3249,
@@ -2432,7 +2432,7 @@
         },
         {
           "month": "2017-01",
-          "ret_pct": 3.13
+          "ret_pct": 3.1299
         },
         {
           "month": "2017-02",
@@ -2448,7 +2448,7 @@
         },
         {
           "month": "2017-05",
-          "ret_pct": 4.7539
+          "ret_pct": 4.7538
         },
         {
           "month": "2017-06",
@@ -2460,7 +2460,7 @@
         },
         {
           "month": "2017-08",
-          "ret_pct": 1.4542
+          "ret_pct": 1.4543
         },
         {
           "month": "2017-09",
@@ -2472,7 +2472,7 @@
         },
         {
           "month": "2017-11",
-          "ret_pct": 2.7771
+          "ret_pct": 2.777
         },
         {
           "month": "2017-12",
@@ -2480,7 +2480,7 @@
         },
         {
           "month": "2018-01",
-          "ret_pct": 8.2034
+          "ret_pct": 8.2033
         },
         {
           "month": "2018-02",
@@ -2500,7 +2500,7 @@
         },
         {
           "month": "2018-06",
-          "ret_pct": -0.0897
+          "ret_pct": -0.0898
         },
         {
           "month": "2018-07",
@@ -2528,7 +2528,7 @@
         },
         {
           "month": "2019-01",
-          "ret_pct": 6.487
+          "ret_pct": 6.4871
         },
         {
           "month": "2019-02",
@@ -2552,11 +2552,11 @@
         },
         {
           "month": "2019-07",
-          "ret_pct": 1.7797
+          "ret_pct": 1.7798
         },
         {
           "month": "2019-08",
-          "ret_pct": 0.262
+          "ret_pct": 0.2619
         },
         {
           "month": "2019-09",
@@ -2568,7 +2568,7 @@
         },
         {
           "month": "2019-11",
-          "ret_pct": 3.2854
+          "ret_pct": 3.2855
         },
         {
           "month": "2019-12",
@@ -2608,7 +2608,7 @@
         },
         {
           "month": "2020-09",
-          "ret_pct": -3.8097
+          "ret_pct": -3.8096
         },
         {
           "month": "2020-10",
@@ -2624,7 +2624,7 @@
         },
         {
           "month": "2021-01",
-          "ret_pct": 1.5891
+          "ret_pct": 1.5892
         },
         {
           "month": "2021-02",
@@ -2696,11 +2696,11 @@
         },
         {
           "month": "2022-07",
-          "ret_pct": 5.1705
+          "ret_pct": 5.1704
         },
         {
           "month": "2022-08",
-          "ret_pct": -1.9892
+          "ret_pct": -1.9891
         },
         {
           "month": "2022-09",
@@ -2732,7 +2732,7 @@
         },
         {
           "month": "2023-04",
-          "ret_pct": 2.3851
+          "ret_pct": 2.385
         },
         {
           "month": "2023-05",
@@ -2804,7 +2804,7 @@
         },
         {
           "month": "2024-10",
-          "ret_pct": -0.1724
+          "ret_pct": -0.1723
         },
         {
           "month": "2024-11",
@@ -2973,7 +2973,7 @@
         },
         {
           "month": "2017-11",
-          "ret_pct": 2.8229
+          "ret_pct": 2.8228
         },
         {
           "month": "2017-12",
@@ -2985,7 +2985,7 @@
         },
         {
           "month": "2018-02",
-          "ret_pct": -2.1187
+          "ret_pct": -2.1188
         },
         {
           "month": "2018-03",
@@ -3141,7 +3141,7 @@
         },
         {
           "month": "2021-05",
-          "ret_pct": -0.0646
+          "ret_pct": -0.0645
         },
         {
           "month": "2021-06",
@@ -3161,7 +3161,7 @@
         },
         {
           "month": "2021-10",
-          "ret_pct": 7.2044
+          "ret_pct": 7.2045
         },
         {
           "month": "2021-11",
@@ -3169,11 +3169,11 @@
         },
         {
           "month": "2021-12",
-          "ret_pct": 3.6016
+          "ret_pct": 3.6017
         },
         {
           "month": "2022-01",
-          "ret_pct": -5.8051
+          "ret_pct": -5.805
         },
         {
           "month": "2022-02",
@@ -3197,7 +3197,7 @@
         },
         {
           "month": "2022-07",
-          "ret_pct": 8.5545
+          "ret_pct": 8.5546
         },
         {
           "month": "2022-08",
@@ -3249,7 +3249,7 @@
         },
         {
           "month": "2023-08",
-          "ret_pct": 0.3631
+          "ret_pct": 0.363
         },
         {
           "month": "2023-09",
@@ -3297,7 +3297,7 @@
         },
         {
           "month": "2024-08",
-          "ret_pct": 3.0762
+          "ret_pct": 3.0763
         },
         {
           "month": "2024-09",
@@ -3317,7 +3317,7 @@
         },
         {
           "month": "2025-01",
-          "ret_pct": 3.9904
+          "ret_pct": 3.9903
         },
         {
           "month": "2025-02",
@@ -3337,7 +3337,7 @@
         },
         {
           "month": "2025-06",
-          "ret_pct": 6.0701
+          "ret_pct": 6.07
         },
         {
           "month": "2025-07",
@@ -3373,7 +3373,7 @@
         },
         {
           "month": "2026-03",
-          "ret_pct": -5.4491
+          "ret_pct": -5.449
         },
         {
           "month": "2026-04",
@@ -3412,7 +3412,7 @@
     "SPMO-VOO 6M Rotation": {
       "daily_var_95_pct": -1.9623,
       "daily_expected_shortfall_95_pct": -3.1415,
-      "sortino_zero_rf": 1.1697,
+      "sortino_zero_rf": 1.1698,
       "worst_month_pct": -12.4522,
       "best_month_pct": 13.5585,
       "max_drawdown_peak_date": "2020-02-19",
@@ -3426,11 +3426,11 @@
         },
         {
           "month": "2016-11",
-          "ret_pct": -0.6301
+          "ret_pct": -0.6302
         },
         {
           "month": "2016-12",
-          "ret_pct": 1.732
+          "ret_pct": 1.7321
         },
         {
           "month": "2017-01",
@@ -3438,7 +3438,7 @@
         },
         {
           "month": "2017-02",
-          "ret_pct": 3.8587
+          "ret_pct": 3.8586
         },
         {
           "month": "2017-03",
@@ -3474,7 +3474,7 @@
         },
         {
           "month": "2017-11",
-          "ret_pct": 2.6094
+          "ret_pct": 2.6093
         },
         {
           "month": "2017-12",
@@ -3486,11 +3486,11 @@
         },
         {
           "month": "2018-02",
-          "ret_pct": -0.5134
+          "ret_pct": -0.5135
         },
         {
           "month": "2018-03",
-          "ret_pct": -3.962
+          "ret_pct": -3.9619
         },
         {
           "month": "2018-04",
@@ -3502,7 +3502,7 @@
         },
         {
           "month": "2018-06",
-          "ret_pct": -0.0304
+          "ret_pct": -0.0303
         },
         {
           "month": "2018-07",
@@ -3562,11 +3562,11 @@
         },
         {
           "month": "2019-09",
-          "ret_pct": -0.5997
+          "ret_pct": -0.5998
         },
         {
           "month": "2019-10",
-          "ret_pct": 1.7926
+          "ret_pct": 1.7927
         },
         {
           "month": "2019-11",
@@ -3574,7 +3574,7 @@
         },
         {
           "month": "2019-12",
-          "ret_pct": 2.9706
+          "ret_pct": 2.9705
         },
         {
           "month": "2020-01",
@@ -3590,7 +3590,7 @@
         },
         {
           "month": "2020-04",
-          "ret_pct": 11.4735
+          "ret_pct": 11.4736
         },
         {
           "month": "2020-05",
@@ -3646,7 +3646,7 @@
         },
         {
           "month": "2021-06",
-          "ret_pct": 2.2538
+          "ret_pct": 2.2539
         },
         {
           "month": "2021-07",
@@ -3662,11 +3662,11 @@
         },
         {
           "month": "2021-10",
-          "ret_pct": 7.3706
+          "ret_pct": 7.3707
         },
         {
           "month": "2021-11",
-          "ret_pct": -2.911
+          "ret_pct": -2.9111
         },
         {
           "month": "2021-12",
@@ -3702,7 +3702,7 @@
         },
         {
           "month": "2022-08",
-          "ret_pct": -2.948
+          "ret_pct": -2.9479
         },
         {
           "month": "2022-09",
@@ -3726,7 +3726,7 @@
         },
         {
           "month": "2023-02",
-          "ret_pct": -4.565
+          "ret_pct": -4.5649
         },
         {
           "month": "2023-03",
@@ -3742,11 +3742,11 @@
         },
         {
           "month": "2023-06",
-          "ret_pct": 6.5086
+          "ret_pct": 6.5085
         },
         {
           "month": "2023-07",
-          "ret_pct": 3.29
+          "ret_pct": 3.2901
         },
         {
           "month": "2023-08",
@@ -3774,7 +3774,7 @@
         },
         {
           "month": "2024-02",
-          "ret_pct": 11.4847
+          "ret_pct": 11.4846
         },
         {
           "month": "2024-03",
@@ -3782,7 +3782,7 @@
         },
         {
           "month": "2024-04",
-          "ret_pct": -5.4483
+          "ret_pct": -5.4482
         },
         {
           "month": "2024-05",
@@ -3806,7 +3806,7 @@
         },
         {
           "month": "2024-10",
-          "ret_pct": 0.1985
+          "ret_pct": 0.1984
         },
         {
           "month": "2024-11",
@@ -3818,7 +3818,7 @@
         },
         {
           "month": "2025-01",
-          "ret_pct": 5.2907
+          "ret_pct": 5.2906
         },
         {
           "month": "2025-02",
@@ -3838,11 +3838,11 @@
         },
         {
           "month": "2025-06",
-          "ret_pct": 6.9701
+          "ret_pct": 6.97
         },
         {
           "month": "2025-07",
-          "ret_pct": 2.8646
+          "ret_pct": 2.8645
         },
         {
           "month": "2025-08",
@@ -3923,15 +3923,15 @@
       "monthly_series": [
         {
           "month": "2016-10",
-          "ret_pct": -1.9601
+          "ret_pct": -1.9602
         },
         {
           "month": "2016-11",
-          "ret_pct": -0.6298
+          "ret_pct": -0.6299
         },
         {
           "month": "2016-12",
-          "ret_pct": 3.3237
+          "ret_pct": 3.3238
         },
         {
           "month": "2017-01",
@@ -3955,7 +3955,7 @@
         },
         {
           "month": "2017-06",
-          "ret_pct": 1.5303
+          "ret_pct": 1.5302
         },
         {
           "month": "2017-07",
@@ -3987,11 +3987,11 @@
         },
         {
           "month": "2018-02",
-          "ret_pct": -0.5133
+          "ret_pct": -0.5134
         },
         {
           "month": "2018-03",
-          "ret_pct": -3.962
+          "ret_pct": -3.9619
         },
         {
           "month": "2018-04",
@@ -4011,11 +4011,11 @@
         },
         {
           "month": "2018-08",
-          "ret_pct": 4.4471
+          "ret_pct": 4.4472
         },
         {
           "month": "2018-09",
-          "ret_pct": 1.3715
+          "ret_pct": 1.3714
         },
         {
           "month": "2018-10",
@@ -4031,7 +4031,7 @@
         },
         {
           "month": "2019-01",
-          "ret_pct": 0.2492
+          "ret_pct": 0.2493
         },
         {
           "month": "2019-02",
@@ -4039,7 +4039,7 @@
         },
         {
           "month": "2019-03",
-          "ret_pct": 1.6398
+          "ret_pct": 1.6397
         },
         {
           "month": "2019-04",
@@ -4047,11 +4047,11 @@
         },
         {
           "month": "2019-05",
-          "ret_pct": -2.4736
+          "ret_pct": -2.4735
         },
         {
           "month": "2019-06",
-          "ret_pct": 4.8258
+          "ret_pct": 4.8257
         },
         {
           "month": "2019-07",
@@ -4059,7 +4059,7 @@
         },
         {
           "month": "2019-08",
-          "ret_pct": -0.3883
+          "ret_pct": -0.3882
         },
         {
           "month": "2019-09",
@@ -4099,11 +4099,11 @@
         },
         {
           "month": "2020-06",
-          "ret_pct": 2.3851
+          "ret_pct": 2.3852
         },
         {
           "month": "2020-07",
-          "ret_pct": 7.6611
+          "ret_pct": 7.661
         },
         {
           "month": "2020-08",
@@ -4119,7 +4119,7 @@
         },
         {
           "month": "2020-11",
-          "ret_pct": 7.6765
+          "ret_pct": 7.6764
         },
         {
           "month": "2020-12",
@@ -4167,7 +4167,7 @@
         },
         {
           "month": "2021-11",
-          "ret_pct": -2.911
+          "ret_pct": -2.9111
         },
         {
           "month": "2021-12",
@@ -4179,11 +4179,11 @@
         },
         {
           "month": "2022-02",
-          "ret_pct": -0.401
+          "ret_pct": -0.4009
         },
         {
           "month": "2022-03",
-          "ret_pct": -1.4041
+          "ret_pct": -1.404
         },
         {
           "month": "2022-04",
@@ -4195,7 +4195,7 @@
         },
         {
           "month": "2022-06",
-          "ret_pct": -0.5947
+          "ret_pct": -0.5946
         },
         {
           "month": "2022-07",
@@ -4227,11 +4227,11 @@
         },
         {
           "month": "2023-02",
-          "ret_pct": -4.565
+          "ret_pct": -4.5649
         },
         {
           "month": "2023-03",
-          "ret_pct": 1.2135
+          "ret_pct": 1.2134
         },
         {
           "month": "2023-04",
@@ -4275,7 +4275,7 @@
         },
         {
           "month": "2024-02",
-          "ret_pct": 11.4842
+          "ret_pct": 11.4841
         },
         {
           "month": "2024-03",
@@ -4319,7 +4319,7 @@
         },
         {
           "month": "2025-01",
-          "ret_pct": 5.2904
+          "ret_pct": 5.2903
         },
         {
           "month": "2025-02",
@@ -4351,11 +4351,11 @@
         },
         {
           "month": "2025-09",
-          "ret_pct": 4.1006
+          "ret_pct": 4.1007
         },
         {
           "month": "2025-10",
-          "ret_pct": 0.5307
+          "ret_pct": 0.5306
         },
         {
           "month": "2025-11",
@@ -4434,7 +4434,7 @@
       },
       "SPMO-VOO 6M Rotation": {
         "annual_twr_pct": 16.36,
-        "account_value_usd": 38992.63,
+        "account_value_usd": 38992.65,
         "orders": 140,
         "trading_fees_usd": 0.0
       }
@@ -4442,7 +4442,7 @@
     "10": {
       "VOO DCA": {
         "annual_twr_pct": 14.35,
-        "account_value_usd": 33365.64,
+        "account_value_usd": 33365.65,
         "orders": 122,
         "trading_fees_usd": 14.09
       },
@@ -4460,7 +4460,7 @@
       },
       "SPMO-VOO 6M Rotation": {
         "annual_twr_pct": 15.93,
-        "account_value_usd": 38049.65,
+        "account_value_usd": 38049.67,
         "orders": 140,
         "trading_fees_usd": 495.08
       }
@@ -4486,7 +4486,7 @@
       },
       "SPMO-VOO 6M Rotation": {
         "annual_twr_pct": 15.06,
-        "account_value_usd": 36245.23,
+        "account_value_usd": 36245.25,
         "orders": 140,
         "trading_fees_usd": 1434.88
       }

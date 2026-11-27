@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-26 10:02 UTC",
+  "generated_utc": "2026-11-27 10:08 UTC",
   "latest_completed_us_market_day": "2026-11-25",
   "objective": "Search among actual operated investment funds for implemented selection strategies beating S&P 500 after common-sample execution costs.",
   "hard_gate": "No fund or copied trading rule is approved as an automatic real-money BUY/SELL signal.",
@@ -167,7 +167,7 @@
           "annual_by_calendar_year_pct": {
             "2016": 0.1,
             "2017": 32.45,
-            "2018": -0.17,
+            "2018": -0.16,
             "2019": 38.92,
             "2020": 48.38,
             "2021": 27.35,
@@ -185,7 +185,7 @@
           "max_drawdown_pct": -45.3,
           "volatility_pct": 34.44,
           "sharpe_zero_rf": 0.91,
-          "ending_usd": 87205.32,
+          "ending_usd": 87205.31,
           "total_deposits_usd": 14100.0,
           "orders": 122,
           "trading_fees_usd": 14.09,
@@ -287,7 +287,7 @@
           },
           "returns_30bps": {
             "annual_twr_pct": 17.01,
-            "ending_usd": 40141.26,
+            "ending_usd": 40141.25,
             "trading_fees_usd": 42.17
           },
           "returns_0bps": {
@@ -362,7 +362,7 @@
           },
           "returns_30bps": {
             "annual_twr_pct": 29.0,
-            "ending_usd": 87031.43,
+            "ending_usd": 87031.42,
             "trading_fees_usd": 42.17
           },
           "returns_0bps": {
@@ -1049,7 +1049,7 @@
           },
           "returns_30bps": {
             "annual_twr_pct": 5.93,
-            "ending_usd": 10046.74,
+            "ending_usd": 10046.75,
             "trading_fees_usd": 23.33
           },
           "returns_0bps": {
@@ -1094,7 +1094,7 @@
           "orders": 35,
           "trading_fees_usd": 5.39,
           "annual_by_calendar_year_pct": {
-            "2024": 46.35,
+            "2024": 46.36,
             "2025": 26.65,
             "2026": 1.65
           }

@@ -30,9 +30,9 @@ Latest complete US market session: 2026-11-25
 
 ## Monthly factor-aware risk diagnostics
 
-- SPMO DCA, vs VOO: estimated beta 1.0187, alpha 2.6356%/year, HAC statistic 0.8239, bootstrap 90% annual active-return interval [-2.6032, 8.6112]%.
+- SPMO DCA, vs VOO: estimated beta 1.0186, alpha 2.6356%/year, HAC statistic 0.8239, bootstrap 90% annual active-return interval [-2.6032, 8.6112]%.
 - SPMO-VOO 6M Rotation, vs VOO: estimated beta 1.0271, alpha 1.4107%/year, HAC statistic 0.5931, bootstrap 90% annual active-return interval [-2.2204, 6.0225]%.
-- SPMO Trend + SHY, vs VOO: estimated beta 0.5377, alpha 6.2813%/year, HAC statistic 2.0063, bootstrap 90% annual active-return interval [-5.9752, 5.1126]%.
+- SPMO Trend + SHY, vs VOO: estimated beta 0.5377, alpha 6.2813%/year, HAC statistic 2.0063, bootstrap 90% annual active-return interval [-5.9752, 5.1127]%.
 
 ## Model target exposures for estimated next session (PAPER ONLY)
 
