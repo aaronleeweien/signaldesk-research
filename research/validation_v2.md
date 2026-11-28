@@ -1,7 +1,7 @@
 # SignalDesk Objective Strategy Validation — Protocol V2
 
 **Status: REJECT LIVE TRADING; RESEARCH/PAPER ONLY**
-Market close: 2026-11-25
+Market close: 2026-11-27
 
 **Important:** These historical windows have already been inspected. They are NOT clean unseen out-of-sample data.
 
@@ -9,13 +9,13 @@ Market close: 2026-11-25
 
 | Strategy | 2017–21 annual % | 2022+ annual % | 2022+ drawdown % | 2022+ orders/year | 2022+ annual after 30bps % |
 |---|---:|---:|---:|---:|---:|
-| Daily Breakout Top2 | 8.25 | 3.96 | -23.46 | 82.8 | -0.82 |
-| SPMO SMA200 | 12.62 | 9.56 | -26.9 | 25.8 | 6.38 |
-| VOO SMA200 | 12.7 | 5.75 | -23.33 | 24.5 | 3.0 |
-| SPMO SMA200 Buffer | 15.79 | 9.83 | -27.69 | 17.2 | 8.57 |
-| VOO DCA | 18.19 | 10.13 | -24.56 | 12.1 | — |
-| SPMO DCA | 20.16 | 14.8 | -26.82 | 12.1 | — |
-| QQQ DCA | 28.12 | 10.51 | -34.88 | 12.1 | — |
+| Daily Breakout Top2 | 8.25 | 4.0 | -23.46 | 82.7 | -0.78 |
+| SPMO SMA200 | 12.62 | 9.55 | -26.9 | 25.7 | 6.37 |
+| VOO SMA200 | 12.7 | 5.74 | -23.33 | 24.5 | 2.99 |
+| SPMO SMA200 Buffer | 15.79 | 9.81 | -27.69 | 17.1 | 8.55 |
+| VOO DCA | 18.19 | 10.49 | -24.56 | 12.0 | — |
+| SPMO DCA | 20.16 | 15.45 | -26.82 | 12.0 | — |
+| QQQ DCA | 28.12 | 11.1 | -34.88 | 12.0 | — |
 
 ## Objective strategy gates
 At least VOO and SPMO net returns, drawdown controls, low turnover, 30bps cost stress and bootstrap confidence must pass before further consideration.

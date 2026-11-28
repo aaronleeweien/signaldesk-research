@@ -1,7 +1,7 @@
 {
   "version": "focused_dossier_v1",
-  "market_date": "2026-11-25",
-  "generated_utc": "2026-11-27T10:09:15.779606+00:00",
+  "market_date": "2026-11-27",
+  "generated_utc": "2026-11-28T09:28:32.621839+00:00",
   "screened_total": 760,
   "selected_equities": 2,
   "asset_count": 3,
@@ -14,37 +14,37 @@
         "ticker": "KNSA",
         "name": "Kiniksa Pharmaceuticals International, plc",
         "fiscal_year_end": "2025-12-31",
-        "market_cap_usd": 7934563328.0,
-        "forward_pe": 49.381416,
+        "market_cap_usd": 8110563840.0,
+        "forward_pe": 51.35572,
         "revenue_usd": 677564000.0,
         "revenue_growth_yoy_pct": 60.09,
         "net_income_usd": 59005000.0,
         "operating_cash_usd": 137985000.0,
         "capital_spending_usd": 1568000.0,
         "fcf_usd": 136417000.0,
-        "fcf_yield_pct": 1.72,
+        "fcf_yield_pct": 1.68,
         "fcf_positive_years": 3,
         "fcf_years_available": 3,
         "cash_usd": 81660000.0,
         "debt_usd": null,
-        "price_implied_fcf_growth_pct": 46.7,
+        "price_implied_fcf_growth_pct": 47.39,
         "reverse_model_required_return_pct": 11.0,
         "reverse_model_terminal_growth_pct": 2.0,
         "scenario_sensitivity": {
           "no_growth": {
             "annual_fcf_growth_assumed_pct": 0.0,
             "illustrative_equity_value_usd": 1421694148.08,
-            "value_as_pct_of_current_market_cap": 17.92
+            "value_as_pct_of_current_market_cap": 17.53
           },
           "moderate_growth": {
             "annual_fcf_growth_assumed_pct": 5.0,
             "illustrative_equity_value_usd": 1750134468.84,
-            "value_as_pct_of_current_market_cap": 22.06
+            "value_as_pct_of_current_market_cap": 21.58
           },
           "fast_growth": {
             "annual_fcf_growth_assumed_pct": 10.0,
             "illustrative_equity_value_usd": 2141530801.28,
-            "value_as_pct_of_current_market_cap": 26.99
+            "value_as_pct_of_current_market_cap": 26.4
           }
         },
         "annual_history": [
@@ -66,13 +66,13 @@
         ]
       },
       "price_context": {
-        "last_price_date": "2026-11-25",
-        "last_close_usd": 100.99,
-        "return_last_year_pct": 140.61,
-        "voo_same_year_pct": 8.38,
-        "relative_to_voo_year_pp": 132.23,
-        "momentum_3m_pct": 26.55,
-        "momentum_6m_pct": 98.63,
+        "last_price_date": "2026-11-27",
+        "last_close_usd": 103.22,
+        "return_last_year_pct": 141.69,
+        "voo_same_year_pct": 9.16,
+        "relative_to_voo_year_pp": 132.53,
+        "momentum_3m_pct": 32.2,
+        "momentum_6m_pct": 113.36,
         "above_200d_average": true
       },
       "sources": [
@@ -144,39 +144,39 @@
         },
         {
           "id": "S12",
+          "kind": "News-index headline · MarketBeat · 2026-11-28",
+          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNeVZCQnNxYXl5LVlhNVAwSUo2dV9ndlNMb1NIOHVYN0VaUE9zTFZIczVLMmF0T0xtS3diTkNWaWdWeVpjSlV4RTd5Rm5vRl9VMjdjdkVxal94alJYWjR0eHk4MjhCckZVSnAtTTVMUWxrQjNFMTlNY2RYcWNxdkpnYlFJeXRYMDl2T0tOZnFtdG54T2F2WkUyQTQ5RmF3eW9Dd0RXTFBUTG04X3M1dDFkMDU1T25QMUVmZEQ3a0VuTS1ndWRSUTM5TnVkeHVPSHlrczdJM2xpcGp4cURBTi1fU3R6aXRuWDA?oc=5",
+          "summary": "Headline only, not checked article text: Kiniksa Pharmaceuticals International (NASDAQ:KNSA) Stock Rating Upgraded by Wall Street Zen"
+        },
+        {
+          "id": "S13",
+          "kind": "News-index headline · Pluang · 2026-11-27",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOcEVLMDJZZ2dpNnVNY25reEVGbFpBc1cxU25MVE1Nd1FlbGx5amZOcmpzWlBVT1pyV0I1ZUJ6dURhMVMxMU4wbnpaaDRoTERvdklwYVlhbmdRYlZDWmlUQ2pXbkhVcFRNVlVZY0xlbGk4VnQ3X0V1ckJYTHAxM1lEb0hPZjNab0ZX?oc=5",
+          "summary": "Headline only, not checked article text: Kiniksa Pharmaceuticals sees growth potential f..."
+        },
+        {
+          "id": "S14",
           "kind": "News-index headline · Yahoo Finance · 2026-11-26",
           "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOeXlxQUk1UjZkZ1lVZWtHRjRFSTR4WEUxR3UwZTB1aDZoWGg2S1g2cFp4MnVFMHVBNmhWU3lUUEc1dkU5UXhheU9wT09aRXRsT2JVOHd5QzVrRlR5SVl3UG52LVc2ZE5WWTJUQmFRRkNTXzd3ZEY1LUgxS3BmaFB0eUtaOXFXSldHS1l0RXU5UEs2RVdEeU5lN1UwWENpUVVUNm1hcnBMY2lOb3N1bmZSR1ExSmNBUk9x?oc=5",
           "summary": "Headline only, not checked article text: How Investors Are Reacting To Kiniksa Pharmaceuticals International (KNSA) Raised Revenue Guidance"
         },
         {
-          "id": "S13",
+          "id": "S15",
           "kind": "News-index headline · Yahoo! Finance Canada · 2026-11-26",
           "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE41RFI5aF9vSTFuN0dudGpiZXRrZHVqZjlkWGZrak51OGR5SmgwX0NHaUlPaWtnWHVMVFR3YThRdTJKSHJtSjlEYU9sYTJhS0w5OEE?oc=5",
           "summary": "Headline only, not checked article text: Kiniksa Pharmaceuticals International, plc (KNSA) Stock Price, News, Quote & History"
         },
         {
-          "id": "S14",
+          "id": "S16",
           "kind": "News-index headline · Yahoo Finance · 2026-11-26",
           "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQcW9rcjB5OFdwNlUzeEJvTnZibzNZNjFzQWVYd1RwNkVaMHJ4Ym4xOWs3R0R3NzJtUzdtRmpTOGJrZ25wbXBKRjlOMW9QSjJydkRBVXNxQ05HTXladkp6YWFPdGJ0aDk3cG5INVFkZlozNUhTbHZrNzVjcFI4Q2FOYXZ3WWJQaDJvQUVnMmJSUjVPRGMtamstYkxfTjFDYy1NOG9wVUk0aDgtbUk?oc=5",
           "summary": "Headline only, not checked article text: Kiniksa Pharmaceuticals International, plc (KNSA) Up 6.1% Since Last Earnings Report: Can It Continue?"
         },
         {
-          "id": "S15",
+          "id": "S17",
           "kind": "News-index headline · Yahoo Finance Singapore · 2026-11-26",
           "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1VN1ByX0d5WXBMN24xUDB3VnlvZkk5N3Q1dURtZk50RW5MN3dZLW1IQnZOa1k4YnRCQ0JqeGZ6MWxZVFd0UGl1TExOZXh4aHlGYmc?oc=5",
           "summary": "Headline only, not checked article text: Kiniksa Pharmaceuticals International, plc (KNSA) stock price, news, quote and history"
-        },
-        {
-          "id": "S16",
-          "kind": "News-index headline · Seeking Alpha · 2026-11-25",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNTEF1UXV1ZTBFamVseVdLYXQtNUtXSlk2bnNEYXlORFR1NGVySkRaYl9RWlJlSTZNVC1ycnJYX2RrdEZZMXM3MXFrZ2lxWWEyNTd4M1NzaV9ZNElHeDN2SXljbnJ3MGtxR19TWmY5Ymo4MlpFRW5OTjRWQ3lMOXlkZEJlSlZHQzFMVHl0ZWM2UzFEVVoyekxtWDk1YnlyWVNHZFE?oc=5",
-          "summary": "Headline only, not checked article text: Kiniksa: A Growing Heart Drug Franchise Has More Room To Run (NASDAQ:KNSA)"
-        },
-        {
-          "id": "S17",
-          "kind": "News-index headline · GlobeNewswire · 2026-11-25",
-          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNenlIeDFnZ0VfNnh2VmVxYUdDbFkwdlFWbzc3azBZY1JUU1VXRFdQZkozU0JnYkt0c2pKWXlKemRvNl9IUnlGcTNHSTV5UzZsSFRFYmNlTWNfbFg0Qzg5MEtUaGo3RjJSMElwODMyeXUzaE9MZ0NabGpsVDFjSnFnS2NUTmJCRU5JdFdjSGEwZW1KZzVLNTRUQ2diVEJhVEVGam5Tb2NKbzJGU3BnRXlwY3MybWpNaVo4U1Npc2hFdlRhX1dydDhnSDBDTEgzcHJPOWp2bVdkNUR3TTZxTlVsMmltZ2U?oc=5",
-          "summary": "Headline only, not checked article text: Kiniksa Pharmaceuticals to Present at Citi’s 2026 Global Healthcare Conference"
         }
       ],
       "filings": {
@@ -257,10 +257,24 @@
       },
       "investment_role": "Candidate for multi-year valuation research, not an approved trade.",
       "qualitative_context": {
-        "asof_utc": "2026-11-27T10:09:15.910480+00:00",
+        "asof_utc": "2026-11-28T09:28:32.748504+00:00",
         "search_url": "https://news.google.com/rss/search?q=%22Kiniksa%20Pharmaceuticals%20International%22%20when%3A7d&hl=en-US&gl=US&ceid=US:en",
         "news_window_days": 7,
         "headline_sample": [
+          {
+            "title": "Kiniksa Pharmaceuticals International (NASDAQ:KNSA) Stock Rating Upgraded by Wall Street Zen",
+            "published_utc": "2026-11-28T06:32:47+00:00",
+            "publisher": "MarketBeat",
+            "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNeVZCQnNxYXl5LVlhNVAwSUo2dV9ndlNMb1NIOHVYN0VaUE9zTFZIczVLMmF0T0xtS3diTkNWaWdWeVpjSlV4RTd5Rm5vRl9VMjdjdkVxal94alJYWjR0eHk4MjhCckZVSnAtTTVMUWxrQjNFMTlNY2RYcWNxdkpnYlFJeXRYMDl2T0tOZnFtdG54T2F2WkUyQTQ5RmF3eW9Dd0RXTFBUTG04X3M1dDFkMDU1T25QMUVmZEQ3a0VuTS1ndWRSUTM5TnVkeHVPSHlrczdJM2xpcGp4cURBTi1fU3R6aXRuWDA?oc=5",
+            "topic": "other"
+          },
+          {
+            "title": "Kiniksa Pharmaceuticals sees growth potential f...",
+            "published_utc": "2026-11-27T09:48:35+00:00",
+            "publisher": "Pluang",
+            "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOcEVLMDJZZ2dpNnVNY25reEVGbFpBc1cxU25MVE1Nd1FlbGx5amZOcmpzWlBVT1pyV0I1ZUJ6dURhMVMxMU4wbnpaaDRoTERvdklwYVlhbmdRYlZDWmlUQ2pXbkhVcFRNVlVZY0xlbGk4VnQ3X0V1ckJYTHAxM1lEb0hPZjNab0ZX?oc=5",
+            "topic": "demand"
+          },
           {
             "title": "How Investors Are Reacting To Kiniksa Pharmaceuticals International (KNSA) Raised Revenue Guidance",
             "published_utc": "2026-11-26T19:11:03+00:00",
@@ -288,29 +302,15 @@
             "publisher": "Yahoo Finance Singapore",
             "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1VN1ByX0d5WXBMN24xUDB3VnlvZkk5N3Q1dURtZk50RW5MN3dZLW1IQnZOa1k4YnRCQ0JqeGZ6MWxZVFd0UGl1TExOZXh4aHlGYmc?oc=5",
             "topic": "other"
-          },
-          {
-            "title": "Kiniksa: A Growing Heart Drug Franchise Has More Room To Run (NASDAQ:KNSA)",
-            "published_utc": "2026-11-25T22:31:26+00:00",
-            "publisher": "Seeking Alpha",
-            "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNTEF1UXV1ZTBFamVseVdLYXQtNUtXSlk2bnNEYXlORFR1NGVySkRaYl9RWlJlSTZNVC1ycnJYX2RrdEZZMXM3MXFrZ2lxWWEyNTd4M1NzaV9ZNElHeDN2SXljbnJ3MGtxR19TWmY5Ymo4MlpFRW5OTjRWQ3lMOXlkZEJlSlZHQzFMVHl0ZWM2UzFEVVoyekxtWDk1YnlyWVNHZFE?oc=5",
-            "topic": "other"
-          },
-          {
-            "title": "Kiniksa Pharmaceuticals to Present at Citi’s 2026 Global Healthcare Conference",
-            "published_utc": "2026-11-25T21:01:00+00:00",
-            "publisher": "GlobeNewswire",
-            "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNenlIeDFnZ0VfNnh2VmVxYUdDbFkwdlFWbzc3azBZY1JUU1VXRFdQZkozU0JnYkt0c2pKWXlKemRvNl9IUnlGcTNHSTV5UzZsSFRFYmNlTWNfbFg0Qzg5MEtUaGo3RjJSMElwODMyeXUzaE9MZ0NabGpsVDFjSnFnS2NUTmJCRU5JdFdjSGEwZW1KZzVLNTRUQ2diVEJhVEVGam5Tb2NKbzJGU3BnRXlwY3MybWpNaVo4U1Npc2hFdlRhX1dydDhnSDBDTEgzcHJPOWp2bVdkNUR3TTZxTlVsMmltZ2U?oc=5",
-            "topic": "other"
           }
         ],
         "narratives": [
           {
             "topic": "demand",
-            "headline": "How Investors Are Reacting To Kiniksa Pharmaceuticals International (KNSA) Raised Revenue Guidance",
-            "published_utc": "2026-11-26T19:11:03+00:00",
-            "publisher": "Yahoo Finance",
-            "source_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOeXlxQUk1UjZkZ1lVZWtHRjRFSTR4WEUxR3UwZTB1aDZoWGg2S1g2cFp4MnVFMHVBNmhWU3lUUEc1dkU5UXhheU9wT09aRXRsT2JVOHd5QzVrRlR5SVl3UG52LVc2ZE5WWTJUQmFRRkNTXzd3ZEY1LUgxS3BmaFB0eUtaOXFXSldHS1l0RXU5UEs2RVdEeU5lN1UwWENpUVVUNm1hcnBMY2lOb3N1bmZSR1ExSmNBUk9x?oc=5",
+            "headline": "Kiniksa Pharmaceuticals sees growth potential f...",
+            "published_utc": "2026-11-27T09:48:35+00:00",
+            "publisher": "Pluang",
+            "source_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOcEVLMDJZZ2dpNnVNY25reEVGbFpBc1cxU25MVE1Nd1FlbGx5amZOcmpzWlBVT1pyV0I1ZUJ6dURhMVMxMU4wbnpaaDRoTERvdklwYVlhbmdRYlZDWmlUQ2pXbkhVcFRNVlVZY0xlbGk4VnQ3X0V1ckJYTHAxM1lEb0hPZjNab0ZX?oc=5",
             "mechanism": "If this reflects real changes in customer spending, it could change future sales and cash generation.",
             "competing_reading": "A strong headline may describe an already expected development, or orders that are not yet profitable.",
             "test": "Compare the next reported sales and customer guidance with the previous filing and market expectations.",
@@ -340,37 +340,37 @@
         "ticker": "CROX",
         "name": "CROCS, INC.",
         "fiscal_year_end": "2025-12-31",
-        "market_cap_usd": 7312805376.0,
-        "forward_pe": 9.988776,
+        "market_cap_usd": 7408371200.0,
+        "forward_pe": 10.119312,
         "revenue_usd": 4040647000.0,
         "revenue_growth_yoy_pct": -1.5,
         "net_income_usd": -81198000.0,
         "operating_cash_usd": 710431000.0,
         "capital_spending_usd": 51231000.0,
         "fcf_usd": 659200000.0,
-        "fcf_yield_pct": 9.01,
+        "fcf_yield_pct": 8.9,
         "fcf_positive_years": 3,
         "fcf_years_available": 3,
         "cash_usd": 163457000.0,
         "debt_usd": 1289044000.0,
-        "price_implied_fcf_growth_pct": 1.49,
+        "price_implied_fcf_growth_pct": 1.8,
         "reverse_model_required_return_pct": 11.0,
         "reverse_model_terminal_growth_pct": 2.0,
         "scenario_sensitivity": {
           "no_growth": {
             "annual_fcf_growth_assumed_pct": 0.0,
             "illustrative_equity_value_usd": 6869970622.54,
-            "value_as_pct_of_current_market_cap": 93.94
+            "value_as_pct_of_current_market_cap": 92.73
           },
           "moderate_growth": {
             "annual_fcf_growth_assumed_pct": 5.0,
             "illustrative_equity_value_usd": 8457073838.73,
-            "value_as_pct_of_current_market_cap": 115.65
+            "value_as_pct_of_current_market_cap": 114.16
           },
           "fast_growth": {
             "annual_fcf_growth_assumed_pct": 10.0,
             "illustrative_equity_value_usd": 10348395758.63,
-            "value_as_pct_of_current_market_cap": 141.51
+            "value_as_pct_of_current_market_cap": 139.69
           }
         },
         "annual_history": [
@@ -392,13 +392,13 @@
         ]
       },
       "price_context": {
-        "last_price_date": "2026-11-25",
-        "last_close_usd": 159.93,
-        "return_last_year_pct": 99.09,
-        "voo_same_year_pct": 8.38,
-        "relative_to_voo_year_pp": 90.71,
-        "momentum_3m_pct": 31.42,
-        "momentum_6m_pct": 34.83,
+        "last_price_date": "2026-11-27",
+        "last_close_usd": 162.02,
+        "return_last_year_pct": 95.04,
+        "voo_same_year_pct": 9.16,
+        "relative_to_voo_year_pp": 85.88,
+        "momentum_3m_pct": 32.55,
+        "momentum_6m_pct": 36.53,
         "above_200d_average": true
       },
       "sources": [
@@ -470,39 +470,39 @@
         },
         {
           "id": "S12",
+          "kind": "News-index headline · Stocks Down Under · 2026-11-27",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5OY1hZV1hSYWNock9fNzlRdUpoV1FiVDNNMV8zY2FDMGtFeFp5bGtPVThLaElZRjBXQjIzcFlfc0UzRVhqeUlMS0h2YTh1a2J6LXJn?oc=5",
+          "summary": "Headline only, not checked article text: Crocs Inc (NASDAQ:CROX) Share Price, Forecast & Analysis"
+        },
+        {
+          "id": "S13",
+          "kind": "News-index headline · Yahoo! Finance Canada · 2026-11-27",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNZjZqRGh4RXZwN3gyWnRRZkYyb3JzR1lkUG5WYUtTT2xOTnJ4S3FIT2VYblJiZTFyQzhCUmdnXzgtS2laa0t1VE9WbUNrOU91eWFVV2IzMGM5TTVPekRvQko1VVdJUWNzcFM0RlZHbGRTRmVYTjJCV2wwZ21FNEtKR0tWZEJLZw?oc=5",
+          "summary": "Headline only, not checked article text: Crocs (CROX) Upgraded to Strong Buy: What Does It Mean for the Stock?"
+        },
+        {
+          "id": "S14",
           "kind": "News-index headline · Kalkine Media · 2026-11-26",
           "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZVk1azZQbFotT0FtOG9HT1ZwbVQ4UldidUFFOWRydnI5dkJGeTh4M1RVTjN6QWhyZEg4eU9Ha3NUODN1TDlObWs3S3BESEp4TUhrOTR5STg5aEU4WkRIcHptQ01SRUtneDFiTklRcnBaRHlTQXdiTThmYURRNEUtdFRNd2hicmktZV9ESmNweXlWb2pfTW5EdmoxLWE5Zw?oc=5",
           "summary": "Headline only, not checked article text: How Is Crocs (NASDAQ:CROX) Expanding Its Global Business?"
         },
         {
-          "id": "S13",
+          "id": "S15",
           "kind": "News-index headline · TipRanks · 2026-11-25",
           "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNVGVzQWh5cmtIVTFNUF9VMlJCQzBBNU8wQVVwYlRyajk2cV82TmVELTZPT01FODNpT1NMWDRyVDRvMklyWGhrZENfNHpISU1sQVRMVlBFY01Jal9DaG83TFVrS29sUnNIdFhFd3drM1dlVFNabE9hcUpiaDVYbnpTcFpVSQ?oc=5",
           "summary": "Headline only, not checked article text: Is Crocs (CROX) Stock a Buy Ahead of Black Friday?"
         },
         {
-          "id": "S14",
-          "kind": "News-index headline · Yahoo Finance · 2026-11-23",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQc1ZQbTlSYlZrTjR0b3NBWUpOQ29JOGc5WWRmWXA4NGV1eEV2VXA4eWdmb0tndEFNUWlHdHMyZU9uZnlYMDV3QXAzRm15MXdVVTNjXzNJMGRrRm5RZXc2M1R0SXRtSHg3N09sQmJmcEhJUndHMk8tdU9zLS1IV2liYmxMZVhFYndTQS02LWNlZm14bUlHQ3N3R3g3YktXeHN1SUN1TXcxQVcta1lT?oc=5",
-          "summary": "Headline only, not checked article text: Are Consumer Discretionary Stocks Lagging Crocs (CROX) This Year?"
-        },
-        {
-          "id": "S15",
-          "kind": "News-index headline · Simply Wall St · 2026-11-23",
-          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQMmtScDVXcDktZTFpNG04ckM2YjNxeTNfdlVYSWJNblBlRkhYZXlBNEJ5LUNYcWo1QlZ6dm0yc29JZTN6LXFObk9IeTRESjJVX2xPdnRxNk5udzhkZm5PSUNnN3RnSV9obGR0aW16T2pCQnVmMGpMN2RXTjRjM0V4UnBqejg3RW5TU2RpUUd3T3pEbEJXWlZCTTNBalBuV3lQUGtZUktJTGUxajlJMkd3TzU4NktxblFmVGpoTTBlRER1SnlNN2g4X2JzU2Vod9IB0wFBVV95cUxOQm1ncEo5OFNSYU50cXoyNFBZNGdyTEFpZ1RNV2Ywal9lNGFXS2dDS0IycFFMaVpoSXJ5TTVGUkFlUkExMExUeDMxNmZtNGdadHo0Qi1fV1dfT1FwclFSc2hWMHgzd1BFbS1Ldm8tVkVMM1U4alRVNG92NGR1SXo2NVlvYVcxaS1wRVEzQjFYQ3NlODJrZFJnOGFMWF91R3V6N1Npdk1zZ1VaSV9ON19CWGhnbUdZTHRQem1yd3RyN0lJbGlWVVZORnNkY2xnemRjRGpn?oc=5",
-          "summary": "Headline only, not checked article text: Should Conference Update Require Action From Crocs (CROX) Investors?"
-        },
-        {
           "id": "S16",
-          "kind": "News-index headline · Yahoo Finance · 2026-11-21",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNNTV2UmtvRlBKb1FXUUxvWVAzRGU4aUZicDM1Z0RoUU82VnR4ZGt2WWgwUjRaNlBOUWNVLXFvWVV4dVl6UEF2LXFQdUg5ci1nQzR0Z1dvM0VWSTdGdVI0TUgwZ0Q0U3ZpLVhxTkFzYWtwVjlIOXNmRTl3TFJobm5yYUFDbktwdHN4eGU5UjJ0UmREQQ?oc=5",
-          "summary": "Headline only, not checked article text: Crocs (CROX) Stock May Be 39% Undervalued After Footwear Price News"
+          "kind": "News-index headline · MarketBeat · 2026-11-24",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5ZbmZMS2R0ZVVqNkQ2MVltQ2FhSDRhNmduZ0NKUTFYT0trV19ESG1vZ0NDaUJpTVBtdzMyNTUtY2EwbzRROWRKWTkxU0JPcXFOUmVLV2FiV1BvdGNwX2hUaVZJT0ZDWXBWeVI3dXJB?oc=5",
+          "summary": "Headline only, not checked article text: Crocs (CROX) Short Interest & Short Float | Updated Nov 2026"
         },
         {
           "id": "S17",
-          "kind": "News-index headline · Yahoo Finance · 2026-11-21",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQM1JOY2dheUZqWEFnWU5vNjU1eERmVEdTdlRQeTJVYzBsUUtUdDVwSWxGTmJpSzJjRHhMWUdxb3l1bmxEbi1wbG5rc29HaWZ6V0tsV2NZRi1lRHpmMHEtejJCaTAtaW1OMUdmR3Riczl1Um9WVWFpVFNfUlVwREZHOG82aHhkbTdCRDZFdmtKbkY1UEJLaFRrMkVVRFpWWUNKYm9R?oc=5",
-          "summary": "Headline only, not checked article text: What Crocs (CROX)'s Rising Earnings Estimates Mean For Shareholders"
+          "kind": "News-index headline · Yahoo Finance · 2026-11-23",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQc1ZQbTlSYlZrTjR0b3NBWUpOQ29JOGc5WWRmWXA4NGV1eEV2VXA4eWdmb0tndEFNUWlHdHMyZU9uZnlYMDV3QXAzRm15MXdVVTNjXzNJMGRrRm5RZXc2M1R0SXRtSHg3N09sQmJmcEhJUndHMk8tdU9zLS1IV2liYmxMZVhFYndTQS02LWNlZm14bUlHQ3N3R3g3YktXeHN1SUN1TXcxQVcta1lT?oc=5",
+          "summary": "Headline only, not checked article text: Are Consumer Discretionary Stocks Lagging Crocs (CROX) This Year?"
         }
       ],
       "filings": {
@@ -583,10 +583,24 @@
       },
       "investment_role": "Candidate for multi-year valuation research, not an approved trade.",
       "qualitative_context": {
-        "asof_utc": "2026-11-27T10:09:15.910480+00:00",
+        "asof_utc": "2026-11-28T09:28:32.748504+00:00",
         "search_url": "https://news.google.com/rss/search?q=%22CROCS%2C%C2%A0%22%20when%3A7d&hl=en-US&gl=US&ceid=US:en",
         "news_window_days": 7,
         "headline_sample": [
+          {
+            "title": "Crocs Inc (NASDAQ:CROX) Share Price, Forecast & Analysis",
+            "published_utc": "2026-11-27T21:00:00+00:00",
+            "publisher": "Stocks Down Under",
+            "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5OY1hZV1hSYWNock9fNzlRdUpoV1FiVDNNMV8zY2FDMGtFeFp5bGtPVThLaElZRjBXQjIzcFlfc0UzRVhqeUlMS0h2YTh1a2J6LXJn?oc=5",
+            "topic": "other"
+          },
+          {
+            "title": "Crocs (CROX) Upgraded to Strong Buy: What Does It Mean for the Stock?",
+            "published_utc": "2026-11-27T16:00:04+00:00",
+            "publisher": "Yahoo! Finance Canada",
+            "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNZjZqRGh4RXZwN3gyWnRRZkYyb3JzR1lkUG5WYUtTT2xOTnJ4S3FIT2VYblJiZTFyQzhCUmdnXzgtS2laa0t1VE9WbUNrOU91eWFVV2IzMGM5TTVPekRvQko1VVdJUWNzcFM0RlZHbGRTRmVYTjJCV2wwZ21FNEtKR0tWZEJLZw?oc=5",
+            "topic": "other"
+          },
           {
             "title": "How Is Crocs (NASDAQ:CROX) Expanding Its Global Business?",
             "published_utc": "2026-11-26T21:24:00+00:00",
@@ -602,44 +616,30 @@
             "topic": "other"
           },
           {
+            "title": "Crocs (CROX) Short Interest & Short Float | Updated Nov 2026",
+            "published_utc": "2026-11-24T08:00:00+00:00",
+            "publisher": "MarketBeat",
+            "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5ZbmZMS2R0ZVVqNkQ2MVltQ2FhSDRhNmduZ0NKUTFYT0trV19ESG1vZ0NDaUJpTVBtdzMyNTUtY2EwbzRROWRKWTkxU0JPcXFOUmVLV2FiV1BvdGNwX2hUaVZJT0ZDWXBWeVI3dXJB?oc=5",
+            "topic": "financing"
+          },
+          {
             "title": "Are Consumer Discretionary Stocks Lagging Crocs (CROX) This Year?",
             "published_utc": "2026-11-23T13:40:02+00:00",
             "publisher": "Yahoo Finance",
             "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQc1ZQbTlSYlZrTjR0b3NBWUpOQ29JOGc5WWRmWXA4NGV1eEV2VXA4eWdmb0tndEFNUWlHdHMyZU9uZnlYMDV3QXAzRm15MXdVVTNjXzNJMGRrRm5RZXc2M1R0SXRtSHg3N09sQmJmcEhJUndHMk8tdU9zLS1IV2liYmxMZVhFYndTQS02LWNlZm14bUlHQ3N3R3g3YktXeHN1SUN1TXcxQVcta1lT?oc=5",
             "topic": "other"
-          },
-          {
-            "title": "Should Conference Update Require Action From Crocs (CROX) Investors?",
-            "published_utc": "2026-11-23T08:08:33+00:00",
-            "publisher": "Simply Wall St",
-            "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQMmtScDVXcDktZTFpNG04ckM2YjNxeTNfdlVYSWJNblBlRkhYZXlBNEJ5LUNYcWo1QlZ6dm0yc29JZTN6LXFObk9IeTRESjJVX2xPdnRxNk5udzhkZm5PSUNnN3RnSV9obGR0aW16T2pCQnVmMGpMN2RXTjRjM0V4UnBqejg3RW5TU2RpUUd3T3pEbEJXWlZCTTNBalBuV3lQUGtZUktJTGUxajlJMkd3TzU4NktxblFmVGpoTTBlRER1SnlNN2g4X2JzU2Vod9IB0wFBVV95cUxOQm1ncEo5OFNSYU50cXoyNFBZNGdyTEFpZ1RNV2Ywal9lNGFXS2dDS0IycFFMaVpoSXJ5TTVGUkFlUkExMExUeDMxNmZtNGdadHo0Qi1fV1dfT1FwclFSc2hWMHgzd1BFbS1Ldm8tVkVMM1U4alRVNG92NGR1SXo2NVlvYVcxaS1wRVEzQjFYQ3NlODJrZFJnOGFMWF91R3V6N1Npdk1zZ1VaSV9ON19CWGhnbUdZTHRQem1yd3RyN0lJbGlWVVZORnNkY2xnemRjRGpn?oc=5",
-            "topic": "other"
-          },
-          {
-            "title": "Crocs (CROX) Stock May Be 39% Undervalued After Footwear Price News",
-            "published_utc": "2026-11-21T13:07:10+00:00",
-            "publisher": "Yahoo Finance",
-            "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNNTV2UmtvRlBKb1FXUUxvWVAzRGU4aUZicDM1Z0RoUU82VnR4ZGt2WWgwUjRaNlBOUWNVLXFvWVV4dVl6UEF2LXFQdUg5ci1nQzR0Z1dvM0VWSTdGdVI0TUgwZ0Q0U3ZpLVhxTkFzYWtwVjlIOXNmRTl3TFJobm5yYUFDbktwdHN4eGU5UjJ0UmREQQ?oc=5",
-            "topic": "other"
-          },
-          {
-            "title": "What Crocs (CROX)'s Rising Earnings Estimates Mean For Shareholders",
-            "published_utc": "2026-11-21T11:10:39+00:00",
-            "publisher": "Yahoo Finance",
-            "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQM1JOY2dheUZqWEFnWU5vNjU1eERmVEdTdlRQeTJVYzBsUUtUdDVwSWxGTmJpSzJjRHhMWUdxb3l1bmxEbi1wbG5rc29HaWZ6V0tsV2NZRi1lRHpmMHEtejJCaTAtaW1OMUdmR3Riczl1Um9WVWFpVFNfUlVwREZHOG82aHhkbTdCRDZFdmtKbkY1UEJLaFRrMkVVRFpWWUNKYm9R?oc=5",
-            "topic": "profitability"
           }
         ],
         "narratives": [
           {
-            "topic": "profitability",
-            "headline": "What Crocs (CROX)'s Rising Earnings Estimates Mean For Shareholders",
-            "published_utc": "2026-11-21T11:10:39+00:00",
-            "publisher": "Yahoo Finance",
-            "source_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQM1JOY2dheUZqWEFnWU5vNjU1eERmVEdTdlRQeTJVYzBsUUtUdDVwSWxGTmJpSzJjRHhMWUdxb3l1bmxEbi1wbG5rc29HaWZ6V0tsV2NZRi1lRHpmMHEtejJCaTAtaW1OMUdmR3Riczl1Um9WVWFpVFNfUlVwREZHOG82aHhkbTdCRDZFdmtKbkY1UEJLaFRrMkVVRFpWWUNKYm9R?oc=5",
-            "mechanism": "Changes in selling prices or operating costs affect the fraction of sales that becomes profit and cash.",
-            "competing_reading": "A temporary price or cost improvement may disappear when conditions normalize.",
-            "test": "Check reported operating margins, cash conversion and the reasons for changes.",
+            "topic": "financing",
+            "headline": "Crocs (CROX) Short Interest & Short Float | Updated Nov 2026",
+            "published_utc": "2026-11-24T08:00:00+00:00",
+            "publisher": "MarketBeat",
+            "source_url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5ZbmZMS2R0ZVVqNkQ2MVltQ2FhSDRhNmduZ0NKUTFYT0trV19ESG1vZ0NDaUJpTVBtdzMyNTUtY2EwbzRROWRKWTkxU0JPcXFOUmVLV2FiV1BvdGNwX2hUaVZJT0ZDWXBWeVI3dXJB?oc=5",
+            "mechanism": "Borrowing costs or capital allocation can affect how much future cash ultimately belongs to shareholders.",
+            "competing_reading": "Higher dividends or buybacks can be funded by debt and are not automatically value creation.",
+            "test": "Check the balance sheet, debt maturities and cash available after capital spending.",
             "evidence_level": "headline_coverage_not_confirmed_event"
           }
         ],
@@ -652,14 +652,14 @@
       "ticker": "GLD",
       "name": "Physical gold",
       "metrics": {
-        "price_usd": 327.45,
-        "return_3m_pct": -22.52,
-        "return_6m_pct": -20.67,
-        "asof": "2026-11-25",
+        "price_usd": 334.4,
+        "return_3m_pct": -18.22,
+        "return_6m_pct": -19.83,
+        "asof": "2026-11-27",
         "source": "https://finance.yahoo.com/quote/GLD/history/",
-        "relative_6m_to_voo_pp": -16.14,
+        "relative_6m_to_voo_pp": -16.66,
         "proxy_kind": "Physical gold",
-        "voo_return_6m_pct": -4.53
+        "voo_return_6m_pct": -3.17
       },
       "sources": [
         {
@@ -677,7 +677,7 @@
       ],
       "investment_role": "Portfolio-diversification research, not a commodity spot-price prediction.",
       "qualitative_context": {
-        "asof_utc": "2026-11-27T10:09:15.910480+00:00",
+        "asof_utc": "2026-11-28T09:28:32.748504+00:00",
         "search_url": "https://news.google.com/rss/search?q=%22gold%20prices%20ETF%22%20when%3A7d&hl=en-US&gl=US&ceid=US:en",
         "news_window_days": 7,
         "headline_sample": [],
@@ -690,6 +690,6 @@
   "excluded": "All cryptocurrency, tokens and crypto-exposed businesses; no crypto recommendations.",
   "benchmark": "VOO after costs where comparable",
   "diagnostics": [],
-  "qualitative_asof_utc": "2026-11-27T10:09:15.910480+00:00",
+  "qualitative_asof_utc": "2026-11-28T09:28:32.748504+00:00",
   "qualitative_method": "Dated headline watch + SEC filings; causal implications are conditional, not sentiment forecasts."
 }

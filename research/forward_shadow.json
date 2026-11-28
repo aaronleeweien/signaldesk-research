@@ -3,8 +3,8 @@
   "live_trades_authorized": false,
   "started_utc": "2026-10-24 02:28 UTC",
   "first_trading_session": "2026-10-26",
-  "last_completed_us_close": "2026-11-25",
-  "valid_forward_sessions": 15,
+  "last_completed_us_close": "2026-11-27",
+  "valid_forward_sessions": 16,
   "missed_or_invalid_sessions": 4,
   "signal_history": [
     {
@@ -562,6 +562,35 @@
       "decision_close": "2026-11-25",
       "estimated_next_us_business_day": "2026-11-26",
       "recorded_utc": "2026-11-26 10:03:03 UTC",
+      "before_estimated_next_open": true,
+      "targets": {
+        "Daily Breakout Top2": {
+          "XLP": 0.5,
+          "SHY": 0.5
+        },
+        "SPMO SMA200": {
+          "SHY": 1.0
+        },
+        "VOO SMA200": {
+          "SHY": 1.0
+        },
+        "SPMO SMA200 Buffer": {
+          "SHY": 1.0
+        },
+        "VOO DCA": {
+          "VOO": 1.0
+        },
+        "SPMO DCA": {
+          "SPMO": 1.0
+        }
+      },
+      "trading_authorized": false,
+      "status": "PROSPECTIVE_PAPER_SIGNAL"
+    },
+    {
+      "decision_close": "2026-11-27",
+      "estimated_next_us_business_day": "2026-11-30",
+      "recorded_utc": "2026-11-28 09:28:23 UTC",
       "before_estimated_next_open": true,
       "targets": {
         "Daily Breakout Top2": {
@@ -1869,6 +1898,79 @@
           "orders": 2
         }
       }
+    },
+    {
+      "session": "2026-11-27",
+      "orders": [
+        {
+          "model": "Daily Breakout Top2",
+          "ticker": "SHY",
+          "side": "SELL",
+          "quantity": 0.00448866,
+          "price_usd": 81.610001,
+          "notional_usd": 0.3663,
+          "cost_usd": 0.0004
+        },
+        {
+          "model": "Daily Breakout Top2",
+          "ticker": "XLP",
+          "side": "BUY",
+          "quantity": 0.00397335,
+          "price_usd": 92.010002,
+          "notional_usd": 0.3656,
+          "cost_usd": 0.0004
+        }
+      ],
+      "accounts": {
+        "Daily Breakout Top2": {
+          "nav_usd": 2015.541,
+          "cash_usd": -0.0,
+          "deposits_usd": 2100.0,
+          "total_return_on_deposits_pct": -4.022,
+          "fees_usd": 8.2924,
+          "orders": 35
+        },
+        "SPMO SMA200": {
+          "nav_usd": 2054.5031,
+          "cash_usd": -0.0,
+          "deposits_usd": 2100.0,
+          "total_return_on_deposits_pct": -2.167,
+          "fees_usd": 6.0025,
+          "orders": 3
+        },
+        "VOO SMA200": {
+          "nav_usd": 1993.4231,
+          "cash_usd": -0.0,
+          "deposits_usd": 2100.0,
+          "total_return_on_deposits_pct": -5.075,
+          "fees_usd": 6.0824,
+          "orders": 4
+        },
+        "SPMO SMA200 Buffer": {
+          "nav_usd": 2001.6508,
+          "cash_usd": -0.0,
+          "deposits_usd": 2100.0,
+          "total_return_on_deposits_pct": -4.683,
+          "fees_usd": 6.0974,
+          "orders": 4
+        },
+        "VOO DCA": {
+          "nav_usd": 2005.822,
+          "cash_usd": -0.0,
+          "deposits_usd": 2100.0,
+          "total_return_on_deposits_pct": -4.485,
+          "fees_usd": 2.0979,
+          "orders": 2
+        },
+        "SPMO DCA": {
+          "nav_usd": 1864.5188,
+          "cash_usd": -0.0,
+          "deposits_usd": 2100.0,
+          "total_return_on_deposits_pct": -11.213,
+          "fees_usd": 2.0979,
+          "orders": 2
+        }
+      }
     }
   ],
   "order_history": [
@@ -2399,19 +2501,41 @@
       "price_usd": 81.699997,
       "notional_usd": 7.0648,
       "cost_usd": 0.0071
+    },
+    {
+      "executed_market_date": "2026-11-27",
+      "decision_recorded_utc": "2026-11-26 10:03:03 UTC",
+      "model": "Daily Breakout Top2",
+      "ticker": "SHY",
+      "side": "SELL",
+      "quantity": 0.00448866,
+      "price_usd": 81.610001,
+      "notional_usd": 0.3663,
+      "cost_usd": 0.0004
+    },
+    {
+      "executed_market_date": "2026-11-27",
+      "decision_recorded_utc": "2026-11-26 10:03:03 UTC",
+      "model": "Daily Breakout Top2",
+      "ticker": "XLP",
+      "side": "BUY",
+      "quantity": 0.00397335,
+      "price_usd": 92.010002,
+      "notional_usd": 0.3656,
+      "cost_usd": 0.0004
     }
   ],
   "accounts": {
     "Daily Breakout Top2": {
-      "cash_usd": 0.0,
+      "cash_usd": -5.551115123125783e-17,
       "shares": {
-        "XLP": 10.90845923779684,
-        "SHY": 12.30756021715203
+        "XLP": 10.912432584333965,
+        "SHY": 12.303071557333588
       },
-      "nav_usd": 2011.6400295549772,
+      "nav_usd": 2015.5409895472449,
       "deposits_usd": 2100.0,
-      "fees_paid_usd": 8.291649443747044,
-      "orders": 33,
+      "fees_paid_usd": 8.292381350900936,
+      "orders": 35,
       "last_trade_month": "2026-11"
     },
     "SPMO SMA200": {
@@ -2419,7 +2543,7 @@
       "shares": {
         "SHY": 25.171563670470807
       },
-      "nav_usd": 2055.006442693733,
+      "nav_usd": 2054.5030959195915,
       "deposits_usd": 2100.0,
       "fees_paid_usd": 6.002454018306965,
       "orders": 3,
@@ -2430,7 +2554,7 @@
       "shares": {
         "SHY": 24.42321835388473
       },
-      "nav_usd": 1993.9115315043998,
+      "nav_usd": 1993.4231491244443,
       "deposits_usd": 2100.0,
       "fees_paid_usd": 6.082382601374458,
       "orders": 4,
@@ -2441,7 +2565,7 @@
       "shares": {
         "SHY": 24.524022785943345
       },
-      "nav_usd": 2002.1412052761389,
+      "nav_usd": 2001.650807145936,
       "deposits_usd": 2100.0,
       "fees_paid_usd": 6.097355298483742,
       "orders": 4,
@@ -2452,7 +2576,7 @@
       "shares": {
         "VOO": 2.994702881978196
       },
-      "nav_usd": 1973.1198732264013,
+      "nav_usd": 2005.821977518599,
       "deposits_usd": 2100.0,
       "fees_paid_usd": 2.097902097902098,
       "orders": 2,
@@ -2463,7 +2587,7 @@
       "shares": {
         "SPMO": 15.036441892139813
       },
-      "nav_usd": 1812.1919263643533,
+      "nav_usd": 1864.5187946253368,
       "deposits_usd": 2100.0,
       "fees_paid_usd": 2.097902097902098,
       "orders": 2,
